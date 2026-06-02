@@ -1,0 +1,1010 @@
+00:00:00
+ 
+Amber Fu: Uh, hello.
+Zachariah Johnson: Hello. Can you hear me? Okay.
+Amber Fu: Yes. Yes.
+Zachariah Johnson: Okay.
+Amber Fu: Good. Good.
+Zachariah Johnson: Excellent.
+Amber Fu: Uh, how how's your day going so far?
+Zachariah Johnson: Oh, actually, believe it or not, I've had a really bad couple of days. Um, but we don't need to get that.
+Amber Fu: Oh,
+Zachariah Johnson: So, but uh yeah.
+Amber Fu: well, it's okay. We'll go through it. And uh well, like you know, thank thanks again for making time for this. I know everyone's busy, especially before the Christmas and yeah,
+Zachariah Johnson: Oh, sure.
+Amber Fu: and this is like super casual. Uh so no pressure at all. Okay. And let me introduce myself a little bit.
+Zachariah Johnson: Okay.
+Amber Fu: Uh my name is Amber and uh I'm one of the founder. Well, I started this because you know I couldn't figure out why my own electricity bill was so crazy and I've realized a lot of my friends are dealing with the same thing.
+ 
+ 
+00:01:08
+ 
+Amber Fu: And basically we're just a small team based in LA and we're trying to building an app that helps people, you know, save money on their daily energy use but without changing their lifestyle. So, I love to understand how your home use, you know, electricity daytoday so we can figure out what would actually help.
+Zachariah Johnson: Okay. Uh,
+Amber Fu: Cool. Cool. So, and before we,
+Zachariah Johnson: sure.
+Amber Fu: you know, get started, would you be okay if I record this call? It's totally option. I just don't want to miss anything you said.
+Zachariah Johnson: No, no, go ahead. That's fine.
+Amber Fu: Okay. Thank you.
+Zachariah Johnson: I mean,
+Amber Fu: Give me a second.
+Zachariah Johnson: you're just going to be are you going to be distributing the video or just using it for research for like to get notes and stuff
+Amber Fu: Oh, well I you know I try to you know when you do one like a conversation and you know
+Zachariah Johnson: like
+Amber Fu: you you're gonna miss some part and I try to you know just look back and see oh maybe which which part I'm missing.
+ 
+ 
+00:02:03
+ 
+Zachariah Johnson: transcription? Okay,
+Amber Fu: Yeah.
+Zachariah Johnson: that's fine.
+Amber Fu: Okay. Yes. And well before we you know jump into like the energy stuff I love to get get quick sense of your household just understand your setup bit better. So nothing personal just whatever you're comfortable
+Zachariah Johnson: Oh, sure. Um, so yeah,
+Amber Fu: sharing
+Zachariah Johnson: um I live uh I live reside in a single family home um with three other people. One is my wife um and I have two children. Um one is 16, the other one is 14.
+Amber Fu: okay got you.
+Zachariah Johnson: So
+Amber Fu: And and and how how big the house is like roughly.
+Zachariah Johnson: I think it's about 1,700 ft.
+Amber Fu: Okay. Okay.
+Zachariah Johnson: So
+Amber Fu: And Okay.
+Zachariah Johnson: he
+Amber Fu: Got got you. And like uh do you guys mostly work from home or is everyone flying in and
+Zachariah Johnson: Oh.
+Amber Fu: out?
+Zachariah Johnson: Um well actually my my children are like I said 16 and 14 so they don't really have a job but they're going to school.
+ 
+ 
+00:03:05
+ 
+Amber Fu: Okay.
+Zachariah Johnson: Um so they go to a school that's you know like 10 miles away and and my wife actually doesn't currently work.
+Amber Fu: Got you. Got you.
+Zachariah Johnson: So, I'm the only one who works and I typically work um I go in like three days a week um typically
+Amber Fu: Mhm.
+Zachariah Johnson: on site and I do two days so per
+Amber Fu: Mhm. Got you. Got you. And like um like like so like what kind of schedule do you normally have?
+Zachariah Johnson: week.
+Amber Fu: is like pretty constant or like our place week to week or sometime like vacation every year.
+Zachariah Johnson: Uh pretty consistent I guess. Like are you talking about like a weekly schedule or like
+Amber Fu: Mhm. Oh, like weekly maybe like we can start like a weekly
+Zachariah Johnson: just Yeah, unless it's like a holiday or something.
+Amber Fu: schedule.
+Zachariah Johnson: Um typically, yeah, it's the uh hauling the kids to school and then um going to work, you know, three days a week.
+Amber Fu: Mhm.
+ 
+ 
+00:04:03
+ 
+Zachariah Johnson: Yeah, that's that's probably the Yeah.
+Amber Fu: Got you. Got you. Got you. And um so I I I noticed that you got a I think you got a solar, right?
+Zachariah Johnson: Great.
+Amber Fu: And uh do you have a a power wall or like home battery?
+Zachariah Johnson: I have a Tesla power wall. It's just a single unit.
+Amber Fu: Okay. Okay. And uh EV, right? Got you.
+Zachariah Johnson: Mhm.
+Amber Fu: And like what originally got you into like the solar and like a power wall.
+Zachariah Johnson: It's been a while. I had it I had it installed a number of years ago. Um I think my version of my Power Wall is like version one or something.
+Amber Fu: Mhm.
+Zachariah Johnson: So it's old. Um but let's see here. Maybe I can find out exactly when I started. Um this my solar stuff just I'm just in the test lab at the moment. Okay.
+Amber Fu: Okay.
+Zachariah Johnson: So, it looks like the first year that I recorded energy data for is uh 2023. Okay, that actually wasn't that long ago now that I think about it.
+ 
+ 
+00:05:08
+ 
+Amber Fu: Mhm.
+Zachariah Johnson: Unless they're not showing me all the data going back, but it seems like Tesla's pretty good about showing you like historical data and not throwing it away. So, I imagine it's accurate. So, yeah. So, yeah, 2023 is when I first got the solar installed. um mainly just to cut costs was the solar was mainly just to cut costs with you know paint or P gen which
+Amber Fu: Mhm.
+Zachariah Johnson: is I don't know where you're located but or if you have Pacific Gas Electric or something else but Pen is pretty awful when it comes to rates. Um and um the Power Wall just sounded really cool
+Amber Fu: Yeah.
+Zachariah Johnson: cuz like I just wouldn't we wouldn't really have to experience like outages like you know when the neighbor lost power we just keep having it and it wouldn't be a big deal.
+Amber Fu: Mhm.
+Zachariah Johnson: So that sounded really fun and that's turned out to be really nice because like if we have a power outage often times we won't even know about it except for like the Tesla power will like send me a message on the phone like saying oh you're having an outage but otherwise you know we're like well lights are all on
+ 
+ 
+00:06:00
+ 
+Amber Fu: Mhm.
+Zachariah Johnson: so we're like it's cool. So and um then the EV um I guess I got my first EV back in 2018 I believe. So, and um I don't know.
+Amber Fu: Mhm.
+Zachariah Johnson: I just I had a hard time remembering like exactly why I was interested in EVs. I I guess I was kind of interested in Tesla when they first came out with like their little roadster. Totally nonpractical car. Of course, I didn't I order.
+Amber Fu: Okay.
+Zachariah Johnson: But then they came out with the S. I was like, "Oh, that looks really cool." But I was like, "Oh, it's so expensive." So, like I was I wanted to buy one, but I couldn't really afford it. And then they finally like released their Model 3. And so, I was like, "Oh, I'm going to pre-order that." And so, I got one of the Model 3s.
+Amber Fu: Okay.
+Zachariah Johnson: So,
+Amber Fu: Okay. Got you. And uh how how much you paying right now for your electricity
+ 
+ 
+00:06:47
+ 
+Zachariah Johnson: Yeah,
+Amber Fu: bill?
+Zachariah Johnson: just
+Amber Fu: Around around like maybe like 100 or like under 100 or like Okay.
+Zachariah Johnson: uh let me check. I have a lot of my billing stuff automated, so sometimes I don't pay close attention to it.
+Amber Fu: Okay. And I I I I think like PG they have a true up bill,
+Zachariah Johnson: Um they do.
+Amber Fu: right? Every year.
+Zachariah Johnson: Yeah. Um, I think my last true bill was like $700,
+Amber Fu: Okay.
+Zachariah Johnson: which I was fine with because, you know, that's like 60 bucks a month averaged out over the year. Um, but yeah, here,
+Amber Fu: Uh
+Zachariah Johnson: um, I can I guess they sent me an email, which is great. Um, so let's see. And yeah, it seems like the the PG& aspects been creeping up lately. Um, let's see. Recurring payment approved. So, this was back October 7th. Oh, this must have been the true up. It was 750 bucks. Yeah.
+ 
+ 
+00:07:45
+ 
+Zachariah Johnson: So, and then for example, December, they wanted me to pay him $100.
+Amber Fu: Mhm. Okay.
+Zachariah Johnson: That makes sense. And then here, let me see if I can find another one. Payment approved. I'll search for uh PG and approved.
+Amber Fu: So uh so basically the true bill like around like a 700
+Zachariah Johnson: Yeah, it was 750.
+Amber Fu: a 750 and then you need to pay extra $100 every month, right?
+Zachariah Johnson: Yeah.
+Amber Fu: Okay.
+Zachariah Johnson: Oh, here. Here was uh September was like $78. Then um August was $69 and July was
+Amber Fu: Mhm.
+Zachariah Johnson: $87. Yeah, it looks like it's pretty close to around $100. Oh, uh June was only $55 and
+Amber Fu: Okay.
+Zachariah Johnson: uh March was Oh, March was high. It was 172.
+Amber Fu: Oh,
+Zachariah Johnson: I don't know why.
+Amber Fu: okay.
+Zachariah Johnson: That's kind of weird.
+Amber Fu: What what what happened like can you remember it?
+Zachariah Johnson: No, I don't remember why it would be particularly high for March.
+ 
+ 
+00:08:58
+ 
+Zachariah Johnson: I mean, presumably like I used a lot of extra electricity or maybe the sun wasn't shining really good in March.
+Amber Fu: Okay.
+Zachariah Johnson: I guess that makes sense. It's usually kind of rainy, so And then um and if I'm going back too far and giving you too much
+Amber Fu: Yeah.
+Zachariah Johnson: details, it's fine. April was 123 and February
+Amber Fu: Mhm.
+Zachariah Johnson: was 173 and just go back to January and be the last one. Oh, wait. Did I not get one for January? Huh, that's weird. I don't I don't have a email like approval message for January. So the one prior to that was November where I paid a fair amount. It was 238. So I don't really know what's going on with that. I guess I could log into pine.com and look at the graphs a lot easier. That was kind of dumb to do it through the email I guess. But if that sounds interesting to you,
+Amber Fu: Okay.
+Zachariah Johnson: but I'll you conversation.
+ 
+ 
+00:09:58
+ 
+Amber Fu: Yeah.
+Zachariah Johnson: So what do you what do you want me to do or
+Amber Fu: Uh well, it's okay. I just I just want to know the average and I just uh like I want to know like you know if some months is really high like can you think about anything or like uh
+Zachariah Johnson: Yeah,
+Amber Fu: it's like because the song or because like the reason maybe you can
+Zachariah Johnson: I see.
+Amber Fu: guess
+Zachariah Johnson: Um, just one. I don't know. like I'll look over my finances every once in a while and like do like a fairly in-depth assessment of like what my expenses are and figure out like what like what's wrong or what do I need to cut and I've been actually been wanting to do that for a little while and I haven't
+Amber Fu: Mhm.
+Zachariah Johnson: done it recently. Um actually one of the things I was going to target was my auto insuranceances because um I purchased a a new
+Amber Fu: Mhm.
+Zachariah Johnson: vehicle not too long ago and it really spiked my insurance and so yeah and then
+ 
+ 
+00:10:51
+ 
+Amber Fu: Okay.
+Zachariah Johnson: um what else? Oh my internet service. I'm sorry. If you don't care about this, just tell me to
+Amber Fu: No, it's fine. Well,
+Zachariah Johnson: stop.
+Amber Fu: I I I mean I I was wondering like uh so you uh I think the PGE is like North C uh North California or South California is like Oh,
+Zachariah Johnson: Uh, it's primarily northern,
+Amber Fu: north.
+Zachariah Johnson: I guess.
+Amber Fu: Okay. And before like the North C uh California like do you ever like leave another city or
+Zachariah Johnson: Yeah.
+Amber Fu: another place? because I know PGE have a TRA bill but I don't know like cuz in uh in C uh I mean in like the Pasadena we don't have like I I for me I don't really receive the TRA bill so I just try to figure out is it only the PGE or is like another electricity also have
+Zachariah Johnson: Right. Yeah. Yeah. It's kind of like, well,
+Amber Fu: that
+Zachariah Johnson: why am I getting build like approximately $100 a month and then having the true up so I don't Yeah.
+ 
+ 
+00:11:47
+ 
+Zachariah Johnson: So, yeah, it's kind of I I have had times where I've tried to like dig into the tariffs and stuff and try to understand,
+Amber Fu: Uhhuh.
+Zachariah Johnson: but actually the more I dug into them, the more it was like crazy complex they seem to get.
+Amber Fu: Okay.
+Zachariah Johnson: Oh, I don't know. Um, but let me see
+Amber Fu: But for right now like what you are paying right now for every year for
+Zachariah Johnson: here.
+Amber Fu: electricity amount do are you happy with it or you think it's that fine or you think oh maybe it's a little bit
+Zachariah Johnson: I think it well I think I looked at like their rate hikes over the years,
+Amber Fu: higher.
+Zachariah Johnson: PGs and they literally raise their price like almost every year. Although this year they raised the price and then they lowered it a little bit, but they actually sent out a mail like saying,
+Amber Fu: Okay.
+Zachariah Johnson: "Oh, we just lowered your price. We're so awesome." But they then they wanted to mention that they raised it earlier this year.
+ 
+ 
+00:12:41
+ 
+Zachariah Johnson: So it was kind like, "Oh,
+Amber Fu: Okay.
+Zachariah Johnson: we raised it like seven cents and then we dropped it five, you know." So it's kind of like So um I don't have a lot of love for P Gen.
+Amber Fu: Okay.
+Zachariah Johnson: Um just I mean to be clear, but uh with my current like spend on PG,
+Amber Fu: Mhm.
+Zachariah Johnson: I'm not particularly concerned. And also just as an individual,
+Amber Fu: Mhm.
+Zachariah Johnson: um I actually I I hate to admit it, but I actually think that like the work and the service that electricity gives you, like what it does for you as a person, I think it's actually generally undervalued. I mean, it's pretty amazing what it does. So, I mean I mean I think I think they should charge less,
+Amber Fu: Okay.
+Zachariah Johnson: but on the other hand, I'm like, "Wow, you know, this electricity stuff makes my life so much more comfortable than if I didn't have it, you know, and it does so many things for me." So, you
+Amber Fu: Okay. Yeah.
+ 
+ 
+00:13:32
+ 
+Amber Fu: Yeah. Got you. Got you.
+Zachariah Johnson: know,
+Amber Fu: and and and for like right now you're you know leave the those system like the power wall and like the uh EV and like a solar and are they doing good or you can you think anything you're maybe sometime not super happy with or you wish they can smarter something like that.
+Zachariah Johnson: Um, I don't really have any complaints for the Power Wall. It's always worked pretty much exactly how it's supposed to. Um,
+Amber Fu: Mhm.
+Zachariah Johnson: I I sometimes regret that I don't have a newer version because the new car I have has the ability to do like a vehicle
+Amber Fu: Mhm.
+Zachariah Johnson: to grid. Um,
+Amber Fu: Mhm.
+Zachariah Johnson: but with my Power is version so old that I can't do it with that Powerwell that
+Amber Fu: Mhm.
+Zachariah Johnson: I have. So, uh, but that's like that's like not a big deal. I mean,
+Amber Fu: Mhm.
+Zachariah Johnson: that didn't even exist when I bought it, so I can't really complain.
+ 
+ 
+00:14:20
+ 
+Zachariah Johnson: Well, I just did. I shouldn't be. So, and as far as like the EVs go, yeah, I have no regrets on the EVs. I mean, I'm really happy. I mean, like honestly,
+Amber Fu: Mhm.
+Zachariah Johnson: the the Tesla, it just gets better over time.
+Amber Fu: Mhm.
+Zachariah Johnson: It's I've never had a car before where it got better over time. And um the maintenance costs are like almost nothing.
+Amber Fu: Mhm.
+Zachariah Johnson: Whereas, you know, before it was a pretty, you know, like I think the longest I ever owned a car was like a 97 Toyota Camry.
+Amber Fu: Um
+Zachariah Johnson: I owned it for like 17 years. Long time, right? And it was a great car. Like I didn't have to do a whole lot to it because it was really well built, I guess, designed or whatever. But, you know, by the end it was starting to have issues like leaking certain fluids all the time and like the tail light fell out at one point, but it's, you know, whatever.
+ 
+ 
+00:15:12
+ 
+Zachariah Johnson: I think I stuck it back on with like double-sided tape or something and that was fine. But it's just uh yeah, I I've been really happy with the the Tesla vehicles in particular. I haven't really owned any other EV.
+Amber Fu: Mhm.
+Zachariah Johnson: I've driven some other ones, but yeah,
+Amber Fu: Got you. Got you.
+Zachariah Johnson: I really Yeah.
+Amber Fu: And like like for like right now when you you know look up your PGE bill like do you like fully understand like all those like numbers stuff like
+Zachariah Johnson: Oh, not really.
+Amber Fu: that?
+Zachariah Johnson: I feel it's very like not very clear at all. Um,
+Amber Fu: Okay.
+Zachariah Johnson: and I think I don't think they really go out of their way to make it especially clear on their website and stuff like that. So,
+Amber Fu: Uhhuh.
+Zachariah Johnson: it's it's frustrating. I don't know why the terrace have to be so complicated. Like,
+Amber Fu: Um
+Zachariah Johnson: you can go it's all public stuff. You can I mean, I probably tell you something already know.
+ 
+ 
+00:15:58
+ 
+Zachariah Johnson: you can download them and read them, but they're just like it's like what,
+Amber Fu: uh
+Zachariah Johnson: you know, so it's like, you know, what what region are you in in the Pin territory, you know, to set your raid? And then it's like it's like and then there's all
+Amber Fu: well like but have you tried to figure out like the numbers stuff
+Zachariah Johnson: the Yeah,
+Amber Fu: like Oh,
+Zachariah Johnson: I have actually in the past.
+Amber Fu: really?
+Zachariah Johnson: I think I finally I think I finally just kind of gave up on it because I was just trying I was just trying
+Amber Fu: Okay.
+Zachariah Johnson: to understand like why you know so and um I probably should like
+Amber Fu: Uh
+Zachariah Johnson: reassess and like get a different rate plan but I'm kind of worried like when my solar panels installed I fell under a program called uh NEM2 or net countering and I think the current version is
+Amber Fu: yeah. Mhm.
+Zachariah Johnson: three and my understanding is that with each like I know some people who fell under NM1
+ 
+ 
+00:16:45
+ 
+Amber Fu: Mhm.
+Zachariah Johnson: that was really great. I think they can like I think they there's it's pretty good for them because if they buy energy from PG they pay a certain rate and if they if they give it to PG P pays the exact same rate.
+Amber Fu: Mhm. Mhm. Mhm.
+Zachariah Johnson: So it's like it's beautiful system for them.
+Amber Fu: Yeah.
+Zachariah Johnson: But for me it's like that but kind of like watered down a bit like
+Amber Fu: Mhm.
+Zachariah Johnson: oh you know if you buy from us it cost 40 cents but if we buy from you you know actually this is a little more complicated.
+Amber Fu: Yeah.
+Zachariah Johnson: like, "Oh, if you buy if you use our electricity, it cost you 40 cents." Um, but then,
+Amber Fu: Mhm.
+Zachariah Johnson: you know, if we buy it from you, we'll give you like, you know, 30 or something. But they're also, but they're like, "But, you know, if you've used more than you've given, we'll like kind of trade you like a kilowatt hour per kilowatt hour, but four cents of that 40 cents that you paid is nonrefundable." like it's like we'll refund you for
+ 
+ 
+00:17:44
+ 
+Amber Fu: No,
+Zachariah Johnson: if you give us back the electricity you used we'll you know give you a better rate than if you're just taking or just outright but there's just weird things like oh but you know like 4 cents you you can't recoup
+Amber Fu: I
+Zachariah Johnson: that sorry you know that kind of and then my I don't know I'm not really familiar with INM3 but I understand that's even more
+Amber Fu: hear
+Zachariah Johnson: uh it's not so great for the customer so
+Amber Fu: Yeah. Yeah.
+Zachariah Johnson: so
+Amber Fu: And like speak to like you maybe some in the future maybe you want to change the the plan but like how you decide like how you choose like which plan is fit for
+Zachariah Johnson: Well,
+Amber Fu: you.
+Zachariah Johnson: sometimes different power companies will have like a thing where they kind of assess your usage of like the last year or something. Go, oh, if you were on this plan last year,
+Amber Fu: Oh okay.
+Zachariah Johnson: you would pay $12 more or $2 less.
+Amber Fu: Mhm.
+Zachariah Johnson: But like,
+ 
+ 
+00:18:31
+ 
+Amber Fu: Are you fully trusted?
+Zachariah Johnson: do I think they're like lying or something?
+Amber Fu: Oh no. I mean like maybe they just you know uh give you some plan that maybe not like best fit for you. Maybe you know good for them. Like well I just try to like you know have you ever think about that way or you say think
+Zachariah Johnson: Oh,
+Amber Fu: oh I fully trust them.
+Zachariah Johnson: well, I presume I kind of assume that the data they're presenting is accurate, but I also know that they might be able to portray it a certain way, you know, so it's you like so it's not like they're lying but they're kind of like
+Amber Fu: Okay.
+Zachariah Johnson: presenting things in such a way that may lead you to be in their favor to yours.
+Amber Fu: Yeah. Yeah. Okay. Okay. Okay. And like when you talk about like you know your internet or well what
+Zachariah Johnson: Sir.
+Amber Fu: so you know like because like electricity I think is like totally different with the internet or and other stuff is I think it's more complicated like when you really try to find out all the number and the plan right or you think okay okay
+ 
+ 
+00:19:39
+ 
+Zachariah Johnson: Oh, sure. Yeah,
+Amber Fu: and
+Zachariah Johnson: the internet's much simpler. Although I currently use a provider called Estound Broadband and there's a lot of stuff online about them.
+Amber Fu: Um
+Zachariah Johnson: They just kind of like you'll sign up and they'll be like, "Oh, you'll pay this much per year." You know, it's like 60 bucks per month per year. But then they think,
+Amber Fu: yeah,
+Zachariah Johnson: "Oh, you need to pay this like internet um you know, maintenance fee or something." And it's kind of weird because it's actually I I looked into this too and
+Amber Fu: I know.
+Zachariah Johnson: there's no like if you call them on the phone, they're like, "Oh, that's a federal fee or that's a state fee." I mean, no, no, there's no there's no internet fee. It's just making it up. And then now on their bills,
+Amber Fu: Okay.
+Zachariah Johnson: they have like, you know, for more information about our about these fees, go to this web page. And if you go down like a squirrel hole, they'll finally admit like, oh yeah, we just made up these fees and we just charge them.
+ 
+ 
+00:20:30
+ 
+Zachariah Johnson: So, but but not only that, um, for customers once they're over that year,
+Amber Fu: Okay.
+Zachariah Johnson: they just every month they like, well, we'll bump up that $60 to like 6150. And then the next, oh, that fee, you know, was $11. Now it's, you know, 12, you know, and it's just they just kind of keep pumping it up.
+Amber Fu: Oh, okay. Got it. And and like for like you know like when you say like internet bill or like electricity bill
+Zachariah Johnson: So,
+Amber Fu: like which bill you think more complicated.
+Zachariah Johnson: oh, the trusty for sure. Well, the bill itself,
+Amber Fu: Oh.
+Zachariah Johnson: like what you owe and stuff is fairly clear, but the the math and like the tariffs that are written and agreed
+Amber Fu: Uhhuh.
+Zachariah Johnson: upon behind it are a lot more complicated.
+Amber Fu: Mhm.
+Zachariah Johnson: I I would imagine that less than.1% of the population customers of B understand a lot less than that. So,
+Amber Fu: Okay. And and like do you wish like there can have like some someone or like the system can explain to you every every usage or like every number like what's it mean?
+ 
+ 
+00:21:33
+ 
+Amber Fu: Why is that like what's the number come from?
+Zachariah Johnson: Oh yeah. I would love if someone like wrote a website where they like were able to like understand all the tariffs and bring it in and like um encode it somehow in like software in such a way that you do like true like what's best for me
+Amber Fu: Mhm.
+Zachariah Johnson: scenarios.
+Amber Fu: Mhm.
+Zachariah Johnson: I mean I ideally the solution would just make it simpler and easier for everyone to understand without any trouble at all.
+Amber Fu: Mhm.
+Zachariah Johnson: But failing that, you like having all these complicated tariffs and being able to um like upload your, you know, usage for the last, you know, one year, five years, whatever. And then um not only that, but you could like say, well,
+Amber Fu: me.
+Zachariah Johnson: I what if I was under this uh plan? You know, how would that change these last five years? But it also has to know like the raise the increases in costs that they've done over the years like the different rates they you know because they usually go up.
+ 
+ 
+00:22:29
+ 
+Amber Fu: Mhm.
+Zachariah Johnson: And then what would be even great is if you could even like alter it slightly and say like well hey I'm thinking about buying EV so maybe I'll be using more electricity. So let's assume that I you know I drive like you know I 100 mile I guess what people usually drive like a thousand miles a month on average or something. So yeah, if you're like, "Oh, I'm going to drive like a thousand miles and I have to pay like, you know, if my PG is like 47 cents per kilowatt and
+Amber Fu: Yeah.
+Zachariah Johnson: my car usually gets like four
+Amber Fu: Do you do you prefer like the kilowatt to change to the money amount like a dollar
+Zachariah Johnson: miles.
+Amber Fu: amount?
+Zachariah Johnson: I don't know.
+Amber Fu: Cuz you know like there's some like app like let's say like a solar app right they they they have like really exactly like the uh how much you production the song or like the the kilowatt right? But would you willing to like cuz some people they said I don't care like keyword I just care about how much I spent or how much I earned you know.
+ 
+ 
+00:23:32
+ 
+Zachariah Johnson: Well, for most people,
+Amber Fu: So
+Zachariah Johnson: I think when you get down to it, a dollar amount is probably the most important and useful. A kilo kind of makes sense to me just because I've been kind of living with it for like six years with the car and stuff.
+Amber Fu: uh
+Zachariah Johnson: So, I'm a little more used to dealing with it, like having to like go like gasoline to like, you know, electric.
+Amber Fu: got you Mhm.
+Zachariah Johnson: So,
+Amber Fu: And and if like someone told you like, "Oh, I already checked your PJ data. Nothing like should worry this year." Like would would that be enough for you to move on?
+Zachariah Johnson: Oh, you mean like I've checked your data and you all the choices you could possibly make, you've already made.
+Amber Fu: Yeah.
+Zachariah Johnson: It's your ideal,
+Amber Fu: Yeah. Yeah.
+Zachariah Johnson: I guess. Yeah. I mean,
+Amber Fu: Okay. Okay.
+Zachariah Johnson: sure.
+Amber Fu: Got you. And like like when like when you say like a month that higher than euro like do you think that will bother you more like the extra
+ 
+ 
+00:24:24
+ 
+Zachariah Johnson: I want to say,
+Amber Fu: cost?
+Zachariah Johnson: oh, you mean like additional cost for the service?
+Amber Fu: Yeah. Yeah. Yeah. Like like I think the march maybe higher than
+Zachariah Johnson: Well,
+Amber Fu: euro.
+Zachariah Johnson: if if it's like paying in a monthly expense for a service that ensures that I my power setup is the most efficient one possible and it it really results in me having savings beyond the dollar a
+Amber Fu: Mhm.
+Zachariah Johnson: month cost of the service.
+Amber Fu: Mhm.
+Zachariah Johnson: I mean logically, yeah, you totally pay a dollar to save 10 or whatever, right? Or a euro versus 10 or 20.
+Amber Fu: Got you. Got you. And and if like this there if the system can tell you uh
+Zachariah Johnson: So
+Amber Fu: like oh you know next months may be higher because of weather or usage something like that uh would that will change how you feel?
+Zachariah Johnson: about the service Last
+Amber Fu: Yeah, I mean like Yeah, because like uh if like their system can you know know like your usage like
+ 
+ 
+00:25:16
+ 
+Zachariah Johnson: card.
+Amber Fu: every month and they can like uh told you earlier like oh next month because you know we uh see
+Zachariah Johnson: Historically,
+Amber Fu: like
+Zachariah Johnson: this June is really hot and so we think your electricity is going to go up because you don't want to be so hot and run your air conditioner.
+Amber Fu: yeah or something or like oh it's raining next month and maybe like your solar not produced some
+Zachariah Johnson: Yeah,
+Amber Fu: more something like
+Zachariah Johnson: actually there was um maybe I should connect you with this other people.
+Amber Fu: that.
+Zachariah Johnson: There's a guy that I found on Reddit that had just written a site that sounds kind of similar to what you're talking about. So, are you interested? I'll let you find it.
+Amber Fu: Yeah. Yeah.
+Zachariah Johnson: Um so, I I'll look that up for
+Amber Fu: Yeah.
+Zachariah Johnson: you. Yeah. Um he just opened it up.
+Amber Fu: Okay.
+Zachariah Johnson: It's batteryprofit.com.
+Amber Fu: Okay, let me let me Google
+Zachariah Johnson: Yeah,
+Amber Fu: it.
+ 
+ 
+00:26:18
+ 
+Zachariah Johnson: you can just go there if you want. It's not me. I just
+Amber Fu: Uh battery.
+Zachariah Johnson: batteryprofit.com. He's well,
+Amber Fu: Okay.
+Zachariah Johnson: he's someone who works for one of the ISOs actually. He's like, he got on Reddit, was like, "Oh, I created this app to do energy arbitrage. You know, you just pay me a small amount and um I'll help you save money on your power by powering up your battery when it's cheap and then discharging it when it's expensive,
+Amber Fu: Oh, okay. I see it.
+Zachariah Johnson: right?"
+Amber Fu: It's a like It's like automate Tesla power
+Zachariah Johnson: Yeah. Uh,
+Amber Fu: wall.
+Zachariah Johnson: so the idea is he he gets your rate plan information from Tesla because there's I
+Amber Fu: One more.
+Zachariah Johnson: API for him to pull it down, I guess. And then if there's like a difference a big enough
+Amber Fu: Uh
+Zachariah Johnson: difference if there's a big enough difference between like say night and day rate,
+Amber Fu: uh.
+Zachariah Johnson: he'll just straight up if it's as long as you're allowed to by your agreement with your provider,
+ 
+ 
+00:27:22
+ 
+Amber Fu: Uh
+Zachariah Johnson: he'll just straight up like start sucking power in when it's cheap and then pushing it out when it's more expensive as a form of arbitrage. But then additionally there's the solar aspect too. But the funny thing is I went ahead and I was just like oh I'll sign up for your thing. It's cool. And I like he's like so like a day later I got an email from him like directly from him. He's like you know you're actually my first paid customer. I'm like oh really that's cool. You know because he just he posted on Reddit. I just signed up like right away. And he says, "But I really hate to tell you this,
+Amber Fu: Okay.
+Zachariah Johnson: but your uh your day and evening rates are so similar that it doesn't make sense for you to arbitrage because it the you know the energy loss of like dumping power into your battery and then taking you out again. The the reduction in efficiency for the conversion, he says, doesn't um surpass or surpasses the money the difference in the cost of
+ 
+ 
+00:28:08
+ 
+Amber Fu: Uhhuh.
+Zachariah Johnson: uh buying and selling energy. So he basically told me that I'm not He's like, "Yeah, I'm concerned because like you're my first customer, but then this product totally isn't good for you." So,
+Amber Fu: Okay.
+Zachariah Johnson: I'm like, "Okay, well, thanks, you know, for being honest and everything." So,
+Amber Fu: Okay. Well, well,
+Zachariah Johnson: so
+Amber Fu: I will I will try to look up this this website later. I like it's really interesting. And oh, and like when you Is it like 19 $19 per month, right? I mean per year, right?
+Zachariah Johnson: per year, I believe. And the monthly rate,
+Amber Fu: Okay.
+Zachariah Johnson: I don't know what it is. I once he I went ahead and cancelled. It was like a 30-day trial anyway. So, I haven't paid him anything, actually. But I I kind of I I agreed to pay him after the trial.
+Amber Fu: Uh,
+Zachariah Johnson: And so, I think that's why he's called me a paid customer.
+Amber Fu: okay.
+ 
+ 
+00:29:06
+ 
+Zachariah Johnson: But, um I could show you my graph of his site because I I if you want me to give like if you want me to
+Amber Fu: Oh, sure.
+Zachariah Johnson: share, can I share the screen? Let me Let's see.
+Amber Fu: I think
+Zachariah Johnson: I usually use Zoom,
+Amber Fu: so.
+Zachariah Johnson: so I'm not really familiar with Google Meet, but let's see. How do I share? Oh, share screen. Cool. Uh, select window or screen. Okay. Yeah, that's okay. Wait. Hello. Oh, there we go. Battery profit dashboard. Okay, there we go. You should be able to see it
+Amber Fu: Yep.
+Zachariah Johnson: now.
+Amber Fu: Yep. Okay. Appreciate that. Let me see. Okay. I got
+Zachariah Johnson: Yeah, if you want, I'll click wherever you want. I just So,
+Amber Fu: you.
+Zachariah Johnson: he's doing some forecasting with like um weather, too. It looks like I don't think there's any priv private personal information.
+ 
+ 
+00:30:15
+ 
+Zachariah Johnson: I shouldn't let you see here. So, yeah, that's fine. Yeah, he
+Amber Fu: Okay.
+Zachariah Johnson: So,
+Amber Fu: Okay. I see they they have like off peak peak solar. Oh, but how you uh so you like how we can get your solar like the information the
+Zachariah Johnson: How did how did he get it?
+Amber Fu: API.
+Zachariah Johnson: According to him, he um was able to download it all from Tesla through the Tesla
+Amber Fu: Oh, okay. Gotcha. Got you.
+Zachariah Johnson: API.
+Amber Fu: So, so basically just uh he got your uh the solar like info and the Tesla, right?
+Zachariah Johnson: Yes. From
+Amber Fu: Okay. Okay. Got you. And what's what's the like when you see this dashboard like what do you think the difference between like your solar app and the Tesla
+Zachariah Johnson: Um, in a lot of ways it sound similar.
+Amber Fu: app?
+Zachariah Johnson: I mean, I guess cuz I cancelceled, I don't think he's showing this data anymore where the top,
+Amber Fu: Uh
+ 
+ 
+00:31:13
+ 
+Zachariah Johnson: but yeah. Um, well, I mean, my Tesla doesn't really show me a uh um, sorry, lost some words here. It doesn't show me what it thinks my solar will be tomorrow,
+Amber Fu: Yeah.
+Zachariah Johnson: whereas his does,
+Amber Fu: Mhm.
+Zachariah Johnson: for example. So,
+Amber Fu: Mhm.
+Zachariah Johnson: yeah. And it looks like you may even compare actual to predictions, maybe. Oh, that's cool. But I think maybe he's not pulling in the data now. Oh, wait. There's Okay. Yeah. I don't know. The UI is not great for that,
+Amber Fu: Mhm. But for like uh like what do you think like for this
+Zachariah Johnson: but
+Amber Fu: uh for for this like battery profile and what like what part of like the like number or like data you you wish you can keep it
+Zachariah Johnson: Oh,
+Amber Fu: forever.
+Zachariah Johnson: well really what I just the thing I thought the value of his product was that I just if he's able to automatically set up rules to do arbitrage for me and like if it saved me like several,
+ 
+ 
+00:32:31
+ 
+Amber Fu: Mhm.
+Zachariah Johnson: you know, tens of dollars a month or something, it'd be worth it to pay him a buck or two a month to do it.
+Amber Fu: Mhm.
+Zachariah Johnson: This is all stuff that I could do manually through the app, but it's,
+Amber Fu: Mhm.
+Zachariah Johnson: you know, it's something to work to try to figure it out and, you know,
+Amber Fu: Mhm.
+Zachariah Johnson: anyway, I'm gonna I'm gonna close the window if that's unless there's anything else you want to see on it.
+Amber Fu: Mhm.
+Zachariah Johnson: Okay, close it.
+Amber Fu: Okay.
+Zachariah Johnson: There we go.
+Amber Fu: think well thanks for sharing
+Zachariah Johnson: Oh, yeah.
+Amber Fu: that.
+Zachariah Johnson: I just thought it was something that I mean it sounds like you guys are maybe developing a application or a product and it sounds like his isn't exactly what you're talking about but it's kind of close.
+Amber Fu: Uh well it's it's a little bit different. Well, we trying to do the app that you know uh just tell people like in the real
+Zachariah Johnson: Yeah.
+Amber Fu: time like like cons consider like if the people they have a solar or EV or power wall and uh we just try to put those three system together in one dashboard and but just simply recommend them like oh right now it's like pick over you you shouldn't you know charge your EV if they're charging it or like Oh, today is like the like maybe like start like two is a running and your solar product maybe not like more something like that.
+ 
+ 
+00:33:54
+ 
+Amber Fu: It is just like a real time uh electricity recommendation like make uh just give people some like good advice for how to use smart use their energy.
+Zachariah Johnson: Well, if you stop me if you want, but I can tell you a story about charging and how incentives have changed my behavior over the years if you want. So,
+Amber Fu: Where?
+Zachariah Johnson: when I first bought my first Tesla, uh,
+Amber Fu: Mhm.
+Zachariah Johnson: back in 2018, well, the weird thing about Woodland, Cal, well, I'm sorry, I'm I think you already know where I live.
+Amber Fu: Mhm.
+Zachariah Johnson: I live in Woodland, California. And the weird thing about Woodland is they obtained a bunch of grants to get, um, level two chargers installed, like one at every school,
+Amber Fu: Uhhuh.
+Zachariah Johnson: and there's one at like there's a few other places in addition to the schools, right? And, uh, they were uh, all completely free. And so it was just kind of like, you know, well shoot,
+Amber Fu: Mhm.
+Zachariah Johnson: I get free level two charging. Like I was just basically using, you know, I was being polite and, you know, nice about it, but I was basically like I my me and my wife like we drive two cars over, I'd plug one in, get her car,
+ 
+ 
+00:35:02
+ 
+Amber Fu: Uhhuh.
+Zachariah Johnson: drive home, and let it charge overnight, right? In the middle of the night when no one's using it or whatever. So that's one way. I mean,
+Amber Fu: Wow.
+Zachariah Johnson: we were just saving a fair amount of money because we weren't paying anything for electricity to drive or, you know, not paying for gas, obviously. And then later, we actually had two Teslas. And so, we'd even like trade off like she'd drive over and then I'd, you know, drop off my car for charging and then swap them out or something.
+Amber Fu: Yeah. Uhhuh.
+Zachariah Johnson: And so we did that for a long time for a while, but it was a little sketchy because um we had issues like um you know unhoused people hanging around or in one one particular charger we realized that there was a rodent issue um like we
+Amber Fu: Mhm.
+Zachariah Johnson: started noticing that they were like kind of nibbling on some of the wires in the car. So we stop we stopped teasing that location but before it became a problem.
+ 
+ 
+00:35:46
+ 
+Amber Fu: Mhm.
+Zachariah Johnson: But um so but then after a while um the uh the grant finished out like because they pro they promised they would provide the service uh
+Amber Fu: Okay.
+Zachariah Johnson: for a number of years as part of the money that basically paid to buy the equipment,
+Amber Fu: Mhm.
+Zachariah Johnson: install it and all that stuff. And so once once they got over the grant period they pretty much inked them out.
+Amber Fu: Mhm.
+Zachariah Johnson: And I think they should maybe it may have been a mistake. They could have just done like they could have just paid like brought in like one of the big, you know, charger companies like um I can't think of one right now, but um but yeah, they just ripped them out.
+Amber Fu: Mhm.
+Zachariah Johnson: So they're not even available anymore. So it was kind of weird. And then so after that, you know, we lost our free charging, which is fine. So then it was kind of like all options.
+Amber Fu: Mhm.
+Zachariah Johnson: By that time, Tesla had built a supercharger like three blocks away from me.
+ 
+ 
+00:36:40
+ 
+Amber Fu: Mhm.
+Zachariah Johnson: So I was like, uh, you know, great. Now we have two options. We can charge at home or we go to the supercharger.
+Amber Fu: Mhm.
+Zachariah Johnson: Well, the funny thing is the Tesla Supercharger uh cost rate in at night like after 10 p.m.
+Amber Fu: Mhm.
+Zachariah Johnson: was actually lower than our house rate from PG& so we could charge really fast and it was cheaper.
+Amber Fu: Okay.
+Zachariah Johnson: So, it's kind of like okay. So we still w even though I did install a charger at home, we still weren't using the charger at home because because we could literally just char and it was even more convenient for us because we didn't have to leave our car overnight. We just you know and we could go do it together like she and I could both drive our cars over do at the same time and then hang out in the car for a while for you
+Amber Fu: Come on. Come
+Zachariah Johnson: know 30 minutes or whatever. So that was great.
+ 
+ 
+00:37:24
+ 
+Zachariah Johnson: And then um and then uh and
+Amber Fu: on.
+Zachariah Johnson: then Tesla's changed their thing again. So before it was just like um a daytime rate and a nighttime rate. So it's like a more expensive a cheaper one, right? Or maybe three periods. I can't remember. But um but now more recently they've actually switched it over to a system where the rate that Tesla charges is based on how busy the station is.
+Amber Fu: Oh,
+Zachariah Johnson: I can't remember how many um posts there are,
+Amber Fu: okay.
+Zachariah Johnson: but let's say there's eight. So like if all eight are full, I think it's like 12, but if they're all full, then it's a fairly high rate, like 53 cents per kilowatt hour. But then if like no one's there, it's like totally empty. You need to go there, it's like 30 cents per kilowatt hour. So,
+Amber Fu: Oh,
+Zachariah Johnson: but then but then I bought I recently bought a new car
+Amber Fu: okay.
+Zachariah Johnson: that came with a full year of free supercharging,
+ 
+ 
+00:38:20
+ 
+Amber Fu: Mhm.
+Zachariah Johnson: but then the new car has the ability to charge my other cars. So,
+Amber Fu: Mhm.
+Zachariah Johnson: you can see where this is going. So, I mean, I'm just an a******, but I take the new car, charge it, I bring it back to the house, and then I plug my wife's car into it, and it charges her car.
+Amber Fu: Okay.
+Zachariah Johnson: It's really kind of stupid, but
+Amber Fu: Well, well,
+Zachariah Johnson: just
+Amber Fu: and uh so like how about like right now like how how you like like when you usually charge your car like during the what time?
+Zachariah Johnson: Oh, well, well. Okay. Before I got the free charging,
+Amber Fu: Mhm.
+Zachariah Johnson: um, we would always do it after 10 p.m., which was inconvenient because we didn't necessarily want to go out in the middle of the night and go charge somewhere late at night. So now I just do it whenever it's convenient. Um, like since it's free,
+Amber Fu: Yeah.
+Zachariah Johnson: I can charge anywhere, anytime. So I'll I might just do it when I'm out and about.
+ 
+ 
+00:39:11
+ 
+Zachariah Johnson: Um, if I'm somewhere, you know, shopping or, you know, it's convenient or whatever, I'll just charge. Um, but most of my charges are still the one that's nearby. Um, typically it's usually still in the evening,
+Amber Fu: Uh
+Zachariah Johnson: but it's not as late. So, like actually it's right next to a Costco. So, sometimes we'll even like park and charge, set it to charge and then go shopping at Costco and we can use before it finishes charging.
+Amber Fu: um
+Zachariah Johnson: So, that's probably way too much information about weird charging behavior. But, you can see how it's all like how the incentives have changed our behavior. So,
+Amber Fu: Mhm.
+Zachariah Johnson: and how we're just Yeah.
+Amber Fu: And but like and but for like the last time you choose like supercharge because it was cheap cheaper. But what information did you use to decide that? Like
+Zachariah Johnson: Oh, well,
+Amber Fu: just
+Zachariah Johnson: I just I just know that my um I know my there's four rates
+Amber Fu: Oh,
+Zachariah Johnson: or and so I just we know what the cheapest rate here at the house
+ 
+ 
+00:40:03
+ 
+Amber Fu: okay.
+Zachariah Johnson: is. And uh here I could I don't know actually I don't know what I'll pay on but I think it's like 37 cents or something.
+Amber Fu: Oh, okay. But but what what did you give up to get that cheaper rate because of they cancel it or like because of convenience or like anything else?
+Zachariah Johnson: Oh, why did I choose the cheaper rate or the cheapest
+Amber Fu: I don't know. I mean like like after I think you you you you didn't like go
+Zachariah Johnson: thing?
+Amber Fu: the supercharger,
+Zachariah Johnson: Oh, no, no. the final stage,
+Amber Fu: right?
+Zachariah Johnson: right, that we're currently in is the the newest Tesla we got came with a year of So,
+Amber Fu: Okay.
+Zachariah Johnson: what I do is I I basically use the the newest Tesla is like a giant battery and I go charge the
+Amber Fu: Oh, okay.
+Zachariah Johnson: Tesla battery and then I discharge it into my wife's car. So, I'm basically I feel a little lame,
+Amber Fu: Okay.
+Zachariah Johnson: but to admit this, but I'm basically using free supercharging to charge two cars right
+ 
+ 
+00:41:03
+ 
+Amber Fu: Okay. Okay. Well,
+Zachariah Johnson: now because I fill mine and then charge for mine and then I go back
+Amber Fu: that's good. That's smart.
+Zachariah Johnson: for more for mine.
+Amber Fu: That's good.
+Zachariah Johnson: So,
+Amber Fu: That's smart. Well, but you know like since Tesla like switched to busy base pricing I think like um can you you know walk me through the most like recent time you change
+Zachariah Johnson: Mhm.
+Amber Fu: your charging plan because the situation price like station price was higher than you expect.
+Zachariah Johnson: Um well, prior to getting the latest car with the free charging, uh we just always charged during that time. It was always the day rate and the night rate. So we just always to charge in the evening unless unless it was really inconvenient like there's something happening where we like our car was low we really need to charge we're like no problem we'll just charge it. So so the idea was like we try to save money but not at the expense
+Amber Fu: Okay.
+ 
+ 
+00:42:01
+ 
+Zachariah Johnson: of convenient like not just normal like oh it's convenient. I mean like oh I really need to do something you know I can't wait then yeah just do
+Amber Fu: Yeah. Yeah.
+Zachariah Johnson: it well you know.
+Amber Fu: Okay. Okay.
+Zachariah Johnson: Yeah.
+Amber Fu: And well, I think about like a time you could have saved money by waiting or like going some somewhere
+Zachariah Johnson: So
+Amber Fu: else, but you didn't.
+Zachariah Johnson: that happens sometimes like the convenience thing like I talked about.
+Amber Fu: Okay. It's
+Zachariah Johnson: Yeah. Like if we really if we unexpected like our cars were kind of low and we unexpectedly had to
+Amber Fu: just
+Zachariah Johnson: drive for far away or something and so we're just like oh well shoot you our cars are low we need to charge now so we just pay the higher rate.
+Amber Fu: got you. But like roughly like how much money would would need to save for you to feel is worth to changing plans that day?
+Zachariah Johnson: You mean like to go up to Oh.
+ 
+ 
+00:42:52
+ 
+Amber Fu: Yeah. Yeah.
+Zachariah Johnson: Oh, like Well, that's the thing. I was I didn't want to stress my wife out cuz I started like kind of like dictating these kind of rules like oh, you know, and so she didn't like the rule. I'm like, okay, okay, but they shouldn't be rules.
+Amber Fu: What's
+Zachariah Johnson: It's just like just just try to charge this way which will save us money but if if it's stressing you out like if you feel stressed about it just do it. So that's that's what we do now because I don't want her to be like you know like oh I need to do this but I can't because Zach said
+Amber Fu: Okay.
+Zachariah Johnson: I can't like so I'm like no no no no no just just try to be cheap but if you're stressed just do it.
+Amber Fu: Mhm.
+Zachariah Johnson: And of course road trip we just pay whatever it is at the time we get there,
+Amber Fu: Okay.
+Zachariah Johnson: you
+Amber Fu: Yeah. Yeah. Okay. Got you.
+Zachariah Johnson: know.
+ 
+ 
+00:43:42
+ 
+Amber Fu: like like with like a free like supercharging air like what did your charging routine look like in like first few weeks? I just don't care like you
+Zachariah Johnson: Oh, just
+Amber Fu: know
+Zachariah Johnson: a It's my wife's phone. She left it in
+Amber Fu: Okay, that's interesting. I I know that's cartoon.
+Zachariah Johnson: here.
+Amber Fu: Okay. And like you know like just for like a few a free like a supercharging year like what I just wondering know like what did your charging routine look like in the first few
+Zachariah Johnson: Well,
+Amber Fu: weeks?
+Zachariah Johnson: we realized that we could I could charge the new car for free and then charge her car from my car. So, that's just basically what we started doing. So yeah,
+Amber Fu: Okay.
+Zachariah Johnson: actually here's your phone. Thank you so much. Yeah. And then um so actually earlier we talked about like it being a really bad two days. Well um so for example, my mother lives about she has a she lives on a small farm and she really wants to live there and she's 75
+ 
+ 
+00:44:51
+ 
+Amber Fu: Uh Mhm.
+Zachariah Johnson: years old, but it's like an hour away. Like it's a it's a long ways away for at least in our opinion. So the problem is uh you know she got sick like you know like a cold or something and so I was like calling her every day and talking to her and um yesterday late morning I called her and she sounded really weird. I'm like oh no you know does she have a stroke or something you know cuz she's like talking really slow not making sense.
+Amber Fu: Mhm.
+Zachariah Johnson: So I'm like f***
+Amber Fu: Mhm.
+Zachariah Johnson: yeah I'm like crap I need to go see what's going on. So luckily I my car already had enough power I need to get out to her house and back.
+Amber Fu: No.
+Zachariah Johnson: So I was like, "Not a problem." Um,
+Amber Fu: Yeah.
+Zachariah Johnson: so you know, I I went out to her house and and got her and took her the she needed, but that's that's enough there. So, and she's still in ICU,
+ 
+ 
+00:45:35
+ 
+Amber Fu: Mhm.
+Zachariah Johnson: but it doesn't matter. So, and then the other thing is um but my wife um like I I you know I left so she was here you know with the kids and her car was slow low but she she wanted to make sure she had a full tank you know with electricity in case she needed like I needed her to do something
+Amber Fu: I
+Zachariah Johnson: and so she went over and charged and then she like at that time it was like a stressful situation so she just went charger and just charged.
+Amber Fu: mhm okay.
+Zachariah Johnson: Does that answer your question?
+Amber Fu: Yeah, I I totally I fully understand. Yes, that's answer my question.
+Zachariah Johnson: Yeah.
+Amber Fu: I appreciate it.
+Zachariah Johnson: She Yeah. So,
+Amber Fu: Okay.
+Zachariah Johnson: she just filled hers up at the supercharger even though normally she'd wait for me to like fill it up for my car.
+Amber Fu: Mhm. Mhm. Gotcha. Gotcha. And well, like in the past months, like when charging got more expensive than you expect, like what did you do in the moment?
+ 
+ 
+00:46:31
+ 
+Amber Fu: Just wait or just Yeah.
+Zachariah Johnson: Oh, for the uh the weird usage based cost thing.
+Amber Fu: Yeah. Yeah.
+Zachariah Johnson: Well, again, I think this is might be the first time we charge without me basically taking the free and giving it to her. So, yeah. Um, as far as like, okay, let's say I lo eventually I'm going to lose the free charging, right? Because it's going to go away. So, Tesla's still doing a thing where it's like, um, how busy they are.
+Amber Fu: Uh
+Zachariah Johnson: I don't know. It'll make things more complicated for us because then we'll be whining enough to go charge when hardly anyone's there. So, I I'm worried like are we going to like get in the car and drive over there and be like, "Oh, how busy is it?" You know, by the way,
+Amber Fu: Mhm.
+Zachariah Johnson: the Tesla when it's based on the how busy it is, the price you pay is locked when you start the charge.
+Amber Fu: Okay.
+Zachariah Johnson: So like if it's empty and you plug in and then two minutes later 10 people show
+ 
+ 
+00:47:23
+ 
+Amber Fu: Uhhuh.
+Zachariah Johnson: up,
+Amber Fu: Oh,
+Zachariah Johnson: you still pay cheap price.
+Amber Fu: okay.
+Zachariah Johnson: Just letting you know.
+Amber Fu: Oh,
+Zachariah Johnson: So So it's start the charge is locked. But the other hand,
+Amber Fu: okay.
+Zachariah Johnson: if you go there and there's like 10 people there and you plug in and they all leave, you're locked in at the higher price. However, if you want to, you can stop the charge and start a new one with lower prices.
+Amber Fu: Uhhuh.
+Zachariah Johnson: So,
+Amber Fu: Okay. Okay. Got you.
+Zachariah Johnson: but yeah,
+Amber Fu: Got you.
+Zachariah Johnson: I don't I'm That's a good question. Like, because we haven't really gotten to that point yet. So, I I have the sneaking suspicion we might try to like figure out when their charger is not very busy and
+Amber Fu: Uh
+Zachariah Johnson: like try to go charge that time. And that actually might really inconvenient because like before the the cheap price would be after 10 p.m., right? But now with the new how busy thing,
+ 
+ 
+00:48:06
+ 
+Amber Fu: yeah.
+Zachariah Johnson: it might be like it might be like midnight or something or it gets less busy,
+Amber Fu: Uhhuh.
+Zachariah Johnson: you know, usually. So, I don't know how that's going to work out. We'll we'll definitely start to like figure out like when it's cheap or when
+Amber Fu: Mhm.
+Zachariah Johnson: it's used and I'll be thinking like,
+Amber Fu: Mhm.
+Zachariah Johnson: oh, I wish I could just fly a drone over there and take a look or something.
+Amber Fu: Mhm.
+Zachariah Johnson: So,
+Amber Fu: Mhm.
+Zachariah Johnson: we're just uh I don't know. Yeah, we'll have to wait and see what how our behavior changes based on
+Amber Fu: Got you. Got you. Well,
+Zachariah Johnson: it.
+Amber Fu: and thinking back that your your like your mom situation, were there like any price difference that would have changed the decisions for you?
+Zachariah Johnson: For her?
+Amber Fu: Uh like you know like you mentioned like your mom like the situation with your
+Zachariah Johnson: Oh, well, yeah,
+Amber Fu: mom.
+Zachariah Johnson: since I my car had enough energy, but my wife's didn't, but she wanted to make sure she was full in case she had to do something.
+ 
+ 
+00:49:02
+ 
+Zachariah Johnson: Um,
+Amber Fu: Uh-huh.
+Zachariah Johnson: we would have been willing to pay almost any price. Like let's say we normally try to get 30 cents.
+Amber Fu: Yeah. Mhm.
+Zachariah Johnson: We I'm sure she I'm sure we would have been fine paying $3. Like 10 times would have been fine. But I guess if you got like 100 times or something,
+Amber Fu: Okay.
+Zachariah Johnson: we' be like, "Okay, you know, like well, first of all, when it got that expensive, we just charge at home because our home is like 40ome,
+Amber Fu: Mhm. Mhm.
+Zachariah Johnson: 50 something.
+Amber Fu: Got you.
+Zachariah Johnson: So
+Amber Fu: Got you. Well, and in in moment like that, like would they still be useful to know it's more expensive even if you charge anyway?
+Zachariah Johnson: Um yeah, I mean I guess having the information is always good as long as it's relevant and that sounds like it is.
+Amber Fu: Mhm. Mhm.
+Zachariah Johnson: So yeah, I guess
+Amber Fu: Got you.
+Zachariah Johnson: so.
+Amber Fu: And and I was wondering like if you you know thinking about like a charging decision overall uh what purely matters more like price, convenience or like stress level
+ 
+ 
+00:50:03
+ 
+Zachariah Johnson: Um,
+Amber Fu: like which like I want to know like the topest like first.
+Zachariah Johnson: right now I'd say we're being we're being motivated mostly by price.
+Amber Fu: Okay.
+Zachariah Johnson: I'd like to say the secondary thing is uh I'm going to conflate um stress and convenience together.
+Amber Fu: Mhm.
+Zachariah Johnson: So just I just figure like stress is a indicator of a need for convenience at least in my mind. So yeah I think our primary goal is price just because we're trying to save money like we don't want you know if we can not spend money that's great.
+Amber Fu: Mhm.
+Zachariah Johnson: So yeah I say price and then convenience like or how important the convenience is. If if the convenience has a high importance then don't worry about the price kind of thing that makes
+Amber Fu: Okay.
+Zachariah Johnson: sense.
+Amber Fu: Okay. Got you. Got you.
+Zachariah Johnson: The other thing that might be an issue is like I do worry like sometimes in the past,
+Amber Fu: And
+Zachariah Johnson: not not lately ever, but my wife would go charge like she'd go there without
+ 
+ 
+00:50:58
+ 
+Amber Fu: Mhm.
+Zachariah Johnson: me for some reason. I just be kind of concerned because sometimes they weren't in very good spots. But but that's not that hasn't really been an issue lately. So that was more when it was like the free school stuff. So
+Amber Fu: Okay. Got you. Got you. And um and like cuz you have a power wall. So I was wondering like how many time did you check a power was setting like per months or per week or per day?
+Zachariah Johnson: How many lips or
+Amber Fu: How many time did you check your power was setting?
+Zachariah Johnson: Oh, well, you know, when I first got it, I I I I did it a lot, but I have to. But this year,
+Amber Fu: Okay.
+Zachariah Johnson: hardly at all. Like, hardly at all.
+Amber Fu: But like like every week or Oh,
+Zachariah Johnson: Not even that.
+Amber Fu: really?
+Zachariah Johnson: I'd say like once every these days I haven't really be concerned about it.
+Amber Fu: Okay.
+ 
+ 
+00:51:52
+ 
+Zachariah Johnson: So I usually just check like once every I on average probably like once every two months.
+Amber Fu: Oh, okay. And how about how about the Tesla
+Zachariah Johnson: Yeah.
+Amber Fu: app?
+Zachariah Johnson: Just well the the Tesla app is the power app in this case
+Amber Fu: Oh, yeah. Yeah, but the car
+Zachariah Johnson: but oh I use that all the time because
+Amber Fu: like
+Zachariah Johnson: like my wife can see where I am her my car is. see what hers is. Um, if we want it to be warm though before we get into it, we tell it on the, you know, heater. So, yeah. I'm trying to think like what I mostly do in the the car for mostly it's to turn on heater or air conditioner if it's hot. Um, see where my wife's car is. Um, yeah, that's that's that's mostly what we do with it is check on locations,
+Amber Fu: But like right now uh when you let's say like try to see like the power
+Zachariah Johnson: right?
+ 
+ 
+00:52:50
+ 
+Amber Fu: data like Which number you're going to want to see it like when you open it like which part you you look up
+Zachariah Johnson: Oh, well,
+Amber Fu: first.
+Zachariah Johnson: I'll look at the current snapshot that that's the first screen it presents to you is like what's going on right now. And so like right now it says that it's uh for whatever reason it's deciding to keep my power 100% right now and it's taking electricity from the grid and powering my house and the solar course has nothing because it's
+Amber Fu: Yeah.
+Zachariah Johnson: dark outside.
+Amber Fu: Uhhuh. Uhhuh.
+Zachariah Johnson: But usually I'll look at that briefly and then mostly if I'm really interested in anything I'll look at the energy graphs which is u I mean you I'm sure you've seen them
+Amber Fu: Mhm.
+Zachariah Johnson: right? So here
+Amber Fu: Mhm.
+Zachariah Johnson: I'll just moment I'll put it on my house. Yeah. In fact, I better check my Power Wall settings. It might be kind of squarely from um the battery uh site person because I gave him access to manipulate my Power.
+ 
+ 
+00:54:03
+ 
+Zachariah Johnson: So, um but yeah, you can see that here I I've the batteries has actually been basically ignored today. Oh, I don't know if you can.
+Amber Fu: Okay.
+Zachariah Johnson: Don't worry about that. So it's all it's uh yeah usually I would look at the
+Amber Fu: Okay.
+Zachariah Johnson: uh the section called energy where it brings up graphs of like you know use you made this much solar today you charge the battery during this time today
+Amber Fu: Yeah.
+Zachariah Johnson: charged at this time usually I'll charge up you know the sun and then discharge in the early evenings or maybe to midnight and then power from like you know 1:00 am to till the sun rises or something
+Amber Fu: Mhm.
+Zachariah Johnson: so
+Amber Fu: Gotcha. Got you. Well, you know what? And I mean, this is really, you know, great conversation. It's, you know, it's actually really important to hear like what you described shows,
+Zachariah Johnson: Okay.
+Amber Fu: you know, like the energy decision aren't just about like saving money. They're like deeply tied to like, you know, stress, urgency, and like real life, you know,
+ 
+ 
+00:55:05
+ 
+Zachariah Johnson: Yeah.
+Amber Fu: it's it's it's just help me understand like where information is helpful and like words shouldn't get in the way at all. So, thank you again for working through like real situation. It that's exactly what we need.
+Zachariah Johnson: Okay. Yeah. Well, I saw your or poster. I don't remember it was and I was like, "Oh, wow. I'm probably kind of like almost the perfect person." So, I was like, "Cool. Why not?" So,
+Amber Fu: Yeah.
+Zachariah Johnson: all
+Amber Fu: Yeah. Yeah. And they're really really valuable for us.
+Zachariah Johnson: right.
+Amber Fu: And you know once we have our early version of app I I would you be open to try it out as a beta tester.
+Zachariah Johnson: Sure. Yeah.
+Amber Fu: Yeah. Just you know give give us some like feedback like oh what what feel good or what feel annoying like your feedback would be super valuable for me.
+Zachariah Johnson: I don't know if you're developing for both platforms concurrently, but just so you know, I'm an Android user. So, just Okay, that's great. Yeah, send me an email. That sounds great.

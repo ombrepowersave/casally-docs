@@ -1,0 +1,678 @@
+00:00:00
+ 
+Sueannele Lam: Hello.
+Amber Fu: Hi.
+Sueannele Lam: Sorry, I had to like update my app.
+Amber Fu: Hi. Uh, can you hear me?
+Sueannele Lam: Yes.
+Amber Fu: Yes.
+Sueannele Lam: Can you hear me?
+Amber Fu: Yes. Good. Perfect. Uh, how's your day going so far?
+Sueannele Lam: Good. Thank
+Amber Fu: Oh, thanks. Thanks. Well, thanks again for,
+Sueannele Lam: you.
+Amber Fu: you know, making time for this. I I know everyone's busy, you know, especially before the Christmas. So, no pressure at all. This uh is a super casual. Um well, let me introduce myself a little bit. My name is Amber and I'm a one of the founder. Well, I start this because, you know, I couldn't couldn't figure out why my own electricity bill was so crazy and I realized a lot of my friend are dealing with the same thing. Uh basically we're just a small team based in LA and we try to building an app that helps people save money on their daily energy use but without changing their lifestyle.
+ 
+ 
+00:03:37
+ 
+Amber Fu: So I love to understand how your home use electricity daytoday so we can figure out what what would actually help. Yeah. And I'm really appreciate your time today.
+Sueannele Lam: Uh-huh.
+Amber Fu: Uh, and by the way, before we get start, would you be okay if I record this call? It's totally option. I just don't want to miss anything you said, but it's totally option.
+Sueannele Lam: No, I'm fine with
+Amber Fu: Okay, thank you.
+Sueannele Lam: that.
+Amber Fu: Uh, give me a second. Okay, perfect. So, uh, shall we start? Thank you. Uh,
+Sueannele Lam: Yes.
+Amber Fu: and before like we jump into the energy stuff, uh, I love to get a quick sense of your household. Uh nothing personal, just what uh whatever you're comfortable sharing with.
+Sueannele Lam: Okay. Um, I live in Northern California and um,
+Amber Fu: Okay.
+Sueannele Lam: my house is about 22 39 square ft. Um,
+Amber Fu: Mhm.
+Sueannele Lam: I uh, it's a uh, there's four people in our house, two kids and my husband.
+ 
+ 
+00:04:40
+ 
+Amber Fu: Mhm.
+Sueannele Lam: And um, it's a two-story house.
+Amber Fu: Mhm.
+Sueannele Lam: Um, and we had solar now for I believe 8 years.
+Amber Fu: Mhm.
+Sueannele Lam: And I recently got a backup battery now for 2 months.
+Amber Fu: Okay.
+Sueannele Lam: And um, it's the Power Wall.
+Amber Fu: Okay.
+Sueannele Lam: And uh, we own a Tesla. We have It's a 2023. Um,
+Amber Fu: Mhm.
+Sueannele Lam: I think they do this with um, um, with LA too. I'm not sure, but our P Genie bill, you guys might have Edison, I'm not sure, but we have a P Genie. And um I get one bill a year uh for my it's
+Amber Fu: Um,
+Sueannele Lam: called a trueup.
+Amber Fu: yes.
+Sueannele Lam: Okay. So,
+Amber Fu: Yes.
+Sueannele Lam: prior to having um our EV, my true upup, I think the first year was about $700 to $900, you know, and then now that we charge the car pretty regularly, my true up um last year was like $2,300 and Yeah.
+Amber Fu: Oh,
+Sueannele Lam: and this year was about 2,000.
+ 
+ 
+00:05:52
+ 
+Sueannele Lam: Yeah.
+Amber Fu: okay.
+Sueannele Lam: So it it but like I said, we just got a backup battery, so I'm hoping it will be
+Amber Fu: Okay. Okay.
+Sueannele Lam: less.
+Amber Fu: But have you ever called the PJ and asked like like the detail like the like why is like two 2000 and what this for
+Sueannele Lam: I I really think it's because for one,
+Amber Fu: like
+Sueannele Lam: my solar uh when I initially bought it was at 85% offset.
+Amber Fu: Mhm.
+Sueannele Lam: It wasn't 100%. Um because my roof configuration plus,
+Amber Fu: Okay.
+Sueannele Lam: you know, when I got this like eight years ago, I think solar was relatively kind of new.
+Amber Fu: Uhhuh.
+Sueannele Lam: So for me to go from 85 to 100% was going to cost me like
+Amber Fu: Uhhuh.
+Sueannele Lam: another $15,000, you know.
+Amber Fu: Okay.
+Sueannele Lam: So um my system cost me after my uh federal rebate um $14,000.
+Amber Fu: Mhm. Okay.
+Sueannele Lam: But I think the initial cost was like about 22 or something like that.
+Amber Fu: Mhm.
+ 
+ 
+00:06:53
+ 
+Sueannele Lam: So for me, I couldn't justify paying another 15,000 to be 100%.
+Amber Fu: Mhm.
+Sueannele Lam: You know, um because um my roof configuration uh and my price point got me to 85% and I think it's like 16 panels or something on my roof. So,
+Amber Fu: Mhm.
+Sueannele Lam: I I knew that I was never going to be without a electrical bill. Uh so,
+Amber Fu: Mhm.
+Sueannele Lam: I always felt like, you know, if I could pay like under $100 a uh a month for my electricity, I was comfortable with that. You know, I felt like it was a good investment. Um and as far as charging the car, I knew that my electrical bill was going to be probably double,
+Amber Fu: Mhm.
+Sueannele Lam: you know, because of um charging the car and not having to pay gas, you know. So, I'm hoping next year, uh, I haven't gotten like a full bill yet, so I don't see I I haven't really seen like the savings for my backup battery yet, but like I said, we're in winter and my backup battery is not even charging 100% just because it's been cloudy,
+ 
+ 
+00:08:03
+ 
+Amber Fu: Yeah,
+Sueannele Lam: you know?
+Amber Fu: got it. Got it. And do you mind I ask like how much you pay right now for per month?
+Sueannele Lam: I think I um I'm uh if I spread it over 12 months, it's about $150 without my gas.
+Amber Fu: Okay.
+Sueannele Lam: It's just my
+Amber Fu: Okay. Okay. Got it.
+Sueannele Lam: electricity.
+Amber Fu: Got it. And um so uh like do you mostly work from home or is everyone flying and
+Sueannele Lam: Okay. So, my my husband's job situation changed too.
+Amber Fu: out?
+Sueannele Lam: So that that was a little bit of a little different factor. Uh last year he was working 100% at home. But um since February of this year,
+Amber Fu: Okay.
+Sueannele Lam: cuz he works for the government, he went back to uh a to the office. So I think that's why my bill was slightly cheaper this year, too. Plus,
+Amber Fu: Um,
+Sueannele Lam: he's been driving the Tesla to uh to the BART station.
+ 
+ 
+00:09:01
+ 
+Sueannele Lam: So I haven't been driving it as much, and I drive a little more. So I think there's less charging because of less
+Amber Fu: got it. Got it.
+Sueannele Lam: driving.
+Amber Fu: And what like do you feel like you understand like which behavior like impact the true up the most?
+Sueannele Lam: Um I think you know the I live in Liverour which is um a little bit of a valley area. So in the summertime we're very very hot. you know, I wouldn't say like very hot, but like, you know,
+Amber Fu: Okay.
+Sueannele Lam: there's going to be uh a few weeks where it could be close to 100°, you know, and I like to be comfortable in my house, so we do run the air conditioning a lot, you know,
+Amber Fu: Mhm.
+Sueannele Lam: so I do see that we use probably the the AC and um you know, I'm not counting gas at all for our heating. I'm just counting probably just the the AC um is where we probably use a lot of electricity and um charging the car.
+ 
+ 
+00:09:59
+ 
+Amber Fu: Mhm.
+Sueannele Lam: But we we do try to be good about like turning off the lights and I try to
+Amber Fu: Mhm.
+Sueannele Lam: be good about I think my husband put mostly like um uh LED lights in the house so it's supposed to be a little bit more savings too, you know.
+Amber Fu: Got
+Sueannele Lam: So, um, so I think we do what we can,
+Amber Fu: it.
+Sueannele Lam: but I think it's just we have a busy household that once everybody's home, everybody has the a TV on or a light on or,
+Amber Fu: Mhm.
+Sueannele Lam: you know, something. And I think we're probably charging the car every other
+Amber Fu: Got it. Mhm. Got it. Got it.
+Sueannele Lam: day.
+Amber Fu: And well not now that you have the battery uh like what are you hoping will change most like a lower than two
+Sueannele Lam: I'm I Yes, I'm hoping that I could probably cut the bill either by almost
+Amber Fu: uph
+Sueannele Lam: half or at least um pay for cuz I think what they tell me with the backup battery I'm supposed to get like about 4 hours out of it, you know,
+ 
+ 
+00:11:04
+ 
+Amber Fu: Okay.
+Sueannele Lam: but like I said, we haven't had a full charge on it just because of the weather and we haven't had
+Amber Fu: Okay.
+Sueannele Lam: more than I think a couple months worth the bill. So, like I said, I haven't seen a real true bill from my backup battery
+Amber Fu: Okay. Got it. Well, I I because I don't have a power wall.
+Sueannele Lam: yet.
+Amber Fu: So, I would I I just try to wondering to know like how will you know in six months like whether the battery was was worth it?
+Sueannele Lam: Yeah. Um I I I I'm contemplating getting a expansion pack which is a kind of like a power wall but it doesn't have the inverter so it costs less than the power wall. So uh the in uh the expansion packs cost like 15
+Amber Fu: Um,
+Sueannele Lam: 5900 without the federal tax rebate of this 30%. And I think with the expansion pack I could probably be 100% off the grid. But like I said, I don't think it's enough power to charge the car, but I think it would supply me with 100% of my household energy
+ 
+ 
+00:12:06
+ 
+Amber Fu: Uhhuh.
+Sueannele Lam: needs, but like I said, I haven't like um I mean,
+Amber Fu: Oh.
+Sueannele Lam: we're getting close to the end of the year, so I I I haven't made that commitment cuz, you know, it's it's a lot of money, you know, and um you know, they say that the Power Wall has a life expectancy of 10 years. and my solar system has a life expectancy of like 25 years and I'm
+Amber Fu: Mhm.
+Sueannele Lam: already like I think almost 10 years in, you know. So, I just I'm just trying to weigh it, you know, like you know, I I want to be good for the earth and I want to um save money, but you know, it's not always cheap to be green. you know, it's like, you know, you kind of like feel like you're you're you're projecting a savings for down the road because I feel like energy will continue to rise. So, I think that,
+Amber Fu: Mhm.
+Sueannele Lam: you know, I when I initially got my solar system,
+Amber Fu: Mhm.
+Sueannele Lam: I felt like I had to um be uh 11 years in before I made up the cost.
+ 
+ 
+00:13:16
+ 
+Amber Fu: Okay.
+Sueannele Lam: Yeah. So, so I don't know if you know based on my current usage if that
+Amber Fu: Okay.
+Sueannele Lam: projection is the same, you know, because my energy actually has increased based on my EV. But like I said, you know, I I'm not paying for gas in that vehicle. So, you know, it's, you know, you have to kind of factor that in.
+Amber Fu: Got it. But like if you look back in like 6 to 12 months, like what would make you say, "Oh, the battery was worth
+Sueannele Lam: Yeah. Uh, like I said,
+Amber Fu: it.
+Sueannele Lam: if I can get my bill down to what it was when I first got my solar panel, which was about 900 to, you know, 700 to to $1,000, for example, then I feel like it's worth it because I feel like I will, you know, in 10 years paid for it. But like I said, my my main reason other than the savings for the power wall is that we experience I think at least five power shut offs in my area and
+ 
+ 
+00:14:17
+ 
+Amber Fu: Okay.
+Sueannele Lam: and I would uh expect my power wall to kick in and I wouldn't lose any power in
+Amber Fu: Okay.
+Sueannele Lam: my house.
+Amber Fu: Got it. Got it.
+Sueannele Lam: Yeah.
+Amber Fu: And like uh like before spending another like you know five or sixk on pension like what information would you need to feel like
+Sueannele Lam: Well, I wish I had more time because I kind of felt like,
+Amber Fu: confident?
+Sueannele Lam: you know, the tax uh federal tax rebates are going to go away at the end of the year and I don't know if I could get something done in two weeks, you know? So, I kind of wanted to do it,
+Amber Fu: Okay.
+Sueannele Lam: but then at the same time, I just feel like I don't have enough time to make this decision because by the time I actually got my Power Wall, I still don't feel like I have a real true sense of my savings yet, other than the fact that I see it on my app, you know, that I'm self-generating a certain percentage a day.
+ 
+ 
+00:15:13
+ 
+Sueannele Lam: But, like I said, it's not a um a huge uh thing that I can actually see. All I know is that um I feel like solar is paid off because I know like my mom has solar after I got solar. My mom got solar and she has a big house so she has 100% offset.
+Amber Fu: Okay.
+Sueannele Lam: So uh she um her bill if she gets a bill has always been less than
+Amber Fu: Okay.
+Sueannele Lam: $200 a year or true up,
+Amber Fu: Mhm.
+Sueannele Lam: you know. So for her she sees a big savings.
+Amber Fu: Okay.
+Sueannele Lam: Um uh but for me too, I mean I look at it like sure I still have a true up and it could be a couple thousand dollar but I have friends who have an electricity bill of $400 a month you know so
+Amber Fu: Oh. Oh.
+Sueannele Lam: to me I'm kind of like well and then I read next door you know the app and people
+Amber Fu: Wow.
+Sueannele Lam: complaining about their PG bill and how small their house is or how big their house is and how they have a pool or a hot tub and their bill is like $800.
+ 
+ 
+00:16:16
+ 
+Sueannele Lam: So for me, you know, yeah, it's a big chunk of money in at one time, you know, when I pay that bill,
+Amber Fu: Mhm.
+Sueannele Lam: but I kind of feel like compared to other people, my bill is not that big, especially when I charge a car.
+Amber Fu: Okay. Got it.
+Sueannele Lam: Yeah. I mean,
+Amber Fu: Well,
+Sueannele Lam: my when my bill was like a thousand, my true bill was a thousand. I like I told you,
+Amber Fu: uh-huh.
+Sueannele Lam: I have two I have a friend that pays like 400 a month, you know?
+Amber Fu: Okay. Yeah. Yeah.
+Sueannele Lam: Yeah.
+Amber Fu: Well, yeah that that yeah compare that is better.
+Sueannele Lam: Yeah,
+Amber Fu: Yeah. And well like I was thinking like uh well if there like the app can
+Sueannele Lam: exactly.
+Amber Fu: showed you know something like oh with one more battery your girl usage would drop by like let's say like 10% or something but EV charging would still rely on the gold. Would that help you decide?
+ 
+ 
+00:17:13
+ 
+Sueannele Lam: Um, it's hard to say because like I said, you know, a lot of incentives are going away. You know, like when I got my my um my char my EV charger went out and I had to get a new
+Amber Fu: Okay.
+Sueannele Lam: charger. Um um I was able I'm going to be able to write that off, you know, next year,
+Amber Fu: Okay.
+Sueannele Lam: but I won't be able to write it off the year after, you know. So, you know, I think um it could do two things. It could be where all these solar companies are going to go out of business or they're just going to have to start lowering their
+Amber Fu: Uh-huh.
+Sueannele Lam: price because I'm pretty sure a little bit of what we pay is the fact that we're getting a a rebate. So, their prices are high, you know. Uh, but like I said, you know,
+Amber Fu: And
+Sueannele Lam: it's just one of those things. It's just kind of a wait and see kind of sitting. Maybe I won't save uh 1,400 or 1300 off of my expansion pack, but maybe by the time I actually can make a commitment, the solar company will sell it for $1,400 less, you know?
+ 
+ 
+00:18:12
+ 
+Amber Fu: Yeah. Yeah. Got
+Sueannele Lam: So, yeah. So, I think it's going to be one of those things I have to see after one full year of my backup
+Amber Fu: it.
+Sueannele Lam: battery. But like I said, my my position was I we lost power four times this year and it'd be nice when, you know, I don't lose power, you know. So, I think that might just be worth it on its
+Amber Fu: Yeah. Yeah. Exactly. Exactly.
+Sueannele Lam: own.
+Amber Fu: And well uh like on like the cloudy or winter day like what more stress more stressful for you like not knowing like how much charge you get or not knowing how long the battery will last night. Do you have that problem?
+Sueannele Lam: Uh well my reserve on my power wall is 40%.
+Amber Fu: I don't know.
+Sueannele Lam: So it will uh my house will draw from the backup battery after the sun goes down up to 40%. So after 40% it starts drawing from the grid again.
+ 
+ 
+00:19:07
+ 
+Amber Fu: Okay.
+Sueannele Lam: So, pretty much from when I look at my Tesla app, I can see that during the day, I'm pretty much drawing from my solar panel and any excess is going into my
+Amber Fu: Mhm. Mhm.
+Sueannele Lam: battery and a very little bit of it is going to the grid.
+Amber Fu: Okay. Go. Okay.
+Sueannele Lam: Yeah.
+Amber Fu: Got it.
+Sueannele Lam: And I'm charging my car at night time after midnight. So, it's not, you know,
+Amber Fu: And
+Sueannele Lam: it's not affecting anything because um even if I had a full charge and I was going to use up my battery, I believe my power wall is only 13 watts or g I don't know. It's it's something that wouldn't even be enough to charge my car completely.
+Amber Fu: okay. Okay. Got it.
+Sueannele Lam: Yeah.
+Amber Fu: Got it. Got it. And like would it help if like their app can told you in the morning like oh today you're likely only get 60% charge so plan to use less tonight.
+ 
+ 
+00:20:07
+ 
+Amber Fu: Do you think that will be helpful?
+Sueannele Lam: Um, I think like I just started to kind of play with my app a little bit on the Tesla app so I could
+Amber Fu: Uh
+Sueannele Lam: change my settings on my on my Power Wall. So, I don't know. But, like I said, I'm just still trying to learn it. So, I don't know if I truly understand it yet,
+Amber Fu: Mhm.
+Sueannele Lam: but I noticed like um uh the other night the car didn't charge and it turned out that our test our our wall box, which is our EV charger, needed to be reset. So, in the morning,
+Amber Fu: Uhhuh.
+Sueannele Lam: I didn't have enough. I mean, I had enough charge to get to work, but I I I wasn't 100% sure if I was going to like need to charge at a charging station. So, um um I think maybe if I got like a ping or something, you know, from either an app, I mean, the wall box is supposed to be a smart uh EV charger, but like I said,
+ 
+ 
+00:21:08
+ 
+Amber Fu: Mhm.
+Sueannele Lam: I didn't get I didn't know until um the morning time that I the car didn't charge.
+Amber Fu: Mhm.
+Sueannele Lam: So,
+Amber Fu: Got it.
+Sueannele Lam: I don't know if if there was an app that or the Tesla app or the uh the wallbox app ping me, you know, like maybe at midnight and saying that there's something wrong with the the uh the charger and it's not starting to charge, that probably would have been helpful. But as far as an app that tells me about maybe the forecast of the
+Amber Fu: Uh-huh.
+Sueannele Lam: weather versus the um percentage my power wall will be charged. Um I don't know if I will use it just because I'm not 100%
+Amber Fu: Okay.
+Sueannele Lam: familiar with my Tesla app enough to understand if I am setting it up uh enough. You know, like I said, I haven't experienced a power outage, so I don't know. Um, they just told me that, um, on a fully charged power wall, I will get enough charge to run my house without the air conditioner for 4 hours.
+ 
+ 
+00:22:20
+ 
+Amber Fu: Okay. Okay. Okay. Got it.
+Sueannele Lam: Mhm.
+Amber Fu: And well, um, like do you feel like there anything you could do today to, you know, lower that chew up or does it feel like something you only find out after the
+Sueannele Lam: Um,
+Amber Fu: fact?
+Sueannele Lam: I mean, it's nice to know that I could get an expansion pack for less than half of the cost of the power wall because it doesn't contain that inverter, but um, I just don't know if it's like worth the investment. I mean, I feel like it's going to be worth the investment because they say that they're guaranteing guaranteeing the power wall for 10 years. So, I feel like if I'm going to save like,
+Amber Fu: Okay.
+Sueannele Lam: you know, some money, it might be worth it. But like I said,
+Amber Fu: Mhm.
+Sueannele Lam: my half of the reason for me getting on the power wall was the fact that we lost power. And, you know, I worry about my refrigerator and the lights and, you know, things like that when we lose power.
+ 
+ 
+00:23:19
+ 
+Amber Fu: Got it. And well and beside like a dollar amount like what would actually make you feel like emotionally confident say oh yeah the power was like 100% worth it.
+Sueannele Lam: Uh, well, I'm a big fan of the environment. So,
+Amber Fu: I'm
+Sueannele Lam: for me, it was always kind of,
+Amber Fu: okay.
+Sueannele Lam: you know, half the money savings, but just half just being green,
+Amber Fu: Okay.
+Sueannele Lam: you know? So, so for me it was kind of like, you know,
+Amber Fu: Okay.
+Sueannele Lam: I feel like it is going to be better that I'm less reliant on the grid, but like I said, I just forecast that PG and other electrical companies will just keep going up and, you know, like it's it's it'll never go down, you know. So, I just feel like, you know, I will see a savings based on the fact that I'm, you know, um less reliant on the grid.
+Amber Fu: Got it. Got it. Well, I was thinking like if like if after maybe like a year and the true up bill like only drop let's say like $100, would you feel like disappointed or will the backup like reliability alone still make it worth
+ 
+ 
+00:24:33
+ 
+Sueannele Lam: Yeah,
+Amber Fu: it?
+Sueannele Lam: I think if we experienced four power shut offs like we did in the past, I might say like, okay, I only saved three or $400, but I mean, think of all the time that we didn't have to like worry about the food getting thrown away and stuff like that, you know?
+Amber Fu: Got it.
+Sueannele Lam: So,
+Amber Fu: Got it. And what and and for like the uh like I was thinking like what the biggest thing like stopping you from adding the expansion right now like is it money or is it like unconcerned or it's just not feeling like in for enough
+Sueannele Lam: I think it's more of the money.
+Amber Fu: yet?
+Sueannele Lam: I think like I kind of feel like if I'm not going to get the 30% rebate,
+Amber Fu: Okay.
+Sueannele Lam: I don't think it's worth it, you know?
+Amber Fu: Oh.
+Sueannele Lam: So, I'm hoping that if I don't do it um now because I don't have enough time to make it that kind of big decision,
+Amber Fu: Oh.
+Sueannele Lam: if I made it like six months from now and there's no more um incentives that the solar companies will say, "We'll give you the solar the incentive upfront by giving you $1,400 off of the expansion pack." Then I'll be like,
+ 
+ 
+00:25:46
+ 
+Sueannele Lam: "Okay, I don't have to wait for my rebate,
+Amber Fu: And
+Sueannele Lam: you know, from the government. I could just get it now in the savings of the of the cost and then I'll be like, "Okay, it it it would have been the same price if I got it before the end of 2025 now that we're like heading into the summer and the sun's going to be like,
+Amber Fu: Mhm.
+Sueannele Lam: you know, fully on,
+Amber Fu: Mhm.
+Sueannele Lam: you know, h more than half of the day, you know.
+Amber Fu: Got it. Got it. And well, do you ever change your behavior because of battery like right now?
+Sueannele Lam: No, I mean I still make sure that the kids turn off the lights and that, you know, if we're not watching TV, we should turn, you know,
+Amber Fu: Okay.
+Sueannele Lam: definitely turn it off, you know. But, you know, like I said, some some things in our house has changed. Like I like I said, my husband works in the office now versus working from home.
+ 
+ 
+00:26:37
+ 
+Sueannele Lam: So, you know, I think that that's why it was a little different.
+Amber Fu: No.
+Sueannele Lam: Um, you know, but then like I said, um, we're charging the car a probably a little bit less too because, you know, he's driving it more than me sometimes and then, you know, he's not driving as far that I drive, so we're not charging it all the as
+Amber Fu: Got it. And and um let's say like if there have like app could to tell tell you that ahead of time like tonight you're totally safe, no usage, no surprise, would that actually change how you feel dayto day?
+Sueannele Lam: No, I think I just live my life, you know. I think right now when I'm looking at my Tesla Power Wall app feature on my phone,
+Amber Fu: Okay.
+Sueannele Lam: I'm just curious because it's still new,
+Amber Fu: Okay.
+Sueannele Lam: you know. And you know,
+Amber Fu: Okay.
+Sueannele Lam: my solar company went out of business. It was Svity. And um they used to have an app um when I first signed up with them like eight
+ 
+ 
+00:27:30
+ 
+Amber Fu: Uh
+Sueannele Lam: years ago. And I used to look at the app all the time cuz I was like, "Oh my god, today we made this much uh you know, energy savings and everything like that." But then after I think like a few months, it kind of like my my interest kind of like went away, you know. So,
+Amber Fu: Uh
+Sueannele Lam: um I think I'm like right now still very curious about how my power wall works. So, I'm looking at it a little bit more, but I think, you know, I'm not um you know, um really understanding it 100% yet still. So,
+Amber Fu: I'm dead.
+Sueannele Lam: I think maybe when summer comes and I see it being full 100% every day and um you know and I maybe when I get my true up uh progression you know like every month when I get my bill I look at you know how much you know my net metering
+Amber Fu: I
+Sueannele Lam: is then I will probably understand like oh you know I think um compared to last year
+ 
+ 
+00:28:26
+ 
+Amber Fu: am
+Sueannele Lam: where my bill was you know my net metering uh cost was like $2 or $300 $100, you know, in the in the summertime, I'll be like, "Oh, this year it's only, you know, less than, you know, 150 or something, you know, and it's summer." Cuz my my biggest bill is in the is in the
+Amber Fu: Oh okay. Okay.
+Sueannele Lam: summertime.
+Amber Fu: And well if there like there like app can told you like very clearly like if you uh shift those two thing your true up bill will drop by like about $300. Would you actually want to change those behavior or would you rather just understand it and keep living the you know same way?
+Sueannele Lam: I I think that I'm kind of very good about doing what I do, but like I said, you know, it's really hard to say because there's just so many different factors,
+Amber Fu: Okay.
+Sueannele Lam: you know, like you know, there I I haven't had like a full year on the Power Wall and um February would be the first year, full year that my husband's been working in the office and um so I don't know what I could do or what an app can tell me to do that will change like any type of behavior other than the fact that you know I just just
+ 
+ 
+00:29:47
+ 
+Amber Fu: And
+Sueannele Lam: make sure when we leave the house everything's all the lights are off you know so and even the even the
+Amber Fu: oh
+Sueannele Lam: heat I turn off the heat when we leave the house and we I use my smart thermostat and I turn it
+Amber Fu: Good.
+Sueannele Lam: on a couple hours before I come home. Same for when we go on vacation in the summertime. I turn off all the the air conditioning and everything and I get on my um my Honey Well um app and turn on the air conditioning uh a few hours before we come home so our house isn't hot.
+Amber Fu: Got it. And and like if next year like you try bill like uh like stay around still
+Sueannele Lam: Okay.
+Amber Fu: like you know uh let's say like 1500 but you fully understood why would that still bother you or would you feel like okay about it?
+Sueannele Lam: Um I think I would need like one whole year, you know, which I'm not going to get because um my solar system is I mean my power wall
+ 
+ 
+00:30:42
+ 
+Amber Fu: Okay.
+Sueannele Lam: is only like a couple months old and my true up was in November. So,
+Amber Fu: Okay.
+Sueannele Lam: I don't h I don't have a real um understanding of a 12-month um cycle yet.
+Amber Fu: Okay.
+Sueannele Lam: Yeah. I'm I'm just going by um the last couple years um
+Amber Fu: Okay.
+Sueannele Lam: before we got the car and then after we got the EV. And like I said,
+Amber Fu: Mhm.
+Sueannele Lam: it was a difference of like $300.
+Amber Fu: Mhm.
+Sueannele Lam: And the uh this year was less because I think my husband drove the car more.
+Amber Fu: Mhm.
+Sueannele Lam: Um so we charged it less and uh he didn't work from home
+Amber Fu: Mhm. And and so I would I I I was trying to say is like if like
+Sueannele Lam: so
+Amber Fu: uh their have app app can show you exactly like uh let's say like if you receive another like $1,000 TRA bill they can show exactly the reason and ex explain you like very clearly like oh uh because like the EV AC like percentage like some like do some math stuff and you can just really understood like where this $1,000 come from.
+ 
+ 
+00:32:02
+ 
+Amber Fu: Do you think that would be helpful or you're do you you don't you don't mind.
+Sueannele Lam: Um, I would be interested just because I like seeing the numbers, but I honestly don't know if I could make any lifestyle changes.
+Amber Fu: Okay. Okay.
+Sueannele Lam: I know sometimes my husband forgets to charge the car and then he charges it at three o'clock in the afternoon. I'm like, you know, this is like peak time, right? You know, so I would be like, you know, you you know,
+Amber Fu: Yeah.
+Sueannele Lam: so I don't always if he's going to charge I said, don't charge it too much because it's like we're paying for more electricity right now,
+Amber Fu: Yeah.
+Sueannele Lam: you know.
+Amber Fu: Yeah. Yeah.
+Sueannele Lam: So I mean, we're trying by like charging start scheduling the charge at midnight,
+Amber Fu: Yeah.
+Sueannele Lam: you know, and then it finish charging usually by six o'clock, you know. It's a it's a 32 amp. So, it's not like a fast charger, but um you know,
+Amber Fu: Mhm.
+ 
+ 
+00:32:52
+ 
+Sueannele Lam: it's it's all we need for, you know, the time we go to bed and the time we wake up. So, but I mean, I would be curious on that app just because I would like just to see the numbers because I would just say,
+Amber Fu: Mhm.
+Sueannele Lam: well, look, you know, this is what we're spending on AC a year and this is what we're spending on, you know, charging our car. But like I said, at the end of the day, um I don't know if we could make too many changes. I mean, we want we we we when when it's summertime, I have the house uh a AC on upstairs cuz the heat rises and I have it set for 72. So, I mean, it's comfortable, but it's not cold, you know? So,
+Amber Fu: Got it. Got it. And and well and if you had to like pick one like saving another few hundred dollar a year or never having to think about it like outage or battery limit which one matter more to you.
+ 
+ 
+00:33:54
+ 
+Sueannele Lam: Um, I'm just hoping that I'm going to save money just because, you know, the power wall was an investment and,
+Amber Fu: Okay.
+Sueannele Lam: you know, other than the fact that we were not going to experience any more power outages because of the the backup battery. Um, uh, I'm just hoping that, you know, I will see some kind of changes in those savings. I mean, I look at the app and I feel like I'm going to save money because I'm I it shows that I'm self-generating a certain percentage a day. So, instead of giving it back to the grid,
+Amber Fu: Mhm.
+Sueannele Lam: I'm I'm storing it.
+Amber Fu: Got it. And like like would you ever want to know like exact number like oh you you have 63% like battery uh power left by midnight or it's just enough to just know like oh you're fine
+Sueannele Lam: Yeah, right now when I look at it,
+Amber Fu: tonight.
+Sueannele Lam: I think I start pulling from the grid as because of the the night the the days are shorter now. I'm already pulling from the grid by like I think 8:00.
+ 
+ 
+00:34:59
+ 
+Sueannele Lam: You know, it's not it's not it's not that huge of a savings,
+Amber Fu: Okay.
+Sueannele Lam: but that's only because I'm not I'm not getting 100% storage yet. You know, it's not what I'm using from the grid in the day is enough
+Amber Fu: Okay.
+Sueannele Lam: to um run my house but not fully charge my
+Amber Fu: Mhm.
+Sueannele Lam: battery.
+Amber Fu: Okay. Okay. Okay. Got it. Got it. And like if if something like uh like there have a like the app can help you handle all the you know timing stuff and just
+Sueannele Lam: I'll be there.
+Amber Fu: let you know like when you should charge and when you should like you know uh like maybe sometime you can precooling or preheating like avoid like peak hour something like that. Do you think that will be valuable for you?
+Sueannele Lam: Um, I think I'll be valuable in the sense that I like to see it, but I don't know if I like to see it constantly, you know. I think it if it works in the background um you know and maybe my bill is surprisingly
+ 
+ 
+00:36:02
+ 
+Amber Fu: Uh
+Sueannele Lam: that month I might look at that app and say oh we ran the air conditioner you know had more hours this month than the previous month for example then maybe for a
+Amber Fu: yeah,
+Sueannele Lam: person who likes looking at numbers they might find that interesting but for me I just kind of feel like we just live our life you know we're just busy um and the fact that I'm looking at my Tesla app right now is more out of curiosity because it's new.
+Amber Fu: Mhm.
+Sueannele Lam: Just like when I had the app for the um the solar panel, I looked at it a lot in the beginning. Uh because I was like, "Oh, this is what it's doing right now. It's it's it's generating this much of,
+Amber Fu: Uh,
+Sueannele Lam: you know, wattage or whatever." But at the end of the day, I, you know, life got busy and I didn't even look at it anymore. And then the company went out of business. So, you know,
+Amber Fu: okay.
+Sueannele Lam: we don't even have the app anymore.
+ 
+ 
+00:36:54
+ 
+Amber Fu: Oh, okay.
+Sueannele Lam: But then that's the thing,
+Amber Fu: Okay.
+Sueannele Lam: too. when when they went out of business and I think another company took it over and they were trying to sell me like an app that showed me my um how much I generated and I never even bothered to pay for cuz I kind of felt like well the sun's going to do what it does my panels are going to do what it does and if it if it breaks there's nothing I could do about it because the company's not even in business anymore.
+Amber Fu: Got it. Got it. Got it. And and and like uh because you mentioned that like you know sometime the night the car didn't charge. Uh so like when would you want to know like you're you forgot to charge like immediately when it's fail or is in the morning alert enough.
+Sueannele Lam: I mean, luckily for us, they recently put in a whole bunch of Tesla chargers across the street from my us. So,
+Amber Fu: Okay.
+Sueannele Lam: so if worse comes to worse, we just go across the street and we charge really fast.
+ 
+ 
+00:37:56
+ 
+Amber Fu: Okay.
+Sueannele Lam: But there in when we first bought our car,
+Amber Fu: Okay.
+Sueannele Lam: the nearest charging station was like a good almost 10 minutes drive, you know? So, for a person who who's very chicken like me,
+Amber Fu: Mhm.
+Sueannele Lam: and I get a lot of like um uh mileage anxiety, like if the car gets down to a certain low point, I get worried that I'm going to get stranded, you know? So, um but now I don't worry about that because if even if I had like 1% power left in my car, I could make it across the street,
+Amber Fu: Okay.
+Sueannele Lam: you know?
+Amber Fu: Okay. Okay.
+Sueannele Lam: Yeah.
+Amber Fu: Got it. Got it. And well, like when your husband end up like charging at the 3 p.m. like what usually caused that? like was like forgotten to charge overnight or unexpected trip.
+Sueannele Lam: I think we just probably drove it more and we cuz we don't we tend to charge it every other day and
+Amber Fu: Uhhuh.
+ 
+ 
+00:38:52
+ 
+Sueannele Lam: maybe we just went further than we expected and we didn't want to get rain anxiety so
+Amber Fu: Mhm.
+Sueannele Lam: we just probably charged it just so that we don't worry about being you know cuz I mean you know that on a Tesla Uh, even though it says 20 miles, it's not a real 20 miles, you know. It depends on a lot of factors, you know,
+Amber Fu: Yeah. Yeah.
+Sueannele Lam: cuz I could take my kids to school across town and normally it wouldn't change my gas gauge at all,
+Amber Fu: Uhhuh.
+Sueannele Lam: but on a on a Tesla on a hot day running air conditioning or maybe a cold day running the the heat heated seats, you know, you're like gone through 10 miles and you probably only drove like a real three miles, you know? So, yeah. So it's sometimes, you know, even though they tell you you have enough distance, there's other factors and you may not.
+Amber Fu: Yeah. Yeah. Yeah. Exactly. And like if like if there have app can detect someone start to charging during the
+ 
+ 
+00:39:42
+ 
+Sueannele Lam: Yeah.
+Amber Fu: pickover, uh what would you want it to do? Like text you text you or like show the warning.
+Sueannele Lam: No, I mean, if we have to do it, we do it. But I always kind of look at him badly like,
+Amber Fu: Okay.
+Sueannele Lam: you know, it's probably going to cost me like double, you know, charging at 3:00 p.m. versus 3:00 a.m., you know, but like I said, I don't know. You know, sometimes sometimes we do what we have to do. But, you know, like I said, there's other times where he just drove it across the street in charge because we only had so much time to get on the road, you know.
+Amber Fu: Got it. And like and for the power well like what bad battery percentage make you feel safe at night like 40 40% or
+Sueannele Lam: Yeah, it's it's right now set for 40%. So,
+Amber Fu: 60
+Sueannele Lam: it's no matter no matter how much energy I use, it's not going to go down 40% unless the power gets cut off and then it starts going down below 40%.
+ 
+ 
+00:40:48
+ 
+Amber Fu: got it. And like if there have a app can recommend like oh tomorrow look cloudy uh consider like setting reserve to 60%. Would would you follow that
+Sueannele Lam: I don't know. I try to play, like I said, I try to play with it and then it says, "Are you sure you want to do this?" You know, and I said, "Okay, I'll put it back to 40." You know, so I think the recommendation is 40 and I just kind of kept it.
+Amber Fu: okay?
+Sueannele Lam: Yeah.
+Amber Fu: Got it. Well,
+Sueannele Lam: Yeah.
+Amber Fu: like have there have been a moment in like like last six months where you were like kind of like stressed like oh no we we may not have enough charge uh or like the power may go out or the bill may may go high and is actually like affect your day like have you have that ever have that moment or you don't worry about
+Sueannele Lam: I'm I'm actually waiting for the power to shut off now. Now that I have a power wall and it hasn't shut off yet.
+ 
+ 
+00:41:47
+ 
+Sueannele Lam: So, I'm just waiting to see do I lose power for like one second and then my lights go back on. You know, I have, you know, the whole point was to get the power wall so I don't lose power. So, I don't know. um how my feelings are on it until I probably experience my first power outage. And no, no, no, none of our power outages have been scheduled. It's always just like a rolling one or, you know, somebody hit a pole down the
+Amber Fu: Mhm. Got it. Got it.
+Sueannele Lam: street.
+Amber Fu: And and if there like the app can like uh uh can just like worry you a little bit like oh the car didn't charge or charging accidentally happened during the peak. Would that be more valuable than see seeing like a detail breakdown
+Sueannele Lam: Um, it depends. I mean,
+Amber Fu: chart?
+Sueannele Lam: if it alerts me, but like I said, I have it scheduled to charge at midnight. So, if it did alert me, I probably would be asleep, so I wouldn't even know, you know.
+ 
+ 
+00:42:44
+ 
+Sueannele Lam: And like I said, it's it's not the end of the world like it used to be because now we have a char we have lots of uh um superchargers across the street from my house. So if if I don't charge at home,
+Amber Fu: Well,
+Sueannele Lam: I could always charge across the street, you know, but it was just, you know, it hasn't happened that often. It's only happened like maybe a couple times and then it turns out one the uh the old juice box that we had like malfunction and we got a new one and now we have a wall box which is supposed to be a smart EV charger.
+Amber Fu: Got it. And like like right now like dayto day uh what what the most to like uh how how long you you need to like how how many time you take for you know managing your energy setup.
+Sueannele Lam: Like I said, I'm just we're just living our life,
+Amber Fu: Uhhuh.
+Sueannele Lam: you know, and I'm just going to have to see in one year, you know,
+ 
+ 
+00:43:45
+ 
+Amber Fu: Oh,
+Sueannele Lam: like a full year and see like um next November when I get my final true up. I mean,
+Amber Fu: okay.
+Sueannele Lam: I'm going to see it monthly, you know, when I get my bill cuz I do look at my net metering, but I won't know uh a true savings probably for a good 12 months. And like I said, it just all depends, you know? I mean, 6 months from now, I could probably get an expansion pack and then it's going to change things again,
+Amber Fu: Mhm.
+Sueannele Lam: you know.
+Amber Fu: Got it. Got it. And well like uh I have like last two question and first is like what's the most like frustrating part of managing like you know solar power wall EV right now? Do you have it that frustrating moment like right
+Sueannele Lam: No, I just kind of feel like,
+Amber Fu: now?
+Sueannele Lam: you know, um I'm just going to wait and see if like we get a power outage, you know? That's the only way I'm going to feel like,
+ 
+ 
+00:44:40
+ 
+Amber Fu: Okay.
+Sueannele Lam: oh geez, look outside. Everything's dark and we still have light.
+Amber Fu: Okay.
+Sueannele Lam: Yeah.
+Amber Fu: Okay.
+Sueannele Lam: So, I think, you know, when I I I know somebody else that has a power wall and when we lost power,
+Amber Fu: Okay.
+Sueannele Lam: I called her up and she says like, "Oh, no. I still have my lights on." So, her, you know, I know it works. You know, I'm just waiting for it to actually do what it's supposed to do once we lose power. But right now, it's not changing my life in any way just because I haven't seen the savings and I haven't seen any power outages yet.
+Amber Fu: Got it. Got it. And what what LA one's question is like if their have a system could you know really save you around let's say like $30 per month uh for your electricity bill. Do you think that will be worth to pay it? Like after you see like the bill and you real they really like help you lower the like maybe $30 every month.
+ 
+ 
+00:45:41
+ 
+Amber Fu: Do you think that will be worth to pay it? That will be valuable.
+Sueannele Lam: It just all depends on what you ask me to do. You know, like I said, I think we kind of do, you know, what we do, but like I said, we just live our life, too. you know, I don't tell my kids, you know, to turn off the light, you know, if and have them sit in the dark or anything, you know. So, to me, it's like, you know, we do try to turn off the light or turn on the turn off the TV when we don't use it. I set my thermostat at a comfortable level,
+Amber Fu: Mhm.
+Sueannele Lam: but not like, you know, too too cold in the house, you know, during the summer, it's still, you know, it's it's comfortable. So,
+Amber Fu: Okay.
+Sueannele Lam: unless you tell me my app, the app that you create tells me, you know, change the thermostat to 75 and you're going to save $30. I'll be like, maybe I'll try that.
+ 
+ 
+00:46:35
+ 
+Sueannele Lam: And I'll be like, oh,
+Amber Fu: Okay.
+Sueannele Lam: it's too hot.
+Amber Fu: Okay. Okay. Totally. Got it. Got it. Got it. Well, and well, thank you. Well,
+Sueannele Lam: Yeah.
+Amber Fu: this is like this conversation was super helpful. Like I what I'm hearing is like you're not looking like opposite over energy every day. You just want to things to work in the background, right? like and avoid like you know something like mischarge or like pig time charging and feel like confident you are not getting surprise at the true up. Okay.
+Sueannele Lam: Mhm.
+Amber Fu: Okay. Did I capture that right?
+Sueannele Lam: Mhm. Yeah. Yeah,
+Amber Fu: Okay.
+Sueannele Lam: I just want to see a change in my true up um after 12 months and I probably will see it
+Amber Fu: Uhhuh.
+Sueannele Lam: because I mean I feel like you know we're pretty consistent, you know, but I mean it could it could be like I said 6 months from now if I could afford and I get a Power Wall expansion pack that will throw a wrench in, you know, in like any actual progress because I'll be like, well, now we have this so it's going to change again, you know.
+ 
+ 
+00:47:38
+ 
+Sueannele Lam: So I'm not going to if there's going to be a different factor in the equation the the end result will will be different you know so I'm I have to kind of see you
+Amber Fu: Mhm.
+Sueannele Lam: know um what the factor is you
+Amber Fu: Okay. Got it. Got it. Well,
+Sueannele Lam: know
+Amber Fu: uh like we are working on a very lightweight version of that. uh you know you just uh simple low noise and only pins user when something actually off you know catching the problem problem early and making sure like a charging happened at the right time without you having to think about it. So uh like would you be o open to me reach reach back out to get your like feedback later if we have a lot early version. Would you be open to try it out?
+Sueannele Lam: Yeah, I would I would be be curious about it. I mean, I hope I hope you guys have success.
+Amber Fu: Okay.
+Sueannele Lam: I kind of worry for the fact that, you know, that we lost so much incentive to go green, you know, that it's going to not incentivize people to, you know, make that move because it's not it's not cheap. Like I said, it's not cheap, you know.
+Amber Fu: Yeah,
+Sueannele Lam: you know, it it it's you know, they it we were kind of heading in the right direction and then we changed the administration.
+Amber Fu: exactly.
+Sueannele Lam: So now, you know, I kind of feel like, you know, it's not being on the forefront
+Amber Fu: Got it. Got it. Well, thank you again.
+Sueannele Lam: anymore.
+Amber Fu: This was super helpful and you know, uh I'm really appreciate and you know uh I like please keep in touch.
+Sueannele Lam: Yes, I enjoy having these conversation.

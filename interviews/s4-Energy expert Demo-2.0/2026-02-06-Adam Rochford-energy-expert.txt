@@ -1,0 +1,615 @@
+Feb 5, 2026
+Casally Utility Bill&Solar Credit Consulting(Adam Rochford) - Transcript
+00:00:00
+ 
+Amber Fu: What boyfriend should I Uh, Hello.
+Adam R: Hello. How's it
+Amber Fu: Good. Good.
+Adam R: going?
+Amber Fu: Hi. I don't Thank you taking your time today.
+Adam R: Yeah, of course. Thank you for having
+Amber Fu: Uh-huh. Yeah.
+Adam R: me.
+Amber Fu: So, um, okay. So, let me introduce myself a little bit. Yes. Uh,
+Adam R: Sure.
+Amber Fu: my name's Amber. So, uh, we are, uh, we, um, basically our team is from, uh, uh, California, uh, Los Angeles, but right now I'm in China. So yes, we have a both team like in either in China and the LA and uh so before we dive in, let me give you a bit of a you know contact about like who I am and why we're doing this. So yeah, so I'm uh so I'm coming at the you know someone who's been personally confused and honestly like frustrated by how like residential energy bill has become. So the reason we uh start this uh is actually very simple.
+ 
+ 
+00:02:08
+ 
+Amber Fu: So like even people who do everything right solar ease like avoiding peak hours uh still don't really understand why their bills change and the people who should be benefiting the most for from like clean energy are often the most confused. So what bothers me was that like you know the system is getting more complicated but the explanation are getting worse. So our team like say right the you know of the software hardware and energy will work on uh AIS uh AI system and the consumer face of product and hardware uh integrate software but what we hadn't seen down well is like consumer grade uh interpretation layer for the energy. So we're not like trying to sell the power and not try to replace the utility and we're not trying to automize everything automatically without explanation. So we're trying to sit between like the system and household and make the s system liable. So our goal is to make like residential owning be have like more like financial system people can actually
+Adam R: Sure.
+Amber Fu: understand
+Adam R: And and is that going to be based on a software solution or hardware as well?
+ 
+ 
+00:03:25
+ 
+Amber Fu: both.
+Adam R: Both. Okay. Okay. Yeah.
+Amber Fu: Yeah.
+Adam R: And that's that's a big question I had kind of looking over some of the the info Jessica had mentioned about what you guys are looking for is um because yeah,
+Amber Fu: Uhhuh.
+Adam R: you know, I I've been doing this in the renewable energy industry for 14 years now and um dealing with utilities can be extremely difficult. They purposefully make these um their bills and their policies difficult to understand so that you know normal everyday people aren't able to get a handle on uh their utility charges. And there's only so much that software solutions can do because of the inputs required in order to get a full look at um not
+Amber Fu: Um,
+Adam R: only in the case of on-site generation uh your credits and production but also your consumption values as well. So that's um helpful to know that that there'll be a a u device actual um physical device aspect to that as well.
+Amber Fu: Yes. So um like right now our uh product direction is clear but the calculation model is not.
+ 
+ 
+00:04:36
+ 
+Amber Fu: So you know we don't want to guess like a simple life too much or uh like you know uh just do something that the system doesn't work. So that's why I want to talking to someone like you. Your background matter a lot to us.
+Adam R: Yeah. No, absolutely. And you know, and that's this is something that I've dealt with as well. Um, as I mentioned to, Jessica,
+Amber Fu: Mhm.
+Adam R: you know, my my background is in the commercial space, but a lot of these issues carry over to residential also, particularly on the um the credit tracking and uh 8760 interval data.
+Amber Fu: Mhm.
+Adam R: um reporting for these projects is is where there's a lot of uh missing information for where you can connect what's actually being consumed on site, what's being put back onto the grid, and what you're actually consuming because in most of these utility territories like um and I know we had kind of um messaged about PG&C, uh San Diego and LWP and each of those have unique problems for what they report on their bills.
+ 
+ 
+00:05:47
+ 
+Adam R: And not only that, but based on what program they're on as well, whether that be legacy NEM 1.0 2.0, um, or the updated, uh, net billing programs, or in LWP's case, their net metering program, which is a little easier to understand, but still your your tracking information available on your bill is not as robust as it should be. Again, that one is a more friendly program. Um but still there's a lack of transparency on that that we see reflected in the commercial side as well where um what we've done for a solution on the commercial side is using data loggers for you to get that interval level production and consumption information so you can double check um what's happening on your bill is is is actually correct based on what you're seeing on the rooftop also because that's that is something that we've seen as well is they're not always right, with their calculations and their netting of charges. Um, and that's something you would never be able to figure out if you didn't have hardware in order to do so.
+ 
+ 
+00:06:52
+ 
+Amber Fu: Yes. Yes. Exactly. So that's why we are trying to do you know build the those things that can really help people to understand. Um so you know what uh can I uh I will send you a link is our app. Uh let me give me a second.
+Adam R: s***.
+Amber Fu: Yes. Uh already I send you a link uh through the meeting. In the meeting there have a chat with everyone.
+Adam R: Oh, and yeah.
+Amber Fu: Did you see it?
+Adam R: Mhm.
+Amber Fu: Okay. Um you can click on and I I don't know if you're using a computer or not. If like you're using computer uh you if you don't mind you you can share the screen and I can you know go over with you a little bit.
+Adam R: Yeah. Let's see
+Amber Fu: Okay.
+Adam R: here.
+Amber Fu: Oh and before we get start do you mind I record this call is totally option.
+Adam R: No, that's totally fine. Yeah, that's all right.
+ 
+ 
+00:07:59
+ 
+Amber Fu: Okay.
+Adam R: Is that showing up for you?
+Amber Fu: Yes.
+Adam R: Okay.
+Amber Fu: Okay. So, uh so let me uh go over like really fast for this app. So, um you know at like uh you can see like at the top we show like the device connected. Uh and this is like you know like if it's like solar or power wise offline you'd want to know like immediately. And uh the next uh uh part is like a monthly bill budget. So uh this is more like uh it's not like a optimization target. It's it's more like a tolerance boundary. It's just you know the the for example like uh when the customer they have uh like uh average like $200 but you know usually like summer or winter sometime bill goes up. So uh we let the customer choose like uh their like if like for example their monthly bill budget were 200 and we have some like a range like 170 to 200 uh they can choose like 170 make sure they don't have a surprise bill.
+ 
+ 
+00:09:21
+ 
+Amber Fu: Yes.
+Adam R: Mhm.
+Amber Fu: Uh for and and the below that will is a suggestion card. So basically is uh just we we we have a like you know like card kind of like an actionable moment. So the top is like what's happening and the middle is what to do and the bottom is exactly the when. So it basically it's like a reason action and time and uh which and also they have automatic and a manual. So basically just uh if like a customer want the system to handle the routine decision for
+Adam R: Well,
+Amber Fu: them uh they can they can do the automatic either or otherwise they will do the manual uh by theirel. But basically like those is kind of like uh event uh actionable moment and
+Adam R: and that's the hard sometimes the hardest part as well is is identifying and then training the behavioral adjustments that are going to allow you to to target um you know off- peak hours and ensure that you're not getting hit with I mean in this case residential you don't see a demand charge but on hours for things like EV charging and all that that's definitely a pain point that I feel
+ 
+ 
+00:10:29
+ 
+Amber Fu: Amen.
+Adam R: on the commercial side as well which I think um bleeds over into the residential side
+Amber Fu: Amen.
+Adam R: is the training and knowledge to understand uh these sort of triggers for what you can do, actionable items and uh getting a heads up on uh when and where you need to apply those in order to impact your charges. And that that's very helpful.
+Amber Fu: Yes. So basically like you see like the monthly bill budget uh we're design about this is is like uh we're not like telling the P app uh app like how low your bill should be. uh is like telling is like if your bill goes about this I want to know early and I want to help before it's come as price bill. So this is kind of very different from like traditional budgets. We're not trying to optimize uh the customer build the lowest possible number and we're definitely not forcing the customer to change uh the lifestyles. So like think this monthly bill budget as your like you know personal this is still feels okay line.
+ 
+ 
+00:11:42
+ 
+Amber Fu: So different people have a different uh tolerance. So you you know some people are totally fine with a particular like $200 bills but another start to feel stress stress once it goes about like a 150 or something. So once a customer set the boundary everything else in the app become like you know relative to the customer. So the same event can be very different thing to different people. So for example like uh this like a $12 pickour charging mistake if like the the user budget is like a 300 something it may may not be worth to bother it but if the budget is like 150 that would be really matter. So this is like you know so this is the budget the center. So we are trying to decide the three things. Also what we flag as risk and what show up on home and which action we push and which action we quite quiet quietly ignore.
+Adam R: So is that is that based on like dynamically based on a trend for the month as well for a as you're
+ 
+ 
+00:12:47
+ 
+Amber Fu: Yes. Yeah.
+Adam R: okay.
+Amber Fu: And and after it you can go uh scroll down a little bit. Yeah. So, next one is uh it's kind of like a power outage warning, but I have a question. So, because I live in Pasadena, I actually I never have Oh,
+Adam R: Mhm.
+Amber Fu: anyway, like uh especially like the fire thing, you know, like a couple months ago. Yeah.
+Adam R: Yeah,
+Amber Fu: Before that, I never got the power outage warning.
+Adam R: that's surprising. Yeah.
+Amber Fu: Uh
+Adam R: So, you you just never got the warning, but that you had the outages and just had no warning on
+Amber Fu: actually, no.
+Adam R: them.
+Amber Fu: I believe there like 10 years. I I can't remember any.
+Adam R: That's crazy.
+Amber Fu: I don't I don't know.
+Adam R: I mean,
+Amber Fu: But I
+Adam R: even when I even when I've been out for, you know,
+Amber Fu: just
+Adam R: I used to work for um Renee Solola, which was a panel manufacturer, um and then Sunrow as well.
+ 
+ 
+00:13:45
+ 
+Adam R: And I used to go out to California a few times a year in San Francisco and Los Angeles. And every single time I was out there, it seemed like uh I was getting power outages uh for at least a couple of minutes in in
+Amber Fu: Oh.
+Adam R: the Bay Area and then in LWP territory as
+Amber Fu: Uhhuh.
+Adam R: well.
+Amber Fu: Got you. But uh I was wondering know like uh I I heard some uh customers said that uh sometime the utility don't have any warning they just shut down. I don't know if that's true.
+Adam R: Yeah. So they can get uh you know fault triggers and it does depend on um the substation but you can definitely trigger faults uh without the utility being aware of it. Um usually they'll have a split second but not enough time to push a notification to anyone. um especially in a market like California where um they have been more active in um load shedding and um with the solar and battery energy storage. They've done a little better control of controlling the uh the capacity, but that's what they were having difficulty with is too much power getting pumped back on to the grid while at the same time they're experiencing high demand.
+ 
+ 
+00:15:12
+ 
+Adam R: And that can uh trigger um you know an unknown fault in the system that'll shut down pretty quickly if they're doing overcapacity on any of those substations. So that's not that surprising. But even now, some of the most sophisticated um SCADA systems, they can detect it within fraction of a second, but you know, that's not going to be fast enough to send out notifications to people. It's only when you start cascading shutdowns,
+Amber Fu: I don't know.
+Adam R: like not on that substation, but the one next door. Then that might trigger a preventative shutdown in a secondary area that they might get the warning, but the first one didn't.
+Amber Fu: Okay. But if like they uh don't have a much time to have a like early warning what the I mean what's a residential they they should do like there any plan or any
+Adam R: So, I mean, not really. So, you know,
+Amber Fu: what
+Adam R: and that's I've I've worked with commercial customers that that's a big issue for um and to show to kind of just demonstrate the the size of the problem.
+ 
+ 
+00:16:20
+ 
+Adam R: In a commercial standpoint, a solution for that is an extremely expensive micro grid controller.
+Amber Fu: Mhm.
+Adam R: So, I've worked with a company um called Go Electric and uh they were acquired by Saft Batteries. I don't know if you're familiar with Saft, but if you guys are big into Tesla, they're a competitor for Tesla batteries. Um, but I think they're a French company, but they acquired a company called uh Go Electric based out of the Midwest here. And what they do is create they've created a um instantaneous detection uh micro grid controller that most micro grids what they do
+Amber Fu: Uh-huh.
+Adam R: is they're reading uh sine wave patterns in the back feed from their point of interconnection and they're predicting a shutdown. It's basically like a machine learning style prediction. Um but go electric's uh micro grid controller is fast enough to not use a predicting algorithm but to actually respond to nanocond uh feedback from the grid that will show a triggered fault. And what that does is it allows sensitive facilities like medical facilities or uh manufacturing facilities with extremely sensitive equipment um to switch over quickly to their backup power in the in the event of a grid fault condition.
+ 
+ 
+00:17:48
+ 
+Adam R: And that's necessary in like big manufacturing facilities that if you shut power off and the machinery shuts,
+Amber Fu: Okay.
+Adam R: it can take hours and hours to to set back up again. or like lab environments where they have to have strict environmental controls. And the solution for this to make sure you have lossless switchover in the event of a grid fault condition that is not there's no warning of is to spend millions and millions of dollars on
+Amber Fu: SC,
+Adam R: this extremely expensive and sensitive uh micro grid controller. And so for the average, you know, home consumer, that's simply not an option. And even with BESS systems that that are relatively responsive, you can still have a a bit of a um flicker in in some of your systems when you have a you know no warning power outage which can cause all sorts of havoc on site.
+Amber Fu: but how far ahead can the prediction like get you? Like male second or cycles or like uh like second before a
+Adam R: Yeah,
+Amber Fu: trip?
+ 
+ 
+00:18:50
+ 
+Adam R: you can get seconds before the trip. Even at even in, you know, more consumer grade systems, you can get seconds worth of warning because you're getting uh basically dirty power comes
+Amber Fu: Amen.
+Adam R: back onto the grid before your uh before your system power goes out. So, in a lot of circumstances, that's fine for most systems where you don't have super sensitive equipment. But even in most residential applications, that's why you'll still see people recommending using a um UPS for uh a computer systems and that sort of thing. Because if your if your PC is in plugged into the wall and there's a power outage, even if you have a whole home backup battery or generator or anything like that, um a lot of times it's just not going to be fast enough and it'll be enough of a um split-second shutdown that you can damage sensitive electric equipment, which is why you still see people even with backup batteries, they'll recommend having a um uninterruptible power supply plugged directly into sensitive equipment and then that plugged into the wall. So, no matter what, even if you have a a split-second power outage, um your uh electronic equipment doesn't go down at all.
+ 
+ 
+00:20:07
+ 
+Adam R: You know, if you're transferring files or formatting drives or anything like that, it can mess up systems. Um same thing for especially now when we're looking at smart home systems. um even just that split second can interrupt your smart home system and require reboots um while your home bees go comes back online even after a split-second outage. So it's a difficult problem to solve on the on the consumer grade side because we just haven't developed standardized commercialized equipment um sensitive enough uh to be reactive enough to those um unforeseen grid fault conditions.
+Amber Fu: Gotcha. But like when you have a few second of warning, what action actually make a difference ver versus just writing through the outage.
+Adam R: So for a human, nothing. Uh for a smart enabled battery energy storage system,
+Amber Fu: Okay.
+Adam R: that can be enough time to ensure you're switched over to your backup battery power. um that you don't have any losses on on systems to to restart which is common like even in most normal outages your BESS should be fast enough to prevent that.
+ 
+ 
+00:21:21
+ 
+Adam R: Um, but there are going to be circumstances where, especially if you're close to a substation, and that's aspect of this that's a little different for commercial than it is for residential,
+Amber Fu: Mhm.
+Adam R: where residential is a little further down the line because commercial is a higher
+Amber Fu: Mhm.
+Adam R: capacity requirement. you tend to be um when I say closer, I mean, you know, the the wiring for your high voltage is more directly connected to a substation and residential lower voltage lines uh tend to be a little further down the chain.
+Amber Fu: Mhm.
+Adam R: Um so you you can get a a bit of a head start on that to ensure you're not getting hit with that immediately, but there are still going to be circumstances depending on your location. And that's sort of the problem too is it's so specific that it's difficult to come up with a one-sizefits-all solution because it comes down to not just uh differences utility utility for policy um warning systems and all that but also differences from street to street for what your actual physical infrastructure looks like.
+ 
+ 
+00:22:26
+ 
+Amber Fu: Okay, that's why I got I got it. But like for residential or like a light commercial, do you think most of a value come from the ultra fast hardware hardware response or from like a decision logic about like what to shut down delete uh delay or like uh it's like
+Adam R: Yeah, it's it's going to be the the the built-in logics. You're just not going to have enough time to react to any of that. So, it's going to come down to how your physical infrastructure and the software infrastructure for your battery system is set up. Um in most cases especially on the residential side you know you will have critical loads in a sub panel that are interconnected with your battery energy storage solution. So that will ensure those critical loads remain on and then depending on the length of the outage you can either enable your whole uh panel or just stick to critical systems. So newer systems I think are handling this a lot better because there's just better uh requirements for interconnection and what equipment you have to smart inverters and what equipment you can interconnect and install um and also better policies and and hardware in general.
+ 
+ 
+00:23:36
+ 
+Amber Fu: Mhm.
+Adam R: Some of the older systems I think suffer from this because they just didn't have the same uh standards for uh the battery management systems and you know the brain of the operation for solar plus PSS.
+Amber Fu: Got you. Gotcha. But like uh so when you look at the commercial uh micro uh grade uh
+Adam R: This
+Amber Fu: verse uh with a residential system what the real uh line like you know like a cost or like responsibility for outcome. Huh?
+Adam R: um not in a typical case. So like I if in residential versus commercial like there the line is going to come to pretty specific use cases where most residential and most commercial applications can deal with a blip in their power where you get a small basically like a flash. You know, if you've ever been in a a building with a backup, if the power goes out, you get a quick split-second light dimming and then your power is back on. In most circumstances,
+Amber Fu: Mhm.
+Adam R: that's going to be totally fine.
+ 
+ 
+00:24:52
+ 
+Adam R: And you're not going to have many problems with that. Um, there are going to be edge cases, like I said, you know, more and more sensitive equipment people have at their homes, uh, home PCs, that sort of stuff. work from home. Especially people that do things like um storage intensive work, uh editing, photo editing, video, that sort of thing. Anything where you have backup storage that is read write and um can potentially be damaged by that. For light commercial operations, you know, most machinery, you're not going to be spending that long getting it set back up. But I think what we're going to see is increasing blackout and brownouts because particularly now that the incentives have been reduced for solar which has the lowest levelized cost of energy of any generation assets. And what the problem with that is is we're hitting capacity uh difficulties with utilities where they're not producing as much power as we need. And in California, what I like what I mentioned before, uh there's a lot of generation. Um but because a lot of that is solar, that's peak production during the middle of the daytime and you can run into issues where you have to curtail production.
+ 
+ 
+00:26:16
+ 
+Adam R: Otherwise, you're going to be overloading the system if people are both consuming a bunch of power and your systems are outputting a bunch of power. It's not all routed the same way. especially in the utility solar space, it still has to go through that system. So, if you're producing a bunch of power on one side of town,
+Amber Fu: Yeah.
+Adam R: but you're consuming a bunch of power on the other side of town, it's not all going to get over there to be used at once. So, what you end up with is overloaded high voltage lines, which can cause brown out and grid fault conditions in your system. So, the problem with them nuking the incentives on uh the solar is that we're going to run out of capacity before people can replace that with other generation assets because it's too expensive. So, I think we're just starting to see um you know, in the Midwest as well. I I've never had blackout brownout issues in the Midwest for decades until recently. And now it's a pretty common occurrence that we're seeing all over the place in in markets that have never had these sort of problems in, you know, coal and natural gasrich areas where these generation assets are simply getting retired because they're too old and inefficient.
+ 
+ 
+00:27:25
+ 
+Adam R: They were getting replaced by wind and solar generation, but that's now uh you know slowed down because the incentives were pulled. So we're seeing this time period. I mean, you know, you guys are kind of targeting the market at the exact perfect time for this because it's a perfect storm of massively increased cost, lower capacity, and across the board, tightening of belts when it comes to budgets where the cost of living is so expensive. So, I mean, you know, I think you're on the right path here as far as targeting a a real need in the in the
+Amber Fu: Come
+Adam R: market for a really wide variety of potential end users. Of course, you know, residential is a a great starting point, but I I could even see this being super beneficial on a um small small commercial from a small commercial standpoint as well. Large power consumers like large commercial industrial facilities, they will have in a lot of cases more powerful um commercial enterprise tools.
+Amber Fu: on.
+Adam R: Uh but on the small commercial 12208 volt sort of side of things, mom and popop shops, restaurants, grocery stores, um that sort of thing, um you know, I think you potentially could have a market as well for uh um this sort of tool.
+ 
+ 
+00:28:42
+ 
+Amber Fu: Got
+Adam R: It's a little more approachable than a than a massive enterprise level,
+Amber Fu: you.
+Adam R: you know, like some of these industrial installations use.
+Amber Fu: Got you. Well, uh and I just want to uh make sure I understand. So, in like residential system, even like few second of like early warning doesn't really help at least like hardware is already designed for near uh instant right right through right.
+Adam R: Correct. In in most cases,
+Amber Fu: Okay.
+Adam R: you're not going to get a power outage warning soon enough for you to actively do anything um to impact the results of that. You're going to have to rely on a system in order to do something for
+Amber Fu: Mhm.
+Adam R: you.
+Amber Fu: Got you. But for utilities I do see like a realic pass where like the uh SC CAD or like a G notification become the fast enough to actually protect uh end user.
+Adam R: Um, I mean, still no, like even if we're talking about really quick, I guess,
+Amber Fu: Mhm.
+ 
+ 
+00:29:46
+ 
+Adam R: you know, there's a depending on the tool set, I I guess there could be a potential option for you to get a quick notification. And if you had a system set up to allow you to um you know approve like a decision gate like hey we're getting dirty power do you want to do perform a shutdown action there. There could be an application for that where it's like uh instead of waiting to see if this is a real power outage or not, I'm going to go ahead and execute a pre-planned shutdown operation for you know whatever smart home systems or whatever you have uh connected to that maybe.
+Amber Fu: More.
+Adam R: Um, I just don't know how realistic it is to think that uh you'll be fast enough to do that when if a system can read that um you should probably have that system set up to react to that automatically to begin
+Amber Fu: Got you.
+Adam R: with.
+Amber Fu: But if we look at like a residential reliability, would you say like location uh rel uh relative to the substation matter more than the battery brand or like a inventory spec?
+ 
+ 
+00:31:08
+ 
+Adam R: Um, in general, no. I, in general, I would say the software hardware combination is going to be most impactful for your response to a a normal power outage. There are going to be cases where distance to substation plays a factor, but I I think that would be outweighed by cases where your hardware and software solution is more readily available to to make the changes needed prior to a power outage. There there's certainly cases where location impacts it. I think it's just a fewer than um the other side.
+Amber Fu: Got you. But do you think like UPS will be reminded like uh un available for like sensitive residential equipment even as like a home battery improve?
+Adam R: Um, you know, I've seen sort of expansion of that, particularly in the sort of renter world we're living in where um doing things like automatic transfer switches and battery and storage solution uh um installations, permanent installations are becoming more difficult to do for more people because they just don't simply don't own homes. So, you see this in in effect with things like uh refrigerator specific UPS's where you know it basically plugs in I'm I don't know if you've seen any of those where it's a a big uh battery bank that sits on the top of your ref refrigerator or hangs behind it and
+ 
+ 
+00:32:49
+ 
+Amber Fu: Amen.
+Adam R: uh UPS systems for your computer and smartome and internet connection. Uh, and I'm seeing that more and more because people don't always have the ability to um do hardware installation, permanent hardware installations, especially in this sort of renter world. um apartment complexes as well where you can also have complications there with their on-site power because you're relying on their transformer infrastructure uh to respond to um grid fault conditions and you know you have no impact or power over that and we're starting to see a a nationwide push for um I don't know if you've seen this in Germany they it's it's legal for you to have I think it's up to like 1.2 2 kilowatts of um like balcony solar I think a lot of people call it. Basically, it's panels that hang off your balcony railings and you can plug it directly
+Amber Fu: Yeah.
+Adam R: into a wall outlet and feed your net your uh internal system with uh direct power from these panels because it's relatively low voltage that's capped at a a certain amount. And so that's becoming really popular, especially on the renter side also where um you're not going to have to go through an interconnection.
+ 
+ 
+00:34:12
+ 
+Adam R: You don't have to deal with the utility at all. And people are adding battery systems to that also because it basically makes that a little mini home micro grid where you can produce power hanging off of your front porch and have a little battery energy storage solution so that if you do have a short power outage, you're you're able to um stay online or stay connected or not lose um work you're working on on your you know work from home, all that stuff. Um, and that's there's a big push for that in the United States. Uh, I think there's something like 32 or 34 uh, state bills right now up for debate to allow um, this like patio solar, balcony solar.
+Amber Fu: Mhm. Got you. But uh but for like over like for this like power outage warning this feature uh I'm not really sure like this kind of a large along like actually can really help the user. So like in your experience like what would you make something like this can be truly
+Adam R: Yeah, it would just be able to have to be able to uh to trigger um a
+ 
+ 
+00:35:25
+ 
+Amber Fu: useful.
+Adam R: workflow on your on your system. Yeah. So, if you especially smart home connections or uh depending on what sort of BMS you have, if you can get that back feed power outage warning, you should be able to automate a workflow for a shutdown procedure. So, um, and that's the other aspect of that, too, is it's so specific to your use case that you're not going to find a predominant use case that is such a overwhelming u majority of users to to specify you. You're going to need customization because, you know, it's just everyone's system is different, right? Um,
+Amber Fu: Mhm.
+Adam R: so if you've got someone who uh wants to make sure they've got sensitive documentation and network attached storage or anything like that, they want to make sure they're uh smart home, you know, they have an entire smart home that's on electric locks or something like that. um they can ensure that they're not going to have an outage at the wrong time and they can switch over to battery power um using a customized, you know, uh response option that would be plugged into a system like this.
+ 
+ 
+00:36:51
+ 
+Adam R: So, everyone would get the same sort of warning, but users would customize what their excuse me, what their uh response function is um based on their needs.
+Amber Fu: Mhm. Got you. Got you. Okay. Thank you. That's really really helpful. And um so we uh let me see and for uh next one like can do you mind click on the saving uh the saving the type uh the
+Adam R: on which one?
+Amber Fu: right uh right?
+Adam R: Oh,
+Amber Fu: Yeah.
+Adam R: right here.
+Amber Fu: Okay. So for saving part is our like really important page. Uh basically like we are uh you know uh designed this for like you know electricity ledger. Think about like electricity ledgers.
+Adam R: Mhm.
+Amber Fu: Yes. So and and you can see like there have a on the top there have a two types of uh saving and the bill. So the saving is more like uh our side. So it's kind of like uh the cost risk we detected from the behavior and the timing.
+ 
+ 
+00:38:00
+ 
+Amber Fu: And the bill is like a utility side. is like what show up on the user's bill. Yeah. And the the $56 is just a random number, but that number means like oh the total risk uh risk cost we detected in like curing billing period.
+Adam R: So as if if you didn't adjust your behavior, that's what you're Okay. The difference is Okay.
+Amber Fu: Yes. Yeah.
+Adam R: Yeah.
+Amber Fu: So and uh the chart basically is just help user to see whether uh the risk exposure is getting better or worth over time.
+Adam R: Mhm.
+Amber Fu: Uh it's more like a risk or trend and uh and then like below there have a uh like you can roll down a little bit. So the below there have we break the risk ladder into category. So you uh EV, solar and power wall. So each row shows like how many times happened in the billing period and the total astro cost exposure from the category. So it's not the daily it's like a roll up across the billing period.
+ 
+ 
+00:39:03
+ 
+Amber Fu: So you can see like they they have like a EV appearance for time means like four events in the uh billing period. Yes. Um this is just
+Adam R: Okay, that's nice. So, it's giving you a breakdown of hey, then that that feeds into your behavioral changes on the first page for what you can do to adjust this to off peak hours for charging solution. Okay. Yeah, that makes
+Amber Fu: Yes.
+Adam R: sense.
+Amber Fu: But like a at a high level, how should we think about the California residential uh electricity bill? Like what are the major uh component that actually drive the final amount? I I know like sometime it's like a lot of user think uh a big problem will be have like a EV charging and the second uh I because we talk a lot of user from the California they think oh the biggest like a uh driver will be the EV charging and the second will be laundry or something so how about what's what's your opinion
+Adam R: Yeah, I mean certainly EV charging is going to be uh one of the biggest
+ 
+ 
+00:40:02
+ 
+Amber Fu: Yeah.
+Adam R: definitely. Um in California, it's it's a little different of a market because uh of the temperature. So, especially if you're north or south,
+Amber Fu: Mhm.
+Adam R: air conditioning is going to be your number one uh at risk depending on what part of the state you're
+Amber Fu: Mhm.
+Adam R: in. Um, and that has to do with um high startup costs for uh when you're on a a cooling cycle. So, we see this not just in residential but across the board where uh variable motors can be used to reduce that startup peak in consumption. Um, and in most residential side, you're not getting demand charges, but what you are getting is um time of use charges that are are really targeting these peak uh cooling hours that you're seeing in the the middle of the day. Um and not to mention also in uh in a lot of the northern California areas you are do using electric heat and the heat pumps um which they target that time period when people are coming home from work early in the morning as well when people are getting up and uh turning on uh coffee machines that sort of stuff um where they're targeting those peak hours.
+ 
+ 
+00:41:31
+ 
+Adam R: Uh and the difficult thing with that is you can get trends in the aggregate and that's normally reflected in uh in existing um time
+Amber Fu: No,
+Adam R: of use rates. But when you go to the the the uh sort of micro side of that on individual behavior, it's uh difficult to pin that down um because they're using such a
+Amber Fu: Mhm.
+Adam R: wide aggregated user base in order to target those uh use cases. So, it's it's again one of those things where yeah, you can put people into some pretty general buckets of EV charging, um, heating, cooling, uh, and then washer dryer is going to be pretty high, um, depending on the time period. Well, what you run into is people have a tendency to do these things at the same time, right? So, uh, especially weekend,
+Amber Fu: No.
+Adam R: uh, peak areas where you're doing a load of laundry, you're also finishing up your dishes, and then you're making yourself a a tea. H, as you're running all that stuff at the same time, you're hitting peak hours on all of that.
+ 
+ 
+00:42:43
+ 
+Adam R: And so, if you're looking at those individually, they might not be a huge amount, but as you add up those monthly expenses,
+Amber Fu: Mhm.
+Adam R: that's where you're kind of pushing it over the edge. Um but yeah, air conditioning is going to be one of the biggest individual contributors for sure. I mean, you can track that e even on pretty difficult to understand utility bills. You can track that pretty readily when you're looking at uh your highest energy cost months and then
+Amber Fu: Mhm.
+Adam R: the highest temperature months as well.
+Amber Fu: Gotcha. Gotcha. And uh also you can click on the EV charging appear four times that. Yeah. So the the where we have a detail is like we uh we help people to you know to to do like this kind of like a letter to let them know that uh what's going on and the detail thing. Um so like each row is detect event not the day. So you can review like what happened event by event.
+ 
+ 
+00:43:43
+ 
+Amber Fu: You can click on like uh either of of it to see like what look like. Yeah. So the bottom sheet well what we trying to do is uh just give the user really clearly explanation.
+Adam R: Yeah. Yeah. And I mean
+Amber Fu: But what do you feel like this one? Like I mean like uh for I mean for like user side we talk some like user to show the demo but they think this would be help but I don't know like in your professional opinion.
+Adam R: Yeah. No, I I definitely think it would. I mean, this goes back to you're drilling down into what is on this homepage here for the the suggestions for um change in behavior. And I think definitely some people are going to want that knowledge. But again,
+Amber Fu: Yeah.
+Adam R: it comes back to I know I keep saying this over and over again is there's a sort of a back and forth between individual behavior and aggregate behavior, right? And I I think you are certainly going to have users who are very interested in the drill
+ 
+ 
+00:44:54
+ 
+Amber Fu: Yes.
+Adam R: down and really digging into what sort of behaviors they can adjust and but I think you are going to run into more people who really need to see this
+Amber Fu: Mhm.
+Adam R: here um on the suggestion based upon their usage which I is another aspect to that where you know in terms of habit tracking um is this something that uh is this just like a a ledger then? Is there any sort of what's the um what is the logic model behind some of the habit tracking and suggestions here? Is there anything is it all sort of a a nexus based on you know a spreadsheet of uh of behavior or is there any sort of um I guess uh machine learning intelligence that's part of that as
+Amber Fu: Uh well for right now like I
+Adam R: well.
+Amber Fu: uh the well I mean like I think you are exactly right. So there always like a tension between like individual behavior and uh uh uh yeah but some user want to
+Adam R: Sure.
+Amber Fu: like uh uh all the way down but the many more people don't want to analysis they want to like
+ 
+ 
+00:46:19
+ 
+Adam R: Right.
+Amber Fu: uh yeah so uh so it's definitely not just a ledger the ledger is like a foundation not a product so the way we think about this
+Adam R: You're right. Sure.
+Amber Fu: like a three layer model so the first layer is like what happened layer so at at This layer we just uh like really straight about the fact like what actually happened and what it happened and what is caused under the
+Adam R: Mhm.
+Amber Fu: rate that's a ledger and we trade is uh the the down notificationable and the second is like repeat behavior so on the on the top that we are looking for pattern and not one of events for example like repeat EV charging during the pickover or AC running long after solar drops. So we're care carefully not turn signal event into habit. And the third layer is like a suggestion layer like what to do next. So only when pattern uh consistently show up do we generally suggestions and even then the suggestion is uh formed uh as a tradeoff. So we're not saying like this is wrong.
+ 
+ 
+00:47:34
+ 
+Amber Fu: We're trying to say oh give your usage and your rate this is the one level that actually matter. So we don't think the habit as something we scored uh but we think the habit as a repeated uh cost impactfully behavior. Yeah. So a habit for us only exists if it's made two condition. First is in repeats and the second is uh meant to affect cost.
+Adam R: And you know, that makes sense, too. And and that's it's actually helpful in your market where you're not on these residential bills,
+Amber Fu: So,
+Adam R: you're not getting hit with um variable fuel cost adjustment charges like you would in a lot of other markets. Uh because that is a a huge dynamic unknown that's not going to be present in most of these. I think maybe some of the rural co-ops might have that. But all these investor own utilities um in the residential module of the residential tariffs are not going to have fuel cost adjustment where you're getting hit with an unknown tariff adder um which could really throw a a wrench into any sort of pattern recognition here which is a really good thing because you can you can reliably collect some of this um habit and usage information and uh reliably predict that while in some other markets is um depending on how the utility does their
+ 
+ 
+00:49:03
+ 
+Adam R: energy buying buying, you can get hit with a variable fuel cost adjustment that kind of throws all that logic out the window. So, that's actually really helpful in um in the market for uh what you guys are trying to do here.
+Amber Fu: Mhm. Gotcha. But uh so the basics on your experience is a fair to say that the California residential customer the rate uh is stable enough that pattern based on suggestion.
+Adam R: Yes. Yeah. That Yes. Exactly. That is that in in other markets it's much it would be much harder I think to do this even on the residential rates there there is the they just they have to report it like that. California they might have a lot of complications with their tariff books and their time of use structure. But it is a structure which means you can uh reliably count on those time of use rates to be when they are. Uh now they do have annual adjustments but that's fine because that's again something that can be reported and planned on when you when it happens as opposed to a month-to-month fuel cost adjustment which you you know have zero visibility or control on.
+ 
+ 
+00:50:18
+ 
+Adam R: It just shows up as a line item on your bill. So So yeah, absolutely. I think you're in the right market as far as exceedingly high energy costs, predictability in the structure of the rate tariff,
+Amber Fu: Mhm.
+Adam R: um, and some of the functionality required, uh, from a smart energy metering standpoint as well as some of these on-site generation and EV assets that are going to be much more prevalent in that market as opposed to other markets in the US.
+Amber Fu: Got you. But I and if you were us like where would you draw the line and say oh beyond this you should stop making suggestions
+Adam R: I mean uh as far as market wise or as far as you usage wise.
+Amber Fu: uh usage
+Adam R: Okay. Um,
+Amber Fu: wise
+Adam R: I mean, I I guess it depends too on the hardware because I know there's some hardware solutions that can get pretty granular for what data that collects. I is your solution just pulling general consumption values or is
+Amber Fu: Mhm.
+ 
+ 
+00:51:28
+ 
+Adam R: it something more specific like plugged into your actual I know there's some like smart um breaker box uh panel u options that
+Amber Fu: Amen.
+Adam R: can give you really granular usage data like you know down to circuits like what circuits are using the most power and then you can label what circuit that is laundry room or bedroom or whatever and you can get really grain granular data. I if if that's the case, that's a little different. But if you're just getting more generalized consumption interval data, um, you know, it might be tough to get that. So, what's the hardware aspect of that? And how are you collecting that individualized um consumption data?
+Amber Fu: Um for right now uh we only like uh for like smart meter or
+Adam R: Yeah. Like, okay, for for instance,
+Amber Fu: something.
+Adam R: on your on these events here for the EV charging, is this all softwarebased where you're where there's a data logger on site that's
+Amber Fu: Um yes.
+Adam R: using APIs to to pull info?
+Amber Fu: Yeah.
+Adam R: Okay.
+ 
+ 
+00:52:38
+ 
+Amber Fu: like first cuz I like we have uh basically we have a three stage. So the first stage is only the app so the API things and the second stage the next uh next stage will be our uh uh hardware. uh but we are not build like expensive ultra like fast hardware is we try to you know uh I'm not uh I'm not think like we are not make like we are not really sure like what's the next stage like how will look like but uh it's maybe like you know something that you know can really uh about giving the system just enough awareness to act earlier without turn uh turning the hope into commercial micro grade.
+Adam R: Right. Sure. Yeah. And you know, you know,
+Amber Fu: Yeah.
+Adam R: as far as that initial sort of software roll out, I don't know if you guys are familiar with uh the company utility API.
+Amber Fu: Uh
+Adam R: Okay. Um because yeah, I mean, you know,
+Amber Fu: yes.
+Adam R: part of that is your database for usage and that can, you know, that can uh kickstart what you guys are doing.
+ 
+ 
+00:53:48
+ 
+Adam R: So I was just thinking about ways that on the software side before you know for that initial phase one roll out ways you could get a kickstart for getting some of that usability information and it's a pain to collect utility PDF bills and then you know also get a letter of authorization to get interval data that's a really big pain for customers to do. You know, it's a it could be a possibility to use something like utility API where you can get a pretty uh one-click approval for customers to provide you the last 12 months of their utility bill data and also their interval data. So you can see their 8760 hourly consumption information and build a preliminary
+Amber Fu: Amen.
+Adam R: profile and that would give you a really good kickstart on the software side to to analyze trends and and um not need to be running uh for weeks or months at a time to start that buildup of your your database information. But yeah, I mean from the software side you before if you're relying on the software piece, I think you're going to find a lot of customers have some of this peace meal already because they have a power wall,
+ 
+ 
+00:54:54
+ 
+Amber Fu: Mhm.
+Adam R: they've got a Tesla EV charger, and some of that stuff might be plugged in, but it's not giving them the intelligence like this. So I think there's certainly a a an in route for consumers like
+Amber Fu: Mhm.
+Adam R: that that are already looking at that. But it also brings up the challenge of if these people already have some of these tracking this tracking ability um how do you convince them that what they are currently looking at is not enough. Um and and that becomes your, you know, problem to solve for um your unique selling proposition is, hey, I know you're getting some of this tracking information pushed to your phone or your inbox or whatever from your power wall, but we do this to add that additional intelligence and bring value to our service
+Amber Fu: No.
+Adam R: that's above what you're already getting. Yeah. especially if you're relying on existing software API reporting. Um they're going to have some sort of monitoring already through those uh connected services. Um so yeah, I think the challenge is going to be what's that next step for uh a value ad that you guys can bring.
+ 
+ 
+00:56:11
+ 
+Amber Fu: Got you. But if we can get like 12 months of a bill plus interval data, is that usually enough to build a meaningful
+Adam R: So I I you know no because you're not getting some of the individualized
+Amber Fu: pattern?
+Adam R: information like you are here. But in terms of kickstarting the offering with something to show, you know, I'm sure you guys know the first time someone uses it, if there's no information from their current load profile and it's just empty, the that first user experience um is make or break, right? So, I'm just thinking about a way that you'd be able to preload some information from their last 12 month of months of usage. Um, because if we're already targeting peak hour information, if you're already looking at that, if you can pull the interval data from that, then you can build a preliminary profile saying, "Hey, you know, in the past year in your startup, your onboarding process saying, look, in the past year, you you used this much power on during peak hours. as you use our app, we're going to start targeting those behaviors and helping you to adjust your um usage to lower your energy bill.
+ 
+ 
+00:57:27
+ 
+Adam R: We project we can do that x amount,
+Amber Fu: Yeah.
+Adam R: whatever you want to do for that startup. But that gets you in the door with some data on the app already because I mean when you first set this up, you know, it's going to have I I presume it doesn't have any suggestions because it doesn't have any information to go off of, right? uh depending on what sort of devices they have plugged into that. But if you open a app for a new service and there's and there's nothing in there, even if you understand, oh, I've got to get some usage and then it works, there's something about that first, you know, click the first user experience that um if you're able to onboard with some data and show them a a quick,
+Amber Fu: Amen.
+Adam R: you know, it's just like it's like Spotify recapped almost like, hey, here's your last year in power usage. as soon as they open the app and you can see some insights by collecting that
+Amber Fu: Amen.
+Adam R: last 12 months.
+ 
+ 
+00:58:19
+ 
+Adam R: Now the difficulty with that is it's not a huge amount but I think it's like 15 bucks a meter to pull uh data from utility API. So, I don't know what your cost structure looks like, but
+Amber Fu: But for like for your uh sorry but for your experience is it like utility data
+Adam R: Um,
+Amber Fu: assessually the biggest like a bottom neck for a product like
+Adam R: Well, I think it's it's gonna what what it's the key structure there is if you can get interval
+Amber Fu: this.
+Adam R: data. You know, monthly bills is one thing. You'd have to do a lot of uh estimating on that, but get directly into the API feed of their uh interval data for the past year, which on residential, I think you can get a lot of that in California. Some markets you can't uh because they're not getting demand peak charges, which is where you that would come in.
+Amber Fu: Mhm.
+Adam R: on time of use rates, you you have to have interval data. They have to track when you're consuming that power.
+ 
+ 
+00:59:17
+ 
+Adam R: So, they have to have a log of, you know, that hourly usage in order to place you on that time of use tariff.
+Amber Fu: Mhm.
+Adam R: I'm just thinking about like right now if you were to sign up with a fresh account, have no behavior on there, what does the app look like right when you open it up?
+Amber Fu: Um so what we're thinking at the first place is like uh we we let the user connect with uh his uh utility account and we can have the some like data from uh his utility account.
+Adam R: So,
+Amber Fu: That's a
+Adam R: and do do most of those have portal access where you can pull that through an through an API or how are you collecting that data?
+Amber Fu: Uh so once uh the customer uh so he can give over access assess to uh his uh agility account and connect with the app. Uh so once we have that uh so we can you know uh have his account like a last month like last past months like six months bills.
+Adam R: Okay. So, you're just talking about bill data and and is that is the idea that that would be digested
+ 
+ 
+01:00:30
+ 
+Amber Fu: Yeah.
+Adam R: through uh what like the is it a table readout or are you scanning the PDFs? I'm just wondering what the actual initial um compiling of that data looks like.
+Amber Fu: uh is more like uh let me let me find uh give me a second.
+Adam R: There you fine.
+Amber Fu: So uh so this is uh we are trying to more do like uh what that call uh so uh like using like a 12 months of bill and in uh interval like data mainly to preload the experience so the app isn't like empty one day one on day one but not to over like
+Adam R: Okay.
+Amber Fu: personalize yet but at least to give user something like concern to react to.
+Adam R: So, I know that Oh,
+Amber Fu: So from yeah for your experience like what's the
+Adam R: sorry. Go ahead.
+Amber Fu: minimum level of insight that's make you know first experience feel
+Adam R: Well, yeah.
+Amber Fu: valuable.
+Adam R: And I mean just kind of spitballing here like I think it's all going to come down to whether you can get just monthly consumption data or that interval data.
+ 
+ 
+01:01:57
+ 
+Amber Fu: Uh
+Adam R: And so I know the IUS have uh what is it called?
+Amber Fu: uh
+Adam R: I think it's called green button.
+Amber Fu: uh. Oh yeah, I know. Yeah,
+Adam R: Okay. Yeah.
+Amber Fu: the green body.
+Adam R: which for most of the time of use rates that they should have um interval data uh that and I that might be free.
+Amber Fu: about
+Adam R: I just don't know how the what the process would look like for allowing thirdparty access as a residential customer um because if they do
+Amber Fu: you.
+Adam R: if they do allow that then you it's you're completely sidest stepping utility API. I know the I know the customer can
+Amber Fu: Mhm.
+Adam R: um pull that. I'm just not sure what it looks like for uh you know a letter of authorization or giving approval for a third party to to uh remote into your green button and pull um pull that data. But yeah, for for any of the in investor own utilities on timely use rates, you can usually even get 15minute data.
+ 
+ 
+01:03:06
+ 
+Adam R: Um, and that's a whole set of 15inut uh let alone certainly the hourly 8760
+Amber Fu: No.
+Adam R: data. I know PG&E,
+Amber Fu: No.
+Adam R: Southern California, Edison, San Diego allow that and they have 15minute data, but that would be like the premier way if if you could if you can get third-party allowed access to the customer-based green button data. You sidestep any of the charges required for utility API. you can collect the interval data from the jump and that's going to give you at very least you're going to be able to see um their on peak consumption information and do like a little last year recap of you had x amount of consumption during peak hours or whatever uh the case may be. I mean, you can also make some assumptions on that like during the summer months, you can make some assumptions on uh and do you have things like weather condition sets that'll be included in app data? So, you can get intelligence on, okay, hey,
+Amber Fu: Uh
+Adam R: during the summer months, during peak hours, during the hottest time of the day, they were using a ton of power.
+ 
+ 
+01:04:19
+ 
+Amber Fu: yeah.
+Adam R: Chances are that's uh um air conditioning costs. Is that a possibility?
+Amber Fu: I I think so. Yes.
+Adam R: Yeah. I mean,
+Amber Fu: But
+Adam R: I just as from a user perspective, I I think like you you you really need more than monthly consumption
+Amber Fu: Uhhuh.
+Adam R: to be kind of wowed by that initial opening process.
+Amber Fu: Yeah.
+Adam R: Um, and I don't know how fast that system is, but like on the onboarding, if you can tie into that green button system, if if they're if the first user experience is opening the app to see their, you know, energy recap, uh, style, you know, make it look cutesy or whatever, the swipe screen of, yeah, you use this much power during just like a Spotify recap. Uh, I think that could be a pretty powerful way to introduce people to the app and get them uh bought into um some of the tools that are available through that. But I just don't know what the third party access looks like for uh for Green Button.
+ 
+ 
+01:05:25
+ 
+Amber Fu: got you. But but so far like uh uh so what we show uh is very like you know like limit but it's about like uh but like uh first stage is uh the app like we're showing you and the next uh next fist like next step we're trying to do like the like hardware hardware but it's all about like a making our decision auditable. So uh for like phase one right now we help user decide what was
+Adam R: Mhm.
+Amber Fu: to doing before that uh they act and in the phase two we turn those decision into a ledger. So like not like a copy the utility bill but like a responsibility ledger uh you know something like like every cause is a tie back to a moment in time the behavior uh the rule that applied or the the decision we made at that moment. So the phase two is where trust stop being emotional and start to being you know uh reli reliable. So from your opinion like does this idea of a household energy ledger make sense?
+ 
+ 
+01:06:42
+ 
+Adam R: Absolutely. I mean, it's shocking that it's not a thing already. I I think that people have been sort of lulled into just thinking,
+Amber Fu: Okay.
+Adam R: "Oh, well, I have to deal with this because utilities are in this natural monopoly setup where they have no competitors. Even in deregulated markets, you have to buy power off of a certain distribution platform from whoever owns those lines." So, I think people kind of get lulled into that.
+Amber Fu: Mhm.
+Adam R: And if you had some intelligent tool sets that allowed your average person to get some uh functional feedback from their power consumption. That's sort of the problem now is there's a barrier of entry where you have to have some sort of even lowlevel but some sort of technical expertise to engage in a lot of the uh current on the market options.
+Amber Fu: Got you. But is there anything here that feels like a financially misleading or like over climbed?
+Adam R: Um, no I don't think so. I as long as it like the the monthly budget projection value.
+ 
+ 
+01:07:46
+ 
+Adam R: I think like we discussed there there is an aspect to the regularity of the residential rates that allows that to be fairly accurate. Um, you know, and again, it's one of those things where you're basing it on current behavior,
+Amber Fu: Um,
+Adam R: but if you were able to start out with some of that historic data, which you c you can do that. I just checked that um third party usage is allowed through that green button. You just have to be approved by the um authorization workflow and you do have to get approval as a corporate entity in order to access that. But yeah, uh by starting out with some of that interval usage data and you can build a preliminary profile um to project uh usage. The only the problem is if some of these tools if they try to do a projection and they don't have some of that background usage information, it can come off as a pretty shallow. But in this instance since we are dealing with relatively regular tariff structures and in most cases relatively regular use cases and load profiles from consumers.
+ 
+ 
+01:08:51
+ 
+Adam R: I mean I know my electrical usage is fairly linear and the only thing that's changing is increased costs coming down from the utility and the utility regulatory commission. So, you know, if with a smart system, looking back on that usage and populating your system with 12 to 24 months of interval data, I think you can come out of the box with a pretty intelligent projection of what they're going to see. And that's the key factor to not lose trust is uh for folks to as they start using the system uh receive the results that are getting projected in in the app.
+Amber Fu: Mhm. Got you. Got you. And also uh I want to uh like uh talk about like we have a like a phase two and the and also have a phase three. So the fifth three is uh uh is is this is like not a part we're excited to rush into but it's part like we are uh really try to like slow down like phase three what we want to do is like uh like you know first time we would ever act on behalf of of the household not just recommend but actually take responsibility of like uh outcomes and that's exactly why we don't think this is a future upgrade is like a role change.
+ 
+ 
+01:10:10
+ 
+Amber Fu: So like up until phase two, we're still like a software product. Uh but we explain,
+Adam R: Mhm.
+Amber Fu: we recommend and we help user decide. But in phase three is like the I think it's a moment where the question become like who carry the downside when something doesn't go expected. So yeah, so we we that's what why we don't believe like you know can jump from uh otherwise to auto automation.
+Adam R: Mhm.
+Amber Fu: So the trust here doesn't mean like a user side up mean like they they they have been saying uh be right and be uh conservative and admain uh uncertainly over time. So without that any like formal automation is kind of risk and I think like and the ledger is not a log is like more like responsibility right record. So every action is tied to reason and to read contact and the moment in time. So you know if something goes wrong later the ledger is what led user to audit why a decision was made.
+Adam R: No. Yeah, absolutely. I mean, you know, I think that is important too on the intelligence side that you're making sure that that structure is really sound before you're talking about adding in automations for the system to react natively to those rather than having the user input and change their behavior themselves. And you know, I wanted to give a little bit extra time here, but um I'm going to have to call it on that. We're a little bit over here um on the uh the hour, but uh yeah, no, really interesting product. I uh I think it it does have potential for sure and you know I'd be interested in in chatting again as you guys um continue to develop.
+ 
+ 
+Transcription ended after 01:12:52
+
+This editable transcript was computer generated and might contain errors. People can also change the text after it was created.

@@ -1,0 +1,1063 @@
+1. Vanessa Houston
+Jan 11, 2026
+00:00:00
+ 
+Amber Fu: me?  Amber Fu：我？
+Vanessa Smith: I can see  瓦妮莎·史密斯：我能理解
+Amber Fu: Okay.  Amber Fu：好的。
+Vanessa Smith: you.  瓦妮莎·史密斯：你。
+Amber Fu: Uh, oh, here here you go. Hi, Vanessa.
+Amber Fu：呃，哦，给你。嗨，瓦妮莎。
+Vanessa Smith: Hi.  瓦妮莎·史密斯：你好。
+Amber Fu: Nice to meet you again.
+Amber Fu：很高兴再次见到你。
+Vanessa Smith: How are you? You,
+瓦妮莎·史密斯：你好吗？你，
+Amber Fu: Good.  Amber Fu：很好。
+Vanessa Smith: too?  瓦妮莎·史密斯：也是吗？
+Amber Fu: Good. H how how have you been? It's good.
+Amber Fu：很好。H，你最近怎么样？很好。
+Vanessa Smith: I'm Yes,  瓦妮莎·史密斯：我是，是的，
+Amber Fu: Everything's good.
+Amber Fu：一切都很好。
+Vanessa Smith: I'm good. Hope you're well as well. Happy New Year.
+瓦妮莎·史密斯：我很好。希望你也一切安好。新年快乐。
+Amber Fu: Yes. You, too. Happy New Year. And you know uh u uh quick quick heads up uh so our CTO Yi is on the call today and my also my teammate Martin is also here listening like really quietly. Well, they are here because you know a lot of what you care about is like how do you know this is true? Uh so they won't jump in randomly unless you ask something like uh technical. So, and like everything you shares uh today is stay with our uh small team just let
+Amber Fu：是的。你也是。新年快乐。你知道，呃，呃，快速提醒一下，我们的 CTOYi 今天在电话里，我还有我的队友 Martin 也在这里，非常安静地听着。他们之所以在这里，是因为你知道你关心的很多事情，比如你怎么知道这是真的？呃，除非你问技术问题，否则他们不会突然插话。所以，就像你今天分享的所有内容一样，留在我们，呃，小团队里，让我放心
+Vanessa Smith: Okay,  Vanessa Smith：好的，
+Amber Fu: you know.  Amber Fu：你知道的。
+ 
+ 
+00:00:51
+ 
+Amber Fu: Okay, perfect.  Amber Fu：好的，完美。
+Vanessa Smith: thank you.
+瓦妮莎·史密斯：谢谢。
+Amber Fu: And uh do you mind I record this call?
+安柏·傅：你介意我录下这个电话吗？
+Vanessa Smith: Of course that's
+瓦妮莎·史密斯：当然是这样
+Amber Fu: Okay, thank you.
+Amber Fu：好的，谢谢你。
+Vanessa Smith: fine.  瓦妮莎·史密斯：很好。
+Amber Fu: Uh give me a second. Okay, perfect. And let me share uh let me share you a link uh is our uh demo. Uh just wait a second. Okay. And Uh it's uh uh do you see the Figma?
+安柏·傅：呃，等我一下。好，完美。让我分享一下，呃，给你一个链接，呃，这是我们的演示。呃，等一下。好的。呃，呃，呃，你看到无花果了吗？
+Vanessa Smith: I do.  瓦妮莎·史密斯：我觉得。
+Amber Fu: Okay. And if you don't mind uh do you can can you like share the screen and I can see
+Amber Fu：好的。如果你不介意，呃，可以分享一下屏幕，我能看到
+Vanessa Smith: Okay, let me share my screen.
+Vanessa Smith：好的，让我分享一下我的屏幕。
+Amber Fu: Yeah, but like uh so I want to start by uh reflecting what I hear here he heard like last time just to make sure we're in the same page.
+Amber Fu：是的，但我想先回顾一下他上次听到的内容，确保我们想法一致。
+Vanessa Smith: Okay.  瓦妮莎·史密斯：好的。
+Amber Fu: I think you were like super clear like you're not looking for energy chart for the like energy chart, right? You're looking for like real actionable way to cut down the true up.
+Amber Fu：我觉得你说得很清楚，你并不是在寻找能量图表，对吧？你在找真正可行的方法来减少真正的负担。
+Vanessa Smith: That's true. Cuz my biggest issue is the true
+瓦妮莎·史密斯：确实如此。因为我最大的问题是
+ 
+ 
+00:02:31
+ 
+Amber Fu: Oh yeah. Got you. Got you.
+Amber Fu：哦，是的。明白了。明白了。
+Vanessa Smith: up.  瓦妮莎·史密斯：起身。
+Amber Fu: And I think you mentioned that don't tell you it's a pig just tell you what to do and show you the dollar difference.
+Amber Fu：我记得你提到过，不要告诉你它是猪，只要告诉你该怎么做，并展示一美元差额。
+Vanessa Smith: Exactly.  瓦妮莎·史密斯：没错。
+Amber Fu: And  Amber Fu：还有
+Vanessa Smith: Like I want to see it and make it worth it in order. I'm trying I'm sorry. I'm trying to share my screen.
+Vanessa Smith：我想先看，然后按顺序让它值得。我在努力，对不起。我正在尝试共享我的屏幕。
+Amber Fu: yeah  Amber Fu：是的
+Vanessa Smith: I'm not seeing Is this it? Captions. Raise hand. More options. Full screen.
+Vanessa Smith：我没看到，是这个吗？字幕。举手。更多选择。全屏。
+Amber Fu: there uh let  安柏·傅：呃，让我
+Vanessa Smith: Um,  瓦妮莎·史密斯：嗯，
+Amber Fu: me  Amber Fu：我
+Vanessa Smith: usually it says it right here. Share screen. Maybe I'm looking at the wrong. It says recorded. This transcribes visitors in this meeting. Let's see. It's It says some of my things are limited access due to the meeting restrictions. So, I'm not sure if you guys put a restriction on there because that's what pops up.
+瓦妮莎·史密斯：通常这里都会写着。分享屏幕。也许我看错了方向。上面写着已录制。这是本次会议访客的转录。我看看。它说由于会议限制，我的一些物品权限受限。所以，我不确定你们是不是在上面加了限制，因为那就是弹出的限制。
+Amber Fu: Uh, let me let me see. Wait a second. Can you try one more time?
+Amber Fu：呃，让我看看。等一下。你能再试一次吗？
+ 
+ 
+00:04:01
+ 
+Vanessa Smith: Okay. Okay. Yeah. You see?
+瓦妮莎·史密斯：好的。好的。是的。你看？
+Amber Fu: Okay. Yes. Yes. I see.
+Amber Fu：好的。是的。是的。明白了。
+Vanessa Smith: Okay.  瓦妮莎·史密斯：好的。
+Amber Fu: Perfect. Perfect. Um well, so let's start with the home screen. like I I I won't explain anything yet. So, just trade this as your first time opening the
+Amber Fu：完美。完美。嗯，那我们先从主屏幕说起。比如我，我暂时不会解释任何事情。所以，把这件事当作你第一次开门
+Vanessa Smith: Okay.  瓦妮莎·史密斯：好的。
+Amber Fu: app.  Amber Fu：应用。
+Vanessa Smith: So, um, first thing I notice is the red on top, right? So, it says some things require your attention. So, the red immediately stands out. So, if I open this up, I'm going to want to see what the attention is for me. So, um, next I see in red it says unusual. So, today versus your usual. So now it's showing that um this is my it I mean I'm assuming that you know compared
+Vanessa Smith：嗯，我首先注意到的是上面的红色，对吧？所以，它说有些事情需要你关注。所以，红色立刻显眼。所以，如果我打开这个，我会想看看大家对我有什么关注。所以，嗯，接下来我看到红色显示为异常。所以，今天和你平时的不一样。现在它显示，嗯，这就是我的，我是说，我猜你知道，比较一下
+Amber Fu: Amen.  Amber Fu：阿门。
+Vanessa Smith: to previous time um this is not the usual pattern. So it says um it appears to be offline for two hours. So I'm intrigued. I'm not sure what that means.
+Vanessa Smith：回到之前，嗯，这不是通常的模式。所以它显示，嗯，看起来已经离线两个小时了。所以我很感兴趣。我不太明白那是什么意思。
+ 
+ 
+00:05:07
+ 
+Vanessa Smith: Um so I would see if I could click on that first where it says this part here.
+Vanessa Smith：嗯，我想先点那个写着这部分的地方。
+Amber Fu: The today.  Amber Fu：今天。
+Vanessa Smith: I would assume that this box is a click thing because this stands out to me right here where it says
+Vanessa Smith：我猜这个框是点击器，因为这里写着这个让我很注意
+Amber Fu: Okay.  Amber Fu：好的。
+Vanessa Smith: unusual. that stands out to me a lot.
+Vanessa Smith：不寻常。这让我印象深刻。
+Amber Fu: Mhm. Mhm.  安柏·傅：嗯。嗯。
+Vanessa Smith: So coming on here, first thing I notice is this red area,
+Vanessa Smith：说到这里，我首先注意到的是这个红色区域，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Vanessa Smith: right? The whole thing that Oh, sorry. It says attention, right? That's what I noticed first. And then I would immediately drag myself here to this section.
+瓦妮莎·史密斯：对吧？整个事情——哦，抱歉。上面写着注意，对吧？这是我最先注意到的。然后我会立刻把自己拖到这里来到这个区域。
+Amber Fu: Mhm.  Amber Fu：嗯。
+Vanessa Smith: Um once I open that part, I would look about I would look at that um and then I would go here.
+Vanessa Smith：嗯，一旦我打开那部分，我会环顾四周，然后看那个，嗯，然后我会去这里。
+Amber Fu: Mhm.  Amber Fu：嗯。
+Vanessa Smith: So it kind of says all these things. So first it says, okay, it's a power outage. Um I would look at that after I dug deeper into this part, right? So after that I would go here. I would look at these things.
+瓦妮莎·史密斯：所以它大致上表达了这些内容。首先它说，好，停电了。嗯，我会在深入挖掘这部分后再看看，对吧？之后我会去这里。我会考虑这些东西。
+ 
+ 
+00:05:48
+ 
+Amber Fu: Mhm.  Amber Fu：嗯。
+Vanessa Smith: Um again go down and it's um you know look at this what this option is. Um and then I also really like how it says part um pause my EV charging until off peak. So I'm wondering like how that would do.
+Vanessa Smith：嗯，再往下走，嗯，你知道，看看这个选项是什么。嗯，我也很喜欢它说“部分，嗯，暂停我的电动车充电直到非高峰期”。所以我想知道那样会怎样。
+Amber Fu: Huh.  Amber Fu：嗯。
+Vanessa Smith: Would I have to link my Tesla app to this? Um do I feel safe linking my Tesla app to this?
+Vanessa Smith：我需要把我的特斯拉应用绑定到这个吗？嗯，我觉得把我的特斯拉应用链接到这个上安全吗？
+Amber Fu: Uhhuh. Uhhuh.  Amber Fu：嗯哼。嗯哼。
+Vanessa Smith: um what are the privacy settings for something like this? Because um the type of apps for the EVs um it controls a lot of things, right? It can tell my location, open my car, all of these things. So, I would be very weary of that part. Um I do like how it offers to be able to uh pause it,
+Vanessa Smith：嗯，这种事情的隐私设置是怎样的？因为，嗯，电动车的应用类型，嗯，它控制了很多东西，对吧？它能告诉我的位置，打开我的车，所有这些功能。所以，我会对这部分非常谨慎。嗯，我确实喜欢它能让它暂停它的功能，
+Amber Fu: Okay.  Amber Fu：好的。
+Vanessa Smith: but I'm also very weary about linking my app to that. Um so, I want to see what that's that what that is. And then I'm not sure what the apply now is.
+Vanessa Smith：但我对把我的应用和那个联系起来也非常谨慎。嗯，我想看看那是什么，那是什么。然后我不确定现在该申请什么。
+ 
+ 
+00:06:44
+ 
+Vanessa Smith: Um,  瓦妮莎·史密斯：嗯，
+Amber Fu: Okay.  Amber Fu：好的。
+Vanessa Smith: and then I would I would be less interested in the estimate for the month.
+Vanessa Smith：那我对本月的估算就没那么感兴趣了。
+Amber Fu: Uh  安柏·傅：呃
+Vanessa Smith: Um, only because again I really don't see these things. So when I see this I'm thinking, "Oh my goodness, like that sounds really great." But again, I don't really see these things. So I think that wouldn't be a feature that immediately I open up and I get excited about seeing that, oh, I've saved this much amount this month.
+Vanessa Smith：嗯，只是因为我真的没看到这些东西。所以当我看到这个时，我会想，“天哪，这听起来真的很棒。”但说实话，我其实并不怎么看这些东西。所以我觉得这不会是一个我立刻打开就能兴奋的功能，看到“哦，我这个月省了这么多钱”。
+Amber Fu: Gotcha. Gotcha. Well, like let's uh we'll start like the uh the top of B uh banner and uh like there have like something may require your attention. uh like reading this line, what do you think is trying to tell you like like does it feel more like oh something you may want to look at or something is wrong and you must act now.
+Amber Fu：明白了。明白了。嗯，我们先从 B 的顶部开始，比如有点东西需要你注意。呃，就像读这句话时，你觉得它想告诉你什么？感觉更像是你可能想看的东西，或者有什么不对劲，你必须现在行动？
+Vanessa Smith: I think it comes off as something's wrong and you need to act now.
+Vanessa Smith：我觉得这给人的感觉是有什么不对劲，你需要现在行动。
+Amber Fu: Okay. Got you. Got you. And like if this actually affect your ear and true up, would you want this to sounds like stronger than it does now?
+Amber Fu：好的。明白了。明白了。如果这真的影响到你的耳朵和 TrueUp，你会希望它听起来比现在更强吗？
+ 
+ 
+00:07:52
+ 
+Vanessa Smith: I think it should have an exclamation mark. Um, and then I would like it just because I'm a visual person,
+Vanessa Smith：我觉得应该加个感叹号。嗯，然后我会喜欢，因为我是个视觉型的人，
+Amber Fu: Okay.  Amber Fu：好的。
+Vanessa Smith: I would like it to be a little more centered. So attention should maybe be in between may and require. Um, when I see that period there, it almost seems like in all the space in between after attention,
+Vanessa Smith：我希望它能更集中一点。所以注意力应该介于五月和必需之间。嗯，当我看到那段时间时，几乎感觉在注意力之后的空隙里，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Vanessa Smith: it seems like there should just be more there. Like what else are we missing? Like what else is it? like um I would think if I saw this I would think if there was no explanation point I would think there should be bullet points to add okay this this and this right so um power is out um you know you're using way too much energy right now and then maybe let's pause your EV to off peak time um I also would
+Vanessa Smith：看起来应该有更多内容。我们还遗漏了什么？还能是什么？比如，嗯，我会觉得如果我看到这个，我会觉得如果没有解释，我会觉得应该有项目符号来补充，好，这个这个，还有那个，嗯，停电了，嗯，你知道你现在用的能源太多了，然后也许我们暂停你的电动车到非高峰时段，嗯，我也这么做。
+Amber Fu: Okay. Okay.  Amber Fu：好的。好的。
+Vanessa Smith: like it okay we'll just stick to that part and then I'll go down lower what else I would like to
+Vanessa Smith：喜欢，好吧，我们就专注于那部分，然后我会往下说，还有什么我想说的
+ 
+ 
+00:08:45
+ 
+Amber Fu: Okay. Well, uh so for this part uh it's like we uh it's not like a alarm. It's more like okay some something today could affect your cost. So worth to quick look. So that's the like something may require your attention the the banner and and like uh look at the the card on the left like the today this your usual uh this like when you first like see read it like what question do you think this card is answering?
+Amber Fu：好的。嗯，呃，这部分，呃，就像我们，呃，不像闹钟。更像是，今天有些事情可能会影响你的费用。所以值得快速看看。所以，比如说，有些事情可能需要你注意，比如横幅，然后，呃，看看左边的那张牌，就像今天，这是你平时的表现，呃，当你第一次看到它时，你觉得这张牌在回答什么问题？
+Vanessa Smith: Um, so it shouldn't be in red now because again red means alert. So that that shouldn't even if it's just saying hey like um some things may require your
+Vanessa Smith：嗯，现在不应该是红色，因为红色代表警戒。所以即使只是说，嗯，有些事情可能需要你的
+Amber Fu: Mhm.  Amber Fu：嗯。
+Vanessa Smith: attention that doesn't grab me just the the wording for it. I think maybe it should say um uh look what's changed because all of these things are things that have changed, right?
+Vanessa Smith：注意这点不吸引我，只是它的措辞。我觉得也许应该写，嗯，呃，看看发生了什么变化，因为这些都是已经改变的事情，对吧？
+Amber Fu: Okay.  Amber Fu：好的。
+Vanessa Smith: Because now it's not an alert. Maybe that would be a friend friendly yellow in the background instead. Um but the red doesn't make sense.
+瓦妮莎·史密斯：因为现在它不再是警报。也许背景里会有一个友好的黄色。嗯，但红色说不通。
+ 
+ 
+00:09:53
+ 
+Amber Fu: Oh.  Amber Fu：哦。
+Vanessa Smith: But um yeah again so the unusual pattern detected again whenever I see anything unusual like you know anything you get alerts from bank anything it says unusual you're concerned now you have to go inside of this you may even kind of freak out stop everything you're doing um so again if it's not something I I don't I'm just curious to see what the unusual part is because again unusual is highlighted in the bottom red that usually means something negative. I I correlate that to something negative. So I'm intrigued what this means
+Vanessa Smith：但是，嗯，是的，再说一次，每当我看到任何异常情况时，就会再次检测到异常模式，比如你知道的，银行会发出警报，任何异常的迹象，你就开始担心了。现在你必须进入这个系统，你甚至可能会有点慌乱，停止你正在做的事情，嗯，所以如果不是什么，我不知道，我只是好奇到底是什么异常，因为“异常”是底部红色标注通常意味着负面影响。我觉得这和一些负面的事情联系起来。所以我很好奇这意味着什么
+Amber Fu: Okay. Oh,  Amber Fu：好的。哦，
+Vanessa Smith: now.  瓦妮莎·史密斯：现在。
+Amber Fu: so what uh what we are like really trying to do here is not like monitor your usage but is answer like the question is like is is anything today different from your normal pattern like for example like solar is usually on at this time but
+Amber Fu：所以，呃，我们现在真正想做的不是监控你的用电量，而是回答问题是，今天有什么不同于你平时的模式吗？比如说，太阳能通常在这个时间段会开启，但
+Vanessa Smith: Thanks.  瓦妮莎·史密斯：谢谢。
+Amber Fu: today is uh isn't. So we're just you know surfacing that difference. That's that's that's that's uh today and this uh
+Amber Fu：今天，呃，不是。所以我们只是想把这种差异展现出来。就是这样，就是，呃，今天，还有这个，呃
+Vanessa Smith: Well,  瓦妮莎·史密斯：嗯，
+Amber Fu: Euro  琥珀·傅：欧洲
+ 
+ 
+00:10:58
+ 
+Vanessa Smith: I think I would like to see maybe a little graph or a percentage or, you know, the mark where it shows bigger and smaller. I I don't like this. I don't know. I I just really don't like it. I think I need to see something more because on any app like you log into, especially if it has to do with money, spending, saving, anything like that. Generally speaking, it's some type of graph and it shows you like, oh, like uh for example, I log into my rackets and it'll show me every month and it'll have a graph up and down,
+Vanessa Smith：我想我希望看到一个小图表，或者百分比，或者你知道的，那个标记，显示大小。我，我不喜欢这样。我不知道。我真的不喜欢。我觉得我需要看到更多，因为在任何你登录的应用上，尤其是涉及金钱、消费、储蓄之类的。一般来说，它是一种图表，比如说，我登录我的球拍，它会显示每个月的图表，并且有上下的图表，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Vanessa Smith: right? or you're working out,
+瓦妮莎·史密斯：对吧？或者你在锻炼，
+Amber Fu: Uh-huh.  安柏·傅：嗯哼。
+Vanessa Smith: it'll have a graph up and down of how much steps you've done today.
+Vanessa Smith：上面会有一张上下移动的图表，显示你今天做了多少步。
+Amber Fu: Yeah.  Amber Fu：是的。
+Vanessa Smith: So, I think when you immediately log in, that's what people want to see. They want to see the graph, whether it be weekly, daily, from yesterday to today, up, down, just to show me visually, oh, okay, I see the difference now. And I feel like when you see things on a graph,
+Vanessa Smith：所以，我觉得当你一登录时，人们就想看到这些。他们想看到图表，无论是每周、每日、从昨天到今天、上下，只是为了直观地给我看，哦，好了，我现在明白了。我觉得当你在图表上看到东西时，
+ 
+ 
+00:11:44
+ 
+Amber Fu: Okay.  Amber Fu：好的。
+Vanessa Smith: you can really see the difference in size, if that makes sense.
+Vanessa Smith：你真的能明显感受到体型的差异，如果你能理解我的意思。
+Amber Fu: Gotcha. Gotcha. Gotcha. And and for the like the second part, the the estimate for the month. Uh so look at the card on the right when you first see the number. What do you think is represent?
+Amber Fu：明白了。明白了。明白了。还有，比如第二部分，月份的估算。呃，看右边的卡片，当你第一次看到数字时。你觉得代表了什么？
+Vanessa Smith: Um, so it says again it's not really clear. So it's saying 26880 to 280. So, am I saving about that much based off my habits today,
+Vanessa Smith：嗯，所以它又说这并不十分清楚。所以显示的是 26880 到 280。那么，根据我今天的习惯，我大概存了这么多钱吗？
+Amber Fu: Mhm.  Amber Fu：嗯。
+Vanessa Smith: right now, or if I continue my habits,
+Vanessa Smith：现在，或者如果我继续保持这个习惯，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Vanessa Smith: is this going to be what I'm going to save at the end of the month? Is this what I'm currently saving at? Um,
+Vanessa Smith：这会是我月底要存的吗？我现在的存钱是这个水平吗？嗯，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Vanessa Smith: and I also think it would be also nice to have maybe again a graph too, like, hey, you saved 268 last month. keep up these habits, you know, or um here's these tips to do more to save and let's try to save $2 more next month. Something like that.
+Vanessa Smith：我也觉得如果能再做一张图表，比如，你上个月省了 268 个。保持这些习惯，或者，嗯，这里有这些节省点小贴士，下个月我们再多省 2 美元吧。差不多是这样。
+ 
+ 
+00:12:46
+ 
+Vanessa Smith: Um but just seeing this alone, it's not intriguing. I just need more. I need to see something more. A graph like these numbers just again looking at it, you're like, does do my do I owe this much on my bill? Like you're you're confused, right? I don't know.
+Vanessa Smith：嗯，但光是看到这些，就没什么吸引力。我只是需要更多。我需要看到更多。像这样的图表，再仔细看，你会想，我的账单上是否欠了这么多钱？你是不是很困惑？我不知道。
+Amber Fu: Okay. Gotcha.  Amber Fu：好的。明白了。
+Vanessa Smith: It doesn't make sense.
+瓦妮莎·史密斯：这说不通。
+Amber Fu: Gotcha. Gotcha. Well, uh, so we're like really careful like not calling this a bill like what's what like we're trying to say is if like situation like this keep happening this month, this is amount like roughly impact uh could have on your cost. So uh
+Amber Fu：明白了。明白了。嗯，呃，所以我们非常小心，不把这当作账单，比如我们的意思是，如果这个月这种情况继续发生，这大致会对你的成本产生影响。所以，呃
+Vanessa Smith: I think then that should be said a little bit more clear again like based off your like again instead of
+Vanessa Smith：那我觉得应该再说得更清楚一点，比如说“基于你的点赞”，而不是
+Amber Fu: okay.  Amber Fu：好的。
+Vanessa Smith: saying estimate for the month based off your habits today or based off your habits this week. Um, you know, you can save this much,
+Vanessa Smith：根据你今天的习惯或本周的习惯来估算本月。嗯，你知道，你可以省这么多，
+Amber Fu: Mhm. Got you.  安柏·傅：嗯，明白了。
+Vanessa Smith: but I don't like how it just says,
+Vanessa Smith：但我不喜欢它只是写着，
+ 
+ 
+00:13:38
+ 
+Amber Fu: Got you.  安柏·傅：明白了。
+Vanessa Smith: um, you know, estimate for the month, but again, it's not being clear. Is it off current right now? Is it based off last month? And then what changes do I need to make?
+Vanessa Smith：嗯，你知道，是对本月的估计，但还是不够清楚。现在是不是断流了？是基于上个月的吗？那我需要做哪些改动？
+Amber Fu: Got you. And like if I told you this number directly rolls up into your true aail, would this matter a lot more to you?
+安柏·傅：明白了。如果我告诉你这个数字直接算进你的真实资产，这对你来说会不会更重要？
+Vanessa Smith: if that equals up to my true
+Vanessa Smith：如果这相当于我的真实情况
+Amber Fu: Yeah. Yeah. Well,
+Amber Fu：是的。是的。嗯，
+Vanessa Smith: upup.  瓦妮莎·史密斯：抬起来。
+Amber Fu: directly rolls up into your, you know, year end drop.
+Amber Fu：直接加入你年终的发布。
+Vanessa Smith: Um, if it gave me, I guess, a current amount like every time I log in, I guess it would be nice to see because again, you don't see the surprises.
+Vanessa Smith：嗯，如果它能给我一个当前金额，比如每次登录时，那我觉得那会很好，因为你看不到那些惊喜。
+Amber Fu: Mhm.  Amber Fu：嗯。
+Vanessa Smith: Um, but I'd also wanted again to show me what I could do tips or like you see how on the bottom it it tells you the suggestion, right? So, I really like the suggestion thing. So, but I think maybe that suggestion should be a little bit higher up or somewhere a little bit closer to where the estimate for the
+Vanessa Smith：嗯，但我也想再给我展示一下我能做什么，或者像你看的，底部会告诉你建议，对吧？所以，我很喜欢建议这个说法。不过我觉得这个建议应该放在更前面，或者更接近估计值的位置，
+ 
+ 
+00:14:32
+ 
+Amber Fu: Mhm.  Amber Fu：嗯。
+Vanessa Smith: month is because those two correlate very well together.
+Vanessa Smith：月份是因为这两者非常契合。
+Amber Fu: Okay. Gotcha. Gotcha. Gotcha. And um and for like the next part, the power outage uh like what do you think about that?
+Amber Fu：好的。明白了。明白了。明白了。接下来，关于停电，你怎么看？
+Vanessa Smith: Um, so it's telling me that a power outage is coming. Um,
+瓦妮莎·史密斯：嗯，这告诉我停电快要发生了。嗯，
+Amber Fu: Yeah. Yeah.  Amber Fu：是的。是的。
+Vanessa Smith: I really like that. I want to know. Um, we all really heavily alli rely on our um,
+Vanessa Smith：我真的很喜欢这个。我想知道。嗯，我们都非常依赖我们的，嗯，
+Amber Fu: Okay.  Amber Fu：好的。
+Vanessa Smith: things. So if they know ahead of time, I think that's great. Even if it's a current power outage, I think that's awesome. tells you because often times you're like, "Oh my gosh, what's going on?" You know what not? So, I think that's great that it'll tell you. So, then I would click on that too on the arrow next and you know see does it say, "Hey, this started or it's affecting you know these homes and when the estimated time for it to be restored." I would like to see all of that if that's
+瓦妮莎·史密斯：事情。所以如果他们提前知道，我觉得那很好。即使现在停电，我觉得这也很棒。告诉你，因为你常常会想，“天哪，发生了什么？”你知道什么吗？所以，我觉得它能告诉你这点很棒。然后我会点击箭头上的那个，你知道，它是否写着“嘿，这已经开始了，或者正在影响这些房屋，预计恢复时间”。如果是这样，我很想看看这些
+ 
+ 
+00:15:32
+ 
+Amber Fu: Mhm. Got you. Got you.
+安柏·傅：嗯，明白了。明白了。
+Vanessa Smith: possible.  瓦妮莎·史密斯：有可能。
+Amber Fu: Okay. Yes.  Amber Fu：好的。是的。
+Vanessa Smith: It's asking a lot but ideally that's what I would like to see.
+Vanessa Smith：这要求很高，但理想情况下，这正是我希望看到的。
+Amber Fu: Yes.  Amber Fu：是的。
+Vanessa Smith: But if it didn't say any of those things and it's just telling me, hey, it's a power outage, there's absolutely no reason for it to be on
+Vanessa Smith：但如果它没有说这些，只是告诉我，嘿，停电了，那根本没有理由开着它
+Amber Fu: Got you. Got you.
+安柏·傅：明白了。明白了。
+Vanessa Smith: there.  瓦妮莎·史密斯：就是这样。
+Amber Fu: And and for the next part, the the this suggestion like applied uh apply now stuff like uh so let's assume this suggestion would save you about like $6 today. And if like repeat reduce your like year end true up by like 300 to 400. Now when you look at like apply
+Amber Fu：接下来，这个建议，比如“应用”，比如“现在申请”，假设这个建议今天能帮你省大约 6 美元。如果重复，就把同年真值减少 300 到 400。现在你看“应用”时
+Vanessa Smith: Um,  瓦妮莎·史密斯：嗯，
+Amber Fu: now.  Amber Fu：现在。
+Vanessa Smith: yeah, absolutely. If if it said all those things, you know, like, hey, if everything you said, if it said that like in a nutshell, yes, absolutely I would because for me that's a savings.
+Vanessa Smith：是的，绝对如此。如果它说了这些，比如说，嘿，如果你说的每一句话，简而言之就是这些，是的，绝对会，因为对我来说那是一种节省。
+Amber Fu: Uhhuh.  Amber Fu：嗯哼。
+Vanessa Smith: $6 a day times 30 31 days in a month, that's a lot. And then my true up, you know, again, is over $1,000.
+Vanessa Smith：每天 6 美元乘以 30 到 31 天，这个月很厉害。然后我的真钱，你知道，还是超过 1000 美元。
+ 
+ 
+00:16:35
+ 
+Vanessa Smith: So if it can cut it down about 40%, I mean, you know, take off about 40%. That's amazing. So again, I'm like again applying what, but like what do you need for applying? Like what do we you know? Yeah, because again if you know um I do know a lot of EV owners as well. So I I would be intrigued to see you know are other people doing this? Have I seen this online? Is it really going to help? Am I able to stop this go? But I would want to know what the apply now is. But then that kind of scares me a little bit because when you see apply now, you're like h what what do I what do they want from me? That's the first thing I think of when I see apply now.
+Vanessa Smith：所以如果能削减大约 40%，也就是说，减少大约 40%。太棒了。所以我又问，申请什么，但申请需要什么？我们知道什么？是的，因为如果你知道的话，嗯，我也认识很多电动车车主。所以我很想知道，你知道还有其他人在做这件事吗？我在网上见过这个吗？这真的有用吗？我能停止这种状态吗？但我想知道现在申请的是什么。但这也让我有点害怕，因为当你看到“现在申请”时，你会想，我到底想从我这里得到什么？这是我看到“现在申请”时首先想到的。
+Amber Fu: Okay.  Amber Fu：好的。
+Vanessa Smith: I'm like, "Oh,
+Vanessa Smith：我当时想，“哦，
+Amber Fu: Okay.  Amber Fu：好的。
+Vanessa Smith: what what information do they want now?"
+瓦妮莎·史密斯：他们现在想要什么信息？”
+Amber Fu: Okay. Got you.  Amber Fu：好的。明白了。
+Vanessa Smith: So,  瓦妮莎·史密斯：所以，
+Amber Fu: And do you assume it will actually change your Tesla setting or just tell you what you should do
+Amber Fu：你认为它真的会改变你的特斯拉设置，还是只是告诉你该怎么做
+ 
+ 
+00:17:24
+ 
+Vanessa Smith: um I don't think it would per I don't think it would change my settings.
+Vanessa Smith：嗯，我觉得这不会改变我的设置。
+Amber Fu: next?  安柏·傅：下一个？
+Vanessa Smith: I think I would have to manually go in this app to change it because when I'm logging on here, it says suggestions. So, when it says pause EV in my mind, I would love for that blue that blue part right there. You could just click on that and do it that way, right? If you're wanting to um again, I'm assuming integrate your app with this thing. Um I I would think that it would just be a button here,
+Vanessa Smith：我想我得手动进入这个应用才能更改，因为我登录这里时，它显示有建议。所以，当我脑海中说暂停 EV 时，我很希望那个蓝色部分就是那个蓝色部分。你完全可以点击那个，然后按那个方式作，对吧？如果你想再做一次，我猜你应该把你的应用和这个东西集成。嗯，我觉得这里应该只是一个按钮，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Vanessa Smith: like I wouldn't want to have to go into my Tesla app, I guess, to have to do
+Vanessa Smith：我可不想还得去我的特斯拉应用里做这些事
+Amber Fu: Okay.  Amber Fu：好的。
+Vanessa Smith: it,  瓦妮莎·史密斯：它，
+Amber Fu: Like you you you will do like the setting in the Tesla app, right?
+Amber Fu：和你一样，你会像特斯拉应用里的设置一样，对吧？
+Vanessa Smith: right?  瓦妮莎·史密斯：对吧？
+Amber Fu: Gotcha. Gotcha. Okay. Gotcha. And um okay and like is like like right now except this like any question about like the home
+Amber Fu：明白了。明白了。好的。明白了。嗯，好吧，就像现在，但关于家的问题就是这样
+Vanessa Smith: um yes.  瓦妮莎·史密斯：是的。
+Amber Fu: screen?  Amber Fu：屏幕？
+ 
+ 
+00:18:19
+ 
+Vanessa Smith: So the apply now thing, right? So again, if I see this and let's say I'm not interested in applying now, I don't want to see this apply now on my screen every single time. I don't it's Yeah,
+Vanessa Smith：所以就是“立即申请”，对吧？所以再说一次，如果我看到这个，比如说我现在不想申请，我不想每次都看到“现在申请”这个信息。我不觉得是的，
+Amber Fu: Okay.  Amber Fu：好的。
+Vanessa Smith: I I think it I don't like that. But and then if I did apply now, um I would I wouldn't want it to be on there again.
+Vanessa Smith：我觉得我不喜欢那样。但如果我现在申请，嗯，我也不想再出现。
+Amber Fu: Um  琥珀·傅：A
+Vanessa Smith: Let's say I applied, everything's good, I I decided to do it. Or even if I didn't decide to do it,
+Vanessa Smith：假设我申请了，一切都很好，我决定去做。或者即使我没决定去做，
+Amber Fu: um okay.  Amber Fu：嗯，好吧。
+Vanessa Smith: I don't I don't need to see that apply now every single time.
+Vanessa Smith：我不需要每次都看到这种情况。
+Amber Fu: Got you. Got you. And how about uh if only like a advice like just tell you like what you could do or you what you should do. Is that better?
+安柏·傅：明白了。明白了。那，呃，哪怕只是建议，比如告诉你你能做什么，或者你应该做什么。这样好点了吗？
+Vanessa Smith: I like the suggestion thing. I don't think Yeah,
+Vanessa Smith：我喜欢你提出建议的这个说法。我觉得不行，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Vanessa Smith: I really like the suggestion thing. Um, you know, about you know, because I'm assuming obviously this is going to be um linked to your P Gen account or some or somewhat because it's seeing all of these things.
+Vanessa Smith：我很喜欢暗示这个设定。嗯，你知道，关于你知道的，因为我假设这显然会和你的 P Gen 账户绑定，或者某种程度上，因为它会看到所有这些东西。
+ 
+ 
+00:19:17
+ 
+Vanessa Smith: So, um yeah, I do like I don't know if it would be able to detect if I'm washing clothes or um dishwasher things like that.
+Vanessa Smith：所以，嗯，是的，我确实不知道它能不能检测我是否在洗衣服或者洗碗机之类的事情。
+Amber Fu: Mhm.  Amber Fu：嗯。
+Vanessa Smith: I think that would be awesome if it could too. And then it and if it knew like,
+Vanessa Smith：如果能做到，那就太棒了。然后它，如果它知道，比如，
+Amber Fu: And  Amber Fu：还有
+Vanessa Smith: hey, you're washing um things or what not.
+Vanessa Smith：嘿，你在洗东西什么的。
+Amber Fu: then  安柏·傅：然后
+Vanessa Smith: Hey, you know, if you wash two hours from now or later tonight or switch it to tomorrow morning again, but I want to see the number like don't just tell me pause EV charging until off peak.
+Vanessa Smith：嘿，你知道，如果你现在两个小时后洗澡，或者今晚晚些时候洗澡，或者再改到明天早上，但我想知道那种数字，比如“不要告诉我暂停电动车充电直到非高峰期”。
+Amber Fu: um  琥珀·傅作为
+Vanessa Smith: If you charge PE um EV charging until offbeat, you will save $6 today.
+Vanessa Smith：如果你用 PE um 的电动车充电一直充到不合适的状态，今天你就能省下 6 美元。
+Amber Fu: Okay. Okay. Got you.
+Amber Fu：好的。好的。明白了。
+Vanessa Smith: Does that make
+瓦妮莎·史密斯：那算不算
+Amber Fu: Got you. Yes. Yes. Definitely. Definitely.
+安柏·傅：明白了。是的。是的。绝对是。绝对是。
+Vanessa Smith: sense?  瓦妮莎·史密斯：有道理吗？
+Amber Fu: And um oh and one more question is like what situation you want the let's say like uh you want our app can you know maybe like ask ask you like oh do you want to charge your EV right now if like you charge right now well it save you like let's say like a $10 something like that and you want you you want to always
+Amber Fu：还有一个问题，比如你想要什么样的情况，比如说，呃，你想要我们的应用，你能不能问问你，哦，你现在想给你的电动车充电吗？如果你现在充电，那它能帮你省钱，比如说 10 美元左右，你想要永远
+ 
+ 
+00:20:31
+ 
+Vanessa Smith: I think I like I think I would like to do it in the Tesla app myself only because I have reservations about linking my Tesla app to this. Me personally, um other people maybe not, but I I think that again if it said that alert um it would be nice to just tell me because um like I don't have a smart washer and dryer. I don't know if this app would only work with smart appliances like that, but if it didn't, um, you know, again, maybe just it shows I'm pulling more kilowatts, but I also think it would be nice to have something to say, hey, set an alert every time I'm able to save $2.50 by switching my habit or set an alert when I'm able to save $5 or more. Because for me, $5 um may be worth it saving, but for someone else, a quarter may be worth saving, right? Um but for me, I I had discussed previously like a quarter wouldn't be worth me saving because at the end of the month, if I only see a two or three dollar difference or even 10 cents, you know what I mean?
+Vanessa Smith：我想我喜欢，我想我自己也想在特斯拉应用里做，因为我对把特斯拉应用和这个关联有顾虑。就我个人而言，嗯，其他人可能不会，但我觉得如果它有那个提醒，嗯，告诉我会更好，因为我没有智能洗衣机和烘干机。我不知道这个应用是不是只适用于这种智能电器，但如果不行，嗯，你知道，也许它只是显示我拉了更多千瓦，但我也觉得如果能有点东西可以说，比如每次通过换习惯省下 2.50 美元时设置提醒，或者当我能省 5 美元或更多时设置提醒。因为对我来说，5 美元可能值得存，但对别人来说，25 美分可能值得存，对吧？嗯，但对我来说，我之前讨论过，一个 25 美分不值得我存，因为月底如果我只差两三美元，甚至 10 美分，你懂我的意思吧？
+ 
+ 
+00:21:32
+ 
+Vanessa Smith: It wouldn't be worth it. So, I think it would be nice to have like a toggle button on there, too, to say, "Hey, alert me when it does this." Because we don't want to keep getting alerts on our phones for uh for apps. I know when I get too many alerts on a phone, I just either pause it or I may undownload it. So, I think it would be nice to have that feature as
+Vanessa Smith：那不值得。所以我觉得如果能在上面加个开关按钮，可以说“嘿，遇到这个通知我”会很好。因为我们不想一直收到手机上的通知，针对应用程序。我知道当手机收到太多提醒时，我要么暂停手机，要么可能会卸载。所以我觉得如果能有这个功能会很好
+Amber Fu: Okay,  Amber Fu：好的，
+Vanessa Smith: well.  瓦妮莎·史密斯：嗯。
+Amber Fu: I'm sorry. I kind of lost for like two minutes. I lost a signal.
+Amber Fu：对不起。我有点迷路了大约两分钟。我失去了信号。
+Vanessa Smith: Oh,  瓦妮莎·史密斯：哦，
+Amber Fu: So,  Amber Fu：那么，
+Vanessa Smith: okay.  瓦妮莎·史密斯：好的。
+Amber Fu: sorry. I'm really sorry. I
+Amber Fu：抱歉。真的很抱歉。我
+Vanessa Smith: No worries. Um, I was just saying it would be nice to maybe have like some type of alert to say,
+Vanessa Smith：没关系。嗯，我只是说如果能有某种警报会很好，比如说，
+Amber Fu: Okay.  Amber Fu：好的。
+Vanessa Smith: "Hey, can you alert me every time I would save a dollar or I would save 25 cents or $5 or something by switching my habit." Um, it would be nice to have like a toggle thing because someone may want to save 10 cents and that's big for them.
+Vanessa Smith：“嘿，你能不能每次提醒我，只要我换了个习惯省下一美元，或者省了 25 美分、5 美元之类的。”嗯，如果有个开关功能就好了，因为有人可能想省 10 美分，这对他们来说很重要。
+ 
+ 
+00:22:15
+ 
+Amber Fu: Mhm.  Amber Fu：嗯。
+Vanessa Smith: Whereas someone like me,
+瓦妮莎·史密斯：而像我这样的人，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Vanessa Smith: I want I want to save like a dollar amount and I would like to get alerts like that.
+Vanessa Smith：我想省一笔钱，也希望能收到这样的提醒。
+Amber Fu: Okay. Got you. Got you. Okay. And um so like right now you can maybe we can like like uh you can type some like a power outage the the
+Amber Fu：好的。明白了。明白了。好的。嗯，现在你可以，比如说，我们可以打一些，比如停电，或者
+Vanessa Smith: Here  瓦妮莎·史密斯：给你
+Amber Fu: bottom. Yeah. Yeah.
+Amber Fu：底部。是的。是的。
+Vanessa Smith: I can click on it.
+瓦妮莎·史密斯：我可以点击它。
+Amber Fu: Yeah. Power  Amber Fu：是的。动力
+Vanessa Smith: Oh,  瓦妮莎·史密斯：哦，
+Amber Fu: outage.  Amber Fu：停机。
+Vanessa Smith: I don't think it's letting me click anything.
+Vanessa Smith：我觉得它不让我点击任何东西。
+Amber Fu: Uh, is that working? Yeah.
+Amber Fu：呃，那个方法有效吗？是的。
+Vanessa Smith: Okay.  瓦妮莎·史密斯：好的。
+Amber Fu: Okay. Yeah. And like you can type in this. Yeah. The power outage. Well, so this part is more like tell you like what's going on like what happened why matter like how is impact. Do you think this event thing is useful for you?
+Amber Fu：好的。是的。你可以输入这个。是的。停电。这部分更像是告诉你发生了什么，比如发生了什么，为什么发生了什么，比如影响如何。你觉得这个活动的事对你有用吗？
+Vanessa Smith: Um yeah, I again I do like to know when it's a power outage and then um you know I like how it says um it's approximately 1.1 miles away.
+Vanessa Smith：嗯，是的，我确实喜欢知道停电时间，然后，嗯，你知道，我喜欢它说，嗯，大约 1.1 英里远。
+ 
+ 
+00:23:41
+ 
+Vanessa Smith: So sometimes you're not directly affected but it could hit you as well when they're working on the power line.
+Vanessa Smith：有时候你不会直接受到影响，但当他们在处理电力线时，也可能会受到影响。
+Amber Fu: Then  安柏·傅：那么
+Vanessa Smith: So it's nice to be able to you know get prepared and things like that. Um and then so I like how it kind of says the who, what, when, where, why type thing like you know what happened, why and like who's it going to impact and like you know what we should do basically. Um, so you know, again, uh, you know, it's just again telling you what to do. So again, I think this is just a nice feature just to have. It's kind of like a courtesy feature to have on there. I also really like how it has the mute option as well as the remind me and then if I don't care, remove because I was also mentioning that um, sometimes when the apps give too many alerts, you know, you just have a tendency to mute it and things like that, but then then in turn you wind up not even using the app as much because of these type of things.
+Vanessa Smith：所以能提前准备之类的事情真的很棒。嗯，我喜欢它会说“谁、什么、什么时候、在哪里、为什么”之类的，比如你知道发生了什么，为什么，以及它会影响谁，基本上我们应该做什么。嗯，所以你知道，再次强调，呃，你知道，这又是告诉你该做什么。所以我觉得这只是个不错的功能。这算是一种礼貌功能。我也很喜欢它有静音功能，还有提醒我，如果我不在意就删掉，因为我刚才提到，有时候应用提示太多，你会倾向于静音，但结果你甚至因为这些问题都没怎么用。
+ 
+ 
+00:24:31
+ 
+Vanessa Smith: So to have that remind me mute um you know remove I think that's nice to have as well. That's a great feature to have and I would use
+Vanessa Smith：所以让我想起这个，嗯，你知道的，移除，我觉得这也挺好的。这是个很棒的功能，我会用
+Amber Fu: Gotcha. Gotcha.
+Amber Fu：明白了。明白了。
+Vanessa Smith: it.  瓦妮莎·史密斯：就是它。
+Amber Fu: And uh let's move on to the event like you can go back and yeah and this is a event page.
+Amber Fu：然后我们继续说活动，你可以回去，是的，这是一个活动页面。
+Vanessa Smith: Okay. This is the
+瓦妮莎·史密斯：好的。这是
+Amber Fu: Uh yeah like don't try to understand everything.
+Amber Fu：呃，是的，别试图理解所有事情。
+Vanessa Smith: page.  瓦妮莎·史密斯：页面。
+Amber Fu: You you you can just uh like look around and see like can you understand more more of it?
+Amber Fu：你，你，你能不能环顾四周看看，你能不能理解更多？
+Vanessa Smith: Um I do like I do like it. Um I like how it says the times all these things. Um but for me it said like where it says critical and then unusual.
+Vanessa Smith：嗯，我确实喜欢，我喜欢。嗯，我喜欢它说的时间，所有这些事情。嗯，但我看来，它写的是“关键”和“异常”。
+Amber Fu: Mhm.  Amber Fu：嗯。
+Vanessa Smith: I think critical should be on top before unusual.
+Vanessa Smith：我认为《Critical》应该优先于《Unusual》。
+Amber Fu: Uh  安柏·傅：呃
+Vanessa Smith: If this is going like in order of um sever severity I mean well I guess
+Vanessa Smith：如果按严重程度顺序，我是说，嗯
+Amber Fu: m  琥珀·傅：m
+Vanessa Smith: it goes in events. So, but again, if there was two things, I think like uh uh like it should show critical first.
+Vanessa Smith：它会被写进事件中。所以，但如果有两件事，我觉得应该先显示关键时刻。
+ 
+ 
+00:25:37
+ 
+Vanessa Smith: But if it's like all in the same day, I would like to see critical over unusual first. But if it's going from events, you know, these things happened already. It's nice to show the difference of those things as well. So, you can see, hey,
+Vanessa Smith：但如果是同一天发生的，我希望先看到批判性而非非寻常性。但如果是从事件来看，你知道，这些事情已经发生过了。展示这些事情的差异也很好。所以，你可以看到，嘿，
+Amber Fu: Yeah.  Amber Fu：是的。
+Vanessa Smith: like this is a little bit more important. Um I like the explanation point that needs your attention. Um you know, and then the events. So, I think that's I think that's great to have as well. Um, and I would pay attention to these. Um, for example,
+Vanessa Smith：这点更重要一些。嗯，我喜欢需要你注意的解释点。嗯，你知道，然后是事件。所以，我觉得这也很棒。嗯，我会注意这些。嗯，举个例子，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Vanessa Smith: where it says power wall switch to battery, I'd be inclined to, uh, you know, click on that and see like, oh, okay. Well, this is
+Vanessa Smith：当它写着“电源墙切换到电池”时，我倾向于点开它，看看，哦，好的。嗯，这个是
+Amber Fu: Mhm. Got you.  安柏·傅：嗯，明白了。
+Vanessa Smith: why.  瓦妮莎·史密斯：为什么。
+Amber Fu: And which of those would actually interrupt your day like those event?
+Amber Fu：那些活动中，哪一个会像那些活动一样打断你的一天？
+Vanessa Smith: Um,  瓦妮莎·史密斯：嗯，
+Amber Fu: Which one do you think?
+Amber Fu：你觉得是哪一个？
+Vanessa Smith: like which one would be not necessary out of all of them?
+Vanessa Smith：比如说，在所有这些中，哪一个不是必需的？
+Amber Fu: Yes.  Amber Fu：是的。
+ 
+ 
+00:26:23
+ 
+Vanessa Smith: I think maybe the severe weather in your area.
+Vanessa Smith：我觉得可能是你们那边的恶劣天气。
+Amber Fu: Yeah.  Amber Fu：是的。
+Vanessa Smith: Um, I feel like it's common sense. Your phone alerts you all the time with these things.
+瓦妮莎·史密斯：嗯，我觉得这是常识。你的手机经常提醒你这些事情。
+Amber Fu: Okay.  Amber Fu：好的。
+Vanessa Smith: Whether I had this app or not, that's not going to make a difference for me at all. Um, the Power Wall switch to battery, I'm assuming that the app that I would have for that, you know, would tell me that as well.
+Vanessa Smith：无论我有没有这个应用，对我来说都不会有任何影响。嗯，Power Wall 切换到电池功能，我猜我用的应用也会告诉我这个。
+Amber Fu: Mhm.  Amber Fu：嗯。
+Vanessa Smith: Um, the solar production unavailable. I actually like that because on my solar app, it does not alert me when those things happen. Um, and because we are a twoe household, the EV charging during high time, that that's that's a major for me that has to stay. Um, I like the power outage,
+Vanessa Smith：嗯，太阳能发电无法使用。我其实挺喜欢这个，因为在我的太阳能应用里，这些情况发生时不会提醒我。嗯，而且因为我们家只有两个人，电动车在高峰时段充电，这对我来说是必须保持的主要问题。嗯，我喜欢停电，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Vanessa Smith: I think that can stay. Um, and then the solar production, but the power wall switch to battery maybe not as important, but it would be nice to have. So, I would like to keep it, but just the severe weather is like 100% I could live without it.
+Vanessa Smith：我觉得可以保留。嗯，然后是太阳能发电，但电源墙切换到电池可能没那么重要，但有它会很好。所以，我想保留它，但严重天气让我百分百能没有它生活。
+ 
+ 
+00:27:12
+ 
+Vanessa Smith: It doesn't need to be on the app at all.
+Vanessa Smith：其实根本不需要在应用里。
+Amber Fu: Okay. Okay. Gotcha. Gotcha. And and for uh for like the EV uh so when you see like EV charging during the high price, what do you want to know first? Like should I stop now or how much could I save by waiting or will this push up my true up? Like which one do you think you want to know the
+Amber Fu：好的。好的。明白了。明白了。至于，呃，比如电动车，呃，当你看到电动车充电时，你首先想知道什么？比如我现在应该停止，还是等着能省多少钱，还是这会推高我的真实费用？比如你觉得你想知道哪一个
+Vanessa Smith: Um, well,  瓦妮莎·史密斯：嗯，嗯，
+Amber Fu: first?  Amber Fu：第一个？
+Vanessa Smith: I think it's I I feel like for sure everyone knows it's going to increase your bill, right? So, that doesn't matter. But I I want to know how much how much per kilowatts it's charging me now. Like just like the car tells you like when you're going to go to a charger, it says,
+Vanessa Smith：我觉得大家都知道这会增加你的账单，对吧？所以，这并不重要。但我想知道它现在每千瓦收多少钱。就像车子告诉你你去充电站时说的，
+Amber Fu: Okay.  Amber Fu：好的。
+Vanessa Smith: "Hey, like this one's 54 kilowatts, right? So, you know that this is pretty high, whereas I know if I do it at 2 a.m. it would only maybe 30 cents per kilowatt.
+Vanessa Smith：“嘿，这个是 54 千瓦，对吧？你知道这个功率挺高的，而我知道如果凌晨 2 点做，可能每千瓦只有 30 美分。
+ 
+ 
+00:28:03
+ 
+Vanessa Smith: So, I think I would like to see that number um the kilowatt because I think it should know that, right? I think I I would think um it would know that this thing. Um so, it says may uh increase cost exposure, but it's not may, you know, it's going to increase cost exposure. I shouldn't even say that in there either.
+Vanessa Smith：所以，我想我会想看到那个数字，嗯，千瓦，因为我觉得它应该知道这个，对吧？我想我觉得，嗯，它应该知道这个东西。嗯，它说可能会增加成本风险，但实际上并不是，你知道，它会增加成本风险。我甚至不应该在里面说这个。
+Amber Fu: Leave it.  安柏·傅：算了。
+Vanessa Smith: Um, so again, EB charging during high price, like we, you know, tell me that this is high price, but show me it's going to charge me between 50 to 60 cents a a kilowatt, you know, versus, you know, again, another time, you know, if you wait four hours, like, which isn't much if I'm not going to do anything anyways, like why not pay half price if we have to charge ours?
+Vanessa Smith：嗯，再说一次，EB 在高价时充电，比如我们告诉我这是高价，但能证明它会收我每千瓦 50 到 60 美分，和另一种情况相比，如果你等四个小时，这其实不多，如果我本来也没打算做什么，为什么不付半价呢？
+Amber Fu: Mhm.  Amber Fu：嗯。
+Vanessa Smith: So,  瓦妮莎·史密斯：所以，
+Amber Fu: Got  琥珀·傅：得了
+Vanessa Smith: I think that that would be very beneficial for me. Like, that's a deal breaker for me.
+Vanessa Smith：我觉得这对我来说会非常有利。这对我来说是个底线。
+Amber Fu: you.  Amber Fu：你。
+Vanessa Smith: It wouldn't even be pointless, you know? will be a little bit pointless.
+Vanessa Smith：这甚至不会毫无意义，你知道吗？会有点毫无意义。
+ 
+ 
+00:28:52
+ 
+Vanessa Smith: You know, I have solar, I have the electric cars, all these things. Those are very important things that I use every
+Vanessa Smith：你知道，我有太阳能，有电动车，所有这些东西。这些都是非常重要的东西，我每天都在用
+Amber Fu: Mhm. Mhm.  安柏·傅：嗯。嗯。
+Vanessa Smith: day.  瓦妮莎·史密斯：一天。
+Amber Fu: Got you. Got you. And and for like a solar production available, uh like when would you want to see it like like interrupt you like immediately or
+Amber Fu：明白了。明白了。对于太阳能发电，呃，你什么时候想马上看到它，或者打断你
+Vanessa Smith: I Yeah, I would want it immediately just pop up like anything else like an alert.
+Vanessa Smith：是的，我希望它能像其他警报一样立刻弹出来。
+Amber Fu: like  Amber Fu：喜欢
+Vanessa Smith: Anything that's on the needs attention app uh part of the events should immediately pop up on your phone. I should not have to go in the app and find it at all.
+Vanessa Smith：任何出现在需要关注应用上，或者活动的一部分，应该会立刻出现在你的手机上。我根本不需要去应用里去找。
+Amber Fu: Okay. Okay. Got you. Got you. And for like the third category, the device state changed. Like for you, this feel more like uh is useful or like rather than like make me act.
+Amber Fu：好的。好的。明白了。明白了。至于第三类，设备状态发生了变化。对你来说，这感觉更像是“呃”有用，而不是让我行动。
+Vanessa Smith: No, I think it's very useful. Um, but again, I don't want to have to go into the actual app because a lot of these things I feel like maybe if you dig a little bit deeper into your um, electric bill or whatnot, you can find these things.
+Vanessa Smith：不，我觉得它非常有用。嗯，但我不想进入实际应用，因为很多东西我觉得如果你稍微深入挖掘电费账单之类的，或许能找到这些东西。
+ 
+ 
+00:29:56
+ 
+Vanessa Smith: But um, if I get alerts, I think it's great. Again, when you click on it, it tells you, hey, you can mute it, you can, you know, snooze it,
+Vanessa Smith：但是，嗯，如果我收到提醒，我觉得这很棒。同样，当你点击它时，它会告诉你，嘿，你可以静音它，你可以，嗯，你知道的，可以让它暂时睡觉，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Vanessa Smith: what not. So, those things are all important as well. Um, and also, I'm very big on customizing what you want to see and what you don't want to see.
+Vanessa Smith：什么都不行。所以，这些东西也都很重要。嗯，还有，我非常重视定制你想看到什么，不想看到什么。
+Amber Fu: Mhm.  Amber Fu：嗯。
+Vanessa Smith: So, maybe where the three little dots are, you can put something on there that says, "Hey, remind me every time this happens, or you know, alert me when my true up bill is getting up to this amount." These are all things that would be uh relevant to make the app useful.
+Vanessa Smith：所以，也许在三个小点的位置，你可以在上面写上一句，“嘿，每次发生这种情况时提醒我，或者当我的真实开销达到这个数额时提醒我。”这些都是让应用变得有用的关键。
+Amber Fu: Got you. Got you. And do you prefer like a few events but always worth to attention or more event that you you can like choose by yourself?
+Amber Fu：明白了。明白了。你喜欢几个但始终值得关注的活动，还是更多你可以自己选择的活动？
+Vanessa Smith: um I think I'd want to see again like I said the weather one that's not really like a a big thing right but um I do want to see them pop up so anytime you see a switch so if the if it reads that I'm plugging my car up immediately medately turn that switch on, send me the alert immediately when the solar production isn't available, pop that up on my phone immediately.
+Vanessa Smith：嗯，我想我还想再看看，就像我说的，天气预报，虽然不算大问题，但我想看到它们弹出来，所以只要看到开关，如果显示我正在马上给车充电，务必打开那个开关，当太阳能发电停止时立刻给我发警报，手机上立刻弹出来。
+ 
+ 
+00:31:00
+ 
+Amber Fu: Mhm.  Amber Fu：嗯。
+Vanessa Smith: All of these things I'd want to see it pop up even like the but I'd also like to see the icon too. So, you know, if I glance over at my phone, I can see the lightning bolts with it out and I'm oh my gosh, it's a power some power outage somewhere. That way, if I do want to click on it and read more, it would be nice and if I don't, I you know, not. But I think eventually after using the app you kind of learn these figures and the pictures that correspond. So I also think that the pictures are very important in that as
+Vanessa Smith：所有这些我都希望它能弹出来，但我也想看到图标。所以，你知道，如果我瞥一眼手机，能看到闪电，然后我会想，天哪，某处停电了。这样如果我想点击查看更多内容，那就很好了;如果不想，那就不行了。但我觉得用了这个应用后，你会慢慢学会这些数字和对应的图片。所以我也觉得图片在这方面非常重要，因为
+Amber Fu: Got you. Got you. And and you you can free to you know click uh some of those
+Amber Fu：明白了。明白了。而且你可以自由地点击那些
+Vanessa Smith: well.  瓦妮莎·史密斯：嗯。
+Amber Fu: and just see like yeah what look like inside. So like every event they will have uh they they can told you like what happening and why matter like how
+Amber Fu：然后你就看看，是的，里面是什么样子。就像他们举办的每个事件一样，呃，他们可以告诉你发生了什么，为什么重要，比如怎么做
+Vanessa Smith: Yes,  瓦妮莎·史密斯：是的，
+Amber Fu: impact.  安柏·傅：震惊。
+Vanessa Smith: it's very detailed because again my question is always why like they tell you hey don't charge at five o'clock but why so when should I charge you know so
+Vanessa Smith：这非常详细，因为我总是在问为什么，就像他们说的“嘿，五点钟不要收费”，但为什么？我应该什么时候收费，你知道的
+ 
+ 
+00:32:07
+ 
+Amber Fu: Okay. Okay.  安柏·傅：好的。好的。
+Vanessa Smith: um I think you know the only thing that you know can maybe you know switch or add to this is you know the what happened, the why, and the how. But so what are we going to do now about it? Okay, we'll charge based off of your charging habits.
+Vanessa Smith：嗯，我想你唯一知道的，也许可以改变或补充的，就是你知道发生了什么，为什么发生了，以及怎么发生的。那么我们现在打算怎么办？好，我们会根据你的充电习惯来收费。
+Amber Fu: Okay.  Amber Fu：好的。
+Vanessa Smith: This is what you should do.
+Vanessa Smith：这就是你应该做的。
+Amber Fu: Okay. Got you.  安柏·傅：好的。明白了。
+Vanessa Smith: Um, and then I'd also like to see because, you know, everything is changing so much, can this be integrated into smart appliances? Um, I have a smart refrigerator. Is it going to connect to my smart refrigerator? Can I add my Samsung Family Hub in this? Like, how does that work? um to see certain things like,
+Vanessa Smith：嗯，我还想看看，因为现在一切都在变化很大，这能不能集成到智能电器里？嗯，我有一台智能冰箱。它能连接到我的智能冰箱吗？我能把三星家庭中枢添加到里面吗？比如，那是怎么工作的？嗯，可以看到一些功能，比如，
+Amber Fu: Okay.  Amber Fu：好的。
+Vanessa Smith: hey, you know, you should really cool your refrigerator down. Maybe it's the settings too high. Um by doing this, you know, in one year,
+Vanessa Smith：嘿，你真的应该把冰箱降温一下。也许是设置太高了。嗯，通过一年时间做这个，
+Amber Fu: Oh.  Amber Fu：哦。
+Vanessa Smith: you can actually save $25. If I really don't need my refrigerator up that high, like why not do that?
+Vanessa Smith：你实际上可以省下 25 美元。如果我真的不需要把冰箱装那么高，为什么不这么做呢？
+ 
+ 
+00:33:02
+ 
+Vanessa Smith: So, I think it would be nice to connect smart appliances to this as well if that's not already in there.
+Vanessa Smith：如果智能电器还没有的话，我觉得把智能电器也连接到这个系统会很好。
+Amber Fu: Gotcha. Gotcha. Okay. And uh so for this event part like do you have more question or do you want to like maybe adding more stuff
+Amber Fu：明白了。明白了。好的。关于这个活动部分，比如你还有更多问题，还是想加点内容？
+Vanessa Smith: No, I think if you add too much,
+Vanessa Smith：不，我觉得如果你加太多，
+Amber Fu: like  Amber Fu：喜欢
+Vanessa Smith: it just becomes too much. Um, you know, you click on this, it's just a good enough information. Like I said, if anything on the bottom say, you know, this is what you can do or whatnot. Um, but yeah, everything else I think here is good for events. It shows very clearly. Um, you know, and then I'd want to click on the savings. And I think that this is really great. Remember I was talking about this chart thing,
+Vanessa Smith：这实在太多了。嗯，你知道，你点击这个，信息已经足够好了。就像我说的，如果底部有写着，你知道，这就是你能做的事情之类的。嗯，但是的，我觉得这里的其他内容都适合活动。它表现得非常清楚。嗯，你知道，然后我会想点击省钱。我觉得这真的很棒。还记得我之前说过这个图表的事吗，
+Amber Fu: Yeah.  Amber Fu：是的。
+Vanessa Smith: this graph thing. So, I really like this. Um, and then I also like how it says estimate,
+Vanessa Smith：这个图表。我真的很喜欢这个。嗯，我还喜欢它说的估计，
+Amber Fu: Uhhuh.  Amber Fu：嗯哼。
+Vanessa Smith: not final bill, so you're not like, "Hey, this is what I thought." Um,
+Vanessa Smith：不是最终账单，所以你不会说，“嘿，这就是我想的。”嗯，
+ 
+ 
+00:33:58
+ 
+Amber Fu: Mhm.  Amber Fu：嗯。
+Vanessa Smith: it's great how it shows everything in a whole and then also breaks down because let's say
+Vanessa Smith：很棒的是，它把一切都呈现成一个整体，然后又拆解了，比如说
+Amber Fu: Mhm.  Amber Fu：嗯。
+Vanessa Smith: if I in my mind I'm like, "Oh, my my, you know, my bill's so high because of my EV charging." I'm like, "Okay, well, let's look at that." And then I can kind of compare compare all these things.
+Vanessa Smith：如果我心里想，“哦，我的账单因为电动车充电高得这么高。”我会想，“好吧，那我们来看看这个。”然后我可以比较这些东西。
+Amber Fu: Mhm. Mhm.  安柏·傅：嗯。嗯。
+Vanessa Smith: And again, the graph is awesome,
+Vanessa Smith：同样，这张图表非常棒，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Vanessa Smith: too. The visual graph is really
+瓦妮莎·史密斯：也是。视觉图确实是
+Amber Fu: Mhm. Yeah.  Amber Fu：嗯，是的。
+Vanessa Smith: great.  瓦妮莎·史密斯：太好了。
+Amber Fu: Cuz like we're not saying like you will pay those those for this month. is more like, oh, those are the behavior or events we detect this month that could, you know, create extra cost. And the
+Amber Fu：因为我们并不是说你会为这个月支付那些费用。更准确地说，哦，这些是我们本月检测到的行为或事件，可能会带来额外成本。还有
+Vanessa Smith: Exactly.  瓦妮莎·史密斯：没错。
+Amber Fu: Yeah.  Amber Fu：是的。
+Vanessa Smith: It's showing that very
+瓦妮莎·史密斯：这非常明显
+Amber Fu: Okay. And if this page told you at this uh at this uh moment you will spend
+Amber Fu：好的。如果这页告诉你，在这个，呃，这个时刻，你将花费
+Vanessa Smith: well.  瓦妮莎·史密斯：嗯。
+Amber Fu: $4 more this month, would you care? What if like it's like maybe more than $10 would be care like the
+Amber Fu：这个月多 4 美元，你会在意吗？如果说，可能超过 10 美元会是像
+ 
+ 
+00:35:02
+ 
+Vanessa Smith: Um, yeah. Like again,
+Vanessa Smith：嗯，是的。再说一次，
+Amber Fu: amount.  Amber Fu：数量。
+Vanessa Smith: I mentioned too, it would be nice to have like a little toggle thing where it says, "Hey, send me alert when I can save this much." Right. Um, so I think if I saw that, it would be nice.
+Vanessa Smith：我也提到过，如果能有个小开关，比如说“嘿，能存这么多钱时通知我”会很好。 右。 嗯，我觉得如果我看到那个会很不错。
+Amber Fu: Mhm. Okay. And like for this part, do you think it's called a saving is okay or maybe like true up impact something like that like the
+Amber Fu：嗯。好的。关于这部分，你觉得这叫做“保存”可以吗？还是说像“真的影响”那样
+Vanessa Smith: No,  瓦妮莎·史密斯：没有，
+Amber Fu: name?  Amber Fu：名字？
+Vanessa Smith: I think savings sounds right.
+Vanessa Smith：我觉得节省开支听起来很合理。
+Amber Fu: Okay. Okay.  安柏·傅：好的。好的。
+Vanessa Smith: Yeah,  Vanessa Smith：是的，
+Amber Fu: Got  琥珀·傅：得了
+Vanessa Smith: because at the end of the day, we're just looking for our savings,
+Vanessa Smith：因为归根结底，我们只是想赚点积蓄，
+Amber Fu: you.  Amber Fu：你。
+Vanessa Smith: right? I don't care what it's called, but savings. This is great. It looks like the little money thing. And may I mean, maybe to improve it, it could look like a money bag or something instead of this coin thing or what. But other than that, I think everything looks great.
+Vanessa Smith：对吧？我不在乎叫什么，但就是储蓄。这太棒了。看起来像那个小钱。我是说，也许为了让它更好，可以做成一个钱袋什么的，而不是这个硬币什么的。除此之外，我觉得一切都很棒。
+Amber Fu: Mhm. Okay.  Amber Fu：嗯，好的。
+ 
+ 
+00:35:52
+ 
+Amber Fu: Got you. Got you. And And I have a question like if you had to choose uh like let's see like first is a dollar on every event or the dollar range for only the top three drivers plus clear actions like which one would you choose?
+Amber Fu：明白了。明白了。我有个问题，比如如果你必须选择，呃，比如说，首先，比如每场比赛都得一美元，还是只有前三名车手的奖金区间，再加上明确的行动，你会选哪一个？
+Vanessa Smith: I'm sorry. So if it would just have to show just clearly the dollar event versus verse
+Vanessa Smith：抱歉。所以如果它能清楚地显示美元事件与诗体的区别
+Amber Fu: Yeah.  Amber Fu：是的。
+Vanessa Smith: actions.  瓦妮莎·史密斯：行动。
+Amber Fu: Yeah. The you see like the they have like a solar production available stuff like that or like EV like you can click all the the the saving they have Yeah. Yeah. Yeah. And they they have a Yeah.
+Amber Fu：是的。你看到他们有太阳能发电，或者电动车，你可以点击所有的节省资源，是的。 是的。 是的。 他们说是的。
+Vanessa Smith: Yeah.  瓦妮莎·史密斯：是的。
+Amber Fu: They have a like the three like events like do you want to those events like break down the certain like dollar
+Amber Fu：他们有三个类似的活动，比如你想不要去拆解某个特定的美元
+Vanessa Smith: I think it would be nice because like I said,
+Vanessa Smith：我觉得那会很好，因为就像我说的，
+Amber Fu: amount.  Amber Fu：数量。
+Vanessa Smith: I know most of my expenses come from Eevee, so it would be nice to see it versus like, oh, okay, like when it's not available this.
+Vanessa Smith：我知道我大部分开销都是从伊布身上来的，所以看到它会比像“哦，好吧，但当它没有时机”那样会更好。
+ 
+ 
+00:36:52
+ 
+Vanessa Smith: So if if this is going to be a app, um you want to see all of these things. Not everyone has the EV, not everyone wants to just do those things. So I think um I think this is great to have everything on there. Might as well have everything. Like why why not show all versus breakdown? So, you know, the graph is going to look a little different, right? So, I think it's cool to see
+Vanessa Smith：如果这要做成一个应用，嗯，你想看到所有这些东西。不是每个人都有 EV，也不是每个人都想做这些事情。所以我觉得，嗯，我觉得把所有东西都放进去很棒。不如什么都有。为什么不展示所有对比分析呢？所以，你知道，图表看起来会有点不同，对吧？所以我觉得看到这很酷
+Amber Fu: Okay. And yeah, you can Yeah,
+Amber Fu：好的。是的，你可以的，
+Vanessa Smith: that.  瓦妮莎·史密斯：就是那个。
+Amber Fu: you can click every event and there they they have the detail. Yeah. Just And what do you think about this?
+Amber Fu：你可以点击每个事件，那里有详细信息。 是的。 Just 那你怎么看？
+Vanessa Smith: Okay.  瓦妮莎·史密斯：好的。
+Amber Fu: The bottom  琥珀·傅：底层
+Vanessa Smith: I think it's great how it um how it shows,
+Vanessa Smith：我觉得它表现出来的方式很棒，
+Amber Fu: sheet.  琥珀·傅：床单。
+Vanessa Smith: you know, the you know, when it's, you know, it shows all of these things. I think it, you know,
+瓦妮莎·史密斯：你知道，当它出现时，你知道，它展现了所有这些东西。我觉得，你知道，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Vanessa Smith: like how the grid and electricity and all of those things. So, you know, it tells you, you know, how it can increase and different periods and solar energy.
+Vanessa Smith：比如电网和电力，还有所有这些东西。所以，你知道，它告诉你，太阳能和不同周期的太阳能可以增加。
+ 
+ 
+00:37:46
+ 
+Vanessa Smith: So, I think that this is good to have all of these subgroups of these
+Vanessa Smith：我认为拥有这些子群体是件好事
+Amber Fu: Mhm. Okay.  Amber Fu：嗯，好的。
+Vanessa Smith: topics.  瓦妮莎·史密斯：话题。
+Amber Fu: Is there any part you think that will be useful or like not
+Amber Fu：你觉得有没有什么部分会有用或者不喜欢
+Vanessa Smith: I think all of it's useful. Even adding this data sourcing components,
+Vanessa Smith：我认为这些都很有用。即使加上这些数据来源的部分，
+Amber Fu: useful?  琥珀傅：有用吗？
+Vanessa Smith: that's great. looks, you know, those things like that. Um, yeah, I think everything's very clear, um, easy to read and should be
+瓦妮莎·史密斯：太好了。看起来，你知道，就是那些东西。嗯，是的，我觉得一切都非常清晰，嗯，容易读懂，应该如此
+Amber Fu: Mhm.  Amber Fu：嗯。
+Vanessa Smith: there.  瓦妮莎·史密斯：就是这样。
+Amber Fu: Okay. Okay. And uh so for the singing part, what do you think?
+Amber Fu：好的。好的。那唱歌部分，你怎么看？
+Vanessa Smith: I like it. Again, the grid was really good for me. I like how it shows the months, you know, because I'm saying, "Oh,
+Vanessa Smith：我喜欢。同样，网格对我来说真的很好。我喜欢它展示月份的方式，因为我在说，“哦，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Vanessa Smith: May I did something different than I did here." So, um, I really like that. And then, you know, again, it's important that it says estimate. So, that's nice, but the number is very drastic. So, the number maybe I don't
+Vanessa Smith：我可以做点和这里不同的事吗？“所以，嗯，我真的很喜欢这个。然后，你知道，这里写的是估计也很重要。这很好，但这个数字非常极端。所以，这个数字可能我不确定
+Amber Fu: It's just Yeah, it's just a placeholder right now and we will
+Amber Fu：只是暂时的，我们会的
+ 
+ 
+00:38:48
+ 
+Vanessa Smith: know. Okay.
+瓦妮莎·史密斯：知道。好的。
+Amber Fu: Yeah.  Amber Fu：是的。
+Vanessa Smith: I thought that was like really Okay. Yeah. So, the number is great. Estimate, the graph, the months, all of those things.
+Vanessa Smith：我觉得那真的是......好吧。 是的。 所以，这个数字很棒。估计、图表、月份，所有这些东西。
+Amber Fu: Um  安柏·傅：嗯
+Vanessa Smith: I even like how it goes like a dark purple to like a different type of purple, like a ombre type thing. I don't know why. It just looks nice to me versus being a solid color. It looks good. Um,
+Vanessa Smith：我甚至喜欢它从深紫色变成不同类型的渐变紫色。 我不知道为什么。 我觉得它看起来比纯色好看。看起来不错。嗯，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Vanessa Smith: yeah, I think everything is on point and I wouldn't change anything.
+Vanessa Smith：是的，我觉得一切都很到位，我不会改变任何东西。
+Amber Fu: Okay. Cool. Cool. And and let's like last part is let's quick look at the setting like Yeah. You can uh the pro profile. Yes. Yes. And uh so it's decid decide whether you will get those you know uh like ringell alert and only when is worse to interrupting you. So let's let's we can see first like the data and the connection part. Um so we basically we need two things like you rate plan like PGE or your current current usage like like Tesla stuff like that like which connection are you comfortable with?
+Amber Fu：好的。酷。酷。最后一点，我们快速看看设置，是的。你可以，呃，职业档案。 是的。 是的。 然后，嗯，决定是否会收到你熟悉的，比如 Ringell Alert，以及只在什么时候才使用，哪种方式更不适合打扰你。那么我们先看看数据和连接部分。嗯，基本上我们需要两个信息，比如你的费率套餐，比如 PGE，或者你当前的使用情况，比如特斯拉，比如你觉得哪种连接更舒适？
+ 
+ 
+00:40:10
+ 
+Vanessa Smith: Um, out of all of them, I guess I'd be comfortable with the PG& one,
+Vanessa Smith：嗯，在所有作品中，我想我会觉得 PG&那个比较舒服，
+Amber Fu: Okay. And how like if the Tesla,
+Amber Fu：好的。那特斯拉会怎样，
+Vanessa Smith: but I  瓦妮莎·史密斯：但是我
+Amber Fu: how about we just do like a read only?
+Amber Fu：我们干脆做个只读的怎么样？
+Vanessa Smith: I don't want to connect my app if that's what you're asking. I wouldn't want to connect my app.
+Vanessa Smith：如果你问的是这个，我不想连接我的应用。我也不想连接我的应用。
+Amber Fu: Okay.  Amber Fu：好的。
+Vanessa Smith: But if there was some way to I don't know how there would be a way to show something with it connecting it that way without actually connecting it. I I wouldn't want that on there. Again, there's there's cameras in there. There's so many stories and crazy things you hear about people, you know, hacking the cars and doing these things. So, because there's cameras and things, I 100% would not do it. I wouldn't even connect my Ring camera to it. But if it was something else,
+Vanessa Smith：但如果有办法，我不知道怎么能用这种方式展示一些东西，而不是直接连接。我不想把那个放进去。再说一次，里面有摄像头。有很多关于有人黑进汽车、做这些事情的疯狂故事和疯狂的事情。所以，因为有摄像头什么的，我绝对不会这么做。我甚至不会把我的 Ring 摄像头接到上面。但如果是别的东西，
+Amber Fu: Okay.  Amber Fu：好的。
+Vanessa Smith: like instead of EV on here, it said, you know, your smart refrigerator, your smart washer dryer, I would.
+Vanessa Smith：比如这里没有写 EV，而是说，你的智能冰箱，智能洗衣机烘干机，我会。
+Amber Fu: Okay. And how about the uh the solar?
+Amber Fu：好的。那，呃，太阳能呢？
+ 
+ 
+00:41:07
+ 
+Vanessa Smith: Yeah, that's fine as well. I would do
+Vanessa Smith：是的，这也没问题。我会这么做的
+Amber Fu: Okay.  Amber Fu：好的。
+Vanessa Smith: that.  瓦妮莎·史密斯：就是那个。
+Amber Fu: The the utility and the solar is fine, right?
+Amber Fu：公用事业和太阳能都没问题吧？
+Vanessa Smith: Yes.  瓦妮莎·史密斯：是的。
+Amber Fu: Okay, got you. And uh we can go back. Uh let's see the Yeah, connecting wise. It's a little bit slow.
+Amber Fu：好的，明白了。呃，我们可以回去了。呃，让我们看看连接的条件。有点慢。
+Vanessa Smith: I can't read
+瓦妮莎·史密斯：我不会读书
+Amber Fu: Oh, it's okay.  安柏·傅：哦，没关系。
+Vanessa Smith: it.  瓦妮莎·史密斯：就是它。
+Amber Fu: Uh you know what just maybe we we go next part is fine. Uh so like for this one it's just uh we just need to like to know like uh the like let's say like your PGE like the they they need like some address or like which energy company you're using is this okay or you
+Amber Fu：呃，你知道吗，也许我们下一个可以。呃，所以这次我们只是需要知道，比如说，比如你的 PGE，他们需要一个地址，或者你用的是哪家能源公司，这样可以吗？你也可以。
+Vanessa Smith: I mean,  瓦妮莎·史密斯：我的意思是，
+Amber Fu: think  Amber Fu：想想
+Vanessa Smith: if I feel comfortable already connecting my PG bill, they're going to have my address anyway, so I'll be fine with that.
+Vanessa Smith：如果我觉得已经能把 PG 账单联系起来，他们无论如何都会有我的地址，所以我可以接受。
+Amber Fu: okay okay got Yeah. And then uh electricity plan like we want to like know like which plan are you right now and in the future maybe like you know when we knowing your like uh your your use daily usage maybe like in the future we going to give you some advice like oh like right now you're using like let's say like a p uh pge like t to like plan A and we think like a plan B may be more
+Amber Fu：好的好的，明白了。然后，呃，电力计划，我们想知道你现在和未来用哪个计划，也许将来我们知道你用的是每天的，也许未来我们会给你一些建议，比如说你现在用的是 P，P，PGE 比如 T，比如计划 A，我们认为 Plan B 可能更多
+ 
+ 
+00:43:05
+ 
+Amber Fu: uh good for you and help you save more money something like
+Amber Fu：呃，这很好，帮你省更多钱，大概是这样
+Vanessa Smith: Yeah. I mean, if the whole purpose of the app is to help save money in these type of situations,
+Vanessa Smith：是的。我的意思是，如果应用的全部目的就是帮助在这类情况下节省开支，
+Amber Fu: that.  Amber Fu：就是那个。
+Vanessa Smith: then yes, I would want a suggestion because P Gen won't do that. So, yes, I would want that suggestion. So, I think that would be a great idea. And then, uh, where is it? Notification settings.
+Vanessa Smith：那我确实需要一个建议，因为 P Gen 不会这么做。所以，是的，我想要那个建议。我觉得这是个好主意。那，呃，它在哪里？通知设置。
+Amber Fu: Okay.  Amber Fu：好的。
+Vanessa Smith: Yeah. So again, I do like this. I was talking about the toggling thing also. I want to see these because I may not care so much about the system information, but I do care about this more. And and you know, the notifications can drive you crazy sometimes. So, I like this part.
+Vanessa Smith：是的。所以，我确实喜欢这个。我之前也说过切换功能。我想看看这些，因为我可能不太在意系统信息，但我更在意这个。你知道，通知有时候会让你抓狂。所以我喜欢这部分。
+Amber Fu: Mhm.  Amber Fu：嗯。
+Vanessa Smith: And I also like the toggling.
+Vanessa Smith：我也很喜欢这种切换功能。
+Amber Fu: Mhm.  Amber Fu：嗯。
+Vanessa Smith: Um, and those are important to have on there as well. Um, adding family members. I think this is great. You know, I can add my husband on there.
+瓦妮莎·史密斯：嗯，这些也很重要。嗯，添加家人。我觉得这很棒。你知道，我可以把我丈夫也加进去。
+ 
+ 
+00:43:55
+ 
+Vanessa Smith: there. I mean, I don't see why a child would need to be on there. Um, but I think this is great to add family members because then they can be cautious as well. Um, it's, you know, kind of a household effort sometimes when we're trying to save money on things like that.
+Vanessa Smith：就是这样。我是说，我不明白为什么需要让孩子上去。嗯，但我觉得加入家庭成员是件好事，因为这样他们也能更谨慎。嗯，有时候我们为了省钱，这算是家庭的努力。
+Amber Fu: Yeah.  Amber Fu：是的。
+Vanessa Smith: So, I think that's important. I don't think children should be on there. And when I saw that, it did look like, you know, hey, your kid could be on there as well, but I don't really think that's important.
+Vanessa Smith：所以我觉得这很重要。我觉得孩子们不应该在上面。当我看到那个时，确实觉得，嘿，你的孩子也可以被邀请，但我觉得这并不重要。
+Amber Fu: Are you  Amber Fu：你是吗
+Vanessa Smith: Um, not sure what this is. Oh, permissions. Okay. Yeah. So, giving you permission, I guess, to, you know, access certain things. I always want to be asked first. So, I think that this is great. The toggling these things, that's 100% important to have. I think it kind of gives people a piece of mind to ask permission first. Even on your own Google phone or uh Android phone or uh iPhone, they ask you first, like, is it okay to do these things?
+Vanessa Smith：嗯，不太确定这是什么。哦，许可。好的。 是的。 所以，给你权限，我想，去访问某些东西。我总是希望先被问。所以我觉得这很棒。切换这些功能，百分之百重要。我觉得这让人们先征求许可更有信心。即使是在你自己的谷歌手机、安卓手机或 iPhone 上，他们也会先问你，做这些事情是否合适？
+ 
+ 
+00:44:45
+ 
+Vanessa Smith: So, I think that's great. Um,
+瓦妮莎·史密斯：我觉得这很棒。嗯，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Vanessa Smith: uh, yeah, I think this is good, too. I like how it shows the percentage, and you can say, "Hey, like, let me know when it drops." Um, I really like that. Um, you know,
+Vanessa Smith：呃，是的，我也觉得这个不错。我喜欢它显示百分比的方式，你可以说，“嘿，发布时告诉我。”嗯，我真的很喜欢这个。嗯，你知道，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Vanessa Smith: same thing when it the kilowatts. I was talking about how I wanted to see the kilowatt. So, these are all things that I wanted to see and I'm actually seeing. So, I think that those are great with the toggling the those things as well.
+Vanessa Smith：千瓦数也是一样。我说的是我想看到千瓦数。这些都是我想看到的东西，而且我真的看到了。我觉得这些参数切换也很棒。
+Amber Fu: Okay.  Amber Fu：好的。
+Vanessa Smith: Um, help and support, that's a no-brainer. I think that always needs to be on there. Um, but instead of it saying what is this, why, and all these things, maybe just have like a FAQ page. Um, I like to send us a message, but it also maybe would just be nice to have a chat.
+Vanessa Smith：嗯，帮助和支持，这很明显。我觉得这点一直都应该写在上面。嗯，但不要只写“这是什么”、“为什么”之类的，也许可以做个常见问题页面。嗯，我喜欢给我们发消息，但也许能聊聊天也挺好的。
+Amber Fu: Mhm.  Amber Fu：嗯。
+Vanessa Smith: I I generally don't like when it says send me a message and then you have to wait back and forth for emails and you're constantly waiting for the email by the time you realize that it's a little too late or you don't want to go back and forth.
+Vanessa Smith：我通常不喜欢那种“给我发消息”，然后你得来回等邮件，等到你意识到有点晚了或者不想来回时，你就一直在等邮件。
+ 
+ 
+00:45:41
+ 
+Vanessa Smith: So, for me, I I would prefer this to have a chat button and then the phone number to contact or email. Um, was that the last one? Okay. Um, and I also don't see a reason why you should put a picture or anything like that on there. I don't I'm not sure what the I wouldn't have I wouldn't put a picture myself on there.
+Vanessa Smith：对我来说，我更希望这个有聊天按钮，然后有电话号码可以联系或发邮件。嗯，那是最后一个吗？好的。嗯，我也看不出有什么理由要放照片之类的东西。我不确定我自己不会放照片。
+Amber Fu: Okay. Okay.  安柏·傅：好的。好的。
+Vanessa Smith: I just I'm not I wouldn't do that because it's weird to like have your picture and I have my email, you have our address, RPG bill.
+Vanessa Smith：我只是，我不会那样做，因为有你的照片，我有我的邮箱，你有我们的地址，还有 RPG 账单，这很奇怪。
+Amber Fu: Yeah.  Amber Fu：是的。
+Vanessa Smith: That's kind of I don't like that. I do like this message center with the red dot.
+Vanessa Smith：我不太喜欢那个。我倒是喜欢这个带红点的留言中心。
+Amber Fu: Okay.  Amber Fu：好的。
+Vanessa Smith: It's showing me I have a message and then again it's going to all these important notifications and it shows you, you know, time, dates, all these things. So, I think that's great.
+Vanessa Smith：它会显示我有消息，然后又会跳转到所有重要的通知，显示时间、日期等等。所以我觉得这很棒。
+Amber Fu: Mhm. Got you. Oh, and one more question.
+安柏·傅：嗯。明白了。哦，还有一个问题。
+Vanessa Smith: Yeah.  瓦妮莎·史密斯：是的。
+Amber Fu: Is a is a plan showing on your bill, right?
+Amber Fu：你的账单上有显示的计划，对吗？
+ 
+ 
+00:46:39
+ 
+Amber Fu: I think uh the the your electricity
+Amber Fu：我觉得，呃，你的电
+Vanessa Smith: What is it?
+瓦妮莎·史密斯：是什么？
+Amber Fu: plan will showing on your bill, right? Yearly. Okay. Okay.
+Amber Fu：计划会显示在你的账单上，对吧？每年。好的。好的。
+Vanessa Smith: Yes.  瓦妮莎·史密斯：是的。
+Amber Fu: Got you. Got you. Okay. Well, I'm really appreciate and like I have like maybe two more question for you like for what do you think about this app?
+Amber Fu：明白了。明白了。好的。我真的很感激，我还有两个问题想问你，比如你觉得这个应用怎么样？
+Vanessa Smith: I think it's great. Um I think you know a lot of people specifically in California we all have to have
+Vanessa Smith：我觉得很棒。嗯，我觉得你认识加州很多人，我们都必须有这样的人
+Amber Fu: Honestly.  Amber Fu：说实话。
+Vanessa Smith: solar. Um EVs are becoming very popular. Um so I think and again if you do have an EV like myself and you do have solar my biggest issue is true up. So for me I think this is great. I know when I call Pione,
+Vanessa Smith：太阳能。嗯，电动车越来越受欢迎。嗯，我觉得，如果你像我一样有电动车并且有太阳能，我最大的问题是。所以对我来说，这很好。我知道当我打电话给 Pione 时，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Vanessa Smith: I'm frustrated. They're frustrated. I've been on holds forever. So to just get the answer at your fingertips is
+Vanessa Smith：我很沮丧。他们也很沮丧。我一直被等待。所以能直接拿到答案
+Amber Fu: Mhm. Okay. Got you. Got you.
+安柏·傅：嗯。好的。明白了。明白了。
+ 
+ 
+00:47:31
+ 
+Vanessa Smith: great.  瓦妮莎·史密斯：太好了。
+Amber Fu: And like in what situation would you feel like uh uh even if I paid for this app, it's already paid for itself?
+Amber Fu：那你会觉得哪种情况，呃，呃，即使我付了钱，它已经自己赚回了钱？
+Vanessa Smith: I'd have to save um Okay. So, for example, if you guys are charging annual $100 a month for the app, if I'm only saving $200,
+Vanessa Smith：我得省钱，嗯，好吧。举个例子，如果你们每年为这个应用收费 100 美元，而我只省 200 美元，
+Amber Fu: Amen.  Amber Fu：阿门。
+Vanessa Smith: I don't maybe for the first or maybe for the first year or I would do the trial, but I wouldn't continue on because eventually you're going to learn these habits on your own maybe, right? Um,
+Vanessa Smith：我可能不会，或者第一年，或者我会做试用，但我不会继续，因为最终你可能会自己学会这些习惯，对吧？嗯，
+Amber Fu: Amen.  Amber Fu：阿门。
+Vanessa Smith: so it would be useless to continue if it was a high fee. Um maybe if there was some type of incentive like hey you know if you um continue with your habits for like one whole year like and you save 20% like we'll reward you with like a 10% discount for something right I don't know or um maybe give points and there'll be some shop or something you can redeem those points to maybe like a free month or something like
+Vanessa Smith：所以如果费用很高，继续下去就没用了。嗯，也许如果有某种激励，比如你坚持你的习惯整整一年，省 20%，我们会奖励你 9%的折扣，我也说不清，或者给点数，然后有商店可以兑换，比如一个月免费的活动
+Amber Fu: Got you. Got you.
+安柏·傅：抓到了。抓到了。
+ 
+ 
+00:48:41
+ 
+Vanessa Smith: that  瓦妮莎·史密斯：就是
+Amber Fu: And And if you were like recommend this app, like who would you recommend it to? Like Mhm.
+Amber Fu：如果你推荐这个应用，你会推荐给谁？嗯嗯。
+Vanessa Smith: um my neighbors and other EV owners as well as solar owners.
+Vanessa Smith：嗯，我的邻居和其他电动车主以及太阳能车主。
+Amber Fu: Mhm. Got you.  安柏·傅：嗯，明白了。
+Vanessa Smith: Like I wouldn't just casually talk about it maybe, but if I know,
+Vanessa Smith：我不会随便说说，但如果我知道，
+Amber Fu: And  Amber Fu：还有
+Vanessa Smith: hey, you have an EV or you know, I know you have a solar, again, my neighbors, things like that, people in my community
+Vanessa Smith：嘿，你有电动车，或者说，我知道你有太阳能，我的邻居们，社区里的人
+Amber Fu: got you. Got you. And well, let's say like if this app like disappear tomorrow like was the one thing you you will want to keep it like Yeah.
+Amber Fu：明白了。明白了。嗯，假设这个应用明天消失，那是你唯一想要保持它的东西，是的。
+Vanessa Smith: What would make me want to keep it is um just showing me uh again how to save on my true up with like the EV because again I know my issue is the EV charging, right? They've told me, "Hey, go charge away from home." But um I I'd want to see that like show me again
+Vanessa Smith：让我想保留它的原因是，嗯，再给我演示一下，呃，如何用电动车节省我的真实充电，因为我知道我的问题是电动车充电，对吧？他们告诉我，“嘿，去家里充电吧。”但是，嗯，我想再给我看看，比如再给我演示一次
+Amber Fu: Mhm.  Amber Fu：嗯。
+Vanessa Smith: like based off of my habits. I want it based off not general.
+Vanessa Smith：就是基于我的习惯。我想要的是基于而不是泛泛而谈。
+ 
+ 
+00:49:40
+ 
+Vanessa Smith: I want it based off my habits. So, you know, based off your habits, you know, if you continue charging like this every day, you know, on high peak times versus non- peak times, this is what you'll save. So, just show me. I want to see the graphs. I want to see the numbers. I want to see the
+Vanessa Smith：我想要基于我的习惯来充电。所以，你知道，基于你的习惯，如果你每天都这样充电，比如在高峰时段和非高峰时段，这就是你能节省的。所以，给我看看。我想看看图表。我想看看数字。我想看看
+Amber Fu: Mhm.  Amber Fu：嗯。
+Vanessa Smith: percentages.
+Vanessa Smith：百分比。
+Amber Fu: Got you. Got you. And if the app like let's say like made a mistake, what kind of mistake would you like you you can't accept? Like it's
+Amber Fu：明白了。明白了。如果这个应用，比如说，出了错，你会希望你不能接受什么样的错误？就像它
+Vanessa Smith: I mean, if I'm changing my habits and don't see anything in the first month,
+Vanessa Smith：我的意思是，如果我在改变习惯，但第一个月没看到什么，
+Amber Fu: unacceptable.  安柏·傅：不可接受。
+Vanessa Smith: I'm not going to use it anymore because I should see it in the first month, at least within the first 60 days, right? Um, so yeah, if I don't see any any movement and I'm actively making changes,
+Vanessa Smith：我不会再用了，因为我应该在第一个月内看到，至少在前 60 天内，对吧？嗯，所以如果我没有看到任何变化，而我正在积极做出改变，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Vanessa Smith: I'm not going to use the app anymore.
+Vanessa Smith：我打算不再使用这个应用了。
+Amber Fu: Gotcha. Gotcha. Gotcha. And uh so if the app could only send you like three type of alert, like which one would you keep?
+Amber Fu：明白了。明白了。明白了。呃，如果应用只能给你发送三种类型的警报，你会保留哪一种？
+ 
+ 
+00:50:36
+ 
+Vanessa Smith: Um uh driving I mean driving habits uh charging habit decreasing like hey you know it decreased today and it increase today.
+Vanessa Smith：呃，开车，我是说驾驶习惯，充电习惯减少，比如说，今天减少了，今天又增加了。
+Amber Fu: Mhm.  Amber Fu：嗯。
+Vanessa Smith: So increase and increase and decrease. Um, the power outage is nice. And then the savings alert.
+Vanessa Smith：所以不断增加，再减少。嗯，停电挺好的。然后是节省警报。
+Amber Fu: Got you. Got you. And one last question is like would there anything you you want this app to
+Amber Fu：明白了。明白了。最后一个问题是，你希望这个应用能实现什么功能吗
+Vanessa Smith: Um,  瓦妮莎·史密斯：一，
+Amber Fu: can do it but didn't say it today?
+Amber Fu：能做到但今天没说？
+Vanessa Smith: no. It kind of hit everything hit spot on for me.
+Vanessa Smith：没有。它几乎完全击中了我。
+Amber Fu: Oh, really? Okay.
+Amber Fu：哦，真的吗？好吧。
+Vanessa Smith: Yeah, because everything I was saying in the beginning,
+Vanessa Smith：是的，因为我一开始说的那些话，
+Amber Fu: Okay.  Amber Fu：好的。
+Vanessa Smith: I wanted to see once I actually clicked those things, I saw it. So, there's nothing I would change actually about it besides um you know,
+Vanessa Smith：我想看到我真正点开那些东西后，我看到了。所以，除了嗯，你知道，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Vanessa Smith: something may require your attention in red that shouldn't be in red.
+Vanessa Smith：有些事情可能需要你用红色关注，但其实不该用红色。
+Amber Fu: Okay. Okay. Got you. Got you. Well, thank well thanks again like this is a biggest takeaways I I heard today like you care most about like real true up impact not like a pretty chart, right?
+Amber Fu：好的。好的。明白了。明白了。嗯，谢谢你，再次感谢，因为这是我今天听到的最大收获，你最关心的是真正的真实影响，而不是漂亮的图表，对吧？
+ 
+ 
+00:51:43
+ 
+Vanessa Smith: Right. For
+瓦妮莎·史密斯：对。为了
+Amber Fu: Okay. and like the and euro like feels like um alert to you.
+Amber Fu：好的。而且那种欧洲语感觉就像是，嗯，警觉。
+Vanessa Smith: sure.  瓦妮莎·史密斯：当然。
+Amber Fu: So you want to like really clearly
+Amber Fu：所以你想非常清楚地喜欢
+Vanessa Smith: Absolutely.
+瓦妮莎·史密斯：绝对是。
+Amber Fu: explanation.  琥珀·傅：解释。
+Vanessa Smith: I always want the clearest explanation because, you know, they're so quick to take your money but not explain why or how or anything. So, yeah,
+Vanessa Smith：我总是想要最清楚的解释，因为你知道，他们很快就拿了你的钱，却不解释为什么、怎么做，什么都不说。所以，是的，
+Amber Fu: Got you.  安柏·傅：明白了。
+Vanessa Smith: I want to know that.
+瓦妮莎·史密斯：我想知道。
+Amber Fu: Got you. Got you. And you are comfortable connecting with the PGE and the solar but you are very like you don't want to about like Tesla permissions.
+Amber Fu：明白了。明白了。你对 PGE 和太阳能的连接很自在，但你对特斯拉的许可却很不愿意。
+Vanessa Smith: No, I don't. I don't because it's so it's so much information on there. I'm not comfortable with that.
+Vanessa Smith：不，我不喜欢。我不喜欢，因为那里信息太多了。我对此不太放心。
+Amber Fu: Gotcha. Gotcha. Gotcha. Well, and okay. Got you.
+安柏·傅：明白了。明白了。明白了。好吧，好吧。明白了。
+Vanessa Smith: Yeah,  Vanessa Smith：是的，
+Amber Fu: And thank you so much. And you know, um this is really helpful.
+Amber Fu：非常感谢你。你知道，这真的很有帮助。
+Vanessa Smith: absolutely. Thank you so much.
+瓦妮莎·史密斯：绝对是。 非常感谢。
+Amber Fu: Yeah.  Amber Fu：是的。
+Vanessa Smith: Uh nice talking to you guys and I'm actually looking forward to seeing some of this app. So, if I see this app, I'm going to be very excited.
+Vanessa Smith：呃，很高兴和大家聊天，我其实很期待看到这个应用。所以，如果我看到这个应用，我会非常兴奋。
+Amber Fu: Okay. Okay. you know once we have like the real version like I will definitely invite you and
+Amber Fu：好的。好的。你知道，一旦我们有了真正的版本，我一定会邀请你，然后
+Vanessa Smith: Yes.  瓦妮莎·史密斯：是的。
+Amber Fu: please like try it for free.
+Amber Fu：请免费试试。
+Vanessa Smith: Oh, please. I would love to and give my feedback. This is very exciting. I'm so excited to see something like this. So,
+Vanessa Smith：哦，请说。我很乐意并给出我的反馈。这非常令人兴奋。我非常激动看到这样的作品。那么，
+Amber Fu: Oh.  Amber Fu：哦。
+Vanessa Smith: um keep doing more so we can uh get this perfect app for everyone that we can all utilize and love. I think this is a great thing and it's going to be great for um everyone, especially EV owners and things. Thank you.
+Vanessa Smith：嗯，继续做更多，这样我们就能为每个人打造一个完美的应用，大家都能使用并喜爱。我认为这是一件很棒的事情，对所有人，尤其是电动车主和相关领域来说都会很棒。 谢谢。

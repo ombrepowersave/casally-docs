@@ -1,0 +1,941 @@
+Mar 13, 2026
+Casally Interviews(Utility Bill&Solar Credit Consulting) (Michael Cade) - Transcript
+00:00:00
+ 
+Amber Fu: Uh my name is Amber and uh we are uh building a company called Cassley and our vision is to become you know like financial layer for the household energy. So um because today like you know most homeowner with a solar or a battery don't actually
+Michael Cade: Gotcha.
+Amber Fu: understand how their bill is calculated and you know like how credit are apply or like
+Michael Cade: Right.
+Amber Fu: whether they are truly saving the money. So we believe there a gap between like what utility calculate and what installer promise and you know what homeowner actually see and basically we are just trying to close that gap.
+Michael Cade: Gotcha.
+Amber Fu: Yes. And um so before we go deeper into a technique questions uh we'd love to briefly show you our cur uh current demo so you have a contact for what we're building right
+Michael Cade: That'd be great.
+Amber Fu: now.
+Michael Cade: Yeah, I'd love to see it.
+Amber Fu: Okay. Perfect. Perfect. And oh you know what before we get start uh let me introduce uh also my uh c-orker uh ling is also join us meeting.
+ 
+ 
+00:01:28
+ 
+Amber Fu: So his uh respons ability for the uh technique uh like behind our building logics and the data modeling. So we together it will be helpful to have both like a p perspective in the room.
+Michael Cade: Absolutely. Yep.
+Amber Fu: Perfect.
+Michael Cade: Nice to meet you
+Amber Fu: And oh thank you.
+Michael Cade: both.
+Amber Fu: Oh, and before we start, like which state or utility are you most familiar with? If you don't mind, I
+Michael Cade: Yeah. So,
+Amber Fu: ask.
+Michael Cade: I've worked with uh California regulators uh the better part of the last two decades. Um and just to give you like an overview of me,
+Amber Fu: Mhm.
+Michael Cade: um that hasn't been at the residential level. That has been at the large commercial and industrial level. Um but nevertheless, a lot of the language is very similar. And I have watched from afar the net energy metering decisions in recent years um with great interest just because they're such interesting little soap operas how those played out and there's a there's a lot of uh interesting architecture to it.
+ 
+ 
+00:02:32
+ 
+Michael Cade: Um, so yeah, I live in Oregon, but I primarily work as far as regulatory um, you know, writing and monitoring and reporting and analysis is with primarily the CPU um, and its jurisdiction of uh, Southern California Edison, San Diego Gas and Electric and PG&E.
+Amber Fu: Gotcha. Gotcha.
+Michael Cade: Yeah,
+Amber Fu: Perfect. Perfect. So, uh, okay,
+Michael Cade: sure.
+Amber Fu: let's start and Lyn will uh share the screen. Okay. Second.
+Michael Cade: Oh, great.
+Amber Fu: Okay. So, this is our a very early stage app.
+Michael Cade: Yeah.
+Amber Fu: Um, uh, we can go through really quick and Okay. So uh at the top uh the top section provide like environment and system contact and you can see like we display like real-time status for the household
+Michael Cade: Yeah.
+Amber Fu: energy ecosystem like solar, EV, battery and like great connection.
+Michael Cade: Okay.
+Amber Fu: So user can immediately understand the current state of their energy system.
+Michael Cade: Very cool.
+Amber Fu: Yes. And um the question uh for here the question is um from a building reconstruction standpoint like which data source are absolutely uh create critical like util utility interval data or like a solar
+ 
+ 
+00:04:21
+ 
+Michael Cade: Gotcha.
+Amber Fu: monitoring.
+Michael Cade: So, C could you enlarge it a little bit possibly?
+Amber Fu: Uh, sure. Let's l try it. Uh,
+Michael Cade: Okay. Yeah, that's a little better. My my vision is not what it used to be. Okay, great. So you've got the Tesla,
+Amber Fu: okay.
+Michael Cade: Sunron, Power Wall. Okay, cool. And then are you drawing rate data from the utilities themselves or are you getting that from like a third-party API or where are you getting that from?
+Amber Fu: uh the third party API.
+Michael Cade: Okay,
+Amber Fu: Okay.
+Michael Cade: let's see. Um, one thing that I would worry about with the third party is that it's not going to be that rate data pipeline is not necessarily going to be updated as frequently as in real life. Um, so I I would just check to see how often they update their their data. Is it like once a year or two to three times a year? I think that would be um worth looking into.
+ 
+ 
+00:05:35
+ 
+Amber Fu: Okay.
+Michael Cade: All right. And then um so where do we go from this screen? Is this like the the homepage basically? Okay.
+Amber Fu: Yes.
+Michael Cade: And then they just click through um any of these options will take them to another part of the app or to a uh outside website.
+Amber Fu: Uh no no it's uh I I can go go through like this homepage really quick. Uh so but before uh I still have a question about like a third party APIs.
+Michael Cade: Yeah.
+Amber Fu: So in your experience how uh like how often do residential tariff typically change for utility like PGE or like ICE or like
+Michael Cade: Um,
+Amber Fu: SGE?
+Michael Cade: how often does it change?
+Amber Fu: Yes.
+Michael Cade: Um, I would think that you would have you probably two to three times a year um on a major level for each of the three utilities. The the big one is January 1st.
+Amber Fu: Uhhuh.
+Michael Cade: That's when they they have their annual electric true up and that's the one that everybody really watches for to make sure that they've got their numbers updated from that.
+ 
+ 
+00:06:51
+ 
+Michael Cade: and they do that in what's called an advice letter.
+Amber Fu: Mhm.
+Michael Cade: It's the procedural vehicle that they file and that that comes on January 1. Now, just recently uh the three of the utilities filed um March 1st updates as well and then you can uh expect some updates in October as well. And so basically I would just want to check with the the API um how often they refresh their data.
+Amber Fu: Gotcha.
+Michael Cade: Is it two to three times a year or is it uh you know that one time January uh filing because that could make a big difference in terms of accuracy of of what the CL of what your users are experiencing.
+Amber Fu: Gotcha.
+Michael Cade: Yeah.
+Amber Fu: But like when utility change tariff is that typically through the advice letters filled with the CPU.
+Michael Cade: Yeah, exactly. So what h what generally happens at the regulatory level is that the
+Amber Fu: Okay.
+Michael Cade: CPU um has a proceeding like for instance a general rate case is one of the very common ones that the utilities participate in. And in these general rate cases, Edison, San Diego Gas and Electric, and PG&E,
+ 
+ 
+00:08:04
+ 
+Amber Fu: Mhm.
+Michael Cade: they basically ask for a revenue requirement, and it's often a massive amount, like, you know, 9 billion or something. Uh, and so that's called their general rate case.
+Amber Fu: Okay.
+Michael Cade: And they stuff a lot of stuff into these general rate cases. And the rate cases themselves are com they're comprised of two phases. one is where the commission decides, okay, here's the here's the big pie um and here's what you here's how much of your request you're going to get and we're going to disallow um this percentage. That's in the first phase. In the second phase, they figure out, okay, um how is it getting allocated among our customer class? Um is this going to how does this affect various different customer classes of rate payers? um some are hit harder, some are, you know, some get off easy, that kind of thing. And so with that two-phase process, those proceedings drag on for uh months and months, sometimes over a year, um but very very involved in technical. And so when the final directives are rendered by the CPU, the utilities have to file these advice letters, what I what I was describing, and those advice letters implement the exact directives that were in the the final decision that arose during this very, you know, complex, you know, year-long process of this general rate case.
+ 
+ 
+00:09:44
+ 
+Michael Cade: Um, and then California is just bonkers because it's not just the general rate cases where uh the rates are changing for the utilities. In other states, it's much simpler. Like everything is just packed into a general rate case and that is what the utility is going to uh the rates are set and it's easy and it's straightforward. In California, you have the general rate cases. You have uh rate design proceedings. You have rulemakings that the commission oversees like the demand flexibility proceeding is one where they're um basically um redesigning rates uh with the income graduated fixed charge idea that they have. Um they have procurement proceedings that are called the energy resource recovery account proceedings. uh it it's I'm sorry if I'm going on too much but uh the main point I am uh trying to address is that it's very disagregated and there's all kind it's like this asteroid field of things coming at you and so it definitely needs um to be watched over very closely because of its complexity and because of the sheer volume of
+ 
+ 
+00:11:00
+ 
+Amber Fu: Gotcha. Gotcha. But I mean if we want to build like a reliable uh tariff engine like what would be the most uh like uh trust source from tariff
+Michael Cade: Yeah. So,
+Amber Fu: data?
+Michael Cade: the the best way to um to do this would be basically to have someone monitor when all these changes go into effect and then take a look at the rate schedules that are included in the advice letter filings. And in these advice letter filings, they'll give you like these massive rate tables that have illustrative rates um that are taking effect, let's say March 1st. A bunch of them just did that on March 1st. And then you scour through them. It's a very painstaking um dull process. Um finding out which particular rate sca rate schedules your your app users are on and then um make sure that the data is updated to reflect that. Um, and then there is a complicating factor too because it's not just the energy. Um, and apologies if you know all this already, but it's not just the energy that you're paying for.
+ 
+ 
+00:12:17
+ 
+Michael Cade: You're also paying for what's called a nonbypassable charge. Um, where they stuff a lot of things into this one charge that you can't escape. even if you reduce your net energy metering usage to to nothing, you still can't escape this non-bypassable charge. Um, another one would there's wild uh there's grid hardening and wildfire uh charges that are stuffed in there too. So basically um I would want to make sure that the API is the the third party is pulling all that data in too to create maximum accuracy for the consumer.
+Amber Fu: Got you. Got you.
+Michael Cade: Yeah.
+Amber Fu: Got you. And um also like uh from a regulatory like perspective like what what were the main concern that lead the the CPU to move from the NAM to the solar building plan?
+Michael Cade: Yeah, it so I have my own opinion on it that's uh maybe a little bit of an outlier and different than a lot of people, but their think their thinking behind it was that um they were paying too much
+Amber Fu: Uhhuh.
+ 
+ 
+00:13:29
+ 
+Michael Cade: for those electrons was basically what they were saying.
+Amber Fu: Okay.
+Michael Cade: And they were saying it was creating a cost shift where um basically non-participating customers, those who aren't on the NEM schedule or lowincome customers were uh were being unduly burdened by the cost shift. And there's lots of economic arguments about that. Um uh I tend not to believe that the cost shift was that severe. I think the overarching problem in the state is the rate design itself. There's cost shifts that occur in numerous proceedings, not just net energy metering. So for me, the cost shift I thought was a little bit of a red herring, but I'm not an economist. Um, but that's my read from afar. But essentially the it was a political kind of proceeding where basically citizengenerated distributed generation uh was pitted against largecale utility solar uh from the centralized regulatory utility perspective and you know many would argue largecale solar and centralized uh forces won that battle. Um, and that that's tends to be my view, but like I said, that's an outlier.
+ 
+ 
+00:14:53
+ 
+Michael Cade: And I think a lot of people do believe the cost shift was profound. And a lot of people do believe that NEM customers were getting paid way too much for those electrons as opposed, you know. So that that's the the gist of it. Does that make sense?
+Amber Fu: Yes. Yes, definitely.
+Michael Cade: Okay.
+Amber Fu: Thank you so much. That's really makes sense and I I think this is really valuable information for
+Michael Cade: Oh, excellent.
+Amber Fu: us.
+Michael Cade: I'm I'm very glad.
+Amber Fu: Thank you. And uh we can move to the uh next part. So the next part will be the uh you can see as you can see like this is called
+Michael Cade: Yeah.
+Amber Fu: the monthly bill budget.
+Michael Cade: Yeah.
+Amber Fu: Uh so this is really different from the most uh energy app.
+Michael Cade: Yep.
+Amber Fu: Uh so you can see like this is not like a optimization target. Uh this is more like a tolerance boundary like uh user telling the system oh if my billing end up about this number uh I feel like something went wrong and I want to early warning.
+ 
+ 
+00:15:53
+ 
+Michael Cade: Yeah.
+Amber Fu: So so we don't let the user tap any random number here. uh we basically ground the goal into the two things. The first will be the user less three bill and the second will be the user current replet. So we show a recommend range and the user can choose from there.
+Michael Cade: That is
+Amber Fu: Yes.
+Michael Cade: cool.
+Amber Fu: And this is basically what turned this app from the dashboard into we wish to the decision system. So we look at the same like event like a pig overcharging and ask like oh
+Michael Cade: Very
+Amber Fu: does this event meaningful threaten the user's goal?
+Michael Cade: impressive. Wow, that's
+Amber Fu: Yes.
+Michael Cade: great.
+Amber Fu: And uh as you can see uh after this part uh uh under it will be the the saving the saving card. So the saving card is not like a reward.
+Michael Cade: Yeah.
+Amber Fu: It's like uh reflect how the user reason uh behavior uh alens uh the less goal. So if user goal is financial tolerant boundary the saving is more like show how much buffer the user currently have.
+ 
+ 
+00:17:10
+ 
+Michael Cade: Oh, very clever.
+Amber Fu: Yes. And um I let me Okay. And under the saving there have uh we call like a execution card. This is where the you know the system move from the awareness to the action. So the execution card is always like trigger relevant to to the user let go
+Michael Cade: Yeah.
+Amber Fu: like the answer one question is like what action right now would the most minimum reduced risk related to the user's goal. So for example like uh uh right now it's showing the the power outage uh this is just for example but it could also be like EV charging during the peep or battery charging at high price period or like a solar and perh performance or like a euro grade uh import. So the contact change but the structure stay the
+Michael Cade: Yeah,
+Amber Fu: constant.
+Michael Cade: very
+Amber Fu: Yes.
+Michael Cade: nice.
+Amber Fu: and and when you see like they have the more detail and the more detail will lead to the more uh the explanation like the reasoning behind the
+ 
+ 
+00:18:17
+ 
+Michael Cade: More death.
+Amber Fu: recommendation. So there will have the like the what happening recommend action like a time window and a clear call to action. So we we try to separate the execution from the explanation. Uh the card is like quick decision making and the event detail page like this is uh is for like
+Michael Cade: Yeah.
+Amber Fu: a
+Michael Cade: Yeah. That that's very interesting, too.
+Amber Fu: transparency.
+Michael Cade: Um because and I'm I'm assuming a lot of that is the public safety power shut offs, the PSPS events where they they they alert people that they're going to turn the power off. Um is some of the data being drawn from those types of places?
+Amber Fu: Mhm.
+Michael Cade: Uh and Oh, I'm sorry. Go ahead.
+Amber Fu: I'll go ahead please. Sorry. Sorry to interrupt.
+Michael Cade: Oh, no. I was just I was just curious because that's that's another area. uh the power the public safety power shut offs,
+Amber Fu: Go.
+Michael Cade: the deenergization uh initiatives that the state oversees might be a good resource for you to um when the utility provides alerts to that regard or sends out messaging to that regard.
+ 
+ 
+00:19:32
+ 
+Michael Cade: Um, that would be a good thing to tap into with the utilities as well that wherever they store all that
+Amber Fu: Gotcha. Gotcha. Uh for the PSPS,
+Michael Cade: information.
+Amber Fu: I have a uh a few question about this. So uh from your experience like how common are PSPS events for residential customer in the California?
+Michael Cade: Um, basically again it gets into a very political area, right? I uh I I I think they're simply not doing an efficient job of managing the grid and keeping it balanced. Um now there is of course the the threat of wildfires. So if if they do think that vegetation is going to catch fire, um if they have some advanced warning, um that conditions are dry enough and hot enough and there's been enough, you know, concern about um vegetation management around a certain pole in a certain territory, um they may act proactively in that regard. But yeah,
+Amber Fu: Mhm.
+Michael Cade: it it is all kind of downstream from chaotic decision making um all the way up to the legislature.
+ 
+ 
+00:20:51
+ 
+Michael Cade: So, uh but yeah, I I think it's just mainly um a lot of times wildfire, dry weather related and they're just trying to get ahead of it um you know, before a line sparks or that kind of thing.
+Amber Fu: got you. But but how early do like utility typical warning the customer before the PSPS event? Because I heard some customers said that uh sometime they like were warning earlier like 24 48 hour but sometime they just shut shut
+Michael Cade: Yeah, I've heard the exact same thing and they they've been rad over the coals for that in various proceedings at the CPU. The the inconsistent messaging and the sometimes total lack of messaging. Um but there is there is a proceeding that um you know in theory at the CPU is supposed to watch over that and ensure that this whole process gets more um efficient as time goes on. And they they they incur their shareholders incur um increasingly penalties for you know poor messaging or no notice or too short notice. they're increasingly getting kind of slapped on the wrist for that and you know worse penalties than just a slap on the wrist too.
+ 
+ 
+00:22:13
+ 
+Michael Cade: So they're taking it seriously uh the leadership, the regulators, but they're they're still just they're playing catch-up. They're always kind of trying to play catchup with reality, it seems like.
+Amber Fu: Mhm.
+Michael Cade: So it it's very imperfect and
+Amber Fu: Got you.
+Michael Cade: chaotic.
+Amber Fu: Yes. But usually how like in a common case like uh are I think they're going to early warning,
+Michael Cade: Yeah, I think there is a,
+Amber Fu: right?
+Michael Cade: you know, system that they're supposed to adhere to, which is, you know, relatively speaking, advanced warning. Um,
+Amber Fu: Okay.
+Michael Cade: I I think some of the utilities are doing a better job of meeting that criteria. I I don't think universally all three of the big IUs are um doing a good job meeting that criteria. And I think there's varying degrees of success uh yeartoyear too.
+Amber Fu: Gotcha. Uh okay. And uh but are the the PSPS alarm like usually published through the utility APIs or only through the public alert or
+Michael Cade: That's a Yeah,
+ 
+ 
+00:23:18
+ 
+Amber Fu: email?
+Michael Cade: that's a great question. I I'm not sure who or where that comes from, but I know the utilities um have a responsibility. It'd be easy to find out, too. It'd be it'd be relatively straightforward to figure out um a system where you're drawing that information from the utilities um in a you know, fairly accurate manner.
+Amber Fu: Gotcha.
+Michael Cade: Yep.
+Amber Fu: But but but do utility provide like a real time outage data that can
+Michael Cade: the yeah there um again it depends on each utility because the all three of them sort of operate at different levels of competence. Uh but the in theory all three of them are supposed to have outage maps and PSPS um map style you know architecture on their websites. Um, but I, you know, that's something I would have to look into a little more closely. I don't recall
+Amber Fu: Got you.
+Michael Cade: offhand.
+Amber Fu: It's okay. But okay. So cuz like for this future uh we we have a lot of question about it cuz like I I speak few uh the home owner
+ 
+ 
+00:24:27
+ 
+Michael Cade: Yeah.
+Amber Fu: uh who live in the uh San Francisco and I think I believe like couple months ago they have some like fire or whatever and they have a PSP
+Michael Cade: Right.
+Amber Fu: for like two days so it's really bother them and uh
+Michael Cade: Mhm. Yeah.
+Amber Fu: for But like in your experience like what typical the biggest challenge during the PPS event uh
+Michael Cade: Uh what's the biggest challenge for the utility?
+Amber Fu: the I mean the during the you know the PSPS event like if they really shut down like let's say like if they really shut down like two days no power outage at all if this homeowner don't have any
+Michael Cade: Right.
+Amber Fu: solar or battery. How they going to
+Michael Cade: Yeah, it's a it's a great question.
+Amber Fu: leave?
+Michael Cade: It's it puts people in, you know, very dangerous situations, especially if they have medical equipment and things of that nature. And so they they do the the utilities do have a heightened augmented
+Amber Fu: Yes.
+Michael Cade: process for people who are medically vulnerable.
+ 
+ 
+00:25:41
+ 
+Amber Fu: Mhm. Okay.
+Michael Cade: Um they do have a uh they do have awareness of that to the extent possible. Um who among their their rateayers is medically vulnerable. So people like that um there is a system set up to um accommodate them to the best of the utility's abilities and that that's something that comes under scrutiny quite a
+Amber Fu: Gotcha. Gotcha.
+Michael Cade: bit.
+Amber Fu: But how about like uh if they only have a solar but don't have any home battery, what they going to do if like really shut down for
+Michael Cade: Yeah. Yeah.
+Amber Fu: like
+Michael Cade: I think a lot of times they just you know if they don't have a generator they're they're kind of out of luck, right? Like that that's happened to me here in Oregon. We ran out of, you know, we didn't have electricity for like 10 days at one point.
+Amber Fu: Really?
+Michael Cade: Yeah. So,
+Amber Fu: Oh,
+Michael Cade: uh,
+Amber Fu: how how you survive.
+Michael Cade: well, we've got a fireplace, so you know, and yeah,
+ 
+ 
+00:26:41
+ 
+Amber Fu: Okay.
+Michael Cade: it was mostly that is a fireplace and wearing warm clothes and that kind of thing.
+Amber Fu: Okay. Okay.
+Michael Cade: Yeah.
+Amber Fu: Got you. Got you. And uh but are are many like solar customer installing the battery because of PSPS event in your
+Michael Cade: Yeah, I think increasingly there's a there's a ton of that and I think that's that's very smart
+Amber Fu: experience.
+Michael Cade: and a wise thing to do.
+Amber Fu: Okay.
+Michael Cade: It's it's resiliency. You you're up and running no matter what happens. And so I think increasingly that's happening for sure.
+Amber Fu: Got you. Got you. Thank you.
+Michael Cade: Yeah.
+Amber Fu: Thank you for your information.
+Michael Cade: Oh yeah,
+Amber Fu: Okay. And uh for uh we can go to the next part.
+Michael Cade: absolutely.
+Amber Fu: The next part will be like the usage part. So the the usage is more provide like the uh the layer behind the goal and execution. So it's allow the user to see how their uh uh consumption maps to the tou structure and financial exposure.
+ 
+ 
+00:27:46
+ 
+Michael Cade: Right.
+Amber Fu: Yeah.
+Michael Cade: Oh, that's great.
+Amber Fu: Uh for yes but for here I have questions.
+Michael Cade: Yeah.
+Amber Fu: So like when mapping interval data to the TOU are there like tear uh threshold or seasonal a seasonal baseline that we must apply before calculating
+Michael Cade: Yeah, great question. So,
+Amber Fu: exposure.
+Michael Cade: um that that's another one that I meant to bring up is that um these time variances um are orchestrated by a tool the commission uses, the CPU uses. It's called the avoided cost calculator. You may have seen the acronym ACC. And these time variance signals are um the result of these TOU schedules are calculated using this avoided cost calculator. And uh similarly to how um the utilities file updates to their tariffs two to three times a year um the avoided cost calculator I believe is updated every two years I think. Um yeah I think every two years. So you know uh whatever data that you draw from would have to make sure that that element of it is also refreshed every you know two years.
+ 
+ 
+00:29:08
+ 
+Michael Cade: Basically, it's it's informing the the structure of these TOU
+Amber Fu: Got you. Okay. Got you.
+Michael Cade: rates.
+Amber Fu: And um Okay. And also uh I have an another uh question is about like the like when utility apply like a TU rate then like a mapping typical done direct directly to the interval data or after argu
+Michael Cade: Oh, that that is a great question.
+Amber Fu: Okay.
+Michael Cade: I know each of them have their own unique TOU rates and in fact when they did when the CPU did the redesign of the the NEM tariff back in 2022, they designated three specific schedules for the the three IUS. So that I'd be happy to look into that. I don't know offhand um how they do that specifically to answer your question, but that's something I could look into for you. Absolutely.
+Amber Fu: Got you. Got you. Really appreciate.
+Michael Cade: Yeah, for
+Amber Fu: Yeah,
+Michael Cade: sure.
+Amber Fu: because I I was still thinking about like uh you mentioned the the ACC
+ 
+ 
+00:30:20
+ 
+Michael Cade: Right.
+Amber Fu: the a world cost uh calculator.
+Michael Cade: Yeah.
+Amber Fu: So for for this uh if we wanted like calculate uh export credit under the solar building plan like would using the volt cost
+Michael Cade: Yeah.
+Amber Fu: calculator value directly by uh uh sufficient
+Michael Cade: Um well, there's also the matter of, you know, which which tariff are they on? Is it is it one of the legacy net energy metering tariffs, NEM 1.0, NM 2.0, you know, or are they on the NBT, the net billing tariff, which is basically NEM 3.0 that that I would want to, you know, make sure um that information is squared away properly.
+Amber Fu: Gotcha.
+Michael Cade: Yep.
+Amber Fu: And and also like are those of bold cause value published at the uh data
+Michael Cade: Oh, yeah. Yeah. The the avoided cost. So there and um what I could do,
+Amber Fu: that's
+Michael Cade: you know, after I'm I'm taking some notes here while we're talking and I could send you um some links that might be helpful. There's a link at the CPU that has the updated ACC values um for each year going back like however long they've been using it.
+ 
+ 
+00:31:42
+ 
+Amber Fu: That would be perfect.
+Michael Cade: So yeah.
+Amber Fu: Thank
+Michael Cade: Yeah, that that could be very useful for you in terms of, you know,
+Amber Fu: you.
+Michael Cade: just drawing data from that. Um, but yeah, about every two years they update that and it's it's all I believe it's all on that one page. So, I'd be happy to dig that link up for you.
+Amber Fu: Sure. Sure. Thank you so much. Yeah.
+Michael Cade: Yeah.
+Amber Fu: And one more question is like for N3 customers uh is the export credit calculate uh uh direct from the export kilowatt middle by the like hourly ACC
+Michael Cade: Yeah, let me let me I I dug up my notes from those decisions and I know the legacy NEM the
+Amber Fu: value.
+Michael Cade: 1.0 uh and 2.0 that's monthly netting with the annual TRUA and then the NEM 3.0 know that's the exports credited at the time bearing avoided cost
+Amber Fu: Uh-huh.
+Michael Cade: rates as dollars and let's see let me see if I can more accurately answer
+Amber Fu: Mhm.
+ 
+ 
+00:32:41
+ 
+Michael Cade: that question so the legacy NEM is monthly kilowatt hour netting with the annual true up with the re retail export compensation uh the net billing tariff has no netting um and export Sport credits are in dollars and that's the one based on
+Amber Fu: Mhm.
+Michael Cade: avoided cost values and they they both do have an annual true-up I believe they both do and the export compensation that is built around the ACC is hourly avoided cost rates monthly averaging and basically differentiation by weekday or weekend and it gets It gets a little crazy because at the time they did the redesign uh for each of the utilities,
+Amber Fu: Mhm.
+Michael Cade: they basically put these what are called the ACC plus adders. Have you seen that term? Um basically it's just like a little um
+Amber Fu: No.
+Michael Cade: reward to soften the blow as NEM customers transition to the uh new NBT NEM 3.0. And essentially is essentially it was like a little payment like uh not much
+Amber Fu: Mhm.
+Michael Cade: like two cents a kilowatt or something uh that would gradually diminish as the years go by and become zero.
+ 
+ 
+00:34:13
+ 
+Michael Cade: Um, one one of the utilities that didn't get that um, particular benefit was San Diego Gas and Electric because the commission just thought the economics are um, such that with heavy heavy solar use in the San Diego area um, and with high electricity uh,
+Amber Fu: Mhm.
+Michael Cade: prices down there, the economics didn't work out in such a way that they felt that was necessary to create a glide path for San Diego gas and
+Amber Fu: Got you. Got you. So, so basically like uh for from my understanding is like under the solar billing plan uh export credit are driven by the a cost calculator
+Michael Cade: Yeah.
+Amber Fu: signal rather than retail till you
+Michael Cade: Yeah. Yeah.
+Amber Fu: rate.
+Michael Cade: Uh, could you say that one more time? I I think I heard most of
+Amber Fu: Okay.
+Michael Cade: it.
+Amber Fu: So like under the solar building plan export credit are driven by the avault cost calculator signal rather than the retail till you rate.
+Michael Cade: Right.
+Amber Fu: Right.
+Michael Cade: Right. Exactly.
+ 
+ 
+00:35:19
+ 
+Amber Fu: Okay.
+Michael Cade: Net billing tariff that that is guided by the avoided cost calculator.
+Amber Fu: Got you.
+Michael Cade: Yeah. Yeah.
+Amber Fu: Got you. Thank you so much.
+Michael Cade: And and you're you're correct.
+Amber Fu: That's
+Michael Cade: Previously they were compensated at retail uh rates.
+Amber Fu: the
+Michael Cade: The NEM customers were on those legacy
+Amber Fu: Got you.
+Michael Cade: tariffs.
+Amber Fu: But but what like but when the ACC model update every every two year
+Michael Cade: Yeah.
+Amber Fu: right?
+Michael Cade: Yep.
+Amber Fu: Okay but do existing customer stay on the old version or like move to the new
+Michael Cade: Oh, that's a great question. I I believe Yeah,
+Amber Fu: one.
+Michael Cade: that gets into complicated territory. Like, are you saying like the legacy ones that were, you know, maybe on NEM one, NEM 2?
+Amber Fu: Mhm.
+Michael Cade: Is is that the the group that you're referring to or are you just saying? I'm just trying to understand the question fully.
+Amber Fu: Oh, so uh basically like right now uh lot of our uh target customer uh more likely under the name
+ 
+ 
+00:36:24
+ 
+Michael Cade: Okay, gotcha. So,
+Amber Fu: three.
+Michael Cade: you're saying when the avoided cost calculator updates, is that is that an immediate effect on them?
+Amber Fu: Yes.
+Michael Cade: It it's it's basically as immediate as implementation allows. So when the utility files uh an advice letter to incorporate that update um and then that advice letter is authorized by the CPU then that rate will go into effect. So you'll you'll get like a heads up you'll get advanced warnings so that you can prepare your data accordingly. It won't be like a switch is turned one night or that kind of thing.
+Amber Fu: Gotcha. Gotcha. But are like are they locked into a a ver version of the a cost calculator that was the place when they're installed their
+Michael Cade: Oh, I see. Okay. So,
+Amber Fu: system?
+Michael Cade: you're talking Yeah, you're talking about vintaging basically. And yeah,
+Amber Fu: Yeah.
+Michael Cade: and offhand I don't remember exactly how the v the vintaging works, but I could certainly look it up for you and get back to you with that too.
+ 
+ 
+00:37:31
+ 
+Michael Cade: I I know there is a plan so that um that's a great question because that will directly affect the app. um the customers uh on certain tariffs will be on a certain vintage. So that that gets into really granular areas and I'd be happy to dig in a little bit further.
+Amber Fu: Gotcha. Gotcha. Because you know we're just trying to understand like how model the credit calculation correctly in our
+Michael Cade: Yeah.
+Amber Fu: system.
+Michael Cade: Yeah. It's crazy. It's it's one of the most complicated and you know every every proceeding is like this.
+Amber Fu: Yes.
+Michael Cade: It's like NEM has this whole world of NEM rate design and then you go into a different proceeding and it's an entirely different rate design for something else.
+Amber Fu: Exactly. Exactly. Oh,
+Michael Cade: Yeah.
+Amber Fu: well another question is is in only in the California this competitive,
+Michael Cade: Yeah.
+Amber Fu: right?
+Michael Cade: So I I've worked with some economists who uh do work in all 50 states and they say by far California is the most convoluted of all 50 states.
+ 
+ 
+00:38:36
+ 
+Michael Cade: Um, it's much much simpler in places like Missouri and Illinois. Everything is just kind of for the most part kind of black and white in one filing and you know that's done like in the course of a year and it's over with and everything's established. Um, here you know California it's a different thing entirely.
+Amber Fu: Yes. Yes, we we both knew that. Okay. Um so, okay. So, let's move to the next part.
+Michael Cade: Yeah.
+Amber Fu: What the saving part? Uh the saving uh let's go to a saving.
+Michael Cade: Yeah.
+Amber Fu: Okay. So the saving is our most important uh part in our
+Michael Cade: Fever.
+Amber Fu: app. Yes.
+Michael Cade: Yeah.
+Amber Fu: And for this you can see uh we we separate like a saving from the bill like they have two tab. The one is a saving is more uh showing to the behavioral
+Michael Cade: Cool.
+Amber Fu: impact and the bill is uh official utility account uh accountant. So we don't we don't want to user confuse too and under that will be uh the the there have a like amount is a $55.8.
+ 
+ 
+00:39:50
+ 
+Amber Fu: So that is like more like a the accumulate of old cost based on the even level adjustment. So uh
+Michael Cade: an accumulated number. Is that what you were saying?
+Amber Fu: uh yes this is more yes this is more like uh as you can see like under it there have like a event this month under that well this is uh we
+Michael Cade: Okay.
+Amber Fu: we uh attribute saving by system category. So uh you can see like uh we when when you uh click on like EV charging and
+Michael Cade: Yeah, that's cool.
+Amber Fu: the they will show like the detail like break.
+Michael Cade: Yeah, the benefits for each
+Amber Fu: Yes.
+Michael Cade: category.
+Amber Fu: And then like you click it and there have a bottom sheet. This is where we expose the calculation logic. Yeah.
+Michael Cade: Nice.
+Amber Fu: We just try let the you know customer to knew like how we calculate it and how they can load those
+Michael Cade: Yeah. Oh, that's fantastic.
+Amber Fu: cost.
+Michael Cade: Yeah, that's that's a really good um you know, that's really promoting energy literacy.
+ 
+ 
+00:41:03
+ 
+Michael Cade: I think that would be very
+Amber Fu: Yes.
+Michael Cade: helpful.
+Amber Fu: Yes. But the question is uh we still work on the uh the building logic stuff. Yes.
+Michael Cade: Yeah.
+Amber Fu: I I know like especially our first market will be in the California.
+Michael Cade: Right.
+Amber Fu: So it's really complicated.
+Michael Cade: All the other ones will be super easy after you do this.
+Amber Fu: Yeah.
+Michael Cade: Yeah,
+Amber Fu: Yes. Uh oh. Yeah.
+Michael Cade: absolutely.
+Amber Fu: So this I have few questions. So the first will be like uh does this this calculation layer
+Michael Cade: Yeah.
+Amber Fu: match how utility apply to you rate difference for like how how like for
+Michael Cade: Does it m
+Amber Fu: this like what what we are trying to calculate like the calculation logic
+Michael Cade: Oh, I got you. Yeah, I I think what you've done so far is brilliant. It looks beautiful, and I think um the the approximations that you have are they they look like they're they're doing good work.
+ 
+ 
+00:42:05
+ 
+Michael Cade: So, I I would just say, you know, I'm just being I'm just trying to help you make it as accurate as possible when I when I point out um all the different little,
+Amber Fu: Yeah.
+Michael Cade: you know, rocks falling through the asteroid field.
+Amber Fu: Oh.
+Michael Cade: But um the there I think in some you guys are doing a great job matching the different layers uh that are all stacked up together. It it just probably needs um you know an extra set of eyes to make sure that the data sets are refreshed appropriately and that kind of thing.
+Amber Fu: Got
+Michael Cade: But it's so far it looks like a nice functioning app.
+Amber Fu: you.
+Michael Cade: It looks great. I would probably get it if I were in California.
+Amber Fu: Got you. Thank you. Uh okay. And also uh the another uh another question will be like um so from like analysis sample like is it reasonable to attribute a voc cause to a specific behavioral event.
+Michael Cade: is uh I'm sorry, one more time on that
+ 
+ 
+00:43:09
+ 
+Amber Fu: Uh so like uh we like we try to you know to uh calculate from
+Michael Cade: one.
+Amber Fu: like you know to to attribute a vote cost to some specific behavioral uh
+Michael Cade: Yeah.
+Amber Fu: behavioral event like so is it do you think that is a reasonable do you think that's
+Michael Cade: Yeah.
+Amber Fu: a is
+Michael Cade: I think it would be wildly popular with a lot of people in California if you if you were able to um sort of align the behavioral incentives with the user interface. I think that would be really helpful and really fun for people. And um it's but I think you're asking if is it realistic given all the
+Amber Fu: Uh
+Michael Cade: layers? Is that what Yeah,
+Amber Fu: yes. Yes.
+Michael Cade: I I think it's realistic. It it won't be easy, but it will uh I I think you'll probably need a a little bit of a team to help you out with that. Um just because it is so complicated.
+Amber Fu: Uh-huh.
+Michael Cade: Uh but it might not have to be a huge team.
+ 
+ 
+00:44:14
+ 
+Michael Cade: It could be, you know, two or three data scientists or something who have energy experience, that kind of a thing.
+Amber Fu: Got you. Got you.
+Michael Cade: But it's it's a beautiful elegant design and I think um it is realistic
+Amber Fu: Okay.
+Michael Cade: just factoring in um all the difficulties we've discussed. It's just just won't be easy.
+Amber Fu: Mhm.
+Michael Cade: It'll be it's doable just not
+Amber Fu: Gotcha.
+Michael Cade: easy.
+Amber Fu: Gotcha. Um and also like when like utility calculate the bill, do they not import and export this HTOU period before like applying the rate?
+Michael Cade: Let me think of that. Let's see. Um, I'm sorry. My hearing isn't the greatest. So, like if I if I could just have you rephrase it one more
+Amber Fu: Yes.
+Michael Cade: time.
+Amber Fu: Yeah. Totally fine. So are I tried to ask is like are they net like when you utility calculate the bill like do they like net import and export visa HTU period before applying the rate?
+ 
+ 
+00:45:23
+ 
+Michael Cade: Ah yeah. So they've got their they've got their whole calculus um figured out everything that all the ingredients are you know calculated on their end uh before the rate is applied. Definitely.
+Amber Fu: Okay. Gotcha. Gotcha. But but like when uh export credit are calculated are they applied directly to the energy charge or they total bill after all charge are
+Michael Cade: Well, with NBT, it's Let's see. Yeah,
+Amber Fu: add
+Michael Cade: I I would have to dig further on that. I I don't want to like give you an answer that's not on point, but yeah, let me dig into that for you. And uh I I was also thinking I know some people who are um very very um skilled at tariff analysis. So this I if there's, you know, down the road you want somebody who's a specialist, I I might be able to offer some really good recommendations from my network.
+Amber Fu: That would be perfect. That's exactly what we
+Michael Cade: Okay. Yeah, I do.
+ 
+ 
+00:46:29
+ 
+Michael Cade: I know some names that are coming uh to mind that I I can speak to a lot of
+Amber Fu: want.
+Michael Cade: this from a generalist perspective because I deal with a vast, you know, pool that's very wide and sort of necessarily thin, but I do know specialists that I could uh steer in your direction. Um especially NEM uh people are somewhat abundant.
+Amber Fu: Got you. Because you know like in because in our team like we uh we have a lot of good like excellent uh technology guy but they just don't know like the you know uh you know the the electricity stuff
+Michael Cade: Oh, it's two different worlds.
+Amber Fu: like Yes.
+Michael Cade: Yeah. Um,
+Amber Fu: Yes. Exactly. So in your experience like what kind of background would be the best fit for
+Michael Cade: exactly.
+Amber Fu: building the you know the something like this for our because like right now we really need someone like understand like the rule in the California and also like a different utility company and also our uh target customer will be
+ 
+ 
+00:47:38
+ 
+Michael Cade: Yeah.
+Amber Fu: uh the homeowner who have uh the solar or battery or EV charging and you know the really
+Michael Cade: Yeah.
+Amber Fu: complicated and especially you know they they live maybe in LA or San Diego or San Francisco and it's a different utility.
+Michael Cade: Yeah.
+Amber Fu: So in your experience like what kind of background like is best fit for us in this this
+Michael Cade: Yes. Um if you were like looking for a consultant who who specialized in that.
+Amber Fu: stage.
+Michael Cade: Um so in the regulatory world there is a lot of these folks who represent um entities that are intervening in these proceedings. For instance, general rate cases. Um there's utility advocates. Um turn is one of those,
+Amber Fu: Goodness.
+Michael Cade: the utility reform network. Um there's basically uh there's all kinds of interest groups. And in any given proceeding, um a lot of these people have experts that they work with. Um essentially,
+Amber Fu: Mhm.
+Michael Cade: uh you know, there's a there's a team of energy consultants that I know in Missouri.
+ 
+ 
+00:48:49
+ 
+Michael Cade: Um and they're the ones who told me about the 50 other states are much simpler than than California. The 49 other Yeah.
+Amber Fu: Oh, really?
+Michael Cade: Um so I would say um experts who represent intervening parties in any number of proceedings. Uh the rooftop solar one would be a great one to uh to dig around in and uh probably a lot of really smart people in that area. Um, I know a few names off the top of my head. Again, I I could, you know, help you find someone who is an expert in that. Um, I definitely have a a network of people like that.
+Amber Fu: That will be we're going to be really appreciated. Yes, this is exactly what we need at this phase.
+Michael Cade: Okay. Yeah.
+Amber Fu: You know that we really need someone like really understand like a California's electricity
+Michael Cade: Yeah. Yeah.
+Amber Fu: roof.
+Michael Cade: No, I know those guys. So, it's just a matter of uh if they're if they're available and you know that kind of thing.
+ 
+ 
+00:49:44
+ 
+Amber Fu: Sure,
+Michael Cade: Um, but I know a bunch of those guys. So, let's let's just keep uh the lines of communication open, I guess, and I'll try to help you out as best as I can.
+Amber Fu: sure. Sure. That'd be perfect. Thank you so much.
+Michael Cade: Yeah. And, you know, I I know the regulatory end of it,
+Amber Fu: Okay.
+Michael Cade: so I know when the when the advice letters are filed, I know how to fish things out of the advice letters um and that kind of thing, too. So, I mean, if things like that uh crop up,
+Amber Fu: Sure.
+Michael Cade: don't uh you know, go ahead and ask me a question about any of that, too, if you'd like.
+Amber Fu: Sure. Definitely, definitely. Thank you. Thank you. Appreciate.
+Michael Cade: Yeah.
+Amber Fu: Okay. Perfect. And also uh we have a last part is our uh we can go through really quick is
+Michael Cade: Yeah.
+Amber Fu: our uh the the bill part.
+ 
+ 
+00:50:33
+ 
+Michael Cade: Yeah.
+Amber Fu: So uh this part is also really important and you can as you can see like the bill part we
+Michael Cade: Yeah.
+Amber Fu: uh here we like mirror the official bill uh structure uh
+Michael Cade: Mhm.
+Amber Fu: and uh there have like a base service chart deliver adjustment.
+Michael Cade: Yeah. Yeah.
+Amber Fu: Uh so yes if you were like reconstruct at a
+Michael Cade: Yep.
+Amber Fu: residential bill uh like what would the crack calculation order be?
+Michael Cade: Yeah. That so you touched on a lot of them there. You got, you know, you got the wildfired fund charge. That's from legislation, the delivery charge, based services charge. There's uh there's also these NBC's I was telling you about the nonbyassable charges. Um there's one called the public purpose sir charge where they stuff um a lot of things into that. That's uh lowincome uh programs are often paid for with the
+Amber Fu: Hello.
+Michael Cade: PPP search charge. um energy efficiency stuff is rolled into that research and development.
+ 
+ 
+00:51:40
+ 
+Michael Cade: Um another one is another charge that a lot of people can't get out of is nuclear decommissioning. So the state has decommissioned its uh nuclear energy plants with the exception of Diablo Canyon and um Sanafay it's called Songs the San Anifay generation station generating station um the decommissioning charges for that are spread into non-bypassable charges that show up on customers bills as well. So, it it's it's kind of at the point now where you're not just paying for um electricity, you're paying for policy decisions that show up in your bill. And there there's unfortunately a lot of that stuff that piles in there.
+Amber Fu: Got you.
+Michael Cade: Yep.
+Amber Fu: Got you.
+Michael Cade: But it would be um in terms of what's doable, it would be doable to find out what those exact charges are, the full breadth of them, and have them available so that somebody could track them for you.
+Amber Fu: Mhm. Gotcha. Oh,
+Michael Cade: Yep.
+Amber Fu: and another question is since like there have a lot of different utility company,
+Michael Cade: Yeah.
+ 
+ 
+00:52:53
+ 
+Amber Fu: uh I believe they have a different bill like the show showing the different category, right?
+Michael Cade: Um,
+Amber Fu: or or but both or like they're
+Michael Cade: so are are you talking about like community choice
+Amber Fu: common.
+Michael Cade: aggregators? Um, the CCAs. Um, so for instance,
+Amber Fu: Yes.
+Michael Cade: so the CCAs um are an interesting category. They're not within the public utility commission's jurisdiction like the utilities are. Um the CCAs basically act as competition of sorts for the
+Amber Fu: No.
+Michael Cade: utilities. Um basically they are promising to their customers that they're going to have clean um renewable sourced electricity uh at an affordable cost, but the utility will still uh transport the electricity through their poles and wires. And those CCAs, although they're not governed by the the public utilities commission, they are um hit with what are called the power charge indifference adjustment. And that's basically it.
+Amber Fu: Mhm.
+Michael Cade: This is shorthand, but it's an exit tax for those customers who left the system. um if they leave PG&E system or San Diego Gas and Electrics, that PCIA charge, that exit fee charge is um assessed to those particular customers on their bill.
+ 
+ 
+00:54:19
+ 
+Michael Cade: So, and then the payment goes to the the incumbent utilities. So, Pacific Gas and Electric, San Diego Gas and Electric. Um but those do show up differently. um th those look different on bills as well.
+Amber Fu: Mhm.
+Michael Cade: Um because a lot of utility customers are bundled. They're all they're all rolled all their services are rolled into, you know, the the utilities bills. The the CCAs, the community choice aggregators, um they're treated separately and they they get piled on with these PCIA charges. So that appears differently in the tariffs. That's something I watch for in the tariffs, too. Um, I'm I'm not quite sure if that answered your question, but um that's where I kind of thought it was going.
+Amber Fu: Got you. Got you. That's really valuable information. Thank you so much.
+Michael Cade: Yeah.
+Amber Fu: Yeah.
+Michael Cade: Yeah.
+Amber Fu: And um and also under this is a true up bill. This part is really confused us.
+Michael Cade: Okay.
+Amber Fu: We because we don't have a solar and the only I knew the tr because like I speak some friend they have a solar they receive it and I think uh they only receive
+ 
+ 
+00:55:27
+ 
+Michael Cade: Uh
+Amber Fu: it under the N3 right.
+Michael Cade: so they're they're basically paid in dollars I believe under M3 whereas in the previous arrangement it was a credit to their bill if they qualified for it in kilowatt hours.
+Amber Fu: Uhhuh. Uhhuh.
+Michael Cade: That's my understanding of it.
+Amber Fu: Okay.
+Michael Cade: Yeah.
+Amber Fu: And uh cuz like for solar household like a I I I think like a monthly tracking is not enough. So the true up is like a reconations uh uh ter ter uh determine the real annual outcome. So we are trying to you know uh rolling like monthly projection of the true up uh but I don't know do you think this is going to be
+Michael Cade: Yeah.
+Amber Fu: work?
+Michael Cade: Do Oh, is it is it going to be workable? Yeah, I do think there's a formula that you could arrive at um that would more or less be
+Amber Fu: Yes.
+Michael Cade: accurate. um it just may not be super simple, but you know, again, it's the kind of thing um if you if you work with someone who knows how to find all that stuff, it can certainly be done.
+ 
+ 
+00:56:44
+ 
+Amber Fu: Gotcha. Gotcha.
+Michael Cade: Yeah,
+Amber Fu: Okay. That we Well, yes, we we need someone
+Michael Cade: it would be an imperfect science,
+Amber Fu: like
+Michael Cade: but it could be done. Um an approximation, a useful approximation could be built. Yep.
+Amber Fu: Gotcha. Gotcha. Thank you. And and and last part will be uh the bill proof. So the bill proof will is it's this feature is uh
+Michael Cade: Yeah.
+Amber Fu: compare like uh is per like a export credit versus bill export credit.
+Michael Cade: Yeah.
+Amber Fu: So if there like a mismatch where we going to surface
+Michael Cade: Oh,
+Amber Fu: it?
+Michael Cade: that's cool. Yeah, that's that's helpful, too.
+Amber Fu: Yes. But the question is still we stuck in the logic like the building logics.
+Michael Cade: Right.
+Amber Fu: Yes.
+Michael Cade: I I think you're on the right path.
+Amber Fu: Um.
+Michael Cade: I think it needs some tweaks and I I think it needs um a vigilant
+Amber Fu: Uh-huh.
+Michael Cade: eye to watch over um you know the various changes that will occur.
+ 
+ 
+00:57:51
+ 
+Michael Cade: But I I think I think you're definitely on the right path. It's very it's very uh it's a elegant solution and it looks good and it will be useful. It'll just it'll be a little bit complicated for California. So, you just got to find the right person who knows the weeds to dig through with that
+Amber Fu: Yes.
+Michael Cade: stuff.
+Amber Fu: Yes. Because uh the feature we designed this part because you know we speak of like you know we we we speak a lot of like uh the user in the California under an
+Michael Cade: Yeah. Yeah.
+Amber Fu: M3 you know we we talk a lot a lot of customer and uh we found out like
+Michael Cade: Yeah.
+Amber Fu: a like a few percentage the customer they they have a really common problem is uh some of them like they have got a vacation for a month they uh and after like they come back. They think, "Oh, the bill is really high." They just don't know what's happening. And they call like the the solar installer.
+ 
+ 
+00:58:50
+ 
+Amber Fu: They call the utility.
+Michael Cade: and they can't get an
+Amber Fu: Every party Yeah.
+Michael Cade: answer.
+Amber Fu: Every party said like, "Oh, our data is totally fine.
+Michael Cade: Yeah.
+Amber Fu: It's nothing wrong."
+Michael Cade: Oh, this would be a great help to people like that. Absolutely.
+Amber Fu: Yeah.
+Michael Cade: Um, yeah. I I think you can do it. I just think um it's going to require a a bit of an engineering
+Amber Fu: So
+Michael Cade: solution and um the the solution is workable. I think I just need to think about how you would do it specifically and and and I again I'd be happy to help you get on that path somehow.
+Amber Fu: that would be that would be really appreciated. Yes, cuz we try to figure out this part,
+Michael Cade: Yeah.
+Amber Fu: but uh I I feel like it's still a lot of things we're
+Michael Cade: It's very close. It's a great idea.
+Amber Fu: missing.
+Michael Cade: It just it needs some tweaking. It needs like uh and like I was saying that engineer approach.
+ 
+ 
+00:59:46
+ 
+Michael Cade: It and I think after you guys do California,
+Amber Fu: Uhhuh.
+Michael Cade: you'll be like the other states are so easy. It's it's Yeah,
+Amber Fu: Oh, really?
+Michael Cade: it'll you'll you'll just have a you know, the other states will seem like nothing.
+Amber Fu: I thought I thought that I thought the taxes will be
+Michael Cade: Oh, that okay.
+Amber Fu: harder.
+Michael Cade: That is a challenging market to um Texas isn't super
+Amber Fu: Oh, okay. Oh, yeah.
+Michael Cade: simple.
+Amber Fu: But but but uh like uh maybe like California and Texas will be the hardest and then the reservoir will be the easy,
+Michael Cade: Yeah,
+Amber Fu: right?
+Michael Cade: I I don't know. I I have some energy friends down there. Um that market I'm not nearly as familiar with. Um, but I know they have massive massive amounts of solar and storage.
+Amber Fu: Uh
+Michael Cade: So, um, it certainly is a good area for you guys to do this in. Yeah.
+Amber Fu: yeah yeah yeah.
+Michael Cade: Yeah.
+Amber Fu: So um so like earlier you mentioned that this kind of like a kind of a model would probably need someone with a deep tariff and a data modeling expert
+ 
+ 
+01:00:51
+ 
+Michael Cade: Yeah. Yeah.
+Amber Fu: right okay just let me know like if you have anyone can introduce
+Michael Cade: Yeah.
+Amber Fu: us will be super super helpful
+Michael Cade: Yeah. Let me think about it because I uh I do have a really good network and I I know there's
+Amber Fu: Oh.
+Michael Cade: people out there who would be um better suited for this than I would be quite frankly. Although I I could certainly help. I could give you a hand with uh locating the tariffs and the timing of them and that kind of a
+Amber Fu: Yes.
+Michael Cade: thing.
+Amber Fu: Yes.
+Michael Cade: Um,
+Amber Fu: Definitely.
+Michael Cade: cool. Um, let me think about it and um I'm actually talking with a gentleman
+Amber Fu: Definitely.
+Michael Cade: who sort of meets that criteria next week. So, let me let me see where that goes and uh I'll just I'll more than happy to help you out and do what I can. Um,
+Amber Fu: Sure.
+Michael Cade: I just there's a a limit to my expertise on these particular rate schedules though.
+ 
+ 
+01:01:46
+ 
+Amber Fu: Sure. That would be definitely like really really thankful and really helpful for us.
+Michael Cade: Oh, great.
+Amber Fu: Thank you so much. Yeah. And also um and I like and the last I want to like maybe talk about
+Michael Cade: Excellent.
+Amber Fu: more about about our product and this is like really early stage and also
+Michael Cade: Yeah.
+Amber Fu: uh so like right now we're starting with like software only product but like in the second stage we also like considering whether there maybe had a hardware component. So for for example like some something that could connect to the home energy system like
+Michael Cade: Oh,
+Amber Fu: like the you know electricity panel or like a solar in in Yeah. or like smart meter something like that.
+Michael Cade: yeah. Almost like a virtual power plant or something, you know? I like that.
+Amber Fu: Yes.
+Michael Cade: The smart meter aspect. That's cool.
+Amber Fu: Yes. So the like the goal would be like improve the data accuracy and possibly like able like real time monitor.
+ 
+ 
+01:02:45
+ 
+Michael Cade: Yeah. Get the machines to talk to each other and that kind of Yeah.
+Amber Fu: Yes.
+Michael Cade: Yeah.
+Amber Fu: Yes.
+Michael Cade: I love it.
+Amber Fu: Yes.
+Michael Cade: That's
+Amber Fu: Yeah. Yeah. And um but are there any uh regulatory like uh uh
+Michael Cade: great.
+Amber Fu: around assisting yeah utility major data or like energy usage data for customer?
+Michael Cade: Oh, that's that's a great question. Um, some of it it will be publicly available and some of it will um, you know, you you may have to fight for it a little bit. Um, but that's a great question. I I would have to look deeper into that one.
+Amber Fu: Got you.
+Michael Cade: Yeah,
+Amber Fu: Got you.
+Michael Cade: there are certainly data privacy issues that the utility or that the uh,
+Amber Fu: Okay.
+Michael Cade: commission takes very seriously.
+Amber Fu: Mhm.
+Michael Cade: So um there would be limits in some regards but I don't know how you know big of constraints those limits would
+Amber Fu: Gotcha. Gotcha.
+ 
+ 
+01:03:38
+ 
+Michael Cade: be
+Amber Fu: Got you. And okay, so this is basically our old app. Like I want to like hear like what you
+Michael Cade: I think it looks great.
+Amber Fu: think.
+Michael Cade: I think you guys are on the right track. I think I think it works pretty darn good already. It's just, you know, the b the big thing will be the accuracy, staying on top of that data, making sure it's refreshed, um, with the rate cases, the advice letter filings, the avoided cost calculator, and I I think if you do that and just keep an eye also on these various um, extraneous uh, charges, the non-bypassable charges we talked about, um, but again, all those things can be rounded up and tracked.
+Amber Fu: Mhm.
+Michael Cade: um you you just it's just another engineering problem like list all the different components and track them and then you know also just making sure that um as we discussed the vintaging of the the NEM legacy people how that their bills will look different of course too than um that'll factor into it but all of it's an engineering problem that's doable it's just complex I do think it's going to have a a
+ 
+ 
+01:04:52
+ 
+Amber Fu: Mhm. Got you. Got you.
+Michael Cade: a receptive audience in California because there's definitely a lot of people who would enjoy nerding out on that kind of a thing. I would myself.
+Amber Fu: Got you. Got you. Well,
+Michael Cade: Yeah.
+Amber Fu: I'm really appreciate because you know like our team right now uh is like you know just a small team like we are really good at like building like you know like a AI power like software and
+Michael Cade: Yeah.
+Amber Fu: hardware product. uh like and we're like focused on like combine like AI software and energy system to build a particular like tools for the customer but we're very strong on the product side and the technique side but we're still learning the tariff
+Michael Cade: Yeah,
+Amber Fu: side especially like for California utility.
+Michael Cade: it's crazy, right? Uh yeah, you've na you've nailed the technology side.
+Amber Fu: Yeah.
+Michael Cade: That looks like it's ready to go already. It's just that that's the complicating thing,
+Amber Fu: Yes.
+Michael Cade: the tariff side.
+ 
+ 
+01:05:53
+ 
+Amber Fu: Yes. So this is why conversation like this are extremely valuable for us.
+Michael Cade: Oh, good. Good. Yeah, I'm happy to keep helping you guys.
+Amber Fu: Yeah.
+Michael Cade: So, um, yeah, let's keep talking. I I think it looks
+Amber Fu: Yes. Yeah.
+Michael Cade: great.
+Amber Fu: So if you're open, we would really love to keep you involved, you know,
+Michael Cade: Oh,
+Amber Fu: to collate part of the product with us and your experience in this area would be
+Michael Cade: yeah.
+Amber Fu: incredibly helpful.
+Michael Cade: Yeah, absolutely. I'd be happy to contribute um in any way that I I could. I I have the bandwidth to do so right now. And um you know, most importantly, I'd like to help you guys find someone who's uh you know, a a tariff specialist, especially with these NEM rates and time of use rates.
+Amber Fu: Yes, exactly. That's what exactly what we need.
+Michael Cade: Yeah,
+Amber Fu: And and also do you have my
+Michael Cade: I don't have your email,
+Amber Fu: email or do you
+Michael Cade: but if you want to uh let's see.
+Amber Fu: mind you can uh share your email to me like
+Michael Cade: Yeah. Yeah. Let me just I'll I'll put it in here.
+Amber Fu: Okay, sure. And we can talk through the
+Michael Cade: Perfect.
+Amber Fu: email.
+Michael Cade: Let me just make sure I'm typing it properly there. Okay. Yeah, mike@calregulatory.com.
+Amber Fu: Okay,
+Michael Cade: There you Yeah.
+Amber Fu: perfect. Receive it.
+Michael Cade: Um, so yeah, feel free to email me. That'd be great.
+Amber Fu: Sure, sure. Sure. Appreciate. Really appreciate. So, uh,
+Michael Cade: Yeah.
+Amber Fu: please keep in touch.
+Michael Cade: Excellent. Yeah, good work, you guys. It It looks fantastic. Um, I'm excited to see where it goes.
+ 
+ 
+Transcription ended after 01:07:44
+
+This editable transcript was computer generated and might contain errors. People can also change the text after it was created.

@@ -1,0 +1,909 @@
+3. Amos Elberg
+00:00:00
+ 
+Amber Fu: Hey, Amos. Hi.  Amber Fu：嘿，Amos。你好。
+Amos Elberg: Hey, how are you?
+阿莫斯·埃尔伯格：嘿，你好吗？
+Amber Fu: Good. Good. How are you?
+Amber Fu：很好。很好。你好吗？
+Amos Elberg: Good.  阿莫斯·埃尔伯格：很好。
+Amber Fu: That's good. Fantastic. And um so, uh give me a second. Sorry. Okay, perfect. And it's, you know, really nice to see you again. Thank Thanks,
+Amber Fu：那很好。太棒了。嗯，呃，给我点时间。抱歉。好，完美。你知道，真的很高兴再次见到你。谢谢，谢谢，
+Amos Elberg: You too.  阿莫斯·埃尔伯格：你也是。
+Amber Fu: much for making the time.
+Amber Fu：真是愿意抽时间。
+Amos Elberg: No  阿莫斯·埃尔伯格：不
+Amber Fu: Uhhuh. And well,
+Amber Fu：嗯哼。嗯，
+Amos Elberg: problem.  阿莫斯·埃尔伯格：问题。
+Amber Fu: uh, how had things been going on? I think last time you we tal you had just moved in and the solar has had just been
+安柏·傅：呃，最近怎么样？我记得上次你说你刚搬进来，太阳能刚好
+Amos Elberg: Yes.  阿莫斯·埃尔伯格：是的。
+Amber Fu: turned on. Anything changed right
+琥珀·傅：被激活。一切都变了
+Amos Elberg: So,  阿莫斯·埃尔伯格：所以，
+Amber Fu: now?  安柏·傅：现在？
+Amos Elberg: we have a full month of uh of production now,
+Amos Elberg：我们现在已经整整一个月的制作期了，
+Amber Fu: Okay.  Amber Fu：好的。
+Amos Elberg: and we're producing we're producing less than about 20% less than the installer told us we would produce. So,
+Amos Elberg：我们生产的产量比安装商告诉我们的少不到 20%。所以，
+Amber Fu: Oh,  安柏·傅：哦，
+Amos Elberg: I have to send them an email that says,
+阿莫斯·埃尔伯格：我必须给他们发一封邮件，内容是，
+Amber Fu: it's uh okay.  Amber Fu：呃，没事。
+Amos Elberg: "What the hell is going on?
+阿莫斯·埃尔伯格：“到底发生了什么？
+ 
+ 
+00:02:07
+ 
+Amber Fu: It's still like uh is any like they they gave you any like useful information from this installer?
+Amber Fu：不过，呃，他们有没有从这个安装器那里给你什么有用的信息？
+Amos Elberg: No, I mean I I talked to them and they said, "Don't worry about it." And they said, "Here's your monthly here here's what your monthly production is going to be." And I said,
+阿莫斯·埃尔伯格：不，我是说我和他们谈过，他们说，“别担心。”他们说：“这是你的月度收入，这是你的月产量。”我说，
+Amber Fu: Uh-huh.  安柏·傅：嗯哼。
+Amos Elberg: "Okay, I guess I'll wait till the end of the month so we can compare the month to the month." And now we have a full month.
+阿莫斯·埃尔伯格：“好吧，我想我会等到月底，这样我们可以对比一下这个月和这个月。”现在我们有整整一个月了。
+Amber Fu: Mhm. Mhm.  安柏·傅：嗯。嗯。
+Amos Elberg: So now I have to go back and send them an email and say, "Hey guys, what's going on?
+Amos Elberg：所以现在我得回去给他们发邮件，说：“大家好，最近怎么样？
+Amber Fu: Okay. Okay. Okay. I'm sorry to hear that. I thought Okay. I thought like you know I think it's been like a month or two months I think we're talking about this.
+Amber Fu：好的。好的。好的。听到这个我很难过。我心想，好吧。我想，你知道，应该已经一两个月了，我觉得我们正在谈论这个。
+Amos Elberg: probably about that.
+阿莫斯·埃尔伯格：大概就是这个。
+Amber Fu: Yeah. Yeah. Yeah.
+Amber Fu：是的。是的。是的。
+Amos Elberg: Yes,  阿莫斯·埃尔伯格：是的，
+Amber Fu: I thought it's uh already you know your uh solve those problem.
+Amber Fu：我以为，呃，你知道，你已经解决了那些问题。
+Amos Elberg: I was hoping so,
+阿莫斯·埃尔伯格：我也希望如此，
+Amber Fu: Okay.  Amber Fu：好的。
+ 
+ 
+00:02:58
+ 
+Amos Elberg: but well, we'll see what happens.
+阿莫斯·埃尔伯格：不过，我们拭目以待。
+Amber Fu: Okay. Okay. Well you know uh so today we want to you know show you a very early demo is incomplete. We are not trying to you know impress you with a polish. I won't explain anything at first. I just want you to you know re react like you normally would. What feel useful and feels wrong and what feel like oh this is doesn't make sense like yeah I will I will send you a link. Uh give me a second. Uh, okay. Okay. Did you see it?
+Amber Fu：好的。好的。嗯，你知道，呃，今天我们想给大家展示一个非常早期的演示，这个演示还不完整。我们并不是想用抛光剂来打动你。我一开始不会解释任何事情。我只是想让你像平时那样反应。什么感觉有用，哪些感觉不对，什么感觉“哦，这不合理”，比如“是的，我会发给你链接”。呃，等我一下。呃，好吧。好的。你看到了吗？
+Amos Elberg: Yes,  阿莫斯·埃尔伯格：是的，
+Amber Fu: The uh  Amber Fu：呃
+Amos Elberg: a Figma link.
+Amos Elberg：Figma 链接。
+Amber Fu: Yeah.  Amber Fu：是的。
+Amos Elberg: Let me click. I'm opening the Figma link.
+阿莫斯·埃尔伯格：让我点进去。我正在打开 Figma 链接。
+Amber Fu: Oh, and before uh we start, do you mind I uh record the Okay.
+Amber Fu：哦，在我们开始之前，你介意我录下那个好的。
+Amos Elberg: No, go ahead.
+阿莫斯·埃尔伯格：不，请继续。
+Amber Fu: Okay. Appreciate it.
+Amber Fu：好的。感谢。
+Amos Elberg: Okay. So, I'm got I've I'm on a view of I'm I'm on a view that
+阿莫斯·埃尔伯格：好的。所以，我有，我有，我有个观点，我有
+Amber Fu: Uhhuh.  Amber Fu：嗯哼。
+Amos Elberg: says something may require your attention.
+阿莫斯·埃尔伯格：说有些事情可能需要你关注。
+ 
+ 
+00:04:11
+ 
+Amos Elberg: And on the left,
+阿莫斯·埃尔伯格：左边，
+Amber Fu: You know what? Uh,
+Amber Fu：你知道吗？呃，
+Amos Elberg: I see four flows.
+阿莫斯·埃尔伯格：我看到了四条流。
+Amber Fu: sorry. Do do you mind you can share the screen with me?
+Amber Fu：抱歉。你介意和我共用屏幕吗？
+Amos Elberg: Yeah, sure. Uh,
+阿莫斯·埃尔伯格：是的，当然。呃，
+Amber Fu: Yeah.  Amber Fu：是的。
+Amos Elberg: give me a second.
+阿莫斯·埃尔伯格：给我一点时间。
+Amber Fu: Thank you.  Amber Fu：谢谢你。
+Amos Elberg: Um, right. I have to grant it permission. Uh, I have to quit and reopen.
+阿莫斯·埃尔伯格：嗯，对。我必须批准它。呃，我得辞职再重新开业。
+Amber Fu: Oh,  安柏·傅：哦，
+Amos Elberg: Oh, or it may not let Well,
+阿莫斯·埃尔伯格：哦，或者它可能不会让韦尔，
+Amber Fu: okay.  Amber Fu：好的。
+Amos Elberg: let's see if it allows me to um let's see if it allows me to share.
+阿莫斯·埃尔伯格：看看能不能让我分享一下。
+Amber Fu: Oh,  安柏·傅：哦，
+Amos Elberg: Am I sharing?
+阿莫斯·埃尔伯格：我是在分享吗？
+Amber Fu: okay. Let me see. Yes, yes, yes, I can see it.
+Amber Fu：好的。让我想想。是的，是的，是的，我能看到。
+Amos Elberg: Okay, cool. So, is this the I mean should I start with the with the like introduction screen or should I start with this
+阿莫斯·埃尔伯格：好的，太好了。那么，这是我应该从带有点赞介绍界面开始，还是从这个开始
+Amber Fu: Uh,  安柏·傅：呃，
+Amos Elberg: screen?  阿莫斯·埃尔伯格：屏幕？
+Amber Fu: totally depends on you. I'm fine.
+Amber Fu：完全取决于你自己。我很好。
+Amos Elberg: Um well, let me let me start with normal.
+阿莫斯·埃尔伯格：嗯，那我先从普通的开始。
+Amber Fu: Sure. Sure.  Amber Fu：当然。当然。
+Amos Elberg: Oh, okay.  阿莫斯·埃尔伯格：哦，好的。
+ 
+ 
+00:05:17
+ 
+Amos Elberg: See? So, this is just what the app, this is the inside of the app. It's not the um it's not the opening screen.
+阿莫斯·埃尔伯格：看吧？所以，这就是应用内部的部分。不是，嗯，不是开场画面的问题。
+Amber Fu: Mhm. Mhm.  安柏·傅：嗯。嗯。
+Amos Elberg: It's this is inside the app.
+Amos Elberg：这在应用里。
+Amber Fu: Yeah.  Amber Fu：是的。
+Amos Elberg: Um  阿莫斯·埃尔伯格：嗯
+Amber Fu: So the there there have four uh like flows which means like there have
+Amber Fu：所以那里有四个类似流动的流动，意思是有
+Amos Elberg: okay.  阿莫斯·埃尔伯格：好的。
+Amber Fu: four like situation as showing on the dis uh the different the tab you can see like first is like uh when you click is a normal right now and you can just you know read those line and
+Amber Fu：像是四种情况，就像在 dis 上显示的那样，呃，你能看到的标签页，就像你点击时，现在很正常，你可以读懂那些台词，然后
+Amos Elberg: Okay.  阿莫斯·埃尔伯格：好的。
+Amber Fu: just yeah just tell me what you
+Amber Fu：当然可以，告诉我你想说什么
+Amos Elberg: So, um I don't I I feel like I don't have context because I don't know like the
+阿莫斯·埃尔伯格：所以，嗯，我觉得我没有背景，因为我不知道，比如说
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: other things that the app can do. I don't know where I am in the app. The first thing that occurs to me,
+Amos Elberg：应用还能做的其他事情。我不知道自己在应用里的位置。我首先想到的就是，
+Amber Fu: Okay. Mhm.  Amber Fu：好的。嗯。
+Amos Elberg: you have estimated cost impact positive to negative.
+Amos Elberg：你估算的成本影响是正到负。
+Amber Fu: Mhm. Mhm.  安柏·傅：嗯。嗯。
+Amos Elberg: Um, and I'm not sure what that means.
+阿莫斯·埃尔伯格：嗯，我不太确定那是什么意思。
+ 
+ 
+00:06:24
+ 
+Amos Elberg: I'm not sure if that means like this is the benefit from solar or this is what the benefit from the app. I'm not sure what cost impact means,
+Amos Elberg：我不确定这是太阳能带来的好处，还是应用带来的好处。我不太清楚成本影响具体指什么，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: but let me click around and see if I can Okay,
+阿莫斯·埃尔伯格：但让我点开看看能不能，好，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: events normal savings.
+Amos Elberg：活动，正常储蓄。
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: Okay, here we go.
+阿莫斯·埃尔伯格：好了，开始吧。
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: Monthly aggregation detected of events, not a prediction of final bill. I find this interface a bit confusing because you've got at the top it's
+Amos Elberg：是每月检测到的事件汇总，而不是最终账单的预测。我觉得这个界面有点让人困惑，因为你在顶部写着
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: called savings
+阿莫斯·埃尔伯格：被称为储蓄
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: and it the top is this bar chart of expected savings but the bottom of it is detected events and you've got a separate events page and the events aren't showing
+Amos Elberg：顶部是预期节省的条形图，但底部是检测到的事件，你有一个独立的事件页面，事件没有显示
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: up. But on the savings page, you have the events. Let me take a look at these. Okay, this is I like this event because this is giving me advice about how to optimize my use of solar and how to optimize my charging. So, I like this event.
+阿莫斯·埃尔伯格：上。但在储蓄页面，你会看到事件。让我看看这些。好的，我喜欢这个活动，因为它给了我关于如何优化太阳能使用和充电的建议。所以，我喜欢这个活动。
+ 
+ 
+00:07:53
+ 
+Amos Elberg: I just feel like it's in the wrong place uh interface-wise.
+Amos Elberg：我只是觉得界面上位置不对。
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: Um, okay. Okay. Okay, here we go. Some settings. Okay, let me take a look at well let's take a look at the messages. Okay, these are notifications.
+阿莫斯·埃尔伯格：嗯，好的。好的。好了，开始吧。一些设定。好的，让我看看，我们来看看这些信息。好，这些是通知。
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: Okay, so where I am just sort of um I feel like at this point so the the app is giving me what what I understand the functionality of the app to do at this point is that the app is giving me advice. It's monitoring my usage and it's telling me ways that I could be it's it's telling me ways that I could be using electricity more efficiently.
+Amos Elberg：好的，我现在的状态是，嗯，我觉得现在这个应用给我的，我理解它的功能就是给我建议。它监控我的用电量，告诉我如何更高效地使用电。
+Amber Fu: Yes.  Amber Fu：是的。
+Amos Elberg: Um it if it's got additional functionality,
+Amos Elberg：嗯，如果它有额外功能，
+Amber Fu: Yes.  Amber Fu：是的。
+Amos Elberg: I'm not aware of it yet, but let me Okay, suggestions.
+阿莫斯·埃尔伯格：我还不知道，但让我——好吧，给你一些建议。
+Amber Fu: Uh  安柏·傅：呃
+Amos Elberg: Yellow. Okay, there we go. That's a good I like that. Um,
+阿莫斯·埃尔伯格：黄色。好了，搞定了。这很好，我喜欢这个。嗯，
+Amber Fu: You can click the
+Amber Fu：你可以点击
+Amos Elberg: I'll click the
+阿莫斯·埃尔伯格：我会点击
+Amber Fu: Yeah.  Amber Fu：是的。
+ 
+ 
+00:09:48
+ 
+Amos Elberg: okay.  阿莫斯·埃尔伯格：好的。
+Amber Fu: And the for the event the the thing the event tab. Yeah. You can click those.
+Amber Fu：还有那个事件标签，是的。你可以点击那些。
+Amos Elberg: Okay. So, I like this design in the sense I like that it has a a mute, a remove, and a remind me later.
+阿莫斯·埃尔伯格：好的。所以，我喜欢这个设计，因为它有静音、移除和稍后提醒。
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: I like it's the summary here, but it's missing something.
+阿莫斯·埃尔伯格：我喜欢这里的总结，但缺少了什么。
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: And what it's missing is what can I do about it?
+阿莫斯·埃尔伯格：而缺少的是我能做些什么？
+Amber Fu: Okay. Got  Amber Fu：好的。得到
+Amos Elberg: It's so it's got what happened,
+阿莫斯·埃尔伯格：就是为了呈现发生的事情，
+Amber Fu: you.  Amber Fu：你。
+Amos Elberg: why it matters, what's the impact, but it's but it's all it's it's bringing me a problem. It's not bringing me a solution. You know what I
+阿莫斯·埃尔伯格：为什么重要，影响是什么，但这只是全部，给我带来了问题。它并没有给我带来解决方案。你知道吗，我
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: mean?  阿莫斯·埃尔伯格：凶？
+Amber Fu: Yeah.  Amber Fu：是的。
+Amos Elberg: Um nothing you can do about that. Well, yeah, actually there could be a fourth thing which is um what can I adjust? What setting can I adjust that helps me prepare for power outages?
+阿莫斯·埃尔伯格：嗯，这没什么办法。嗯，是的，实际上还有第四个问题，那就是我能调整什么？我可以调整什么设置来帮助我为停电做好准备？
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: Um, okay. Okay. So, I think I get what it's doing, what the app is doing.
+阿莫斯·埃尔伯格：嗯，好的。好的。所以，我想我明白它在做什么，也明白这个应用在做什么。
+ 
+ 
+00:11:40
+ 
+Amos Elberg: Okay. What else should I look at?
+阿莫斯·埃尔伯格：好的。还有什么我应该关注的？
+Amber Fu: Uh, so you mean the right now the power outage or
+Amber Fu：呃，你是说现在停电，还是
+Amos Elberg: Well, in in terms of showing me the app, what else in the app should I look
+Amos Elberg：那么，关于给我展示应用，我还应该看应用里的其他内容
+Amber Fu: Oh, okay. So,  Amber Fu：哦，好的。所以，
+Amos Elberg: at?  阿莫斯·埃尔伯格：在？
+Amber Fu: you can click on the the the red the EV charging the left side. Yeah. And for right now there do you see like a suggestion like for like apply now and like when you see like apply now do you assume it's real?
+Amber Fu：你可以点击红色的电动车左侧充电。是的。目前你看到的建议是“现在申请”吗？当你看到“现在申请”时，你认为这是真的吗？
+Amos Elberg: Oh,  阿莫斯·埃尔伯格：哦，
+Amber Fu: Yeah. Actually changes.
+Amber Fu：是的。实际上会改变。
+Amos Elberg: now I see that. I didn't see that before.
+阿莫斯·埃尔伯格：现在我明白了。我以前没见过。
+Amber Fu: Yeah.  Amber Fu：是的。
+Amos Elberg: Now I see that.
+阿莫斯·埃尔伯格：现在我明白了。
+Amber Fu: Yeah.  Amber Fu：是的。
+Amos Elberg: Thank I don't know how I missed that.
+阿莫斯·埃尔伯格：谢谢，我真不知道我怎么会漏掉。
+Amber Fu: Yeah.  Amber Fu：是的。
+Amos Elberg: Okay, there we go. That's useful. Um, so I do I like that.
+阿莫斯·埃尔伯格：好了，就这样。这很有用。嗯，我喜欢这个。
+Amber Fu: Okay. So, do do like but do you assume it will like actually change your Tesla settings or just tell you what should do for this?
+Amber Fu：好的。所以，确实会，但你会认为它会真的改变你的特斯拉设置，还是只告诉你该怎么做？
+ 
+ 
+00:12:50
+ 
+Amos Elberg: So,  阿莫斯·埃尔伯格：所以，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: if it's going to give me advice,
+阿莫斯·埃尔伯格：如果它能给我建议，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: I would install the app, but I wouldn't pay for it.
+Amos Elberg：我会安装这个应用，但不会付费。
+Amber Fu: Okay.  Amber Fu：好的。
+Amos Elberg: If I'm going to pay for it, it needs to do more than give me advice.
+Amos Elberg：如果我要付钱，它需要做的不仅仅是给我建议。
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: He needs to do actually take the next step and pause the charging until the prices
+阿莫斯·埃尔伯格：他确实需要采取下一步，暂停收费，直到价格确定
+Amber Fu: Got you. But are you okay with like we we like connect
+安柏·傅：明白了。但你能接受我们喜欢连接的关系吗
+Amos Elberg: drop.  阿莫斯·埃尔伯格：掉球。
+Amber Fu: with your device? I mean read only but like help you you know do something like uh when when charge like automatically or you just prefer to yourself.
+Amber Fu：用你的设备？我是说只读，但帮你做点什么，比如，当自动充能，或者你自己喜欢的时候。
+Amos Elberg: Um, I'm comfortable having an app do that. I mean, I have at the mo Yeah,
+Amos Elberg：嗯，我对用应用来做这件事很放心。我是说，我现在有，是的，
+Amber Fu: Okay.  Amber Fu：好的。
+Amos Elberg: I'm comfortable having an app do that. I mean,
+Amos Elberg：我很乐意用一个应用来实现这一点。我的意思是
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: I have at the moment I have the wallbox app and I
+Amos Elberg：我现在有，我用的是 Wallbox 应用，而且
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: think when I think when you and I met before,
+阿莫斯·埃尔伯格：当我想起你我之前见面时，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: the wallbox app hadn't been enabled yet.
+Amos Elberg：那时 wallbox 应用还没启用。
+ 
+ 
+00:14:05
+ 
+Amos Elberg: So,  阿莫斯·埃尔伯格：所以，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: you know, my big thing is the um is the charging and how big an impact the charging has. And I and I know that now because we've got a monthly bill. Charging the EV is more than half of my monthly
+Amos Elberg：你知道，我最关注的是充电，以及充电带来的巨大影响。我现在知道了，因为我们有每月的账单。给电动车充电占我月度的一半以上
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: power usage.
+阿莫斯·埃尔伯格：电力使用。
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: Um, so I really care about being able to optimize the charge and I have the net zero app and the wallbox app and the uh and there's another one called charge HQ and they all try to do charge on solar and they all have these different settings and none of them are consistent with each other. They all would turn on at different times and they don't cooperate with each other.
+Amos Elberg：嗯，我真的很在意优化充电，我有 Net Zero 应用、wallbox 应用，还有另一个叫 charge HQ，它们都尝试在太阳能上充电，但设置各不相同，且彼此不一致。它们会在不同时间开机，彼此不合作。
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: So, I'm comfortable having an app do this, but the app has to actually solve the problem.
+Amos Elberg：我对让应用来做这件事很放心，但应用必须真正解决问题。
+Amber Fu: Okay.  Amber Fu：好的。
+Amos Elberg: Right now, I have three apps. None of them solve the
+Amos Elberg：目前我有三个应用。他们都无法解决
+Amber Fu: Okay. Got you.  安柏·傅：好的。明白了。
+Amos Elberg: problem.  阿莫斯·埃尔伯格：问题。
+Amber Fu: So uh you can you can see the the pro uh profile the page and there have some like the setting part uh just want to know like which one let's see like connect the first one the connect data with connect and connection like if uh if you are you okay with like those like you can connect with
+Amber Fu：所以，呃，你可以看到 Pro 的配置文件，页面里有一些设置部分，呃，我只是想知道，比如，先连接第一个，连接数据，连接，如果你愿意，比如你可以连接
+ 
+ 
+00:15:32
+ 
+Amos Elberg: Yeah, I mean I'm I'm doing this already. So I'm I have the net zero app and it's connected to my
+阿莫斯·埃尔伯格：是的，我是说，我已经在做这件事了。我有一个 Net Zero 应用，并且它连接到了我的
+Amber Fu: Yeah.  Amber Fu：是的。
+Amos Elberg: EV. It's connected to my charger, the wallbox charger. It's connected to the Tesla app.
+阿莫斯·埃尔伯格：EV。它连接在我的充电器上，墙顶充电器。它连接了特斯拉应用。
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: Um, and it's also connected to I I actually I don't know if it's connected to the utility, but it's connected to a whole bunch of things. Tesla, um, the EV and the
+Amos Elberg：嗯，而且它也和......其实我不确定它是否和公用事业有关，但它和很多东西有关。特斯拉，嗯，电动车和
+Amber Fu: Okay.  Amber Fu：好的。
+Amos Elberg: charger.  阿莫斯·埃尔伯格：充电器。
+Amber Fu: Okay. Gotcha. So, so the data connection you are okay with like solar and the the Okay.
+Amber Fu：好的。明白了。所以，数据连接你对太阳能和那些还行的。
+Amos Elberg: Yeah.  阿莫斯·埃尔伯格：是的。
+Amber Fu: Got you. Got you. And also we have the like the add family member just you know to you know to share with the family like oh what's going on right now and like was the like what happened for like the electricity. Do you think that will be useful?
+安柏·傅：明白了。明白了。还有，我们有加一个家庭成员，想和家人分享，比如“现在发生了什么事”，比如说发生了什么，比如电力。你觉得这有用吗？
+Amos Elberg: Um, yes and no. I mean, in theory, it's useful. As a practical matter,
+阿莫斯·埃尔伯格：嗯，是也不是。理论上，这很有用。从实际作角度来看，
+Amber Fu: Mhm.  Amber Fu：嗯。
+ 
+ 
+00:16:39
+ 
+Amos Elberg: I try and invite my wife to all of these apps and she ignores all the invitations.
+Amos Elberg：我试着邀请我妻子加入所有这些应用，但她都无视所有邀请。
+Amber Fu: Okay.  Amber Fu：好的。
+Amos Elberg: And then she has me, you know, when we when we want to turn on the the robot vacuum,
+阿莫斯·埃尔伯格：然后她让我，当我们想打开机器人吸尘器时，
+Amber Fu: Okay.  Amber Fu：好的。
+Amos Elberg: she calls me up and says, "Amos, turn on the robot vacuum because she doesn't want to click the button herself." Um, so yeah,
+阿莫斯·埃尔伯格：她给我打电话说，“阿莫斯，打开机器人吸尘器，因为她不想自己按按钮。”嗯，所以是的，
+Amber Fu: Okay.  Amber Fu：好的。
+Amos Elberg: I do think it's useful, but in my family, my wife wouldn't use it.
+阿莫斯·埃尔伯格：我确实觉得它有用，但在我家里，我妻子不会用它。
+Amber Fu: Mhm. Got you.  安柏·傅：嗯，明白了。
+Amos Elberg: Um,  阿莫斯·埃尔伯格：一，
+Amber Fu: And for like Yeah.
+Amber Fu：是的。
+Amos Elberg: sorry. Go ahead.
+阿莫斯·埃尔伯格：抱歉。继续。
+Amber Fu: For in those like moment like like charging during the pig uh like what would you normally do without something like those app?
+Amber Fu：在那种时刻，比如充能，比如没有这些应用，你通常会怎么做？
+Amos Elberg: So, what we've done is I've turned
+阿莫斯·埃尔伯格：所以，我们所做的是我转变了
+Amber Fu: Uhhuh.  Amber Fu：嗯哼。
+Amos Elberg: off the charge on solar and what we're doing
+Amos Elberg：太阳能的充电站和我们的工作
+Amber Fu: Okay.  Amber Fu：好的。
+Amos Elberg: instead because we're at the moment we're not generating enough solar power to do charge on solar anyway.
+阿莫斯·埃尔伯格：相反，因为我们目前发电量不足以对太阳能进行充电。
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: So, that means if we're going to charge, it's going to be off the grid.
+阿莫斯·埃尔伯格：所以，这意味着如果我们要充电，它将是离网状态。
+ 
+ 
+00:17:41
+ 
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: And the Volvo app has a thing where you tell it what hours to charge and what hours not to charge. And so we actually we're not using NetZero,
+Amos Elberg：沃尔沃应用有个功能，可以告诉它哪些时间该充电，哪些时间不充电。所以我们实际上并没有使用 NetZero，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: we're not using Wallbox, we're not using Charge HQ,
+Amos Elberg：我们不用 Wallbox，也没用 Charge HQ，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: we're just using the Volvo app and we tell it to only charge during the hours when the charging is cheap. Um, and that that works for the winter,
+Amos Elberg：我们只是用沃尔沃应用，并且只在充电便宜的时段充电。嗯，那个冬天用的，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: but it's not going to work in the summer. When the summer comes, we'll try and figure out how to make the charge on solar works
+阿莫斯·埃尔伯格：但夏天不会成功。夏天来临时，我们会想办法让太阳能充电器能正常使用
+Amber Fu: Got you. Got you.
+安柏·傅：抓到了。抓到了。
+Amos Elberg: work.  阿莫斯·埃尔伯格：工作。
+Amber Fu: And and for uh I think they have a connect device one see like I
+Amber Fu：而且，呃，我觉得他们有个连接装置，你看，就像我
+Amos Elberg: Yes.  阿莫斯·埃尔伯格：是的。
+Amber Fu: I like for right now we can you know just adding like Tesla and another like uh I mean the EV charging and your solar and uh the power wall stuff like that. Uh, do you think that that's okay? Like Mhm.
+Amber Fu：我现在可以补充一下，比如特斯拉，还有另一个，比如电动车充电、太阳能和电源墙之类的。呃，你觉得这样可以吗？嗯嗯。
+Amos Elberg: Yeah, I'm in terms of privacy.
+阿莫斯·埃尔伯格：是的，我是隐私方面的。
+ 
+ 
+00:18:52
+ 
+Amos Elberg: Yeah,  阿莫斯·埃尔伯格：是的，
+Amber Fu: Yeah.  Amber Fu：是的。
+Amos Elberg: I'm very comfortable with, you know, readon or it doesn't even have to be readon.
+Amos Elberg：我对 readon 很放心，或者说它根本不一定非得是 readon。
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: I'm very comfortable letting an app control the power wall and the solar and the charging and all of that. Um,
+Amos Elberg：我很放心让一个应用来控制电源墙、太阳能和充电等等。嗯，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: I'm already doing that. It's just that the app isn't very
+阿莫斯·埃尔伯格：我已经在做了。只是这个应用不太好用
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: good.  阿莫斯·埃尔伯格：很好。
+Amber Fu: So like for right now I think last time you mentioned some uh AI app right? I I forgot what they call luma
+Amber Fu：所以现在，我记得你上次提到过某个人工智能应用，对吧？我，忘了他们叫什么 luma 了
+Amos Elberg: I may have mentioned
+阿莫斯·埃尔伯格：我可能提过
+Amber Fu: it I think called
+Amber Fu：我记得它叫
+Amos Elberg: um Yeah,  阿莫斯·埃尔伯格：嗯，是的，
+Amber Fu: loop.  琥珀·傅：循环。
+Amos Elberg: I think that's right. I think it's called like Luna.
+阿莫斯·埃尔伯格：我觉得没错。我记得叫《像露娜》一样。
+Amber Fu: Yeah. Oh yeah. Luna. Yes.
+Amber Fu：是的。哦，是的。露娜。是的。
+Amos Elberg: Yeah. and what they do. Um, so what they're actually not just an app, they are a battery vendor.
+阿莫斯·埃尔伯格：是的。以及他们的行为。嗯，所以他们其实不仅仅是一个应用程序，他们是一家电池供应商。
+Amber Fu: Mhm. Oh, okay.  Amber Fu：嗯。哦，好的。
+Amos Elberg: So they compete with Power Wall and they have an app for their battery.
+Amos Elberg：他们和 Power Wall 竞争，并且有一个电池应用。
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: And the way the app for the battery works is that it uses machine learning and it looks at
+Amos Elberg：电池应用的工作方式是它利用机器学习，并分析
+ 
+ 
+00:19:54
+ 
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: the weather and it estimates and it looks at your production and it makes decisions
+Amos Elberg：天气，它会估算，会查看你的制作并做出决策
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: about how much battery to preserve and when to switch from solar to battery and how much battery to reserve for bad weather and when to push,
+Amos Elberg：关于应保留多少电池、何时从太阳能切换到电池、为恶劣天气保留多少电池以及何时推力，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: you know, back to the to the grid. And it makes it it does all of that with machine learning.
+阿莫斯·埃尔伯格：你知道，回到赛道。而且它通过机器学习实现了所有这些。
+Amber Fu: Mhm. Mhm.  安柏·傅：嗯。嗯。
+Amos Elberg: And so it does a better job of it than the Tesla app does.
+Amos Elberg：所以它在这方面做得比特斯拉应用更好。
+Amber Fu: Okay. Uh but for that one like which part you saying uh
+Amber Fu：好的。呃，但那个，比如你说的是哪一部分，呃
+Amos Elberg: So,  阿莫斯·埃尔伯格：所以，
+Amber Fu: is still  安柏·傅：依然存在
+Amos Elberg: well, let me So,
+阿莫斯·埃尔伯格：嗯，让我说，
+Amber Fu: missing.  安柏·傅：失踪。
+Amos Elberg: they actually after you and I spoke, there's somebody else, I don't remember the name of it, but there's somebody who's coming out with an app that's supposed to compete with Net Zero. And what he's done is he's been advertising it on the Tesla Reddit channel.
+Amos Elberg：实际上，在你和我谈过之后，还有另一个人，我记不清名字了，但有人正在推出一款据说要与净零竞争的应用。他所做的是，他在特斯拉的 Reddit 频道上做广告。
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: And it does machine learning like Luna.
+Amos Elberg：它做机器学习，类似 Luna。
+Amber Fu: Okay.  Amber Fu：好的。
+Amos Elberg: So are you asking what's missing from your app to be competitive with
+Amos Elberg：所以你是在问你的应用缺少什么来竞争吗
+ 
+ 
+00:21:06
+ 
+Amber Fu: Oh, no.  Amber Fu：哦，不。
+Amos Elberg: that?  阿莫斯·埃尔伯格：那？
+Amber Fu: I'm I'm saying like uh if you like you try the Luna right before.
+Amber Fu：我是说，呃，如果你喜欢的话，试试 Luna。
+Amos Elberg: I didn't. It only works with the Luna.
+阿莫斯·埃尔伯格：我没有。它只适用于 Luna。
+Amber Fu: Oh.  Amber Fu：哦。
+Amos Elberg: It only works with their battery and their battery
+Amos Elberg：它只适用于他们的电池和电池
+Amber Fu: Oh, okay. Okay. Got you. Got you.
+Amber Fu：哦，好的。好的。明白了。明白了。
+Amos Elberg: is very expensive. Um,
+阿莫斯·埃尔伯格：非常昂贵。嗯，
+Amber Fu: Uh-huh.  安柏·傅：嗯哼。
+Amos Elberg: so I didn't get their battery, but their battery has like a better app than the Tesla
+Amos Elberg：我没买他们的电池，但他们的电池应用比特斯拉好像更好
+Amber Fu: Oh,  安柏·傅：哦，
+Amos Elberg: app.  阿莫斯·埃尔伯格：应用。
+Amber Fu: okay. Got you. Got you. And like for right now like what you're saying the app what you think like the like what part is Yeah.
+Amber Fu：好的。明白了。明白了。就像你现在说的，应用里你怎么想的，比如说，是的。
+Amos Elberg: your app.  阿莫斯·埃尔伯格：你的应用。
+Amber Fu: like this this app like which part do you think is useful and which part you think oh I was still missing some
+Amber Fu：就像这个应用一样，你觉得哪部分有用，哪部分你觉得？哦，我还缺一些
+Amos Elberg: So,  阿莫斯·埃尔伯格：所以，
+Amber Fu: info  Amber Fu：信息
+Amos Elberg: I would install this and I would let it give me advice about what to do and what not to do.
+Amos Elberg：我会安装这个，让它给我关于该做什么、不该做什么的建议。
+Amber Fu: M.  Amber Fu：M。
+Amos Elberg: That to me is a useful thing.
+阿莫斯·埃尔伯格：对我来说，这很有用。
+ 
+ 
+00:22:01
+ 
+Amos Elberg: There's a value ad there. I would put that app on my phone.
+阿莫斯·埃尔伯格：那里有个价值广告。我会把那个应用装到手机上。
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: The question is, would I be willing to pay a monthly subscription fee for the app?
+Amos Elberg：问题是，我愿意为这个应用支付月度订阅费吗？
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: I don't know about that. I think that um I think that to pay a monthly subscription fee, I would want the app to do more and actually take control of the charging and take control of the power wall.
+阿莫斯·埃尔伯格：我不太确定。我觉得，嗯，我觉得如果要支付月费，我希望应用能做更多事情，真正控制充电和 Power Wall。
+Amber Fu: Got you. Got you.
+安柏·傅：抓到了。抓到了。
+Amos Elberg: The other thing, if I'm going to do that, I would want it to have the kind of display statistics and charts and
+Amos Elberg：还有一点，如果我要做这件事，我希望它能有那种显示统计数据和图表的配置
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: graphs that I can get out of net zero. That's the other thing I
+Amos Elberg：我能从净零中得到的图表。还有一点我
+Amber Fu: Okay. Okay. Got you.
+Amber Fu：好的。好的。明白了。
+Amos Elberg: like.  阿莫斯·埃尔伯格：就是。
+Amber Fu: And uh accept those things. And what else you wish maybe later on you the the app can help you to do something that you you can
+Amber Fu：然后，呃，接受那些事情。还有你还希望以后这个应用能帮你做一些你能做的事情
+Amos Elberg: How do you you mean what other features do I think the app should have?
+Amos Elberg：你说的应用还应该具备哪些其他功能？
+ 
+ 
+00:23:04
+ 
+Amber Fu: Yeah. Yeah.  Amber Fu：是的。是的。
+Amos Elberg: So, one of the things that we talked about was could it connect in some way to the Nest, to the thermostat,
+Amos Elberg：我们讨论过的一件事是，它能否以某种方式连接到 Nest，连接到恒温器，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: to a smart thermostat, and could it help the thermostat be smarter?
+Amos Elberg：智能恒温器，这能让恒温器更智能吗？
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: And I don't know if that's technologically possible because I don't know what the APIs are like for those thermostats, but that would be helpful. Um the I guess the
+Amos Elberg：我不知道技术上是否可行，因为我不了解那些恒温器的 API 内容，但这会很有帮助。嗯，那个，我想是
+Amber Fu: M  琥珀·傅：M
+Amos Elberg: other thing that net0ero does that I care about is net zero connects to PV watts and it estimates this is tomorrow's weather.
+Amos Elberg：net0ero 还做了一件我关心的事，就是净零连接到光伏瓦数，它估计这就是明天的天气。
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: This is your latitude. This is your these are your arrays. This is how much power you're going to generate every hour tomorrow.
+阿莫斯·埃尔伯格：这是你的自由度。这是你的阵列。这就是你明天每小时要发电的量。
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: And it has a nice curve.
+阿莫斯·埃尔伯格：而且曲线很漂亮。
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: And have have you seen that?
+阿莫斯·埃尔伯格：你见过吗？
+Amber Fu: I I I seen the early version, but I didn't see the the the part you say. Do you mind? I can see it.
+Amber Fu：我看过早期版本，但没看到你说的那部分。你介意吗？我能看出来。
+Amos Elberg: Yeah. Let me see if I can get into
+阿莫斯·埃尔伯格：是的。让我看看能不能进去
+ 
+ 
+00:24:17
+ 
+Amber Fu: Oh, okay.  Amber Fu：哦，好的。
+Amos Elberg: it.  阿莫斯·埃尔伯格：就是它。
+Amber Fu: Thank you.  Amber Fu：谢谢你。
+Amos Elberg: Um, hold on a second. I found the website. How do I log in? Run as a web app. There it is. Can you see my screen that I'm doing
+阿莫斯·埃尔伯格：嗯，等一下。我找到了那个网站。我该如何登录？以网页应用运行。就是它。你能看到我正在做的屏幕吗
+Amber Fu: Uh,  安柏·傅：呃，
+Amos Elberg: this?  阿莫斯·埃尔伯格：这个？
+Amber Fu: no, it's still the old screen. Maybe you can switch.
+Amber Fu：不，还是旧屏幕。也许你可以换个方向。
+Amos Elberg: Yeah. Give me one second. Let me just log in.
+阿莫斯·埃尔伯格：是的。给我一秒钟。让我先登录一下。
+Amber Fu: Okay.  Amber Fu：好的。
+Amos Elberg: Um, can you see that?
+阿莫斯·埃尔伯格：嗯，你能看到吗？
+Amber Fu: Oh, yeah. Yeah. Oh, okay. I can see it.
+Amber Fu：哦，是的。是的。哦，好吧。我能看出来。
+Amos Elberg: So, what he's done is to basically take, if you go into the Tesla app,
+Amos Elberg：所以，他所做的基本上是，如果你进入特斯拉应用，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: you have four different screens. And what he's done is to take the four screens and put them together. The other thing that he's done,
+阿莫斯·埃尔伯格：你有四个不同的屏幕。他所做的是把四个屏幕拼接在一起。他做的另一件事，
+[图片]
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: so this yellow grid or this yellow uh area chart
+Amos Elberg：所以这个黄色网格，或者说这个黄色的面积图
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: shows my solar production during the day.
+Amos Elberg：显示我白天的太阳能发电量。
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: The red dots are the the solar production solar production that was expected based on the weather and my latitude and the angle and and
+Amos Elberg：红点代表基于天气、我的纬度和角度预期的太阳能发电量
+ 
+ 
+00:25:57
+ 
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: all of that. Um so it's based on the PV watts calculation and the weather and and
+阿莫斯·埃尔伯格：所有这些。嗯，所以这是基于 PV 瓦特的计算和天气因素
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: and lots of other things together. And I can show you that um solar estimates So you enter in your location and you enter in your array um and the configuration of the array and then it
+阿莫斯·埃尔伯格：还有很多其他事情一起。我可以向你展示，嗯，太阳估算，所以你输入你的位置，输入你的阵列配置，然后
+[图片]
+Amber Fu: Oh, okay. I see.
+Amber Fu：哦，好的。明白了。
+Amos Elberg: connects to uh and it estimates solar generation with PV watts and it does that on an
+Amos Elberg：连接到呃，它估算了太阳能发电量，基于一个
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: hourly basis. It projects hour by hour.
+阿莫斯·埃尔伯格：按小时计费。它每小时都在预测。
+Amber Fu: Got you.  安柏·傅：明白了。
+Amos Elberg: So each hour this is what was expected and then here's what the actual
+阿莫斯·埃尔伯格：所以每小时都是预期的，然后实际情况是这样的
+Amber Fu: Oh,  安柏·傅：哦，
+Amos Elberg: is.  阿莫斯·埃尔伯格：是的。
+Amber Fu: got  琥珀·傅：得到了
+Amos Elberg: So this is an this interface is an improvement over the
+Amos Elberg：所以这个界面比
+Amber Fu: you.  Amber Fu：你。
+Amos Elberg: Tesla interface, but I think you could do better than this.
+Amos Elberg：特斯拉界面，但我觉得你可以做得更好。
+Amber Fu: And how about the automations part? like what what is automation
+Amber Fu：那自动化部分呢？比如什么是自动化
+Amos Elberg: Well,  阿莫斯·埃尔伯格：嗯，
+Amber Fu: for?  Amber Fu：为了什么？
+Amos Elberg: as you can see, I haven't done anything with automations.
+Amos Elberg：如你所见，我还没做过自动化相关的事情。
+ 
+ 
+00:27:17
+ 
+Amber Fu: Oh, okay.  Amber Fu：哦，好的。
+Amos Elberg: And the reason is it's extremely confusing.
+阿莫斯·埃尔伯格：原因是这非常令人困惑。
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: And um there's a configuration here where you can set the backup
+Amos Elberg：这里有一个配置，可以设置备份
+Amber Fu: Oh.  Amber Fu：哦。
+Amos Elberg: reserve and you can set timebased control and energy exports and you know some other things.
+Amos Elberg：储备，你可以设置基于时间的控制和能量输出，还知道一些其他东西。
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: But the schedule. So I'll show you what you can do.
+阿莫斯·埃尔伯格：但时间安排。所以我来给你展示一下你的能力。
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: You can you can set a by time of day or and I think you can also set it by something else.
+Amos Elberg：你可以设置一天中的某个时间点，或者我觉得你也可以用别的什么来设置。
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: I think you can set it by Yeah. when the charge reaches a certain thing or when the EV starts or stops
+阿莫斯·埃尔伯格：我觉得你可以用“是”来确定。当充电达到某个点数，或者电动车启动或停止时
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: charging. Um, yeah, you can see so you can set this on a on based on a lot of things and then you can have all of these different automations.
+阿莫斯·埃尔伯格：充电。嗯，是的，你可以看到你可以根据很多因素把它设置为开启，然后你就可以拥有各种不同的自动化。
+Amber Fu: Okay, got  安柏·傅：好，明白了
+Amos Elberg: Well,  阿莫斯·埃尔伯格：嗯，
+Amber Fu: you.  Amber Fu：你。
+Amos Elberg: that's great, but what automation do I want?
+Amos Elberg：那很好，但我想要什么样的自动化？
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: And so this is a lot of functionality, but it's functionality that, you know, I would have to I would have to sit down for like an afternoon or a day and figure out what the right way is to use this functionality.
+Amos Elberg：所以这功能量很大，但你知道，我得花一个下午或一天时间坐下来，弄清楚怎么正确地使用这些功能。
+[图片]
+00:28:48
+ 
+Amos Elberg: And I don't know what the, you know, I don't know how to actually wait a second. Let's see if I can do it based on flow. Um, grid X4 rises
+阿莫斯·埃尔伯格：我不知道，你知道，我真的不知道怎么等一秒钟。看看我能不能根据流程来实现。嗯，网格 X4 上升
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: above um I guess 3 kilow start charging. Okay,
+Amos Elberg：上面，嗯，我猜 3 公斤开始充电。好的，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: so that's a good automation. But when is it going to stop
+Amos Elberg：所以这是一个很好的自动化。但这一切什么时候才能停止
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: charging? Um, so it starts then, but is it going to stop? Is it going to I mean, so it rises above 3 kilows and then the solar stops producing entirely.
+阿莫斯·埃尔伯格：充电？嗯，那就开始了，但会停止吗？我是说，它会不会升到3千瓦以上，然后太阳能完全停止发电。
+Amber Fu: You  Amber Fu：你
+Amos Elberg: Is the charge going to continue? So if I wanted to do the if I wanted to do the kind of
+阿莫斯·埃尔伯格：指控还会继续吗？所以如果我想做那种
+Amber Fu: know,  Amber Fu：知道，
+Amos Elberg: control over the EV charging that I want using these automations, I might be able to do that, but it would probably be really
+Amos Elberg：我想要通过这些自动化控制电动汽车充电，我或许能做到，但那可能真的是
+Amber Fu: God got you.  Amber Fu：上帝保护了你。
+Amos Elberg: complicated.
+阿莫斯·埃尔伯格：复杂。
+Amber Fu: Got you. Okay. Well, what th this is really helpful, but like I think like you know what you're reacting to make total sense because like to like net zero or lunar are very good showing the data and so but what we are you know uh now trying to do is just become another place to look at the you know the the the something like this that So the difference we're testing is this uh instead of asking you to you know
+安柏·傅：明白了。好的。嗯，这真的很有帮助，但我觉得你知道你反应的是什么完全说得通，因为净零或月球数据展示得很好，但我们现在试图做的是成为另一个地方，去观察，比如这样。所以我们测试的区别是这个，呃你知道的，我会让你去做
+ 
+ 
+00:30:49
+ 
+Amber Fu: interrupt data and decide what to do we want to tell you like very directly whether you should do something or not. So I mean like in another words like Next Zero can give you the information but we're trying to give you you know like a recommendation.
+Amber Fu：中断数据，决定该怎么做，我们想直接告诉你是否应该做某件事。换句话说，Next Zero 可以给你信息，但我们试图给你推荐。
+Amos Elberg: the advice.  阿莫斯·埃尔伯格：建议。
+Amber Fu: You don't have to second
+Amber Fu：你不必附议
+Amos Elberg: Yeah, that's like I said that that would be useful to me.
+阿莫斯·埃尔伯格：是的，就像我说的，这对我很有用。
+Amber Fu: guess.  Amber Fu：猜猜看。
+Amos Elberg: Um, if the if the app is giving me good recommendations, I would use I mean I would well let me say I would install the app and I would set it
+Amos Elberg：嗯，如果应用给我推荐不错的话，我会用，我会说我会安装这个应用并设置它
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: up.  阿莫斯·埃尔伯格：上。
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: Um, and if it was giving me good recommendations and actually improving things, I would use the app. The question is,
+Amos Elberg：嗯，如果它能给我好推荐并真正改进，我会用这个应用。问题是，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: would I pay a subscription fee for it? And that's where I'm not so sure.
+Amos Elberg：我需要支付订阅费吗？这正是我不太确定的地方。
+Amber Fu: Gotcha. Gotcha. And and like well let me ask it it this way like when you look at something like this like PB W curve like do you uh like to figuring out what to do next or would you rather the system just tell you oh you know what tomorrow don't charge the car until 11 a.m. And why like which you
+Amber Fu：明白了。明白了。然后，我这样问吧，比如你看 PB W 曲线，比如你想自己想下一步该怎么做，还是希望系统直接告诉你，明天早上 11 点之前不要给车充电。为什么喜欢你
+ 
+ 
+00:32:02
+ 
+Amos Elberg: I I would rather the system figure that out for
+阿莫斯·埃尔伯格：我更希望系统自己去解决这个问题
+Amber Fu: prefer? Okay. Okay.
+Amber Fu：你更喜欢吗？好的。好的。
+Amos Elberg: me.  阿莫斯·埃尔伯格：是我。
+Amber Fu: Gotcha. Gotcha. And like when you say like take control, do you means like full like fully automation like no matter what or you know the plan like was really clear clearly proposed and explanation to you first?
+Amber Fu：明白了。明白了。你说的“掌控”，是指完全自动化，无论如何都不管怎样，还是你知道计划已经非常清晰、明确地向你提出并解释了？
+Amos Elberg: Well, I want to be able to override the plan.
+阿莫斯·埃尔伯格：嗯，我想能够推翻这个计划。
+Amber Fu: Oh,  安柏·傅：哦，
+Amos Elberg: So, what what I would like is I would like it to,
+阿莫斯·埃尔伯格：所以，我希望它能，
+Amber Fu: okay.  Amber Fu：好的。
+Amos Elberg: you know, I would like to go into the app and I would like it to say,
+阿莫斯·埃尔伯格：你知道，我想进入这个应用，我希望它能说，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: "Here's what we're going to do tomorrow." And then I'd like to be able to make changes to that if I wanted
+阿莫斯·埃尔伯格：“我们明天要做的事情是这样的。”然后如果我愿意，我还希望能对这些内容做出修改
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: to.  阿莫斯·埃尔伯格：去。
+Amber Fu: Okay. Got you. Got
+Amber Fu：好的。明白了。明白了
+Amos Elberg: I mean do have you used have you used claw
+Amos Elberg：我是说，你用过吗？你用过 Claw 吗
+Amber Fu: you.  Amber Fu：你。
+Amos Elberg: code  阿莫斯·埃尔伯格：代码
+Amber Fu: Uh What? What is it?
+安柏·傅：呃，什么？这是什么？
+Amos Elberg: is it's the AI coding agent from anthropic and what
+Amos Elberg：是 anthropic 的 AI 编码代理吗？
+ 
+ 
+00:33:04
+ 
+Amber Fu: Uhhuh.  Amber Fu：嗯哼。
+Amos Elberg: it does it's vibe coding you tell it what you want and it writes the software
+Amos Elberg：它有它的氛围，编码，你告诉它你想要什么，它来写软件
+Amber Fu: Oh, okay. Yeah. Yeah.
+Amber Fu：哦，好的。是的。是的。
+Amos Elberg: for Claude code gets it
+阿莫斯·埃尔伯格：克劳德的代码懂了
+Amber Fu: The the the cloud code. Yes.
+Amber Fu：云端代码。是的。
+Amos Elberg: right. You ask it what you want and then it comes back.
+阿莫斯·埃尔伯格：没错。你问它你想要什么，它就会回来。
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: You you tell it what you want and it gives you a plan and you can edit the plan and then
+阿莫斯·埃尔伯格：你告诉它你想要什么，它给你一个计划，你可以修改计划，然后
+Amber Fu: Mhm. Mhm. Okay.
+Amber Fu：嗯，嗯。好的。
+Amos Elberg: it goes and it executes the plan.
+阿莫斯·埃尔伯格：它执行计划。
+Amber Fu: Okay. Got you.  安柏·傅：好的。明白了。
+Amos Elberg: Like that's the that's the interaction that that
+阿莫斯·埃尔伯格：这就是那种互动
+Amber Fu: Mhm. Mhm.  安柏·傅：嗯。嗯。
+Amos Elberg: works.  阿莫斯·埃尔伯格：有效。
+Amber Fu: Got you. Got you. I see. And uh Okay. And for like uh like uh I well I actually think like Nexor is doing the visa like a PB wallet is great. uh because you know answer like what should should have happened well the gap we're focused on is like next step like giving what should have happened do I need to like acting now or I'm still fine so uh like uh depends on that so if we have you know I think you remember like the in the home screen we have like a the suggestion and apply now that's something kind of like you know something happened.
+安柏·傅：明白了。明白了。明白了。然后，呃，好吧。而且，呃，我觉得 Nexor 做签证，比如 PB 钱包，挺好的。呃，因为你知道，答案是“应该发生什么”，我们关注的差距是下一步，比如告诉我应该发生什么，我现在需要演戏吗，还是我还没事，所以，呃，取决于这个，如果我们有，我想你还记得，在主界面，我们有建议，现在申请，这有点像你知道发生了什么事。
+ 
+ 
+00:34:26
+ 
+Amber Fu: It's an euro activity. You need to acting right now and we can help you to do it for you know automatically and you can just apply now and let the system help you to do it. That's what you
+Amber Fu：这是一项欧洲活动。你现在就需要行动，我们可以帮你自动完成，你现在就可以申请，让系统帮你完成。那是你要做的
+Amos Elberg: I would do that like I like I said um the the
+Amos Elberg：我会像我说的那样做，嗯
+Amber Fu: want.  Amber Fu：想要。
+Amos Elberg: app if it's going to give me advice and it's going to let me apply. Now, that would be useful to me.
+Amos Elberg：如果应用能给我建议，并且能让我申请。这对我来说很有用。
+Amber Fu: Okay.  Amber Fu：好的。
+Amos Elberg: Um, that's something that I would
+阿莫斯·埃尔伯格：嗯，这是我会考虑的
+Amber Fu: Okay. Okay. Got you.
+Amber Fu：好的。好的。明白了。
+Amos Elberg: want  阿莫斯·埃尔伯格：想要
+Amber Fu: Got you. And um and another question is for let's say like uh like maybe after 30 days like or like 60 days and uh when you see the bail and it's really like a lower a little bit. Do you think you you you think this app worth to pay it?
+安柏·傅：明白了。还有一个问题，比如说，大约30天后或者60天后，当你看到保单时，它确实会稍微降低一点。你觉得这个应用值得付费吗？
+Amos Elberg: Well, here's the thing.
+阿莫斯·埃尔伯格：事情是这样的。
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: I think if what the app is doing is giving me advice,
+Amos Elberg：我觉得如果应用给我建议的话，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: after a few weeks,
+阿莫斯·埃尔伯格：几周后，
+ 
+ 
+00:35:47
+ 
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: I'm going to remember the advice and I'm not going to need the app anymore to
+Amos Elberg：我会记住你的建议，我以后也不需要这个应用了
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: give me advice. So, why would I continue to pay a subscription fee for the app if I've
+阿莫斯·埃尔伯格：给我点建议。那么，如果我已经开始订阅，为什么还要继续支付订阅费
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: already learned the advice? That's what I keep saying is I think it it has it it I I think
+阿莫斯·埃尔伯格：已经学到建议了吗？我一直说的是，我觉得它有它，我觉得
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: for me to pay the subscription fee, I think it would have to actually take control of the system, take control of the charging, take control of the the power wall and the how much to to reserve, um take control of when to charge the EV and all of that.
+Amos Elberg：如果我要支付订阅费，我认为它必须真正控制系统，控制充电，控制电源墙，控制预约金额，控制何时充电等等。
+Amber Fu: Got you. Got you. But uh but so for the suggestion we are giving is like you know every day. So uh like you know like uh and like it's depends on like what do we have the uh the datas and and it's like uh updates like every you know every minute do you think uh so I think like even though the user can remember those advice but still will be changed Right.
+安柏·傅：明白了。明白了。不过，呃，所以我们给出的建议是，你知道，每天都在做。所以，呃，你知道，这取决于我们拥有的数据，而且每分钟都在更新，你觉得，呃，我认为即使用户能记住那些建议，也会被改变，对吧。
+ 
+ 
+00:37:12
+ 
+Amos Elberg: I'm sorry, I'm not following
+阿莫斯·埃尔伯格：抱歉，我没跟上
+Amber Fu: Um so I mean like I I I agree with you like the thing but the one thing if if this were just you know uh uh not change well it's totally it's okay cuz like that's you can remember the suggestion but how about if like if like you know some behavior will change
+Amber Fu：嗯，我是说，我同意你的看法，但如果这只是，呃，不，不改变，那完全没问题，因为你还记得那个建议，但如果，比如说，行为会有变化
+Amos Elberg: in the app, you mean? Or that it changes my behavior?
+阿莫斯·埃尔伯格：你是说在应用里吗？或者说它改变了我的行为？
+Amber Fu: your behavior  Amber Fu：你的行为
+Amos Elberg: So, if the app is good at changing my behavior, I'll keep the app.
+Amos Elberg：所以，如果这个应用能很好地改变我的行为，我会保留它。
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: Um, where I'm not sure if I'd be willing to pay for it, though, if I'd be willing to pay a subscription fee.
+Amos Elberg：嗯，我不确定我是否愿意付钱，是否愿意付订阅费。
+Amber Fu: Gotcha. Gotcha. Oh, and the thing is we're trying to test is that the advice isn't actually stable. Well, it's change depends on like you know the weather, the production like a battery stay like how much the car was used yesterday or something things you wouldn't think about at all. So it's like uh it's less like a remember a rule is more like oh given
+Amber Fu：明白了。明白了。哦，对了，我们想测试的是，这个建议其实并不稳定。变化取决于你了解天气、生产情况，比如电池保持，比如昨天车子用了多少，或者一些你根本不会考虑的事情。所以，呃，这不像“记住规则”，更像是“哦，已经给了”
+ 
+ 
+00:38:17
+ 
+Amos Elberg: H.  阿莫斯·埃尔伯格：H。
+Amber Fu: today conditions is the same action still okay? Yeah. And for example, like you already know to schedule charging for the cheap hour,
+Amber Fu：今天的条件还是一样的动作，还行吗？是的。例如，你已经知道要安排便宜时段的收费，
+Amos Elberg: Okay.  阿莫斯·埃尔伯格：好的。
+Amber Fu: but you also said the setup work is the in the winter and you're not sure uh it will work in the summer. So even though the rules is the same,
+Amber Fu：但你也说过设置工作是在冬天，你不确定夏天是否能行。所以即使规则相同，
+Amos Elberg: Right.  阿莫斯·埃尔伯格：没错。
+Amber Fu: the right decision may not be.
+Amber Fu：正确的决定未必是正确的。
+Amos Elberg: Yes, that's right. Um,
+阿莫斯·埃尔伯格：是的，没错。嗯，
+Amber Fu: Yeah.  Amber Fu：是的。
+Amos Elberg: so yes. So even though it's it's right in the winter,
+阿莫斯·埃尔伯格：所以是的。所以即使现在正值冬天，
+Amber Fu: Uh-huh.  安柏·傅：嗯哼。
+Amos Elberg: the solution is different in the summer than the
+阿莫斯·埃尔伯格：夏天的解决方案和
+Amber Fu: Uhhuh. Yes.  Amber Fu：嗯哼。是的。
+Amos Elberg: winter.  阿莫斯·埃尔伯格：冬天。
+Amber Fu: So in those situation like winter to summer like a cloudy week like heat wave like do you want to uh like to you know uh for this menu every time or have something watching and tell you oh this is still fine or this still need to attention.
+Amber Fu：所以在那些情况下，比如冬天到夏天，比如阴天的一周，比如热浪，你想每次都做这个菜单，或者有东西看着你，告诉你“哦，这个还行吗？”还是需要关注。
+Amos Elberg: I'm not sure.
+阿莫斯·埃尔伯格：我不太确定。
+Amber Fu: Um yeah so well so the way like we think about is like you know you are not paying for advice you are paying so you don't have to be the person who constantly decide whether the advice still applies.
+Amber Fu：嗯，是的，所以我们的想法是，你知道你不是在为建议付费，而是在付费，这样你就不用一直决定这些建议是否仍然适用。
+ 
+ 
+00:39:44
+ 
+Amos Elberg: Oh,  阿莫斯·埃尔伯格：哦，
+Amber Fu: So  Amber Fu：那么
+Amos Elberg: I see. So,  阿莫斯·埃尔伯格：我明白了。所以，
+Amber Fu: yeah.  Amber Fu：是的。
+Amos Elberg: so what would I be willing to subscribe if the advice is changing over time?
+Amos Elberg：如果建议随时间变化，我愿意订阅什么？
+Amber Fu: Yes. Yes. Mhm. Well,
+Amber Fu：是的。是的。嗯。嗯，
+Amos Elberg: Maybe.  阿莫斯·埃尔伯格：也许吧。
+Amber Fu: for example, like the reason your like a cloud code explain is actually really helpful is that you're not paying because you don't know how to code. You are paying it because the contact keeping change. And you don't want to like replan everything from the sketch each time, right? So that's the same mental mode uh uh we're uh doing for
+Amber Fu：比如说，你说云端代码解释之所以很有帮助，是因为你不会写代码才没付钱。你支付的是因为联系方式变了。你也不想每次都重新规划草图里的所有内容，对吧？所以这就是我们对 的心理模式，呃，呃，我们正在做的
+Amos Elberg: Yeah,  阿莫斯·埃尔伯格：是的，
+Amber Fu: here.  安柏·傅：在这里。
+Amos Elberg: I mean I don't know if the claw code analogy stretches that far. Um but um
+阿莫斯·埃尔伯格：我觉得爪代码的比喻是否能做到那个程度。嗯，但是
+Amber Fu: Mhm.  Amber Fu：嗯。
+Amos Elberg: yeah, I mean I mean I I'm yeah I might be willing to pay a subscription fee for it.
+阿莫斯·埃尔伯格：是的，我是说，我可能愿意支付订阅费。
+Amber Fu: Okay. Okay. Well, it's okay because like this is still like is really early version and I think uh like you know always you know like in the real life they are always like every day have some situation happening like you just don't know. So I was thinking like uh when the app is ready uh do you willing to try it in the real life and just see like oh how can you can this app help
+Amber Fu：好的。好的。没关系，因为这还只是早期版本，我觉得，呃，你知道，现实生活中每天都会发生一些事情，你根本不知道。所以我在想，呃，等应用准备好了，你愿意在现实中试试吗？看看，这个应用怎么能帮上忙
+Amos Elberg: Sure,  阿莫斯·埃尔伯格：当然，
+Amber Fu: you go so far.
+Amber Fu：你走得太远了。
+Amos Elberg: absolutely. I'll give it a try.
+阿莫斯·埃尔伯格：绝对是。我会试试的。
+Amber Fu: Okay. Okay. That would be great and I really appreciate and again like still right now it's a really early version and we will upgrade a little bit with uh uh finally finished but still like uh when we are finished it like I will you know invite you and I can guide you step to step and just let you use in the real life and to see like what happened. Okay.
+Amber Fu：好的。好的。那太好了，我真的很感激，而且现在还只是很早期的版本，我们会稍微升级一下，呃，呃，终于完成了，但当我们完成时，我会邀请你，一步步指导你，让你在现实生活中体验，看看发生了什么。好的。
+Amos Elberg: Absolutely. No problem. Thank you. Absolutely. Talk soon. Bye.
+阿莫斯·埃尔伯格：绝对是。没关系。谢谢。绝对是。回头聊。再见

@@ -1,0 +1,803 @@
+Casally User Interviews (SL S) - Transcript
+00:00:00
+ 
+SL S: Great.
+Amber Fu: Uh hi. H how's your day going so far?
+SL S: It's going
+Amber Fu: Good, good, good. Well, uh nice.
+SL S: fine.
+Amber Fu: So, thank again for making time for this. I know everyone's busy right now, especially, you know, before the Christmas. Uh so, no pressure at all. This is like super casual and uh let me introduce myself a little bit. Uh my name's Amber and I'm the one of the founder. I started this because you know I couldn't figure out why my own electricity bill were so crazy and I realize a lot of my friend are dealing with the same thing and basically we're just a small team based in LA and bunch of you know tech folks who also get hit with a crazy electricity bill. So we are trying to building an app that help people save money on their daily energy use but without changing their lifestyle. So I love to understand how your home use electricity daytoday. So you know we can figure out what would actually
+ 
+ 
+00:01:05
+ 
+SL S: Okay, sure.
+Amber Fu: help.
+SL S: I'm I'm open to questions and, you know, generally support entrepreneurs. So, happy to help out.
+Amber Fu: Thanks. Thanks a lot. So, well, before we got started, would you be okay if I record this call? It's totally option. I just want to make sure I don't miss anything you said.
+SL S: Yeah, that's
+Amber Fu: Okay, sure. Thanks. And give me a
+SL S: fine.
+Amber Fu: second. Okay, cool. So, um before we jump into the energy stuff, I love to, you know, get quick sense of your household. just understand your setup bit better. So, uh to uh you know nothing personal just whatever you're com comfortable sharing
+SL S: Yeah, I can I'll give you an overview.
+Amber Fu: with.
+SL S: We have two electric vehicles, a Model Y, Model 3. Um we have a single family residence house.
+Amber Fu: Mhm.
+SL S: um relative like it's about 1,700 square f feet and um about eight months, seven or eight months ago, we installed a um Power Wall 3. Um,
+ 
+ 
+00:02:19
+ 
+Amber Fu: Mhm.
+SL S: we had solar but we for about eight years but we put a new roof on and
+Amber Fu: Mhm.
+SL S: so we we got a new solar system and so we have solar um
+Amber Fu: Mhm.
+SL S: I think it's around a like a 4.2 too. It's a relatively small system.
+Amber Fu: Mhm.
+SL S: Um and uh the power wall and um you know we're ince territory so you know peak hour for us is 4 to9. We our usage there's two of us in the household um are able to generally not use electricity during peak hour.
+Amber Fu: Mhm.
+SL S: um because we're using battery power. So for our in our case,
+Amber Fu: Mhm.
+SL S: we have a we have a pretty we have a relatively low usage. We have an all-electric kitchen. Um but we have gas for uh heat and water heater and so um but we have all electricition, electric EVs. We do not have uh air conditioning. So um so generally we're net positive on electricity for the
+ 
+ 
+00:03:28
+ 
+Amber Fu: Mhm.
+SL S: year. Uh obviously that's seasonal and so um we uh and we we're um we don't you know our our our two EVs probably total you know 9 or 10,000 miles a year. So it's not a ton of mileage. But that's that's about it.
+Amber Fu: Got it.
+SL S: That's that's a kind of the summary of our
+Amber Fu: Got it. Got this. Thanks.
+SL S: snapshot.
+Amber Fu: Thanks for sharing. And um do you mind I ask how how much you pay your electricity bill right now?
+SL S: Well, typically it's zero uh because I'm,
+Amber Fu: Okay.
+SL S: you know, I'm on NEM two and so it you know, we have an annual true up and typically I'm positive for the year and so it rolls over. Um,
+Amber Fu: Mhm.
+SL S: but I mean you're you know you know the rates in SE territory. So um you know it's it's expensive
+Amber Fu: Yeah. Got it. And
+SL S: and and I'm I'm sensitive to trying to use electricity outside peak hours.
+ 
+ 
+00:04:48
+ 
+SL S: So things like, you know, the dishwasher or the washing machine or things like that that are optional in terms of when they can be used, I really try to use them a
+Amber Fu: Mhm. Got it. Got it.
+SL S: peak.
+Amber Fu: And um so like what's originally reason make you decide you you need solar at your house?
+SL S: Couple of different reasons. um we are you know environmentally conscious so that's really important to us. Secondly, um, for the, you know, you the way we look at it, there's a certain amount of money that you have that can go towards either a major utility likece or a small local, you know, for example, solar installer. And we would rather pay the local guy or girl.
+Amber Fu: Mhm.
+SL S: Typically, it's a guy. um rather than you know some publicly traded um you know large corporation um the same amount of money over you know five or 10 years or 20 years or whatever it is. So, um, between those two things, it was and then, you know, we wanted to also, you know, reduce our carbon footprint by by going on the going the EV route.
+ 
+ 
+00:06:17
+ 
+SL S: And then if you're doing that, it really helps to have solar.
+Amber Fu: Got it. And uh so your solar is also from Tesla or is a different
+SL S: No,
+Amber Fu: brand?
+SL S: it's a different It's not It's not Tesla.
+Amber Fu: Okay. Okay. And the EV is a Tesla or is a different
+SL S: Yeah,
+Amber Fu: brand?
+SL S: two Teslas 131
+Amber Fu: Okay. Got it. Got it.
+SL S: Y.
+Amber Fu: And um usually how you decide to like charge your EV like like uh do you have a two charging or is only one charging?
+SL S: No, we have one one charger at home level two
+Amber Fu: Hello.
+SL S: and I've had a couple of different ones a couple of different ones over the years, but you know, I just have a 1450 jack that I've used different plug-in chargers for.
+Amber Fu: Yeah.
+SL S: So, um, my three is a mid-range, so it actually only charges at 32 as opposed to 40.
+Amber Fu: Mhm.
+SL S: It's a it's a 50 amp circuit, so I can charge at 40. Um, but we since we don't drive that much, we don't have to charge daily.
+ 
+ 
+00:07:24
+ 
+SL S: Um, it's it's definitely less than
+Amber Fu: Okay. Okay. Got it. Got it. And well,
+SL S: that
+Amber Fu: um, like since like now you leave this little system for a while, are they doing good or can you think anything you're not super happy with?
+SL S: with my overall system.
+Amber Fu: Yes.
+SL S: Um, that's a good question. So, in my previous solar system, I had micro inverters and and there's there's occasionally there's shade issues during the time and seasonally. With the Power Wall,
+Amber Fu: Mhm.
+SL S: it has a built-in inverter, so I lost the micro inverters. And so I I I don't know for sure,
+Amber Fu: Mhm.
+SL S: but I think there's um it's even though we expanded our system under NM 2, which allowed for a 1 kilowatt system expansion, um I think I don't know that we got the full power increase because of
+Amber Fu: Mhm.
+SL S: the loss of the micro inverters. So that's one issue that is that pertains to my particular case.
+ 
+ 
+00:08:26
+ 
+Amber Fu: Mhm.
+SL S: Um, I think in my system I'm generally pretty happy with it. I haven't gone a year, so I haven't done the full season. I'm right now in the in the worst production because it's December. And um, so that I'm definitely not net positive in December in way in a way that I would be in, you know,
+Amber Fu: Mhm.
+SL S: May, June, July. So, um, you know, that's that's where it's it's good that it accumulates. I'm also on there's a local, uh, CCA where I am, and so I get I get my power through them, um, rather than throughce. SE is just delivery. So,
+Amber Fu: Mhm.
+SL S: um, um, I don't really think I have that many complaints actually. you know, the Tesla app for the for the Power Wall is pretty, you know, pretty good in terms of monitoring. I definitely look at it every day,
+Amber Fu: Mhm.
+SL S: multiple times a day. So, I definitely, you know, sort of am aware of what's going on with it.
+ 
+ 
+00:09:40
+ 
+SL S: I haven't had any issues with the power wall not working or the panel working. I had an NPC system earlier,
+Amber Fu: Mhm.
+SL S: so that had its own monitoring system, which was also good.
+Amber Fu: Mhm.
+SL S: I liked I probably liked the Nphase better because it was uh web- based, not app-based. And so it had better reporting um through the through a browser on a on a desktop that was um a little bit more had a little bit more detail than what um what the Tesla app does in terms of reporting usage. On the other hand, Tesla has a nice UI that, you know, does, you know, not just real time, but, you know, sort of daily
+Amber Fu: Got it. Got it.
+SL S: reporting.
+Amber Fu: And but when you think about your like daytoday, what part of the energy setup requires the most attention from you?
+SL S: Um, one thing would be um when I'm charging a car that this that the whole system doesn't charge
+Amber Fu: Mhm.
+SL S: during peak and use the battery because that's how the system works.
+ 
+ 
+00:11:09
+ 
+SL S: So, that's been a little bit of an issue in terms of I have to I feel like I have to monitor
+Amber Fu: Mhm.
+SL S: that. I think that's probably a not well coded Tesla app. Um, you know, it's not bad, but it's not bulletproof either. Um, the Tesla app did not allow for me to set it at NEM2. it wasn't an option in the settings which was disappointing because there's a lot more people on NEM2 than
+Amber Fu: Mhm.
+SL S: NE3 and in California and that I don't know why they didn't include that in the
+Amber Fu: Mhm.
+SL S: settings so I I had to set it for NEM3 and so it has a built-in algorithm that tailor it to N3 not two so that's another reason why I have to monitor it or I feel like I have to I think um there was one thing I'm actually on on the Reddit thread is how I think I found out about this, but I I posted on there about um uh I forget exactly what it was, but it was something like why can't I set the power wall to not charge the car and take energy from the grid at a certain time.
+ 
+ 
+00:12:33
+ 
+SL S: It was like it was like a way to um kind of
+Amber Fu: Oh.
+SL S: fine-tune the when and where of the power and there were a lot of people that responded that just said, you know, you just can't do it because it just operates on M3 unless you manly override it or something like that. though. So,
+Amber Fu: Oh,
+SL S: one thing I have to do is adjust the power reserve,
+Amber Fu: okay.
+SL S: the backup power reserve level for the battery to be able to not have it go to the car and just draw it directly from the grid. And that's that's
+Amber Fu: Got it.
+SL S: annoying.
+Amber Fu: Got it. And well um and for speak to the solar uh how often do you wondering like whether your system is producing what it should be
+SL S: So, that's a great question. I don't I don't really know what it should be producing because I didn't I didn't
+Amber Fu: producing.
+SL S: really go to the effort of I trusted my installer and I and I still trust him, but um I don't know exactly what the system should be producing on a you know on a daily basis.
+ 
+ 
+00:13:47
+ 
+SL S: Certainly seasonal is important and so I don't I don't it's an unknown for me in terms of oh it should be producing you know 5 kilowatts an hour and it's only producing four why I just I you know I don't have that
+Amber Fu: Got it. Got it.
+SL S: info
+Amber Fu: And but well it would it helpful if like they have a app can told you oh your system is current like per performing like 80 80% uh like output do you think that will be useful
+SL S: Yeah, I do.
+Amber Fu: Oh,
+SL S: And I mean that begs the question of why isn't it 100? And and then so then immediately you you'd want to know the answer to
+Amber Fu: okay.
+SL S: that is seasonal? Is there something wrong with the system?
+Amber Fu: Mhm.
+SL S: Are the panels dirty? Is there clouds? So there's reasons why it might not be producing at 100.
+Amber Fu: Mhm.
+SL S: I mean 100 is unusual. So, it would be um I mean I would like to see that.
+ 
+ 
+00:14:49
+ 
+SL S: Yeah. In my case, that would be interesting to me cuz if it's producing at 10% and it looks like it shouldn't, then you know there's a problem or there's probably a problem.
+Amber Fu: Mhm.
+SL S: One of the things that um that I had in the Nphase system was a per
+Amber Fu: Go.
+SL S: panel production in real time and that was I like that,
+Amber Fu: Mhm.
+SL S: you know, because I think in my old system I had 13 panels and so I could look at it and there was an individual readout because of the micro inverters on each
+Amber Fu: Mhm.
+SL S: panel, you know, 300 watts, 280 watts on this one,
+Amber Fu: Mhm.
+SL S: you know, 300 on the other one, whatever it was. And it had a visual display of that, you know, like a graphic of my system. And that was I like that.
+Amber Fu: Mhm.
+SL S: That was
+Amber Fu: Okay. And well,
+SL S: nice.
+Amber Fu: do you ever wish you could compare actual like production against like weather uh shadow panel uh automatically?
+ 
+ 
+00:15:48
+ 
+SL S: Yeah, that would be great.
+Amber Fu: Okay.
+SL S: I have a I have a in my case I have a a chimney that casts a shadow over like some
+Amber Fu: Okay.
+SL S: panels during some time of the day and it's obviously seasonal and so I mean ideally you know would and I kind of had this under the inphase system because they had that per panel production you know ideally it would be there'd be a visual graphic of
+Amber Fu: Mhm.
+SL S: that with the shadow actually in my individual case or maybe for
+Amber Fu: Mhm.
+SL S: other people, trees or whatever it might be.
+Amber Fu: Mhm.
+SL S: Um with with the impact of that um you know where whatever that obstruction or hey you know there's 20% cloud cover today so that's resulting in this. That would be that'd be great for me personally. I would I would like
+Amber Fu: Okay.
+SL S: that.
+Amber Fu: Well, and do you like ever feel like there there's information your staller should have told you about your new system but it but
+SL S: Well,
+ 
+ 
+00:16:51
+ 
+Amber Fu: didn't.
+SL S: one would be whether it's working, you know, like let's say had a failure in something.
+Amber Fu: Mhm.
+SL S: I don't know. Um, in the Tesla app, it tells you what the production is of the panels because it has an inverter for the whole system and tells you what the what the panels are producing. um in real time but it doesn't do anything more than that in terms of this is what it should be producing or you know whatever else. So
+Amber Fu: Okay. And but after like switch the system, did you feel like more confident or more unsure about it?
+SL S: say that again.
+Amber Fu: Uh so so I think you mentioned that you change the
+SL S: Yeah.
+Amber Fu: system right before okay and after like change the system do
+SL S: Yeah.
+Amber Fu: you did you feel like more confident or more unsure about like what's really going
+SL S: I would say more unsure because like I said the Nphase system had per per panel production. This one just has system.
+ 
+ 
+00:18:04
+ 
+Amber Fu: Mhm.
+SL S: So I don't know how each panel is producing. It makes it a little bit more real when there's per panel.
+Amber Fu: Got it. Got it. And but if there have app could explain you like uh your system back to you would would would be useful for
+SL S: It would be it would be Yeah,
+Amber Fu: you.
+SL S: I mean I would like I would like more information. Um that would be good. I think from a designer's perspective like yours, it's it's not just more information, but why is that information important and what could you possibly do with
+Amber Fu: Yes.
+SL S: it?
+Amber Fu: Yes. Yes. Okay. And well, and so like right now
+SL S: Because because for example um when I had the Nphase system which I had
+Amber Fu: Mhm.
+SL S: for maybe seven years um there were some instances where a single panel was not having production. And so I contacted the installer who could also do remote access to the system and I
+ 
+ 
+00:19:07
+ 
+Amber Fu: Mhm.
+SL S: said why you know why is the nine panel not producing
+Amber Fu: Mhm.
+SL S: and that was I would never know that if it was just a systemwide production. And so that was,
+Amber Fu: Mhm.
+SL S: you know, whatever the resolution was, you know, maybe it was just a reporting error, you know, which I think it was typically, but that was something that was information that I don't have now and could lead me to do something.
+Amber Fu: Got it. Got it. And well, like for right now, you're in the AM2, right?
+SL S: Yeah.
+Amber Fu: And do you ever worry that they may change someday?
+SL S: Well, I'm grandfathered in. I think it's 20 years, so I have like 12 left or whatever. And but also, and I'm not sure if you're aware, but NE3 just got um some sort of
+Amber Fu: Uh-huh.
+SL S: judicial um defeat at the California Supreme Court. So, I don't know exactly what the result of that's going to be, but that that was encouraging because NEM3 was so anti-solar
+ 
+ 
+00:20:23
+ 
+Amber Fu: Yeah.
+SL S: that which is totally inconsistent with the state of California and certainly the governor. No one knows why that it why that happened, but um that I'm not worried about um my situation with NEM2 changing. I think it's pretty pretty strong. I know there was an effort to change that and that failed thankfully. Um,
+Amber Fu: Mhm.
+SL S: I was I was upset that they were trying to the California legislator was trying to rewrite the rules after you had a signed contract and I think that's why they ultimately lost. U, but that, you know, that's not to say they won't try to do it
+Amber Fu: Mhm.
+SL S: again.
+Amber Fu: Got it. But if like their app could monitor policy changed and warn you earlier, would you think that will be helpful?
+SL S: Yeah, that'd be great.
+Amber Fu: Okay. Okay. And um and for like you right now you have a t to plan right uh the toou plan the
+SL S: web plan. Yeah. Yeah.
+ 
+ 
+00:21:32
+ 
+SL S: Yeah. Yeah.
+Amber Fu: your okay and do every wondering like whether your
+SL S: Yeah.
+Amber Fu: currently routines is actually the most you know optimized one Thank
+SL S: Well, it depends what you mean by optimize. I mean I there's certain things that with with time of use there's certain
+Amber Fu: you.
+SL S: thing and SC is seasonal so they have two seasons and so um the main um issue is peak hour for me it's uh 4 to 9
+Amber Fu: Mhm.
+SL S: and so the things that I can can change or can adapt to I I do certain things you can't. You have to turn the lights on. You have to cook. So, um I feel like in my case,
+Amber Fu: Mhm.
+SL S: I'm pretty aware of um how to modify my behavior under abuse.
+Amber Fu: Mhm.
+SL S: I don't I would I would hope that others would be too, but I I would not be surprised if I I mean I think the the I think the question there is do people care. Most people um and they'll,
+ 
+ 
+00:22:51
+ 
+Amber Fu: Mhm.
+SL S: you know, do a laundry at, you know, five o'clock or whatever. I mean, you can't really It doesn't really help on the air conditioning either because that's when you need it. So, um, you know, certain things you can do, certain things you can't. I think mostly people just don't care.
+Amber Fu: Yeah. Yeah. Yeah. And what And how often do you check your battery level or like
+SL S: Probably like four or five times a
+Amber Fu: solo?
+SL S: day.
+Amber Fu: Okay. Okay.
+SL S: I'm I'm that guy because I want to see when it because I have it set for 20%.
+Amber Fu: Got it.
+SL S: And I want to see and I'm also in the first year and so I'm kind of trying to understand how
+Amber Fu: Mhm.
+SL S: it works seasonally. And so in my case um in the summer it would charge up to
+Amber Fu: Uhhuh.
+SL S: 100% you know by 11:00 a.m. Then it would last until um you know it would go from
+ 
+ 
+00:23:44
+ 
+Amber Fu: Mhm.
+SL S: 100 to maybe 60% by the time it started charging again the next day. So, that was great. I was almost completely off-
+Amber Fu: Mhm.
+SL S: grid in the summer except for the EV charging. And then in the winter, which I'm in now,
+Amber Fu: Mhm.
+SL S: it's it's very different where um it's the exception where I'll charge to 100% because it doesn't get enough solar
+Amber Fu: Mhm.
+SL S: power during a winter day.
+Amber Fu: Mhm.
+SL S: Uh and it depends on use. And so that's and I'm since I haven't had it a year yet, you know, I don't know. December is the worst month, but so that's that's kind of where I am with my system is I'm I'm watching it because I want to see sometimes I'll even set it less than 20% um to, you know, to be able to, you know, use the battery instead of the um grid.
+Amber Fu: Got it. Got it. And well uh do you ever check whether your EV is charging from solar battery or the
+ 
+ 
+00:25:00
+ 
+SL S: on the Tesla app. Um, yeah,
+Amber Fu: gr
+SL S: the answer is yes. On the Tesla app, you can charge on solar, and I haven't really done that because for me, the my solar production isn't a lot,
+Amber Fu: I
+SL S: and so it doesn't really matter that much.
+Amber Fu: know.
+SL S: I'd have to, you know, it would take during when the sun's shining, it would take days to do a full charge, you know, at at a pretty low rate. And so I'm okay with using the grid because I will um I still I'm we're still generally, you know, net positive for the year. So I'm okay to I mean,
+Amber Fu: Mhm.
+SL S: it'd be great to do that, but my system's just not really big enough to make sense to do that in the winter.
+Amber Fu: Okay.
+SL S: certainly in the winter.
+Amber Fu: Got it. Got
+SL S: And so what what what I'll have to do is in when I charge if I don't want to run
+Amber Fu: it.
+SL S: the battery down, which you know, you have double conversion loss plus it just doesn't make sense, is I'll set the reserve power at, you know, 80% and then charge.
+ 
+ 
+00:26:09
+ 
+SL S: So it just takes it straight from the grid to charge the car.
+Amber Fu: Got it. Got it. And well, if like if your power power wall drops like unexpected because the EV charging, would you want to be alert?
+SL S: Yes, I would want an alert on that because that was what prompted one of my first Reddit posts was how to avoid that. I, you know, I learned that the hard way and because I wasn't really paying attention where I just plug it in and because I like to charge during the day because the grid has more
+Amber Fu: Mhm.
+SL S: renewable during the day as opposed to at night. Night's easier, but um you know and I have 100% renewable anyway through my energy plan, but I still like you know the grid itself is more renewable during the day. So that's why I like to charge um during the day before 4 pm.
+Amber Fu: Mhm.
+SL S: And so um but you know a couple times or I'll forget
+Amber Fu: Mhm.
+SL S: and and my battery will be you know 60 or 70%.
+ 
+ 
+00:27:15
+ 
+SL S: I'll charge and then it'll be 20% because it just sucks from that first.
+Amber Fu: Mhm.
+SL S: So um it would be good yeah to have an alert that says hey you forgot
+Amber Fu: Mhm.
+SL S: to do X Y or Z or whatever.
+Amber Fu: Mhm. Got it. And and like uh so when like the power your power will behave differently than you expect what's most frustrating part like the money loss or lose a
+SL S: No, it wasn't the money and it wasn't necessarily behaving.
+Amber Fu: control.
+SL S: It was behaving the way it was supposed to behave. Um it was just I the you know the way the
+Amber Fu: Okay.
+SL S: system works has to be managed and that has to
+Amber Fu: Mhm.
+SL S: be I mean ideally for someone building an app like yourself
+Amber Fu: Mhm.
+SL S: you'd be able to have total control and say what do you want to do and when do you want to do it and then tell the app that then you don't have to think about it yourself.
+ 
+ 
+00:28:18
+ 
+SL S: So,
+Amber Fu: Yeah.
+SL S: in my case,
+Amber Fu: Yeah.
+SL S: I would be like,
+Amber Fu: Exactly.
+SL S: whenever I charge, don't take it from the battery, take it from the grid.
+Amber Fu: Mhm.
+SL S: That was I think that may have been my question um on the on the Reddit thread. And I was just like, you know, the the Power Wall is not smart enough to do that.
+Amber Fu: Okay.
+SL S: And that's when I started looking into Net Zero to see if I could do that and to do it on that. And then um there may have been a way but I think that right when I was starting to look at net zero was when they went to like paid paid use only or something and so I wasn't interested in paying to do that for that for net zero for that use that individual use you know I was I was I mean this is why
+Amber Fu: Mhm.
+SL S: I'm talking to you is I'm I'm interested in apps I'm interested in technology all that kind of stuff so um I was interested in doing that But I wasn't interested in in paying for to do something pretty minor in my
+ 
+ 
+00:29:17
+ 
+Amber Fu: Mhm.
+SL S: case.
+Amber Fu: And but do you wish you could override the Tesla logic and tell it tell it like exactly how to
+SL S: Absolutely. And that's why I went to netzero because I couldn't do it in the Tesla app and that's why that's why it was posted.
+Amber Fu: behave?
+SL S: Like, you know, I I think I said something like the Tesla app should have the option for a user to tell it what it wants, what wants it to do,
+Amber Fu: M.
+SL S: but it doesn't.
+Amber Fu: Mhm.
+SL S: Like, there should be a there should be a toggle on there,
+Amber Fu: Got it.
+SL S: you know, when when you're charging your EV, take it from the grid instead of the battery.
+Amber Fu: Mhm.
+SL S: I mean, that's pretty easy. And it should be able to tell that just by power usage or manually or whatever, you know?
+Amber Fu: Mhm. Yeah. Yeah. And well uh like if the app could like in enforce an EM2 logic for your battery and EV would that remove the uh you need to manually adjust reserve all the
+ 
+ 
+00:30:19
+ 
+SL S: Yeah, I mean depending on the implementation but yeah that would be the in my case that would be the
+Amber Fu: time.
+SL S: the goal and you know every user is different but if there's in my case, you know, I would want to do what I want to do. It should be easy for me to do what I want to do. That's the user perspective, you know, and, you know, it's not it's every app is like that, you know.
+Amber Fu: Okay.
+SL S: It's like this this app doesn't do that. It doesn't do it in the way that I expected to. It's it's clunky. It's poorly designed. I mean, that's frankly, it's most apps. Um,
+Amber Fu: Mhm.
+SL S: but it's frustrating when something's really important. this isn't necessarily rise to that level, but you know, if something's really important,
+Amber Fu: Mhm.
+SL S: it's like why can't why doesn't it just do this, you know, is is kind of the I've always been interested in interface design and that's,
+Amber Fu: Yeah.
+ 
+ 
+00:31:13
+ 
+SL S: you know, that's another reason why I'm talking to you
+Amber Fu: Mhm.
+SL S: now.
+Amber Fu: Got it. Got it. And well like if you could say exactly what your system should be produc uh like producing today based on the weather uh the shadow month how valuable would would that be for
+SL S: Well, that's a great question. That's what someone like you should ask.
+Amber Fu: you?
+SL S: I don't know if I give you a number on that, but that, you know, it's a sliding scale for value. The more value, the more you know, a user like me would be willing to pay. It also depends on the user itself,
+Amber Fu: Mhm.
+SL S: you know, him or herself. I'm I'm not typically a paid user of almost anything.
+Amber Fu: Mhm.
+SL S: That's why I didn't subscribe to Netzero. And so if I can if I can do something without paying for
+Amber Fu: Mhm.
+SL S: it, then I will. I also understand that I'm the exception to the rule.
+ 
+ 
+00:32:11
+ 
+SL S: Most people are willing to pay. So, um, but in my case, you know, I I don't know if I could give you a number, but if if there's value there for me, you know, I would I would pay not not much, but I would pay
+Amber Fu: Okay. Okay.
+SL S: something.
+Amber Fu: Got it. Got it. And And would you trust the system like more if they can show like your expected act actual production with a reason for mismatch?
+SL S: Ask that question again.
+Amber Fu: Oh, like would you trust a system more if Yeah.
+SL S: Would I
+Amber Fu: Yeah,
+SL S: trust?
+Amber Fu: if the system can show you like uh you know your uh show like uh like why like what happened right now why it's happened and give you the reason and the
+SL S: Yeah,
+Amber Fu: number.
+SL S: that would that would be valuable. That would be valuable for sure.
+Amber Fu: Okay.
+SL S: And again,
+Amber Fu: Okay. Got it.
+SL S: that's probably I don't know if I'm I would be the exception to that because I think a fair number of people wouldn't necessarily want to know the why as long as it worked.
+ 
+ 
+00:33:26
+ 
+Amber Fu: Mhm.
+SL S: But but if that is transparent and it does show you,
+Amber Fu: Mhm.
+SL S: you know, you that would be valuable for people like me.
+Amber Fu: Mhm. Got it. And and would like an unified dashboard with detail of inface the Tesla and everything in one dashboard. Do you think that will be like useful for
+SL S: Yeah,
+Amber Fu: you?
+SL S: that would be that would be great.
+Amber Fu: Uhhuh. Uhhuh.
+SL S: S single inter single interface is always
+Amber Fu: And what data do you
+SL S: better.
+Amber Fu: wish Tesla showed but
+SL S: Um the one thing well um I mean I I mentioned I I missed the
+Amber Fu: doesn't?
+SL S: per panel production on the solar but that's a probably a function of the micro inverters because they were you know connected. Um, I think, um,
+Amber Fu: Mhm.
+SL S: you know, as far as what an app can do, an app has to depend on inputs. And, um, I'm not sure necessarily I I'm I'm trying to think of what I'm missing obviously in the Tesla app.
+ 
+ 
+00:34:47
+ 
+SL S: Um they just they just modified it to add a little bit of weather but you know it's
+Amber Fu: Mhm.
+SL S: it's like you don't so nothing's coming to the come coming to the surface immediately for for me in terms of outside of the per panel production. I mean,
+Amber Fu: Mhm.
+SL S: one thing that would be really helpful for me would be where the electricity is used in the house, but that's a smart panel. And, you know, they're starting to make those now, but that's, you know, that's not you. And that's a that's a whole separate thing.
+Amber Fu: Mhm. Got it. And and for like the power wall uh you you mentioned that you you you have to manually adjust reserve. Uh so if you could set rules for how the power wall behaves, what would you top three rules
+SL S: Well, the the I might only have one or two.
+Amber Fu: be?
+SL S: One would be um don't when I'm charging an EV, don't use the battery. Take straight from the grid.
+ 
+ 
+00:35:59
+ 
+Amber Fu: Mhm.
+SL S: Um, another one might be kind of weather dependent.
+Amber Fu: Mhm.
+SL S: You know, don't let the reserve go too low, but they already have that as part of the app that's kind of weather aware. And I don't know how well it works because, you know, Southern California doesn't have extreme weather. So, um, but I think another thing that, um, in my case I would like to see would be, um, reporting for power outages. That's a big reason why some people have batteries. I mean, I do, you know,
+Amber Fu: Mhm.
+SL S: load management, but, um, you know, we have, you know, in eight months, I've had, I don't know, two or three power outages. one was a longer one.
+Amber Fu: Mhm.
+SL S: one I I and I think I tried to look on the Tesla app and
+Amber Fu: Mhm.
+SL S: um it would be helpful for me to know the specific time of grid loss and start and how
+Amber Fu: Mhm.
+SL S: much the battery was used during that time which I think you might be able to get at But it's kind of derivative.
+ 
+ 
+00:37:22
+ 
+SL S: You'd have to kind of search for a little bit. It' be be nice if there was a single a single report or ability to
+Amber Fu: Mhm.
+SL S: show or display of like the power is out from, you know, midnight to 6:00 a.m. and the battery was, you know, used, you know, for a kil kilowatt hours or something because I mean it's it's doing that anyway because it's drawing the battery down, but it's not necessarily telling you that it's not connect.
+Amber Fu: Mhm.
+SL S: There's no power from the
+Amber Fu: Got it.
+SL S: grid.
+Amber Fu: Got it. And uh would you want the strict strict rule like oh between 4:00 p.m. to 9:00 p.m. Never use a grow unless the battery belows to like certain
+SL S: Yeah, that would be that would be good, too.
+Amber Fu: like%.
+SL S: That that was I think one of the things I was looking for is like a manual set, right? I think you could do it manually, but it was kind of a pain in the ass.
+ 
+ 
+00:38:15
+ 
+Amber Fu: Mhm.
+SL S: That's why like the NEM 3 was a shortcut on the Tesla app and it and it behaves pretty well, but um but there's little um little uses, small uses from the grid that show up in the Tesla app
+Amber Fu: Mhm.
+SL S: display that I don't necessarily understand because
+Amber Fu: Mhm.
+SL S: there's plenty of battery power. So, you know,
+Amber Fu: Mhm.
+SL S: let's say my coffee maker comes on at 1,200 watts or something and it draws from the grid instead the the house draws from the grid instead of the battery for five or 10 minutes. I don't know why when there's plenty of battery power,
+Amber Fu: Mhm.
+SL S: you know, grid usage should be zero.
+Amber Fu: Got
+SL S: Um,
+Amber Fu: it.
+SL S: as long as there's x amount of battery.
+Amber Fu: Got it. Got it. and and uh like as you mentioned like uh like when you're charging on eBay don't use a battery take it from the ground and if you could add one more rules for your power wall what would be like for example always keep at least like 30% for outage or like let battery go down to 10% on weekend something like Yeah.
+ 
+ 
+00:39:46
+ 
+SL S: Um they have that one pretty well dialed in um for the for the reserve setting.
+Amber Fu: Mhm.
+SL S: So that one's pretty pretty that one's well implemented in the Tesla app. Um although it's still manual.
+Amber Fu: Mhm.
+SL S: Um, but for in my case,
+Amber Fu: Mhm.
+SL S: um, I I would think that outside of that first rule, I would say as long as there's,
+Amber Fu: And
+SL S: you know, more than if you could set a rule like what you just said, you know, as long as there's, you know, 30% battery or something, don't don't take any grid power. And that's what I was just saying is it seems like it does take a little bit of grid power in some cases to me that seems
+Amber Fu: Mhm.
+SL S: weird, you know,
+Amber Fu: Okay.
+SL S: and and it's not something I don't feel like that's something I can control because I don't think there's a setting on
+Amber Fu: Yeah.
+SL S: there to tell it to use battery power um exclusively. So, you know, that might that might be a second
+ 
+ 
+00:40:58
+ 
+Amber Fu: Got it. Got it. Well, that's really helpful.
+SL S: roll
+Amber Fu: And and would do you ever want to opposite route like uh for example like if the battery is above 80% then it can feed the car during the day.
+SL S: not in my case. Um,
+Amber Fu: Mhm.
+SL S: but I think there was that and and I can't remember
+Amber Fu: Amen.
+SL S: but that may have that may have been related or maybe that was my question where if the batteries maybe it's a reverse way of saying the same thing where if the batteries you know 50 60 70 80% don't use that to charge use the
+Amber Fu: Mhm.
+SL S: grid and keep charging.
+Amber Fu: Mhm.
+SL S: I think that might have been it where there was I don't I don't think there's an ability to say to this to the system during the day when the
+Amber Fu: Mhm.
+SL S: panels are producing and and charging the battery continue doing that at full
+Amber Fu: Mhm.
+SL S: strength and charge the car from the grid.
+ 
+ 
+00:42:07
+ 
+SL S: That was kind of a discreet um need or want that I don't think I can do even manually with the
+Amber Fu: Got it.
+SL S: Tesla
+Amber Fu: Got it. Got it. And well uh like if if their app can give you like a simple rule like you can add it by yourself like where you could set thing like never use battery from EV like keep keep like certain percentage for outage or don't discharge below like certain level during the winter. How would you want that to work? Like interface to
+SL S: Well, I mean, ideally it would be,
+Amber Fu: work.
+SL S: you know, a voice command where you could use AI to just say um to the to the app itself, I want this rule.
+Amber Fu: Mhm.
+SL S: And then it could it could interpret that and implement it
+Amber Fu: Okay. Mhm.
+SL S: and then maybe fine-tune it because it didn't understand it right or it's you know it's in the software so it doesn't do it you know maybe does it 90% of what you want and then you could fine-tune it later.
+ 
+ 
+00:43:21
+ 
+SL S: Um, you know, kind of like doing a verbal search,
+Amber Fu: Mhm.
+SL S: but you're just doing a verbal command where it's like, you know, if this, then that, and maybe in the app itself,
+Amber Fu: Mhm.
+SL S: it does some iterations of that where it repeat where it it it displays what it thinks you want and allows for fine-tuning of that verbally. Great. Um,
+Amber Fu: Mhm.
+SL S: and then you try it and see if it works.
+Amber Fu: Okay. Okay.
+SL S: That's a That's a That seems like a lot to
+Amber Fu: Got it. Mhm.
+SL S: ask.
+Amber Fu: Well, okay. And and well and also I in ideal world what would the like outage report screen show you like timeline like drop like what what else?
+SL S: Um, for the power outages, probably just something like the grid
+Amber Fu: Uhhuh.
+SL S: stopped providing power at X time and and and started supplying power again at x time. Um, I mean,
+Amber Fu: Mhm.
+SL S: it would be great if there was a reason for that, but that's that's very specific and idiosyncratic in a large
+ 
+ 
+00:44:43
+ 
+Amber Fu: Okay.
+SL S: grid. Uh it'd be I mean it's not to say that it's impossible because you know some some car may hit a telephone pole and take a gr take a you know few blocks out for a while but maybe maybe the app could search
+Amber Fu: Mhm.
+SL S: for news or search the utility website for an explanation. Um but you know an explanation would be great. the time of the the specific time of the of the grid power loss and power back on again would be easily displayed would be helpful. The app already kind of shows you how much power was used during the during the
+Amber Fu: Mhm.
+SL S: outage the Tesla app does. Um and in my case if it happens in the middle of the night I'm on battery anyway.
+Amber Fu: Mhm.
+SL S: So, um, but it's still kind of, you know, the main the main thing I think would be what the specific time of the outage
+Amber Fu: Got it.
+SL S: was.
+Amber Fu: Got it. And well uh I I I try to think like for example if there have a two rules uh rules rules A is never use battery from EV and rule B will be never use gold between 4 to 900 p.m.
+ 
+ 
+00:46:17
+ 
+Amber Fu: What should the system do like which one should we you think?
+SL S: if they're in conflict.
+Amber Fu: Yes.
+SL S: Um, in my case, I would say, um,
+Amber Fu: Mhm.
+SL S: I mean, ideally, if in my case, if there was a conflict in rules,
+Amber Fu: Mhm.
+SL S: there should be an alert saying that and asking me what I want to
+Amber Fu: Okay.
+SL S: do.
+Amber Fu: Okay. Got it. Got it. And would you prefer the rule based on the time of a day or battery percentage or growth price or weather? Like which one matters most to
+SL S: Um for me personally probably avoiding peak hour
+Amber Fu: you?
+SL S: use from the grid certainly
+Amber Fu: Okay. Okay.
+SL S: in anything any significant use and Again, I don't have air conditioning. That's a big use. So, that would that would draw the battery down. Um but um and I and I think probably I I don't really, you know, watch my phone a lot. I'm I'm an exception on that as well.
+ 
+ 
+00:47:39
+ 
+SL S: But alerts in terms of, hey, your battery's at, you know, 30%, your battery is at 20%. Would be helpful for some people, I think, who are who are monitoring it. Um, you know, and maybe even suggestions like,
+Amber Fu: God.
+SL S: hey, you know, turn the air conditioning off or turn it down or don't your EV during peak hours.
+Amber Fu: Mhm.
+SL S: You know, suggestions like that for how to better adhere to the rules that you created yourself um would probably be
+Amber Fu: Got it.
+SL S: helpful.
+Amber Fu: And but would you want to see how your rules are applied in real time? For example, like rule triggered at 3:15
+SL S: Yeah,
+Amber Fu: p.m.
+SL S: that would that would be I would like that.
+Amber Fu: Okay. Okay. Okay.
+SL S: Because that could be a feedback loop where,
+Amber Fu: Got it.
+SL S: okay, that was a bad rule and I said it myself, so I should change
+Amber Fu: Mhm. Got it. And for like your u like the solar
+ 
+ 
+00:48:34
+ 
+SL S: it.
+Amber Fu: uh if there the app can you know help you to to to to check the weather and to see like is it offline or online something like that. How deep should the explanation goes? Like the simple is like oh is today is a cloudy day and reduce output like 25%. Or some more you know
+SL S: I think design is probably I mean this is subjective but I would say design is
+Amber Fu: uh
+SL S: probably always better to to design simple first with um additional details or explanation on
+Amber Fu: Mhm. Got it.
+SL S: demand.
+Amber Fu: Got it. And and when like the system gave you a number, do you care more about the number itself or understanding the reason behind
+SL S: That's a good question.
+Amber Fu: it?
+SL S: Um in my case, um probably understanding the reason behind it.
+Amber Fu: Okay. And would you want to like the one the mo mode where every graphic point can be click to show oh why this happened at
+SL S: Yeah.
+ 
+ 
+00:50:07
+ 
+Amber Fu: this time. Okay. Okay.
+SL S: Yeah.
+Amber Fu: Got it. Got it. Okay. And um let me think. I I think I have probably like two more question. Okay. Um so okay so what kind of feature cross the line from nice to have to worth to pay it.
+SL S: um for me um I'm not I'm not sure there
+Amber Fu: Mhm.
+SL S: would be one. That's why I didn't do net zero. Um,
+Amber Fu: Mhm.
+SL S: so the for me personally, the value proposition has to be pretty strong and I know I'm I'm the exception. Um, so I'm not sure I have an answer for that in my particular case in this particular
+Amber Fu: Mhm.
+SL S: use.
+Amber Fu: Got it. Got it. Got it. And um and do you have any question for us?
+SL S: Are you looking at um any sort of um for It sounds like you're developing an app for what you think a market for.
+ 
+ 
+00:51:24
+ 
+SL S: Um are you looking at any kind of vehicle to grid or home to
+Amber Fu: Yeah.
+SL S: grid kind of application?
+Amber Fu: Yes.
+SL S: um cuz that's not relevant for us.
+Amber Fu: Yes.
+SL S: That's that's coming but and I wish I could do it but you know Tesla has the virtual power plant which I'd like to participate in.
+Amber Fu: Mhm.
+SL S: I haven't done yet. Um,
+Amber Fu: Mhm.
+SL S: I want to read about it a little bit, but any sort of as far as designing an
+Amber Fu: Mhm.
+SL S: app, what would be helpful for a user like me who's interested in that is, hey, if you if you do vehicle to grid today, you know, you could get 20 or 25 bucks,
+Amber Fu: Mhm.
+SL S: you know,
+Amber Fu: Oh,
+SL S: something something like that that makes it real.
+Amber Fu: okay.
+SL S: you know,
+Amber Fu: Uh-huh.
+SL S: and could change behavior and it's I because I
+Amber Fu: Mhm.
+SL S: haven't done it, I don't have the experience on doing that, but you know, I read stories about people who are doing that in Texas or wherever and it's um it can be lucrative.
+ 
+ 
+00:52:36
+ 
+SL S: It's also, you know, there's also a community aspect, but you know, people are driven by financial incentives.
+Amber Fu: Mhm.
+SL S: That's why people are there. But incorporating something like that into the app for that user type would be in an easy to understand way would be
+Amber Fu: Mhm. Got it. Got it.
+SL S: helpful.
+Amber Fu: And and uh so I can better understand like what type of information would be most useful for you if our a support like uh uh if our app support like
+SL S: Um probably for me personally um
+Amber Fu: WPP
+SL S: probably a couple of different things. One would be I mean typically it happens in the summer in the afternoons on weekdays but really anytime where there is a need for additional power which is what the whole po point of it is. One one helpful piece of information would be there's a forecast for a potential
+Amber Fu: Mhm.
+SL S: use and so you know it looks like tomorrow's going to be hot and so we're asking
+Amber Fu: Mhm.
+ 
+ 
+00:53:51
+ 
+SL S: everyone who's in the VPP to plug their car in so that we can see it or something like that just a warning so people can plan. That would be one thing. Another thing would be kind of an explanation of
+Amber Fu: Mhm.
+SL S: the environmental benefits of a virtual power plant. So, and that could be just based on on history or even the previous day, you know, like, hey, the previous day, you know, we had a a virtual power plant oper or vehicle to grid use in this area and that resulted in, you know, x amount of GHG avoidance because we didn't have to turn on a peaker plant or something like that, you know. Um, that's real. Um,
+Amber Fu: Mhm.
+SL S: and it would be great if it was in kind of, you know, even even day before or, you know, week before or something some sort of something that's real um to a user to make it feel like not just financially but um but that they're doing something, you know, for the planet.
+ 
+ 
+00:54:59
+ 
+Amber Fu: Hello and
+SL S: So that's that would be that would be kind of two pieces. And then, you know, reporting for a virtual power plant over time would be helpful.
+Amber Fu: Um,
+SL S: Hey, you know, last year you earned, you know, 200 bucks because you did this or, you know,
+Amber Fu: got it. Got it. And one last question is like how much better would you feel com comfortable allowing the VPP to use it like?
+SL S: in my case, um, it would be on the high side.
+Amber Fu: Uhhuh.
+SL S: So, I would be willing to use probably 40% maybe even 50.
+Amber Fu: Mhm.
+SL S: Well, well,
+Amber Fu: Got
+SL S: I take it back. So,
+Amber Fu: it.
+SL S: if of my of my power wall of my car, you know, probably more than that because,
+Amber Fu: Mhm.
+SL S: you know, we don't we don't drive much. So, probably 50 or maybe even 60% of my car better if we're talking vehicle to
+Amber Fu: Mhm.
+SL S: grid.
+Amber Fu: Got it. Got it. Got it. Okay. Well, this is, you know, incredible valuable like thank you so much for, you know, taking the time to share all of this. You you help us understand like not just what the future people want but why then matter uh which even more important. So we still very early but uh everything you share today will be direct shape how we design the product. So if you are open it we love to show you early you know our early version once we have something and you feedback would be
+SL S: Yeah,
+Amber Fu: amazing.
+SL S: I'd be happy to look at it.
+Amber Fu: Okay that would be perfect and well thanks again for your time today and I really appreciate please keep in touch.
+ 
+ 
+Transcription ended after 00:56:56

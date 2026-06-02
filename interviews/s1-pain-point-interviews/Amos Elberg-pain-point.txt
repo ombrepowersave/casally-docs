@@ -1,0 +1,445 @@
+Casally User Interviews (Amos Elberg) - Transcript
+00:13:26
+ 
+Amos Elberg: I apologize. I was doing something and lost track of time.
+Amber Fu: Um, I'm sorry. Um, I think my computer have some problem. Let me fix it really quick cuz I can't hear anything.
+Amos Elberg: Oh. Uh, hold on. Let me make sure. Oh, yeah. It should be working.
+Amber Fu: Uh, okay. Wait. Uh, can you hear me?
+Amos Elberg: Yes, I can hear you.
+Amber Fu: Yes.
+Amos Elberg: Can you hear me?
+Amber Fu: Okay. Yes. Yes. Perfect this time.
+Amos Elberg: Okay. So, I I I apologize for being late.
+Amber Fu: Okay.
+Amos Elberg: I was doing something and lost track of time.
+Amber Fu: Um, don't mind. It's It's totally okay. Thank you. Thank you so much um taking time today. So, um, no pressure at all. This is like super casual. Yes. Um, let me Yeah, let me introduce myself a little bit.
+Amos Elberg: Okay.
+Amber Fu: Um, I'm Amber and I'm a one of the founder.
+ 
+ 
+00:14:33
+ 
+Amber Fu: I I started this because uh, you know, I couldn't figure out why my own electricity bill were so crazy. So, I realized a lot of my friend are dealing with the same thing.
+Amos Elberg: Mhm.
+Amber Fu: And uh we're a small team based in LA and it's just a bunch of uh tech folks are also got hit with a crazy electricity bill.
+Amos Elberg: Yes.
+Amber Fu: So we're try to building an app that helps people save money on their daily energy use without changing their lifestyles.
+Amos Elberg: Okay.
+Amber Fu: Yeah. So, um, I love to understand how your home use electricity daytoday so we can figure out what would actually help.
+Amos Elberg: So, I've thought a lot about this. So, let me let me give you let me give you some context.
+Amber Fu: Okay, cool. Okay.
+Amos Elberg: Um, so we bought our house this year and we moved in in July or moved actually we bought it in July, we moved in in September and we've had solar installed for a bit over a month and so
+Amber Fu: Mhm.
+ 
+ 
+00:15:33
+ 
+Amber Fu: Mhm. Mhm. Okay.
+Amos Elberg: I've been trying to think about what so what I've been focused on is our electricity bill has been very high and the solar doesn't seem to be helping very much.
+Amber Fu: Uh-huh.
+Amos Elberg: Um, and I've been trying to figure out, you know, what I was looking for in an app and in what way the solar could be applied more effectively.
+Amber Fu: Mhm. Yes, it is.
+Amos Elberg: And the the first thing that occurs to me is probably half of our electricity use is the EV.
+Amber Fu: Mhm.
+Amos Elberg: And there isn't a good app or at least we haven't found one that does charge on solar really well.
+Amber Fu: Mhm.
+Amos Elberg: I mean what we really want is to be able to charge on solar and um you have it uh like net zero has some charge on solar capability but it'll still export to the grid if you're generating more
+Amber Fu: Mhm. Mhm.
+Amos Elberg: power. Uh but if you're generating power uh but you haven't charged your uh power wall sufficiently but you're generating more power than the power wall can take to charge it's going to export to the grid instead of allocating that to the car.
+ 
+ 
+00:17:01
+ 
+Amber Fu: Yeah. Yeah.
+Amos Elberg: It's so there there isn't a good app for it.
+Amber Fu: Yeah.
+Amos Elberg: The other thing is or the second thing is that the lunar AI folks seem to have been be smarter about when to charge the power wall or when to charge the battery and when to discharge the battery than the Tesla folks are.
+Amber Fu: Mhm.
+Amos Elberg: Um and the third thing is control over the house heat.
+Amber Fu: Yeah.
+Amos Elberg: I mean the big thing that we have control over is when we uh what's it called in terms of our electricity consumption is when we turn the baseboard heater on and when we don't.
+Amber Fu: Mhm. Oh, okay.
+Amos Elberg: Um and so we have an electric or sorry a smart thermostat but the smart thermostat only lets you do schedules.
+Amber Fu: Uh yeah.
+Amos Elberg: It doesn't actually it's not as smart as smart as a nest, but it has an API or I think they have an API.
+Amber Fu: Mhm. Mhm.
+Amos Elberg: Um, but uh what's it called? Uh, but there isn't anything to control the thermostat.
+ 
+ 
+00:18:10
+ 
+Amos Elberg: Does is this helpful in any way?
+Amber Fu: Oh yes. Yes. It's that definitely helpful. And uh have you ever tried like you know home assistant something kind of like that?
+Amos Elberg: We got Home Assistant and we have Home Assistant um but we haven't actually done anything with it.
+Amber Fu: Wow.
+Amos Elberg: We configured it but we never figured out how to get it to do anything useful.
+Amber Fu: Okay. Okay. Uh I I I know like you know some people they're using a home system to try to figure out those stuff but uh but I think home season they you you need to know a little bit coding right
+Amos Elberg: Do you
+Amber Fu: uh yeah I I know a little bit yes uh and uh I have another friend is also our uh co-founder and uh he's really good at it but he uh didn't come like this uh this interview. But anyway, because uh we try to use home assistant to you know control the uh like a Nest or the Tesla EV charging to try to save the try to do some coding thing and save money but I
+ 
+ 
+00:19:12
+ 
+Amos Elberg: Mhm.
+Amber Fu: don't um I think still not work really well. So yeah that's that's the reason like I I try to you know I used to talk with my friend and I and after that I try to you know talk to more people who also have a solar uh
+Amos Elberg: Yeah.
+Amber Fu: like power war or ech charging and just see what their electricity world look like. Yeah.
+Amos Elberg: Yeah. So that that's another thing.
+Amber Fu: Uh do Oh, okay.
+Amos Elberg: Sorry. Go ahead.
+Amber Fu: Uh do you mind telling me uh uh how many you pay per month?
+Amos Elberg: Um we were paying for electricity on the order of $300 $350 a month.
+Amber Fu: Okay.
+Amos Elberg: And we don't know what it is. We haven't gotten a bill yet after the installation of the solar.
+Amber Fu: Okay.
+Amos Elberg: So, we don't know how big an effect the solar is having.
+Amber Fu: Mhm.
+Amos Elberg: But the solar probably we're not producing very much power. So, we don't think the solar is going to have a big effect.
+ 
+ 
+00:20:22
+ 
+Amber Fu: Okay. But you have a solar, you have a eV charging, right?
+Amos Elberg: Yes.
+Amber Fu: And uh how about power wall or battery?
+Amos Elberg: Yes. and the power wall.
+Amber Fu: Okay. Well, that's weird because usually like if you have everything, your electricity bill should be average like $100.
+Amos Elberg: Well, what's happened, we only just got it installed, so we haven't gotten a bill that we haven't gotten a bill after having solar installed.
+Amber Fu: Okay.
+Amos Elberg: But the problem is we're generating.
+Amber Fu: Okay.
+Amos Elberg: So the net zero app uses PV watts to estimate how much you should be generating and it says that this time of year we should be generating uh like on the order of 26 kilwatt hours a day.
+Amber Fu: H. Uh-huh. Mhm.
+Amos Elberg: We're actually only generating 9 kilowatt hours a day.
+Amber Fu: Okay.
+Amos Elberg: And the reason is I I'm trying to figure out actually why it is. I went back to the solar folks who did the installation and I said, "What's going on here?"
+ 
+ 
+00:21:34
+ 
+Amos Elberg: And I'm trying to figure out with them. I think that there's a lot of shade from trees and I think they installed it facing west instead of south. And I'm trying to figure out why they did that. Um but uh we're producing much less power than we expected.
+Amber Fu: Okay. Okay. Got it. Sure. Um, so I well today I have a like few question. I I I want to know and and before we get start like would you be okay if I record this call it just make sure I Okay, thank you.
+Amos Elberg: Yeah, go right ahead.
+Amber Fu: Okay, let me Okay, sure. Thanks. And um before we jump uh jump into the energy stuff and and I love to have a got a quick sense of your like household just just try to you know imagine like your daily electricity look like. So how how like how big your house roughly roughly?
+Amos Elberg: Mhm. Uh 3,100 square ft. We have four adults and one infant.
+ 
+ 
+00:22:47
+ 
+Amber Fu: Okay. And uh like uh how many people uh in Okay, got it. And um so uh do you most work from home or you know I run fly in and out all day.
+Amos Elberg: We So, it's it's my wife and I. We both work from home, but my wife goes to an office two days a week, so she's hybrid.
+Amber Fu: Mhm. Okay.
+Amos Elberg: And then it's my wife's parents who live with us and they're retired, so they take care of the baby.
+Amber Fu: Okay. Okay. Okay.
+Amos Elberg: So, they're they're here all day.
+Amber Fu: Got it. Okay. Got it. And um how how many EV car in in your only one?
+Amos Elberg: one. Yes.
+Amber Fu: Okay. Got it. And um cuz uh I I noticed that you got the full set, you know, the solar home battery like the EV. So I think that's put a top few percent of home. we are we are talked to a lot of my friends have a solar and EV but they don't have a power wall so I just want to know like uh uh why you got power wall like what reason
+ 
+ 
+00:24:03
+ 
+Amos Elberg: So, well, I think it's I think it was very straightforward. When we talked to the solar people uh about doing our installation, we wanted to get solar put in before the end of the year. And so, we reached out to the solar folks.
+Amber Fu: M yeah.
+Amos Elberg: Everybody who we talked to told us that because of NEM 3, the only way to make solar have financial sense was to buy a battery.
+Amber Fu: Yeah, that's a lot of people say said that. Yes.
+Amos Elberg: Yeah.
+Amber Fu: Okay. So, okay. That's the reason. Got it. And uh how about solar? Why you got in the first place?
+Amos Elberg: Well, I mean, so we're tech people from San Francisco, my wife and I, and so it's what we do.
+Amber Fu: Okay. Okay. Got it. Yeah.
+Amos Elberg: And I mean, now that we're seeing how much power we're producing, I mean, I thought that with the EV and with how much we're spending I I thought with the EV and how much we're spending on electricity that
+ 
+ 
+00:24:56
+ 
+Amber Fu: Okay. Mhm.
+Amos Elberg: if we could charge the EV on solar that effectively the car would be, you know, effectively transportation would become free.
+Amber Fu: Mhm. Mhm.
+Amos Elberg: And I also care about being off the grid and wanted to be off the grid and my wife did too. In retrospect, now that we see how much power we're producing, if we knew if we knew how little power we're producing, we probably would not have done it.
+Amber Fu: Okay. Mhm.
+Amos Elberg: Um because we're just not producing enough power to make it worthwhile.
+Amber Fu: Okay. Okay. Okay. Got it. And uh cuz I have a EVA charging my whole uh in my in my house. But uh but I want to know like why you got the EVA charging like at first at first place.
+Amos Elberg: So, we got the um we got the EV um because we didn't want a gasoline car. We thought an EV was a better We thought the car was better. My wife is very new to driving and uh she only got her driver's license last year.
+ 
+ 
+00:26:17
+ 
+Amber Fu: Okay. Oh, okay.
+Amos Elberg: Uh um and we the EV is much easier for her to drive. We have a Volvo EV and it's very very easy to drive.
+Amber Fu: Mhm.
+Amos Elberg: Um and so it's very good for her.
+Amber Fu: Okay.
+Amos Elberg: So why get the charger? I mean the reason for the charger is just to charge more quickly.
+Amber Fu: Yeah. Okay. Got it.
+Amos Elberg: Yeah.
+Amber Fu: And but like now that you live with those system for a while, are are they doing what you expected or are you happy with it or uh EV charger, solar and the power wall?
+Amos Elberg: The e the EV charger. So, the EV charger is doing everything we want.
+Amber Fu: Mhm.
+Amos Elberg: The power wall is doing what it's supposed to do.
+Amber Fu: Mhm.
+Amos Elberg: The problem is our solar panels aren't producing very much power.
+Amber Fu: Mhm.
+Amos Elberg: And we like I said, like I was saying earlier, we don't know why that is. We don't know if they made a mistake.
+ 
+ 
+00:27:25
+ 
+Amber Fu: Okay.
+Amos Elberg: We We don't know if they made a mistake in the system design or if they made a mistake in the installation or if everything is really okay and we're going to produce lots of power in a few months. and we're try I'm trying to get to the bottom of that with the solar installer.
+Amber Fu: Okay. Okay.
+Amos Elberg: Um but right now Yeah.
+Amber Fu: Did you ask did you ask them like the solar company like what happened or what what they said?
+Amos Elberg: Uh I mean it's a it's a conversation that's ongoing. What I did what what I did was I said to the solar company I said look we were expecting production to be here.
+Amber Fu: Oh, okay.
+Amos Elberg: Our actual production is here and I went online and asked people what I should you know what I should say to them and they said to ask for a shade study.
+Amber Fu: Mhm. Mhm. Okay.
+Amos Elberg: So, I went back to the solar installer and asked for a shade study and they sent that to me today and we're going to talk about it.
+ 
+ 
+00:28:27
+ 
+Amber Fu: Uh, okay.
+Amos Elberg: So, it's a it's a conversation that's ongoing.
+Amber Fu: Okay. And how long you got the solar?
+Amos Elberg: Uh, it was installed in the at the beginning of November and it was turned on November 12th.
+Amber Fu: No. Okay. Just started.
+Amos Elberg: Yes.
+Amber Fu: Okay. Got it. So uh uh except the uh a solar like if you could change one thing about how those works uh what would would be just solar or
+Amos Elberg: So the the if I could change I'm going to I'm going to modify the question slightly and I'm going to say if I could change two things.
+Amber Fu: Okay.
+Amos Elberg: The the first thing is I'd like to be producing more solar power.
+Amber Fu: Oh yeah.
+Amos Elberg: Uh um if we you know PV Watts says I should be producing 26 kilowatts a day a kilowatt hours a day.
+Amber Fu: Okay. Mhm.
+Amos Elberg: If I was producing that we would be almost completely off the grid.
+Amber Fu: Mhm.
+Amos Elberg: We would be off the grid except for the EV.
+ 
+ 
+00:29:31
+ 
+Amber Fu: Okay. Okay.
+Amos Elberg: The second thing I'd change is making it easy to charge on solar because charging on solar is really hard now.
+Amber Fu: Okay. Okay. Um cuz I don't have a solar. Can you uh tell me about like how hard is it?
+Amos Elberg: So what you want to do is um you want to to the extent possible.
+Amber Fu: Mhm. Mhm.
+Amos Elberg: So the the way that when you have solar the amount of power that you're generating changes throughout the day.
+Amber Fu: Mhm.
+Amos Elberg: In the morning you're generating very little power. And then around noon uh or the middle of the day, you're generating more power than you can use.
+Amber Fu: Yeah.
+Amos Elberg: And when you're generating more power than you can use, you sell it back to the grid.
+Amber Fu: Yes. Yes.
+Amos Elberg: Then evening comes and when evening comes, the electricity prices go up and you have to buy from the grid.
+Amber Fu: Mhm. Yes.
+Amos Elberg: be uh and so what you want is you want to charge the EV from the excess power that would be sold to the grid.
+ 
+ 
+00:30:45
+ 
+Amos Elberg: You want to stop selling to the grid and instead use that on the EV and you and that way you pro you you avoid purchasing from the grid.
+Amber Fu: Okay, I got it. I got it. Let's see.
+Amos Elberg: And if you're not generating enough power to charge the EV, then you want to at least charge the EV when the electricity is cheap to buy and not charge the EV in the evening.
+Amber Fu: Mhm. Okay. Got it.
+Amos Elberg: So it so it should be what I just described for a house like ours that has solar and a battery and an EV.
+Amber Fu: So I I Yeah, go ahead. Mhm. Mhm. Mhm.
+Amos Elberg: Optimizing the consumption of the solar is all about charging the EV on solar because the EV is the largest consumer of electricity.
+Amber Fu: Yes.
+Amos Elberg: But doing what I described of charging the EV with the excess power generated by solar turns out to be really hard. If you have a Tesla EV charger and a Tesla car, they can talk to each other and work together.
+ 
+ 
+00:31:51
+ 
+Amber Fu: Mhm. Mhm.
+Amos Elberg: But if you have a and and they'll do charge on solar, but if you have a car that isn't a Tesla, it won't do charge on solar with the Tesla charger.
+Amber Fu: Mhm. Mhm.
+Amos Elberg: You have to use an app to control everything.
+Amber Fu: Mhm.
+Amos Elberg: You have to use a different EV charger.
+Amber Fu: Mhm.
+Amos Elberg: And it all gets very complicated, and the apps aren't very good.
+Amber Fu: Okay. Uh what app you're using right now?
+Amos Elberg: I'm using net zero and well so let let me let me unpack that a little bit.
+Amber Fu: Do you think it's okay or Oh, yeah.
+Amos Elberg: I'm using net zero and I'm also using something called octawatt.
+Amber Fu: I heard it. I heard it.
+Amos Elberg: Yeah. Yes. So net zero is really very good at doing a lot of things. It's very good at estimating solar production. It's very good at monitoring your system.
+Amber Fu: Yeah.
+Amos Elberg: It's very good at setting schedules.
+ 
+ 
+00:32:52
+ 
+Amos Elberg: It does a lot of things really, really well.
+Amber Fu: Mhm.
+Amos Elberg: It doesn't do charge on solar well.
+Amber Fu: Okay. Got it.
+Amos Elberg: Um, but it does lots of other things very well.
+Amber Fu: Okay. And I I well I uh I've read a lot of the the feedback about the net zero. A lot of people complain like they're they they need to pay like six six like $.99 or something to per month. Uh do you think that will be bother you or you think it's totally fine they worth it?
+Amos Elberg: Um, I'm not a fan of it. I prefer not to be spending money, but the but I thought that the net zero app audit offered a good amount of value.
+Amber Fu: Okay.
+Amos Elberg: So, we're new to we're new to the solar thing and we're new to having the EV and I want to be able to look at the performance of everything and see what everything is doing in a lot of
+Amber Fu: Mhm.
+Amos Elberg: detail.
+Amber Fu: Okay.
+Amos Elberg: And so, net zero does that.
+ 
+ 
+00:34:00
+ 
+Amos Elberg: A year from now, a year from now, I'm not going to want to do that anymore.
+Amber Fu: Okay.
+Amos Elberg: Either I'm going to be using net zero to set schedules or they're going to get better at charge on solar or I'm not going to renew the subscription in a year.
+Amber Fu: Mhm. Okay. Okay. Got it. Um, so if if I mean like if net zero like help you saving like let's say like $100 per month, uh, do you want uh do you want to pay pay for it?
+Amos Elberg: Oh, absolutely. Look, if if there was something that could optimize I mean, I'm paying the $7 for net zero. Now, if there was something that also optimized the consumption, you know, that did what the lunar AI software does or optimized the charge on solar, I would switch to that thing.
+Amber Fu: Mhm. Mhm. Okay.
+Amos Elberg: You know, I mean it it's it wouldn't be Yeah, I would switch to that thing.
+Amber Fu: Okay. Okay. Got it.
+ 
+ 
+00:35:05
+ 
+Amber Fu: Got it. Okay. Cool. So, thanks for sharing that and uh it's really helped me to understand like you know your situation right now. So um I just want to start like some simple question like you know uh your daily routine like uh you said your uh work from home your wife like go out today for for work and except that like
+Amos Elberg: Mhm.
+Amber Fu: uh when do you think your home is a the quietest moment like what time and when is like uh like you know the everybody's in in the house.
+Amos Elberg: I'm not sure I understand the question.
+Amber Fu: Um, so I I just try to ask like when is the home empty and when is the most activity, you know, like Mhm.
+Amos Elberg: Since we moved in, the home has only been empty once.
+Amber Fu: Oh, okay.
+Amos Elberg: And the the only time the home was ever empty was when we took my in-laws to get fur. Um that was the other than that there's always someone here.
+Amber Fu: Okay. Okay.
+ 
+ 
+00:36:13
+ 
+Amos Elberg: So when it's busiest is between 5:00 and 8 o'clock.
+Amber Fu: God. Uhhuh.
+Amos Elberg: Between five o'clock and 8 o'clock, my wife and I are off work. The baby needs to be entertained. Uh the parents are cooking.
+Amber Fu: Okay.
+Amos Elberg: Um so there's always something there's always a lot of activity going on between 5 and and 8:00.
+Amber Fu: Okay. Got it. And uh which applies do you think is a like a biggest money either like is a except the ech charging what you the second uh place what you think?
+Amos Elberg: It's a close call. It's either the baseboard heater or it's the oven.
+Amber Fu: Uh okay.
+Amos Elberg: We have an We have Our oven is electric and it consumes a lot of power. Oh, actually, no.
+Amber Fu: Mhm.
+Amos Elberg: I take that back. You know what it is? It's the dryer. It's the dryer and the washing machine.
+Amber Fu: Oh, the fire.
+Amos Elberg: Yeah, because every time every time the dryer goes to to turn on, it consumes six kilowatts.
+ 
+ 
+00:37:16
+ 
+Amos Elberg: like I can I can see its consumption on the on the net zero app and it goes to six kilowatts.
+Amber Fu: Okay. Mhm.
+Amos Elberg: Um the other thing that the baseboard heater consumes 1 kilowatt an hour when it's on. The oven consumes like 4 kilow but it's not on very often. We only use it like for Thanksgiving when we make a turkey or something.
+Amber Fu: Okay, got it.
+Amos Elberg: Uh yeah.
+Amber Fu: But but do you know if like electricity is a cheaper at a c certain time of the day?
+Amos Elberg: Yes.
+Amber Fu: Okay. Um, have you ever tried to use those uh use a cheap uh cheap hours?
+Amos Elberg: Yes. Um what I said to first what we did was we said only use the dryer at night.
+Amber Fu: Okay. Mhm.
+Amos Elberg: Um then we said only use the dryer um during the day when the solar power is coming. But the truth is we're not generating enough power anyway.
+Amber Fu: Yeah.
+Amos Elberg: So it doesn't matter.
+ 
+ 
+00:38:23
+ 
+Amber Fu: Okay. Oh, okay. Okay. And how about, you know, like when is a it's a sunny day and the uh the the solar is working really well and have you tried that moment to charge your EV.
+Amos Elberg: We haven't been We've charged on sunny days, but we're not generating enough power right now to charge the battery completely to charge the power wall.
+Amber Fu: Uh-huh. Okay. Okay.
+Amos Elberg: So, if we have a very sunny day, we're going to generate 10 kilowatts of power f or 10 kilowatt hours.
+Amber Fu: Mhm. Okay.
+Amos Elberg: 5 kilowatt hours will go to the house during the day just for electricity consumption and then 5 kilowatt hours will charge the power wall battery up to 50 or 60%.
+Amber Fu: Mhm.
+Amos Elberg: Then then the sun goes down and we use the power wall battery power while the electricity prices are high and the power wall runs out of power by, you know, 8:00 at night.
+Amber Fu: Okay. Okay. Got it. Got it. Okay.
+ 
+ 
+00:39:35
+ 
+Amber Fu: Thanks. Thanks for that. And um and another uh question is how do you normally run your AC?
+Amos Elberg: We don't have AC.
+Amber Fu: Oh, you don't have AC?
+Amos Elberg: No, we we are in Northern California and we have um our house is we have a lot of shade and our house is naturally cool because it has Spanish clay tile roof.
+Amber Fu: Uh-huh. Uh-huh. Oh, okay. So, you don't have like AC problem like the electricity.
+Amos Elberg: No.
+Amber Fu: Oh, okay. Oh, okay. That's Yeah, that's that's the first family that don't have a AC when I talk to Okay. How do you feel about it?
+Amos Elberg: We we moved in I mean we moved in in September and we when we moved in we had a bunch of really hot days. We had a bunch of days where outside it was 90 degrees but it never it never got more than 80 degrees inside the house.
+Amber Fu: Uh-huh. Yeah. How do you Okay, that's good.
+ 
+ 
+00:40:33
+ 
+Amos Elberg: The house is really cool. So, we we think it's it's one of the nice things about the house and we feel lucky about it.
+Amber Fu: Okay, got it. Cool. And um and so if I mean if there was a system that handle all the you know the timing thing and you know uh use the cheaper hour help you to you know do the EV charging like and uh like a dishwasher or dryer and you don't need to think about it and just helping you saving the money. Do you do you like to try it or you worry about it?
+Amos Elberg: absolutely. Absolutely. I mean, I looked at all the apps or I looked at a lot of apps to see what could help me or what could help optimize the consumption and what I found was it's a really fragmented space.
+Amber Fu: Mhm. Mhm.
+Amos Elberg: There's the Optawatt app for EV charging, but it only works with some chargers.
+Amber Fu: Mhm.
+Amos Elberg: It only works at Charge Point.
+Amber Fu: Mhm.
+ 
+ 
+00:41:38
+ 
+Amos Elberg: So, it won't work with my EV charger, but it connect wall box.
+Amber Fu: Mhm. Oh, what's your evening charge by the way? A robot. Okay.
+Amos Elberg: Wallbox.
+Amber Fu: Warbucks.
+Amos Elberg: yet it's it's probably the it's a very popular one that's not Tesla.
+Amber Fu: It's a uh I never heard about it, but I will I will try to research it.
+Amos Elberg: Um but um so and there's a protocol an OPCC there's some protocol for EV chargers and it supports that protocol.
+Amber Fu: Okay.
+Amos Elberg: Um, sorry, I lost it lost my train of thought.
+Amber Fu: Yeah. So just you know uh no uh never mind it's just try to I just try to understand like if uh there have some system like help you do everything and uh you know have you help you like using your solar first and also uh use cheaper.
+Amos Elberg: Oh, would I try it?
+Amber Fu: Yeah.
+Amos Elberg: I I would absolutely try it. There's the um so there are a bunch of apps out there now but none of them is really complete and none of them really does everything.
+ 
+ 
+00:42:43
+ 
+Amber Fu: Okay. Mhm. Mhm.
+Amos Elberg: Um, I mean there's the, you know, net zero is probably the most complete, but it doesn't do, it's not smart enough to optimize when to charge the battery and when to discharge the battery like the Lunar AI app.
+Amber Fu: Mhm. Mhm.
+Amos Elberg: And it's not smart enough to connect to the baseboard heater or tell you when to turn the heater off or set a schedule for the heater.
+Amber Fu: Okay, got it.
+Amos Elberg: So, but it's um uh then there's the charge h there's charge HQ, but it only does charge on solar and it costs $10 a month.
+Amber Fu: Mhm.
+Amos Elberg: Um then there's uh what's it called? Um the Optawatt we talked about it doesn't do my charger but Octawatt does connect to the so in in our part of California there's the PG& charges but there's also a search charge on top of that from our
+Amber Fu: Mhm.
+Amos Elberg: community electricity and none of the apps except for Opawatt none of the apps actually take that search charge into account.
+Amber Fu: Okay, got it.
+ 
+ 
+00:44:08
+ 
+Amber Fu: But uh but would you worry like if if you use kind of like kind of some new system, what would would you worry about like the most like uh privacy or losing control?
+Amos Elberg: So I would want I mean I would be concerned with privacy and losing control, but So you guys had messaged about being able to control the power wall in the Tesla at some point and and I
+Amber Fu: Mhm. Yes.
+Amos Elberg: would not have done that. I would not have given I would have given read access.
+Amber Fu: Mhm.
+Amos Elberg: Um but I wouldn't have given write access. If it was going to be a um if it was going to be something where the app controls the power wall, then I would want to see what it's doing and um you know have it propose a schedule
+Amber Fu: Okay. Mhm.
+Amos Elberg: and say yes or I I would want to I would want to be able to check what is it
+Amber Fu: Okay. Okay. Got it. Got it. Okay.
+ 
+ 
+00:45:14
+ 
+Amber Fu: Sure. And if like because if the this app really help you like let's say like save 100 bucks every month how much you need uh uh would like to pay?
+Amos Elberg: Um, if it was really that effective, I would think 10 or $15 a month would be reasonable.
+Amber Fu: Okay. Got it. Got it. Okay. Sure. Okay. So well uh do you have any question about that?
+Amos Elberg: No, I I I really, you know, I I wanted I want to support startup founders. So, anything that I can do to be helpful for you guys, let me know.
+Amber Fu: Uh okay, sure. You because you know it's a really super helpful you give us exactly what kind of like you know the real world content we need to help home run cheaper and smarter. So uh the last one thing is like once we have early version of the app ready uh would you be open to try it on the beta tester?
+Amos Elberg: Absolutely.
+Amber Fu: Okay, thank you so much cuz your opinion is really really important to us.
+Amos Elberg: Like I said, anything that I can do to be helpful, I want to support new startup founders. So, let me know.
+Amber Fu: Okay, thank thank you so much.
+Amos Elberg: Talk soon.
+ 
+ 
+Transcription ended after 00:46:44
+
+This editable transcript was computer generated and might contain errors. People can also change the text after it was created.

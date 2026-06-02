@@ -1,0 +1,1029 @@
+Mar 5, 2026
+Casally Interviews(Utility Bill&Solar Credit Consulting) (Edward Decker) - Transcript
+00:00:00
+ 
+Amber Fu: Uh hello.
+Edward Decker: Hello.
+Amber Fu: Hi Edward. How are you today?
+Edward Decker: I'm doing well on
+Amber Fu: Good. Good.
+Edward Decker: yourself.
+Amber Fu: Well, thanks again, you know, for taking time speak with us today.
+Edward Decker: Yeah, no worries. Thank you for the
+Amber Fu: Yes, I Yeah,
+Edward Decker: opportunity.
+Amber Fu: we truly appreciate your experience and the perspective. And you know what? Uh let me uh briefly introduce who we are and uh why we want
+Edward Decker: Okay.
+Amber Fu: to have this conversation. So uh we are building a company called the castle. So our vision is to become a financial layer for household energy and you know like today like most homeowner with a solar or battery don't actually understand how their bill is calculated and how credit are applies or whether they are truly saving the money. So we believe like there kind of like a gap between like a you know like what utility calculate what installer promise and like what home owner actually see. So we just trying to close that gap.
+ 
+ 
+00:01:24
+ 
+Amber Fu: Yes.
+Edward Decker: Okay.
+Amber Fu: And uh before we get start uh I just wondering know like which state or utility are you most familiar with?
+Edward Decker: Uh, so I guess for me, I've been on a national team probably for the last 13 years.
+Amber Fu: Mhm.
+Edward Decker: So I've worked all over the country and all over the world. um all on energy savings um projects at the building level. Um typically dealing with demand side um energy conservation um as
+Amber Fu: Got you.
+Edward Decker: far as solar and how it applies to utility bills. Um you know my primary experience has been on the commercial sector or in the commercial sector and mostly Texas, Arizona and California. um with California probably being the biggest um quite a bit in in Arizona and then some in Texas and then you know there have been some other smaller projects 2 megawatts here and there you know across the country but um those are the big
+Amber Fu: Got you. Got you.
+Edward Decker: ones.
+Amber Fu: Perfect. Cuz like our first market is in California.
+ 
+ 
+00:02:36
+ 
+Edward Decker: Yeah.
+Amber Fu: Okay, cool. So, uh yeah, let's start. So uh before we go deeper into uh technical question uh we love to briefly show you our uh current demo so you have a contact for what we're building
+Edward Decker: Hello. Hello.
+Amber Fu: and uh oh by the way I forgot to introduce our uh uh co-orker uh Ling Jet uh is also during the meeting with us uh he's our technic so yeah and he will share the
+Edward Decker: Nice to meet
+Amber Fu: screen okay Let's uh share the screen,
+Edward Decker: you.
+Amber Fu: please. Thank you. Uh just give me a second. Okay. Uh did you see the uh
+Edward Decker: I I see it. And I'll be honest,
+Amber Fu: screen?
+Edward Decker: um my my office is upstairs near the kids' bedroom. They're asleep right now. So, I'm on my laptop. It is a little small, but I can see it.
+Amber Fu: Okay. Okay.
+Edward Decker: Yes.
+Amber Fu: You can see did can you read the word?
+ 
+ 
+00:03:43
+ 
+Edward Decker: Yes.
+Amber Fu: Okay, perfect. Okay, so uh let me introduce uh a little bit I will quick go through. Um so as you can see like the top section uh is provide the environment and system contact. So we uh display like real time stud for household energy ecosystem like solar, EV and battery and uh grid connection. So user can immediately understand like a current state of their energy system and also like the weather context is include because like energy usage and the solar production are highly weather dependent. So um for this part uh from the system uh credibility standpoint like what system signal must be visible for homeowner to
+Edward Decker: Yes.
+Amber Fu: trust the data like solar production or like a battery uh state of charge. Uh hey I can you hear me? Oh,
+Edward Decker: I'm sorry.
+Amber Fu: okay.
+Edward Decker: Was that quas was that a question directed to me?
+Amber Fu: Oh, yes.
+Edward Decker: I apologize.
+Amber Fu: Yes. Yeah.
+Edward Decker: Okay.
+Amber Fu: The question Yes. The question is like for
+ 
+ 
+00:04:57
+ 
+Edward Decker: So, I actually have a question about that because you said you're um showing it real time.
+Amber Fu: Yeah.
+Edward Decker: When you brought up that list, I saw there it looked like there was a an electric vehicle being charged. Um maybe some type what what else was it?
+Amber Fu: Uhhuh.
+Edward Decker: Solar panels and uh power wall. Um, do you have any way to show what the load on the building is as well? So you can kind of, you know, see what's being what's being generated versus what's being consumed and and so you can levelize that?
+Amber Fu: Uh so you mean like uh you mean like for the those equip
+Edward Decker: No, not necessarily for the equipment,
+Amber Fu: equipment?
+Edward Decker: but for the whole building. Right. So, in my house right now, I have several lights on. I'm using a set amount of power and maybe I'm, you know, it's it's night time here, but if it's during the day, my solar panels are generating power or I have a battery bank that's generating power,
+ 
+ 
+00:05:57
+ 
+Amber Fu: Uh okay,
+Edward Decker: maybe we have some excess. So,
+Amber Fu: I got
+Edward Decker: do you have a way to kind of,
+Amber Fu: you.
+Edward Decker: you know, show what the consumption versus exporting is?
+Amber Fu: Yeah, that's a great question. So, uh in Italy, yes, but the goat is to understand like a full energy flow of a home but not just individual device. Uh this usually come from like a few different data source.
+Edward Decker: Okay.
+Amber Fu: So for example like utility interal data gave us like a total grade import and export and the solar monitoring gave us like a production and the battery show like a charging and
+Edward Decker: Yeah.
+Amber Fu: discharging and also like the EV charge can provide their own load data. Uh we like when we combine those together we can estimate the home's net load what's being like consumed inside the uh inside the house. So in some case like if the home has mean panel monitor or CT base energy monitor we can see the whole home load directly otherwise we infer it from the ava a available data set so uh because like right now we
+ 
+ 
+00:07:03
+ 
+Edward Decker: Okay.
+Amber Fu: don't have uh we don't have a hardware so only the app so you can like like only the API so Yes, that's it. But this is this is like a first stage and the second stage. The next stage we will have the hard wheel. But we didn't think about like what will be the hardware. We we try to like before we are thinking like maybe second meter or maybe a CT clam. We we we don't know yet. But what's your suggestion?
+Edward Decker: Uh I I think my suggestion as far as what the what you're showing there if it's available would be you know assuming you have um you know a solar system set up with panels,
+Amber Fu: Come
+Edward Decker: inverters and and a smart meter. Um, you know, ideally I guess and and you know, again, this goes back to me being typically in the commercial field rather than residential. You know, I don't know if if smart meters are if you can pull the data directly from the smart meter
+ 
+ 
+00:08:10
+ 
+Amber Fu: on.
+Edward Decker: or if that's something that, you know, would need to be sort of an add-on device for um for the end user to purchase or or whatever.
+Amber Fu: Got you.
+Edward Decker: So, um, but otherwise what you had there, you have all the the sort of what I would call maybe submeter or distributed generation assets shown. Um, yeah, I don't know that there's much
+Amber Fu: Got you. Got you. Thank you. And uh so okay.
+Edward Decker: else.
+Amber Fu: So let's move to the next part. So next part is our uh monthly monthly bill budget. So this is most is a like big different from most app. So this is not like a optimization target. So we're now trying to push the user the you know the bill as low as possible. So uh this is kind of like a tolerance boundary. So uh the basically just user telling the system oh if my bill end up about this number I feel like something went wrong. I want to early warning.
+ 
+ 
+00:09:18
+ 
+Edward Decker: Okay.
+Amber Fu: So uh basically this uh is we don't let user to tap any random number here. Uh it we just ground the go in two things. The first is like user last three monthly bill and the second is a current rate plan. So we just showing the recommend range and uh so the the the the monthly bill budget the goal part is what turn the app from the dashboard into decision system. So we we look at the same event like oh pick our EV charging and just you know ask like oh does this meaningful threaten the customer goals? Yes. And I don't know like if you really understand like what
+Edward Decker: Okay.
+Amber Fu: this
+Edward Decker: Well, I guess if you're I guess my question would be um
+Amber Fu: uh it's okay I can expl uh explain a little bit more.
+Edward Decker: Yeah.
+Amber Fu: Um so uh let's let's see okay so um let me let me think about okay so the goal is like not the automization it's more like a financial things like what we noticed from like talking to home owner is
+ 
+ 
+00:10:46
+ 
+Edward Decker: Mhm.
+Amber Fu: that many people don't actually try to minimize the their electric bill every day. what they really want is don't have any surprise bill. So for example, a home owner may think like, oh, my electricity bill should should usually be around 200 or like 150 a month. And so if something happen that may push the bill over to you know that amount like EV charging during the peak hour, the system can warn them early. So the budget is basically like a tolerance boundary. So I the the idea is that the system only surface action when the user financial boundary is at risk. So for for example like like if a user goal is like 120 if everything is normal the system stay quiet but if EV charging during the peak hour may push the bill to 150 then the app will surface a recommendation.
+Edward Decker: So I I hear what you're saying. I understand what you're saying.
+Amber Fu: Mhm.
+Edward Decker: I guess I'm trying to to differentiate um and separate the the not trying to optimize but warn when um you know you may be reaching the upper limit of a certain boundary.
+ 
+ 
+00:12:18
+ 
+Edward Decker: um you know in your the case you provided was EV charging during peak load hours um you know if in an op if if I guess you know an optimization strategy would be don't charge during peak hours. So um I I hear what you're saying. I guess it it might just take me a couple minutes to to process the the difference between, you know, I guess and my background is optimization and so yeah,
+Amber Fu: Okay.
+Edward Decker: shifting shifting gears a little bit. Um I I hear what you're saying. I just think the two kind of go hand inand. Um, you need to have those optimization strategies in order to be able to or at least have and understand those optimization strategies. Um, in order to warn the customer or the end user when they're approaching their upper limit um because otherwise letting them know that, hey, you're approaching your upper limit on for this month's bill. um without a strategy to to decrease that I'm you
+Amber Fu: Yes. Yes. Exactly. Exactly.
+ 
+ 
+00:13:30
+ 
+Amber Fu: So um so that's actually like a really really good point and you're absolutely right like the system still need to understand like optimization strategy in the background and well so um the difference is mostly at a product
+Edward Decker: Mhm.
+Amber Fu: layer instead like a automatic automizing everything we surface the situation to the user and let they them decide. So, for example,
+Edward Decker: Okay.
+Amber Fu: like the system may uh detected the charging the EV right now could increase the monthly bill by like $30. Uh instead of automatically stopping the charge, we show the user the impact and let them choose.
+Edward Decker: Okay.
+Amber Fu: So the Yeah. So the automization logic exists in the background,
+Edward Decker: Yeah.
+Amber Fu: but the product is designed a decision support rather than automatic control.
+Edward Decker: Okay,
+Amber Fu: Yes. Yes.
+Edward Decker: perfect.
+Amber Fu: Okay. So, perfect. And we can go to the uh let me see. Oh, give me a second. Okay. So, for uh for this part like from your experience working with uh like homeowner, do people think more in term of saving money or avoiding unexpected bills?
+ 
+ 
+00:14:56
+ 
+Amber Fu: What? What? What's
+Edward Decker: I I think if someone is downloading an app for their
+Amber Fu: Mhm.
+Edward Decker: utility um for their utility bill,
+Amber Fu: Mhm.
+Edward Decker: particularly if someone has solar PV already, you know, those type of assets, distributed generation assets on their on their house, um they're probably looking to save money. Um, not all, not all, but I would think,
+Amber Fu: Okay.
+Edward Decker: you know, I would think lowering your utility rate or your utility bill is probably more important or at least as important
+Amber Fu: So,
+Edward Decker: than as as is um, you know, limiting unexpected bills. you know, our utility bill, my my utility provider um just upped their rates significantly and our January bill
+Amber Fu: Mhm.
+Edward Decker: was, you know, 30 40% higher than it was in December. Um being in the industry, I knew that was coming, was prepared for it, you know, we we understood it. Um, friends of mine didn't know it was coming and they they they're they were shocked.
+Amber Fu: Mhm.
+Edward Decker: So, the unexpected bill happens.
+ 
+ 
+00:16:14
+ 
+Amber Fu: All
+Edward Decker: Um, you know,
+Amber Fu: right.
+Edward Decker: I'm not I I'm not sure how the residential tariffs are in in California. Um, so I don't know if they're, you know, how the demand structure um works. um you know if it's ratcheted or um you know if you when you set a demand pe a peak demand if it's over a 12-month period um I know that you know those
+Amber Fu: Mhm.
+Edward Decker: unexpected bills typically when they happen in the commercial side um there's usually going to be a a flow through um in the later months too. So, I kind of went off on a little tangent there. I guess to answer your question,
+Amber Fu: Gotcha. And uh do you familiar with a tariff like the calculation because like well I have one question is like from uh tariff modeling perspective like how sensitive are residential bill to small behavioral change like EV charging type.
+Edward Decker: It depends on the tariff, right? Um particularly with uh you know time of use spilling,
+Amber Fu: Okay.
+ 
+ 
+00:17:29
+ 
+Edward Decker: it can be very sensitive. if you have um if there's a a significant demand component um and and that demand is ratcheted and all of the sudden you're charging your EV um during a peak peak period at a high rate, you know, you could be setting your demand for the next 12 months and paying for that um you know, across a year. So, you know, typically I think they're they're very sensitive to that type of Yeah.
+Amber Fu: Gotcha. Got you.
+Edward Decker: consumption.
+Amber Fu: But like under the tu uh uh is it like a marginal cost difference large enough for behavioral like shift to matter?
+Edward Decker: Uh, yes. Yeah. I I think so. I think if you can get someone to charge their EV, um,
+Amber Fu: Okay.
+Edward Decker: plug it in before they go to bed rather than when they come home at night, you know, your time of use rate might go from 25 cents at 4:00 down to, you know, 12 cents at 8:00 at night or later, right? And I and I don't again I don't know the specific tariffs that we're referring to but you know that's a 50% difference on a significant load in the building.
+ 
+ 
+00:18:52
+ 
+Edward Decker: Um you know and when we start to incorporate um you know distributed assets like solar PV you know you're not you're no longer generating your your
+Amber Fu: Mhm.
+Edward Decker: house is fully consuming and then you're adding a big load on top of that. It it can it it behavioral changes do certainly impact the utility
+Amber Fu: Gotcha. Gotcha. Thank you so much.
+Edward Decker: bill.
+Amber Fu: And then that's really uh helpful uh suggestion. So and uh we can go to the next and under the monthly bill budget is like a saving part. So the saving is uh it's not like a reward. It's more like how user reason behavioral of v his uh selected goal. So if the uh the uh the if like the monthly bill budget is like kind of like a financial to tolerance boundary and the saving just show how much buffer the user currently have and um so like well I have a question for this one. So like when homeowner talk about the saving are they usually uh referring to like a utility bill reduction or full system ROI including the finan financing.
+ 
+ 
+00:20:16
+ 
+Edward Decker: is what the homeowner is looking for.
+Amber Fu: Yeah.
+Edward Decker: I think they're just I don't think they're looking at ROIs.
+Amber Fu: Okay.
+Edward Decker: Uh my experience shows that um you know at the homeowner rate level if they're looking for a return on investment, they're looking two years tops. Um, so you know,
+Amber Fu: Mhm.
+Edward Decker: the the immediate impact to the bill is is typically what what we see as most kind of impactful from a user standpoint or from a a customer standpoint.
+Amber Fu: Got you. Got you. Got you.
+Edward Decker: Yeah.
+Amber Fu: Okay, perfect. Thank you. And um and for uh under the saving the next part will be the our uh we call the execution card. So this where the system move from awareness to action. So this is this part is you know can maybe uh little bit explain more for the monthly bill budget and the saving. So the is uh execution card is always trigger relative to the user select goal. So the answer is what just answer one question like what action right now would be meaningful reduce risk related to the user goal.
+ 
+ 
+00:21:28
+ 
+Amber Fu: So for example the uh execution card show the power outage warning but it could also be like EV charging during the peak or battery charging at a high price or solar performance or like a euro grade import. So the account content change but the uh structure stay uh constant and uh and when you and you click when you click view more and I can click any like maybe it's just charging through the uh high price uh Wait. Okay. So, uh uh so for this one uh you can see there have uh like kind of uh like more detail stuff like what happened and uh like why matter how impact. So it it's more it's more like a detail page which explain the
+Edward Decker: Mhm.
+Amber Fu: reasoning behind the recommendation. s***.
+Edward Decker: No, that's good. Um, yeah, and we've done this with our demand reduction strategies. um you know when when we when we implement those in uh particularly in the federal space um you know
+Amber Fu: Mhm.
+Edward Decker: when we know peak rates are going to be coming and we we send out sort of options to the end user um you know having the the the why it matters
+ 
+ 
+00:23:16
+ 
+Amber Fu: Mhm.
+Edward Decker: and how it impacts I think is is a very nice feature to help them make a decision on how to keep that bill Oh,
+Amber Fu: Yes.
+Edward Decker: heat.
+Amber Fu: And and for for this part it is there any like question or is there any part you're kind of confused?
+Edward Decker: No, I I think that's I think this is really
+Amber Fu: Okay. Okay. Thank you.
+Edward Decker: good.
+Amber Fu: And well under uh like a residential TU tariff. I have a one question is like which behavior usually creates the largest cost exposure for from your
+Edward Decker: From a residential
+Amber Fu: experience?
+Edward Decker: standpoint,
+Amber Fu: Yes.
+Edward Decker: I think thermostat set points are sort of probably I don't see them all on your list here, but I think that's something that um you know your your EV charging is is there. they might be doing that during a high price, but um you know, if you integrate a smart thermostat and and you haven't done a a temperature setback on it, that that would be something that I would kind of integrate.
+ 
+ 
+00:24:43
+ 
+Edward Decker: That's that's one of the first ones that that I typically
+Amber Fu: Mhm. Got you.
+Edward Decker: target.
+Amber Fu: And uh and some people uh because we talk speak some uh homeowner they said like uh the EV charging uh the AC and and some someone said the heater thing and also like a
+Edward Decker: Mhm.
+Amber Fu: pole bombs uh the pole the poo
+Edward Decker: I'm sorry. What was that?
+Amber Fu: the pole bombs. Yeah.
+Edward Decker: Yeah.
+Amber Fu: And also like uh I think some uh home owner they think the laundry will be cost a lot but I don't know that exact true for your experience.
+Edward Decker: Um, I think the laundry would be highly dependent on what type of, you know, machine I have. Yeah,
+Amber Fu: This the Okay.
+Edward Decker: if you're if you're running an electric dryer, um, yeah,
+Amber Fu: Mhm.
+Edward Decker: maybe. Um, but if you have a natural gas dryer and you know, I don't you're not you're not really impacting your load at all. Um, I don't and I don't know what a washing machine is rated at, but um I I I think having your larger equipment, the air conditioning, the heat, um, pool pumps, things like that running, I think are probably more impactful.
+ 
+ 
+00:26:06
+ 
+Edward Decker: I would have to go and look at the name plate ratings on typical washer and dryers though to really understand
+Amber Fu: Mhm.
+Edward Decker: what the KW impact is of of those pieces of equipment.
+Amber Fu: Got you. Got you. Okay. Thank you. And uh Okay. So, we can uh move to the next part. Uh we can go back to the home and uh Okay. So, under the execution card, this is a usage. Uh so the basically like the the usage provide the layer behind the goal and execution is allow allow like user to see how their consumption maps to t use uh structure of and like financial exposure and so like when like the mapping interal data to to uh I have a question is like are there tier threshold or seasonal baseline that we must apply before the calculating exposure.
+Edward Decker: probably both. I think the time of use is both seasonal and um time based which is why the your hour having an hourly calculation is is critical
+ 
+ 
+00:27:17
+ 
+Amber Fu: Mhm.
+Edward Decker: 8760 um running in the background. Um, and then you apply your seasonal rates because typically what you'll have is you'll have um summer off peak, summer on peak, winter off peak, winter on peak, and then you'll have your time of use rates within those four blocks. Sometimes there's there's more blocks than that. They have a like a high, medium, and low peak. Um, but then within each of those blocks, oftentimes you'll have hourly um time of use. So, you kind of have to layer them. Um, you you would have to layer them
+Amber Fu: Got you. But do daylight saving uh shift or holiday override
+Edward Decker: all
+Amber Fu: affect like a to mapping in real building uh engines.
+Edward Decker: the the utility I don't think so.
+Amber Fu: Mhm.
+Edward Decker: Um the So the way they're they're typically laid out is um you know you'll have dates March March 1st, March 30th, whatever through September is your summer
+Amber Fu: Bye-bye.
+Edward Decker: time, your summer block. And then you'll have your onoff for high, medium, low, whatever your your peaks are.
+ 
+ 
+00:28:45
+ 
+Edward Decker: and then your your hourly structure within those.
+Amber Fu: All
+Edward Decker: Um I I I don't think daylight savings time
+Amber Fu: right.
+Edward Decker: is going to impact it. Now what savings what daylight savings time will impact will be a shift in the load coming from the building. Um just you know because the load of the building is going to be greatly weather dependent. So when you shift, you know, it's it's going to be kind of a time function, right? You're just sliding things back or forward by an hour on the load profile, but the load profile is probably going to be an input. So I I don't think it's really going to matter a whole lot for
+Amber Fu: Got you. Got you. Thank you so much.
+Edward Decker: you.
+Amber Fu: And that's really valuable for to us. And okay, so Oh, and uh one more question is like when utility applied to rate is is a mapping typically done directly on interval data like
+Edward Decker: Not sure for not sure for residential for um for for
+ 
+ 
+00:29:54
+ 
+Amber Fu: Okay.
+Edward Decker: commercial and and some of the larger tariffs. Yes, it's it's typically down to 15 minute interval data and that interval data is what's what's used for the time of use rate structure as well as setting your demand um for the various um block components.
+Amber Fu: Gotcha. Gotcha. Thank you. And okay. So, and we uh we then let's move to the next tab, the event. So the the the event is like a s uh section is like is uh you know like the homepage show like financial tracking and events capture like meaningful system change that may infect cost or like real liability. So we're not try to like try to do like like a notification is more like a decision moment.
+Edward Decker: Okay.
+Amber Fu: So basically like event triggered when the system detect like uh EV charging during the peak hour or solar device offline or like a schedule outage or server weather or like behavioral uh change from from the the user's goal. Um so when uh so for for this part uh I have a one question is like from the buildings standpoint like oh I I know like EV charging during the pig or like a battery charging during the pig or like solar explode timing is more in fact the financial impact but like what else do you think may be also in the financial impact.
+ 
+ 
+00:31:40
+ 
+Amber Fu: I just try to like Is there something we're missing?
+Edward Decker: The power outage certainly helps your financial
+Amber Fu: Okay.
+Edward Decker: impact.
+Amber Fu: Yeah. Yes. Yeah.
+Edward Decker: Uh I think the severe weather is um is one. I think one in in a lot of the predictive models we're utilizing um one of the the big ones for us is more um severe heat. You know, typically severe weather, if you're talking thunderstorms or some type of of rain or wind event,
+Amber Fu: Mhm.
+Edward Decker: that doesn't necessarily um impact your uh your utility bill. In fact, it might help. You know, rain comes, it's usually a little cooler. people tend to open their windows,
+Amber Fu: Hello.
+Edward Decker: things like that. But, um, if you're if your for if the forecast is for severe heat, um, that is that is certainly something that you would want to watch out for from a utility bill standpoint and how it's going to impact your cost structure.
+Amber Fu: Gotcha. Gotcha. Oh, and one more question is uh for uh I always have question for the power outage because uh I used to live in the uh the Pasadena in yeah near the LA and um so I never have like had a power outage the situation but uh some of my friends uh live in San Francisco they they they have some like sometime they will have a power outage thing.
+ 
+ 
+00:33:14
+ 
+Amber Fu: So uh my question is like if we like like if like first is like in California in your experience how common are a planned outage like PSPS.
+Edward Decker: uh planned outages, my understanding is depending on the utility, they can be fairly regular. Um you know,
+Amber Fu: Tell
+Edward Decker: rolling brown outs and and things of that nature. Um they're they're pretty regular.
+Amber Fu: people
+Edward Decker: Um I So if they're announced, you know, I think one of the things you that would be potentially beneficial would be a warning. Hey, there's going to be a brown out tomorrow most likely. You know, make sure your batteries are charged or um you know, you've taken care of all that stuff beforehand. Um but otherwise, again, you know, when you have a power outage, your utility bill isn't being impacted in any type of negative way typically.
+Amber Fu: Mhm. Gotcha.
+Edward Decker: So,
+Amber Fu: But if we want to build a useful outage f uh feature for a homeowner like what information would matter
+Edward Decker: uh, from a power outage standpoint, if you're able to,
+ 
+ 
+00:34:22
+ 
+Amber Fu: most
+Edward Decker: um, take the announced outages, right, the I forget what the, um, utilities, I think, are supposed to provide 24-hour notice for brownouts. Um, but if you're able to send an alert to to your user base that is in a certain area that says, "Hey, you're going to have a power outage tomorrow due to peak load and and grid constraints."
+Amber Fu: 3.
+Edward Decker: um you know recommend storing batteries, making sure things like your EV charges are are your EV batteries are charged, your um you know,
+Amber Fu: Got you.
+Edward Decker: I guess if you if you have any type of um you know, battery cells with your solar PV system, you know, things like that, I think that would be pretty helpful.
+Amber Fu: Got you. But uh so because like I heard like in California many outage are not uh like early to like some they are well early warning like before 24 to 72 hours but some are not.
+Edward Decker: Okay.
+Amber Fu: So if we want to build useful outage future for homeowner,
+Edward Decker: Yeah.
+Amber Fu: what signal should we monitor?
+ 
+ 
+00:35:43
+ 
+Amber Fu: If how about if like the utility company there even like they just like like today outage that's it. What is there any way we can like maybe earlier than the customer to know that?
+Edward Decker: I I think what that would be is um integrating um weather models into your system, right? Because that when they do when they do rolling brownouts,
+Amber Fu: Okay.
+Edward Decker: so if it's not if it's not caused by an emergency situation, lightning strikes, high winds, blowing down lines, things like that, and it's it's actually the utility that's shutting down the power, it typically coincides with high temperatures. um during peak hours. So, you can take uh weather data and predict um you know,
+Amber Fu: Mhm.
+Edward Decker: and this is probably one where you might want to do like a green, yellow, red warning for the likelihood of potential rolling brown outs in your area based on the temperatures and and you know, peak times or whatever it is that you're that you're looking at. Um, you know, if if they're not announced and they're just shutting off the power, you can I think most people would have a pretty good idea of when that's going to happen.
+ 
+ 
+00:37:03
+ 
+Edward Decker: You can probably integrate that in the app.
+Amber Fu: Got you. Got you. That's that's Thank you so much.
+Edward Decker: You definitely
+Amber Fu: That's really valuable information. So uh for like non-emergency outage or like a rolling the brown out the weather can be like very important leading signal
+Edward Decker: Yeah,
+Amber Fu: right.
+Edward Decker: I I I think uh for for an app you're building like this, one of the inputs that I would certainly be bringing in would be um you know, predicted weather.
+Amber Fu: Mhm.
+Edward Decker: Um yeah.
+Amber Fu: Got you.
+Edward Decker: Yeah.
+Amber Fu: So beside the temperature, are there any another signal you think we should include like for example like utility alert or like a low local grade conditions or or anything that maybe we should be careful
+Edward Decker: So on on the commercial scale,
+Amber Fu: with?
+Edward Decker: one of the things that we that we run into is um alarm fatigue is what it's
+Amber Fu: Mhm.
+Edward Decker: called. And on on like building EM energy management control systems, you know, if you're sending out a hundred alarms a day, the guy that monitors the alarm doesn't do anything with any of them because it's just alarm after alarm after alarm.
+ 
+ 
+00:38:25
+ 
+Edward Decker: So what we try to do is we try to make sure that alarms are
+Amber Fu: Oh,
+Edward Decker: um actionable and impactful, right? So, we want to we want to cut that down to from a 100 to to maybe three true alarms and have the others be
+Amber Fu: heat.
+Edward Decker: warnings. Um, if you start to incorporate beyond high temperature and start to look at maybe, you know, the next one would probably be high winds. Um,
+Amber Fu: Mhm.
+Edward Decker: but if I I probably wouldn't go beyond high temperature or high wind. Um, and you know,
+Amber Fu: Mhm.
+Edward Decker: high high wind or advisories are are typically uh well, I don't know about California, but in in many areas, they're more isolated and more kind of um like a microclimate issue,
+Amber Fu: Mhm.
+Edward Decker: at least from an early development standpoint, I would probably stick to um high temperature. Um, but when you're bringing the weather data in,
+Amber Fu: Mhm.
+Edward Decker: you're probably going to be bringing in temperature, humidity, wind speed,
+Amber Fu: Mhm.
+ 
+ 
+00:39:31
+ 
+Edward Decker: um, trying to think of what the other metrics that are typically brought in are, but you know, just I would just pull weather data from from Noah.
+Amber Fu: All
+Edward Decker: And no is a very good source of weather data and predictive weather data and you can
+Amber Fu: right.
+Edward Decker: um you know it's it it doesn't take up much memory and you can you know when you want to add features later on it's it's accessible all the data is there and then you can decide what to do with it from
+Amber Fu: Got you. Got you. That's really important point.
+Edward Decker: there.
+Amber Fu: Seriously, that's really important for because I know like alarming is like a big issue in energy system. So, so our approach is to uh filter event through the usage financial goal. So, the system doesn't alert on every event only when is meaningful affect the
+Edward Decker: Yep.
+Amber Fu: accepted bill. So uh in your experience like what make an alert actually actionable for the end of user.
+Edward Decker: you know, from a thinking as a residential consumer,
+ 
+ 
+00:40:43
+ 
+Amber Fu: Mhm.
+Edward Decker: I would say high temperatures leading towards um potential brownouts, meaning I'm going to lose power, is an actionable item. And then um the other one would be overall demand. Um and I guess I probably should have asked this earlier but
+Amber Fu: Mhm.
+Edward Decker: um the a lot of people don't understand the difference between electricity and electric demand and how they're built and and what they actually are. Um so demand is in instantaneous where electricity uses is the demand over time right the rate function.
+Amber Fu: Mhm.
+Edward Decker: Um when you're starting to reach a high demand point is when I would like an alert
+Amber Fu: Mhm.
+Edward Decker: because what that is going to do is that's going to let me know that hey my demand is high. That's going to have a an immediate impact on my bill. But if my demand's high, my electricity consumption is also going to be high. So, I'm gonna want to try and back that down because I, you know, I'd prefer to have a nice level consumption.
+ 
+ 
+00:42:08
+ 
+Edward Decker: I don't want these big peaks and valleys. Um, so I I would think something where you start to approach a peak demand. Um, you know, where pay your solar device, your your solar generation is offline or not generating right now. um your your batteries are depleted, so you're you're fully on the grid. Oh, and you just plugged in your your EV system and your pool pump is about ready to cycle and you're you haven't set your thermostat back. So, you know, you have all these items that are all going to be um um cooling power once. That that would be something that would be a nice nice to have.
+Amber Fu: Got you. Got you. So, but for residential home like what kind of applies you really create those demand?
+Edward Decker: I'm sorry.
+Amber Fu: uh for like in a residential home like for residential home like what kind of applies
+Edward Decker: Mhm.
+Amber Fu: like I don't know like a AC or like a heater usually create those demand Hi.
+Edward Decker: Everything. So any every anything that's using electricity has some type of demand component to
+ 
+ 
+00:43:12
+ 
+Amber Fu: Okay.
+Edward Decker: it. Um, so you know, an old incandescent light bulb,
+Amber Fu: Okay.
+Edward Decker: that's a 60 watt light bulb. When you have that light bulb turned on, you're pulling you're you have 60 watts of demand. If you run that light bulb for one hour, you have 60 watts of demand, but you have 60 watt hours of electricity. So,
+Amber Fu: God,
+Edward Decker: anything that's using electricity is both hit is hitting both your demand and your electricity.
+Amber Fu: you
+Edward Decker: So you want to keep your demand low and you keep that demand profile low that keeps your consumption low and and whenever you do a um you know whenever we look at optimizing buildings and strategies that's that's typically um you know that's that's typically what we're looking
+Amber Fu: Got you. Got you.
+Edward Decker: at.
+Amber Fu: Thank you so much. That's really valuable information. Help us. Thank you.
+Edward Decker: Mhm.
+Amber Fu: And okay, so and we can go to the next the saving part.
+ 
+ 
+00:44:19
+ 
+Amber Fu: So the saving part uh I may take a little bit time here. Um so we uh separate the saving from the bail. So basically the tab you can see the two. So saving is more like a behavioral impact and the bill is more like official utility accounting. So we don't want to user to count the $55.8 that's a that's is more like a cumulate avoid cost based on event level adjustment. So uh and uh for here I have one uh question. And so if we calculate saving based on the counterfactual mo modeling like what baseline would you consider defensible like a same month last year or like a weather normalized or like a tariff uh things like what what do you change.
+Edward Decker: all three. Um I typically you need to have a strong baseline. You want to um normalize the data based on weather and then it also has to
+Amber Fu: Mhm.
+Edward Decker: fit in the tariff. Um, you know, for what your actual savings are,
+Amber Fu: Mhm.
+ 
+ 
+00:45:47
+ 
+Edward Decker: I think that's a pretty straightforward calculation, though. Um, you know, because this is all in real time. There's nothing really predictive. It's not like you're Well, I guess it is predictive, right? You're trying to tell them what they're saving on a future bill, but I think it's all measurable. So I I think I think whatever is measurable you can you can quantify based on what the utility tariff
+Amber Fu: Uh-huh.
+Edward Decker: is.
+Amber Fu: Okay. Uh so for this part uh I have a few question. Uh the first is uh for um let me let me think. Okay. So so if we want to saving calculation to be credible, what baseline would you recommend we anchor to? Like for example like a same tariff without a behavioral change or like a weather normalized model or cuz we we still like figure out this this part. We want to you know like calculation correctly.
+Edward Decker: Ah, so this is this is getting to the art of uh energy savings here.
+ 
+ 
+00:47:14
+ 
+Edward Decker: Um,
+Amber Fu: Yes.
+Edward Decker: I I I think it's going to depend on the the action and the behavior that is saving energy. It's going to depend on the tariff. Um, you know,
+Amber Fu: Mhm.
+Edward Decker: there there are quite a bit of there there's some easy calculations. Sorry, my dog is uh kind of being a nudge right now under the table here. Um, you know, if you if you're saying your EV is plugged in right now and it's it's I don't know, whatever the number is, however many watts it's pulling, and you're saying don't plug it in now because the rate's 25 cents a KW. plug it in later when it's 15 cents a kWh um and it takes an hour to charge your EV. That's a that's a very straightforward calculation.
+Amber Fu: Mhm.
+Edward Decker: Um when you start getting into um you know predictive modeling for uh hey it's going to be hot tomorrow. you might want to turn your while you're away, make sure you turn your thermostat back so that the temperature is higher.
+ 
+ 
+00:48:34
+ 
+Edward Decker: Um, you know, your your predictive savings are going to be whatever the deltat t is um for that equation and um you know that that's your prediction. The problem then becomes, you know, what happens when that that weather cell didn't move in and instead of it being 103 degrees out, it was 88 degrees outside, right? Um,
+Amber Fu: Hey.
+Edward Decker: so I think that's where you if I'm trying to defend the savings, I would have my um predictive savings. I would separate probably predictive savings versus um what the realized savings were based on, you know, what what weather actually happened. So you would probably have to calculate it twice. Um, you know, and this kind of goes back to you're not trying to optimize um versus, you know, trying to stay within limits. um you know I I I think establishing a
+Amber Fu: Mhm.
+Edward Decker: baseline is sort of something that you would do to let the the end user know, hey, you know, your your energy consumption for your building is higher right now than you know your
+ 
+ 
+00:50:01
+ 
+Amber Fu: Mhm.
+Edward Decker: neighbor, right? You're spending 20% more than your neighbor.
+Amber Fu: Okay.
+Edward Decker: That's where you're establishing your baseline. Your baseline is high. You should probably take a look at more actionable items than your neighbor.
+Amber Fu: Mhm.
+Edward Decker: And then you would compare that to um you know what they've done and what your actual energy savings calculations are. Um you know weather normalization comes in for you know predicting solar versus what's actually going to be there. It's I I quite frankly I I don't know that we have enough time on this call to really get into the the nitty-gritty of how to do the energy savings piece,
+Amber Fu: Sure. Sure.
+Edward Decker: but um you know that's that's
+Amber Fu: Yes. Yeah, we we can talk uh like next time.
+Edward Decker: my
+Amber Fu: But this is really helpful. Thank you. Because we never thought about that part. Okay.
+Edward Decker: Yeah.
+Amber Fu: We we can like for this part we can save to the next time.
+ 
+ 
+00:51:00
+ 
+Amber Fu: Yes.
+Edward Decker: Yeah,
+Amber Fu: Thank you.
+Edward Decker: if it's it's a
+Amber Fu: Okay. And yes. Yeah. I knew I knew.
+Edward Decker: lot.
+Amber Fu: Yes. It's a lot we need to figure out. Okay. So and the next part will be like the event for this one is basically uh we try to like break down the each event uh it's like more like a event level saving attribution. So uh as we attribute like saving by system category uh uh and and just keep saving explan Xplan label and uh you when you click on the any like EV charging part. Yeah. And there will have a detail we break down like each each time and when you click anything any of those there will have the bottom sheet. So this more like the detail page uh where we uh it's a calculation logic like a energy chart pick over I'll pick over different formula stuff like that. So um yes this that's that's about it and like for here I have one question is like should we separate like a generation side saving and deliver side saving or blend calculation.
+ 
+ 
+00:52:31
+ 
+Edward Decker: I think the more granular you get it, the better and more credible your system can be, your your app would be. Um, and then you know how you present it.
+Amber Fu: Um
+Edward Decker: I can you go back um the previous screen? So,
+Amber Fu: yes.
+Edward Decker: with with energy savings at the building level, um the way the way I like to look at it is, you know, it's a bunch of breadcrumbs. You're saving a little bit here, a little bit here, a little bit here, and you get enough breadcrumbs, you have a slice of bread. Um so, uh seeing it granular like this is good. Although,
+Amber Fu: Mhm.
+Edward Decker: um you know, this is just on the on the EVs and I can't see is that on at different days. It looks like four different things,
+Amber Fu: Uh yes.
+Edward Decker: two different models.
+Amber Fu: Yes.
+Edward Decker: Um, yeah. You don't I, you know, I if you're selecting this asset EV charging say and you want to see
+Amber Fu: Mhm.
+ 
+ 
+00:54:00
+ 
+Edward Decker: based on taking the recommendations of the app what your
+Amber Fu: Mhm.
+Edward Decker: savings are for this month or what the impact is. Um, I think having it like you had it there and then having this screen that that was just up those two screens I think are very impactful, very helpful.
+Amber Fu: Mhm.
+Edward Decker: Um, can you go to the individual register the wrong
+Amber Fu: Yeah. Uh you mean the the detail part?
+Edward Decker: card? Yes.
+Amber Fu: Okay. Uh
+Edward Decker: So what I think I would show there Oh. Oh,
+Amber Fu: Mhm.
+Edward Decker: I think you have it on how we calculate it.
+Amber Fu: Yes.
+Edward Decker: Yep. Uh, no, that I think that's that's pretty good information that you have there. Um, yeah, I think that's good because it's there. I think the average homeowner doesn't really care how it's calculated as long as you show that it's calculated. So, I think that's good. Do you have other do you show other assets like what your solar PV is generating versus
+ 
+ 
+00:55:14
+ 
+Amber Fu: Yes. Yes. Um we can go back and just quick quick look.
+Edward Decker: Okay. Um, you know, when you talk about savings from solar panels, I don't know that you want to look at it as a savings, if memory serves me correctly. Well, you're you're going to want to show two components for for solar PV, right? You're going to want to show the direct energy savings for when you're consuming the energy. And then you want to show what the revenue generated through exporting energy. So you might want to have one more um one more line item on on this solar PV here.
+Amber Fu: Okay.
+Edward Decker: Um maybe maybe I I
+Amber Fu: Um so so uh okay so for here I have a question and uh for the um let me see what I should so so basically your suggestion like the for the solar we should separate the uh two comp uh two component is that one is a self contribution saving and another is export credit revenue Okay.
+Edward Decker: I I I think
+ 
+ 
+00:56:47
+ 
+Amber Fu: Okay. Okay. Got you. Got you.
+Edward Decker: so.
+Amber Fu: But do you think the homeowner usually understand the difference between those two today?
+Edward Decker: No, but I think that's why they're using your app, right?
+Amber Fu: Got you. Got you. Yes. Yes.
+Edward Decker: Right.
+Amber Fu: Exactly.
+Edward Decker: They they want to understand their their utility bill a little more. So, if you can break out and show them that,
+Amber Fu: Uhhuh.
+Edward Decker: hey, when you're using this energy versus when you're exporting, because I think what you're also going to find is that when you're actually utilizing the energy,
+Amber Fu: Mhm.
+Edward Decker: you're probably going to be your your dollar savings is going to probably be a little higher um than when you're exporting just because of the net rates that they're that they're paying you for them. Um, and if you're exporting, you're probably not at your own peak. It's probably a lower rate. So, I I think I think they might see a little a little bit of benefit showing kind of what the difference is, but you know, that might just be me.
+ 
+ 
+00:57:49
+ 
+Edward Decker: I I don't know. I But I I think yeah, that might be
+Amber Fu: Okay, gotcha.
+Edward Decker: helpful.
+Amber Fu: And um also uh so under like in California tariff uh is it self constriation usually m much more valuable than export credit
+Edward Decker: Yeah. So, the the annual um that's the
+Amber Fu: like
+Edward Decker: NEM3.0, right? I I haven't done a whole lot with that yet. So, I'd have to look into it a little more before when it was um you know, when when the trueups in the 1.0 and the 2.0 happened,
+Amber Fu: Okay.
+Edward Decker: they happened um monthly and I think then it was really impactful. Um, you're right though, annually it might might not. Yeah, that maybe it's not as uh important then. I'm Yeah, I'm not sure.
+Amber Fu: Got you. It's okay. It's It's okay.
+Edward Decker: Yeah, something to think about
+Amber Fu: And yeah, sure.
+Edward Decker: though.
+Amber Fu: Sure. Definitely. That's really helpful. And uh that actually, you know, connect to the next part we where we try to uh risk uh reconstruct the utility bill itself.
+ 
+ 
+00:59:11
+ 
+Amber Fu: So next part the the the bill part. So this is uh our uh last part. So here we are mirroring the official bill uh structure based on service chart deliver adjustment uh special fund we want to every dollar can be traceable.
+Edward Decker: Yep.
+Amber Fu: So um so if you were reconstructing a residential bill, what is the crack order of the operations like?
+Edward Decker: I I don't think there's a a correct order. Um yeah, I think it and it's going to depend on the utility tariff,
+Amber Fu: Okay.
+Edward Decker: but um you know what what you'll see on actual utility bills is they the utility company will switch it around. Um, I think what the customer is going to care about, um, you know, they're they're seeing the service charges,
+Amber Fu: Mhm.
+Edward Decker: I I I would probably put them at the bottom. Um, the service charge that $2460, $24.60. That's probably going to be $24.60 for every single one of their bills,
+Amber Fu: All right.
+Edward Decker: right? That's a service charge.
+ 
+ 
+01:00:26
+ 
+Edward Decker: Um the wildlife fund charge, I don't know if that changes or not, but I think that's a fixed rate. Um I it does look like though you're you're missing um
+Amber Fu: Mhm.
+Edward Decker: you have delivery charges, but then do you have um consumption on there as well?
+Amber Fu: Uh, no, I don't think so.
+Edward Decker: So I I think that's that's going to be a pretty big component to the bill, right?
+Amber Fu: Got him.
+Edward Decker: um or maybe it's still maybe delivery is the KWH but then you don't have your demand charges.
+Amber Fu: Mhm.
+Edward Decker: Um so there there's two again this gets back to the demand versus the uh consumption right your delivery and and and your your electricity versus your your your demand.
+Amber Fu: Mhm.
+Edward Decker: Um there those are kind of the two big ones that I would want to see that I think are most impactful and they're also most variable. Right?
+Amber Fu: Got
+Edward Decker: Again, your service charge isn't going to change monthto monthth. So no matter what you're doing,
+Amber Fu: you.
+ 
+ 
+01:01:31
+ 
+Edward Decker: what recommendations you make in the app, you're not going to impact those. So I I would move those to the bottom. Um um and again it depends on the tariff but there's you know some tariffs you're going to see you know four different variable charges. Um they might there might even be more if you're in time of use because it's going to be at you know they'll show what your consumption is um at a particular KW rate.
+Amber Fu: Mhm.
+Edward Decker: So here you might want to have there might be, you know, five, six lines here that are that are kind of critical.
+Amber Fu: Mhm.
+Edward Decker: Um,
+Amber Fu: Gotcha.
+Edward Decker: but I would I would put those up
+Amber Fu: Gotcha.
+Edward Decker: top.
+Amber Fu: Um so well that's really makes sense like since every you know utility structure the bill is really differently so would it make sense for us to
+Edward Decker: Yeah.
+Amber Fu: define a common set of charge category?
+Edward Decker: You can do that.
+Amber Fu: Okay, got
+Edward Decker: Yes. And that's where you would have uh electricity,
+ 
+ 
+01:02:36
+ 
+Amber Fu: you.
+Edward Decker: you would have demand. Um, and I I'm going to apologize again here. It's been a it's been a crazy week and I didn't get to research uh California residential
+Amber Fu: It's okay.
+Edward Decker: tariffs,
+Amber Fu: It's
+Edward Decker: but um I I know in in in some states they're they're electric choice states.
+Amber Fu: okay.
+Edward Decker: I don't think California is one of them. Um, but you can buy commodity as a residential consumer. You can purchase commodity power um that's still then delivered by your um by the by the local utility provider.
+Amber Fu: Mhm.
+Edward Decker: So, you know what I would probably do if I were breaking out my utility rates? I would have my electric consumption, my electric demand, I would have service charges, and then, you know, if you're trying to put everything together in in the most kind of tight boxes, I would probably also put commodity purchasing. Um,
+Amber Fu: Uhhuh.
+Edward Decker: if because I if I understand this, you're you're starting with California, but ultimately you're going to roll out to, you know, multiple states,
+ 
+ 
+01:03:46
+ 
+Amber Fu: Yeah.
+Edward Decker: multiple um end users, right? Um that that would be probably the other um line item that I would want to
+Amber Fu: Gotcha. Gotcha.
+Edward Decker: see.
+Amber Fu: And are there any charge category that should never be offset by solar credit?
+Edward Decker: Yeah. Your service charge isn't going to be offset by Is that Is that what you're
+Amber Fu: Oh yes.
+Edward Decker: asking?
+Amber Fu: Like
+Edward Decker: Yeah.
+Amber Fu: Yes.
+Edward Decker: your your service charges, like I said, that that service charge is is part of your
+Amber Fu: Uhhuh.
+Edward Decker: bill. And this is where this is where a lot of um end users get confused. And I think um you know, like the the the the current residential solar sales folks um I think they're kind of snake oil salesmen to be perfectly
+Amber Fu: Uh
+Edward Decker: honest with you a bit. Um, this is where there's there's my experience shows that there's quite a bit of confusion because um, these guys are coming in and they're saying that your bill is, you know, $100 or or X number of dollars and you're um, you know, you're you're consuming Y number of KW and we're going to put, you know, this size system on your house.
+ 
+ 
+01:05:10
+ 
+Amber Fu: Yeah.
+Edward Decker: your utility rate is 20 cents a KW and we're going to put this big system on and we're going to save you 20 cents a KW for the system. Um but what happens is when you start to break it down um you know the only you're not you're not saving all 20 cents per kW because you have certain fixed costs in there. You have those service fees. um you have certain demand charges that are that are not going to um be impacted by your solar, right? They they might they might be,
+Amber Fu: Uh
+Edward Decker: but they they might not be because you could hit your peak demand on a cloudy day when your solar system is not generating. So your your your demand charges are going to stay sort of fixed.
+Amber Fu: uh.
+Edward Decker: So of that 20 cents, you might only be able to to impact 11 cents of of energy charges on your utility bill.
+Amber Fu: Uh-huh.
+Edward Decker: And so what happens is people install systems and they say,
+Amber Fu: Uhhuh.
+ 
+ 
+01:06:06
+ 
+Edward Decker: "Oh, I'm supposed to be saving $100 a month and I'm only saving 50." And you go look through the bill and it's, you know, well, here's why. Because you're not really you're not you're not impacting these these line items on your bill.
+Amber Fu: Got you.
+Edward Decker: And I apologize.
+Amber Fu: Got you.
+Edward Decker: I probably wasn't very clear in communicating that,
+Amber Fu: It's okay.
+Edward Decker: but
+Amber Fu: It's okay. It's still really helpful. And well, that's re seriously that's really helpful. But uh and also I want to uh uh one more question is like what what I'm trying to understand like is like when solar export
+Edward Decker: Yeah.
+Amber Fu: credits are applied to a bill um which charge c uh category usually cannot be offset. For example, like a service charge or public program charge or like a w wild far like are those typically considered non uh known by possible charge?
+Edward Decker: Yep.
+Amber Fu: Oh,
+Edward Decker: Those those charges are your they're they're your utility charges for cost of doing
+ 
+ 
+01:07:11
+ 
+Amber Fu: okay.
+Edward Decker: business. Um that that's that's the cost of being able to purchase electricity when you need it. Same with demand. Demand is um demand is one that is um you might impact it,
+Amber Fu: Uh-huh.
+Edward Decker: you might not. It depends on um um what what time of day
+Amber Fu: Uh-huh.
+Edward Decker: or when you set your monthly peak demand and that also depends on utility tariffs. Um, so this is this really um that question is um it's really going to be heavily tariff dependent um and and you're really going to need to take a look at
+Amber Fu: Okay.
+Edward Decker: the bills um and and dissect uh sort of how how those
+Amber Fu: Mhm.
+Edward Decker: credits are applied and also um you know how how your
+Amber Fu: Mhm.
+Edward Decker: rate is structured, how the consumption is structured.
+Amber Fu: Gotcha. And like but when utility apply solar credit do they usually offset the energy charge first?
+Edward Decker: Yeah, because you're purchasing at the the the the net hourly cost of electricity.
+ 
+ 
+01:08:31
+ 
+Edward Decker: So, basically, you're you're my understanding of it is,
+Amber Fu: Mhm.
+Edward Decker: and again, I didn't um look into it as much as I I wanted to, and I'm going off memory, but um my understanding is you're basically um offsetting what not necessarily what the time of use um rate is,
+Amber Fu: Mhm. Mhm.
+Edward Decker: but what their what the utility company's net time of use cost is. So, it's probably like an You know,
+Amber Fu: Okay.
+Edward Decker: again, haven't looked at it, but my guess is it's some, you know, some similar rate that's just not marked up at a at a set, you know,
+Amber Fu: Got you.
+Edward Decker: 80% of what the time of use is or something like
+Amber Fu: Got you. Got you.
+Edward Decker: that.
+Amber Fu: Got you. Thank you so much. And this is really helpful information to us. Okay. and and uh I think we have two more part is one is a true bill.
+Edward Decker: I
+Amber Fu: So are you familiar with a true bill in California?
+ 
+ 
+01:09:29
+ 
+Edward Decker: I haven't seen the new NEM3.0 trueup bill.
+Amber Fu: Okay.
+Edward Decker: My understanding is it's an annual trueup bill. I don't know if it comes at like December or January or if it's annual based on,
+Amber Fu: Yes.
+Edward Decker: you know, when the system was commissioned and put into service, but um I I haven't seen one yet.
+Amber Fu: Got you. But for solar household under the net metering is uh uh structurally sounds to be project true up monthly.
+Edward Decker: Okay. They used to be monthly.
+Amber Fu: Okay. So this is SDG
+Edward Decker: Okay.
+Amber Fu: the
+Edward Decker: San Diego Gas and Electric.
+Amber Fu: well I because I uh I talked to a few friends in live in the San Diego because San Diego is kind of a uh different
+Edward Decker: Weird. Yeah.
+Amber Fu: Yeah because San Diego you don't have choice they only have one company and their their bill like a 17 page or I'm not even kidding and and they they have like a servo a servo company they need to deal with.
+ 
+ 
+01:10:43
+ 
+Amber Fu: I get it's kind of weird out there but like but for like people who live in San Diego they are just frustrating on the utility things and they are really expensive actually to be honest I think even more more expensive than Cal uh than I mean than the LA
+Edward Decker: They're they're very expensive and they also have um pretty big federal installations, military installations, and most of them don't even use San Diego Gas and Electric. They use Imperial, which is like a small local co-op,
+Amber Fu: Oh.
+Edward Decker: which has um like a 4 cent KW variable rate or something
+Amber Fu: Oh.
+Edward Decker: ridiculously low. It's San Diego from a utility standpoint is um it's it's not great.
+Amber Fu: Yeah,
+Edward Decker: I w I wouldn't start in San
+Amber Fu: it's okay. Okay, got you.
+Edward Decker: Diego.
+Amber Fu: But oh, I have a question. But but San Diego, I think they have more like uh the customer they have more pain for that, right?
+Edward Decker: Yeah. So, maybe it is a good one to
+ 
+ 
+01:11:51
+ 
+Amber Fu: But okay,
+Edward Decker: Yeah.
+Amber Fu: got you. Yeah, but yeah. And Okay.
+Edward Decker: Yeah.
+Amber Fu: So like Yeah,
+Edward Decker: I I was I was kind of joking about not starting there just because it's painful.
+Amber Fu: it's okay. Yeah, I knew I knew definitely. Okay, so let's move to the next last part. So the last part will be the bill proof. Uh so the bill proof the idea where uh try to do this part is like this is kind of feature compare uh expected export credit versus bill export credit. So if there like a mismatch we are we try to surface it.
+Edward Decker: If this is just solar credits, um I I think you're going to need to change the rate, at least the name of it,
+Amber Fu: Mhm.
+Edward Decker: and call it maybe average rate because I think there I think with now it's
+Amber Fu: Mhm.
+Edward Decker: the um hourly time of use. I forget what the actual name of it is, but it's it's the net hourly time of use.
+ 
+ 
+01:13:02
+ 
+Edward Decker: So,
+Amber Fu: No.
+Edward Decker: you're not going to get it's not going to be a set rate across the board is is my understanding. It's going to it's going to vary based on time of day and and
+Amber Fu: Okay. Gotcha.
+Edward Decker: seasonally as
+Amber Fu: Gotcha. Gotcha. So the idea we designed this because like one thing we noticed from talking to the homeowner is that many people don't really understand how their solar export credit are calculated on their utility bill. So they see that like number on the bill but they don't know like whether those number are correct or not.
+Edward Decker: Mhm.
+Amber Fu: So under like a new newer tariff like export credit can change depending on the time of day. So it's become even harder for the homeowner to verify.
+Edward Decker: Yeah.
+Amber Fu: Yeah.
+Edward Decker: Yeah.
+Amber Fu: So the idea this is very simple. So we we try to calculate what export credit should be based on the tariff and the exported energy then compare with what actually appear on the utility bill.
+ 
+ 
+01:14:05
+ 
+Edward Decker: Just thinking about this now and looking at this. Um,
+Amber Fu: Mhm.
+Edward Decker: have you considered maybe doing a maybe making this two pages and doing energy and then a cost component. Um, just I think what that would do is potentially if you could show that um the the energy that was exported, the expected and the build are in alignment.
+Amber Fu: Mhm.
+Edward Decker: Um, then that would be a green flag.
+Amber Fu: Mhm.
+Edward Decker: If the expected and the build were off significantly, that would be a red flag for them, the the end user to maybe go in and dive a little deeper and maybe start reaching out to the utility provider. Um, right. And I and just looking at this, you know, you're expecting 412, I think I see there, kW, but the build is only 200 kW.
+Amber Fu: Mhm.
+Edward Decker: Um, if that's expected and and again nomenclature,
+Amber Fu: Mhm.
+Edward Decker: um, solar exported, solar exported versus build. Okay, that never mind. Um, but that's that's you're off by 50% there, right?
+ 
+ 
+01:15:38
+ 
+Edward Decker: Um,
+Amber Fu: Mhm.
+Edward Decker: I can't see I can't see what the credit dollar amounts are. 184 expected versus 56 credited for $127
+Amber Fu: Oh,
+Edward Decker: difference. I I would um like to me before I even look at the dollar difference, I I see there's a big dollar difference, but $127 on my annual utility bill credit discrepancy, um that's not that big of a deal to me.
+Amber Fu: Yeah.
+Edward Decker: But seeing that there's 50% um that that there that I'm not being credited for 50% of the energy that I exported, that to me is a big deal. That's just a different way of looking at it. Um you know, $127 that could be rounding in time of use. You know, hey, I was at this 15 minute interval at the end of the hour when really it gets credited towards the next hour. Okay, fine. I I see where that that kind of um problem happens. Um but the energy doesn't change, right? What you're exporting versus what you're consuming versus what's being generated by the the system itself.
+ 
+ 
+01:16:59
+ 
+Edward Decker: That those to me are are finite numbers. My system is generating a,000 KW over the year.
+Amber Fu: Uhhuh.
+Edward Decker: I'm using 600 KW over the year. I'm exporting 400 KW over the year. If the utility is only crediting me with 200 KW, there's 200 KW that's lost somewhere. That to me is is more of a red flag.
+Amber Fu: Mhm.
+Edward Decker: I would start with your energy um as a as a highlevel look and then maybe on another page go into the different rates and maybe you even
+Amber Fu: Mhm.
+Edward Decker: break it out into hey there here are your three different rate structures over the year or whatever however many there are and here's exactly how many KW at this these intervals that was expected and and and maybe you can get a little more granular and can kind of see then um where the discrepancy lies. Um, but you know,
+Amber Fu: Mhm.
+Edward Decker: seeing that big I I know in in in energy savings that the dollar saved or the dollar lost is always the big number one thing you want to see.
+ 
+ 
+01:18:07
+ 
+Edward Decker: But with this, when it comes to credits from the utility, I I would think the energy, this is the one page where I would probably say the energy would would override the dollar in my opin my my opinion.
+Amber Fu: Gotcha.
+Edward Decker: Um, as as an energy
+Amber Fu: Gotcha. Got you.
+Edward Decker: guy.
+Amber Fu: Thank you. That's is really valuable information. Uh but it's like in your experience when there is a large difference in export energy uh what the most common
+Edward Decker: Uh it depends.
+Amber Fu: costs
+Edward Decker: Are you getting your expected solar export data directly from the utility meter? Is that something is that information that's being fed in from your net meter or is that something that you're using like a a calculation system like PV watts to estimate what the solar generation should be over the year and then doing some weather normalization.
+Amber Fu: Uh we you we try okay so first of all we try to uh let the customer uh connect with uh uh their uh their utility account and um like right now we are uh permanently using like a metro data rather than like a model estimate.
+ 
+ 
+01:19:37
+ 
+Amber Fu: So for example like we can get export energy from the source like uh like a solar inver uh inverter monitoring or like a battery system or like
+Edward Decker: Mhm. Yeah.
+Amber Fu: a you know when the user connect with the utility account and we can get some like uh and also we can connect with the utility interval data when it's available.
+Edward Decker: Yeah.
+Amber Fu: So the the expat explor is usually based on the major energy data rather than the PV production model like a PV watt.
+Edward Decker: If you're if you're looking at the interval data provided by the utility
+Amber Fu: Uhhuh.
+Edward Decker: company or coming directly from the net from the meter um and there's a
+Amber Fu: Uhhuh.
+Edward Decker: discrepancy shown here between build and expected that that to
+Amber Fu: Mhm.
+Edward Decker: me is the the most common problem is a billing error. That's an error on the utility end. If you're using model data,
+Amber Fu: Mhm.
+Edward Decker: um you probably haven't done weather normalization. And that would be the first thing I would look at.
+ 
+ 
+01:20:46
+ 
+Edward Decker: But if if you're pulling in interval data or data directly from the meter, any discrepancy is probably going to be a billing error and needs to be addressed with the utility company. And they happen much much more than people realize. Most people get their utility bill, they don't understand it, they pay it because they want their lights on. I I don't know how many times,
+Amber Fu: Mhm.
+Edward Decker: you know, the first thing I do when I go into into a a new building or to a new project is a utility analysis. I do two years of utility bills and break down, you know, what the cost structure is,
+Amber Fu: Mhm.
+Edward Decker: what the rate structure is, what they're being built, and how they're being built. And probably 60% of the time there are billing errors. And, you know, when you're talking large federal systems, those billing errors can be in the millions. Um, residential, obviously,
+Amber Fu: Mhm.
+Edward Decker: it's much smaller, but my my guess would be that's going to be a a problem with the with the
+ 
+ 
+01:21:44
+ 
+Amber Fu: Mhm.
+Edward Decker: utility.
+Amber Fu: Got you. Got you. And um so for for your experience um like uh uh Oh god. I I try to I have one question I I kind of forgot. Okay.
+Edward Decker: That's right.
+Amber Fu: So like what like would it make sense for like the app to um how to describe like the app to highlight energy uh descripty first
+Edward Decker: that
+Amber Fu: and then show the financial impact at the second layer.
+Edward Decker: that for for solar um when you're doing an annual true up that that is how I think I personally would do it again most things I would say show the dollar you want the dollar savings huge like hey here's what you're saving this is this is the direct benefit we're
+Amber Fu: Mhm.
+Edward Decker: bringing you blah blah blah but with the solar um especially especially if you're anticipating there there to be um discrepancies and and you know when when you're getting into complicated annual net trueups um
+Amber Fu: Mhm.
+Edward Decker: there there's a good chance that what you're calculating on your end in the app is going to be slightly different um than what's being calculated by the utility.
+ 
+ 
+01:23:13
+ 
+Edward Decker: So if you if you're immediately every month showing that there's a dollar discrepancy um you know that that may discredit the app um whereas if you can show that
+Amber Fu: Hello.
+Edward Decker: the the energy the expected and the build are in line and then there's a dollar error um I think that's more
+Amber Fu: Mhm.
+Edward Decker: palpable.
+Amber Fu: Gotcha. Gotcha. Gotcha. Okay.
+Edward Decker: Now,
+Amber Fu: Thank you.
+Edward Decker: if you model it, yeah, if you model it correctly, though, there's not going to be any discrepancies. There's no problems. Everything's honky dory. We're all good. But the these these tariffs are are complicated in in over a year.
+Amber Fu: Yes, definitely. Definitely. Okay. Well,
+Edward Decker: Yeah.
+Amber Fu: thank you so much and this is all over our app and and you know thanks taking time to talk with us today and your feed feedback has like extremely helpful and uh especially like your insight on tariff and building structure that's really really valuable for us.
+ 
+ 
+01:24:19
+ 
+Amber Fu: So based on what you think today uh be honest like what's your honest impression of the product so far?
+Edward Decker: Uh, I think the app looks good. I I think they're um I think applying tariff
+Amber Fu: Mhm.
+Edward Decker: data bringing in bringing in your inputs and and um doing the calculations for the outputs are um I I I think you're going to I think you're in a good spot. Just need to get get working on that.
+Amber Fu: Yes. Yes.
+Edward Decker: Yeah.
+Amber Fu: That's a Yeah, that's a I know that's a big part. We need to we need to get really hard work for that.
+Edward Decker: Yep. But
+Amber Fu: And have you ever seen the product the like this similar in the
+Edward Decker: I
+Amber Fu: market?
+Edward Decker: um not for residential. I've done I've done similar products for um hyperscalers on some asset selection and and um sort of similar work with in in the federal market space and in my um work on ESPC projects. Um but I don't know that I've seen anything residential like this.
+ 
+ 
+01:25:47
+ 
+Edward Decker: Um and if I think it's it's a good product. I think it'll be very helpful.
+Amber Fu: Got you. But cuz I always want to know like if don't have a cuz I I ask a lot of people they they never seen product like this. So I was wondering know like if not what why do you think that is? because I think like the financial layer for residential energy is really important to you know every home owner. So I just just try to know like why in the market nobody doing that is there any things we're
+Edward Decker: Um well I I think the challenge with
+Amber Fu: missing.
+Edward Decker: these and the reason that it hasn't been done is because every utility is different.
+Amber Fu: Mhm.
+Edward Decker: So you need to um you need to do all the calculations that are going on in the background and all the logic needs to be um developed for every single
+Amber Fu: Mhm.
+Edward Decker: utility um and all the different rate structures and you know
+Amber Fu: Mhm.
+Edward Decker: multiple tariffs and it it just um it's it's a lot of data.
+ 
+ 
+01:27:03
+ 
+Edward Decker: I think starting out in California, I think starting with a particular utility, build build that one out.
+Amber Fu: Mhm.
+Edward Decker: Um, kind of work out, you know, work out the bugs, use that as your, you know, I guess it would be alpha testing, beta testing, whatever you want to call it for that one utility. Get that one working and then start to roll it out for for other utilities is a is a good way to go. Um, but I think just the the number of of utilities and and individual tariffs is is the
+Amber Fu: Got you. Got you.
+Edward Decker: big
+Amber Fu: And one last question is like what do you think the biggest risk or challenge are for something like this?
+Edward Decker: uh I don't know that there's a whole lot of risk. I think energy, if you understand the energy, it's it's um it's pretty straightforward. You're not putting any guarantees on it. You're just trying to help people understand. Um you know,
+Amber Fu: Mhm.
+Edward Decker: I I don't think I don't think you're going to make a recommendation that's going to cost money, right?
+ 
+ 
+01:28:15
+ 
+Amber Fu: Mhm.
+Edward Decker: Because again, it's it's it's pretty straightforward. Um, so I guess, you know, again,
+Amber Fu: Yeah.
+Edward Decker: the biggest challenge is going to be just the the sheer volume and being able to roll it out because, um, you know, if you get a great product for for San Diego, um, gas and electric, that's great, but if you can't roll it out to beyond that, you know, if you don't get critical mass beyond that, that's that's sort of a risk item in my my mind.
+Amber Fu: Got you. Got you. Well, thank you so much because like we're still in the early stage and like and you know conversation like this are really important for us and you know we are starting to build like a small group of of advisor who understand the energy space. So if you are open to it, we love to keep the conversation going and you know potentially involve you as an advisor as we develop the product if you're open
+Edward Decker: Yeah, this is um this type of product development is something that I'm very interested in and something that I've been
+ 
+ 
+01:29:14
+ 
+Amber Fu: it.
+Edward Decker: the last couple years have have kind of shifted my focus and attention to. So yeah, I' I'd be very interested. Yeah, I think it's a good
+Amber Fu: Thank you so much. Thanks.
+Edward Decker: tool.
+Amber Fu: And okay, you know what? We're keep in touch and uh do you have my email?
+Edward Decker: I do.
+Amber Fu: Okay.
+Edward Decker: Yep.
+Amber Fu: Okay. So, we are gonna keep in touch definitely and uh we will I will email you like uh like yes after the meeting. Thank you so much.
+Edward Decker: Yeah. Yeah, no problem.
+Amber Fu: Thank
+Edward Decker: Do you want me to give you my email now or do you want to um because I know
+Amber Fu: you.
+Edward Decker: Upwork can be finicky with Yeah,
+Amber Fu: Yes, you can give me email right now.
+Edward Decker: it's uh Edward Ed or is there a chat here that I can put it
+Amber Fu: Yes. Yes.
+Edward Decker: in?
+Amber Fu: Here the chat under the do you see in the this meeting there uh right behind the leave call there have a chat with everyone. Did you see the icon uh let me tap
+Edward Decker: All right, there we go. Thank you. I did not see
+Amber Fu: Okay, got you. Thank you so much. Okay, I will email you and thank you Edward and have a good night.
+Edward Decker: That would be great. No, thank you for your time. Yeah, you do the same,
+Amber Fu: Uhhuh.
+Edward Decker: Amber. It was very nice to meet you. And Ling G, I I'm not sure if I'm pronouncing that right or not, but it was nice to meet you as well, and thank you for moderating this, and I appreciate your time. Yeah, you did the same. Bye.
+ 
+ 
+Transcription ended after 01:31:36
+
+This editable transcript was computer generated and might contain errors. People can also change the text after it was created.

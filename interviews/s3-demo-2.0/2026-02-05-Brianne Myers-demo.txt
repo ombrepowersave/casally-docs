@@ -1,0 +1,237 @@
+Feb 4, 2026
+Casally Demo 2.0 Interviews (Brianne  Myers) - Transcript
+00:00:00
+ 
+Amber Fu: Uh hello.
+Thee Citizen: Hey. Hello.
+Amber Fu: Hi. Hi. Bring uh can you hear me?
+Thee Citizen: It's
+Amber Fu: Okay. Thank you. Well, thanks taking time for this today and I'm really appreciate.
+Thee Citizen: Br
+Amber Fu: Uh so today we uh going to show you uh our app demo. Uh so this is our uh like the first version of the app and uh I will send you uh I send I will send you a link through the uh through the chat. Uh give me a second. Okay. Let me know if you receive it. Uh is in the in chat with everyone. Did you see
+Thee Citizen: Okay, wait a
+Amber Fu: it?
+Thee Citizen: moment.
+Amber Fu: Uh did you see the link?
+Thee Citizen: A
+Amber Fu: Yeah, it's in the chat.
+Thee Citizen: minute.
+Amber Fu: Uh in the meeting chat. Uh let me know if you can uh open it the
+Thee Citizen: Okay.
+Amber Fu: link.
+Thee Citizen: Uh, will you resend it again?
+ 
+ 
+00:03:35
+ 
+Amber Fu: Oh okay. Sure. Sure. Definitely.
+Thee Citizen: Okay.
+Amber Fu: Uh did you see it?
+Thee Citizen: Definitely. No. I don't know why I can't see my messages.
+Amber Fu: Uh so it's uh you you see like our meeting right and uh on
+Thee Citizen: Yeah.
+Amber Fu: your right right side under the bottom there have a one icon is like a chat so that's is it show like a chat with everyone is is in the right side and I mean yeah right side and under and you can click
+Thee Citizen: Yeah.
+Amber Fu: Click that and they will have a link in the meeting in the in the chat. Did you see
+Thee Citizen: I can see the place where the messages are,
+Amber Fu: it?
+Thee Citizen: but I can't see the text that you sent.
+Amber Fu: Oh, yeah. It's just a link. Did you see the link? Uh,
+Thee Citizen: No.
+Amber Fu: okay. Just give me a second. How about right now?
+Thee Citizen: Not it.
+Amber Fu: Do you?
+ 
+ 
+00:05:01
+ 
+Thee Citizen: Have you seen my text?
+Amber Fu: Okay.
+Thee Citizen: Like I I text hello but I can't see
+Amber Fu: Yes. Yeah. Yeah. Yeah.
+Thee Citizen: yours.
+Amber Fu: Yeah. Can you see? But can you see it right now? Did you see it?
+Thee Citizen: No. Not yet.
+Amber Fu: No. Oh, that's weird.
+Thee Citizen: Yeah.
+Amber Fu: Uh, well, okay then.
+Thee Citizen: Or you can sh via my email. I can I can use
+Amber Fu: Oh yeah sure sure. Uh I will Okay.
+Thee Citizen: Okay.
+Amber Fu: So sure I will uh share the screen from my side. Uh give me a second.
+Thee Citizen: All right.
+Amber Fu: Okay. Um so we can go over a little bit and uh so be uh okay so uh on the top there have uh the uh we show like the device connective uh is is is uh kind of like you know if your solar or power wall is offline you'd want to know immediately. So that will be like a real world fact and and you can see the uh there have a yeah so there have like you know like the Tesla uh the solar and the power wall and you know like you here it's like always make sure like oh your solar is online and your power wall is like what like what's that about your power wall?
+ 
+ 
+00:07:04
+ 
+Amber Fu: So those are the like a top hat and after it uh is um monthly bill budget. Uh give me a second. Okay. So monthly bill budget. So for the monthly bill budget is uh more about like uh it's like a boundary uh uh is basically just you know telling the system like oh if my bill end up above this number I will feel like something went wrong and I want to early warning. Yes. And um for and for uh for this one uh yes can you hear me?
+Thee Citizen: Yes, I can hear
+Amber Fu: Oh okay.
+Thee Citizen: you.
+Amber Fu: Okay perfect. So yeah so this is about like uh you know the monthly budget is like not a goal but it's like a comfort b uh boundary for for the user. um is not telling the app how low your bill should be. It's about telling it like if my bill goes above this, I want to know early and I want to help before it's come a surprise. So, uh this is kind of very different from like a traditional budget.
+ 
+ 
+00:08:22
+ 
+Amber Fu: We're not trying to optimize your bill to the lowest possible uh number. we're definitely you know not forcing you to change your lifestyle while uh think about like a monthly bill budget as your personal uh this is feel okay line. So you know different people have a different uh tolerance. So some people are totally fine with a particular uh like a 200 bills but another feel like stressful once it's go above like a $100. So once you set that boundary like everyone else in the app will become related to you. So basically it means like a same event can mean very different thing to different people. Uh yeah so this is uh what's a uh our bill budget. So for example uh for this user uh uh based on his last three months bill uh like around like uh $200 and we have uh we will help them uh help him to you know set a goal like I may set up like a monthly view budget like a uh either 170 or 180 or 200 and if the if the user choose like 170 then Uh uh we can go back.
+ 
+ 
+00:09:46
+ 
+Thee Citizen: Thank
+Amber Fu: Uh so the user if uh setup of 170
+Thee Citizen: you.
+Amber Fu: then uh we will give him like more suggestion like how how you can do it to uh achieve that goal. Uh is is there any uh question
+Thee Citizen: I have not really um
+Amber Fu: or like Okay. Okay.
+Thee Citizen: honestly
+Amber Fu: Uh sorry, give me a second. I kind of stuck on the Okay, sorry. I give me a second. This is the Sorry. Give me uh give me a second because I I kind of
+Thee Citizen: Okay. Okay. Okay. Okay.
+Amber Fu: Yeah. Okay. Okay. So, yeah, that's about like a monthly bill budget. And then the next one is more like a suggestion card. Is uh you know is more uh more like um it's like a plan. So, uh the this card is uh is kind of like a actionable moment. Uh the top is like what's happening and the middle is like what to do and the bottom is like exactly when like the time window.
+ 
+ 
+00:12:01
+ 
+Amber Fu: So basically it's like a reason action and time. So uh and there have a like a two separate thing. The one is automatic and another is a menu. So the different is like do you want the system to handle routine decision for you or do you want to approve each type and uh yes. So this is basically the the uh the suggestion card and uh when you click on the more detail uh wait uh click on the more detail. Sorry uh my I think I'm kind of stuck. Okay, for some reason I think uh my end have some problem. Uh give me a second.
+Thee Citizen: Okay.
+Amber Fu: I'm
+Thee Citizen: All right.
+Amber Fu: sorry. Okay. Yes. So uh for like when you uh click on more detail this is uh something that tell you user like why we have that suggestion you know something like what happened like why is it matter and how impact.
+Thee Citizen: Okay.
+Amber Fu: Yeah. And we can go back and um and ender there have like the uh it's like a kind of like a power outage warning.
+ 
+ 
+00:14:26
+ 
+Amber Fu: So uh this is something you know either like a power outage or like the terrible weather like storm anything. Uh this is something that we will early to warn the user to to see like what's going on and uh what what what you can do for ne next 24 hours. Yeah.
+Thee Citizen: Okay.
+Amber Fu: And the last part is a usage. Uh so this is something that tell the user that uh you know uh when is like expensive electricity and when is a cheap and oh
+Thee Citizen: All right.
+Amber Fu: yeah this is about like a home screen. So when you look at this, do you think that will be useful for you or you think it's just okay?
+Thee Citizen: Yeah, it will be useful because I can be able to see the off pick time that I can use my uh electricity and when not to cuz I can see
+Amber Fu: Okay. Uh,
+Thee Citizen: here
+Amber Fu: is there anything that you feel like maybe is missing? Like something that you you think should be a pair but
+ 
+ 
+00:15:43
+ 
+Thee Citizen: Actually,
+Amber Fu: not but not
+Thee Citizen: I see it's perfect because I can track on on a daily and hourly and daily and monthly basis on how I'm spending my electricity,
+Amber Fu: Mhm.
+Thee Citizen: when to use and when not to use. Yeah, it's perfect.
+Amber Fu: Okay. Okay. Okay. Got you. And uh Okay. So, we can move to the event and the event is uh give me a second. The event is uh so the event page is more like a ledger. Uh so we only record the unusual activity such like you know ser uh server weather like power outage or like you know sometime your power wall is charging during the high price or like so solar breakdown or like EV uh charging during the high price. So those are like uh a euro activity relevant to the impact the dollar amount. Yes. So,
+Thee Citizen: Okay.
+Amber Fu: so those basically the events that you can you can look at by yourself and to see like what's going on, what happening.
+ 
+ 
+00:17:08
+ 
+Thee Citizen: Okay.
+Amber Fu: Yeah. And and also uh we can go to the saving page. So, uh give me a second. Saving Uh, sorry. Give me a second.
+Thee Citizen: All
+Amber Fu: I'm switching to Yeah.
+Thee Citizen: right.
+Amber Fu: Okay. Okay. Wait a second. I'm sorry. Uh Okay. Uh did you see it?
+Thee Citizen: Yes, I can see it.
+Amber Fu: Okay. Perfect. So, uh right now it's a saving page. So, the saving we separate to the two part. One's a saving, one's a bill. And the saving is more like our side. We detected uh any like you know uh your you basically like any like risk exposure and the bill is like a utility side is something that uh show us on your bill. So when you see this, this is uh one of the user uh last month's bill the $218 and we kind of like a breakdown those thing and uh below that will be a uh wait uh okay below that is like a true up uh is a true up bill and uh give me a again.
+ 
+ 
+00:20:45
+ 
+Amber Fu: Yeah. Sorry, my internet is kind of slow
+Thee Citizen: That's all
+Amber Fu: down.
+Thee Citizen: right.
+Amber Fu: Hey, I'm really really sorry. I'm apology. Sorry, my it's it's my internet is disconnect. Sorry. Okay. So, uh yeah, basically those are two two things that we are showing to the uh the the users and the uh for the saving for the saving part. And we you see like the $56 that was something that for uh like risk exposure.
+Thee Citizen: this
+Amber Fu: So yes. So uh it's kind of like act extra cost
+Thee Citizen: time.
+Amber Fu: and um so we we detect it in like current building periods. So basically just tell the user like if you repeat those pattern this is among that tend to show up uh as a extra cost for exposure and the and you see that the below there have a chart. So it's just help you to see whether your risk exposure is getting better or worse over the time and it's more like a risk trend and and uh the down there they have uh like uh we we break the risk ledger into like the category.
+ 
+ 
+00:24:31
+ 
+Amber Fu: So basically like EV, solar and power wall each row shows like how many time happened in billing period and the uh total extra cost exposure from that category. So it's not the daily it's like roll up across the building period. When you see like a per four time means like four event in the building period when you click it and they will lead you to the uh yeah click it when you lead to you the detail. So we break down the each event by event and when you click each event detail uh saving detail there have the bottom sheet which means uh we will tell you like how we calculate that like what happening why it's matter how we calculate and what to do next
+Thee Citizen: Okay.
+Amber Fu: and uh we and go
+Thee Citizen: All right.
+Amber Fu: back. Uh, sorry, my internet uh is really slow. So it's kind of
+Thee Citizen: Where is it?
+Amber Fu: stuck. Okay. And and in the bill uh right now it's like a bill part. The bill is like uh when you click view more uh sorry I tried to Okay.
+ 
+ 
+00:26:50
+ 
+Amber Fu: So there have a bill proof. So the bill proof uh which is uh something you know uh uh is is like uh like left side is our expectation. So built from like device confirm data and knowing rate and on the right is like show up uh on the utility bill. So we're just putting them side by side so you can see like the difference like you know think think this like a checking receipt at a grocery store. So we're not saying like the whole receipt is wrong. We're just uh you know just simply checking whether few specific bill line item match what we actually detected from your solar EV and battery.
+Thee Citizen: Okay.
+Amber Fu: Yeah. And uh we can go back And down there there have a like a true up and and uh there you see like they have a three top uh drive driver cost uh we are list here. So like uh for the true up why is this amount because like EV charging during the period is the first like exposure money and the second will be the solar unvailable plus a great draw and the the last one is like a power grade charging at at pick.
+ 
+ 
+00:28:19
+ 
+Thee Citizen: All
+Amber Fu: Yeah.
+Thee Citizen: right.
+Amber Fu: And uh yeah. So that would be it basically. Uh that would be all the uh the app that we are uh showing. And so question a quick question like what like which part do you think is useful or is there any part uh we're still missing?
+Thee Citizen: Uh so actually like the part of saving I at least like it
+Amber Fu: Uh-huh.
+Thee Citizen: because uh I'll be knowing the amount of money I have saved in a month. Um,
+Amber Fu: Mhm.
+Thee Citizen: I can be able to track down when to use my solar and uh when the solar is fully charged, I can't use my electricity. So, I can see the full detail in the app. So, at least that's what we wanted uh from the first meeting that we had. So, I I like it.
+Amber Fu: Okay. Okay. And I remember like last time from last conversation you mentioned that uh it's hard to managing the use electricity uh especially you know like
+ 
+ 
+00:29:35
+ 
+Thee Citizen: Yes.
+Amber Fu: you your your house have a like uh your family member right you wish like everyone can use electricity smarter. So we have a per a profile. Uh let me click on the profile to see. Uh there have a we have a add family members. Uh yes. So when you you can add your family member and let everyone knows like oh
+Thee Citizen: Ocean
+Amber Fu: uh what we should do right now like how we should use the electricity smarter and lower our bill things like that.
+Thee Citizen: that is so awesome.
+Amber Fu: Okay. And uh yeah that would be actually that will be it. So, um just just let me know like uh is there anything that uh you think maybe we can still improve or like any information probably we still
+Thee Citizen: Okay. So,
+Amber Fu: missing?
+Thee Citizen: probably if I am using the app, uh as time goes by, if there is an issue and then we can uh maybe uh communicate and I'll let you know where there's an issue or what to add.
+ 
+ 
+00:30:58
+ 
+Thee Citizen: Yeah,
+Amber Fu: Uh-huh.
+Thee Citizen: sure. Yeah.
+Amber Fu: Okay.
+Thee Citizen: Yeah.
+Amber Fu: Got you.
+Thee Citizen: Yeah.
+Amber Fu: Okay.
+Thee Citizen: Okay.
+Amber Fu: Uh
+Thee Citizen: I didn't receive the link so that I can interact with the uh app. Uh I'd wish you if you would like to send me via my email, I'd appreciate
+Amber Fu: Oh okay. Sure, sure. You know what? Um so uh right now we are uh
+Thee Citizen: Yes.
+Amber Fu: our demo still uh not coming up yet but once the demo uh once we the app is alive we love to invite you to try it with your actual bill and you know charging habit and you can you know uh use it in your real life and we want to you know uh invite you as the early user who can help us to test the
+Thee Citizen: Okay. Sure.
+Amber Fu: product.
+Thee Citizen: Yeah, it's okay.
+Amber Fu: Okay. Okay.
+Thee Citizen: And Okay.
+Amber Fu: Sure.
+Thee Citizen: And uh I I I did have an issue with my I didn't uh like send you
+Amber Fu: And
+Thee Citizen: my Zilla account because it has some issues with my bank. And uh would you like uh use Sendwave or if Taptop is okay with you or u maybe PayPal?
+Amber Fu: Uh yeah,
+Thee Citizen: All right.
+Amber Fu: sure.
+Thee Citizen: I I think uh we'll use my PayPal then I'll send it via my email.
+Amber Fu: Okay, sure.
+Thee Citizen: Okay.
+Amber Fu: Okay, sure. And okay, thank you so much today uh taking your time.
+Thee Citizen: Okay. I I appreciate. All right. Choose
+ 
+ 
+Transcription ended after 00:33:16
+
+This editable transcript was computer generated and might contain errors. People can also change the text after it was created.

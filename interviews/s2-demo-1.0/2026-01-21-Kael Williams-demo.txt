@@ -1,0 +1,635 @@
+6. Kael Williams
+00:00:00
+ 
+Amber Fu: Um, hello. Hi. Uh, can you hear me? Um, hello.
+Amber Fu：一，你好。你好。呃，你能听到我吗？一，你好。
+KAEL WILLIAMS: Hello.  凯尔·威廉姆斯：你好。
+Amber Fu: Oh, yes. Yes,  Amber Fu：哦，是的。是的
+KAEL WILLIAMS: Hello.  凯尔·威廉姆斯：你好。
+Amber Fu: I can hear everyone.
+Amber Fu：我能听到大家的声音。
+KAEL WILLIAMS: Okay. Okay.
+凯尔·威廉姆斯：好的。好的。
+Amber Fu: Okay, good. Well, thanks again for doing this.
+Amber Fu：好的，太好了。再次感谢你做这件事。
+KAEL WILLIAMS: Okay.  凯尔·威廉姆斯：好的。
+Amber Fu: Thanks for taking your time today. I really appreciate it. Okay. And yeah and before we start I just try to remember like uh from
+Amber Fu：感谢你今天抽时间阅读。我真的很感激。好的。是的，开始之前我会试着回忆，呃，从那里
+KAEL WILLIAMS: Okay.  凯尔·威廉姆斯：好的。
+Amber Fu: last time our conversation uh from what you were shar like it's pretty clear like you uh you have already done a lot adapt your life around like toou and solar right okay and and two thing I think you mentioned and one
+Amber Fu：上次我们聊的时候，呃，从你说的来看，很明显你已经做了很多调整，比如 Toou 和 Solar，好，还有两点我记得你提到的，第一
+KAEL WILLIAMS: Yeah.  凯尔·威廉姆斯：是的。
+Amber Fu: is how much your day get shaped by the I think it's a 10:00 a.m. to 2 p.m. solar window and and another is like how often like
+Amber Fu：是你一天被塑造的程度，我记得是上午 10 点到下午 2 点的太阳能窗，还有另一个是像多频繁的那样
+KAEL WILLIAMS: Yeah.  凯尔·威廉姆斯：是的。
+Amber Fu: a uh your uh solar drop offline and turn into the manually troubleshooting task.
+Amber Fu：一个，呃，你的太阳能掉落，离线后进入手动排查任务。
+KAEL WILLIAMS: Yeah.  凯尔·威廉姆斯：是的。
+Amber Fu: Okay. So today um well I don't I don't want to show you more chart.
+Amber Fu：好的。所以今天，嗯，我不想给你看更多的图表。
+ 
+ 
+00:04:54
+ 
+KAEL WILLIAMS: Yeah.  凯尔·威廉姆斯：是的。
+Amber Fu: I just want to focus on like whether the system can give you back time and uh flexibility. So I will send you a link is our early version demo. Uh just give me a second. Um okay. Okay.
+Amber Fu：我只想重点谈谈这个系统是否能给你回溯时间和灵活性。所以我会给你发一个早期版本演示的链接。呃，给我一点时间。嗯，好吧。好的。
+KAEL WILLIAMS: Okay.  凯尔·威廉姆斯：好的。
+Amber Fu: Uh, do you see it?
+安柏·傅：呃，你看到了吗？
+KAEL WILLIAMS: Yeah, I can see it in the chat.
+凯尔·威廉姆斯：是的，我在聊天里能看到。
+Amber Fu: Okay, perfect. And um, okay, before we get started, do you mind I record this call?
+Amber Fu：好的，完美。嗯，好吧，在我们开始之前，你介意我录下这通电话吗？
+KAEL WILLIAMS: Yeah, there's no
+凯尔·威廉姆斯：是的，没有
+Amber Fu: Okay, thank you.
+Amber Fu：好的，谢谢你。
+KAEL WILLIAMS: problem.  凯尔·威廉姆斯：问题。
+Amber Fu: So, you can try to open the link. Uh, if you can't, just let me know.
+Amber Fu：你可以试着打开链接。呃，如果你不行，告诉我一声。
+KAEL WILLIAMS: Okay, let me let me just set it up. Okay. See it is loading.
+凯尔·威廉姆斯：好的，让我先布置一下。好的。看，正在加载。
+Amber Fu: Okay.  Amber Fu：好的。
+KAEL WILLIAMS: Yeah.  凯尔·威廉姆斯：是的。
+Amber Fu: And once you open it, do you mind uh you can share the screen?
+Amber Fu：打开后，你介意可以共享屏幕吗？
+KAEL WILLIAMS: H there's no problem I can sh Okay,
+凯尔·威廉姆斯：没问题，我可以，好的，
+Amber Fu: Uh,  安柏·傅：呃，
+KAEL WILLIAMS: let me let me get out and let me just sh
+凯尔·威廉姆斯：让我出去，我就说
+Amber Fu: okay.  Amber Fu：好的。
+KAEL WILLIAMS: Okay. Um, selecting a
+凯尔·威廉姆斯：好的。嗯，选择一个
+ 
+ 
+00:07:15
+ 
+Amber Fu: Mhm.  Amber Fu：嗯。
+KAEL WILLIAMS: tub.  凯尔·威廉姆斯：塔布。
+Amber Fu: So you can see that uh right now.
+Amber Fu：你现在就能看到。
+KAEL WILLIAMS: Yeah. I hope you can see mine.
+凯尔·威廉姆斯：是的。希望你能看到我的。
+Amber Fu: Yes.  Amber Fu：是的。
+KAEL WILLIAMS: Can you  凯尔·威廉姆斯：你能吗
+Amber Fu: Yes. Exactly. Okay. So uh before I walk you through anything uh I love to give you like few minute to explore the app on your own. So well there's no right uh or wrong here. it just you know just tap around and use it way you naturally would. So I won't explain anything yet. I just want to see like what catch your attention first and what feel like confusing. So you can take your time and just let me know when you're ready. So then we will start from the home screen together.
+Amber Fu：是的。没错。好的。所以，呃，在我带你做任何事情之前，我很想给你几分钟时间自己探索这个应用。所以，这里没有对错之分。就是，随意点点，按你自然的方式使用。所以我暂时不会解释。我只是想看看什么先吸引你的注意，什么让你觉得困惑。所以你可以慢慢来，准备好了再告诉我。那么我们就一起从主屏幕开始。
+KAEL WILLIAMS: Okay, let me let me take a look. Uh
+凯尔·威廉姆斯：好的，让我看看。呃
+Amber Fu: Sure. Yeah, you can you know tap any like event saving profile. Yeah, those all can tap in.
+Amber Fu：当然。是的，你可以点击任何类似的事件保存配置文件。是的，这些都能接入。
+KAEL WILLIAMS: Okay. Is this the only available image or I think uh
+凯尔·威廉姆斯：好的。这是唯一可用的图片吗？还是我觉得，呃
+ 
+ 
+00:08:41
+ 
+Amber Fu: Oh yeah,  Amber Fu：哦，是的，
+KAEL WILLIAMS: the  凯尔·威廉姆斯：那个
+Amber Fu: there have al you can you can uh uh let's see like you can tap the event. Do you see it? Okay. Yeah.
+Amber Fu：你可以，呃，嗯，看看你能不能点击这个活动。你看到了吗？好的。是的。
+KAEL WILLIAMS: Okay. Okay. Okay. Okay. Yeah. No. Yeah. Now, let me I think I can be good.
+凯尔·威廉姆斯：好的。好的。好的。好的。是的。不。是的。现在，让我觉得我可以表现得好。
+Amber Fu: Okay.  Amber Fu：好的。
+KAEL WILLIAMS: Good. Good. Okay, sounds good.
+凯尔·威廉姆斯：很好。很好。好的，听起来不错。
+Amber Fu: And you can see like the saving page.
+Amber Fu：你可以看到存档页面。
+KAEL WILLIAMS: Yeah, I think I'm okay. Let me just check all of them
+凯尔·威廉姆斯：是的，我觉得我还好。让我全部检查一下
+Amber Fu: Yeah,  Amber Fu：是的，
+KAEL WILLIAMS: first.  凯尔·威廉姆斯：首先。
+Amber Fu: sure.  Amber Fu：当然。
+KAEL WILLIAMS: Okay. Okay. Yeah, I think this is just a repetition now.
+凯尔·威廉姆斯：好的。好的。是的，我觉得这现在只是重复了。
+Amber Fu: Okay.  Amber Fu：好的。
+KAEL WILLIAMS: Yeah. So, I think I've uh gone through the interface.
+凯尔·威廉姆斯：是的。所以，我想我已经通过了界面。
+Amber Fu: Okay. And uh do you mind uh we can go back to the home
+Amber Fu：好的。呃，你介意吗，我们可以回养老院了
+KAEL WILLIAMS: Yeah.  凯尔·威廉姆斯：是的。
+Amber Fu: screen?  Amber Fu：屏幕？
+KAEL WILLIAMS: Yeah. There's no problem. Okay. You mean the
+凯尔·威廉姆斯：是的。没问题。好的。你是说
+Amber Fu: Yeah, you can click on the uh go back the
+Amber Fu：是的，你可以点击，呃，返回
+ 
+ 
+00:11:46
+ 
+KAEL WILLIAMS: Let me let me use
+凯尔·威廉姆斯：让我用
+Amber Fu: Yeah. So, uh well, let's start with the home uh home screen.
+Amber Fu：是的。那么，呃，我们先从主屏幕开始。
+KAEL WILLIAMS: this.  凯尔·威廉姆斯：就是这个。
+Amber Fu: So uh just imagine like a very uh specific moment like maybe like right now like when you want to charge on solar. So you usually check your solar app first then open the Tesla adjust the limit and like keep watching. So what if instead the app just simple send you a message that's saying that oh uh the solar was detected you're good to charge right now. almost like ready to play signal. Do you think that uh if you got this like would you still feel the need to open the solar app and double check?
+Amber Fu：所以，呃，想象一下一个非常具体的时刻，比如现在，比如你想给太阳能充电的时候。所以你通常先查看太阳能应用，然后打开特斯拉调整限额，继续观看。那如果应用只是简单地给你发一条消息，说“哦，呃，太阳能检测到了，你现在可以充电了”呢？几乎像是 Ready to Play 的 Signal。你觉得如果你拿到这个，还会觉得有必要打开太阳能应用再确认吗？
+KAEL WILLIAMS: Yes, actually this the information here is a good heads up and uh yeah being
+凯尔·威廉姆斯：是的，实际上这里的信息是很好的提醒，呃，是的
+Amber Fu: Okay.  Amber Fu：好的。
+KAEL WILLIAMS: that uh it is giving a clear information that something may require attention and then when you
+凯尔·威廉姆斯：那个，呃，它给出了一个明确的信息，说明某些事情可能需要关注，然后当你注意时
+Amber Fu: Mhm.  Amber Fu：嗯。
+KAEL WILLIAMS: check it you you're being warned about the power outage.
+凯尔·威廉姆斯：听着，你被警告停电了。
+Amber Fu: Mhm.  Amber Fu：嗯。
+KAEL WILLIAMS: that that is a warning and it really informs you that uh you need to do something before the before you get the the actual outage.
+凯尔·威廉姆斯：那是一个警告，它确实告诉你，呃，你需要在实际停电之前采取措施。
+ 
+ 
+00:12:58
+ 
+KAEL WILLIAMS: So I think it is an information that comes
+凯尔·威廉姆斯：所以我认为这是一个信息
+Amber Fu: Mhm. And and would you Okay.
+Amber Fu：嗯。你会吗？好吧。
+KAEL WILLIAMS: prior.  凯尔·威廉姆斯：之前。
+Amber Fu: And would you prefer this is a auto automatically start charging or to ask you proof first?
+Amber Fu：你更喜欢自动开始充电，还是先问你证明？
+KAEL WILLIAMS: Okay. So in this case being that we using ch I think auto charging would be good.
+凯尔·威廉姆斯：好的。所以在这种情况下，既然我们用的是 CH，我觉得自动充电会更好。
+Amber Fu: Come  Amber Fu：如何作
+KAEL WILLIAMS: Uh maybe you Yeah.
+凯尔·威廉姆斯：呃，也许是你，是的。
+Amber Fu: on.  安柏·傅：开启。
+KAEL WILLIAMS: In case you're not close to your phone and you don't receive the information or you may you may not just be at home.
+凯尔·威廉姆斯：如果你不靠近手机，也没有收到信息，或者你可能不会在家。
+Amber Fu: Mhm.  Amber Fu：嗯。
+KAEL WILLIAMS: Yeah. So I think automating it will be quite nice being that so as long as uh the information is confirmed because you know this one may just be an anticipation. uh we may not be sure about uh the power the power outage. Maybe uh it was just uh some false information.
+凯尔·威廉姆斯：是的。所以我觉得自动化会挺好的，只要信息得到确认，因为你知道，这可能只是个预料。呃，我们可能不确定停电情况。也许，呃，那只是一些虚假的信息。
+Amber Fu: Uh-huh.  安柏·傅：嗯哼。
+KAEL WILLIAMS: But I think uh as long as it is confirmed and the information is correct uh I think uh it is uh it would be good if it will be automated or yeah it would be fine with an automation because now that will not need your actual presence.
+凯尔·威廉姆斯：但我认为，只要确认且信息正确，呃，我认为，呃，如果能自动化，那会更好，或者说自动化也没问题，因为现在不需要你亲自到场。
+ 
+ 
+00:14:06
+ 
+KAEL WILLIAMS: Uh  凯尔·威廉姆斯：呃
+Amber Fu: Okay. Got you. And um so like when you say the top on banner like some
+Amber Fu：好的。明白了。嗯，就像你说横幅顶部那样
+KAEL WILLIAMS: yeah.  凯尔·威廉姆斯：是的。
+Amber Fu: there's say uh something may require your attention when you see those like what will be your first reaction.
+Amber Fu：比如说，有些事情可能需要你注意，比如你看到那些人，第一反应会是什么？
+KAEL WILLIAMS: Okay. So when you just open the airport maybe I think uh there could be a possibility of uh having a popup and like a notification uh from the So the moment you I receive these I think the first thing will be to try and rush into the app and see what what that could be because maybe uh it is it may be power outage or maybe there could be a lot of things that is happening and uh you know any warning needs to be taken seriously. Yeah.
+凯尔·威廉姆斯：好的。所以当你打开机场时，我觉得可能会有弹窗和通知，比如我收到这些信息后，第一件事就是赶紧打开应用看看会是什么情况，因为可能是停电，或者有很多原因这事正在发生，呃，你知道，任何警告都必须被认真对待。是的。
+Amber Fu: Mhm.  Amber Fu：嗯。
+KAEL WILLIAMS: So the first action will be to open the actual app and see what what really requires my attention.
+凯尔·威廉姆斯：所以第一步就是打开实际的应用，看看什么才是真正需要我关注的。
+Amber Fu: Okay. Gotcha.  Amber Fu：好的。明白了。
+KAEL WILLIAMS: Yeah.  凯尔·威廉姆斯：是的。
+Amber Fu: And uh so we're thinking like uh what if the system showed a clear plan uh like what your home will do over next 24 to 72 hours?
+Amber Fu：我们会想，如果系统显示一个清晰的计划，比如你家在接下来的 24 到 72 小时内会发生什么？
+ 
+ 
+00:15:15
+ 
+Amber Fu: Like do you think that will be uh helpful?
+Amber Fu：你觉得这会有帮助吗？
+KAEL WILLIAMS: Okay, that span is quite a long one. Uh 24 to 72 is quite long span and uh you know being that we're relying on weather because we need the
+凯尔·威廉姆斯：好的，这个跨度相当长。呃，24到72是相当长的跨度，呃，你知道，我们依赖天气，因为我们需要
+Amber Fu: Mhm.  Amber Fu：嗯。
+KAEL WILLIAMS: solar I think is quite a long shot to try and make an estimate for like 3 days. uh but uh okay so the problem we will have in this case in making these plans will be about uh accuracy yeah being that we'll be relying on data
+凯尔·威廉姆斯：我觉得太阳能要给出三天的估计是个很大的可能。呃，但是，呃，好吧，在这种情况下，我们在制定这些计划时会遇到的问题，是关于准确性的问题。是的，我们会依赖数据
+Amber Fu: Mhm.  Amber Fu：嗯。
+KAEL WILLIAMS: maybe from uh from weather forecast and uh other prediction which may not always
+凯尔·威廉姆斯：也许是来自天气预报和其他预测，但这些预测并不总是如此
+Amber Fu: Mhm.  Amber Fu：嗯。
+KAEL WILLIAMS: be correct yeah so trying to plan with the trying to plan with that I think you cannot keep it for sure and uh and be sure that it will actually work it will actually be as it has been predicted. So I think the best way is maybe uh just use it for okay so relying on the okay so uh you may have the prevailing condition like let's say when um is actually when there's actually no sun for maybe a long time.
+凯尔·威廉姆斯：没错，所以试图用这些来规划，我觉得你不能确定它会成功，正如预测的那样。所以我觉得最好的办法是，呃，就用它来做，比如说，嗯，你可能有那个普遍的状况，比如说，嗯，实际上是很长时间没有阳光的时候。
+ 
+ 
+00:16:26
+ 
+KAEL WILLIAMS: So uh when we when we are expecting a rainy season so definitely we will not have much sun. So whenever maybe we'll have some few hours for with with the sunlight.
+凯尔·威廉姆斯：所以，呃，当我们预期会有雨季时，肯定不会有太多阳光。所以也许我们会有几个小时和阳光一起。
+Amber Fu: Mhm.  Amber Fu：嗯。
+KAEL WILLIAMS: Uh so that time I think we can make such predictions but it won't be it should not be taking quite a long it shouldn't be lasting a long time like uh 72 hours maybe just a short span of maybe if we do the planning every day.
+凯尔·威廉姆斯：呃，那段时间我觉得我们可以做出这样的预测，但不会太久，不应该持续太久，比如72小时，也许只是短暂的“也许”，如果我们每天都做规划的话。
+Amber Fu: Okay. Okay. Thank you. And that's that's really helpful.
+Amber Fu：好的。好的。谢谢。这真的很有帮助。
+KAEL WILLIAMS: Yeah.  凯尔·威廉姆斯：是的。
+Amber Fu: And um so and can right now like you can see the the in the home uh home screen they have a usage saving and uh so they have some like uh suggestion and just tell you what's what's going on right now. Like for like right now the situation is like a power outage is warning. Uh so when you're saying all of those like will this replace the mental mass you're doing today is it's kind of like a scream you check multiple time a day instead like you know jumping between the apps.
+Amber Fu：嗯，现在你可以在主界面看到，他们有节省使用功能，他们会给你一些建议，告诉你目前发生了什么。就像现在的情况，停电是个警告。呃，所以你说的那些问题，比如这会取代你今天的心理压力，这有点像尖叫，你一天要多次查看，而不是在不同应用间跳来跳去。
+ 
+ 
+00:17:39
+ 
+KAEL WILLIAMS: I think I would like this interface uh that is giving all uh
+KAEL WILLIAMS：我觉得我会喜欢这个界面，呃，它能让所有，呃
+Amber Fu: Mhm.  Amber Fu：嗯。
+KAEL WILLIAMS: you know actually what we're trying to do here is trying to save from uh what you take from the grid. Uh so and uh you can you can as well monitor your usage. Yeah.
+凯尔·威廉姆斯：你知道，实际上我们想做的是从电网取出的东西。呃，是的，呃，你也可以监控你的使用情况。是的。
+Amber Fu: Mhm.  Amber Fu：嗯。
+KAEL WILLIAMS: this you can know what you can know whether you are over you're taking too much from the solar or maybe you're just under you're not taking enough so like in this in our case here on the screen we have 32 and the usual one is 47 so that is that means you still have not done as you always do so I think that is why we we being advised to change the power and the EV right now because maybe they have not been charged uh they still a lot of there's still a lot to be drawn compared to what we take every day. So this one is a heads up and tells you that still there's something that has not been done that is usually
+凯尔·威廉姆斯：你可以知道你能知道的，是你用太阳能过多，还是稍微不足，比如我们这里屏幕上有32，通常用的是47，这意味着你还没有像往常一样完成，我想这就是我们被建议的原因现在就换动力和电动车，因为可能还没充好电，呃，还有很多，和我们每天用的相比，还有很多电量要抽。所以这个提醒你，仍然有一些事情还没被做，通常
+ 
+ 
+00:18:33
+ 
+Amber Fu: But got you. And like cuz I I think you mentioned the your solar going offline almost
+Amber Fu：但你也抓到了。而且，我记得你提到你的太阳能几乎会离线
+KAEL WILLIAMS: done.  凯尔·威廉姆斯：完成了。
+Amber Fu: monthly and well I I think that usually means like you need to walking outside and just uh try to figure out what's going on. So uh so what if the the the system did instead like uh first is you know automatically check uh the connection uh like every day for you for like um maybe multiple times per day and only if uh there have a situation uh offline and will the system will notify you do you think will be uh meaningful?
+Amber Fu：每月一次，我觉得通常意味着你需要走到户外，试着弄清楚发生了什么。那么，呃，如果系统先自动检查连接，比如每天帮你检查连接，可能一天多次，只有在遇到离线情况时，系统会通知你，你觉得这有意义吗？
+KAEL WILLIAMS: Yeah, I think it would be it would be good because uh actually at times when the app goes offline you cannot track anything and when the okay when you go offline you cannot track a lot and uh uh being being that you not know what is happening.
+凯尔·威廉姆斯：是的，我觉得这会很好，因为实际上，有时候应用离线时你根本无法追踪任何东西，而当你离线时，你也无法追踪很多东西，呃，呃，因为你不知道发生了什么。
+Amber Fu: Mhm.  Amber Fu：嗯。
+KAEL WILLIAMS: So I think uh maybe even the app will not work at that time. I'm very sure uh the app give you anything accurate. So uh troubleshooting every let's say you give it specific times maybe um maybe 6:00 p.m.
+凯尔·威廉姆斯：所以我觉得，呃，也许那个应用在那个时候也无法正常工作。我很确定，呃，这个应用能给你准确的判断。所以，呃，排查一下，比如说你给它具体的时间，比如，嗯，可能是下午6点。
+ 
+ 
+00:19:59
+ 
+KAEL WILLIAMS: and 6:00 a.m. every day. So you give them a specific time to do a troubleshooting.
+凯尔·威廉姆斯：每天早上6点。所以你给他们一个具体的时间去排查故障。
+Amber Fu: Mhm.  Amber Fu：嗯。
+KAEL WILLIAMS: Yeah.  凯尔·威廉姆斯：是的。
+Amber Fu: Got you.  安柏·傅：明白了。
+KAEL WILLIAMS: So that would be that would be good uh to check whether you're online or you're offline.
+凯尔·威廉姆斯：所以，嗯，检查一下你是在线还是离线。
+Amber Fu: Mhm.  Amber Fu：嗯。
+KAEL WILLIAMS: So that really gives you a heads up on what to do before it is too long.
+凯尔·威廉姆斯：这确实能让你提前知道该怎么做，免得太久。
+Amber Fu: Got you. Got you. And and I think last time you says of some something like uh uh
+安柏·傅：明白了。明白了。而且我记得你上次说过类似“呃呃”
+KAEL WILLIAMS: Yeah.  凯尔·威廉姆斯：是的。
+Amber Fu: uh the 10:00 a.m. to 2:00 p.m. window sometime is uh conflict with uh earns or meetings. So, like what if the app can give you like a let's say like a simple plan like uh for example like tomorrow best solar charging window is 11:00 a.m. to 100 p.m. Uh and if you're away not home uh they will give you a second option like oh next uh best window will be like a 900 pm stuff like that. Do you uh would you thinking this ahead of time help you plan your day without like you know feeling trapped by the solar windows?
+Amber Fu：呃，上午 10 点到下午 2 点的时段有时是和 Earns 的冲突或会议。比如说，如果这个应用能给你一个简单的计划，比如明天，最佳太阳能充电时间窗口是上午 11 点到晚上 100 点呢？呃，如果你不在家，他们会给你第二个选择，比如“下一个，呃，最佳时间窗口”大概是晚上 9 点左右。你会不会提前想清楚，这样能帮你规划一天，而不是被太阳能窗户困住？
+ 
+ 
+00:21:06
+ 
+KAEL WILLIAMS: Okay. I think uh that would be a good idea actually if it could be synchronized with the maybe uh maybe the phone's calendar.
+凯尔·威廉姆斯：好的。我觉得，呃，如果能和手机日历同步，那其实是个好主意。
+Amber Fu: Mhm.  Amber Fu：嗯。
+KAEL WILLIAMS: Yes.  凯尔·威廉姆斯：是的。
+Amber Fu: Okay.  Amber Fu：好的。
+KAEL WILLIAMS: So it can check if it can check on your activities and uh try to balance them and
+凯尔·威廉姆斯：所以它可以检查是否能检查你的活动，并试图平衡它们
+Amber Fu: Okay.  Amber Fu：好的。
+KAEL WILLIAMS: uh try to find out the free windows that you have in your calendar.
+凯尔·威廉姆斯：呃，试着找出你日历上有哪些空闲时间。
+Amber Fu: Okay.  Amber Fu：好的。
+KAEL WILLIAMS: Yeah.  凯尔·威廉姆斯：是的。
+Amber Fu: Gotcha.  Amber Fu：明白了。
+KAEL WILLIAMS: So that on charging and just managing your electricity at
+KAEL WILLIAMS：所以关于充电和管理你的电力
+Amber Fu: Mhm. Gotcha. And like would you want this to run like uh automatically or always
+Amber Fu：嗯，明白了。你想让它自动运行还是一直运行
+KAEL WILLIAMS: all.  凯尔·威廉姆斯：全部。
+Amber Fu: require you approval?
+Amber Fu：需要你的批准吗？
+KAEL WILLIAMS: Okay. If it could run automatically and uh maybe just give an maybe just give you a popup uh just a notification that shows you what you have to day and what you need to do you know uh it should be too tire it should be about what you have and uh what
+凯尔·威廉姆斯：好的。如果它能自动运行，呃，也许只是弹出一个通知，告诉你今天需要做什么、需要做什么，你知道，应该太疲惫了，应该是关于你拥有的，呃，什么
+Amber Fu: Mhm.  Amber Fu：嗯。
+KAEL WILLIAMS: it what it recommends that you should do.
+凯尔·威廉姆斯：这正是你应该做的建议。
+Amber Fu: Got you.  安柏·傅：明白了。
+ 
+ 
+00:22:05
+ 
+Amber Fu: Got you. And um so uh and last time I think you mentioned was like the
+安柏·傅：明白了。嗯，所以，呃，上次你提到的那次是
+KAEL WILLIAMS: Yeah.  凯尔·威廉姆斯：是的。
+Amber Fu: true up true bill like even though like a month monthly bill are lower but the the annual true up still feel a little bit high. So what if the app can told you that uh as estimate true up
+Amber Fu：按月按算的真实账单，虽然月结算费较低，但年度按算仍感觉有点高。那应用能告诉你，呃，作为估算，那又怎样
+KAEL WILLIAMS: Heat.  凯尔·威廉姆斯：热度。
+Amber Fu: this year is let's say like $800 and the main driver is EV charging plus evening growth usage. Uh would would that help you feel like more in control or would you rather not think about until the end of year?
+Amber Fu：今年大约 800 美元，主要驱动力是电动车充电加上晚间增长。呃，这样会让你感觉更有掌控感吗？还是你宁愿等到年底才去想这些？
+KAEL WILLIAMS: Okay, I think pinpointing where the the cost comes from is quite good. Uh because now you can know how to manage them. I think you can uh change your priorities on what to charge at what time and uh that I
+凯尔·威廉姆斯：好的，我认为明确成本来源是很好的。呃，因为现在你能知道如何管理它们了。我觉得你可以调整优先级，决定什么时候充电，呃，我
+Amber Fu: Mhm.  Amber Fu：嗯。
+KAEL WILLIAMS: think that really can help you in having control of uh of your usage and your finances at the same time because now you'll know okay now being that this water has been drawing much money from me this water has been taking much uh you can balance and maybe uh you you can switch on maybe charging it on uh charging it on the solar so it can really help in shaping your trends and habits.
+凯尔·威廉姆斯：我认为这真的能帮助你同时掌控用水和财务，因为现在你会知道，既然这水一直在消耗我很多钱，这水消耗了很多，你可以平衡，也许你可以打开，给它充电，给太阳能充电，这样它真的能帮助塑造你的趋势和习惯。
+ 
+ 
+00:23:26
+ 
+Amber Fu: Mhm. Gotcha. Gotcha. And like uh can when you say like automation,
+Amber Fu：嗯，明白了。明白了。就像你说自动化时，
+KAEL WILLIAMS: Yeah.  凯尔·威廉姆斯：是的。
+Amber Fu: it's okay as long as it's a confirm like what does conffort mean to you? Like uh actual like solar output or what like what else?
+Amber Fu：只要是确认就行，比如 conffort 对你来说是什么意思？比如说，呃，实际的太阳能输出，还是其他什么？
+KAEL WILLIAMS: Okay. Interesting question. Okay. Can you repeat the question?
+凯尔·威廉姆斯：好的。有趣的问题。好的。你能再说一遍问题吗？
+Amber Fu: Okay. Okay. And like would you want to know like why the app says like ready to charge? For example, like oh solar is producing X KW and the home usage is Y or is the message long enough?
+Amber Fu：好的。好的。你想知道为什么应用显示“准备好充电”了吗？比如说，太阳能发电量是 X 千瓦，家庭用电量是 Y，还是信息足够长？
+KAEL WILLIAMS: Okay, I thinking that information could also be good that uh you uh just telling you to go and charge maybe you're not receiving enough energy from the solar at that time. So it can I think uh uh if you you maybe just charge and you don't have enough from the solar itself uh that one can
+凯尔·威廉姆斯：好的，我觉得这些信息也可能是有用的，比如你只是告诉你去充电，也许你当时从太阳能那里接收到的能量不足。所以，我觉得，呃，如果你只是充电，太阳能本身的电量不够，呃，那个可以
+Amber Fu: Hello.  Amber Fu：你好。
+KAEL WILLIAMS: cripple your whole system maybe after that. So getting to know how much you're actually receiving uh before knowing what to do.
+凯尔·威廉姆斯：也许之后会把整个系统都瘫痪。所以在知道该怎么做之前，先了解你实际能拿到多少钱。
+ 
+ 
+00:24:41
+ 
+KAEL WILLIAMS: uh so let's say when we are having a when we having enough solar uh or maybe just
+凯尔·威廉姆斯：呃，那我们假设我们有足够的太阳能，或者仅仅是
+Amber Fu: Yeah.  Amber Fu：是的。
+KAEL WILLIAMS: above average above what we always receive it is a good time to share the time being that we are we
+凯尔·威廉姆斯：高于平均水平，超过我们一直收到的，现在是分享我们真实自我的好时机
+Amber Fu: Mhm.  Amber Fu：嗯。
+KAEL WILLIAMS: actually having
+凯尔·威廉姆斯：实际上
+Amber Fu: Got you. Got you. And And if like the system detect the solar going offline,
+安柏·傅：明白了。明白了。如果系统检测到太阳能离线，
+KAEL WILLIAMS: surplus  凯尔·威廉姆斯：盈余
+Amber Fu: uh when would you want to be notified like immediately or only if doesn't recover after uh certain minute?
+Amber Fu：呃，你想什么时候收到通知，比如马上，还是只有在某分钟后没恢复时才会通知？
+KAEL WILLIAMS: Yeah, I think uh on that uh the notification should come after some time because I think it will try to it will try to get itself back online.
+凯尔·威廉姆斯：是的，我认为，呃，关于那个，呃，通知应该会在一段时间后出来，因为我认为它会尝试让自己重新上线。
+Amber Fu: Mhm.  Amber Fu：嗯。
+KAEL WILLIAMS: So we can just give it a short window before the notification actually comes and uh that
+凯尔·威廉姆斯：所以我们可以给它一个短暂的时间窗口，然后通知真正出来，呃
+Amber Fu: Mhm.  Amber Fu：嗯。
+KAEL WILLIAMS: requires my action.
+凯尔·威廉姆斯：需要我采取行动。
+Amber Fu: Got you. Got you. And uh and for like uh for the schedule stuff like you know like a let's say like a 72 hour plans like would you prefer like a simple plan each morning or just real time suggestion as a condition Change.
+安柏·傅：明白了。明白了。还有，关于日程安排，比如72小时计划，比如你更喜欢每天早上的简单计划，还是直接实时建议，比如条件：变更。
+ 
+ 
+00:25:53
+ 
+KAEL WILLIAMS: Okay. You know, I I think as you have noticed that, okay, I don't like uh relying on on predictions. I think uh um I prefer going with the things as they are at a specific time. Yeah. So,
+凯尔·威廉姆斯：好的。你知道，我想你也注意到了，好吧，我不喜欢依赖预测。我想，呃，我更喜欢按照时间的现状来。是的。所以，
+Amber Fu: Uh-huh.  安柏·傅：嗯哼。
+KAEL WILLIAMS: in this case, I'll just prefer to be informed uh when it actually happens. Yeah. In real time.
+凯尔·威廉姆斯：在这种情况下，我更愿意在实际发生时被告知。是的。而且是实时的。
+Amber Fu: Okay. Okay. Okay. Got you. Got you. And uh Okay. So, and let's we can see like you can uh let's see like for right now the home screen. Do you think those information is enough for you or what part you think still missing?
+Amber Fu：好的。好的。好的。明白了。明白了。然后，呃，好吧。那么，我们现在可以看到主屏幕。你觉得这些信息对你来说足够吗？还是你觉得还缺了哪些部分？
+KAEL WILLIAMS: Okay, I think maybe what can include here is just maybe a small uh just a small box uh where you can uh just show the online status. Yeah, maybe online or offline. So we can easily know whether we we're actually having the real time access or it has gone on offline.
+凯尔·威廉姆斯：好的，我想这里可以包括一个小的，呃，呃，一个小框，你可以直接显示在线状态。是的，也许线上或线下。这样我们就能轻松知道自己是实时访问，还是已经离线了。
+Amber Fu: Mhm.  Amber Fu：嗯。
+ 
+ 
+00:27:01
+ 
+KAEL WILLIAMS: Yeah. Yeah. That maybe we just give it a shade of green and red.
+凯尔·威廉姆斯：是的。是的。也许我们只是给它加点绿色和红色的色调。
+Amber Fu: Okay.  Amber Fu：好的。
+KAEL WILLIAMS: So when it is red, we know that it is offline and action is needed. So and when it is green, everything is all right.
+凯尔·威廉姆斯：所以当红灯出现时，我们知道它已经离线，需要采取行动。所以，当它变绿时，一切都没问题。
+Amber Fu: Okay. Got you. Got you. And um and we can go on next uh next tab the event.
+Amber Fu：好的。明白了。明白了。嗯，我们可以继续下一个，呃，下一个标签，活动。
+KAEL WILLIAMS: Yeah.  凯尔·威廉姆斯：是的。
+Amber Fu: You can click event. Yeah. And maybe you can just, you know, uh, click on the anything like eBay charging during the high price. The second one. Yeah. And for this page, what your first reaction?
+Amber Fu：你可以点击事件。是的。也许你可以点点什么，比如 eBay 在高价时收费。第二个。是的。那你第一反应是什么？
+KAEL WILLIAMS: Okay, I think uh these I let me let me go back a
+凯尔·威廉姆斯：好的，我想这些，呃，我让我回头说说
+Amber Fu: Mhm.  Amber Fu：嗯。
+KAEL WILLIAMS: little. Okay, so these are the events that actually require my attention. So this the reason I uh uh maybe the app brought the notification. So when I open this and uh I'll see what what has actually happened. So uh the thing that uh uh the EV was charging when the when the rates were quite high.
+凯尔·威廉姆斯：很少。好了，这些是真正需要我关注的事件。所以这就是我，呃，可能是应用带来通知的原因。所以当我打开这个，呃，我会看看到底发生了什么。所以，呃，那个，呃，呃，电动车在充电的时候，电费还挺高的。
+ 
+ 
+00:28:07
+ 
+KAEL WILLIAMS: So when I first meet this uh what I'll be what I'll be trying to figure out is maybe the charging time
+凯尔·威廉姆斯：所以当我第一次见到这个人时，呃，我会试图弄清楚，也许是充电时间
+Amber Fu: Mhm.  Amber Fu：嗯。
+KAEL WILLIAMS: uh that duration was it was used to charge and uh just uh trying to figure out whether that was a good time to use the solar or maybe uh that was the only option that I had.
+凯尔·威廉姆斯：呃，那段时间是用来充电的，呃，呃，我只是想弄清楚那是不是用太阳能的好时机，或者说，呃，那是我唯一的选择。
+Amber Fu: Mhm. Got you.  安柏·傅：嗯，明白了。
+KAEL WILLIAMS: Yeah.  凯尔·威廉姆斯：是的。
+Amber Fu: And and for this page, like do you what what what part do you think still missing things for you? Maybe like a dollar impact or like uh just an explanation of like why is it happen stuff like that?
+Amber Fu：那这页你觉得你还缺了什么？也许是金钱影响，或者只是解释为什么会发生之类的？
+KAEL WILLIAMS: Okay, I think the explanation is what matters here most because uh maybe if it was just out of uh if it is something that that I could avoid um so I can know what to do next. But uh uh in case uh in case there was a like like I said the first explanation here is about uh solar production was unable to fully supply the housing load. Yeah.
+凯尔·威廉姆斯：好的，我觉得这里最重要的是解释，因为呃，也许如果只是出于某种程度，嗯，如果是我能避免的事情，嗯，这样我才能知道下一步该怎么做。但呃，呃，如果有类似情况，就像我说的，第一个解释是太阳能发电无法完全满足住房负荷。是的。
+Amber Fu: Mhm.  Amber Fu：嗯。
+ 
+ 
+00:29:14
+ 
+KAEL WILLIAMS: In that case uh it seems like there was not much option. Yeah.
+凯尔·威廉姆斯：在那种情况下，呃，看起来没什么选择。是的。
+Amber Fu: Mhm.  Amber Fu：嗯。
+KAEL WILLIAMS: So if I find an explanation like that uh it will be an easy thing to accept and uh we just take it as it is. Uh compared to what would happen in case uh okay if it was just an error maybe the solar was just enough and uh the EV got charged using from the grid. So that would be an unnecessary cost and it would be a concern.
+凯尔·威廉姆斯：所以如果我找到这样的解释，呃，这很容易接受，我们就接受现状。相比之下，如果只是个错误，也许太阳能刚好够用，电动车是用电网充电的。所以这笔费用是不必要的，也值得担忧。
+Amber Fu: Mhm. Got you. Got you.
+安柏·傅：嗯，明白了。明白了。
+KAEL WILLIAMS: Yeah.  凯尔·威廉姆斯：是的。
+Amber Fu: Okay. And uh we can go back. Yes. And uh we can move to the next uh tab that says saving uh the saving.
+Amber Fu：好的。呃，我们可以回去。是的。然后，呃，我们可以跳到下一个，呃，写着“保存”的标签页。
+KAEL WILLIAMS: Russian.  凯尔·威廉姆斯：俄罗斯人。
+Amber Fu: Do you see it next to the event? Yeah. Uh saving saving.
+Amber Fu：你看到它放在活动旁边吗？是的。呃，省钱。
+KAEL WILLIAMS: Oh.  凯尔·威廉姆斯：哦。
+Amber Fu: Yeah. Look.  Amber Fu：是的。看。
+KAEL WILLIAMS: Oh,  凯尔·威廉姆斯：哦，
+Amber Fu: Yeah.  Amber Fu：是的。
+KAEL WILLIAMS: okay.  凯尔·威廉姆斯：好的。
+Amber Fu: Here.  Amber Fu：给你。
+KAEL WILLIAMS: See?  凯尔·威廉姆斯：看吧？
+Amber Fu: Okay.  Amber Fu：好的。
+KAEL WILLIAMS: Yeah.  凯尔·威廉姆斯：是的。
+Amber Fu: And when you see this page like I for the number uh 2 268 to 412 what do you think those
+Amber Fu：当你看到这个页面，比如我，2,268 到 412，你觉得那些是什么？
+ 
+ 
+00:30:29
+ 
+KAEL WILLIAMS: Okay.  凯尔·威廉姆斯：好的。
+Amber Fu: number?  Amber Fu：编号？
+KAEL WILLIAMS: So I think uh these are the maybe that is the range of our savings. So that one goes from month to month. So uh we have maybe our lowest month when we saved the list was 268 and uh the best month I think in this year was 412. Yeah that is quite a good saving.
+凯尔·威廉姆斯：所以我认为，这些，呃，也许，就是我们储蓄的范围。所以这个月到月。所以，呃，我们保存名单时最低的月份可能是268，而我认为今年最好的月份是412。是的，这确实是个不错的节省。
+Amber Fu: Mhm.  Amber Fu：嗯。
+KAEL WILLIAMS: It is a good saving. Uh so what you can see from this is that uh okay so and we have the graphical explanation uh so you can see which month performed
+凯尔·威廉姆斯：这是一次很好的救赎。呃，从这里你可以看到，呃，好的，我们有图形解释，呃，你可以看到哪个月份发生了
+Amber Fu: Mhm.  Amber Fu：嗯。
+KAEL WILLIAMS: best and uh you can try to figure out the reason so maybe uh when uh let's talk about let's compare April and May so you can just check on what was happening in April and what really happened in May.
+凯尔·威廉姆斯：最好，呃，你可以试着找出原因，也许，呃，我们来谈谈四月和五月的对比，这样你就能查查四月发生了什么，五月到底发生了什么。
+Amber Fu: Mhm.  Amber Fu：嗯。
+KAEL WILLIAMS: So you can do your analysis based on that being that there is quite a big drop from April to May. So maybe it was about the weather or maybe you were not available at home to actually uh make make the adjustments or maybe it was just about uh not having been informed or Yeah.
+凯尔·威廉姆斯：所以你可以基于这个结论来分析，因为从四月到五月之间有相当大的下降。所以可能是天气问题，或者你当时不在家，无法做调整，或者只是因为没被告知，或者是的。
+ 
+ 
+00:31:37
+ 
+KAEL WILLIAMS: So you try to when you look at the graphical representation you can see you know you can have that visual explanation and uh try
+凯尔·威廉姆斯：所以你试着看图形表现时，你会看到你可以用视觉解释，然后，呃，试着
+Amber Fu: Mhm.  Amber Fu：嗯。
+KAEL WILLIAMS: to figure out what to do in that case and yeah so compared to with that you can see which month performed best.
+凯尔·威廉姆斯：在这种情况下该怎么做，是的，所以你可以比较那个月份表现最好的。
+Amber Fu: Mhm.  Amber Fu：嗯。
+KAEL WILLIAMS: Then moving down I think we have the monthly aggregation of dete detected events. Yeah.
+凯尔·威廉姆斯：然后往下看，我认为我们有每月检测事件的汇总。是的。
+Amber Fu: Mhm.  Amber Fu：嗯。
+KAEL WILLIAMS: So like in this case we have EV charging during peak hours. So that appears twice. So when we have the when we have that like so here we can try to we can see the factors that really contributed to this these savings that you can see here. So evening charging during peak hours those are the things that uh drove our bill higher. Yeah. And solar production unvailable.
+凯尔·威廉姆斯：比如说，我们有在高峰时段进行电动车充电。所以这会出现两遍。所以当我们有这些资源时，我们可以尝试看看真正促成这些节省的因素。所以高峰时段的晚间充电，就是这些因素让我们的账单变高了。是的。太阳能发电也无法实现。
+Amber Fu: Mhm.  Amber Fu：嗯。
+KAEL WILLIAMS: So those are those are things that made us to rely mostly on the grid. So we we can see why we did not save much during that period.
+凯尔·威廉姆斯：这些就是让我们主要依赖电网的原因。所以我们能理解为什么那段时间我们并没有存多少钱。
+Amber Fu: Got you.  安柏·傅：明白了。
+ 
+ 
+00:32:38
+ 
+Amber Fu: And and if this page can totally uh things like a top drivers of the
+Amber Fu：如果这个页面完全可以，呃，比如顶级车手
+KAEL WILLIAMS: Yeah.  凯尔·威廉姆斯：是的。
+Amber Fu: range uh stuff like EV high price charging or like a power wall
+Amber Fu：比如电动车、高价充电或电源墙之类的续航
+KAEL WILLIAMS: Yeah.  凯尔·威廉姆斯：是的。
+Amber Fu: high price charging, would you trust the suggestion uh suggested schedule mode more for this
+Amber Fu：高价充电，你会更信任建议的计划模式吗？
+KAEL WILLIAMS: Yeah. I think I think if this one can give you an analysis of what really contributed to
+凯尔·威廉姆斯：是的。我觉得如果这个能给你一个真正促成因素的分析
+Amber Fu: page?  Amber Fu：侍从？
+KAEL WILLIAMS: what we actually have at this time.
+凯尔·威廉姆斯：我们目前实际掌握的情况。
+Amber Fu: Mhm.  Amber Fu：嗯。
+KAEL WILLIAMS: Uh so it is very easy to pinpoint and uh see what to do in that case.
+凯尔·威廉姆斯：呃，所以很容易确定，也很容易判断在这种情况下该怎么做。
+Amber Fu: Mhm. Got you. And you can tap on the let's see like the EV charging during the high price
+安柏·傅：嗯，明白了。你可以点击“看看”功能，比如在高价期间充电
+KAEL WILLIAMS: Yeah.  凯尔·威廉姆斯：是的。
+Amber Fu: that and for the bottom sheet this page. What do you think? What's your first reaction?
+Amber Fu：还有本页底部的页面。你觉得怎么样？你第一反应是什么？
+KAEL WILLIAMS: Okay. So this uh this actually maybe just an explanation on what actually happened.
+凯尔·威廉姆斯：好的。所以，呃，这其实只是对事情的解释。
+Amber Fu: I  Amber Fu：我
+KAEL WILLIAMS: Yeah.  凯尔·威廉姆斯：是的。
+Amber Fu: know.  Amber Fu：知道。
+KAEL WILLIAMS: I see it says that uh at the time of the event EV charging was drawing electricity from a during a higher price period.
+凯尔·威廉姆斯：我看到上面说，活动发生时，电动车充电正在从一个较高的价格周期内取电。
+ 
+ 
+00:33:46
+ 
+KAEL WILLIAMS: Yeah.  凯尔·威廉姆斯：是的。
+Amber Fu: Mhm.  Amber Fu：嗯。
+KAEL WILLIAMS: So like information like that can help in in adjusting when to charge your EV or when uh people need it the when people need electricity from the grid the least.
+凯尔·威廉姆斯：所以，这样的信息可以帮助你调整何时给电动车充电，或者在人们最不需要电网用电的时候充电。
+Amber Fu: Mhm.  Amber Fu：嗯。
+KAEL WILLIAMS: Yeah. So and the second the second explanation is compared to charging during off peak hours this can increase cost exposure. Yeah. So that one it is just an explanation uh and I think it is actually a suggestion what to do. Uh because from explanation you can see what you need to do. You need to maybe if you don't have enough solar energy, you can switch to charging during the off peak hours.
+凯尔·威廉姆斯：是的。其次，第二个解释与非高峰时段充电相比，这可能会增加成本风险。是的。所以那只是个解释，呃，我觉得它其实是一个建议，告诉大家该怎么做。呃，因为从解释中你可以看到你需要做什么。如果你的太阳能不足，也许可以改为在非高峰时段充电。
+Amber Fu: Mhm. Got you. And uh you can click on the data source and
+安柏·傅：嗯，明白了。你可以点击数据源，
+KAEL WILLIAMS: Yeah.  凯尔·威廉姆斯：是的。
+Amber Fu: confidence. Do you think uh for this this this part is enough for you or you want to a deeper
+Amber Fu：自信。你觉得这部分对你来说够了吗，还是想更深入
+KAEL WILLIAMS: Okay.  凯尔·威廉姆斯：好的。
+Amber Fu: reason?  Amber Fu：原因？
+KAEL WILLIAMS: So we need I see that the sources of data is the utility pricing information uh something that I think uh uh the app actually has access to and we have the connect price data and historical pattern.
+凯尔·威廉姆斯：所以我们需要看到数据来源是公用事业价格信息，呃，我认为应用实际上可以访问这些信息，我们有连接价格数据和历史模式。
+ 
+ 
+00:34:56
+ 
+KAEL WILLIAMS: So I think this is just an analysis of what we already have and so it is
+凯尔·威廉姆斯：所以我认为这只是对我们已有数据的分析，确实如此
+Amber Fu: Okay.  Amber Fu：好的。
+KAEL WILLIAMS: just it is a conclusion that has been reached from data analysis. So and uh on the confidence uh it says that these estimates are based on detector events and may differ from your final utility bill. Yeah. being that uh maybe uh like I said the things cannot be accurate but they are just they they they try to point out what you okay they may not be accurate in terms of numbers but in terms of direction when it tells you that things are going higher you it is very likely that things are get the bill your bills are getting higher so we may not have the correct correct numbers we may have missed something maybe on Um maybe okay maybe depending on the amount of power consumed we may not have the correct number in that case.
+凯尔·威廉姆斯：这只是数据分析得出的一个结论。那么，呃，关于置信度，呃，这些估算是基于探测器事件，可能与你的最终水电费账单不同。是的。既然如此，呃，也许，呃，正如我说的，这些数据不可能准确，但它们只是试图指出你，好的，数字可能不准确，但从方向上看，当它告诉你情况在上涨时，很有可能情况是账单上涨，你的账单也在上涨，所以我们可能没有正确的数字我们可能漏掉了什么，也许，嗯，好吧，也许根据耗电量，我们可能没有正确的数字。
+Amber Fu: M. Mhm.  Amber Fu：M. 嗯。
+KAEL WILLIAMS: Yeah. So that will really affect the calculations that you have here but uh it will be
+凯尔·威廉姆斯：是的。这会真正影响你这里的计算，但，嗯，确实会
+ 
+ 
+00:35:59
+ 
+Amber Fu: Mhm.  Amber Fu：嗯。
+KAEL WILLIAMS: almost a close reflection of what we will have finally. Yeah it may not be it may not be correct.
+凯尔·威廉姆斯：几乎是我们最终将拥有的状态的近似。是的，可能不完全正确。
+Amber Fu: Mhm.  Amber Fu：嗯。
+KAEL WILLIAMS: It might not be uh the actual figure that we'll find but it is a reflection of that.
+凯尔·威廉姆斯：这可能不是我们会找到的实际数字，但它反映了这一点。
+Amber Fu: Mhm. Got you. Got you. And we can go back.
+安柏·傅：嗯，明白了。明白了。我们可以回去。
+KAEL WILLIAMS: Yeah.  凯尔·威廉姆斯：是的。
+Amber Fu: Yeah. Uh try. Yeah. Okay. And we can go uh next uh next uh next tab the pro profile. Yeah. And we have uh add one more is uh you can click on the add family members. Uh so would it help if like someone of those notification could also you know go to your spouse or kids like when you're not around?
+Amber Fu：是的。呃，试试。是的。好的。我们可以去，呃，接下来，呃，下一个，呃，下一个，标签，职业档案。是的。还有，呃，添加，还有一个，你可以点击添加家庭成员。呃，那如果有人能不能像通知那样，在你不在的时候去找配偶或孩子，会有帮助吗？
+KAEL WILLIAMS: Yes, I think that will really help. I actually think that's a good uh suggestion being that you may not be home at all the time at all times and uh someone probably be home. So uh if the notification reaches uh a everyone uh maybe let's say you and your spouse so whoever is closest to home can make the required adjustments like uh uh charging the EV the off during the solar peak hours when the solar is maximum.
+凯尔·威廉姆斯：是的，我认为这会非常有帮助。我其实觉得这是个不错的建议，因为你可能不是一直都在家，而且可能有人在家。所以，如果通知传达到所有人，比如你和配偶，这样离家最近的人可以做必要的调整，比如在太阳能高峰时段关闭电动车。
+ 
+ 
+00:37:33
+ 
+Amber Fu: Mhm.  Amber Fu：嗯。
+KAEL WILLIAMS: Yes, I think uh uh sending the notification to uh as many people as possible who are
+凯尔·威廉姆斯：是的，我认为，呃，呃，应该把通知发给尽可能多的人
+Amber Fu: Got  琥珀·傅：得了
+KAEL WILLIAMS: access who can access the uh the facility I think that is better good option.
+凯尔·威廉姆斯：谁能进入设施，我认为那是更好的选择。
+Amber Fu: Okay, got you. And we can go back.
+Amber Fu：好的，明白了。我们可以回去。
+KAEL WILLIAMS: Yeah.  凯尔·威廉姆斯：是的。
+Amber Fu: And uh for you can click on the data and connection the first one. Um so for uh you know when you're using the this app uh we may need require some info from you. Uh so for those information are you okay or anything you're not comfortable with?
+Amber Fu：你可以点击数据，连接第一个。嗯，所以，呃，你知道，当你使用这个应用时，呃，我们可能需要你提供一些信息。呃，关于这些信息，你还好吗？还是有什么让你不舒服的地方？
+KAEL WILLIAMS: Okay, I think uh this um this is a tough one uh being that uh you need to give access to like everything that is uh uh relying on your power at home. So at some point it could be sharing much information. So what we will need here is an assurance that uh the data will be safely and secure and securely kept with the app
+凯尔·威廉姆斯：好的，我觉得这，呃，嗯，这很难，因为你需要让所有依赖你家里电力的设备都能接触到。所以某个时候它可能会共享大量信息。所以我们需要的是保证数据会被安全保存，并且被应用保存
+Amber Fu: Mhm.  Amber Fu：嗯。
+KAEL WILLIAMS: developers.
+凯尔·威廉姆斯：开发者。
+Amber Fu: Mhm. Okay.  Amber Fu：嗯，好的。
+KAEL WILLIAMS: Yeah,  凯尔·威廉姆斯：是的，
+ 
+ 
+00:38:51
+ 
+Amber Fu: And  Amber Fu：还有
+KAEL WILLIAMS: because being that it requires a lot it requires a lot of information that is maybe this is more of a personal information being that your your EV and your charging pattern. So someone can if someone wants to know your patterns someone can know where you will be being that they
+凯尔·威廉姆斯：因为这需要很多信息，这可能更像是个人信息，因为你是你的电动车和充电模式。所以有人可以知道，如果有人想知道你的模式，他们会知道你会在哪里
+Amber Fu: Mhm.  Amber Fu：嗯。
+KAEL WILLIAMS: know when you're at charging or when you're not home. Yeah.
+凯尔·威廉姆斯：知道你什么时候在充电，什么时候不在家。是的。
+Amber Fu: Mhm.  Amber Fu：嗯。
+KAEL WILLIAMS: So it is very someone with this information
+凯尔·威廉姆斯：所以这非常关键的人掌握了这些信息
+Amber Fu: Okay. Got you. Got you. Got you.
+Amber Fu：好的。明白了。明白了。明白了。
+KAEL WILLIAMS: here.  凯尔·威廉姆斯：给你。
+Amber Fu: And and we can uh we can go back. Um and from like right now like uh when you review all those stuff like what part do you think is still missing or what part do you feel like oh maybe we should do those function but we didn't like I just try to know like what part do you think we're still missing?
+Amber Fu：我们可以，呃，我们可以回去。嗯，从现在开始，呃，当你回顾那些东西时，你觉得还缺了哪一部分，或者你觉得哪一部分，哦，也许我们应该做那些功能，但我们不喜欢，我只是想知道，你觉得我们还缺哪一部分？
+KAEL WILLIAMS: Okay, I'm trying to check out I think uh all the basic things that maybe are required in this case available because you see we have we have the price plans and the home address.
+凯尔·威廉姆斯：好的，我想核实一下，嗯，所有可能在这种情况下需要的基本信息，因为你看，我们有价格计划和家庭住址。
+ 
+ 
+00:40:02
+ 
+KAEL WILLIAMS: So I think we have almost everything that is necessary for a start here.
+凯尔·威廉姆斯：我认为我们几乎已经拥有了开始所需的一切。
+Amber Fu: Okay. Okay.  安柏·傅：好的。好的。
+KAEL WILLIAMS: Yeah,  凯尔·威廉姆斯：是的，
+Amber Fu: And we can go do you mind we can go back to the home?
+Amber Fu：我们可以走了，你介意我们回home页面吗？
+KAEL WILLIAMS: here we come
+凯尔·威廉姆斯：我们来了
+Amber Fu: Yeah. So um um so if if you could add one one more
+Amber Fu：是的。所以，嗯，嗯，如果你能再加一个
+KAEL WILLIAMS: home.  凯尔·威廉姆斯：主场。
+Amber Fu: thing to this home screen like what would make it more uh useful for you like
+Amber Fu：关于主屏幕的某种东西，比如什么会让它对你更有用，比如
+KAEL WILLIAMS: Okay, just like I told about the status. Yeah.
+凯尔·威廉姆斯：好的，就像我之前说的状态一样。是的。
+Amber Fu: Uh-huh.  安柏·傅：嗯哼。
+KAEL WILLIAMS: So if you can maybe if we can put this I see where my where my casa is. Yeah. So we can have just a button where you can you can see the on and off.
+凯尔·威廉姆斯：所以如果你能，也许我们能把这个放上去，我看看我家在哪里。是的。所以我们可以有一个按钮，你可以看到开关。
+Amber Fu: Mhm.  Amber Fu：嗯。
+KAEL WILLIAMS: So the red and the green. Yeah. So it can appear there. I think that is the only suggestion I can give you in this case.
+凯尔·威廉姆斯：所以红色和绿色。是的。所以它可以在那里出现。我想这是我能给你的唯一建议。
+Amber Fu: Mhm. Okay.  Amber Fu：嗯，好的。
+KAEL WILLIAMS: Yeah.  凯尔·威廉姆斯：是的。
+Amber Fu: Okay. Okay. And um and you know I'm really appreciate like uh today this is really be extremely helpful and uh what's really clear is that you're already done the hard work of the adapting your life around the system.
+Amber Fu：好的。好的。而且，嗯，你知道，我真的很感激，呃，今天这真的非常有帮助，而且很明显的是，你已经完成了适应系统生活的艰难工作。
+ 
+ 
+00:41:16
+ 
+Amber Fu: So the question for us is whether the system can finally adapt back to you and this you know this is still a really early version. It's our first version first demo.
+Amber Fu：所以对我们来说，问题是系统是否最终能重新适应你们，这还只是非常早期的版本。这是我们的第一个版本，第一个演示。
+KAEL WILLIAMS: Yeah.  凯尔·威廉姆斯：是的。
+Amber Fu: Yes. And we will uh you know uh keep optimize and uh adding more stuff. So once we refine this uh you know especially around ready to charge and auto uh uh automation like would you be open to review again and see if this actually give you a time
+Amber Fu：是的。我们会继续优化，不断添加更多内容。所以一旦我们完善了这个，呃，你知道的，特别是关于准备充电和自动自动化，比如你愿意再评测一下，看看这是否真的能给你一个时间
+KAEL WILLIAMS: Yeah,  凯尔·威廉姆斯：是的，
+Amber Fu: back.  Amber Fu：回来了。
+KAEL WILLIAMS: I think I'll be I'd be open to maybe test when you finally get to an advanced version of this uh maybe before releasing it to the general market.
+KAEL WILLIAMS：我想我会愿意试试，等你最终拿到高级版本时，呃，也许在正式发布市场之前。
+Amber Fu: Yes.  Amber Fu：是的。
+KAEL WILLIAMS: Yeah.  凯尔·威廉姆斯：是的。
+Amber Fu: and and this really helpful and thanks again and once we have you know something new on the app that you know and uh please uh I will invite you and uh if you have time please and review again and just let us know like if this time it feel better or next time feel
+Amber Fu：这真的很有帮助，再次感谢。一旦我们有了应用上的新消息，呃，请，我会邀请你，呃，如果你有时间，请再评测一下，告诉我们这次感觉好点还是下次感觉好
+KAEL WILLIAMS: Okay. Yeah, I think that should be nice. Like seeing what new things that you've improved and uh like maybe whatever the new things that that have been introduced with time.
+凯尔·威廉姆斯：好的。是的，我觉得这应该挺好的。比如看看你改进了哪些新东西，或者随着时间推移引入的新东西。

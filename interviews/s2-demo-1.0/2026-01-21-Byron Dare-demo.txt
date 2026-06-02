@@ -1,0 +1,898 @@
+7. Byron Dare
+00:00:00
+ 
+Amber Fu: Hi. Hi,  Amber Fu：你好。你好
+Byron Dare: Hello.  拜伦·戴尔：你好。
+Amber Fu: B. Hi. How's your day going so far?
+Amber Fu：B。你好。你今天过得怎么样？
+Byron Dare: Oh,  拜伦·戴尔：哦，
+Amber Fu: Good. Good.  Amber Fu：很好。很好。
+Byron Dare: good.  拜伦·戴尔：很好。
+Amber Fu: Well, thanks again for taking the time today.
+Amber Fu：再次感谢你今天抽时间接受采访。
+Byron Dare: Yeah.  拜伦·戴尔：是的。
+Amber Fu: Thanks. And you know uh before we uh look at anything I just want to you know make sure we are focused on the right thing. Well, like from our last conversation, it sounds like you're not trying to optimize usage or save few dollar. You're trying to answer much like a sharper question. Is that is a PG billing me correctly and are they like giving me the export credit I'm supposed to get right? Okay, perfect.
+Amber Fu：谢谢。你知道，在我们看任何东西之前，我只是想确保我们专注于正确的事情。嗯，就像我们上次的对话，听起来你并不是想优化使用或省几美元。你试图回答更尖锐的问题。这是否是 PG 正确向我开的账单？他们给我应该获得的出口抵扣是正确的吗？好，完美。
+Byron Dare: Yeah.  拜伦·戴尔：是的。
+Amber Fu: So then today I will focus on the evidence and you know plus mismatch plus fixed step. So not no not charge and before we get start I will send you a link uh it's
+Amber Fu：那么今天我将重点讲证据，还有加不匹配加固定步数。所以不是，不收费，开始前我会发个链接给你，呃，是
+Byron Dare: Heat.  拜伦·戴尔：热度。
+Amber Fu: our uh early demo version app. So uh wait a second I will send through the here uh Okay.
+Amber Fu：我们的早期试玩版应用。所以，呃，等一下，我会把这里传给，呃，好的。
+ 
+ 
+00:02:10
+ 
+Amber Fu: As you see it as in Yes,
+Amber Fu：正如你所说，是的，
+Byron Dare: Yeah. Should I click on
+拜伦·戴尔：是的。我应该点击
+Amber Fu: it's a it's a Figma link.
+Amber Fu：这是一个 Figma 链接。
+Byron Dare: it?  拜伦·戴尔：它？
+Amber Fu: So, you don't need to log in or anything. You just click.
+Amber Fu：所以，你不需要登录什么的。你只需点击。
+Byron Dare: Okay.  拜伦·戴尔：好的。
+Amber Fu: And before we get started, do you mind I record this call?
+Amber Fu：在我们开始之前，我能录下这通电话吗？
+Byron Dare: Okay.  拜伦·戴尔：好的。
+Amber Fu: Thank you.  Amber Fu：谢谢你。
+Byron Dare: Okay, I see it.
+拜伦·戴尔：好的，我明白了。
+Amber Fu: Okay, perfect. And do you mind share the screen?
+Amber Fu：好的，完美。你介意共用屏幕吗？
+Byron Dare: Uh, sure.  拜伦·戴尔：呃，当然。
+Amber Fu: Thank you.  Amber Fu：谢谢你。
+Byron Dare: I see something that says continue with Google. Should I uh click that or
+拜伦·戴尔：我看到有人说继续用谷歌。我应该点那个吗，还是
+Amber Fu: No, you don't need
+Amber Fu：不，你不需要
+Byron Dare: Okay.  拜伦·戴尔：好的。
+Amber Fu: it. So everything is okay. Uh did you open it?
+Amber Fu：就是它。所以一切都没问题。呃，你打开了吗？
+Byron Dare: Um uh I I see it. Um so it says something may require your attention that has a couple of
+拜伦·戴尔：呃，我看到了。嗯，上面说有些事情可能需要你关注，涉及几个
+Amber Fu: Uhhuh.  Amber Fu：嗯哼。
+Byron Dare: uh  拜伦·戴尔：呃
+Amber Fu: Oh, okay. Do do you mind share the screen?
+Amber Fu：哦，好的。你介意共用屏幕吗？
+Byron Dare: um  拜伦·戴尔：嗯
+Amber Fu: I can. Maybe I can see what's Thank
+Amber Fu：我可以。也许我能看看，谢谢
+Byron Dare: Sure.  拜伦·戴尔：当然。
+ 
+ 
+00:05:34
+ 
+Amber Fu: you. Uh, is everything okay?
+Amber Fu：你。呃，一切都还好吗？
+Byron Dare: Yeah. Okay.  拜伦·戴尔：是的。好的。
+Amber Fu: Okay.  Amber Fu：好的。
+Byron Dare: So, uh what what do you uh want me to do? Uh I
+拜伦·戴尔：那么，呃，你想让我做什么？呃，我
+Amber Fu: Uh, so you can click the share share screen and I can see
+Amber Fu：呃，你可以点击分享界面，我可以看到
+Byron Dare: got  拜伦·戴尔：得到了
+Amber Fu: like  Amber Fu：喜欢
+Byron Dare: Okay. Um how do I do that?
+拜伦·戴尔：好的。嗯，我该怎么做？
+Amber Fu: um do you see like in the bottom there have a uh the the the share Sorry.
+Amber Fu：嗯，你看到下面有个，呃，那个分享，抱歉。
+Byron Dare: Uh, is there a command
+拜伦·戴尔：呃，有命令吗
+Amber Fu: Uh,  安柏·傅：呃，
+Byron Dare: or  拜伦·戴尔：或者
+Amber Fu: wait. Is let me see how I can. Give me a second. I will show you.
+安柏·傅：等等。让我看看怎么做。给我点时间。我会给你看。
+Byron Dare: Okay.  拜伦·戴尔：好的。
+Amber Fu: Sorry, give me a second. I I tried to figure out where
+Amber Fu：抱歉，给我点时间。我试图弄清楚它在哪里
+Byron Dare: Okay.  拜伦·戴尔：好的。
+Amber Fu: Okay. So, uh, so like you can can you see like the bottom of your screen there like a row of icons like for the screen icon.
+Amber Fu：好的。所以，呃，你能看到屏幕底部那边有一排图标吗？就像屏幕图标的那一排。
+Byron Dare: Um, let's  拜伦·戴尔：嗯，我们来
+Amber Fu: It's at the bottom like center of the screen next to the microphone and
+Amber Fu：它在屏幕底部，就像中间，靠近麦克风的地方，
+Byron Dare: see.  拜伦·戴尔：看。
+ 
+ 
+00:11:27
+ 
+Amber Fu: the camera bottom.
+Amber Fu：相机底部。
+Byron Dare: Uh, what I'm seeing now is uh like a iPhone.
+拜伦·戴尔：呃，我现在看到的，呃，就像一部 iPhone。
+Amber Fu: Oh, you're So you're using the iPhone or computer
+Amber Fu：哦，你是这样，所以你用的是 iPhone 还是电脑
+Byron Dare: No, I'm using a computer,
+拜伦·戴尔：不，我用的是电脑，
+Amber Fu: laptop.  Amber Fu：笔记本电脑。
+Byron Dare: but it's um so when I click that link, it it shows
+拜伦·戴尔：但是，嗯，当我点击那个链接时，它会显示出来
+Amber Fu: Oh, no. It's not in the link.
+Amber Fu：哦，不。链接里没有。
+Byron Dare: like Okay,  拜伦·戴尔：好，好，
+Amber Fu: It's in the our uh the
+Amber Fu：它在我们的，呃
+Byron Dare: let me uh try
+拜伦·戴尔：让我试试
+Amber Fu: meeting.  安柏·傅：会面。
+Byron Dare: that. Turn on captions. Okay. Okay. Uh, I clicked
+拜伦·戴尔：就是那个。打开字幕。好的。好的。呃，我点了
+Amber Fu: Yes.  Amber Fu：是的。
+Byron Dare: that.  拜伦·戴尔：就是那个。
+Amber Fu: Yes. And you can uh share the screen the the Figma link that I sent to
+Amber Fu：是的。你可以分享我发给的 Figma 链接的屏幕
+Byron Dare: Okay.  拜伦·戴尔：好的。
+Amber Fu: you.  Amber Fu：你。
+Byron Dare: Okay. So, I should click that.
+拜伦·戴尔：好的。所以，我应该点那个。
+Amber Fu: Uh-huh. Yeah, I can see your screen right now.
+安柏·傅：嗯哼。是的，我现在能看到你的屏幕。
+Byron Dare: Okay. Okay. So, I have a picture of a iPhone on it.
+拜伦·戴尔：好的。好的。我有一张 iPhone 的照片。
+Amber Fu: Mhm. Yes. Yes. Exactly. So,
+Amber Fu：嗯，是的。是的。没错。所以，
+Byron Dare: Okay.  拜伦·戴尔：好的。
+Amber Fu: um, so before I walk through anything, uh, I love to give you like a few minute to explore on your own.
+Amber Fu：嗯，在我走进去之前，我很想给你们几分钟自己探索。
+ 
+ 
+00:13:13
+ 
+Amber Fu: Well, this is no right or wrong. It's just tap around. Uh, so I won't explain yet. I just want to see like uh like what's your first reaction for the app. You can take like about like three or five minute and just tell me when you're ready and then we can start from the home
+Amber Fu：这没有对错之分。就是随便点点。呃，所以我暂时不解释。我只是想看看，呃，你对这个应用的第一反应是什么。你可以花三五分钟，告诉我你准备好了，然后我们就可以从家里开始
+Byron Dare: Okay. Okay. Um, yeah, I did look at it.
+拜伦·戴尔：好的。好的。嗯，是的，我看过。
+Amber Fu: together.  Amber Fu：一起。
+Byron Dare: So, uh, it it looks pretty good and, uh, the color codes look good. Um, I guess the colors are supposed to tell me if uh I should do something. Something may require your attention. And red. Okay. Um,
+拜伦·戴尔：所以，呃，它看起来相当不错，颜色编码也不错。嗯，我猜颜色应该告诉我是否应该做点什么。有些事情可能需要你关注。还有红色。好的。嗯，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Byron Dare: the suggestion's good, but um, so I'm wondering if there's a blue box. If I click that is that um what I should do from the uh if this was an app on my phone would I like click that apply now or so what would happen? Um yeah,
+拜伦·戴尔：这个建议不错，不过，我想知道有没有蓝色的盒子。如果我点击了那个，呃，我应该怎么做？如果这是我手机上的一个应用，我现在会点击应用吗？那会发生什么？嗯，是的，
+Amber Fu: Oh, you mean apply now?
+Amber Fu：哦，你是说现在就申请？
+ 
+ 
+00:14:29
+ 
+Byron Dare: because uh so if you have a power outage warning and then it says uh
+拜伦·戴尔：因为呃，如果你有停电警告，然后它显示
+Amber Fu: Mhm.  Amber Fu：嗯。
+Byron Dare: charge your power wall and EV um I'm not sure how you could do that if you have a power outage or um
+拜伦·大冒险：给你的电源墙充电，电动车，嗯，我不太确定如果停电或者，你该怎么做
+Amber Fu: Oh, okay. So what means like before we like uh like before the power
+Amber Fu：哦，好的。那什么意思，比如我们之前，呃，就像有力量之前
+Byron Dare: Yeah.  拜伦·戴尔：是的。
+Amber Fu: outage warning and we will like you know um notice you before like 24 hours or like 48 hours before that. So we suggest you charge your power wall uh before the power
+Amber Fu：故障警告，我们会提前 24 小时或 48 小时前发现你。所以我们建议你在电源开通前先给电源墙充电
+Byron Dare: Okay.  拜伦·戴尔：好的。
+Amber Fu: outage.  Amber Fu：停机。
+Byron Dare: Okay. That's if there's a planned power outage,
+拜伦·戴尔：好的。前提是有计划性停电，
+Amber Fu: Yeah.  Amber Fu：是的。
+Byron Dare: not if it's uh like uh where I live uh it's all of a sudden there's like a there's no warning.
+拜伦·戴尔：如果是我住的地方，突然之间没有任何预警，那就不会。
+Amber Fu: Yeah.  Amber Fu：是的。
+Byron Dare: It's like uh it just goes out and then you get a message that oh yeah,
+拜伦·戴尔：就是，呃，它发出去了，然后你会收到一个信息，说“哦，是的，”
+Amber Fu: Hey.  Amber Fu：嘿。
+Byron Dare: something uh happened to your neighborhood and uh we're going to try to fix it within 24 hours or something like
+拜伦·戴尔：你们社区出了点事，我们会在24小时内尽力修复
+Amber Fu: Uh but usually like in uh for the power outage situation usually they will have
+Amber Fu：呃，但通常像停电时那样，他们通常会有
+ 
+ 
+00:15:36
+ 
+Byron Dare: that.  拜伦·戴尔：就是那个。
+Amber Fu: like like some notice I think before like 24 hours at least
+Amber Fu：我觉得至少提前 24 小时就有个预兆
+Byron Dare: um not up in Northern California.
+拜伦·戴尔：嗯，北加州没有。
+Amber Fu: Hey.  Amber Fu：嘿。
+Byron Dare: It it just like if there's um usually a weather thing like uh high wind or a lot of rain or something then uh it's all of a sudden then you know your lights go out.
+拜伦·戴尔：就是，如果天气有问题，比如大风或者大雨什么的，突然间灯就熄了。
+Amber Fu: Mhm.  Amber Fu：嗯。
+Byron Dare: So, it's not like a planned um rolling uh blackout where they tell you you know uh ahead ahead of time that's going to happen. It just happens.
+拜伦·戴尔：所以，这不是那种计划好的滚动停电，他们会提前告诉你会发生什么。它就是自然而然发生的。
+Amber Fu: Okay.  Amber Fu：好的。
+Byron Dare: Yeah, I know. Uh they're talking about u like rolling blackouts in certain times, but uh um I haven't seen that up northern California. It just goes out all of a
+拜伦·戴尔：是的，我知道。呃，他们说你喜欢某些时间段轮流停电，但呃，我在北加州没见过。它就完全熄灭了
+Amber Fu: Oh, okay.  Amber Fu：哦，好的。
+Byron Dare: sudden.  拜伦·戴尔：突然。
+Amber Fu: Uh, but like you can click on the uh left side the there have a like a attention red EV charging the part. Did you see it? No, the the website the left side.
+Amber Fu：呃，但你可以点击左侧，那里有个红色的电动车充电。你看到了吗？不，是左边的网站。
+Byron Dare: Oh,  拜伦·戴尔：哦，
+Amber Fu: Oh yeah.  Amber Fu：哦，是的。
+Byron Dare: here for the savings and all
+拜伦·戴尔：为了省钱而来
+ 
+ 
+00:17:06
+ 
+Amber Fu: Yeah. Oh no. I mean the Did you see the
+Amber Fu：是的。哦不。我是说，你看到了吗
+Byron Dare: that.  拜伦·戴尔：就是那个。
+Amber Fu: flows? Um not on the app.
+Amber Fu：流畅？嗯，App 里没有。
+Byron Dare: Yeah,  拜伦·戴尔：是的，
+Amber Fu: It's in the left side.
+Amber Fu：在左侧。
+Byron Dare: left side.  拜伦·戴尔：左侧。
+Amber Fu: Uh left left like the you see the website. They have a tension red EV charging.
+Amber Fu：呃，左转，就像你看到的网站一样。他们有张力红色电动车充电。
+Byron Dare: Yeah. Yeah. Charge your power wall and EV right now.
+拜伦·戴尔：是的。是的。现在就给你的 Power Wall 和 EV 充电。
+Amber Fu: Uh no is another screen like the you see like the the the left side there have like the the flows below the flows. Did you see it?
+Amber Fu：呃，不是另一个屏幕，就像你看到的左边，下面有流动。你看到了吗？
+Byron Dare: Uh the usage or
+拜伦·戴尔：呃，用法或者
+Amber Fu: Uh, it's okay. Just we could go later on. It's okay. So, when you see like the usage, what do you think?
+Amber Fu：呃，没关系。只是我们可以晚点再去。没关系。那么，当你看到使用情况时，你怎么看？
+Byron Dare: Uh  拜伦·戴尔：呃
+Amber Fu: What What's your first reaction to the
+Amber Fu：你对
+Byron Dare: uh yeah,  拜伦·戴尔：呃，是的，
+Amber Fu: usage?  琥珀傅：用途？
+Byron Dare: that's good to tell me uh I'm using less or what I normally uh use and uh why I'm well It says I'm using less, but uh I wouldn't know why. Uh unless it's something like um like normally
+拜伦·戴尔：告诉我，呃，我用得更少，或者说我平时用的，呃，为什么我很好，嗯，它说我用得更少，但我其实不知道为什么。呃，除非是像“嗯，像平时一样”的
+ 
+ 
+00:18:38
+ 
+Amber Fu: Okay.  Amber Fu：好的。
+Byron Dare: uh I'm drying clothes and like right now today I'm not drying clothes. I guess that would uh sort of tell me that when I run the clothes dry I'm using a lot more energy.
+拜伦·戴尔：呃，我在晾衣服，就像今天一样，我没在晾衣服。我想这大概说明我晾干衣服时消耗的能量更多。
+Amber Fu: Okay. And well um so let's imagine uh if you just got like let's say like a 200 or like 300 PG bill again and you are like frustrated like on this app what would you want to know in the first 10
+Amber Fu：好的。那么，嗯，假设你又收到一张 200 或 300 美元的 PG 账单，而且你很沮丧，比如在这个应用上，你想知道前 10 张你想知道什么？
+Byron Dare: Yeah.  拜伦·戴尔：是的。
+Amber Fu: seconds?  Amber Fu：秒针？
+Byron Dare: Uh yeah, probably my usage Um,
+拜伦·戴尔：呃，是的，可能是我的用法，嗯，
+Amber Fu: Uh-huh.  安柏·傅：嗯哼。
+Byron Dare: and then if I'm saving any money, but you know,
+拜伦·戴尔：然后如果我省了点钱，但你知道，
+Amber Fu: Okay.  Amber Fu：好的。
+Byron Dare: my concern is uh, uh, cuz I told you last time that uh, I've got the power walls and I got a whole bunch of panels, but um,
+拜伦·戴尔：我担心的是，呃，呃，因为我上次跟你说过，呃，我有电墙，还有一大堆面板，但是，嗯，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Byron Dare: my bill is higher than it was like five years ago. Uh when I just had um I have
+拜伦·戴尔：我的账单比五年前高了。呃，我刚吃的时候，嗯，我有
+Amber Fu: Mhm.  Amber Fu：嗯。
+Byron Dare: 17 panels and two batteries. Now uh my bills higher than when I just had eight panels and no batteries.
+拜伦·戴尔：17块面板和2节电池。现在，我的账单比我刚装八块太阳能板、没有电池的时候还要高。
+ 
+ 
+00:20:13
+ 
+Byron Dare: And uh PG& can't explain it to me. So that that's why uh um if I had some sort of print out like
+拜伦·戴尔：而且，呃，PG&也无法向我解释。所以，呃，如果我有某种打印出来的，比如
+Amber Fu: Mhm.  Amber Fu：嗯。
+Byron Dare: uh like a daily print out or monthly printout or something like that, I could maybe show it to P Gen and ask them what's happening. But uh they're usually not too helpful with that. Even if uh yeah, even if I had evidence, but uh um
+拜伦·戴尔：呃，比如每天打印或每月打印之类的，我可以给 P Gen 看，问问他们发生了什么。不过，呃，他们通常对这方面帮助不大。即使，呃，是的，即使我有证据，但呃，嗯
+Amber Fu: Okay.  Amber Fu：好的。
+Byron Dare: if there was some sort of consultant, you know, outside Pen who could uh tell me what's happening. um you know where I could even pay the uh consultant if I'm going to uh save money
+拜伦·戴尔：如果有某种顾问，比如佩内外，能告诉我发生了什么。嗯，你知道我可以去哪儿付钱给顾问，如果我要省钱的话
+Amber Fu: Okay.  Amber Fu：好的。
+Byron Dare: from you know instead paying P gen if I paid the consultant to saving money from from having to pay Pen um that would be worth it to Hey.
+拜伦·戴尔：你知道，如果我付给顾问，不如直接付 P-gen，或者省钱，嗯，那是值得的，嘿。
+Amber Fu: Okay. And um and but for right now like in the home screen like uh when you see the saving the the part for th those amount what do you think for uh those amount
+Amber Fu：好的。嗯，现在，比如在主屏幕，比如你看到存档时，你觉得这些金额是多少
+ 
+ 
+00:21:33
+ 
+Byron Dare: Yeah.  拜伦·戴尔：是的。
+Amber Fu: like when you first see it?
+Amber Fu：就像你第一次看到它时那样？
+Byron Dare: Um, that would be good. Um, but I'm not sure if uh that shows up on my utility bill
+拜伦·戴尔：嗯，那会很好。嗯，但我不确定这会不会出现在我的水电账单上
+Amber Fu: Okay.  Amber Fu：好的。
+Byron Dare: cuz I get the same thing from uh the Tesla app says that, you know, I'm sending all this energy back to the grid. But um apparently PGE doesn't agree with me. So um um I would need like a detail like a daily detail or something like that. Um,
+拜伦·戴尔：因为我也从特斯拉应用那里得到同样的反馈，你知道，我把所有这些能量都送回电网。但显然 PGE 不适合我。所以，嗯，我需要一个细节，比如每天的细节之类的东西。嗯，
+Amber Fu: Okay.  Amber Fu：好的。
+Byron Dare: yeah, if there was a log or something I could print out.
+拜伦·戴尔：是的，如果有日志之类的东西我可以打印出来的话。
+Amber Fu: And you can click on the saving the bottle the saving. Yeah.
+Amber Fu：你可以点击“保存瓶子”的保存功能。是的。
+Byron Dare: Okay. Okay.  拜伦·戴尔：好的。好的。
+Amber Fu: And you can type type around like maybe like type like EV charging during
+Amber Fu：你可以打字，比如说电动车充电
+Byron Dare: Yeah. Uh  拜伦·戴尔：是的。呃
+Amber Fu: a high price to see
+琥珀福：值得一看的高价
+Byron Dare: yeah. Yeah, that would be good. Um if there was some sort of log that uh I could print out or something. Uh that would be helpful cuz then I could
+拜伦·戴尔：是的。是的，那会很好。嗯，如果有某种日志可以打印出来的话。呃，那会很有帮助，因为那样我可以
+ 
+ 
+00:23:28
+ 
+Amber Fu: up.  Amber Fu：起身。
+Byron Dare: take it to uh I could if there was a consultant or somebody I could uh give him my PG&
+拜伦·戴尔：如果有顾问或者其他人，我可以给他我的 PG&
+Amber Fu: Mhm.  Amber Fu：嗯。
+Byron Dare: bill and give him the log and then maybe he could figure out something.
+拜伦·戴尔：收费，把日志给他，也许他能想出办法。
+Amber Fu: Okay. And uh for if this page had one number on the top, what what number would you want? It's like uh it's like a saving number or like overcharge missing credit.
+Amber Fu：好的。如果这页顶部只有一个数字，你想要哪个数字？就像，呃，这就像一个储蓄号码，或者是多收的欠费。
+Byron Dare: Uh yeah, maybe I overcharged. Um,
+拜伦·戴尔：呃，是的，也许我收费过高了。嗯，
+Amber Fu: Okay.  Amber Fu：好的。
+Byron Dare: so I so I'm wondering cuz uh I've complained before to the PUC, but they basically uh don't do anything.
+拜伦·戴尔：所以我在想，因为我之前向 PUC 投诉过，但他们基本上什么都不做。
+Amber Fu: Does it still  Amber Fu：现在还会这样吗
+Byron Dare: Um or they well they ask like P Gen and P Gen says you know everything's normal and then they uh
+拜伦·戴尔：嗯，或者他们会问，比如 P·Gen，P·Gen 说你知道一切都很正常，然后他们，呃
+Amber Fu: happen?  Amber Fu：发生了什么？
+Byron Dare: they uh PC just closes the case and says well you know we we asked PG& and they said there's no problem so we're not going to pursue it. Um,
+拜伦·戴尔：他们，呃，PC 就结案了，说我们问过 PG&，他们说没问题，所以我们不会追究。嗯，
+Amber Fu: Okay.  Amber Fu：好的。
+Byron Dare: but I I think if I have more evidence then um then maybe they won't just uh ignore
+拜伦·戴尔：但我觉得如果我有更多证据，嗯，也许他们不会就这么忽视
+ 
+ 
+00:25:02
+ 
+Amber Fu: Okay.  Amber Fu：好的。
+Byron Dare: me.  拜伦·戴尔：是我。
+Amber Fu: Well, here's the corn check. Well, the let's see like if the Tesla show you uh export says like X KW and on the bill uh export credit is Y. Well, sometime even like zero. So if uh our app can show you like oh the Tesla export uh the number and the PGE credit number and like a me mismatch number would that will be kind of evidence you want.
+Amber Fu：好吧，这就是玉米支票。嗯，看看特斯拉显示的出口额度是不是 X 千瓦，账单上出口积分是 Y。嗯，有时甚至几乎是零。所以如果我们的应用能显示特斯拉导出的数字和 PGE 信用号码，还有一个不匹配的数字，那就算是你需要的证据了。
+Byron Dare: Yeah. Uh I mean like if you had um if you tie your app into
+拜伦·戴尔：是的。呃，我是说，如果你把应用绑定在
+Amber Fu: Okay.  Amber Fu：好的。
+Byron Dare: Tesla,  拜伦·戴尔：特斯拉，
+Amber Fu: Uhhuh.  Amber Fu：嗯哼。
+Byron Dare: is there some way you could do that? Um as well Tesla tells me that um they record it, but I don't know how to access it. And there's uh you know,
+拜伦·戴尔：你能做到吗？嗯，特斯拉告诉我他们会录音，但我不知道怎么访问。还有，呃，你知道的，
+Amber Fu: Amen.  Amber Fu：阿门。
+Byron Dare: their service at Tesla is not that good. Um, if there was some way uh you could um access the Tesla data on the app or something like that. That would be good.
+拜伦·戴尔：他们在特斯拉的服务并不好。嗯，如果有办法，呃，你可以访问特斯拉的数据之类的应用。那就好了。
+Amber Fu: Okay. And if we like can detect the mismatch like the app could like rink like cost for example like a rate plan not update after like PTO or like AM account not link or like CCA billing uh presentation difference uh or like a meters issues like which one would you want to check first?
+Amber Fu：好的。如果我们能检测到不匹配，比如应用可以检测到不匹配，比如冰场费用，比如费率计划不在带薪休假后不更新，或者像提前账户账户不链接，或者像 CCA 账单、展示差异，或者计价表的问题，比如你想先检查哪个？
+ 
+ 
+00:26:52
+ 
+Byron Dare: um something that shows a discrepancy between uh between
+拜伦·戴尔：嗯，这说明了呃，在
+Amber Fu: Okay.  Amber Fu：好的。
+Byron Dare: um say your data and PG in the E data or
+拜伦·戴尔：嗯，比如说你的数据和 E 数据中的 PG，或者
+Amber Fu: Okay.  Amber Fu：好的。
+Byron Dare: uh discrepancy between Tesla data and the utility. I mean it might be something simple that um they could
+拜伦·戴尔：呃，特斯拉数据和公用事业之间的差异。我的意思是，也许只是一些简单的问题，嗯，他们可以
+Amber Fu: Okay.  Amber Fu：好的。
+Byron Dare: correct like the utility could could correct but um
+拜伦·戴尔：正确，就像公用事业能纠正的那样，但嗯
+Amber Fu: Uh-huh.  安柏·傅：嗯哼。
+Byron Dare: uh they make it so complicated you know um like they have different um up in Northern California they have like different districts like there's one for uh um a geographic one Uh there's probably like eight different rates, you know. There's a NEMS rate, there's um uh they call it a peninsula clean energy rate. Uh there's like a rate for uh if you had a EV plugged in. There's like eight of these that uh um you know, I I just need help. I I don't know all this uh technical electronic
+拜伦·戴尔：呃，他们把事情弄得很复杂，你知道，北加州有不同的区，比如有不同的地区，比如一个地理区，呃，大概有八个不同的税率，你知道的。有 NEMS 费率，呃，他们叫半岛清洁能源费率。呃，如果你有电动车插电，有个费率。有八个这样的，呃，你知道的，我只是需要帮忙。我，我不懂这些技术电子
+Amber Fu: Okay. It's fine. It's fine.
+Amber Fu：好的。没事的。没事的。
+Byron Dare: stuff.  拜伦·戴尔：那些东西。
+Amber Fu: And like uh so when like you're seeing the saving page uh for like two uh the number the 268 to 412 uh what what do you think is meaning like for you would be more meaningful if this side is if this is the estimate missing uh export credit this month instead of a saving.
+Amber Fu：那么，呃，当你看到储蓄页面，呃，比如 268 到 412 的数字，呃，你觉得对你来说意味着什么，如果这是本月缺少出口信贷的估计，会更有意义，而不是节省。
+ 
+ 
+00:28:50
+ 
+Amber Fu: Okay.  Amber Fu：好的。
+Byron Dare: Yeah, it should should be showing that uh I'm saving money because I have uh the solar and the uh like your monthly chart because I think
+拜伦·戴尔：是的，应该显示我省钱了，因为我有太阳能和月度图表，因为我觉得
+Amber Fu: Uh  安柏·傅：呃
+Byron Dare: I told you uh I don't um stay at the house up north uh like full-time and like u sometimes I'm gone for a week, two weeks And um there's no there's no running of utilities except uh like the only thing that's going on is the refrigerators. Uh cuz you know I'm not using the washer dryer.
+拜伦·戴尔：我跟你说过，呃，我不会全职待在北边的房子里，有时候我会离开一周，甚至两周，嗯，没有水电费，除了冰箱，唯一发生的事情就是。呃，因为你知道我没用洗衣机干衣机。
+Amber Fu: Okay.  Amber Fu：好的。
+Byron Dare: I'm not charging cars. I'm not turning on the lights.
+拜伦·戴尔：我不是在给汽车充电。我不开灯。
+Amber Fu: Wow.  Amber Fu：哇。
+Byron Dare: But still sometimes on um no PG gives you charts too of uh usage and then it shows uh I'm still using a lot of electricity even though I know that there's no one there, you know, and uh no lights going on, no uh heater going on, no no car being charged. Uh but they still show like big
+拜伦·戴尔：但有时候，嗯，没有 PG，也会给你一些用电图表，然后显示我仍然用电量很大，尽管我知道那里没人，灯没亮，没有暖气，也没有汽车充电。呃，但它们还是显得很大
+Amber Fu: Okay.  Amber Fu：好的。
+Byron Dare: usage.  拜伦·戴尔：使用情况。
+Amber Fu: Okay. And what I think is if like the page can show you the number uh let's say like side by side uh something like oh what you should have paid based on the Tesla export and another is like what you were actually charged from the PGE bill and the the the difference in the
+Amber Fu：好的。我认为，如果页面能并排显示数字，比如基于特斯拉出口你应该支付的金额，以及你实际从 PGE 账单中被收取的费用，以及差额的
+ 
+ 
+00:30:38
+ 
+Byron Dare: Right.  拜伦·戴尔：没错。
+Amber Fu: highlight. Do you think that will be helpful?
+Amber Fu：亮点。你觉得这会有帮助吗？
+Byron Dare: Yeah.  拜伦·戴尔：是的。
+Amber Fu: Okay.  Amber Fu：好的。
+Byron Dare: Um because I um I don't think I'm getting credit from uh solar generation even though I went through the whole process. I got approved um by PG Gen and everything. Um, I think there's uh I think there's some something going on that P Gen um is not giving me credit for, but um I don't know what to tell them, you know. I just say, "Well, I don't think you're giving me credit." And then they just say, "Well, yeah, we are." And then uh there's nothing that I can uh show them to prove it. I've actually had that issue before, you know,
+拜伦·戴尔：嗯，因为我，嗯，我觉得我并没有从太阳能发电中获得认可，尽管我经历了整个过程。我通过了普通研究生的批准，什么的都有。嗯，我觉得，嗯，我觉得有些事情发生了，PGen 嗯，嗯，没有给我足够的认可，但我不知道该怎么跟他们说，你知道的。我只会说，“嗯，我觉得你没给我应有的认可。”然后他们就说，“嗯，是的，我们是。”然后，呃，我也没什么能拿出来证明。其实我以前也遇到过这个问题，你知道的，
+Amber Fu: Okay.  Amber Fu：好的。
+Byron Dare: where uh I said, "Well, you know, tell us Tesla because they, you know, they have that little uh app and it shows power going into the
+拜伦·戴尔：我说，“你知道，告诉我们特斯拉，因为他们有那个小小的应用，显示了动力进入
+Amber Fu: Okay.  Amber Fu：好的。
+Byron Dare: house and power going out of the house to the grid." And uh I've told P Gen, well, it shows that, you know, I've got I'm generating power and it's going into the grid.
+拜伦·戴尔：房子和电力从房子外接电网。”我已经告诉了 P·Gen，这说明我发电了，并且正在进入电网。
+ 
+ 
+00:32:07
+ 
+Byron Dare: And then they're saying, "Well, no, it's not."
+拜伦·戴尔：然后他们又说，“其实不是。”
+Amber Fu: Mhm. Okay. Well, well, it's well well it sounds like really frustrating.
+Amber Fu：嗯，好的。嗯，嗯，听起来真的很让人沮丧。
+Byron Dare: So  拜伦·戴尔：所以
+Amber Fu: So just u make sure like I understand like you're not just worried about like saving money and more is worry about maybe something may actually be wrong with like how PG uh is billing you right okay so if
+Amber Fu：所以你要确认一下，我理解你不仅仅是担心省钱，而是担心 PG 对你的账单有问题，好的，如果
+Byron Dare: Yeah.  拜伦·戴尔：是的。
+Amber Fu: you just got another like uh 300 bill and you open the app like uh so what do you want to what what do you what How hard do you want to see it like the like every usage from like uh maybe like your Tesla, your home home load usage, something like that. The usage
+Amber Fu：你又拿到一张大约 300 美元的钞票，打开应用时，你想要什么？你想要什么？你想看到多少，比如你的特斯拉、家庭用车，类似这样的用途。使用情况
+Byron Dare: Yeah. Something like if it it if it shows uh
+拜伦·戴尔：是的。比如如果它显示，呃
+Amber Fu: and  Amber Fu：和
+Byron Dare: like that I'm sending power to the grid because I got all the solar, but PG is not giving me credit for it. Even though I went through the whole process, I got permission to connect, went to the city, got the went through all the stuff, you know, permits and everything and um you know, PG& just says uh no, you're not, you're wrong.
+拜伦·戴尔：比如说，我把电送到电网，因为我得到了所有的太阳能，但 PG 却不给我认可。虽然我经历了整个过程，我得到了连接许可，去了市政府，办理了所有手续，比如许可证什么的，但 PG 和他们却说，呃，不，你不是，你错了。
+ 
+ 
+00:33:33
+ 
+Byron Dare: They just say I'm wrong, you know.
+拜伦·戴尔：他们只是说我错了，你知道的。
+Amber Fu: Oh,  安柏·傅：哦，
+Byron Dare: So, and uh and there's there's nobody to complain to because
+拜伦·戴尔：所以，呃，没有人可以抱怨，因为
+Amber Fu: okay. And  Amber Fu：好的。而且
+Byron Dare: uh you know, public utility commission doesn't do anything and um Tesla doesn't have any power over PG& and I don't think they really PG doesn't really have a good customer service. you know, they there's because they don't have any offices. There's no you can't go there and like give them a bunch of charts and say, "Hey, you know, there's something wrong. There's there's nobody to go to. They don't have any offices with a person there that you could talk to." And uh you know I've you know I I think I told you last time that
+拜伦·戴尔：呃，你知道，公共事业委员会什么都不做，特斯拉对 PG&也没有任何权力，我觉得他们其实并没有很好的客户服务。你知道，他们在那里是因为没有办公室。你不能去那里给他们一堆图表，然后说，“嘿，你知道，这里有点问题。没有人可以依靠。他们没有任何办公室，那里没有可以联系的人。”呃，你知道，我，我，我想我上次跟你说过了
+Amber Fu: Yeah.  Amber Fu：是的。
+Byron Dare: uh I got like two customer service person. I got their like uh direct phone number. I got their email and I've complained to them before and they don't answer. They don't answer the phone. They don't answer emails. Um, so, um, uh, I heard it's not so bad in Los Angeles, but,
+拜伦·戴尔：呃，我有两个客服人员。我拿到了他们的直线电话号码。我收到了他们的邮件，之前也投诉过，但他们不回复。他们不接电话。他们不回复邮件。嗯，所以，呃，我听说洛杉矶还好，但是，
+ 
+ 
+00:35:03
+ 
+Amber Fu: Uh so I have a question when you call them like when uh when you call
+Amber Fu：呃，我有个问题，你打电话给他们的时候，呃，打电话的时候
+Byron Dare: uh,  拜伦·戴尔：呃，
+Amber Fu: the PGE and they said uh they think their data or like their number everything is fine. Uh have you or did you ask them like if you can provide some evidence they will be take care or like what evidence or what what part they need? Did you ask them before?
+Amber Fu：PGE，他们说，呃，他们觉得他们的数据或者数字都没问题。呃，你有没有问过他们，比如你能不能提供一些他们会照顾的证据，或者他们需要什么证据或什么部件？你之前问过他们吗？
+Byron Dare: Uh, no. But I I know there was one month even before I had the solar uh it was like so usually during Christmas time I'm not here for several weeks cuz like my relatives are not in San Francisco. So I I know there was one month that there was nobody in the house. Uh the only thing that was running was one refrigerator and
+拜伦·戴尔：呃，没有。但我知道，甚至在我装太阳能之前，有一个月，呃，通常圣诞节期间我会不在家几周，因为我的亲戚不在旧金山。我知道有一个月家里没人。呃，唯一还在运行的只有一台冰箱，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Byron Dare: the bill was over $200. So I kept I complained to them um and they just
+拜伦·戴尔：账单超过200美元。所以我一直抱怨，嗯，他们只是
+Amber Fu: Okay.  Amber Fu：好的。
+Byron Dare: said, "Oh, that's normal." And I said, "Um and they wouldn't go.
+拜伦·戴尔说：“哦，这很正常。”我说，“嗯，他们不愿意去。
+Amber Fu: But did you show them like the solar uh because you you got
+Amber Fu：但你有没有像太阳那样展示它们，因为你得到了
+ 
+ 
+00:36:26
+ 
+Byron Dare: They want to go in.
+拜伦·戴尔：他们想进去。
+Amber Fu: solar, right? But did you show them your solar num like export number or like
+Amber Fu：太阳能，对吧？但你有没有给他们看你的太阳数，比如出口编号之类的
+Byron Dare: No,  拜伦·戴尔：没有，
+Amber Fu: the Oh,  安柏·傅：哦，
+Byron Dare: not at not at that time because u
+拜伦·戴尔：那时候不是，因为你
+Amber Fu: okay.  Amber Fu：好的。
+Byron Dare: um but it's it's like normally when before when there was someone living in the house then the bill would be you know like sometimes zero sometimes $50 and then when no one's here I get a bill for $200 and then Um, like I've complained to PC before and they just said, "Well, we contact the P Genie and they said it's normal." So, um, they um uh they just won't cooperate.
+拜伦·戴尔：嗯，但通常就像以前有人住在房子里时，账单通常是零，有时 50 美元，然后没人时我会收到 200 美元的账单，然后嗯，我之前也向 PC 投诉过，他们只是说，“嗯， 我们联系 P 精灵，他们说这是正常的。”所以，呃，他们，呃，他们就是不配合。
+Amber Fu: Okay. Well, yeah, we we we try to help. So, um
+Amber Fu：好的。嗯，是的，我们尽力帮忙。所以，只有一个
+Byron Dare: Yeah, that your your app would be good. um at least uh
+Byron Dare：是的，你的应用会很有帮助。嗯，至少，呃
+Amber Fu: for  琥珀傅：用于
+Byron Dare: um if you had resources too like I'm sure well I'm sure there's people that uh know all this stuff who could look at it and then uh analyze it and
+拜伦·戴尔：嗯，如果你也有资源的话，我相信，嗯，我相信有人知道这些东西，可以研究并分析它，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Byron Dare: then say what they think is uh wrong with it.
+拜伦·戴尔：那就说他们觉得哪里不对。
+ 
+ 
+00:38:06
+ 
+Byron Dare: So if you had a resource on the app like u I don't know what there
+拜伦·戴尔：如果你在应用里有像你这样的资源，我不知道里面有什么
+Amber Fu: Okay.  Amber Fu：好的。
+Byron Dare: was like a association or individual numbers or something like that. uh then maybe uh then I could contact that person even if it cost me you know couple hundred or whatever. Uh I would be willing to to pay
+拜伦·戴尔：就像是一个联想，或者是个个独立的数字之类的东西。呃，那也许我可以联系那个人，哪怕花几百块什么的。呃，我愿意付钱
+Amber Fu: Okay.  Amber Fu：好的。
+Byron Dare: that.  拜伦·戴尔：就是那个。
+Amber Fu: And uh so um Okay, got you. And you can you uh when you click the let's see like uh the EV charging during a high price you can click that one. Next uh a little bit lower. Yeah. Is it on the same? Yeah. Here.
+Amber Fu：然后，呃，嗯，好吧，明白了。你可以，呃，当你点击“看看”，比如，呃，在高价时充电时，你可以点那个。然后，呃，再低一点。是的。是同一个吗？是的。给你。
+Byron Dare: Yeah, that that would be good. Um, I think people sort of know that uh that's like between 400 p.m. and 9:00 p.m. That's when the the rates are higher.
+拜伦·戴尔：是的，那会很好。嗯，我觉得大家大概知道，呃，那大概是在晚上4点到9点之间。那时费率会更高。
+Amber Fu: Uh-huh.  安柏·傅：嗯哼。
+Byron Dare: Uh but this would be good uh if you didn't know that
+拜伦·戴尔：呃，不过如果你不知道，这会挺好的
+Amber Fu: Okay. And you can click the data and
+Amber Fu：好的。你可以点击数据，
+ 
+ 
+00:39:31
+ 
+Byron Dare: cuz  拜伦·戴尔饰表哥
+Amber Fu: source.  Amber Fu：来源。
+Byron Dare: Yeah. Okay, that's good.
+拜伦·戴尔：是的。好，那就好。
+Amber Fu: But I know like you want to more like evidence detail, right? Like uh something like Tesla export from like June 1st to 5th uh like certain uh certain number from a Tesla data and like a PJ credit line item is like certain number like you you want to like more receipt
+Amber Fu：但我知道你更想看证据细节，对吧？比如，比如特斯拉的 6 月 1 日至 5 日的出口，或者某个数字，或者某个数字，来自特斯拉的数据;像 PJ 信用额度项目，比如你想要的收据，是某个数字。
+Byron Dare: Yeah.  拜伦·戴尔：是的。
+Amber Fu: like detail receipt.
+Amber Fu：像详细收据。
+Byron Dare: Yeah. Cuz Yeah. because my bill is like 12 pages long every month and uh it has all these technical terms in it and uh um I think
+拜伦·戴尔：是的。因为是的。因为我的账单每个月有12页长，里面有很多专业术语，呃，我记得
+Amber Fu: Okay.  Amber Fu：好的。
+Byron Dare: you really have to be an electrician to understand it.
+拜伦·戴尔：你真的得是电工才能理解。
+Amber Fu: And when you see like a data and source like what what would make you trust it? for example, like the source like uh maybe like a Tesla API or like Tesla app history or a PGE bill like a PDF import or or your meter data or smart meter like which source would you trust them most?
+Amber Fu：当你看到一个数据和来源时，是什么让你信任它？比如，比如来源，比如特斯拉 API，或者特斯拉应用历史，或者 PGE 账单，比如 PDF 导入，或者你的电表数据或智能电表，你最信任哪个来源？
+Byron Dare: Um maybe the meter, but um supposedly my meter data goes to Tesla.
+拜伦·戴尔：嗯，也许是电表，但据说我的电表数据是给特斯拉的。
+ 
+ 
+00:41:15
+ 
+Amber Fu: Okay.  Amber Fu：好的。
+Byron Dare: Um I'm not sure, but that's what I was told. Um but um I don't know how to get a print out from that.
+拜伦·戴尔：嗯，我不太确定，但这是我被告知的。嗯，但是，嗯，我不知道怎么从那个里面打印出来。
+Amber Fu: Okay.  Amber Fu：好的。
+Byron Dare: I Yeah, there's some supposedly some uh someone told me there's a website or something to go to, but um I'm not sure what that is.
+拜伦·戴尔：是的，据说有人告诉我有个网站之类的，但我不太确定那是什么。
+Amber Fu: Uh it's okay but are you okay if uh we uh connect with your uh the meter data like you give us uh your like
+Amber Fu：呃，没关系，但如果我们能连接你的，呃，电表数据，就像你给我们的那样，呃，你喜欢的，你还好吗
+Byron Dare: Yeah.  拜伦·戴尔：是的。
+Amber Fu: uh uh United uh utility account. Okay.
+Amber Fu：呃，United，呃，公用事业账户。好的。
+Byron Dare: Yeah.  拜伦·戴尔：是的。
+Amber Fu: Okay. Cool. So, uh we can go back from this page uh and we can move to the event uh on the
+Amber Fu：好的。酷。所以，呃，我们可以从这个页面回溯，呃，我们可以转到事件，呃，关于
+Byron Dare: Okay.  拜伦·戴尔：好的。
+Amber Fu: bottom the the bottom tab there have a event next to a hole. Yeah.
+琥珀傅：底部标签页下方有一个洞旁边的事件。是的。
+Byron Dare: Okay.  拜伦·戴尔：好的。
+Amber Fu: And you can uh tap around like click any of those. Just
+Amber Fu：你可以点击任何一个。就这样
+Byron Dare: that one.  拜伦·戴尔：就是那个。
+Amber Fu: see  琥珀·傅：参见
+Byron Dare: Okay. Okay. Like so this one what happened? You you could access my data and tell me from the
+拜伦·戴尔：好的。好的。比如说，这次到底发生了什么？你可以访问我的数据并告诉我
+ 
+ 
+00:43:06
+ 
+Amber Fu: Uh yes,  Amber Fu：呃，是的，
+Byron Dare: app if I give you permission to
+拜伦·戴尔：如果我允许你，应用
+Amber Fu: but you need to uh give us
+Amber Fu：但你得给我们，呃
+Byron Dare: Yeah. Yeah.  拜伦·戴尔：是的。是的。
+Amber Fu: Yeah.  Amber Fu：是的。
+Byron Dare: I've done that before with um one of the uh EV companies. So, like if I signed up for uh your app,
+拜伦·戴尔：我以前也和一家电动车公司做过类似的事。比如说，如果我注册了你的应用，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Byron Dare: then I I could give you like uh my meter number and all that or
+拜伦·戴尔：那我可以给你我的计时器号码什么的，或者
+Amber Fu: Yeah.  Amber Fu：是的。
+Byron Dare: account number with uh Peny.
+拜伦·戴尔：账户号码，呃，佩妮。
+Amber Fu: Yes.  Amber Fu：是的。
+Byron Dare: Yeah. Yeah, I'd do that.
+拜伦·戴尔：是的。是的，我会这么做。
+Amber Fu: So do you think uh for the event uh for those like a solar production there have like what happened wise matter like how impact do you think they will be useful helpful uh what part do you think still missing
+Amber Fu：那么你觉得，对于这个活动来说，比如太阳能发电，发生了什么，比如你认为它们会有多大帮助，你觉得还缺少哪些部分
+Byron Dare: Well, for my case, um,
+拜伦·戴尔：就我而言，嗯，
+Amber Fu: Okay.  Amber Fu：好的。
+Byron Dare: like if you got the data from, uh, Tesla that I was generating energy from solar and sending it back to the grid and then, um, PG& says, "No, that's not true." Um then
+拜伦·戴尔：比如你从特斯拉那里得到的数据，说我用太阳能发电并回馈电网，然后 PG&说，“不，那不是真的。”嗯，那
+Amber Fu: Okay.  Amber Fu：好的。
+Byron Dare: um then I could go to the P Gen and say, "Hey, you know um something's wrong here." But otherwise,
+拜伦·戴尔：嗯，那我可以去找 P-Gen 说，“嘿，你知道，嗯，这里有点问题。”但除此之外，
+ 
+ 
+00:44:33
+ 
+Amber Fu: Okay.  Amber Fu：好的。
+Byron Dare: um they're not very helpful.
+拜伦·戴尔：嗯，他们帮不上什么忙。
+Amber Fu: Okay. So, uh what I understand is like maybe you need two more thing. First is like the evidence, right?
+Amber Fu：好的。所以，呃，我理解的是，也许你需要另外两样东西。第一，就像证据，对吧？
+Byron Dare: Yeah.  拜伦·戴尔：是的。
+Amber Fu: Uh one something like a Tesla number or like the the bill detail and the next will be like I think maybe you need to have like what to do next, right? like who to contact,
+Amber Fu：呃，一个是特斯拉数字或者账单细节，另一个可能是我觉得你接下来该做什么，对吧？比如联系谁，
+Byron Dare: Yeah.  拜伦·戴尔：是的。
+Amber Fu: what to ask,  Amber Fu：该问什么，
+Byron Dare: Right.  拜伦·戴尔：没错。
+Amber Fu: right? Okay, gotcha.
+Amber Fu：对吧？明白了。
+Byron Dare: Yeah.  拜伦·戴尔：是的。
+Amber Fu: And we can go back for uh for this page and uh for those event like for you if there were like uh if this were like truly useful, what would the top event to be? for example, like a rate plan or like a battery did not take over during the outage or like uh uh XPro detected but no PJ credited found
+Amber Fu：我们可以回顾一下，呃，这页，呃，关于那些活动，比如说，如果真的有用，顶级活动会是什么？比如，比如某个费率计划，或者电池在停电期间没有接管，或者 XPro 检测到但没有找到 PJ 入账
+Byron Dare: Yeah. Well,  拜伦·戴尔：是的。嗯，
+Amber Fu: like  Amber Fu：喜欢
+Byron Dare: you know, like sometimes I get a message from Tesla saying uh uh we expect a big storm coming in and uh you know, your power walls being charged now and uh because of the bad weather,
+拜伦·戴尔：你知道，有时候我会收到特斯拉的消息，说呃呃，我们预计会有一场大风暴来袭，呃，你的电墙正在充电，呃，因为恶劣天气，
+ 
+ 
+00:46:00
+ 
+Amber Fu: Uh-huh.  安柏·傅：嗯哼。
+Byron Dare: then you should be able to still get your utilities from the power wall. But I've I've had blackouts where um um I don't get any utilities, you know. So I don't know if the power wall, as I understand, the power wall should kick in when um like the electricity from the grid stops and the power wall should provide electricity. Okay. So,
+拜伦·戴尔：那你应该还能从电墙里获得公用事业。但我有过停电，嗯，我根本拿不到水电，你知道的。所以我不确定电源墙，据我理解，电源墙应该在电网停止时启动，电源墙应该提供电力。好的。所以，
+Amber Fu: Okay.  Amber Fu：好的。
+Byron Dare: I'm not I'm not sure if that's happening. Um
+拜伦·戴尔：我不确定这是否正在发生。嗯
+Amber Fu: Okay.  Amber Fu：好的。
+Byron Dare: um so uh like yeah if if the if your app could tell me if the power wall is being charged um or not being charged, you know, then I I could probably go to Tesla and say, well, you know, this app I has have doesn't show that uh the power wall is being charged and then I guess I could ask Tesla to fix it but you know the like the blackout is only every couple
+拜伦·戴尔：嗯，所以，呃，如果你的应用能告诉我电墙是否在充电，或者没有充电，那我大概可以去找特斯拉，说，嗯，我有个应用显示电墙在充电，然后我可以让特斯拉修理，但你知道，比如停电只是每对情侣
+Amber Fu: Okay. Okay. So,
+Amber Fu：好的。好的。所以，
+Byron Dare: months and you don't know when it's going to happen and stuff like that.
+拜伦·戴尔：几个月，你不知道什么时候会发生什么，诸如此类。
+ 
+ 
+00:47:34
+ 
+Byron Dare: So, um but the the app kept um kept track of whether or not the power wall is being charged. Um, then I could, you know, uh, like if your app shows that the power wall is not being charged, then I could go to Tesla and say, "Hey, you know,
+拜伦·戴尔：所以，嗯，这个应用会记录电墙是否正在充电。嗯，然后我可以，嗯，如果你的应用显示电源墙没有充电，我就可以去找特斯拉说，“嘿，你知道，
+Amber Fu: M  琥珀·傅：M
+Byron Dare: uh, the independent app shows it's not being charged, so can you fix it?" But otherwise,
+拜伦·戴尔：呃，独立应用显示没有被扣费，你能帮我解决吗？”但除此之外，
+Amber Fu: okay  Amber Fu：好的
+Byron Dare: I don't really know if the power wall's being charged or
+拜伦·戴尔：我不太清楚电墙是不是在充电，还是
+Amber Fu: and  Amber Fu：和
+Byron Dare: not.  拜伦·戴尔：不是。
+Amber Fu: okay and for those uh for those things you are prefer the printable PDF with a number and datas
+Amber Fu：好的，对于那些，呃，关于这些内容，你更喜欢带有数字和数据的可打印 PDF 版本
+Byron Dare: Yeah, cuz um basically they want a like a email or something. Um that's yeah,
+拜伦·戴尔：是的，因为基本上他们想要一封邮件什么的。嗯，是的，
+Amber Fu: Okay.  Amber Fu：好的。
+Byron Dare: you know, cuz they got people in Arizona or Nevada or something like that. So um pretty much your communication with Tesla's um through
+拜伦·戴尔：你知道，因为他们在亚利桑那或者内华达之类的地方有人。所以，嗯，基本上你和特斯拉的沟通是通过的
+Amber Fu: Okay,  Amber Fu：好的，
+Byron Dare: email  拜伦·戴尔：电子邮件
+Amber Fu: got you. And uh so uh one one more thing is um like would you be willing to do those four step uh package?
+Amber Fu：明白了。呃，还有一件事，嗯，你愿意做那个四步套餐吗？
+ 
+ 
+00:49:09
+ 
+Amber Fu: Uh the first is like you would you willing to give a connect with the Tesla data and up
+Amber Fu：呃，第一个问题是，你愿意提供与特斯拉数据相关的连接吗？之后
+Byron Dare: Yeah.  拜伦·戴尔：是的。
+Amber Fu: maybe uh and we need to maybe upload the PJ bill the PDF. Okay.
+Amber Fu：也许吧，呃，我们可能需要上传 PJ 法案的 PDF。好的。
+Byron Dare: Yeah.  拜伦·戴尔：是的。
+Amber Fu: And I think we may need to confirm your PTO date and confirm whether
+Amber Fu：我觉得我们可能需要确认你的带薪休假日期，以及是否
+Byron Dare: Okay.  拜伦·戴尔：好的。
+Amber Fu: you are on the CCA like uh like uh I think this call something like uh uh a clean energy stuff program.
+Amber Fu：你在 CCA，呃，我记得这叫清洁能源项目。
+Byron Dare: Yeah.  拜伦·戴尔：是的。
+Amber Fu: Okay. So you will go give us those information for us right?
+Amber Fu：好的。所以你会去给我们这些信息，对吧？
+Byron Dare: Yeah,  拜伦·戴尔：是的，
+Amber Fu: Do do you think that will be okay or Oh.
+Amber Fu：你觉得这样可以吗，还是哦？
+Byron Dare: sure. I could do that. Um,
+拜伦·戴尔：当然。我可以做到。嗯，
+Amber Fu: Oh,  安柏·傅：哦，
+Byron Dare: you just tell me what I need to do and uh like uh if you want
+拜伦·戴尔：你只要告诉我我该做什么，呃，如果你愿意的话
+Amber Fu: okay.  Amber Fu：好的。
+Byron Dare: um if you want a PDF of my bill cuz uh I I get that. I mean I have access uh PG will give me a well on their website I can get a PDF of uh every month.
+拜伦·戴尔：嗯，如果你想要我的账单 PDF，因为呃，我可以。我是说我有权限，PG 会在他们网站上给我一个网站，我每个月都能拿到一份 PDF。
+ 
+ 
+00:50:25
+ 
+Byron Dare: Um, I don't think I don't think Tesla offers that, at least as far as I know.
+拜伦·戴尔：嗯，据我所知，我不认为特斯拉没有提供这种服务。
+Amber Fu: Okay.  Amber Fu：好的。
+Byron Dare: Uh, I might be wrong,
+拜伦·戴尔：呃，我可能错了，
+Amber Fu: Okay.  Amber Fu：好的。
+Byron Dare: but uh I haven't I haven't uh
+拜伦·戴尔：但是，呃，我还没，我还没，呃
+Amber Fu: So,  Amber Fu：那么，
+Byron Dare: experience where Tesla would give me a print out or anything. you know, if if there's some way for them to do it, then if um I would be happy to let you have access to
+拜伦·戴尔：有过特斯拉给我打印打印件的经验。你知道，如果他们有办法做到的话，嗯，我很乐意让你访问
+Amber Fu: Okay. Okay. So,
+Amber Fu：好的。好的。所以，
+Byron Dare: that.  拜伦·戴尔：就是那个。
+Amber Fu: uh, so what I'm hearing is like you don't need to more charge, you need to like clean evidence trial, right?
+Amber Fu：呃，我听到的是，你不需要再多指控，你需要像干净的证据审判，对吧？
+Byron Dare: Yeah,  拜伦·戴尔：是的，
+Amber Fu: So,  Amber Fu：那么，
+Byron Dare: because even if uh PG doesn't do anything,
+拜伦·戴尔：因为即使 PG 什么都没做，
+Amber Fu: uh,  安柏·傅：呃，
+Byron Dare: then uh I I'd send it to to the PUC then, you know, if I had the data and I sent the PG& and they don't do anything, then I think I have a better case to send it to the PUC and say, "Hey, I got all this data." and they won't do anything because before they just said uh well
+拜伦·戴尔：然后，呃，我会把数据发给公共工程委员会，然后，如果我有数据，我提交了 PG&，他们什么都不做，那么我觉得我有更好的理由把数据发给公共事业委员会，说，“嘿，我有这些数据。”但他们不会采取行动，因为之前他们只是说，嗯，好吧
+ 
+ 
+00:51:36
+ 
+Amber Fu: Okay.  Amber Fu：好的。
+Byron Dare: we contacted PG& and they said everything's fine you know so then they close the case but if I have uh the data then I think it's harder for PG& to just say it's everything's okay and then uh if I went to PC if I had the data then it's harder for them just say, "Yeah, everything's okay." And PG says it's
+拜伦·戴尔：我们联系了 PG&，他们说一切都没问题，然后他们就结案了，但如果我有数据，PG&就很难直接说一切都没问题;然后如果我去找 PC，如果我有数据，他们就更难说， “是的，一切都好。”PG 说是
+Amber Fu: Gotcha. Gotcha.
+Amber Fu：明白了。明白了。
+Byron Dare: okay.  拜伦·戴尔：好的。
+Amber Fu: Well, so uh our next step is the to make this feel like a case file. So you know something like import import the bill like pa test Tesla export or like highlight the mismatch and like generate the printable
+Amber Fu：嗯，我们的下一步是让这份文件感觉像一份案卷。比如导入、导入账单，比如 PA 测试特斯拉导出，或者高亮不匹配并生成可打印文件
+Byron Dare: All  拜伦·戴尔：全部
+Amber Fu: package plus like uh the call scripts.
+Amber Fu：包裹加上呼叫脚本。
+Byron Dare: right.  拜伦·戴尔：对。
+Amber Fu: Yeah. So uh except those thing like what else uh you think maybe is more important and I'm still missing.
+Amber Fu：是的。所以，呃，除了那些你觉得还有什么更重要的事情，我还是没想到。
+Byron Dare: Um well in my case that's what I need. I'm sure there's a lot of people also that um would need uh to
+拜伦·戴尔：嗯，就我而言，这正是我需要的。我相信很多人也需要，呃
+Amber Fu: Mhm.  Amber Fu：嗯。
+Byron Dare: consult somebody um um for just monitoring I think the website's good you know for everyday monitoring but when there's a problem like I have um there's more data.
+拜伦·戴尔：请咨询某人，嗯，监测一下，我觉得这个网站很适合日常监控，但遇到问题时，比如我，嗯，数据会更多。
+ 
+ 
+00:53:21
+ 
+Amber Fu: Mhm.  Amber Fu：嗯。
+Byron Dare: I think it needs to be generated.
+拜伦·戴尔：我认为需要被创造出来。
+Amber Fu: Okay. Okay. And uh for the last step we can go back to the homepage.
+Amber Fu：好的。好的。最后一步，我们可以回到主页。
+Byron Dare: Okay.  拜伦·戴尔：好的。
+Amber Fu: Uh for the homepage like what part do you feel still missing like what part you want to say it at the first like let's say like five second.
+Amber Fu：呃，关于主页，你觉得还缺哪一部分？你想在第一步说，比如五秒钟？
+Byron Dare: Um, so I I uh it says suggestion yellow. So that that's the one in the middle. Okay.
+拜伦·戴尔：嗯，我，呃，上面写着建议黄。所以中间就是那个。好的。
+Amber Fu: Uh-huh.  安柏·傅：嗯哼。
+Byron Dare: Um, that's that's good. Um but I think um you know this is a little confusing cuz you know um this sounds like u a plan rolling blackout when you say power outage warning.
+拜伦·戴尔：嗯，那很好。嗯，但我觉得，嗯，你知道，这有点让人困惑，因为你说停电警告时，这听起来像是计划中的停电。
+Amber Fu: Mhm.  Amber Fu：嗯。
+Byron Dare: drink and then u yeah I could understand that you know if there's um if the utility says yeah you know and uh next Thursday we're going to have a plan back blackout for 6 hours or something like that uh I could understand that that that's a
+拜伦·戴尔：喝一杯，然后你，是的，我能理解，如果公用事业公司说可以，呃，下周四我们会有个计划，停电6小时之类的，呃，我能理解，那是
+Amber Fu: Yeah. Okay.  Amber Fu：是的。好的。
+Byron Dare: good suggestion that you know you should do something but
+拜伦·戴尔：你知道自己应该做点什么，但这是个好建议
+ 
+ 
+00:55:17
+ 
+Amber Fu: Okay. Got  Amber Fu：好的。得到
+Byron Dare: it that's  拜伦·戴尔：那是
+Amber Fu: you.  Amber Fu：你。
+Byron Dare: Um, up here in Northern California, they don't uh I think they've talked about planned blackouts, but I've never seen one. But there are blackouts um like sudden
+拜伦·戴尔：嗯，在北加州这里，他们没有，呃，我记得他们没谈过计划性停电，但我从没见过。但会有断片，嗯，突然的
+Amber Fu: Oh,  安柏·傅：哦，
+Byron Dare: blackouts because uh there's a windstorm or someone knocks out the utility box or something like that. Yeah. Uh like I've had neighbors where u some woman
+拜伦·戴尔：停电是因为有风暴或者有人把杂物箱撞坏了之类的。是的。呃，我有邻居是你那个女人
+Amber Fu: okay.  Amber Fu：好的。
+Byron Dare: knocks down the uh utility box and the whole neighborhood goes black and then um there's no power for like 48 hours uh in that neighborhood. But it's cuz there's a accident.
+拜伦·戴尔：把公用设施箱撞倒了，整个社区一片漆黑，然后那个社区断电了大约48小时。但那是因为发生了事故。
+Amber Fu: Oh,  安柏·傅：哦，
+Byron Dare: It's not cuz there's a planned blackout.
+拜伦·戴尔：不是因为有计划的停电。
+Amber Fu: okay. Got you. And you know um so because this app is still our really like the first demo version uh version it's really early version.
+Amber Fu：好的。明白了。而且，嗯，因为这个应用仍然是我们真正的第一个演示版本，呃，非常早期的版本。
+Byron Dare: Yeah.  拜伦·戴尔：是的。
+Amber Fu: So uh we will stay still like you know update uh the version and uh you know uh and I think you need
+Amber Fu：所以，呃，我们会保持原地不动，比如，你知道，更新版本，呃，我觉得你需要
+Byron Dare: Uhhuh.  拜伦·戴尔：嗯哼。
+Amber Fu: like the something like import like the Tesla data like highlight the mis mismatch and the printable package the PDF.
+Amber Fu：比如导入特斯拉数据，比如高亮不匹配和可打印的 PDF。
+ 
+ 
+00:56:53
+ 
+Amber Fu: So once we uh update the version and and I can see if would actually help you to challenge uh PGE. Yeah.
+Amber Fu：所以一旦我们更新版本，我可以看看是否真的能帮助你挑战 PGE。是的。
+Byron Dare: Right.  拜伦·戴尔：没错。
+Amber Fu: And I and uh after that like we we will still uh still update our app. So after that uh I want to invite you to see one more time if that's
+Amber Fu：而且之后我们仍然会更新我们的应用。所以之后，呃，我想邀请你再来看一次，如果可以的话
+Byron Dare: Okay. Yeah. Okay.
+拜伦·戴尔：好的。是的。好的。
+Amber Fu: okay.  Amber Fu：好的。
+Byron Dare: Uh would you have would you have a tiein to uh so I know P Gen if there's a blackout um because of the wind or something they send uh you a text message and um
+拜伦·戴尔：呃，你会不会有联系，呃，我知道，P·Gen，如果因为风停电什么的，他们会发短信给你，嗯
+Amber Fu: Uh-huh.  安柏·傅：嗯哼。
+Byron Dare: and then they say well you know we they send a text and say uh you know we think it's going to be restored in 5 hours or something like that. Could the app also be notified by like PG& that uh certain neighborhood uh like if you're out of town and there's
+拜伦·戴尔：然后他们会发短信说，呃，我们认为大约五个小时内会恢复。应用会不会也会收到 PG 和某个社区的通知，比如你出城时
+Amber Fu: Yeah.  Amber Fu：是的。
+Byron Dare: a uh blackout because of the wind or something and then you know you could uh get that notification on your
+拜伦·戴尔：呃，因为风停电什么的，然后你知道你可能会收到那个通知
+ 
+ 
+00:58:00
+ 
+Amber Fu: Um  安柏·傅：嗯
+Byron Dare: phone and then you could call a neighbor or something like that, you know,
+拜伦·戴尔：打电话，然后你可以打给邻居什么的，你知道的，
+Amber Fu: yeah.  Amber Fu：是的。
+Byron Dare: cuz uh Um like your neighbor might there might be something that you need power for. Uh and then there's uh you know uh unplanned blackout.
+拜伦·戴尔：因为，呃，就像你邻居一样，可能有需要用电的地方。呃，还有，呃，你知道的，呃，意外停电。
+Amber Fu: Uh-huh.  安柏·傅：嗯哼。
+Byron Dare: So maybe uh um if you're out of town then you call call your neighbor and say hey you know I need help because uh I got something that needs power. You know, there's stuff like um um like
+拜伦·戴尔：所以，呃，如果你不在城里，你可以打电话给邻居，说嘿，你知道我需要帮忙，因为我有东西需要用电。你知道，有些事情，比如，嗯，嗯
+Amber Fu: Okay.  Amber Fu：好的。
+Byron Dare: something in your freezer or there's uh some medical devices that need to be powered all the time, that sort of thing. So, if you're out of town, then you could uh um maybe have
+拜伦·戴尔：冰箱里有什么东西，或者有些医疗设备需要一直供电，类似这样的。所以，如果你出城了，那你呃，也许可以
+Amber Fu: Okay.  Amber Fu：好的。
+Byron Dare: someone help you, you know, that lives close to your house in a emergency
+拜伦·戴尔：有人能帮帮你，你知道的，住在你家附近，紧急情况下
+Amber Fu: Oh, okay. Well, that's that's okay.
+Amber Fu：哦，好的。没关系。
+Byron Dare: situation.  拜伦·戴尔：情况。
+Amber Fu: That's really good question. I I'm glad you brought that up.
+Amber Fu：这是个很好的问题。我很高兴你提到了这个。
+Byron Dare: Yeah.  拜伦·戴尔：是的。
+Amber Fu: Yes. Yeah. Well, you're absolut absolutely right that well there the two very different kind of outage like like plan outage where the yeah and like you say uh and for implant
+Amber Fu：是的。是的。你说得完全正确，那两种截然不同的停电类型，比如计划停电，比如是的，还有你说的，呃，还有植入物
+ 
+ 
+00:59:23
+ 
+Byron Dare: Yeah.  拜伦·戴尔：是的。
+Amber Fu: outage like PGE like already syntax and notification was there detect the issues so we're uh uh exploring the whether the app can also listen to those same signal for example like utility outage feed or the uh studed update and like surface them
+Amber Fu：像 PGE 这样的停机，语法和通知已经存在，检测到问题了吗？所以我们正在研究应用是否也能监听这些信号，比如公用事业停电信号，或者是 studed 更新，然后把它们显示出来
+Byron Dare: in  拜伦·戴尔：在
+Amber Fu: in one place alongside what you hope and the battery are doing.
+Amber Fu：放在你希望和电池正在做的事情旁边的一个地方。
+Byron Dare: private.  拜伦·戴尔：私人。
+Amber Fu: So if you're uh out of town and there are like sudden outage in your neighborhood, the goal wouldn't be the uh protected but to make sure you don't miss it and to give you like a contact like whether the system should have uh taken
+Amber Fu：所以如果你在外地，突然在你附近发生故障，目标不是保护，而是确保你不会错过，并给你一个联系方式，比如系统是否应该被接管
+Byron Dare: Yeah.  拜伦·戴尔：是的。
+Amber Fu: over or not, right?
+Amber Fu：结束了还是没结束，对吧？
+Byron Dare: or like a family member or something like that, you know, so that you could call your family member,
+拜伦·戴尔：或者像家人一样，你知道的，这样你就可以给你的家人打电话，
+Amber Fu: Yeah.  Amber Fu：是的。
+Byron Dare: you know,  拜伦·戴尔：你知道，
+Amber Fu: Yeah.  Amber Fu：是的。
+Byron Dare: who might have keys to your house to, uh, get into the house and, you know,
+拜伦·戴尔：谁可能有你家的钥匙，可以进屋，你知道，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Byron Dare: uh,  拜伦·戴尔：呃，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Byron Dare: turn on a generator or something like that.
+拜伦·戴尔：开个发电机之类的。
+Amber Fu: Yeah.  Amber Fu：是的。
+Byron Dare: Yeah.  拜伦·戴尔：是的。
+ 
+ 
+01:00:37
+ 
+Amber Fu: Yeah. Got you. Yeah. We we we will have that. So you know for us the most important part is like when an outage happened uh can we clearly show whether your battery should have carried the house and
+Amber Fu：是的。明白了。是的。我们我们会有这样的。所以对我们来说，最重要的是，比如当停电发生时，我们能否清楚地显示你的电池是否应该带动整个房子，
+Byron Dare: Yeah.  拜伦·戴尔：是的。
+Amber Fu: if not  琥珀·傅：如果不是
+Byron Dare: Yeah, that would uh that would help me cuz
+拜伦·戴尔：是的，那会帮到我，因为
+Amber Fu: why?  Amber Fu：为什么？
+Byron Dare: uh yeah, I got the two batteries, but uh and the solar panels, but I'm not sure if uh it's if it's working properly or not. Um, yeah, there's been blackouts where I'm not here, so I don't know if the power wall took over or not.
+拜伦·戴尔：呃，是的，我拿到了两块电池，还有太阳能板，不过我不确定是不是它工作正常。嗯，是的，我不在的时候也有停电的情况，所以我不知道电源墙是不是接管了。
+Amber Fu: Okay. Well, well, thanks for sharing that and we will uh figure something else. So,
+Amber Fu：好的。嗯，谢谢你分享，我们会想别的办法。所以，
+Byron Dare: Okay.  拜伦·戴尔：好的。
+Amber Fu: yeah. Yeah. And this was really helpful and you know today like what you share makes problem very clearly for us. Yeah. I I think you're not looking for like more chart.
+Amber Fu：是的。是的。这真的很有帮助，你现在分享的内容对我们来说问题非常明显。是的。我觉得你不是在找更多的图表。
+Byron Dare: Yeah.  拜伦·戴尔：是的。
+Amber Fu: You're looking for like a clear evidence, right? And the I think the way how to fix the issues.
+Amber Fu：你是在找一个明确的证据，对吧？我也在思考如何解决这些问题。
+Byron Dare: Yeah.  拜伦·戴尔：是的。
+Amber Fu: Okay. And you know we are going to keep refining this especially around like a polling the Tesla data and I think uh I'm um matching it against the PG bill and
+Amber Fu：好的。你知道，我们会继续完善，特别是在民调方面，特斯拉的数据，我觉得，呃，我正在和 PG 法案进行匹配
+Byron Dare: right?  拜伦·戴尔：对吧？
+Amber Fu: the the packaging the way you can actually use and okay and once we have a update version I love
+Amber Fu：包装上你能真正使用，还行，一旦有了更新版本，我很喜欢
+Byron Dare: Yeah.  拜伦·戴尔：是的。
+Amber Fu: to show it you again and get you take thank you Brian
+Amber Fu：再次向你展示，并让你拿走，谢谢 Brian。
+Byron Dare: Okay.  拜伦·戴尔：好的。
+Amber Fu: thank and appreciate your time
+Amber Fu：感谢并感激你的时间
+Byron Dare: Okay. Sure thing. All righty. Okay. Thank you.
+拜伦·戴尔：好的。没问题。好了。好的。谢谢。

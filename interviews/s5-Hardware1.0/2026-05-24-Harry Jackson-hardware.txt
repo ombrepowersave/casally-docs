@@ -1,0 +1,900 @@
+May 24, 2026
+Casally interviews - Transcript
+00:00:00
+ 
+Amber Fu: Uh, hello.
+Harry Jackson: Hi,
+Amber Fu: Good.
+Harry Jackson: how you doing?
+Amber Fu: Good. Hi, Harry. How's your day going so far?
+Harry Jackson: Oh, everything's good with
+Amber Fu: Good. Perfect. Um,
+Harry Jackson: me.
+Amber Fu: well, thanks so much. Uh, taking your time, you know. I know everyone's busy. Oh, and before uh the meeting, uh, mind if I record this so I I can just, you know, listen instead taking a note? Okay, perfect. Thank you. Uh give me a second. Okay, perfect. So, uh yeah, sure. Let's start. So, uh uh I mean a big about a bit about us. So, we are like a really small early stage company working on home energy. By the way, my name's Amber and we're trying to helping home owner make sense of their electricity and manage uh it better. So, I'll be honest, we're still like in really early stage and still like a figuring things out. So, um today I'm really here to learn from your uh expertise.
+ 
+ 
+00:01:10
+ 
+Amber Fu: you're got this great mix of like a uh robot uh robotist and a mechanical and you know hands-on like uh prototyping and the lab experience. So that's exactly the kind of brain I want to learn from. Um so yeah I I want to focus on your experience and how this kind of like hardware gets built and tested in general and just so you're comfortable. I'm not going to ask you anything confidential about span of course. So I want to learn from someone.
+Harry Jackson: Um,
+Amber Fu: Uh
+Harry Jackson: I I'm sorry.
+Amber Fu: hello.
+Harry Jackson: I heard you say you want to learn from someone and
+Amber Fu: Oh yeah.
+Harry Jackson: then
+Amber Fu: Yeah. It's can Yeah. So I just want to you know uh learn someone who actually does this work.
+Harry Jackson: Yeah. Um sure. Um is there anywhere that you want me to start? like
+Amber Fu: Yeah. Uh well, if you don't mind, we can,
+Harry Jackson: um
+Amber Fu: you know, tell me about like your background like uh a robotist like mechanical or uh prototyping like what kind of work do you enjoy most?
+ 
+ 
+00:02:25
+ 
+Harry Jackson: yeah um my education was in robotics engineering but uh I've mostly found myself working in a more hands-on um production engineering or mechanical roles. Um, I'm in a technician role right now.
+Amber Fu: Mhm.
+Harry Jackson: It's just what I like. Um, I I wanted to take a step away from um like managing and just get back to doing
+Amber Fu: Mhm.
+Harry Jackson: hands-on work. And it was pretty good for me. Um, so it's uh it's leaned a lot more towards the electrical engineering side rather than computer engineering or mechanical engineering. It's what I do now is uh um I feel like it's closer to a facilities manager who has electrical engineering experience. Um yeah,
+Amber Fu: Got
+Harry Jackson: but um that's still the company that I'm in right now is uh
+Amber Fu: you.
+Harry Jackson: SPAN, right? They are really involved in you know home electronics and uh
+Amber Fu: Yeah.
+Harry Jackson: the energy sector, right? So, if you guys are interested in uh I guess what's going on in that industry, then that's what I could tell you
+ 
+ 
+00:03:43
+ 
+Amber Fu: Yeah. Yeah, definitely. Like uh Yeah.
+Harry Jackson: about.
+Amber Fu: Cuz I I I want to know like as a like a lab uh technician and you know like like a manufacturing engineer like what does your daytoday actually involve? Like what kind of problem use your spend your time uh solving?
+Harry Jackson: Um I uh as a in the technician role that I'm in right now, um it's usually I just listen to other engineers come to me with what whatever their needs are and I help them all get met at the same time with the limited resources that we have
+Amber Fu: Mhm.
+Harry Jackson: at our disposal. the building space, the budget, the uh the literal amperage that is available to our whole building.
+Amber Fu: Mhm.
+Harry Jackson: Um their testing needs a whole lot of like you know so some of them need like the full capacity of uh what we're able to get from our grid source. So um just budgeting all that is what look what what my day-to-day is like. Uh I build a lot of test fixtures for them.
+ 
+ 
+00:04:50
+ 
+Harry Jackson: I uh I I figure I manage logistics like you know freight shipping
+Amber Fu: Got
+Harry Jackson: um equipments calibration sending it out to another shop if we're not able
+Amber Fu: you.
+Harry Jackson: to do it ourselves uh logistics like
+Amber Fu: Got you.
+Harry Jackson: that.
+Amber Fu: And like but uh what's the most interesting or like hardest thing you ever you know had to figure out in your uh prototyping or lab
+Harry Jackson: Yeah. Um maybe it's that uh
+Amber Fu: work.
+Harry Jackson: um there are different rules that um equipment is subject to in terms of the fire marshall what they care about. um you know they might not like to have uh a test setup which might they might call a fire risk.
+Amber Fu: Mhm.
+Harry Jackson: Uh they might not like having that like you know in the building.
+Amber Fu: Mhm.
+Harry Jackson: Uh but if you take that same thing and you put it on like a cart that's mobile and you can like wheel it around and all of a sudden it's subject to different rules. Um sometimes we work with like you know Tesla Power Walls Franklin um Franklin batteries, whatever they call them, uh the kinds of like backup batteries that uh homeowners use for their uh um
+ 
+ 
+00:06:10
+ 
+Amber Fu: Mhm.
+Harry Jackson: just like a power outage. If you put that on a a static wall, the fire marshall is like a little unhappy about that in case if especially if it's not installed by like a certified electrician, then it's considered a fire risk.
+Amber Fu: Mhm.
+Harry Jackson: But if you put that on a cart that like, you know, god forbid it catches on fire, you can just send that outside, it's uh it's okay all of a sudden. So I I made a big push to um find like an economical
+Amber Fu: Mhm.
+Harry Jackson: solution that still can be, I guess, plugged into test setups. take all of our like 800 pound batteries, put them on carts, pass our fire inspection. That was uh that was something big that I did at
+Amber Fu: Gotcha. Gotcha. Well,
+Harry Jackson: work.
+Amber Fu: that's really interesting. So, how do you make like a lab test feel uh feel like close enough to like real home environment? Because like I I mean I mean like real home have like a weird wiring like different load or installer doing things differently like how do team usually account for
+ 
+ 
+00:07:28
+ 
+Harry Jackson: Yeah. Um there's there are devices which can make this easy for
+Amber Fu: that.
+Harry Jackson: you. There's ways you can do it cheaply. There's ways you can do it safely. There's ways you can do it quickly. And you know, sometimes you have to pick two of the three. Um, most of the time,
+Amber Fu: Mhm.
+Harry Jackson: I mean, homes in the United States usually have 240 volt service and either 100 or 200 amps. That's something that we can make out of the building service that we have,
+Amber Fu: Mhm.
+Harry Jackson: which is 483 phase and a transformer in the right place. Um, so I provide the labor for finding those transformers, throwing in a new circuit into the building if it might not exist yet of like getting energy from our main breaker to the transformer where it's needed. Um,
+Amber Fu: Mhm.
+Harry Jackson: fastening the transformer like into the concrete antiibration pads.
+Amber Fu: Mhm.
+Harry Jackson: um doing it all in a way that uh I'm not a certified electrician, but if a certified electrician came through for an inspection,
+ 
+ 
+00:08:43
+ 
+Amber Fu: Mhm.
+Harry Jackson: they wouldn't have any reason to make a problem out of it. Uh
+Amber Fu: Got you. Um and and like what does like uh I mean like the testing a power control
+Harry Jackson: yeah.
+Amber Fu: device actually involve in lab.
+Harry Jackson: Yeah. our the device that SPAN makes um which this isn't confidential or anything.
+Amber Fu: Um
+Harry Jackson: It's a home um breaker panel with some intelligence baked into
+Amber Fu: Mhm.
+Harry Jackson: it. Um it can remotely turn off and on circuits.
+Amber Fu: Uhhuh.
+Harry Jackson: It can um monitor the energy usage from every breaker that you install um through a series of like um um computer controlled
+Amber Fu: Mhm.
+Harry Jackson: relays. the entire back of the panel is relays and you put traditional breakers into it.
+Amber Fu: Mhm. Mhm.
+Harry Jackson: Uh so the the bulk of what I provide to the company is um just uh a place where they can put that panel and give them all the energy that the that a one home might draw 200 amps to 240. And then engineers come through and they run the panel in different scenarios.
+ 
+ 
+00:09:52
+ 
+Amber Fu: Mhm.
+Harry Jackson: Um like different uh like if there's a potential outage, right? Maybe I'll give them a switch to turn off and on the um current to their panel uh with the push of a button instead of like having to cut a wire. uh or if they need to say switch from a grid source
+Amber Fu: Okay.
+Harry Jackson: to a battery source like one of a Tesla power wall or um whatever batteries are on the market right now. I'm sorry I don't remember them. Um I'll give them a a a relay to do that also, right? A computer controlled relay so someone working remote can do it.
+Amber Fu: Gotcha. Gotcha. Uh so in that kind of setup like when engineer are testing power control what are the main thing they're trying to pro uh prove? Is that like more about like reliab behavior safety shut off or
+Harry Jackson: I guess yeah, just to make sure like our product works under the most um
+Amber Fu: make
+Harry Jackson: uh trying to make the most real conditions possible.
+ 
+ 
+00:11:13
+ 
+Harry Jackson: Um there's there was one setup I made which was supposed to simulate a uh um a lightning strike. Uh so trying to make sure it can handle like you know a surge of at least 3,000 volts very low current and that involved um using a uh a high pot tester
+Amber Fu: Mhm.
+Harry Jackson: to kind of like simulate that that really high voltage. Uh so yeah these test setups are just to um take our product and give it the most real conditions possible. Right? We are not a certification house oursel, right?
+Amber Fu: Mhm.
+Harry Jackson: But it kind of gives them the first basis to make sure like everything is working before they send it out to a real certification house and run it under their test and make sure that like when we pay them for their time, it's not going to be wasted. We're not going to run into anything unexpected.
+Amber Fu: Got you. Got you.
+Harry Jackson: Does that answer your
+Amber Fu: But like Yes. Yes.
+Harry Jackson: questions?
+Amber Fu: And but still I have a few more like because I always wondering like when something goes wrong in the test like let's see like a communication drops or like uh relay doesn't
+ 
+ 
+00:12:22
+ 
+Harry Jackson: Yeah.
+Amber Fu: behave to as expected or like a power is interrupted like what does the safe uh failure look like for this kind of device?
+Harry Jackson: um a safe failure, I guess.
+Amber Fu: Yeah.
+Harry Jackson: Well, for for our device, um it's um you know, we want to make sure like if there's any I guess like a power surge for instance, it would damage our device before it damaged any downstream uh loads. Uh and even better yet like it that it actually trips our breakers before it damages the device itself.
+Amber Fu: Mhm.
+Harry Jackson: Yeah. The the span panel which once again this isn't proprietary information. This is just like you know we sell it publicly. It's um it uses traditional breakers. Um then those provide a layer of protection before and after the actual copper of the panel itself. All we do is we replace the copper bus bars of traditional panel with computer automated relays and some monitoring of how much current passes through each um stab.
+Amber Fu: Got you. But but what's your really like like the gap between oh this is work in the lab or I'd rather trust this in thousand of home like what tends to break or surprise him in that uh uh situation.
+ 
+ 
+00:14:07
+ 
+Harry Jackson: I'm sorry. Um, would you would you mind repeating
+Amber Fu: Yes.
+Harry Jackson: that?
+Amber Fu: I just I just wondering like the the gap between like this work in the lab or I'd rather trust this in thousand of home like how how you guys uh to do that cuz you know like some sometime you are testing like let's say like maybe in a 10 10 home but after that probably you're going to selling like a thousand home. So like uh like what tend to break or surprise team in that
+Harry Jackson: H um
+Amber Fu: situation.
+Harry Jackson: well we uh I would say and I'm um I don't have the full picture right of everything that goes on in my company or in the like you know the manufacturing process even But what I think happens is uh we um we take our device, we put it under like some some of our own tests,
+Amber Fu: Mhm.
+Harry Jackson: make sure like it behaves as we expect.
+Amber Fu: Mhm.
+Harry Jackson: And uh there's uh there's just all kinds of like organizations with three or fourletter acronyms who then give us
+ 
+ 
+00:15:36
+ 
+Amber Fu: Mhm.
+Harry Jackson: like a stamp of approval to say you can you can sell this to people and it's not going to like mess up anybody's home.
+Amber Fu: Mhm.
+Harry Jackson: It's not going to interfere with their like Wi-Fi when you put it in their house. Uh, I wish I could tell you more or like closer to like what what that cut off is of like how good do you need to be before you're allowed to sell this, but I can't
+Amber Fu: Uh it's okay. It's okay. I just I just secure like how you guys close that gap to you know
+Harry Jackson: say
+Amber Fu: uh work in the lab or like reliable in 10,000 home but it's it's okay. Yeah. Well,
+Harry Jackson: we have a a reliability department.
+Amber Fu: like and how like
+Harry Jackson: We have a certification team. Um,
+Amber Fu: uh
+Harry Jackson: they are probably some people you could find on LinkedIn span if you really wanted to talk to them.
+Amber Fu: Okay. Sure. Sure. Definitely.
+ 
+ 
+00:16:34
+ 
+Amber Fu: Thank Thank you for sharing that information.
+Harry Jackson: Yeah.
+Amber Fu: And also I I was wondering know like how long does it take to uh go from the working you know uh prototype to something production reliable?
+Harry Jackson: Um well I have been at the company for maybe two and a half years and I
+Amber Fu: Uhhuh.
+Harry Jackson: have seen one product go from um absolutely nothing just an idea to uh the like
+Amber Fu: Mhm.
+Harry Jackson: 100 200 run manufacturing that took two and a half years. Um, there's another one we're working on right now.
+Amber Fu: Mhm.
+Harry Jackson: Uh, kind of depends on like how hard everybody is focused on it, right? We might be able to push something through faster than two and a half years.
+Amber Fu: Yeah.
+Harry Jackson: Um,
+Amber Fu: Mhm.
+Harry Jackson: I think we've gone from first prototypes to or like from concept
+Amber Fu: Mhm.
+Harry Jackson: to um first manufacturing run in about six months.
+Amber Fu: Mhm.
+Harry Jackson: Uh yeah,
+Amber Fu: Okay.
+Harry Jackson: I can't say if that's going to be like sold publicly yet or if we're even publicly announcing it yet, but uh um you know, just kind of depends on how good everybody is, how good everybody works together, I
+ 
+ 
+00:18:01
+ 
+Amber Fu: Got you. Got you. That's makes sense.
+Harry Jackson: guess.
+Amber Fu: And honestly like that's uh that's two and a half year time already tell me like this cate category is not easy. So well stepping like a back a little bit not about like spans specifically but just the category in the general like why do you think smart electric uh electrical panel or home energy hardware have been like really slow to get adopted
+Harry Jackson: Um, I guess in my opinion it's that uh it's like uh things that aren't broke don't get fixed. things that just work um and don't have a strong need
+Amber Fu: Mhm.
+Harry Jackson: for innovation. Um it would take a lot to actually like put your name on the market for that. And we're not the only company that makes smart panels either. There's plenty of others that uh uh
+Amber Fu: All
+Harry Jackson: they they they they all provide different things, right? um spans the one the company that um we we think of ourselves as pretty ahead in this market because uh what the what
+ 
+ 
+00:19:16
+ 
+Amber Fu: right.
+Harry Jackson: our smart panel offers is a lot more than just a homeowner perspective. Um, you get enough of spam of these span panels in one neighborhood and the uh energy provider uh can get a perspective of like the load curve over time of an entire neighborhood and potentially like get get like a lot of data, a lot of insight into uh um how to more efficiently call on their peaker plants um or how to how to use their power plants more efficiently.
+Amber Fu: Mhm.
+Harry Jackson: I think that nothing like this has come up yet for a long time cuz um well because energy companies haven't haven't all been run like um
+Amber Fu: Mhm.
+Harry Jackson: monopolies.
+Amber Fu: Mhm.
+Harry Jackson: Uh there is a lot of private control in the energy sector and their incentives aren't really to uh um to work as efficiently as possible.
+Amber Fu: Mhm.
+Harry Jackson: They're just to to keep functioning and keep making stockholder value go up. Uh but that is just my opinion.
+Amber Fu: Gotcha. Gotcha. Yeah.
+ 
+ 
+00:20:44
+ 
+Amber Fu: But so but for your view like it's such uh stronger value actually for the homeowner or for the utility because like for homeowner like you said is if the panel works they they may not feel like it that's an urgency but for utility the neighborhood level low data could be really valuable.
+Harry Jackson: Yeah. Um I'll also say this is my opinion, right? But uh since there's there's plenty of um smart panels options that uh provide value for the homeowner for uh a homeowner to like get insight on their energy usage. But widespread adoption is um um is going to come more from making it a utility incentive for new home builders to be incentivized to put this into their home and that has to come both from a individual benefits and from uh utility subsidies. Um, so I don't think that many other companies who do like smart panels or
+Amber Fu: Mhm.
+Harry Jackson: other companies that are in the energy sector. I'm not like super plugged into this industry either. I just know about what our company the what who we keep eyes on as competitors.
+ 
+ 
+00:22:08
+ 
+Harry Jackson: But I don't think a lot of other companies have a uh um a perspective of providing data to the energy provider to the um like in California it's PG&E. Um they're just like, "Oh, we can we can like get money from the homeowner to install into their home." They're going to appreciate like being able to more efficiently throttle their energy. But uh like if you get enough of these things in a network, the data of how everybody in a whole city is using their homes, um like there's a lot more money to be made in um the energy provider being able to more efficiently call on entire power plants than there there is going to be in individual homeowners.
+Amber Fu: Um
+Harry Jackson: being cautious of their energy
+Amber Fu: got you got you got you.
+Harry Jackson: usage.
+Amber Fu: So uh that I think that is a really interesting point. Um, so you think the bigger push comes from utility and builders more than from homeowner want itself. But do you think home owner would ever pay for this on their own without the utility or builder putting it in?
+ 
+ 
+00:23:38
+ 
+Harry Jackson: Um, some home owners probably will, but uh I in my
+Amber Fu: Mhm.
+Harry Jackson: opinion the benefits of a smart panel Um,
+Amber Fu: Mhm.
+Harry Jackson: I don't know. Let's say like um a a panel that is smart costs $3,000. A panel that is not smart costs $30 probably. Probably for for the same like load. I don't think that a homeowner would want to pay that much unless they were like really
+Amber Fu: Mhm.
+Harry Jackson: personally invested in being energy efficient or
+Amber Fu: Yeah.
+Harry Jackson: um really like uh wanted to be like future proofing their home. Um, most new homeowners or like home builders, I think, uh, wouldn't want to, um, they want to keep their costs as low as possible.
+Amber Fu: Mhm.
+Harry Jackson: Any new costs that they put into the home has to come with uh, like um, a homeowner who'd be willing to pay for it. I don't think that that cost is uh you know paying 10 times as much for a panel is going to be uh something that most new buyers would uh care to
+ 
+ 
+00:24:58
+ 
+Amber Fu: Mhm.
+Harry Jackson: front up. I think that it would be possible if it was like five times the cost of a dumb panel instead of 10 times as much.
+Amber Fu: Mhm.
+Harry Jackson: And that difference would have to be made up by a utility subsidy.
+Amber Fu: Gotcha. Gotcha. Well, what what I understood is like is really about like the data and software, not the panel itself. Like do you think that's where the value is
+Harry Jackson: I think so.
+Amber Fu: heading?
+Harry Jackson: You know, a year or two ago, I probably wouldn't have said that data was so valuable, but um my eyes have been opened a little bit. Um data is ridiculously valuable. Um, yeah. So, I guess let's say a utility provider,
+Amber Fu: Mhm.
+Harry Jackson: it's 5:00 pm, everybody's coming home. They need to like add an extra 100 gawatts of power to your city for everybody who's coming home and turning on their clothes dryers all at the same time.
+Amber Fu: Yeah.
+Harry Jackson: If all of those homes had span panels in them, then what what span provides
+ 
+ 
+00:26:18
+ 
+Amber Fu: Mhm.
+Harry Jackson: is the the ability to see like those those people like where our panel is connected to like their phones by Wi-Fi and stuff. We can see they're coming home. they are doing the things that lead up to a big increase in load. The utility company can turn on their peaker plants like I don't know 5 minutes earlier or something. And since there's they're so expensive to run certain power plants, the more like headway they can get, the more prior notice they have, that's like five minutes more of bidding, negotiating time with that power plant for the rate that they're going to charge for that power. Um, that's where I think the real value is in uh a smart panel network. where like that's where the most money can be saved for any like in a in a big sense like one big chunk of money for the utility rather than like small every every small homeowner saving like 10 cents a month on their on their utility
+Amber Fu: Got you. Got you.
+ 
+ 
+00:27:41
+ 
+Harry Jackson: bills.
+Amber Fu: But so if the strongest value is at the utility level like who ends up owing that the the hardware makers or or the utility or some like software layer in between?
+Harry Jackson: Um I guess it would be a software layer in between of span our company providing the um the analytics to be able to see what everybody like everybody who has a span panel installed on their own their data would come through us. We sell the data to the utility. That's how it would
+Amber Fu: Got you. Got you. And also I'm so curious like about like um because I sell uh in the market there
+Harry Jackson: be.
+Amber Fu: have some um monitoring only company uh such like sense or imperial I guess how to spell that do you
+Harry Jackson: I don't know.
+Amber Fu: not you don't know okay so they're kind of like
+Harry Jackson: I don't know them. No.
+Amber Fu: you know it's only monetary company they they have like a safety clam And the customer can buy it on Amazon and they just you know click on and they they they just help the customer monitor ring the whole home load.
+ 
+ 
+00:29:04
+ 
+Amber Fu: Okay.
+Harry Jackson: Okay.
+Amber Fu: Yes. So do you think just showing people their usage is enough or do they end up wanting something that acts for them?
+Harry Jackson: Um h I think that um if I I think a homeowner only someone who's energy conscious, who's like um who really wants to know for the fun of
+Amber Fu: Mhm.
+Harry Jackson: knowing how much energy they're using would would buy something like that Because
+Amber Fu: Mhm.
+Harry Jackson: otherwise, what are they doing? They're going to buy it. They're going to put it on their home. Are they really going to be changing their habits? All you have now is information about what your habits are. A little more information about what your habits are. I think that if uh this information gathering
+Amber Fu: Mhm.
+Harry Jackson: device, right, what if it was free?
+Amber Fu: Mhm.
+Harry Jackson: What if it was like, "Oh, we will come install this in your home for you, right? You can get information about your energy usage. All you have to do is let us do it,
+ 
+ 
+00:30:12
+ 
+Amber Fu: Mhm.
+Harry Jackson: right?" And then um now suddenly there's a fleet of information gathering devices. You have a network of information of data on energy usage in a neighborhood that
+Amber Fu: Mhm.
+Harry Jackson: might be worth the cost to a utility company. We already have that with like um smart meters. Uh Silver Springs Networks or Ittron. Um they have that in their wireless meters. Uh PG&E really appreciates it. I don't know if like you're in California or wherever you are. It's uh uh it's
+Amber Fu: You mean where we where we are? Well, we're uh located in the
+Harry Jackson: well Oh,
+Amber Fu: Pasadena.
+Harry Jackson: okay. Okay. So, yeah, I could talk about PG&E and you understand
+Amber Fu: I go PGE because uh we interview few uh customer from the PGE.
+Harry Jackson: it.
+Amber Fu: They they they frustrating they frustrating with the PG. Yes.
+Harry Jackson: I I know they're not everybody's favorite. Yeah.
+Amber Fu: Yes. But some people they just don't have a
+ 
+ 
+00:31:24
+ 
+Harry Jackson: Yeah.
+Amber Fu: choice.
+Harry Jackson: Uh what does So is this company named
+Amber Fu: Yes.
+Harry Jackson: Casally?
+Amber Fu: Yes. Uh we Yes. We right now we only the app. Yeah. We're only the app.
+Harry Jackson: Okay.
+Amber Fu: So uh we're trying to you know adding some hardware uh hardware uh on it but we're not figuring out what will be look like uh because like the panel we think it's too heavy for a lot of homeowner you know so like so that's my question is what why do you think this kind of hard ends up so heavy like a whole panel is that like any uh any drinking uh necessary or like more business choice.
+Harry Jackson: Um I think that uh it's it's related to the mission of our company which is to encourage the
+Amber Fu: Okay.
+Harry Jackson: uh electrification of new homes. We're switching over everything that would use uh other sources of energy, gas or uh gasoline for that matter, to using electricity instead. Um, and if you uh have a home right now with uses electricity for like all your kitchen stuff, but you use gas for your heating and you have a gasoline car,
+ 
+ 
+00:32:57
+ 
+Amber Fu: Mhm.
+Harry Jackson: right? If you were to switch to an electric heater or electric water heaters instead of gas powered and then you were to switch to an electric car,
+Amber Fu: Mhm.
+Harry Jackson: those things are um they require more cost than just buying an electric water heater and an electric car. They would require um upgrading your home infrastructure,
+Amber Fu: Mhm.
+Harry Jackson: upgrading your um your uh your power drop, your service from 100 amps to maybe
+Amber Fu: Mhm.
+Harry Jackson: more. If you uh can't do that with uh it it costs more to upgrade that service than to buy
+Amber Fu: Mhm. Mhm.
+Harry Jackson: a span panel which can take your current 100 amp service and maybe like
+Amber Fu: Mhm.
+Harry Jackson: balance all your different loads in your house to make sure you can uh run all your electric devices. You can overload your panel and the span panel balances it out for you so everything runs at the same time.
+Amber Fu: I got
+Harry Jackson: Uh that is one reason why the span panel was developed.
+ 
+ 
+00:34:08
+ 
+Amber Fu: you.
+Harry Jackson: Um all the fleet data and the um like homeowner energy usage metrics kind of came after the fact, but the original intention was to um basically let you overload your 100 amp service and still be able to use all electric devices for your home. Uh, have I made myself clear there? Does that make sense?
+Amber Fu: Yes, that's totally makes sense. And yeah, but and like in general like if the goal is really just to manage it like
+Harry Jackson: Okay.
+Amber Fu: a few big load like the EV or AC, um does this actually need to be like a whole panel or could there have a anything
+Harry Jackson: Yeah,
+Amber Fu: like a ladder add-on do it?
+Harry Jackson: there's there's other options that exist out there. Um, instead of a uh smart panel, there are some companies that make smart breakers which uh like you take all the breakers in your panel, you replace them with these smart breakers.
+Amber Fu: Mhm.
+Harry Jackson: They talk to each other. They keep track of how much energy is going through each of them and they monitor uh oh if we need to like deprioritize um your um dep prioritize your EV so that you can run your AC in the daytime and then at night change that
+ 
+ 
+00:35:36
+ 
+Amber Fu: Mhm.
+Harry Jackson: over uh stop running your AC start charging your EV um or even during
+Amber Fu: Mhm. Mhm.
+Harry Jackson: uh peak hours you like take all of your energy usage and lower it by 20 30% so that way you don't get charged as much. Those exist.
+Amber Fu: Mhm.
+Harry Jackson: Um that's just I think it's a good market. I think it's just not what we're what what span is
+Amber Fu: Got you. Got you.
+Harry Jackson: picking.
+Amber Fu: And and uh so what's the most over uh uh engineering things you you seeing in home uh home energy hardware? Like something that made you go, "Oh, this is a way more than it need to be.
+Harry Jackson: overengineered in my opinion.
+Amber Fu: Or yeah, you think everything is okay right
+Harry Jackson: Um, I I don't really think
+Amber Fu: now.
+Harry Jackson: that um we I don't really think a smart panel is the answer to like to helping a uh energy provide to helping a utility see like the energy usage of everybody's homes. I do think it's a bit of an expensive toy.
+ 
+ 
+00:36:57
+ 
+Amber Fu: Mhm.
+Harry Jackson: Uh, I know I make a living working for a company that does that, but uh,
+Amber Fu: Mhm.
+Harry Jackson: yeah, I I kind of think the smart breakers are a pretty good idea personally.
+Amber Fu: Mhm. Got you.
+Harry Jackson: The the panel itself is just it's just copper. Uh, and if you want to put smarts in it, like you can put that on top of it, but the copper itself is like it just it's just a big wire basically. You don't need to bake intelligence into
+Amber Fu: Gotcha. Got you.
+Harry Jackson: it.
+Amber Fu: But but you think like a could like a lighter device like not a whole panel just something that manage few big load like the EV do the same things like maybe let you run more um 100 amps without replacing the panel.
+Harry Jackson: Um, I I h Well, there is value in like having some device which lets you I guess take your current service and
+Amber Fu: Mhm.
+Harry Jackson: you know mo like people aren't going to be like keeping track of how much energy everything in their home uses.
+ 
+ 
+00:38:24
+ 
+Amber Fu: Uhhuh.
+Harry Jackson: So a device which like lets you balance out all your loads so that way you can actually make the full use of your service that you're provided with that you're paying for. Um, there's value in that. Uh, I don't know.
+Amber Fu: Mhm.
+Harry Jackson: I guess it's just like maybe it's a more engineering efficient approach to make a smart panel than to make smart breakers. Like put all of your uh potential failures into one device rather than like lots of other lots of little devices that have to work together. Uh,
+Amber Fu: Got you.
+Harry Jackson: yeah.
+Amber Fu: Got you. And and you mentioned like the smart meter already give utility the data. Um so I I was wondering like what does a panel or device level data like actually add that the meter at the uh at the house doesn't already give
+Harry Jackson: Uh that is a good question and the answer is um like it it
+Amber Fu: them
+Harry Jackson: it lets you um it tells you what the uh individual circuits of the panel are doing rather than just what the entire house is doing.
+ 
+ 
+00:39:47
+ 
+Harry Jackson: Um it can say like, oh, for everybody in this neighborhood who's um coming home at this certain time, right? How many EVs are there?
+Amber Fu: Mhm.
+Harry Jackson: How many people here use um electric um electric air conditioners or electric water heaters? Uh would there be any benefit to um um like if if there is going to be a blackout for instance,
+Amber Fu: Mhm.
+Harry Jackson: do we throttle this neighborhood whose everything in their house
+Amber Fu: Mhm.
+Harry Jackson: depends on air conditioning or it depends on electricity or do we throttle this neighborhood which is more gas dependent? Right? they would be impacted a lot less by a power outage. Uh maybe somebody who's like got a medical device that needs that electricity.
+Amber Fu: Mhm.
+Harry Jackson: Um this neighborhood over here could handle that and would be less impacted than this neighborhood over here. That's the kind of data that uh would be valuable from a a spam panel.
+Amber Fu: Gotcha. Gotcha. And And how about uh so I don't know like uh in San Francisco are you live in San Francisco or the
+ 
+ 
+00:41:13
+ 
+Harry Jackson: Well,
+Amber Fu: LA?
+Harry Jackson: not anymore. I live in um in the peninsula a little bit south of San
+Amber Fu: Oh, okay. Okay. Um,
+Harry Jackson: Francisco.
+Amber Fu: so how about because I know do you know like the PSPS the uh I think it's called like the emergency shut off or something. Uh the oh the public safety power shut off.
+Harry Jackson: Um, no. Could you tell me about
+Amber Fu: Yeah. Uh so uh the public shift is uh shut off is more like in you know in
+Harry Jackson: it?
+Amber Fu: California sometime if there have a fire or utility just you know run out the power they going to shut off the uh power like the Yeah. Do have you ever been that situation
+Harry Jackson: Oh,
+Amber Fu: before?
+Harry Jackson: is this like um for places that there's a high fire risk,
+Amber Fu: Yes.
+Harry Jackson: they just preemptively Yeah.
+Amber Fu: Yes.
+Harry Jackson: Um Yeah.
+Amber Fu: Yes.
+Harry Jackson: Yeah. No, I've heard about
+Amber Fu: Yeah.
+ 
+ 
+00:42:10
+ 
+Harry Jackson: that.
+Amber Fu: So I was thinking like in the PSPS situation, what could the smart panel or like home energy device actually do for the homeowner?
+Harry Jackson: That is a
+Amber Fu: So is it like really back up load management or just giving people battery
+Harry Jackson: good um no that's actually a good question.
+Amber Fu: visible
+Harry Jackson: Um if there is uh okay so let's a utility company has the option of turning off all the power to a certain city or a certain region right as part of like their uh um preemptive safety shut off. If those homes had a smart panel or some smart devices in them, right, that were in communication with the utility,
+Amber Fu: Hey.
+Harry Jackson: instead of shutting off all the power, they might be able to say shut off 50% of the power or like
+Amber Fu: Hey.
+Harry Jackson: um the every c every customer who has these smart devices would be able to set a priority of like I need my refrigerator to stay running and um and everything else in the case of a blackout can go right.
+ 
+ 
+00:43:31
+ 
+Harry Jackson: A utility company could come along and say,
+Amber Fu: Mhm.
+Harry Jackson: "Okay, we need to put this uh restriction now, set those guys down to only their high priority loads." And that would be a much better outcome than just having an unexpected power outage for an entire region.
+Amber Fu: Gotcha. Gotcha. And well, uh, so like have you ever been that situation before in your own like when you live in California?
+Harry Jackson: Yeah, that's happened to me before. Um, and you know, it's like just before I knew about smart devices or like um home backup batteries, it just felt like a fact of life. It's like a storm is coming and you didn't know umbrellas existed.
+Amber Fu: Yes. Yes. But but by that situation, do you already have the battery home battery?
+Harry Jackson: Um, yeah, if you wanted to um not be impacted by a situation like this, you would have to be prepared for it. Um, I don't think that a lot of homes, not many homes upgrade to have this kind of benefit.
+ 
+ 
+00:44:53
+ 
+Harry Jackson: Um, it's mostly new homes being built that get this put in as feature.
+Amber Fu: Gotcha. Gotcha.
+Harry Jackson: Yeah.
+Amber Fu: But do you think home owner would be comfortable letting a utility or a device like automatically reduce uh certain load during the emergency like as long as they can set the rule ahead of time?
+Harry Jackson: Yeah. Um there's there's a certain I think fear which is very understandable of um of if if somebody says you are not in full control of the electricity that comes into your home.
+Amber Fu: Amen.
+Harry Jackson: you know,
+Amber Fu: Amen.
+Harry Jackson: a company might turn it off or turn it down uh at any
+Amber Fu: Amen.
+Harry Jackson: point, then yeah, that that's that's a that's a fear that people would have to get over. But it's still it's already true to a certain extent because the utility
+Amber Fu: Mhm.
+Harry Jackson: company, they can do these uh safety shut offs if there's a high fire risk. like it's it's at their discretion and you lose your power and it's not like you get anything in return for it.
+ 
+ 
+00:46:13
+ 
+Harry Jackson: You just like aren't paying for electricity at that point. Um, I think that if a utility company were to come to a a community and tell them, "We will put these devices into your home for free that
+Amber Fu: Mhm.
+Harry Jackson: will um, in exchange for us putting this device in, we promise that we can give you more predictable power outages or like, you know, power outages that still leave your most critical devices functioning. I think that that's a fair trade that a lot of people would take. A lot of people who aren't like new homeowners would
+Amber Fu: Got you.
+Harry Jackson: accept.
+Amber Fu: Got you. Yes, that's that's yeah that's so uh that's makes sense. I think I think that fear is like very real because like people don't want to feel like company can just take control of the home. So maybe the acceptable version is now the utility control everything but the home owner set rule ahead of time. So what can be like reduce what must stay on and when they can override
+ 
+ 
+00:47:22
+ 
+Harry Jackson: Mhm.
+Amber Fu: it.
+Harry Jackson: Yeah. Yeah.
+Amber Fu: Yeah.
+Harry Jackson: Yeah.
+Amber Fu: Yeah. And and also like um like like for like a bigger picture big picture like what where do you think this whole category go uh goes from here? Like does a heavy full panel or porch wing or does something lighter eventually take
+Harry Jackson: Um
+Amber Fu: over?
+Harry Jackson: I I don't know. I think it might come down to um whoever um can whoever can like just get into the market first with a device that's cheap enough and easy enough for uh
+Amber Fu: Are you
+Harry Jackson: widespread adoption to spread by word of mouth. I'm thinking like, you know, there's lots of um security cameras that people like to put in their homes, right? Um, those existed before,
+Amber Fu: Mhm.
+Harry Jackson: but ring cameras all of a sudden became like, oh, just that's the name for these things. Ring cameras. They got popular enough they got um like enough people got them, word of mouth. Uh, I I I think that's what's going to happen to uh energy monitoring devices for most homes.
+ 
+ 
+00:48:54
+ 
+Harry Jackson: Uh it's just we, you know, span tries to make itself into that. We're in a lot of homes in the United States, but uh it's uh it's not everywhere yet. We'd really like to be the most popular one in America, but uh we're we're only in America for one thing, right? There's there's a whole world of uh there's there's there's a lot more to the world than just the American energy grid and
+Amber Fu: Got you. Yeah.
+Harry Jackson: that it we're just focused on getting the rights to be in America to start with. It's hard
+Amber Fu: Yeah. Well,
+Harry Jackson: enough.
+Amber Fu: I I I I think that's a really good example like Ring, you know, become like the name for the home camera. So,
+Harry Jackson: Yeah.
+Amber Fu: for home energy, like what would the Ring camera moment look like? Like what would make regular home owner tell their neighbor say, "Hey, you should get this
+Harry Jackson: Well, I think if it wasn't for needing that kind of like um homeowner benefits, uh if it wasn't for like we we could have we could have made a device that's only marketed towards like hey utility we provide data to utility you want like this device for uh utility analytics.
+ 
+ 
+00:50:20
+ 
+Amber Fu: Huh?
+Harry Jackson: If it wasn't for that then we probably wouldn't have made an app for our device also
+Amber Fu: Mhm.
+Harry Jackson: that like let's let's uh a person who buys this panel connect to it and see like where all the electricity that's coming into the panel where is it going
+Amber Fu: Mhm.
+Harry Jackson: out to throughout their house. Uh,
+Amber Fu: Got you.
+Harry Jackson: so they made a pretty decent app and it's pretty like it's pretty clean looking.
+Amber Fu: Mhm.
+Harry Jackson: I think that one person talking to their friend about like, "Oh, I got this fan panel and I really like it. Here, check out this app. Look at like everything that I can see on it." I think that's the kind of thing that uh let's that spreads the name of our device around.
+Amber Fu: Got you. Got you. And and for like the uh installer like what's the installation where adoption change like if it's required and uh they they have to be electrician guys that that already slow everything down or is that acceptable if they the product value is strong?
+ 
+ 
+00:51:34
+ 
+Harry Jackson: Um, it was uh really important for us that the installation be uh as simple as possible. Actually, we put a lot of money into making our device a uh drop in replacement
+Amber Fu: Mhm.
+Harry Jackson: for a traditional panel. Um because if it's a you know, we we could market ourselves towards a utility. Utility could be like great, homeowner could be like great. the installer or the um the home builder, that's one person who's talking with both people, I guess, and they are going to be making their recommendations on what they think is best.
+Amber Fu: Mhm.
+Harry Jackson: And if a if an installer thinks this is difficult,
+Amber Fu: Mhm.
+Harry Jackson: this is tedious, and I don't care about it, then they aren't going to recommend that to anybody.
+Amber Fu: Mhm.
+Harry Jackson: So, we wanted to make sure it's really easy to install. Um, and and it is it's just uh uh it's the same shape, the same size, just a little bit heavier than a panel that uh doesn't have any like computer control relays or whatever in it.
+ 
+ 
+00:52:41
+ 
+Amber Fu: Mhm.
+Harry Jackson: And uh yeah, it's just as easy as even if you wanted to retrofit a home that already had uh a panel installed, it's just a dropin replacement. No additional uh no additional training required for any any technician who's doing
+Amber Fu: Gotcha. Gotcha. And well uh so if if there have a lighter device want
+Harry Jackson: it.
+Amber Fu: to win first like what should is uh solved first like EV charging or backup power during the outage or like uh the electricity bill saving or like solar battery optimization. What? What do you
+Harry Jackson: Um, well, what's hot right now is not paying for gasoline.
+Amber Fu: think?
+Harry Jackson: So, I think everybody is going to be looking at buying EVs for a little bit. Uh solar panels are getting more efficient every year, cheaper every year, a more reasonable choice every year. Um so having a um panel which can accept energy coming in from a solar panel, right? or uh could accept as like a bridge between an electric charger and your existing
+ 
+ 
+00:54:02
+ 
+Amber Fu: Honey,
+Harry Jackson: grid or between your electric vehicle and your uh pre-existing grid. There's a thing called V2 which um is trying to use electric cars as the battery that's in an electric car as the backup battery for the home. Um, that's um I don't know who is like who all is working on that or if it's even like working now, but uh I think it's a a decent idea.
+Amber Fu: Yeah.
+Harry Jackson: So the span panel could help make that happen. I think it's just a matter of like software. Um, if you had a span panel, those things would be much easier to to like add to your home as opposed to like retrofitting an existing
+Amber Fu: Mhm.
+Harry Jackson: panel to accommodate um an EV charger,
+Amber Fu: Mhm.
+Harry Jackson: the extra load in the EV charger or the um inverters that a uh solar panel might add to your home.
+Amber Fu: Gotcha. Gotcha. And oh, and one more thing I uh I think about it like is uh the especially in California um I I don't know if you heard the uh the solar for the solar customer they have the NAM3 policy.
+ 
+ 
+00:55:32
+ 
+Harry Jackson: Uh, NAM 3.
+Amber Fu: Yeah.
+Harry Jackson: What is this?
+Amber Fu: Um so it's it's basically like a solar home owner in California get much less value from the uh exporting the power back to uh the growth.
+Harry Jackson: Uh oh.
+Amber Fu: Yeah.
+Harry Jackson: Okay.
+Amber Fu: So more people are consider battery right now.
+Harry Jackson: Okay, I see.
+Amber Fu: Yeah. So,
+Harry Jackson: Uh
+Amber Fu: so I was thinking like do you think that makes smart panel or home energy man management more valuable? Yes. cuz like I I uh we will interview few uh solar homeowner in California and uh I think after 2023 sub after September or something uh if they have the solar they will under the NAM three the new policy from the California which means they they they get much less value from uh exporting power back to a grow.
+Harry Jackson: I
+Amber Fu: So a lot yeah a lot of people consider the home
+Harry Jackson: I don't know.
+Amber Fu: battery.
+Harry Jackson: I don't know how I feel about that cuz um I mean like solar panels and batteries, they are both just kind of ways to um take advantage of energy that's produced at a cheaper rate than
+ 
+ 
+00:57:09
+ 
+Amber Fu: Mhm.
+Harry Jackson: than what it's going to cost when like most average people are at their peak usage, right? You take in energy when it's cheap. So that way you can use it when it's expensive without buying it from the grid.
+Amber Fu: Mhm.
+Harry Jackson: Um solar panels help you do that like throughout the day. battery helps you do that by just taking it from the grid during the like non- peak hours and then you spin it from your battery during peak hours. So I if I if it was my home, I don't think I'd be very motivated by like um trying to sell energy from my solar panels pack to the grid.
+Amber Fu: Mhm.
+Harry Jackson: like that's not part of my original motivation of getting solar panels in the first place. Um yeah,
+Amber Fu: Mhm.
+Harry Jackson: I don't know. But either way, you still need um I guess if you wanted either of those things, you still need to have some kind of like insight into your energy usage, some sort of something to monitor it to tell you this is a worthwhile choice to buy either solar panels or a backup battery.
+ 
+ 
+00:58:42
+ 
+Amber Fu: Yes, exactly. And and what do you think like most company in home energy get wrong about like what home home owner actually want?
+Harry Jackson: H um I don't know. I don't know what to say about this one. I I just do my job at at
+Amber Fu: Got you.
+Harry Jackson: span.
+Amber Fu: Got you. But and also Okay. So last question is like if you were starting fresh today like knowing what you know, would you build hardware at all or would you try to do as much as possible with the software first?
+Harry Jackson: I think some hardware is necessary.
+Amber Fu: All
+Harry Jackson: Um I really think that
+Amber Fu: right.
+Harry Jackson: um where we're making where SPAN is making smart panels.
+Amber Fu: Mhm.
+Harry Jackson: I think this is a good place to actually add hardware in um at some point in the um in the circuit I guess from energy production to consumption from the grid to a you know city grid to a substation to the home
+Amber Fu: Yeah.
+Harry Jackson: to where actual devices that use that energy.
+ 
+ 
+01:00:12
+ 
+Harry Jackson: there is only copper from point A to point B.
+Amber Fu: Mhm.
+Harry Jackson: At some point along there, you need some devices that can monitor like how much energy is passing through this point. Um well, we have that with smart meters uh that are like right at the entry point to each home.
+Amber Fu: All
+Harry Jackson: But I do think a smart panel that sees uh the energy going through every circuit breaker that you
+Amber Fu: right.
+Harry Jackson: have, I really do think that's a good idea. I think that's a um um a good compromise between something that's not too expensive but still is at a place that gives
+Amber Fu: Uh
+Harry Jackson: you enough information that you can make a smart choice about your energy usage. Um so yes, hardware is necessary and then just enough software to keep your hardware working.
+Amber Fu: Got you.
+Harry Jackson: Yeah.
+Amber Fu: Got you. Well, Harry, this is being super helpful. I really appreciate you know how particular your perspective especially around the testing safety like a load management and would actually make adoption hard.
+ 
+ 
+01:01:24
+ 
+Amber Fu: So before we end like one last question is based on your experience is there anything I didn't ask that I probably should have or anything people new to this space you really
+Harry Jackson: Um I uh Well,
+Amber Fu: miss
+Harry Jackson: I I would like to ask you if you're able to tell me um like what you guys wish
+Amber Fu: Yeah.
+Harry Jackson: to change or like I guess what what market do you want to take advantage of with your your app? You just have an app right now, right? But uh what is this what does it hope to do or like what's the mission goal? What's the how does it want to change the world? And then I can tell you what I think you need to know
+Amber Fu: Okay. Sure. Yeah, totally. So we're still early.
+Harry Jackson: about.
+Amber Fu: So I don't want to overstate it. Uh so the market we're interested is home owner who are starting to have more you know uh complicated energy decision like solars, EV, battery, time of use, rate outage things like that.
+ 
+ 
+01:02:34
+ 
+Amber Fu: So right now we're starting more on the soft software app side. The problem we see is that a lot of home owner don't really understand what's uh driving their bill. So when they should shift usage or what decision actually matter. So we're trying to make that simple like almost like a layer that help them understand and manage their home energy without needing to become a uh energy expert. So long term we're trying to figure out like whether there there's a lighter hardware layer that makes sense not necessarily is a full panel but something that give enough real data and maybe some control over the important load but honestly what exactly uh that's what exactly why this conversation like this are really useful for us. We're trying to learn what is actually you know we can do before we build too much.
+Harry Jackson: Okay,
+Amber Fu: Yes.
+Harry Jackson: I see.
+Amber Fu: So yeah.
+Harry Jackson: Yeah.
+Amber Fu: So based on that does that direction sounds reasonable to you or is there anything about that approach that feel navy for from a engineering point of view?
+ 
+ 
+01:03:55
+ 
+Harry Jackson: Um, no, I mean, um, I think there is a, um, there is a there's a gap where no one has really made a name for themselves.
+Amber Fu: Mhm.
+Harry Jackson: elves. There's not like there's not like a Ring camera of um energy monitoring
+Amber Fu: Mhm.
+Harry Jackson: yet. There's lots of things that like you can do which there's lots of things you can buy which let you
+Amber Fu: Mhm.
+Harry Jackson: monitor something, but there's nothing that's really made itself a name as like the best thing yet.
+Amber Fu: Mhm.
+Harry Jackson: Yeah. Like not even my company. Um and that's okay. I more power to whoever actually figures it out and finds like what people care about the most and then gives it to them and then become successful because of it. Um I um I think that my company is decent has a decent shot at it because they are not only considering the like the homeowner perspective of it.
+Amber Fu: I
+Harry Jackson: They're considering like um the if if lots of people have this, right?
+ 
+ 
+01:05:11
+ 
+Amber Fu: am.
+Harry Jackson: That data of everybody's energy habits, who cares the most about that? The utility company. Okay,
+Amber Fu: Mhm.
+Harry Jackson: now let's make the utility company like subsidize this in return for the data that comes out of it.
+Amber Fu: Uh
+Harry Jackson: Uh I thought that was a decent approach. Um but uh even after a couple of years, you know,
+Amber Fu: and
+Harry Jackson: we still haven't cornered any market. We still haven't like, you know, made ourselves the biggest name in America in terms of like energy monitoring devices. So I don't know, maybe they need something else.
+Amber Fu: yes,
+Harry Jackson: That's all I have to say.
+Amber Fu: well that's totally makes sense. So the way I'm hearing is you know for mass adoption the homeowner value alone may not be enough unless the product product is very cheap and easy but but the utility value could make the economics work because they care about the data and the load behavior. So if we start software first before we have our own hardware,
+ 
+ 
+01:06:15
+ 
+Harry Jackson: Yeah.
+Amber Fu: what do you think we should need to prove first? Is that home owner actually care that we can change behavior that we can you know predict load pattern or that utility will value the data?
+Harry Jackson: I think and it's not I mean maybe somebody's already been working on this
+Amber Fu: Mhm.
+Harry Jackson: too, but like I think that if you were able to take like
+Amber Fu: Mhm.
+Harry Jackson: um load patterns um from a from a neighborhood or a city let's say right and if you have something
+Amber Fu: Amen.
+Harry Jackson: which can accurately predict based on like I guess the holidays that are coming up the demographics of the people that live there the um um major events that might be happening in the and you're able to turn that into like a prediction of how much energy this region is going to need and you can deliver that with some kind of
+Amber Fu: Mhm. Mhm.
+Harry Jackson: accuracy. That would be extremely valuable to a utility company who' be a who would
+Amber Fu: Mhm.
+ 
+ 
+01:07:43
+ 
+Harry Jackson: be ready to pay big bucks for something like that. It's like, oh, there's the World Cup games coming up, right? And here is a neighborhood who is predominantly Latino. They're all going to be turning on their like 200 watt smart TVs for this 4hour stretch of time. That's a predictable load.
+Amber Fu: Mhm.
+Harry Jackson: And if you can do something like that across an entire state,
+Amber Fu: Mhm.
+Harry Jackson: that adds up to a great amount of like um of money saved for being able to negotiate the rate that you would call upon a peaker plant to like deliver that kind of power. You see what I'm
+Amber Fu: That's yes that's really interesting.
+Harry Jackson: saying?
+Amber Fu: So from your view the valuable software layer is less about just showing one home owner their bill and more about like turning many home behavior into reliable load for neighborhoods.
+Harry Jackson: Yeah.
+Amber Fu: Right.
+Harry Jackson: Yeah. Absolutely. I mean,
+Amber Fu: Okay.
+Harry Jackson: one homeowner, I'm saving money because I have to pay it.
+ 
+ 
+01:08:50
+ 
+Harry Jackson: I don't care. Like but but uh a a a whole city
+Amber Fu: Mhm.
+Harry Jackson: can the the city can save money by knowing what all of their people need and
+Amber Fu: Mhm.
+Harry Jackson: then you know getting energy at a more efficient rate or like getting a more efficient power plant to deliver that to them. Or even if everybody there has batteries, you know, we can get their batteries filled up at a cheaper rate than the peak rate of like um of of of everybody running their laundry machines at the same time at 8:00 p.m. every day. No.
+Amber Fu: Okay. So, uh Okay. So if we want to prove that what would be the first version look like what we need like uh like real time smart meter data or de uh device level data or better data or like a calendar events or EV ownership like what input would actually matter most?
+Harry Jackson: Um, there is data from smart meters in in California at least. Everyone who has a smart meter has something that they're reporting back.
+ 
+ 
+01:10:07
+ 
+Amber Fu: I'm
+Harry Jackson: It's it happens over a mesh Wi-Fi network. I think I'm sure like it's not publicly available data, but maybe uh PG& would be willing to share it for some price um of like everybody's energy usage just at their like service meter over time.
+Amber Fu: ready. Uh
+Harry Jackson: And you might be able to take that and map it to uh I don't know like take the demographics of a neighborhood, take the um major events that might like cause energy loads. Um, I don't know, like like election night for a presidency. Everybody's going to be looking at their TVs for that. Um, what else do people use energy for? Um, getting ready to go to like um to see the Giants in San Francisco, right?
+Amber Fu: Hey,
+Harry Jackson: Maybe some people start charging up their EVs to make sure that they can make the trip. Maybe some people um turn everything in their house off because they're gonna like, you know,
+Amber Fu: Mhm.
+Harry Jackson: take public transit there and they're not going to like be at home for a while.
+ 
+ 
+01:11:30
+ 
+Harry Jackson: Um there might be some kind of information you could get out of this. I'm just I I just made this idea up right now. It's like I we don't actually do this at span, but I can imagine if there was enough monitoring about like the energy usage of a house,
+Amber Fu: Mhm.
+Harry Jackson: you could map it to data points like this to predict trends of energy usage. Um, so the only starting point I can think of before you make your device, which can collect this data, is the smart meter that's at the service point of every
+Amber Fu: Got you. Got you.
+Harry Jackson: home.
+Amber Fu: That's makes sense. So in the past, do you still see like homeowner facing app being useful or do you think the real product eventually become more of a utility facing
+Harry Jackson: Uh,
+Amber Fu: tool?
+Harry Jackson: I think if we could if we could make if we could succeed as a company with only being a utility facing tool, we would have done it.
+Amber Fu: Mhm.
+Harry Jackson: We have a homeowner experience side of it just because it's like necessary
+ 
+ 
+01:12:38
+ 
+Amber Fu: Mhm.
+Harry Jackson: for both the utility and the homeowner to like buy into to uh to make the price of a device like this worth it uh of a smart panel like ours worth it. You know, it might be uh it if we ever provide enough um usefulness to a utility that they fully subsidize
+Amber Fu: What?
+Harry Jackson: it, that would be like the the best case scenario for a company like ours.
+Amber Fu: Mhm.
+Harry Jackson: Uh for a homeowner side, uh if we were going like homeowner only, maybe something like smart outlets or smart
+Amber Fu: Mhm.
+Harry Jackson: um power supplies for certain devices would be like would make more sense. something a lot smaller, but still providing like some level of information about your energy usage for just the things you care about
+Amber Fu: Got you.
+Harry Jackson: most.
+Amber Fu: Got you. And if utility were were paying for this, what what part do you think they would care about most? Like like peak de demand or like a shifting load or like a red the picker plant usage?
+ 
+ 
+01:14:08
+ 
+Harry Jackson: Yeah, I think a utility would care most about the um um demand prediction of um like across the
+Amber Fu: Okay.
+Harry Jackson: entire state um to be able to call upon
+Amber Fu: Mhm.
+Harry Jackson: on um peaker plants at the right time. That's that's uh just that that's their business, right? Being like negotiating between power plants and the customers that they have to deliver that power
+Amber Fu: Gotcha. Gotcha.
+Harry Jackson: to.
+Amber Fu: And um if we don't have a hardware in the beginning like do you think smart meter data plus the user provided information is enough to build something useful or would we eventually need device level data
+Harry Jackson: Yeah.
+Amber Fu: to make the product uh you know can make this enough.
+Harry Jackson: No, there might there might be something there.
+Amber Fu: Mhm.
+Harry Jackson: Um if you just if you have some like app that just says like you know you give us information about yourself and then we also know your like you know energy usage over time from your smart meter
+Amber Fu: Mhm.
+Harry Jackson: then I mean that that could be over a wide enough net you
+ 
+ 
+01:15:35
+ 
+Amber Fu: Mhm.
+Harry Jackson: know enough information to put together some sort of load prediction. I mean, I don't know. AI can figure out some crazy things these days. I I don't know what it can
+Amber Fu: Yeah. Yeah. Defin definitely. Okay. Got you. Well,
+Harry Jackson: do.
+Amber Fu: Har, this is Thank you so much and I this is was really helpful. I really appreciate you're taking the time and being so open with your perspective and I also want to say I really respect the the fact that you are currently at this van. So I don't want to put you into any awkward position. I'm not asking for anything confidential or anything like that, but I really value your hands-on perspective and especially around the testing, safety and load management. So, and how this market may actually develop. So I as we keep learning and building I love to stay in touch definitely and maybe down the line when we have clearly you know prototype or direction I can share it with you
+ 
+ 
+01:16:37
+ 
+Harry Jackson: Yeah.
+Amber Fu: and
+Harry Jackson: I I don't um I if if you're making something and it's good for the world,
+Amber Fu: uh
+Harry Jackson: like that's good. The world benefits from it, right? I I don't really care.
+Amber Fu: Okay.
+Harry Jackson: I'm not the business owner here. I don't care about having a good competitor or anything. Just do it. I hope you do well.
+Amber Fu: Okay. Okay. Perfect. So once we have that really clear uh prototype or direction,
+Harry Jackson: Yeah.
+Amber Fu: I definitely going to share with you and just get your reaction if you're open that.
+Harry Jackson: Yeah. Yeah, sure. Email me back. You've got it.
+Amber Fu: Sure. Sure. Okay. Thank you again.
+Harry Jackson: Yeah.
+Amber Fu: this is really you know I I think it's really helpful uh conversation and well thank you so much again and please definitely keep in touch.
+Harry Jackson: Yeah. Um I I I hope that everything I said I just thought I was
+ 
+ 
+01:17:28
+ 
+Amber Fu: Yeah thank you.
+Harry Jackson: rambling for a lot of it, but if you if you find value in it, then fantastic.
+Amber Fu: Oh no it's it's definitely like really value because for the utility part we never thought about that that before. Yeah. And especially like the uh the data side. So we definitely going to you know uh figure something out and do some more re research for
+Harry Jackson: Uh yeah. Okay.
+Amber Fu: that.
+Harry Jackson: Well, um yeah, you have my email. Um you can I'll give you my phone number also if that's ever how you guys want to communicate. Uh,
+Amber Fu: Sure.
+Harry Jackson: is your name Amber or is it
+Amber Fu: Sure. Amber.
+Harry Jackson: Scarlet?
+Amber Fu: Amber Scarlet is my uh is our uh Yeah. Uh coworker.
+Harry Jackson: Uhhuh.
+Amber Fu: Yes.
+Harry Jackson: Okay. Well, it's good to meet you, Amber, and uh good luck with everything that you're working
+Amber Fu: Thank you. Thank you,
+Harry Jackson: on.
+Amber Fu: Harry. And keep in touch and have a good night.
+Harry Jackson: All right. Good night.
+Amber Fu: Bye.
+ 
+ 
+Transcription ended after 01:18:43
+
+This editable transcript was computer generated and might contain errors. People can also change the text after it was created.
+

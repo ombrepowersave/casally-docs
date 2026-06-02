@@ -1,0 +1,950 @@
+Mar 2, 2026
+Casally Interviews(Utility Bill&Solar Credit Consulting) (Koos Erasmus) - Transcript
+00:00:00
+ 
+Amber Fu: So uh right now we're building a company called a castle. Our version is vision is like become a financial layer for household energy. Yes.
+Koos Erasmus: Okay.
+Amber Fu: So and today like you know the most homeowner with a solar or battery don't actually understand how their bill is calculated like and you know like how credit are applied or whether they are
+Koos Erasmus: Yes.
+Amber Fu: truly saving the money. So I we think there a gap between like the what the utility calculate and what installer promise or like what homeowner actually see. So we trying to close that gap. Yeah. And um so our goal is more like not just visualize the data
+Koos Erasmus: Okay.
+Amber Fu: is to rec uh recon uh during the logics of how the bill are calculated.
+Koos Erasmus: Okay.
+Amber Fu: Yeah. And also join me today is uh uh our uh technical lead uh Ling and he's responsibility for the architect uh behind our building logics and the data modeling. Yeah.
+Koos Erasmus: Okay.
+Amber Fu: So uh we can make sure that you know we're building this correctly from the both product and system standpoint.
+ 
+ 
+00:01:42
+ 
+Koos Erasmus: Um, that sounds good. Yes. Um, that that sounds very interesting.
+Amber Fu: Okay. And you know before we start uh which state or utility are you most familiar
+Koos Erasmus: PG&E. So,
+Amber Fu: with?
+Koos Erasmus: um I've been a little bit of background. I've been in the solar industry uh from 2010. Um mostly on the CNI side,
+Amber Fu: Uh
+Koos Erasmus: so the commercial side. Um and uh for the first seven eight years um we built uh exclusively built commercial products in California. So um I used to calculate the bills for the solar systems to the
+Amber Fu: Mhm.
+Koos Erasmus: customers. Um and so I'm very familiar with PG&E. Um, but I'm also familiar with um SC and E um L U and then um uh the Los Angeles L A DWP as well as um the the other Southern California utility. Um so um and and there's not a lot of difference between the commercial and the uh residential side of solar. So I think I'll be able to um help you and guide you.
+ 
+ 
+00:03:04
+ 
+Koos Erasmus: Um definitely.
+Amber Fu: That's perfect cuz like uh our first market will be in the California. Yeah, that's good. Okay,
+Koos Erasmus: Yes.
+Amber Fu: so before we uh go deeper uh into technical question, we love to briefly show you our curling demo.
+Koos Erasmus: Yes.
+Amber Fu: So you have contact for what we're building.
+Koos Erasmus: Please. Please.
+Amber Fu: Okay.
+Koos Erasmus: Yes.
+Amber Fu: Thank you. Uh so Linkia will share the screen and uh just uh remind like this is
+Koos Erasmus: Of
+Amber Fu: still like really early stage. Yeah. Okay. Uh give me a
+Koos Erasmus: course.
+Amber Fu: second. Okay, perfect. So, um as you see like right now and this is a like our uh uh the app and uh did you can you see the share screen?
+Koos Erasmus: Okay.
+Amber Fu: Okay, perfect. Okay,
+Koos Erasmus: Yes.
+Amber Fu: so the top section provide you know the environment and the the system contact. So we display like a real time status for the household energy ecosystem and the solar EV battery and a great connection.
+ 
+ 
+00:04:23
+ 
+Amber Fu: So user can you know immediately understand the current uh state of their energy system. Um yeah and also the weather contact is included because energy usage and the
+Koos Erasmus: Okay.
+Amber Fu: solar production are like highly weather uh dependent and uh
+Koos Erasmus: Of course.
+Amber Fu: so uh a question is like if we pulling device status and interal data what field do you consider like must have for credibility. Are
+Koos Erasmus: So the uh just the way I understand the billing is um it will be beneficial for you to get 15minute data. So 15 minute interval data and um the the way the
+Amber Fu: Hey.
+Koos Erasmus: typical utility meter is set up um on these utilities is obviously they program it to be birectional and it records both incoming kilowatt hours as well as outgoing kilowatt
+Amber Fu: Uhhuh.
+Koos Erasmus: hours.
+Amber Fu: Okay.
+Koos Erasmus: So um the from a utility bill perspective you will probably need that data and it's time sensitive of course. So if you in the middle of the day the solar system um is loading uh or or is pushing energy back into the grid those kilowatt hours are built at a different price or credited at a different price than the uh energy that's consumed in the evening obviously during peak hours.
+ 
+ 
+00:06:03
+ 
+Koos Erasmus: Um so um you will need uh the utility data but you will also then need um uh I mean if if there's a battery system you'll need the the um charge and discharge um uh data from the battery as well obviously and and then you will need the the energy production data from the solar
+Amber Fu: Okay.
+Koos Erasmus: system
+Amber Fu: But and which missing field would would make like bill reconstruction impossible.
+Koos Erasmus: the missing field um that would I mean either of those would would make it um impossible to calculate um if you if you don't have um the the utility bill field um it it wouldn't be able to con to do that correctly. Um I'm just Tesla Model S.
+Amber Fu: Okay.
+Koos Erasmus: So Sunun solar panels and Tesla power wall. Okay. Um power supply. Um those those are so are you um taking into account vehicle to grit um as well or um is it just um
+Amber Fu: Uh
+Koos Erasmus: uh uh is it just um the power to charge the e the EV.
+ 
+ 
+00:07:32
+ 
+Amber Fu: so we basically just you know uh let user to connect the their device.
+Koos Erasmus: Okay.
+Amber Fu: Yes. And they will have like the add device and they will Yeah.
+Koos Erasmus: Okay. Okay.
+Amber Fu: Most likely right now is more like the API connection. Yeah.
+Koos Erasmus: Understand?
+Amber Fu: Okay. So yeah, perfect. And we can go back to the home. Okay. And uh the next part will be the monthly bill budget. So this is you know really different from the most energy app. So this is not like a optimization target. You know we're not trying to push you your bill as low as possible. Uh well think like a a tolerance boundary. So it's like user telling the system oh if my bill end up about this number I feel like something went wrong and I want to uh early warning. So uh you know we we don't let users have any random number here on purpose. So we ground the the monthly bill budget into two things.
+ 
+ 
+00:08:39
+ 
+Amber Fu: So one is a user last three months bill and another is a currently rate plan. So we show recommend range uh real uh like a boundary you can choose
+Koos Erasmus: Okay.
+Amber Fu: from.
+Koos Erasmus: I I want to ask you a couple of questions.
+Amber Fu: Uh
+Koos Erasmus: Um uh who is your target
+Amber Fu: sure.
+Koos Erasmus: customer?
+Amber Fu: Uh right now is uh uh the customer either have a EV uh uh like EV charger
+Koos Erasmus: Okay. Okay.
+Amber Fu: and a solar battery in
+Koos Erasmus: Okay. And um why uh so again,
+Amber Fu: California and uh under an EM3
+Koos Erasmus: yeah,
+Amber Fu: Great.
+Koos Erasmus: why would the customer um want to use your
+Amber Fu: Well,
+Koos Erasmus: app?
+Amber Fu: we uh before to build this app, we have a lot of uh like uh uh customer, you know, interview uh all from the most likely 90% from the California and they they're either like a solar uh owner or like power wall or like they have a EV charging different EV in their house.
+ 
+ 
+00:09:58
+ 
+Amber Fu: Well, uh the customer have really big issue.
+Koos Erasmus: Okay.
+Amber Fu: The first will be uh they they need to they don't know like oh like uh this month's bill will be like uh let's say like $200 but next month will be like 350. Uh but they think their behavior is not changing and they try to ask like oh is this my uh like is there anything wrong? They need to call the utility company. They need to call the solar installer.
+Koos Erasmus: Okay.
+Amber Fu: They need to call the Tesla like a
+Koos Erasmus: They don't know.
+Amber Fu: powerwork.
+Koos Erasmus: They can't explain the differences in the bill. So, you trying you're trying to explain,
+Amber Fu: Yes.
+Koos Erasmus: you're trying to help them to understand why is last month's bill different to this month's bill.
+Amber Fu: Yes. Exactly. So uh we uh we try to you know help them like for you know like right now in the market a lot of uh like energy app they are they they they show like really pretty data they show the number but uh they don't they never you know stand like in the financial layer to explain to the customer like
+ 
+ 
+00:11:17
+ 
+Koos Erasmus: I totally understand.
+Amber Fu: why Yes. Yes.
+Koos Erasmus: Yeah,
+Amber Fu: So the corn point uh is isn't like optimization is like
+Koos Erasmus: I don't I I I get it.
+Amber Fu: unsure.
+Koos Erasmus: And um is it your intention to charge for this app eventually or um how I mean where's your revenue generated?
+Amber Fu: Uh okay. So like a our first stage will be uh you know uh just let user try it and to see like oh is it really can save their money you know so if let's say like if they can you know
+Koos Erasmus: Mhm. Mhm.
+Amber Fu: save like $20 per month and we charge like you know uh 20% I think that will be uh fair right yes so like
+Koos Erasmus: Understand?
+Amber Fu: right now is still in the validation mode but uh you know we just try to
+Koos Erasmus: Understand?
+Amber Fu: make sure like the building logic uh and the saving attribution are the defensible. Yeah. And the long long term we see like a two possible direction like the sub subscription model
+ 
+ 
+00:12:24
+ 
+Koos Erasmus: Understand?
+Amber Fu: for the homeowner who want to you know ongoing like uh clarify and bill validation. Yes. And uh and another point is like uh after the app well if really can prove saving some money for the homeowner uh we will uh we will have a hardwell drive. Uh
+Koos Erasmus: Okay. Okay, very interesting.
+Amber Fu: yeah.
+Koos Erasmus: So, um to back to your original question, um I mean critical information here um to have to correctly calculate I would say is obviously um the utility bill information, the power wall information and the the solar information. Um uh yes, it it's helpful. um to know if they have an EV. Um if from the bill from the utility bill you'll you'll notice when they charge you'll probably see the usage when
+Amber Fu: Mhm.
+Koos Erasmus: they charge and um I would say if um obviously it's if they have home charging it's going to benefit them to charge say after midnight at night or after 11 o'clock at right or uh things like that when usage is low.
+ 
+ 
+00:13:59
+ 
+Koos Erasmus: So um I I I see um where you can calculate everything. So um when the customer signs up, do they then give you access how do they give you access to their bill to their utility bill and to the monitoring system for the solar
+Amber Fu: Uh so basically like right now we uh we will uh ask the customer give us their like uh utility account.
+Koos Erasmus: Okay.
+Amber Fu: Yeah.
+Koos Erasmus: Okay. So you you asked for three months BS and and uh and but but you I mean the bowl is a is a monthly summary. You don't get you don't get um daily data or 15 minute data. Correct. Okay.
+Amber Fu: Yeah.
+Koos Erasmus: Um I mean to be able to correctly identify um
+Amber Fu: Uh-huh.
+Koos Erasmus: the most of the residential rates are is time of use rates.
+Amber Fu: Uh-huh.
+Koos Erasmus: So the the rate schedule differs by time of day. So if you just get a monthly summary,
+Amber Fu: Okay.
+Koos Erasmus: you're not going to be able to accurately um uh tell the customer when he's exporting, when he's importing, and at what time of the day.
+ 
+ 
+00:15:38
+ 
+Koos Erasmus: Um is he actually um are there certain times of the day where for instance the battery has run out um early evening and he's still using a lot of power or um the battery is charging at the wrong time in the day things like that. So um you really need um that um higher frequency data in order to accurately analyze everything.
+Amber Fu: Okay.
+Koos Erasmus: And um so on the commercial side when I worked with this um typically what
+Amber Fu: Okay.
+Koos Erasmus: we did with a commercial customers is we asked them to give us access to their PG& account online. And then we could pull data, we could actually pull the 15minute data from their online accounts. Um, yeah. And and um so that's something that um I
+Amber Fu: Okay.
+Koos Erasmus: think I would propose that um they anyway sending you the the physical bill or they emailing the PDF to you.
+Amber Fu: Mhm.
+Koos Erasmus: I would I would um recommend that part of the information that you um require from them in order to do this more accurately is to ask for actual access to the PG& or to the to the utility account
+ 
+ 
+00:17:12
+ 
+Amber Fu: Okay.
+Koos Erasmus: online.
+Amber Fu: Uh so just confirm like uh so if we only have monthly bill summary, we can't uh like reconstruct the TOU cost or import export timing, right?
+Koos Erasmus: Correct.
+Amber Fu: Okay. So Oh,
+Koos Erasmus: Um yes.
+Amber Fu: okay. Please go ahead. Sorry.
+Koos Erasmus: So um again the monitoring system for the battery and for um the solar system you obviously ask access um to that uh system as well. Correct.
+Amber Fu: Mhm. Uh but so in in your view like what the minimum data we must
+Koos Erasmus: Um,
+Amber Fu: have to make like TOU and solar credit calculation defensible definitely.
+Koos Erasmus: is to ask for 15 minute data.
+Amber Fu: Okay.
+Koos Erasmus: Correct.
+Amber Fu: Uh, and do we need to both import and export interrog?
+Koos Erasmus: you will need to um so when you get access to the account you will be able to um do a I don't think you have to do ongoing
+Amber Fu: Uh-huh.
+Koos Erasmus: export but I think you you will need to do a a one-time export from that bill for the last two three months data and um import that data into uh your
+ 
+ 
+00:18:37
+ 
+Amber Fu: Got you. But if you had like a rank the data source by importance like uh
+Koos Erasmus: system.
+Amber Fu: e like a utility interval data or utility build PDF or like a solar uh solar data or power wall or EV charging logs like what would the order be?
+Koos Erasmus: What would the order be of importance? Um,
+Amber Fu: Yes. Like what
+Koos Erasmus: that's a that's a good question.
+Amber Fu: the
+Koos Erasmus: I think um the utility data is probably your most important data. Um because uh the utility data um in a way captures your solar and your battery data as well because it shows at the meter what's been exported and what's been imported at at any time of the day. So um if you if you have utility data but you do not have the power wall or the solar data, you will still be able to do a an analysis because you know in
+Amber Fu: Okay. Okay. And
+Koos Erasmus: 15inut intervals at the time of day what's been exported and what's been imported.
+ 
+ 
+00:20:05
+ 
+Amber Fu: got you. But how do homeowner usually grant access to the interval data like a sub green bottom or like share my data or like utilities specific like
+Koos Erasmus: they they they have access to the utility.
+Amber Fu: APIs?
+Koos Erasmus: So they have a an account login.
+Amber Fu: Uhhuh.
+Koos Erasmus: So they will have to share their account login with you and and
+Amber Fu: Okay.
+Koos Erasmus: you go in one time,
+Amber Fu: Uh-huh.
+Koos Erasmus: pull the data, pull the historic data and um for their security reasons then they can
+Amber Fu: Mhm.
+Koos Erasmus: obviously go in afterwards and just change the password um of their account so that you don't get future access.
+Amber Fu: Okay.
+Koos Erasmus: But in order that's that's the most common way we did it
+Amber Fu: Mhm.
+Koos Erasmus: because we we dealt with customers that um didn't have time frankly to to do that but um the customer
+Amber Fu: Mhm.
+Koos Erasmus: can also pull that data. So a homeowner may think about this differently. It's important for the homeowner to know this.
+ 
+ 
+00:21:16
+ 
+Koos Erasmus: Obviously that's why they came to you. So if you ask them uh hey I need the 15minute data for the last 3
+Amber Fu: Mhm.
+Koos Erasmus: months they can log into their account and pull it in an Excel spreadsheet and send the Excel spreadsheet to you as well.
+Amber Fu: Gotcha. Gotcha. And and also like I think you mentioned the battery may be ruining a certain time of a day. So what signal do we need to correctly detect that?
+Koos Erasmus: um for the B to to so if you have access to the battery data um then obviously you can you can pull that so
+Amber Fu: Uhhuh.
+Koos Erasmus: typically um I would uh so um you mentioned Sunrow so uh you will get access to that um typically through the Sunrow monitoring system doesn't that give you access to the battery to the power walls as well to the power wall
+Amber Fu: Okay.
+Koos Erasmus: data.
+Amber Fu: But but if we only have if we only have a utility net load, can we like reliable infer the battery behavior?
+Koos Erasmus: you will not be able to exactly see when the battery is discharging and charging but you will get a good idea.
+ 
+ 
+00:22:45
+ 
+Koos Erasmus: Um, ultimately you need the data from all three sources. But if you only have the utility data,
+Amber Fu: Okay.
+Koos Erasmus: you'll be able to I think you'll be able to do a good assessment.
+Amber Fu: Okay. Got you. Got you. Thank you. And like like when we calculate like the TOU exposure, does like the TOU typically apply to generation only or deliver only or both?
+Koos Erasmus: A utility will give you both directions.
+Amber Fu: Oh.
+Koos Erasmus: So if you get if you get 15inute data it will for every 15minute interval
+Amber Fu: Uhhuh.
+Koos Erasmus: it will tell you the amount of data the amount of kilowatt hours exported and separately the amount of kilowatt hours imported because the the utility for
+Amber Fu: Uhhuh.
+Koos Erasmus: PG& and for the California utilities the meter record both directions and and there's a there's a specific distinction. Some utility meters will count up for import and count down the same counter for export. But the California utility meters is truly birectional.
+Amber Fu: Mhm.
+Koos Erasmus: It will all it have counters in both directions.
+ 
+ 
+00:24:07
+ 
+Koos Erasmus: So it has a consumption counter and it has a usage generation counter.
+Amber Fu: Mhm.
+Koos Erasmus: So it it can it can show you two numbers within a certain time period.
+Amber Fu: Got you.
+Koos Erasmus: It will show you for a 15minute interval. It will show you I imported 10 kilowatt hours and during that period the house may have had a certain time where it didn't use any power and the solar system would have exported uh a certain amount of kilowatt hours during that time interval and it will show you that.
+Amber Fu: Got you. Okay. Thank you so much. This is really super helpful.
+Koos Erasmus: Yes.
+Amber Fu: And like last question is like if we com combine the data from the utility meter, solar monitoring, power wall and the EV charging logs. What are the most common element issues like the time zone or daylight saving or like meter lag or like a building cycle boundary?
+Koos Erasmus: I would say uh most common issues are probably systems that are not properly configured. So a battery will not charge when it's supposed to charge and it will not discharge when it's supposed to discharge.
+ 
+ 
+00:25:31
+ 
+Amber Fu: Okay.
+Koos Erasmus: So I think the biggest if if you have all of those, I would say the most important thing that you need to try and identify as a a
+Amber Fu: Mhm.
+Koos Erasmus: potential trouble spot is a power wall that's not configured properly. So the power wall will charge during times is not supposed to and it will not discharge during peak times. Um, and then I would say the second one is probably customers that
+Amber Fu: Okay.
+Koos Erasmus: they come home after work, they plug in their car and it starts charging
+Amber Fu: Mhm.
+Koos Erasmus: and that's usually during peak time. So they need to um program the the their charger so that it starts charging the car only after midnight or when it's during low peak
+Amber Fu: Okay, gotcha.
+Koos Erasmus: time.
+Amber Fu: Gotcha. Thank you so much. And this is like super helpful for us. And oh, you know what? We can continue to to show you the app and yeah.
+Koos Erasmus: Yeah.
+Amber Fu: So, and okay, so the month of view uh budget like basically you know uh is like this idea is most likely like what turned the app from the dashboard into decision system.
+ 
+ 
+00:26:56
+ 
+Amber Fu: So we look at the same event like you know uh pick our EV charging and ask
+Koos Erasmus: Okay.
+Amber Fu: like oh does this event meaningful threaten the user uh on the bill budget. Yeah. And and and the next part will be the saving saving card. Well, the CIP card is not just a reward uh is more reflect how you recent behavior uh uh with your selected goal. So if your monthly bill budget uh is like a financial tolerance boundary saving shows like how much buffer you currently have.
+Koos Erasmus: That makes total sense and um that is a that is very good and I think very
+Amber Fu: Okay. And like for your like for your point,
+Koos Erasmus: powerful.
+Amber Fu: do you do homeowner usually think in term of saving money or in term of like avoiding bills
+Koos Erasmus: Absolutely.
+Amber Fu: price?
+Koos Erasmus: I think um in my experience savings so savings
+Amber Fu: Oh, sorry. I like Oh,
+Koos Erasmus: I think I think in terms of savings um yes what I'm
+Amber Fu: savings.
+ 
+ 
+00:28:10
+ 
+Amber Fu: Oh, okay.
+Koos Erasmus: I'm just thinking how you create um your your budget. So um that's a very nice highlevel um overview of the system because before they installed their solar and battery their bowl monthly bowl was X then they installed solar and battery and they
+Amber Fu: Mhm.
+Koos Erasmus: know the solar produces this much the battery stores this much and um uh So, so they from that you can calculate the monthly budget
+Amber Fu: Mhm.
+Koos Erasmus: and then um your logic will calculate the savings as well.
+Amber Fu: Mhm.
+Koos Erasmus: So then as their behavior changes during the month for instance the the battery is not charging at the right time or discharging at the right time or their EV is not they not they charging their EV during peak times you can immediately say hey my savings are going down and my budget uh I'm getting close to my monthly budget or going over my monthly budget what can I do so I think No logic there um is exactly what it should
+Amber Fu: Yes. Yes. And exactly.
+ 
+ 
+00:29:35
+ 
+Amber Fu: So,
+Koos Erasmus: be.
+Amber Fu: and you know like below the saving card well there uh there have like uh a section what we call is a execution card. So this is where the system move from uh the awareness to the action. So the execution card is always triggered relative to the user select uh multibu budget the goal. So uh it's answer just one question like what action right now would the most meaningfully reduce risk related to your goal.
+Koos Erasmus: Yes. Yes.
+Amber Fu: Yes.
+Koos Erasmus: Yes. Yes.
+Amber Fu: And like in the this example the execution car show like a power outage warning but it's also could be you know the EV charging due the PE peak or battery charging at a high price period you
+Koos Erasmus: Correct.
+Amber Fu: know.
+Koos Erasmus: Correct.
+Amber Fu: Yeah.
+Koos Erasmus: Correct.
+Amber Fu: And uh so each execution card contain like a contact like what happening uh recommend action like a time window. So and if the user tap view detail like more detail uh yes they will have like more fully even detail page where we explain the reason behind the recommendation.
+ 
+ 
+00:30:50
+ 
+Koos Erasmus: I think that's a very good way to to to make something that that can be complex to make it more understandable to people
+Amber Fu: Uhhuh.
+Koos Erasmus: that are not I mean utility people or utility experts and so on. Yeah, I agree with that logic.
+Amber Fu: Okay. Okay. Perfect. And um so quick question like uh in like real world project do customer prefer uh like automatic optimization or do they prefer like a clear decision promote with explanation?
+Koos Erasmus: I would say um so it's going to be difficult to rectify the system yourself unless it's something like hey you're charging during peak time uh stop charging during peak time they're going to ask you so how do I set my
+Amber Fu: Mhm.
+Koos Erasmus: charger to only start charging at midnight. So,
+Amber Fu: Mhm.
+Koos Erasmus: um if you know the answers to those questions by knowing the type of charger he has installed, I would say um identify his problem and and um recommend a fix. Yeah.
+Amber Fu: Okay.
+Koos Erasmus: If it's with a battery that's charging at the wrong time, it's probably something that he won't be able the homeowner won't be able to do.
+ 
+ 
+00:32:31
+ 
+Koos Erasmus: So, your recommendation will probably have to be contact your installer to reprogram the
+Amber Fu: Got you.
+Koos Erasmus: battery.
+Amber Fu: Got you. And from your perspective like does it make sense to trigger uh execution suggestions re uh rel relative to the financial boundary rather than the pure optimization?
+Koos Erasmus: I would not I would not uh automate it to that um effect. I think um if you do that you may be opening yourself to liabilities.
+Amber Fu: Mhm.
+Koos Erasmus: I don't know if you've given that thought.
+Amber Fu: Mhm.
+Koos Erasmus: Um uh there may be um there may be some liability issues around that. So I think you have to be careful to automatically make updates to their systems to improve efficiencies.
+Amber Fu: Mhm.
+Koos Erasmus: um if if they sign up for that or if they don't specifically agree to that and your
+Amber Fu: Mhm.
+Koos Erasmus: updates um doesn't have the uh desired effects what you have to think about your liabilities there.
+Amber Fu: Got you. Gotcha.
+Koos Erasmus: So um it it may result in them being unhappy with
+ 
+ 
+00:34:01
+ 
+Amber Fu: Okay.
+Koos Erasmus: you did it without um them approving
+Amber Fu: Mhm.
+Koos Erasmus: it or uh I mean this this is customerf facing so you may get bad reviews um things like that which you don't want so
+Amber Fu: Got
+Koos Erasmus: um I would uh I would not go as far as uh doing
+Amber Fu: you.
+Koos Erasmus: automatic updates to any
+Amber Fu: Got you.
+Koos Erasmus: system.
+Amber Fu: Got you. This this is really helpful. Thank you. And uh okay. And and uh we can go uh then uh the next will be the usage part. So the usage uh just you know uh layer behind like a go and execution. So it's allow user to see like how their uh con uh conception maps to a touh structure and the financial exposure.
+Koos Erasmus: Yes. Yes.
+Amber Fu: So uh so when mapping interval data uh data to the TOU are there tier threshold or the season baseline that we must apply before the calculating exposure.
+Koos Erasmus: Uh there will be so uh all the California utilities have um winter and summer rates and they are usually different.
+ 
+ 
+00:35:23
+ 
+Amber Fu: Uhhuh. Okay.
+Koos Erasmus: So um you will have to apply seasonal adjusting um to utility bills and um I I have a way of um pulling the latest data on regular interviews. So typically uh specifically PG&E update
+Amber Fu: Mhm.
+Koos Erasmus: their rate plans every two
+Amber Fu: Mhm.
+Koos Erasmus: to six months.
+Amber Fu: Okay.
+Koos Erasmus: And it's and it's very small changes usually, but um those changes do affect the bills sometimes,
+Amber Fu: Mhm.
+Koos Erasmus: especially lately over the last four or five years. Um the util the utility prices have gone up quite a bit.
+Amber Fu: Mhm.
+Koos Erasmus: um and also with um the net energy metering um plans that have been put in place. Um you remember initially it was NEM one and then N2 and the latest net energy metering plan is NEM 3 where the credits for solar generation is much less than in the previous um agreements. So, um that's why it's beneficial to have batteries in because you want to minimize um solar energy being pushed back to the grid because they they get avoided cost rates with NEM3.
+ 
+ 
+00:36:59
+ 
+Koos Erasmus: Um they don't get full commercial credits anymore.
+Amber Fu: Gotcha. Gotcha.
+Koos Erasmus: Yeah.
+Amber Fu: And it's but do daylight saving shift or holiday override uh material affect the TU mapping in the real building
+Koos Erasmus: It does. Uh, daylight savings will will have an effect.
+Amber Fu: engine.
+Koos Erasmus: Yes. Because um of So the peak times stay the same. It's um I think 4 to 10 p.m. or 4 to 11 p.m. But if you don't apply daylight savings,
+Amber Fu: Mhm.
+Koos Erasmus: um you're going to be off by an hour. So you have to apply daylight savings to the
+Amber Fu: Got you. Gotcha. Got you. Okay. Okay.
+Koos Erasmus: billings.
+Amber Fu: Thank you. And and we can move to the next the event page. So uh so this is like a section is a like the we we call like in intelligence layer. So the the homepage basically show the financial tracking like event the is a capture meaningful system change that may affect cost uh performance or re reliability.
+ 
+ 
+00:38:13
+ 
+Amber Fu: So it's not just a notification it's a we try to do like a a structured decision moment. So um so my question is like in your experience uh like for the solar so export timing mismatch also qualify as a event worth to surfacing.
+Koos Erasmus: I don't think so because
+Amber Fu: Uhhuh.
+Koos Erasmus: um daylight savings usually s should the uh the utility bill will adjust automatically. So that'll that'll go along with daylight savings. the solar system, especially the battery um charge and discharge times um you'll have to make sure. So, so if the power wall doesn't um adhere to daylight savings, the timing on the power wall, it will be off. So, that could create an event. So where in in the winter the power wall may discharge at the correct times but if the power wall time doesn't adjust with daylight savings obviously in the summer
+Amber Fu: Mhm.
+Koos Erasmus: it will be off by an hour. So that to me constitutes an event.
+Amber Fu: Got you.
+Koos Erasmus: Yes.
+Amber Fu: Okay.
+ 
+ 
+00:39:44
+ 
+Amber Fu: Got you. Got you. And like should every event include an estimated financial data or should some event remain purely re reliability based?
+Koos Erasmus: I would rank events. Um, so you may want to um it's it's going to be difficult to to probably put a rank into an event. Um uh though there may be events for instance EV charging that could be that could kill your budget one month.
+Amber Fu: Um,
+Koos Erasmus: If if they charge during peak times every day that would that would kill their budget and would minimize their savings. So I would probably put some kind of basic ranking system to
+Amber Fu: okay. Okay. Got you.
+Koos Erasmus: events.
+Amber Fu: Got you. Okay. Perfect. And uh we can move to the next part the saving part. So the saving part is our most important part. So we as you can see we separate the saving from the bill. So the saving is more like a behavioral impact. The bill is officially utility accounting.
+ 
+ 
+00:41:14
+ 
+Amber Fu: So we don't want to user to confuse the two. So in your view is it important to clearly separate the behavioral saving from uh the building component like a minimum charge?
+Koos Erasmus: Yes. Yes.
+Amber Fu: Okay.
+Koos Erasmus: Yes.
+Amber Fu: Okay.
+Koos Erasmus: I think I I agree with your logic here. Um you have to separate the savings because that demonstrates the
+Amber Fu: Mhm.
+Koos Erasmus: effectiveness of your app.
+Amber Fu: Got you.
+Koos Erasmus: Correct.
+Amber Fu: Yes. Yes.
+Koos Erasmus: Um so I would definitely separate it and um the events um your savings follow the events. So there's clear hey you do these events you correct these events and your saving um over time will increase.
+Amber Fu: Mhm.
+Koos Erasmus: So um I that's very good logic.
+Amber Fu: Okay. Okay. And we can go back to the saving and uh so you can see like the top is a like they have a number uh 5 55.8 dollars. So this is that kind of accumulate avo based on the event level adjustment.
+ 
+ 
+00:42:27
+ 
+Amber Fu: So if we calculate saving based on the counteract factoral mo modeling, what baseline would you consider defensible or like a same month last year or better or uh like and what kind of like
+Koos Erasmus: So um h how do you this? So when I I I want to answer that question, but I want to um understand savings a little better. This the savings you talk here about is that the
+Amber Fu: Okay.
+Koos Erasmus: savings that was introduced by your system potentially or is that the savings? How do you distinguish between savings before your app and savings after your app? Does that make sense?
+Amber Fu: Uh yes. Yes. So we uh so okay let me clarify what what we mean by saving. So in our model the saving does not mean bill is lower than last
+Koos Erasmus: Yes.
+Amber Fu: month. is means avoid cost relative to the def defined uh counterfactual uh things. So uh the counterfactual is like what would you bill have been under the same uh uh trip during the same billing period if the specific behavior adjustment have not occurred.
+ 
+ 
+00:44:09
+ 
+Koos Erasmus: Okay. Okay.
+Amber Fu: So yeah for for example if
+Koos Erasmus: So, so this saving is the saving specifically through your recommendations.
+Amber Fu: Yes. So for example like if if EV was charging during the peak hour right and the
+Koos Erasmus: Understood.
+Amber Fu: user uh stop stop it and move into the uh off peak the saving is calculated as like uh peak rate uh m minimus off peak rate uh time to kilowatt shift
+Koos Erasmus: Yeah. Yeah. So, um what what's defensible? Um it's going to depend on the customer. Um, if you have somebody uh in
+Amber Fu: Okay.
+Koos Erasmus: an apartment complex, I mean, so I I don't know if necessarily. So, so your target customer is not somebody in an apartment complex.
+Amber Fu: Yes, it's a single house.
+Koos Erasmus: your target customer is a home owner is a home owner in California
+Amber Fu: Yeah.
+Koos Erasmus: that lives in a house that has um this I mean their
+Amber Fu: Mhm.
+Koos Erasmus: bill could be um would have been $500 $600 before they installed solar and or $1,000 before they installed solar and the battery.
+ 
+ 
+00:45:42
+ 
+Koos Erasmus: Now their bill is still two or 300 and they want to see uh but but the installer told them hey your bill would be 50 or
+Amber Fu: Mhm.
+Koos Erasmus: 100. So I would say anything uh any saving
+Amber Fu: Mhm.
+Koos Erasmus: probably above $50 would be something that's defensible in my
+Amber Fu: Okay.
+Koos Erasmus: mind.
+Amber Fu: Okay.
+Koos Erasmus: Um it's it's it's difficult to say. Um I it it it's difficult to say but um some customers I mean just don't care about the 100 or 200. They did it uh they installed solar because somebody convinced them to and they don't have a problem with money and you you're going to find a lot of those people.
+Amber Fu: Mhm.
+Koos Erasmus: Um, it's probably not your ideal customer, but your family with young children that lives on or that's a little bit more sensitive towards their budget um will probably be looking at your option and would appreciate any savings. Um but uh if if a if the savings go above $50 or even $100, um they would be willing to pay you or to share uh some percentage of that savings with
+ 
+ 
+00:47:10
+ 
+Amber Fu: Gotcha.
+Koos Erasmus: you.
+Amber Fu: Gotcha. And uh and and we can um move to the next uh uh the the event this month. So this is more like uh is a uh attribute saving by system category. So uh we we separate like you know uh like each category. So it's more like a saving explanation. So uh should we separate generation side saving and the deliver side saving or is blended attribution accept both?
+Koos Erasmus: generation. Um,
+Amber Fu: Oh, we can. It's okay. We
+Koos Erasmus: it's a it's a very good question. Um, I I don't I I I'll have
+Amber Fu: can
+Koos Erasmus: to think about that a little bit more. Uh so um I don't think they going to care too much about uh that breakdown. Um they just going to be happy that you found savings and you found issues.
+Amber Fu: help.
+Koos Erasmus: Um uh so I would say that's nice to have but but probably not
+Amber Fu: Mhm.
+Koos Erasmus: essential.
+ 
+ 
+00:48:38
+ 
+Amber Fu: Okay. Okay. Got you. And you know what? We I can click on the like see like EV charging and uh the there have a detail and I click any any part uh to they will lead to the call the bottom sheet. So this is where we uh the calculation logic and like you you can say like energy charge like peak rate out peak rate uh different formula uh estimate delta. So uh for this uh would you consider this level transparency uh suffection for an explanation saving claim?
+Koos Erasmus: I I I do think so. um because it it puts something in their mind that hey um when I get home, don't plug the car in because it costs me money. Um leave it until I go to bed. Um so, um yeah. Yeah, I would I would um I I would think that's good information to have.
+Amber Fu: Okay. Okay. Got you. And uh we can go back to the bill part. Uh so the bill uh you know here is we mirror the official bill uh structure base s service charge deliver adjustment uh special funds.
+ 
+ 
+00:50:15
+ 
+Amber Fu: We want to like every dollar be explanation but for your experience what are the most commonly misunderstood uh component in the residential bills.
+Koos Erasmus: Um, I I would I don't think it's that important for them to know that type of detail. Um uh so again it's a mindset and um I don't live in California so I don't necessarily have that mindset um and how sensitive people there would be because it is to a certain extent
+Amber Fu: Mhm.
+Koos Erasmus: um political as well um uh um
+Amber Fu: Mhm.
+Koos Erasmus: and and and some people do honestly care about the planet and saving the planet and believe that this they contribute here to
+Amber Fu: Yeah.
+Koos Erasmus: that. Um, but some people don't. So, um, I I I I would I it's good to to show that. Again,
+Amber Fu: Mhm.
+Koos Erasmus: I would think it's probably not essential.
+Amber Fu: Got you. Got you. Got you. and and also like a true up uh cuz I don't I don't have solar so I never have a true bill but uh but when I ask like a lot of like the my friend or like some uh solar owner they always receive the true up and they kind of like surprise the bill.
+ 
+ 
+00:52:04
+ 
+Amber Fu: So for the uh so this part is like a kind of like you know for solar uh solar households monthly tracking is not enough. So true up recon uh solution uh determine determine the real annual uh outcome. So, but should we model like the true up monthly projection
+Koos Erasmus: Great.
+Amber Fu: or wait for annual settlement data?
+Koos Erasmus: You have that information anyway. So if you get 15minute data um you get so um
+Amber Fu: Uh-huh.
+Koos Erasmus: I think it would probably be good to have that increasing monthly true up calculator um uh so that they can see hey um this this is um adding up um and dur during my annual true up I will get this much um if I obviously if they overproduce so if they export more than they
+Amber Fu: Mhm.
+Koos Erasmus: import if they don't export more than they import obviously the they the true up will be zero um so uh if for customers that do export more than they import I think it's it would be very good information to show that how that month Every month the true up amount
+ 
+ 
+00:53:40
+ 
+Amber Fu: Okay. Gotcha. Got you.
+Koos Erasmus: increases.
+Amber Fu: Okay. And um and also uh let me see uh what the next. So the next will be the uh click on view more. Okay. Okay. This this is another part we think is like really important. Um so this uh feature is compare uh the export credit versus uh build export credit. So if there a mismatch we we surface it and I I know this is
+Koos Erasmus: Okay.
+Amber Fu: cuz I don't know like do you think this is makes sense? This
+Koos Erasmus: uh you obviously need to make sure that you have the correct and up to-date billing data. So, um, in order to make this accurate,
+Amber Fu: Uh
+Koos Erasmus: um, it I think it's going to take quite a bit of work on your time on your side. Um, you will need to make sure you will have to go to the utility sites every month and download the latest um,
+Amber Fu: Mhm.
+Koos Erasmus: updates to the rate schedules.
+ 
+ 
+00:55:09
+ 
+Amber Fu: Okay.
+Koos Erasmus: So they those those rate schedules are posted on on on the on the utility websites and it's um usually available as an Excel
+Amber Fu: Mhm.
+Koos Erasmus: spreadsheet. So um but like I said uh in some
+Amber Fu: Mhm.
+Koos Erasmus: instances those rate schedules get updated every two months. Sometimes it takes six months or more but it can take two months.
+Amber Fu: Uh
+Koos Erasmus: So, you're going to have to to make this correct, you're going to have to go to each of the utilities every month and download the latest rate schedule and make sure that you have the correct rate schedule applied to the customer. Um,
+Amber Fu: Mhm.
+Koos Erasmus: and uh then you can calculate this. Um but uh again you have to have 15minute data to accurately calculate this as
+Amber Fu: Okay. Got you. Got you.
+Koos Erasmus: well.
+Amber Fu: Yeah. So, cuz like uh when we try to uh do this part because you know we talk to feel like homeowner and they they receive the bill that feel like incorrect.
+ 
+ 
+00:56:23
+ 
+Koos Erasmus: Mhm.
+Amber Fu: They I I we we talk a lot of uh the the customer they you know they they called the utility and the utility said it's cracked and they called the installer the installer said oh that's a utility issues and they called the battery uh you know the power or like any company they said oh our system is working fine so the homeowner is kind of left without a clarity so that's why we you the bill proof is is a is a bridge that the gap. So, uh but we just don't know like if the customer
+Koos Erasmus: So, so um you so
+Amber Fu: Yeah.
+Koos Erasmus: the the homeowner that use your system
+Amber Fu: Uh-huh. Uh-huh.
+Koos Erasmus: is going to show the utility your system as
+Amber Fu: Yes.
+Koos Erasmus: proof that their system is incorrect.
+Amber Fu: Uh-huh.
+Koos Erasmus: That's not going to go down well for the homeowner. So,
+Amber Fu: Alone.
+Koos Erasmus: um again, um I do not know of any instances in probably I don't know, a thousand utility bills I've looked at over the years where the utility was
+ 
+ 
+00:57:53
+ 
+Amber Fu: Uh-huh.
+Koos Erasmus: wrong.
+Amber Fu: Okay.
+Koos Erasmus: It's usually um uh it's usually uh the solar system installer or the battery that's uh configured wrong. Yeah,
+Amber Fu: Okay.
+Koos Erasmus: it's very very very seldom that the utility um has if once they apply a rate schedule to your bill, their systems um it it will be very difficult to dispute their
+Amber Fu: Mhm.
+Koos Erasmus: systems.
+Amber Fu: Okay. Okay. Got you. And um so or well that's make a sense that's make sense I I agree. So uh we we we don't want to you know position this as like a utility is wrong as more like uh it's help just help homeowner
+Koos Erasmus: Okay.
+Amber Fu: understanding whether the building outcome is consistent with the system behavior.
+Koos Erasmus: Yeah.
+Amber Fu: Yeah.
+Koos Erasmus: Yeah.
+Amber Fu: And in your experience, when homeowner believes something is wrong with the bill, it is usually misunderstanding of a rate uh structure or like a
+Koos Erasmus: You usually it's that usually if um if the uh if it's different to what the homeowner expects, it's because they misunderstood their um rate schedule.
+ 
+ 
+00:59:35
+ 
+Amber Fu: Okay, got
+Koos Erasmus: So, so this could help them understand their race schedule better.
+Amber Fu: you.
+Koos Erasmus: So, yes, that that part it could be helpful. I agree.
+Amber Fu: Okay, got you. But but in your experience like when customer suspected a billing issues what percentage of the time is is act is it actually like a misunderstanding of export uh composition or like misconfigured battery
+Koos Erasmus: Yeah,
+Amber Fu: or
+Koos Erasmus: it's very seldom the utility. I uh again I've I've looked at a lot of bills and um I the utility doing something wrong. Uh that's that's.1% of the time.
+Amber Fu: Okay. Gotcha. Gotcha. And if utility are uh are like are most always cracks in the calculation, would it still be valuable to show homeowner the logic path that lead to the
+Koos Erasmus: I think so.
+Amber Fu: sale?
+Koos Erasmus: I think so. Yeah.
+Amber Fu: Okay.
+Koos Erasmus: I think um at at the worst case the it will make the homeowner understand um where he the homeowner itself made a mistake in the calculation or in what they expected it to
+ 
+ 
+01:01:07
+ 
+Amber Fu: Gotcha.
+Koos Erasmus: be.
+Amber Fu: Gotcha. Okay. Perfect. Thank you so much. And also um I have a few more question for you. Okay. So uh uh when you after you seen this app uh what's your what's your thoughts
+Koos Erasmus: I I so I like the app.
+Amber Fu: like?
+Koos Erasmus: It's a good app. Um, I would love to find out how you're going to market this and how big you think your target
+Amber Fu: Uhhuh.
+Koos Erasmus: market is. And uh you're going to have to um with the typical American I mean there's information overload, social media information overload. How are you going to get this in front of effectively in front of a homeowner?
+Amber Fu: I'm
+Koos Erasmus: um and how you going to convince a homeowner to pay or to share in their um savings with you. So to me that is the unknown part. I'm not saying you cannot do it but um I think if you can effectively um address that um I I think this is a very
+ 
+ 
+01:02:32
+ 
+Amber Fu: Mhm.
+Koos Erasmus: good app.
+Amber Fu: Gotcha. Gotcha. So you know we are not like a targeting all homeowner like our focus is very specific like household vh holder plus list that one additional uh battery or EV uh and the market like first market will be in the California and that's a m much smaller you know the market and a much higher value one So uh our go to market market uh strategy is not like a not a mass marketing. We're starting with a high uh energy com community like a solar owner uh forms like EV com uh you know the EV owners and the Tesla owner group or like a local solar installer partnership. So uh we we're not like try to sell optimization. We're position this as like a do you understand your bill. So I think that is alone uh really strongly in California and uh we we agree there there is a information overload that exactly why we focus on the clarity not more data.
+Koos Erasmus: Okay. I I I think that's a good idea.
+ 
+ 
+01:04:04
+ 
+Amber Fu: Yeah.
+Koos Erasmus: Um uh it sounds like you've done some uh research into this and and um uh so you know the size of your target market. Sounds like you know the size of your target market. I don't know how many home owners with solar and battery.
+Amber Fu: Yeah.
+Koos Erasmus: Is it a million houses? Is it a few million? I don't know how many there are in California. Um, so I I do think it's a significant target market. Um,
+Amber Fu: Uhhuh.
+Koos Erasmus: if you I I don't know what you predicting if you will hit 10, 20, 30 or one or 5% of the addressable market. Um, so, um, uh, I I think you you may want to think about, um, EVs. So, uh, I'm I'm in the EV business at the moment. Um, I'm I'm part of a business that charge EVs.
+Amber Fu: What
+Koos Erasmus: Um, but we we do mobile charging of EVs,
+Amber Fu: happened?
+Koos Erasmus: but we're not we're addressing the consumer market. We we addressing a business market.
+ 
+ 
+01:05:22
+ 
+Koos Erasmus: Um, so um I some people don't know when you get home and you plug in your EV um it's the wrong time to charge. Some people just don't know that. So, um if you can through your app, um teach or educate the home owners,
+Amber Fu: Mhm.
+Koos Erasmus: um I think um that would already be huge.
+Amber Fu: Got you. Got you. And um and also uh I have a question. So like should a product like this app like Cassie include a
+Koos Erasmus: Should
+Amber Fu: solar loan payment or like a PPA uh obligation inside the household energy ledger?
+Koos Erasmus: it include uh no um will you have benefit if they willing to share that information with you? I think so. I think there will be I will I think there will be benefit in that because
+Amber Fu: Okay.
+Koos Erasmus: ultimately if the the solar system monthly payment in um then the home owner will see
+Amber Fu: Uh-huh.
+Koos Erasmus: hey do I really save money or not?
+Amber Fu: Mhm.
+Koos Erasmus: Um or do I at one at what stage do I start saving money?
+ 
+ 
+01:06:59
+ 
+Koos Erasmus: Do I have to make payments for five years or for three years or for how long do I have to make payments before I really start saving money? So I I I think there will be benefit if you add that. But then again, you have to gather all that data. When did they start paying? Um how long are they paying? Um and so it gets a bit bit more complex. I mean the the tax benefit for the owners is that calculated into the monthly payments or is it once off tax benefit that the owner got and applied to a specific year's tax benefit. So um uh it that calculation is not straightforward.
+Amber Fu: Mhm. Gotcha. Gotcha. You know like we're trying to understand like whether like financial confusion happen mostly at the utility layer or the uh contract and financial financial layer. So uh so like what percentage of your pro project are like cash with loan or like PPA or lease?
+Koos Erasmus: Uh, are you asking
+Amber Fu: Oh, no.
+ 
+ 
+01:08:17
+ 
+Koos Erasmus: me?
+Amber Fu: The like the soul. Yeah. And the the the Yes, the
+Koos Erasmus: I I don't know.
+Amber Fu: solar.
+Koos Erasmus: So, uh, I was involved on the commercial side and those were all um,
+Amber Fu: Okay.
+Koos Erasmus: financed.
+Amber Fu: Uhhuh.
+Koos Erasmus: Um I I know on the residential side um uh when it's a lease obviously um to the homeowner it's pretty straightforward because the tax benefits is
+Amber Fu: Mhm.
+Koos Erasmus: usually worked into and either goes to the the system owner and not not the person that's paying the lease.
+Amber Fu: Mhm.
+Koos Erasmus: So um that's another level of complexity that you probably will have to deal with that if you want to calculate those in you will
+Amber Fu: Okay.
+Koos Erasmus: have to find out is it a lease is it um financed through a bank um who owns the system things like that.
+Amber Fu: Mhm.
+Koos Erasmus: Um so um it it can get a little bit complex um uh if you want to go down that road. Uh and and again you need to be careful about um user fatigue.
+ 
+ 
+01:09:36
+ 
+Amber Fu: Mhm.
+Koos Erasmus: So are you asking too much information from the user and they just going to give up halfway through the process? I think you want to minimize the user input um in the beginning um when when you introduce your app to the user.
+Amber Fu: Mhm.
+Koos Erasmus: Um get try and get as minimal as possible information from the customer to produce the results as quickly as
+Amber Fu: God,
+Koos Erasmus: possible. But if you ask how much is it the lease,
+Amber Fu: She
+Koos Erasmus: is it financed, how much do they pay per month, um it it could um it could get confusing. Um and may maybe some of the home owners don't know.
+Amber Fu: Gotcha. Gotcha. Thank you. And do you familiar with like a sign to the PTO from the contract?
+Koos Erasmus: I I so the permission to operate. Yeah, I I am familiar with all those
+Amber Fu: Okay. And like from the contract sign to the PTO,
+Koos Erasmus: steps.
+Amber Fu: where do delay most comments uh acro?
+ 
+ 
+01:10:49
+ 
+Koos Erasmus: the mostly the delays um I would say um it's probably the utility side. Um do they have to do inspections? Um I mean it's there's a lot of paperwork involved. So the the contractors need to process
+Amber Fu: Mhm.
+Koos Erasmus: paperwork quickly and get get the paperwork to the utility to
+Amber Fu: Mhm.
+Koos Erasmus: provide the permission to operate later. Um so um it's probably a combination of contractors and um the utility. Sometimes they probably waiting on the utility to just approve everything. Um come and reprogram the meter and um that may
+Amber Fu: Mhm.
+Koos Erasmus: take that may may take some time to
+Amber Fu: Got you.
+Koos Erasmus: do.
+Amber Fu: And but and also like I uh like during like the interconnection or like matter replacement do customer often see confu confusing billing cycles.
+Koos Erasmus: I don't think so. Um, they will the utility will usually let them know. So, if the customer reads the the utility bill,
+Amber Fu: Amen.
+Koos Erasmus: they should see that. Um, and usually people that install these systems care enough to take notice of that.
+ 
+ 
+01:12:29
+ 
+Koos Erasmus: Um, so,
+Amber Fu: Mhm.
+Koos Erasmus: uh, I don't think
+Amber Fu: Gotcha. Gotcha.
+Koos Erasmus: so.
+Amber Fu: And also in your opinion like if a homeowner could change only one behavior to uh to maxim's value like what would be
+Koos Erasmus: I would probably say EV charging habits. I would I would that's probably the largest one.
+Amber Fu: okay got you got you got
+Koos Erasmus: Yeah.
+Amber Fu: you okay and um okay so for right now I think my part is uh is done and I I think this is a uh I so our technique uh ling may have some question.
+Koos Erasmus: Okay.
+lingjie jin: Hello. Hello.
+Koos Erasmus: Hi,
+Amber Fu: Yeah.
+lingjie jin: Hey. Hello. Hello. Course.
+Koos Erasmus: LJ.
+lingjie jin: Uh I now I have to confirm some things. Uh so first of all is uh uh the data source. you know our our app uh uh all all functions based on the uh based on the utility data source. So uh uh I want to confirm uh uh can we get a pull out uh con customer uh data data form from uh using using third uh third uh data provider uh some like utility API or another Fine.
+ 
+ 
+01:14:15
+ 
+Koos Erasmus: you're asking uh if the utility have APIs that you can uh pull uh bills. Um I'm not aware of any. Certainly at the time I dealt with utilities in California, I was I I was not aware of any API. Typically what we did was um the account holder have to give their username and password and obviously the the um account number, the utility account number. And um then we would pull the data in a manual way by logging in and pulling the data. But um if if you want I can look into it and try to determine if there are APIs but um the I I have not directly dealt with them over the last uh two years but uh prior to that I was not aware of any APIs but I I can as a followup just spend like uh 10 15 minutes looking into and see if there are APIs available.
+lingjie jin: Okay, thank you. And uh uh you know uh in California uh there'll be a green button uh yeah there be a green button uh so everyone can use green button con connect uh protocol uh to all uh some like PG or SDG uh uh data source.
+ 
+ 
+01:16:04
+ 
+lingjie jin: So uh so uh so can we uh based on uh uh this uh uh uh offic uh this uh uh green button uh protocol to build our uh sale for uh interface to pull all uh to pull the data form.
+Koos Erasmus: So, I'm not sure I follow you, Ling. Um, Amber, if you want to explain to me maybe a little more detail.
+Amber Fu: Uh, sure. Uh, give me a second cuz I I kind of lost. Sorry. Uh, so uh,
+Koos Erasmus: He he was mentioning uh it sounds like a protocol or an interface. Um I I'm not sure I understood
+Amber Fu: okay.
+Koos Erasmus: that.
+Amber Fu: So, let me see. Okay, I think it's a uh direct integration with a green body. So it uh well okay so Lindy tried to ask is if if it's a fable for us to uh develop our own direct data interface with you utility using the green button uh connected uh pro protoggle.
+Koos Erasmus: is it green button green button
+Amber Fu: Yes.
+ 
+ 
+01:17:40
+ 
+Amber Fu: Brain button connect the GBC.
+Koos Erasmus: connect I'm not aware of that but um let me I'm making a note um and I can look into that. Um, it it sounds like there is something uh that that Lenji uh found. So, let me look into that. And if if you how can I communicate with you? Um, you have an email that you can maybe share with me through through Upwork and
+Amber Fu: Yes. Yes.
+Koos Erasmus: then um we can communicate via email.
+Amber Fu: Sure. Sure. Definitely. Definitely.
+Koos Erasmus: Okay, let me let me uh let me look into green button connect. Um and um if there are any uh it it sounds like there may be something
+Amber Fu: Are you Mhm.
+Koos Erasmus: um uh obviously there would be that would be a great great um help for you and the app because if you can optim optimize and automate that step um it would um save a lot of manual work on your site.
+Amber Fu: Okay. Gotcha.
+ 
+ 
+01:18:53
+ 
+Amber Fu: Got you. Thank you. I'm really appreciate. Yes. And also uh one more question is like a first uh startup design the gateway
+Koos Erasmus: Okay.
+Amber Fu: device uh uh like Raspberry Pi based what are the mentory uh certification like you know like UL 916 or FCC like how does NEC uh the 32 uh 300
+Koos Erasmus: So, so if you want to um develop a custom device that would interface with what? with a utility meter.
+Amber Fu: Uh we don't know yet because you know right now the app only can control uh things like API.
+Koos Erasmus: Okay. You want to control certain aspects.
+Amber Fu: Yes, we want to connect,
+Koos Erasmus: Good,
+Amber Fu: you know, if we want to do like all home load,
+Koos Erasmus: good question.
+Amber Fu: we need to have the hardware device,
+Koos Erasmus: Yeah. Yeah. Yeah. Yeah. Yeah. Yeah.
+Amber Fu: but we we didn't think about like a like what kind of hard device will be look like like either like a I I don't think will be the smart meter or like something like a sati clamps inside the main panel or I don't
+ 
+ 
+01:20:16
+ 
+Koos Erasmus: It's going to be I I can tell you now it's going to be uh extremely difficult to um connect to anything on the utility side including the utility meter. Um what if if you want to control the power wall or if you want to control um the charge controller part of the inverter to tell the inverter when to send power to the battery or when to pull power from the battery. um th those I mean those systems exist so you can um you will be able to interface build interfaces to those type of systems definitely um even even um chargers uh you be able to
+Amber Fu: Mhm.
+Koos Erasmus: control chargers there's OCP protocol um so if the charger
+Amber Fu: Hat.
+Koos Erasmus: is connected that um uh is OCP compliant. Um you will be able to control the charger. So you'll be able to um tell the charger when to start charging, the EV charger, when to start charging and when to stop charging, things like that. Um and and those things can be integrated in the background in your app.
+ 
+ 
+01:21:43
+ 
+Amber Fu: Mhm.
+Koos Erasmus: Absolutely. um OCP is open charge protocol.
+Amber Fu: Mhm.
+Koos Erasmus: So it's an open protocol. Um the the um control of inverters um most large inverter manufacturers have APIs um that you can interface with and that you will be able to control. Yes. Remotely.
+Amber Fu: Okay, got you. Because um like right now um we are we you know we're not saying like we must build a hardware but we're think long term about like uh structure elimination of a software only model. So there are like a three main reason where the hardware may make may make sense because like you know like first data so if utility interval data become like restrict or like solar and battery API are limit so the software alone may not be enough
+Koos Erasmus: Yeah. So,
+Amber Fu: right.
+Koos Erasmus: so um in order to mimic the utility data,
+Amber Fu: Uhhuh.
+Koos Erasmus: you can you can install a meter right next to the utility meter and it can mimic it can mimic uh the data
+ 
+ 
+01:23:11
+ 
+Amber Fu: Oh, okay.
+Koos Erasmus: you need. So, you don't need the utility I if if If you install that meter, you don't need the utility.
+Amber Fu: Okay. Uh but there and the um let me
+Koos Erasmus: There are there are requirements around those but but it's those are safety
+Amber Fu: see.
+Koos Erasmus: requirements. So as long as you adhere and and if you any any of the shelf um uh utility meter or energy meter um most of them uh adhere to safety requirements. So for you you don't need to build anything. what you want to do here is through APIs and off-the-shelf products uh you can you can
+Amber Fu: Okay.
+Koos Erasmus: accomplish
+Amber Fu: But are there liability concerned if a third party device is, you know, installed near the main panel or meter? Oh,
+Koos Erasmus: no liabilities.
+Amber Fu: really? Oh, okay.
+Koos Erasmus: Um if if your meter is um has the corre correct
+Amber Fu: Uh-huh.
+Koos Erasmus: safety um uh uh um uh protocols or or safety measures um you're fine there.
+ 
+ 
+01:24:46
+ 
+Koos Erasmus: There are there are no additional liabilities.
+Amber Fu: Okay, got you. But but if like OCP and inter uh inverter API
+Koos Erasmus: All
+Amber Fu: remain open and stable, do you believe like a software only is something long-term?
+Koos Erasmus: right.
+Amber Fu: Okay. Okay. Gotcha. Gotcha. And uh if if we install our own meter for data ownership uh it's a legally right per permissible.
+Koos Erasmus: It is. Oh, absolutely it is. Yeah.
+Amber Fu: Okay.
+Koos Erasmus: And and um solar installers do that a lot of time. They install their own meters next to the utility meter um to mimic to mimic their data to basically um duplicate their data and
+Amber Fu: Oh, okay.
+Koos Erasmus: and that is done um to control uh the battery charge and discharge discharge cycles.
+Amber Fu: Got you. Got you. Um, and also like uh would like for for from a homeowner perspective like how willing do you think the customer would be install the additional hardware for the building transparency?
+ 
+ 
+01:26:14
+ 
+Koos Erasmus: Um, no, no problem for the homeowner because they already uh probably have um certain things certain of those components installed because they installed the solar. Um, so it wouldn't be a problem for them.
+Amber Fu: Mhm.
+Koos Erasmus: It's uh it it's just how are you going to are are you going to charge them to install that meter and how much would they pay? I I would say your biggest barrier there would be price and not the willingness of the
+Amber Fu: Gotcha.
+Koos Erasmus: customer.
+Amber Fu: Gotcha. But like roughly speaking like what would be the installed cost of something like this like including the hard hardware and the labors? Do do I need to do I need labor to do that or the customer can do them by theirel?
+Koos Erasmus: No, you'll you'll have to get somebody to install it. Um, this is this is um working with electricity. So, your average home owner, there would be a small percentage of home owners that would probably do that, but your average home owner would not want to open their electrical panel and install a
+ 
+ 
+01:27:33
+ 
+Amber Fu: Okay.
+Koos Erasmus: meter.
+Amber Fu: Got you. Got you. Okay. Well, that's really really helpful. Thank you so much.
+Koos Erasmus: Yes, absolutely.
+Amber Fu: Yeah.
+Koos Erasmus: Yeah, that that was very interesting. Um,
+Amber Fu: And
+Koos Erasmus: it it's I I think it's it looks like a very good
+Amber Fu: thank you so much and I really appreciate your time today.
+Koos Erasmus: app.
+Amber Fu: You know, your uh perspective is exactly what we need. and we honestly love to keep working with you as we build this.
+Koos Erasmus: Okay.
+Amber Fu: So, you know, if you're open to it, we like to explore having you involved as a advisors.
+Koos Erasmus: Absolutely.
+Amber Fu: So, yeah,
+Koos Erasmus: Yeah.
+Amber Fu: the structure doesn't have to be fixed. We're uh flexible and we'll be happy to shape it in a way that makes sense for
+Koos Erasmus: Absolutely.
+Amber Fu: you.
+lingjie jin: Thank
+Koos Erasmus: And please um send me your email through Upwork um and then we can start
+Amber Fu: Uhhuh.
+Koos Erasmus: communicating via email. Thank you Amber and thank you Lie.
+lingjie jin: you. Thank you.
+Koos Erasmus: Thank you. Okay.
+ 
+ 
+Transcription ended after 01:28:49
+
+This editable transcript was computer generated and might contain errors. People can also change the text after it was created.

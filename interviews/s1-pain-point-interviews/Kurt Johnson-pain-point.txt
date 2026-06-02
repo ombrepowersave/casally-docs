@@ -1,0 +1,586 @@
+Casally User Interviews (Kurt  Johnson) - Transcript
+00:00:00
+ 
+Amber Fu: Uh, hello. Hi. How are you? How's your day going so far?
+Kurt Johnson: I'm doing fine. How about
+Amber Fu: Good. It's Yeah, it's good. Good. Well, thanks again for,
+Kurt Johnson: you?
+Amber Fu: you know, making time for this. you I I know everyone's busy like especially before the Christmas so um no pressure at all this is super casual and uh let me introduce myself a little bit u my name is Amber and I'm the one of the founder and I start this because you know I couldn't figure out why my own electricity bill were so crazy and I realized a lot of my friends are dealing with the same thing so basically we're just a small team based in LA and you know just a bunch of tech folks who also get hit with a crazy electricity bill. So right now we are trying to building an app that helps people save money on their daily energy use but without changing their lifestyle. So I love to understand like how your home use electricity daytoday so we can just figure out what would actually help.
+ 
+ 
+00:01:54
+ 
+Amber Fu: Okay, perfect.
+Kurt Johnson: Okay.
+Amber Fu: And uh before we start, would you be okay if we I I record this call or it's totally option. I just just help me make sure I I don't miss anything you said, but it's totally option.
+Kurt Johnson: Okay, there's no problem.
+Amber Fu: Okay, thank you. Uh give me a sec.
+Kurt Johnson: Concord.
+Amber Fu: Okay, perfect. So, well, let's start. And before we jump into the energy stuff, I love to get quick sense of your household. Just understand your setup bit better. Uh to uh it's a you know it's just whatever you comfort sharing with nothing personal. Yeah. And um so how many home uh how many people live in your home right now?
+Kurt Johnson: Okay. Right now I think uh we kind of crowded. There are six people living within the same house right now.
+Amber Fu: Mhm.
+Kurt Johnson: Yeah.
+Amber Fu: And h how big how big the house is roughly?
+Kurt Johnson: Okay. So, it is a twobedroom.
+ 
+ 
+00:03:04
+ 
+Amber Fu: Uh-huh. Okay. Okay.
+Kurt Johnson: Yeah.
+Amber Fu: And uh do you mostly work from home or is everyone fly in and out all day?
+Kurt Johnson: Okay. Mostly I work from home because I'm actually a freelancing. So, most of my work is at home.
+Amber Fu: Okay, got it. Got it.
+Kurt Johnson: Yeah.
+Amber Fu: And what kind of schedule do you normally have? Is like pretty constant or all over the place week to
+Kurt Johnson: Yeah,
+Amber Fu: week?
+Kurt Johnson: mostly it is um it is all over the place because I don't have any strict uh strict schedule to follow. So mostly I just do what during that day. Yeah.
+Amber Fu: Mhm.
+Kurt Johnson: Depending on the day. So it is no it is nothing that I can say I have to follow week in week
+Amber Fu: Got it.
+Kurt Johnson: out.
+Amber Fu: Mhm. Got it. And would you say your home is always busy or like more quiet most of days?
+Kurt Johnson: Okay. So busy uh in terms of uh what?
+ 
+ 
+00:04:04
+ 
+Kurt Johnson: Okay. Can you give me context in this case?
+Amber Fu: Got it. Got it. And
+Kurt Johnson: Okay. Like I was asking uh okay in what context do you mean busy?
+Amber Fu: Oh, okay. Well, like you know some people they like during the like they start like cooking and you know uh if they have kids the kids is coming home you know like cooking shower and maybe using the pool you know some people they they think
+Kurt Johnson: Actually,
+Amber Fu: they're busy use like electricity like start to like 5:00 pm something like
+Kurt Johnson: I think I think I can I can say my home is busy based on that because that we're staying there's quite a large number of hours here. Yeah.
+Amber Fu: Okay.
+Kurt Johnson: Because there's a constant activity more going on every time.
+Amber Fu: Okay. Got it.
+Kurt Johnson: Yeah.
+Amber Fu: Got it. Well, but does electricity use change a lot on weekend or is pretty much same?
+Kurt Johnson: Okay. The usage is I can't say it is constant because mostly it is by charging.
+ 
+ 
+00:05:10
+ 
+Amber Fu: Uhhuh.
+Kurt Johnson: So maybe when uh someone wants to go out uh we'll need to charge our EV. Uh depending on the number of times we need to charge.
+Amber Fu: Mhm.
+Kurt Johnson: So that really impacts the quantity of energy used.
+Amber Fu: Got it. Got it. Got it. And well, by the way, I noticed that you got the full setup, the solar, the power wall, and the EV. Okay. Well, that's put you, you know,
+Kurt Johnson: Yeah.
+Amber Fu: in the top like few percent of home we talk to. So, I'm excited to hear how your system behave in your real life. And, uh, do you mind to like tell me like what originally got you
+Kurt Johnson: Heat.
+Amber Fu: into the solar?
+Kurt Johnson: Okay. Actually the original motivation was just to it was just about saving.
+Amber Fu: Okay.
+Kurt Johnson: Yeah. Because of you understand the electric electricity cost here in California. It is quite high.
+Amber Fu: Yes. Yes.
+Kurt Johnson: Yeah.
+ 
+ 
+00:06:12
+ 
+Amber Fu: Yes.
+Kurt Johnson: So we wanted something that we can rely on without an extra check.
+Amber Fu: Uhhuh. Got it. Got it.
+Kurt Johnson: Yeah.
+Amber Fu: And uh like when you first install it, what do you hope your solar will do for your home?
+Kurt Johnson: Okay. What I expected it to do was actually to cut the cost.
+Amber Fu: Mhm.
+Kurt Johnson: Uh which really did fine. Yeah.
+Amber Fu: Mhm.
+Kurt Johnson: That solar is something that you can you mostly rely on it uh during the day when it is raining when when when it is sh. Yeah.
+Amber Fu: Mhm.
+Kurt Johnson: So and uh when when evening comes uh you know we
+Amber Fu: Mhm.
+Kurt Johnson: actually have storage but it is never enough.
+Amber Fu: Mhm.
+Kurt Johnson: So mostly most of our usage we try to keep it within the day uh when
+Amber Fu: Mhm.
+Kurt Johnson: the solar energy is at maximum.
+Amber Fu: Mhm. Got it.
+Kurt Johnson: Yeah. So the expectation was just to save and I think we've saved eight.
+ 
+ 
+00:07:05
+ 
+Amber Fu: Got
+Kurt Johnson: is going to save your
+Amber Fu: it.
+Kurt Johnson: name.
+Amber Fu: And uh do you mind I ask like before you got the solar how much you pay and after got the solar how much you pay?
+Kurt Johnson: Okay. there's no specific I can talk about uh but I think uh okay I think generally I can
+Amber Fu: like
+Kurt Johnson: say okay so that is in
+Amber Fu: around.
+Kurt Johnson: um okay let me try to think of a number in this
+Amber Fu: Okay. So, okay.
+Kurt Johnson: case
+Amber Fu: Yeah. Just I try to, you know, know like how much save you every month.
+Kurt Johnson: Okay, I think talking about uh before before the installation let me try to figure out a number
+Amber Fu: Mhm.
+Kurt Johnson: here uh because I think I can talk
+Amber Fu: It's okay.
+Kurt Johnson: about we were just somewhere between 150 to 200 it wasn't much yeah because before
+Amber Fu: Okay. Okay. And
+Kurt Johnson: then we did not the size of The family was not big.
+ 
+ 
+00:08:24
+ 
+Amber Fu: Uhhuh.
+Kurt Johnson: Yeah. So it was not much
+Amber Fu: But how about after after the solar?
+Kurt Johnson: big.
+Amber Fu: Like are you paying like zero
+Kurt Johnson: No, it's not zero at times. We have to get into the into the grid again.
+Amber Fu: or
+Kurt Johnson: But uh of that I think we can talk I think like twothirds of it is cut. So we talk of a small amount uh something it rarely gets to
+Amber Fu: Okay.
+Kurt Johnson: 100.
+Amber Fu: Okay. Okay. Okay.
+Kurt Johnson: Yeah.
+Amber Fu: And uh and the and the like the power wall, what push you at that like the power wall like
+Kurt Johnson: Yeah.
+Amber Fu: why uh cuz you you you have solar and then you got a power wall, right?
+Kurt Johnson: Yeah.
+Amber Fu: Okay. And what reason like make you decide, oh, I need a power wall?
+Kurt Johnson: Okay. So on that I think you say a power a power wall. No. Okay. Like I don't understand what
+ 
+ 
+00:09:30
+ 
+Amber Fu: Oh, do you do you have a power wall?
+Kurt Johnson: No.
+Amber Fu: Oh, okay. Okay. Okay. Got it. I saw you got the power wall.
+Kurt Johnson: No.
+Amber Fu: Oh, okay. So, you Oh, the solar and the EV, right?
+Kurt Johnson: Yeah.
+Amber Fu: Okay. Got it. Got it. Got it. And uh how long you have the the
+Kurt Johnson: Okay.
+Amber Fu: solar.
+Kurt Johnson: I think I I can say it has been here for like this I think is the fifth year. Yeah.
+Amber Fu: Okay.
+Kurt Johnson: It was installed in 2020.
+Amber Fu: Okay. So you enter the I believe you under the AM2 policy,
+Kurt Johnson: Yeah.
+Amber Fu: right? Okay. That's good. That's good. Got it. Got it. And uh and you're uh you got the EV and your EV also from the is a Tesla brand or is a totally different brand?
+Kurt Johnson: Yeah, it's a Tesla.
+Amber Fu: Oh, okay.
+ 
+ 
+00:10:25
+ 
+Amber Fu: And the solar is a it's not Tesla or it's a it's a
+Kurt Johnson: No,
+Amber Fu: Tesla.
+Kurt Johnson: it is not Tesla.
+Amber Fu: Okay. Got it. Got it. And uh since you know you you you leave this the those system for a while are they doing good or can you think anything you're not super happy
+Kurt Johnson: Okay. The only thing I can say I'm I'm not super happy with is uh maybe just the storage capacity being that
+Amber Fu: with?
+Kurt Johnson: uh uh mostly when we when we don't do most of our activities during the day when the sun is at peak. Yeah.
+Amber Fu: Uhhuh.
+Kurt Johnson: We'll get into the grid a lot more uh later in the evening and at night. So if we can increase the storage capacity,
+Amber Fu: Mhm.
+Kurt Johnson: I think that is the only thing I can recommend now.
+Amber Fu: Okay. Okay. And well,
+Kurt Johnson: Yeah.
+Amber Fu: if you could change one thing about how any of those work today, what would
+ 
+ 
+00:11:25
+ 
+Kurt Johnson: Okay. What I would change actually is u you know I do have an imagination of having like the whole
+Amber Fu: be
+Kurt Johnson: roof being solar with just having a big battery. So being that you understand how it how sunny the area is right now, the how sunny California is. So most of the time I think we can uh have a lot of uh energy from the
+Amber Fu: Mhm.
+Kurt Johnson: sun.
+Amber Fu: Okay.
+Kurt Johnson: Yeah. So I think if we can just have maybe just change having a drop in the prices for
+Amber Fu: Okay.
+Kurt Johnson: the solar panel and uh the storage the battery.
+Amber Fu: Mhm.
+Kurt Johnson: Yeah. just dropping this,
+Amber Fu: Mhm.
+Kurt Johnson: dropping in that and that could not only in California but I think
+Amber Fu: Mhm. Got it.
+Kurt Johnson: nationwide.
+Amber Fu: Got it. Got it. And like which applies do you think is the biggest money eater in your
+Kurt Johnson: Okay.
+Amber Fu: home?
+Kurt Johnson: The biggest money hit in our case is just the air conditioner.
+ 
+ 
+00:12:25
+ 
+Kurt Johnson: I think it is the number of suspect we can talk of.
+Amber Fu: Okay.
+Kurt Johnson: Yeah. the air conditioning system because it mostly it is on especially when the kids are inside they just you know mostly you know when adults are around maybe the adults can figure this is taking a lot of energy and they can turn on they can turn it off but when it comes to kids they just want to feel good they don't have any consideration to make so I think number one consumer
+Amber Fu: Mhm. Mhm. Got it. Good.
+Kurt Johnson: Yeah.
+Amber Fu: And um so uh well let me think like when when it's come to uh electricity what decision do you feel you have to think about the most during normal
+Kurt Johnson: Okay.
+Amber Fu: Okay.
+Kurt Johnson: During the normal day, what I try to do? Okay. I try to I told you I try to complete my activities that require a lot of energy during day.
+Amber Fu: Mhm.
+Kurt Johnson: Yeah. So I try to fix everything within the day especially from from
+ 
+ 
+00:13:26
+ 
+Amber Fu: Okay.
+Kurt Johnson: from around uh 11 to 2 I try to complete everything because I told you I'm a freelancer mostly I'm at home. Yeah. So what I try to think about most is just to complete all the activities that will require a lot of energy. I try to minimize the the the needs for the night just for mostly primarily I want it to be for lighting. So I try to uh use the rest I try to finish the rest during the day.
+Amber Fu: Got it. Got it. Got it.
+Kurt Johnson: Yeah.
+Amber Fu: Well, is there any moment where you think, "Oh, I'm not sure if this is good time to use power."
+Kurt Johnson: Yeah. and the skies are not clear enough,
+Amber Fu: Okay,
+Kurt Johnson: you'll be like, "Okay,
+Amber Fu: got it.
+Kurt Johnson: maybe we want to get the maximum for the night and maybe today we don't need to check the
+Amber Fu: Yes.
+Kurt Johnson: car."
+Amber Fu: Uhhuh. Okay. And and do you think you're sometime use electricity at the wrong time without realizing
+ 
+ 
+00:14:23
+ 
+Kurt Johnson: Yeah.
+Amber Fu: it or or you
+Kurt Johnson: Okay. I don't Okay.
+Amber Fu: always be really be
+Kurt Johnson: As for me,
+Amber Fu: careful.
+Kurt Johnson: I try to be careful. But I told you the household is quite large. So I told you about the kids.
+Amber Fu: Mhm.
+Kurt Johnson: They they'll just do their things. You know, they they don't have any sense of uh the saving in them. They they just want to have their life. So at times we find maybe it is not
+Amber Fu: Mhm.
+Kurt Johnson: like maybe they are heating the house and it is very hot, very warm already.
+Amber Fu: Mhm.
+Kurt Johnson: uh because they they don't even realize it.
+Amber Fu: Mhm.
+Kurt Johnson: So I think at times their energy is used uh when it
+Amber Fu: Mhm. Got it. Got it.
+Kurt Johnson: should.
+Amber Fu: And would it help if a app can told you in real time like oh you know right now is a good time or this is expensive
+Kurt Johnson: Yeah, I think that could be a savior even Yeah.
+ 
+ 
+00:15:25
+ 
+Amber Fu: time.
+Kurt Johnson: for me and maybe even if if it can be used by the kids because I think what they need is a reminder.
+Amber Fu: Mhm.
+Kurt Johnson: Yeah.
+Amber Fu: Got
+Kurt Johnson: So maybe when the battery has when the when the battery has gone below some point.
+Amber Fu: it.
+Kurt Johnson: Yeah. The storage I think if you give them a reminder.
+Amber Fu: Mhm.
+Kurt Johnson: Yeah.
+Amber Fu: Mhm.
+Kurt Johnson: Maybe like your battery is halfway used. Yeah. Maybe you can minimize the activities. I think that can really that can really help.
+Amber Fu: But well, like think about it like if app can said, oh, you could save about like $20 a month. This small change, would that motivate you to adjust your routines a little?
+Kurt Johnson: Yeah, depending on the suggestion what it affects. Yeah, if it is not something that is very useful in my day-to-day activity.
+Amber Fu: Okay.
+Kurt Johnson: But there are some things that can be recommended but they are very okay.
+Amber Fu: Mhm.
+Kurt Johnson: something recommended by the app I guess but uh still there things that
+ 
+ 
+00:16:30
+ 
+Amber Fu: Mhm.
+Kurt Johnson: you see as important for you.
+Amber Fu: Mhm.
+Kurt Johnson: Yeah. So I think that giving a suggestion would be good uh but uh
+Amber Fu: Okay. Mhm.
+Kurt Johnson: making the final decision relies on uh how impactful that is to you. Yeah.
+Amber Fu: Got it. Got it.
+Kurt Johnson: Yeah.
+Amber Fu: Got it. And well, which like which you think feel easier for you? Either like the app can tell you what to do or the app app like auto automatically does it for you.
+Kurt Johnson: I think it should tell me what to do. Yeah, because automatically doing it.
+Amber Fu: Okay.
+Kurt Johnson: Maybe it is something that I really want to use at that time. Then it off without my telling me. Yeah. Or maybe there just be a malfunction in the app. Uh it have a wrong perception of the situation.
+Amber Fu: Mhm. Got it. Got it. And like do you prefer say like number or like very simple message like
+ 
+ 
+00:17:24
+ 
+Kurt Johnson: Yeah.
+Amber Fu: oh you're doing great today or oh you could save more if you wait something like that. Like do you prefer like say exactly the number like the mass or you just prefer say like really simple
+Kurt Johnson: Okay.
+Amber Fu: message.
+Kurt Johnson: I think uh in terms of this I think we need a we need to be very clear. Yeah. I think a clear message just as long as it may be but with all the explanations.
+Amber Fu: Okay.
+Kurt Johnson: Yeah. So you can get to understand the whole context.
+Amber Fu: Got it.
+Kurt Johnson: Yeah.
+Amber Fu: And what if you like open app once a day only one time? What the one thing you'd want to see
+Kurt Johnson: Okay. on opening the app on this day.
+Amber Fu: first?
+Kurt Johnson: I think if it can tell me about my usage, daily usage, how much I've used in that day.
+Amber Fu: Mhm.
+Kurt Johnson: Yeah.
+Amber Fu: Okay.
+Kurt Johnson: And if it can create a trend and tell me,
+Amber Fu: Okay.
+ 
+ 
+00:18:27
+ 
+Kurt Johnson: okay, so over the past week, Monday you did this, Tuesday this. So you can know your trend and maybe get your daily average.
+Amber Fu: Got it.
+Kurt Johnson: Yeah.
+Amber Fu: Got it. And as you mentioned uh storage and when you don't have have enough storage, what does actually cause for you like high bills or stress or just inconvenience?
+Kurt Johnson: Yeah. Okay. It translates mostly. Okay. It all goes back to increasing the cost. Yeah. So,
+Amber Fu: Mhm.
+Kurt Johnson: it increases the bills. Yeah. Yeah. Because once once my storage is depleted,
+Amber Fu: Okay.
+Kurt Johnson: we get back to the grid now.
+Amber Fu: Got it. Got it. But but if you didn't add a battery,
+Kurt Johnson: Yeah.
+Amber Fu: would it help to at least know when you are using a solar with the grow?
+Kurt Johnson: Yeah.
+Amber Fu: Okay.
+Kurt Johnson: Okay. Okay. Can you repeat the question?
+Amber Fu: Okay.
+Kurt Johnson: I didn't
+ 
+ 
+00:19:29
+ 
+Amber Fu: Okay. So,
+Kurt Johnson: understand.
+Amber Fu: so if you So, have you ever think about it like, "Oh, maybe I should get a battery or you never think about
+Kurt Johnson: Okay.
+Amber Fu: it."
+Kurt Johnson: I've thought about it. I actually want to I'm trying to find a new battery, but you know, yeah,
+Amber Fu: Okay.
+Kurt Johnson: just if I can have a extra capacity, the better. Yeah,
+Amber Fu: Okay.
+Kurt Johnson: being that the quite grown.
+Amber Fu: Okay. But is it um
+Kurt Johnson: No, it was initially it was it was enough.
+Amber Fu: Uh-huh.
+Kurt Johnson: Yeah. When the when the hazard was quite smaller.
+Amber Fu: Okay. Uh-huh. Okay.
+Kurt Johnson: Yeah.
+Amber Fu: Okay. Got it.
+Kurt Johnson: But right now it is overloaded.
+Amber Fu: Got it.
+Kurt Johnson: So,
+Amber Fu: Got it.
+Kurt Johnson: I think I I should I should think about getting getting another battery.
+Amber Fu: Got Okay. Okay. Okay. And but since you don't have a battery right now,
+ 
+ 
+00:20:12
+ 
+Kurt Johnson: Yeah.
+Amber Fu: but uh would it help to you know at least to know like when you're using the solar or when you're using the the energy from the
+Kurt Johnson: Yeah, I think it is important to know.
+Amber Fu: ground.
+Kurt Johnson: So, you can uh it helps in changing your habits. you know when it is solar that is free. Yes. This is the time when you need to do all the energy intensive activities.
+Amber Fu: Mhm.
+Kurt Johnson: Yeah.
+Amber Fu: Mhm. Mhm.
+Kurt Johnson: So once you once you're told maybe the app reminds that you've now switched to the grid. Yeah. I think try to minimize and only maintain the basics.
+Amber Fu: Got it.
+Kurt Johnson: Yeah.
+Amber Fu: Got it. And well, like without adding a battery, what would be the next best thing that could help you save more or feel more in control?
+Kurt Johnson: Okay. Yeah. So, in this case, I think what can help me is uh Okay. I'm trying to figure out what uh maybe just getting more getting more natural light.
+ 
+ 
+00:21:24
+ 
+Kurt Johnson: Yeah. Especially in the morning.
+Amber Fu: Okay.
+Kurt Johnson: So if we can uh be before the sun gets strong enough. Yeah.
+Amber Fu: Mhm.
+Kurt Johnson: So I think if we can just start getting the natural light from very early in the morning. Yeah. As soon as the gets out the light is enough.
+Amber Fu: Mhm.
+Kurt Johnson: I think we can save though it will not be much. I think it will be something.
+Amber Fu: Mhm. Got it.
+Kurt Johnson: Yeah.
+Amber Fu: Got it. And well uh have you tried you know uh you you know like if like during the sunny day uh have you try use your solar to charge the EV?
+Kurt Johnson: Yeah, I do. I I do charge it. Yeah,
+Amber Fu: Mhm.
+Kurt Johnson: mostly we we try to maximize activities during the day.
+Amber Fu: Okay.
+Kurt Johnson: So even the charging is done during the day when when you're using the solar.
+Amber Fu: Mhm.
+Kurt Johnson: Yeah.
+Amber Fu: Got it. about it and um like since like you know there there I I think you you have a to plan right because like basically in California like most of people they have like a tou okay and have you tried you
+ 
+ 
+00:22:34
+ 
+Kurt Johnson: Yeah.
+Amber Fu: know use cheap hour to do like the laundry or like the dishwash something like
+Kurt Johnson: Okay. I don't uh I don't think I measure on that. Yeah. I don't even check the times. Yeah. Most of my activities are just random and when they're needed. Yeah. So that I think as long as it is during the day I try to max it is
+Amber Fu: Okay. Uh-huh.
+Kurt Johnson: then then when it comes to when it comes to later I just take
+Amber Fu: Okay.
+Kurt Johnson: it as it is.
+Amber Fu: Okay. Okay, got it.
+Kurt Johnson: Yeah.
+Amber Fu: And well like as mentioned like when so when the ASA is running a lot because the kids are home or what is the hard part for you like not knowing how much it cost or not knowing when to
+Kurt Johnson: Okay.
+Amber Fu: stop.
+Kurt Johnson: The problem is here is not knowing when to stop.
+Amber Fu: Okay. Okay. Got it. Got it.
+ 
+ 
+00:23:39
+ 
+Amber Fu: And but if think about it like if they have a app can send you like a simple alert like
+Kurt Johnson: Yeah.
+Amber Fu: oh AC has been running for like two hour or something like that would that help you step in like would you help you to would you think that will be
+Kurt Johnson: Yeah,
+Amber Fu: useful?
+Kurt Johnson: that will really be useful if it can tell me it has been running for long.
+Amber Fu: Okay.
+Kurt Johnson: Yeah.
+Amber Fu: Uhhuh.
+Kurt Johnson: And uh maybe the conditions are now better. So I think it will be it is something that I can manage. So it tells me uh it has been running for long and uh the conditions have have become better and uh now we can just work without it.
+Amber Fu: Okay. Okay. Got it. Got it. Would you uh would it be valuable if like the app can clearly told you that oh you're just switch from the solar to the road so you can immediately change behavior?
+Kurt Johnson: Yeah, that should be important.
+ 
+ 
+00:24:40
+ 
+Amber Fu: Okay. Okay. And um how how would you want that message to delivery? Like a phone notification or like you know something visible on the
+Kurt Johnson: actually something visible would really work.
+Amber Fu: like
+Kurt Johnson: Maybe just having some some lights. Yeah.
+Amber Fu: Okay. Okay. Got it. Got it. Got it.
+Kurt Johnson: Or even maybe just having uh two lighting modes.
+Amber Fu: Got it.
+Kurt Johnson: Yeah. maybe red green for the solar and switching to red when uh we get back to the grid. So I think that is easily noticeable just
+Amber Fu: Uhhuh. Okay. Okay. And Okay. Okay. Got it.
+Kurt Johnson: here.
+Amber Fu: And would you prefer the app explain after the fact like, "Oh, here's why today was expensive." Or rather than explaining everything up
+Kurt Johnson: Okay.
+Amber Fu: front.
+Kurt Johnson: So maybe on a day that has really gone expensive where we've used a lot of energy. Yeah. Remind reminding me later can help me change my my habits and minimize the usage.
+ 
+ 
+00:25:54
+ 
+Amber Fu: Okay. Okay. Got it. Got it.
+Kurt Johnson: Yeah.
+Amber Fu: And um well and well if if like their app could only help you with one thing, what would you want to be? Anything. Just imagine it.
+Kurt Johnson: Okay, I'm trying to
+Amber Fu: or or uh let me try to uh uh I let me try to ask like a different way. Okay. So when you think about your daytoday uh what part of energy setup require the most attention from you like yeah like you think oh this
+Kurt Johnson: Okay. What?
+Amber Fu: movement take a lot of mental load or take some time something like
+Kurt Johnson: Okay.
+Amber Fu: that.
+Kurt Johnson: What what requires my input a lot is just the charging of the EV.
+Amber Fu: Okay. Okay.
+Kurt Johnson: Yeah.
+Amber Fu: You you need to like remember like what time and try to use a a free free solar,
+Kurt Johnson: Yeah.
+Amber Fu: right? Okay. Okay. And uh and how how many EV you have.
+ 
+ 
+00:27:08
+ 
+Kurt Johnson: Yeah, just
+Amber Fu: Okay. Okay. Got it. Okay.
+Kurt Johnson: one.
+Amber Fu: And uh let me think. Uh okay. So uh like right now you uh like which energy company you are using is it PG or Edson or Oh okay
+Kurt Johnson: Okay. The energy we use right now is PJ.
+Amber Fu: okay you're happy with it happy with them
+Kurt Johnson: Yeah.
+Amber Fu: okay okay got it so every time Oh okay so the
+Kurt Johnson: I I didn't actually hear you.
+Amber Fu: PG do you happy the happy happy the Like you like when you receive the bill every time every month you think oh that's makes sense or sometime you will think oh that's not
+Kurt Johnson: At times uh it gets you surprised and uh you don't believe it but you know
+Amber Fu: reasonable
+Kurt Johnson: at the end of the day it is you who used it.
+Amber Fu: okay okay and well like uh speak to like
+Kurt Johnson: Yeah.
+Amber Fu: the charging the e charging Like would you be help if they there in the app can automat automatically remind you that oh this is a good solar solar right now for EV charging.
+ 
+ 
+00:28:30
+ 
+Amber Fu: Do you think that will be
+Kurt Johnson: Yeah, that would be helpful.
+Amber Fu: helpful?
+Kurt Johnson: Yeah, actually if the app can actually maybe if the app can connect with the with the EV, so it can check maybe the the better in the EV itself. Yeah. So maybe it can remind me during the day. Okay, maybe your car your your car's battery is going down. Uh you to charge this time.
+Amber Fu: Mhm.
+Kurt Johnson: I think that will be better.
+Amber Fu: Okay.
+Kurt Johnson: Yeah, just integration with
+Amber Fu: Okay. Got it. Okay. Got it.
+Kurt Johnson: David.
+Amber Fu: And well uh so you I think you said like you try to you know to do some re search for like the battery right? Are you going to plan to get one or you still
+Kurt Johnson: Okay,
+Amber Fu: thinking?
+Kurt Johnson: I'm thinking about getting one. Yeah, I want to just to increase the the storage of the energies for the
+Amber Fu: Um okay.
+Kurt Johnson: night.
+Amber Fu: What is it?
+ 
+ 
+00:29:34
+ 
+Amber Fu: Power wall or is it just different brand?
+Kurt Johnson: No, I just um okay I I'm trying to figure out yeah best battery that can uh okay you know we trying to balance the cost and uh
+Amber Fu: Uh,
+Kurt Johnson: and the productivity in this case still my research phase
+Amber Fu: got it. Got it. And well, I would I was thinking like the AC thing like have you ever tried like per cooling or perheating your home to save money.
+Kurt Johnson: No, no, no, no,
+Amber Fu: Okay.
+Kurt Johnson: no.
+Amber Fu: Because you know some people will do that you know like because uh I know one of my friend they have a tou and he uh his plan is start like 5:00 p.m. to I believe 9:00 p.m. this peak hour and so before that he uh he start proc cooling her h his house like start you know like 300 p.m. and ends up at 5. So, you know, just trying to not using the P pick hour to uh the AC running the AC. So, I just wondering like have you ever done that
+ 
+ 
+00:30:56
+ 
+Kurt Johnson: No,
+Amber Fu: before?
+Kurt Johnson: I've never done that. But I think it could be a good idea.
+Amber Fu: Okay. Yeah.
+Kurt Johnson: Oh,
+Amber Fu: Yeah,
+Kurt Johnson: I think Okay.
+Amber Fu: that's Yeah,
+Kurt Johnson: Will it maybe like the pre-warming?
+Amber Fu: you
+Kurt Johnson: I think I have a fear that it may go too cold or too hot in this case. It could be the case.
+Amber Fu: Mhm.
+Kurt Johnson: Yeah, I think that is one of the fears now I'm having. Yeah,
+Amber Fu: Oh.
+Kurt Johnson: maybe when we do the pre-cooling it may go
+Amber Fu: Uh yeah.
+Kurt Johnson: below.
+Amber Fu: Yeah. Yeah. Yeah. Well, so you just need to be careful to, you know, know like exactly the temperature and when to stop.
+Kurt Johnson: Okay. Okay. Okay. Yeah, I think I can try that. Yeah, I'll try to figure it
+Amber Fu: Yeah. Yeah.
+Kurt Johnson: out.
+Amber Fu: Well, um, so do you have any question for me?
+ 
+ 
+00:31:52
+ 
+Kurt Johnson: No, no, no.
+Amber Fu: Okay. Okay. Okay. Got it. Well, uh, let me think like what else I can. So, uh, okay. Well, well, like cuz like like right now and we are still like in a like really early like like early time, but you know like it's really helpful to you know understand like the people like when they're using their energy and how they're using their energy. So uh just really appreciate like you know you give us like a like insight to to know like what we can do in this app. So uh like what you share is really help me to understand you know so
+Kurt Johnson: Okay.
+Amber Fu: uh yeah and we're still early as I said so but everything you said today is directly shape what we decide to build first. So if you open it, we love to follow up and show you like early concept, early version to get you feedback. It's totally
+Kurt Johnson: Okay, I think that would be good.
+Amber Fu: option.
+Kurt Johnson: Trying out new things. I think uh that is something I'd really like.
+Amber Fu: Yeah. Yeah. and and that well please keep in touch and we we just once we have the uh early version we uh I will invite you and send you the link and I can uh I can guide you like step to step and just you know hear what you
+Kurt Johnson: Okay.
+Amber Fu: thought you think maybe it's helpful or maybe you think oh I don't I don't like it but totally fine I just want to hear like you know the feedback
+Kurt Johnson: Okay.
+Amber Fu: okay well
+Kurt Johnson: Okay, you turn. Bye-bye.
+ 
+ 
+Transcription ended after 00:34:18

@@ -1,0 +1,179 @@
+Feb 5, 2026
+Casally Demo 2.0 Interviews (Princess Jackson) - Transcript
+00:00:00
+ 
+Amber Fu: Hi. How are you?
+Chaco Does Nothing: I'm so
+Amber Fu: Good. Good. Thank you. Thank you uh taking your time today.
+Chaco Does Nothing: good.
+Amber Fu: Um uh I will send you a link. Uh it's our new app demo. So you can uh I will uh send through the chat with everyone. Uh you can you can click it and to see like uh if you can open it. Uh give me a second. Uh did you see it?
+Chaco Does Nothing: Yes, I did see
+Amber Fu: Okay, perfect.
+Chaco Does Nothing: it.
+Amber Fu: Uh so when you open it, if you don't mind, you can uh you can share share the screen. Thank you.
+Chaco Does Nothing: Sure. Okay. Can you see
+Amber Fu: Yes,
+Chaco Does Nothing: it?
+Amber Fu: perfect. So, uh you know what? I will give you like a a couple minute. You can uh click around by yourself just to see like uh what's it look like and after it we will uh we can go over together.
+ 
+ 
+00:01:49
+ 
+Chaco Does Nothing: Okay. Is it like a a a phone app or a PC?
+Amber Fu: Yeah, it's a phone app. Yes.
+Chaco Does Nothing: Okay.
+Amber Fu: Uh you can click any of those Yeah, probably you need to uh click. Yes. Uh and uh scroll down.
+Chaco Does Nothing: I just scroll down.
+Amber Fu: Um a click and drag like uh Yeah.
+Chaco Does Nothing: I can sure.
+Amber Fu: Okay.
+Chaco Does Nothing: Okay. Can
+Amber Fu: Yes. So,
+Chaco Does Nothing: start
+Amber Fu: uh basically uh we are uh this is our new uh demo and uh you see at the top we we show the device connected. Uh so if like your solar and power was offline you uh you want to know immediately uh you can uh click that lo uh online did you say online the icon the solar solar icon or like a battery uh on the top? Yeah. Yes. Yeah. So this part is like you can immediately to know if your solar is break down or like you know power wall uh is uh what's the situation of a power wall or like your your EV car situation.
+ 
+ 
+00:04:03
+ 
+Amber Fu: So and after it there have a is called like the monthly bill budget. Uh you can you could close this one to see like a monthly bill budget. Yes. Uh, you can click on the $170. Yeah. So, well, I uh well, I was spend a little bit time for a monthly bill budget. So this uh the muscle bill budget is not a goal but it's like a comfort boundary. So you are not telling the app like how low your bill should be but you are telling it oh if my bill goes above this I want to know early and I want to help before it comes the price. So this is very different from like a traditional budgets. We're not trying to optimize your bill to the lowest possible number and we're definitely not forcing you to change your lifestyle. So, you know, think about the monthly bill budgets. Your personal visit still feels okay line and different people have a different tolerance. So some people are totally fine with a particular uh like let's say like $300 bill but another start feeling stress once it goes about like 100. So once you set that boundary uh everything else in the app will become relative to you.
+ 
+ 
+00:05:44
+ 
+Amber Fu: So the same event can mean very different things to different people. For example, like a $12 pick hour charging mistake. If your budget is like a $100, the $12 means a lot. But if your budget is, I say, like $300 may not worth to bother you. So, uh yes. So, basically, uh the go the goal of the budget is not to make your safe more, is make sure you're never surprised. Yeah. And um and
+Chaco Does Nothing: Okay.
+Amber Fu: for uh okay so uh you see like there have a base your last three months bail. So for this user uh this is his average like you know two 210 208 200 uh from last three months uh bill and we have give a base his uh last three months bill we have a recommend range uh 1780 or uh $200. So if uh he choose like $170 which means he can save like a $30 list each month and then the system will give us like a lot of like suggestion to see to help him to achieve that goal.
+ 
+ 
+00:07:08
+ 
+Chaco Does Nothing: You
+Amber Fu: Okay. You can cancel cancel that.
+Chaco Does Nothing: sure?
+Amber Fu: Yeah. And uh next one is a suggestion card. So basically the suggestion card is uh it's just something that we help people to uh to to do like a actionable moment. So uh like you see like for example for this situation like what's happening is like e charging you the high price. So what to do is uh we can put the uh uh during the peak charge off the peak and the bottom is like exactly when the time window. So basically like the routine will be the reason action and time. So, uh you should never have to guess what the app wants you to do. And then you can click on the uh view more on the Yes, the view more is more like uh give you exactly uh like why we suggest like that. Yeah, it's more like a detail thing and also there have like the automatic and the manual.
+Chaco Does Nothing: Okay.
+Amber Fu: So the automatic is basically like uh like ask the user like do you want the system to handle the routine decision for you or do you want to prove each time?
+ 
+ 
+00:08:38
+ 
+Chaco Does Nothing: Are you sure?
+Amber Fu: Yeah. Uh you can go back and uh yeah for this event this is event page uh basically is any and euro activity happened impact your dollars amount we will showing here the event page it's more like a event letter. Yeah, you can tap any of those. It's fine. Yeah.
+Chaco Does Nothing: Sh.
+Amber Fu: Okay. And we can go back to the
+Chaco Does Nothing: Okay.
+Amber Fu: home. And do you mind uh dra drag down a little bit? Uh scroll down a little bit. Yeah. So next part is a power outage warning. So this is kind of something that we want the uh we we wish the uh the customer can know immediately before the power outage. So uh so basically if like we uh we know like when's the power outage we will definitely like make sure uh immediately to tell the customer and uh guide them to you know to prepare for uh power outage warning and the next part uh you can screw down a little bit.
+ 
+ 
+00:10:10
+ 
+Chaco Does Nothing: Okay.
+Amber Fu: So next part will be the usage. Yes. So this is something that uh you know uh show the customer the user that uh when is a cheap hour to use electricity and when is expensive hour to use electricity.
+Chaco Does Nothing: Sure.
+Amber Fu: Yeah. And so for right now the home that's it.
+Chaco Does Nothing: Okay.
+Amber Fu: So is there any like you part you think is really useful or any part you think you still can
+Chaco Does Nothing: Okay. I I see this one.
+Amber Fu: prove.
+Chaco Does Nothing: It's okay because you know when the price is high. So yeah good. And then there's a warning. Yeah. Yeah. I like it. And then how you spend your your bills off pick and unpick. Uh they are okay for now.
+Amber Fu: Okay. Uh, is there anything that we still missing like uh or
+Chaco Does Nothing: Yes.
+Amber Fu: anything that you want?
+ 
+ 
+00:11:41
+ 
+Amber Fu: We're still missing. Uh, hello
+Chaco Does Nothing: I I'm saying not as per now.
+Amber Fu: Okay. Okay. Uh yeah, sure. And and we can go next next step uh is a saving page. Uh can you click on the saving Yes. So, uh sorry, I'm I kind of lost a little bit. Okay. So, the saving uh we uh split the two type. The one is a saving and another is a bill. So, basically this uh what's this mean is like a saving is more like our side. It's kind of a cost risk. we detected from like the user behavior and the timing and bill is more like a utility side is what show up on your bill and the top of 56 number is that uh risk cost we detected in that current uh current billing period. So basically just tell the user like if you repeat those pattern this is amount that uh tends to show up um as a extra cost exposure.
+ 
+ 
+00:13:25
+ 
+Amber Fu: So it's not a guarantee but it's not your phobia it's spe uh specifically tied to uh detected event. So if you only remember like one thing is like this is risk exposure not saving. Um and also uh for for the uh the chart well is something that uh more like a risk uh trend and uh down down here like yes we break down like event this month we so for this one we kind of break the risk ledger into category such like EV solar and power wall. So each row shows like how many times happened in the billing period and uh estimate total extra cost exposure from the category. So it's not a daily it's like a kind of roll up across a billing period and um you can click on let's say like a pure four time EV charging. Uh yes. So here is like more like it's like a detail page. uh letter. So each row is a detected event not a day. So you can review like what happened event by event and then then you can like click either of those.
+ 
+ 
+00:14:48
+ 
+Amber Fu: Yeah. So the bottom sheet is more like a detail thing. It's kind of like uh uh extra cost exposure.
+Chaco Does Nothing: Okay.
+Amber Fu: Uh and really important thing is we tell the user like how we calculate this is kind of like prove the kilowatt the peak rate of peak rate and the mass. So we want you to be auditable.
+Chaco Does Nothing: Okay.
+Amber Fu: Is there like is there uh you so when you see this page what's your first reaction like do you think this is something that you really can use in the real life or is there anything that still can prove or we're missing
+Chaco Does Nothing: Actually, this is what we can use in real life. Like I use my EV mostly in these uh off peak mini hours to charge and then use the solar. So yeah,
+Amber Fu: Mhm.
+Chaco Does Nothing: something I can use in real life and I can see I can save.
+Amber Fu: Yes.
+Chaco Does Nothing: So yeah,
+Amber Fu: And you know and I I remember like from last conversation
+ 
+ 
+00:16:03
+ 
+Chaco Does Nothing: that
+Amber Fu: uh I think you mentioned something that you think the you know sometime like during the winter or summer the bill goes up
+Chaco Does Nothing: Sure.
+Amber Fu: right yeah and also like uh you don't know like when you charge the EV how much money you spend. Yeah. So this is exactly that we are trying to uh solve those kind
+Chaco Does Nothing: Yeah,
+Amber Fu: of problem.
+Chaco Does Nothing: I really like it.
+Amber Fu: Yeah. And also uh I think last time you mentioned that uh uh like your solar device sometime is uh is kind
+Chaco Does Nothing: Thank
+Amber Fu: of out of control you know. Um so this is something that we will help you detect
+Chaco Does Nothing: you.
+Amber Fu: if like uh in first place when your solar works and euro and we will let you know and tell you what to do.
+Chaco Does Nothing: Yeah, that's okay with
+Amber Fu: Okay. And we can go back uh go back.
+Chaco Does Nothing: me.
+Amber Fu: Yes. Uh if you don't mind we can go up a little bit.
+ 
+ 
+00:17:26
+ 
+Amber Fu: Uh yes go up. Yeah. Do you mind? Uh you can tap the bill. Yes. So so bill is more like a cut utility side. So this month's bill means like oh how much you pay by uh this month. Uh yes. So this is a from the utility like uh uh well where is show show and uh when you click on view more uh yes you can. Yes.
+Chaco Does Nothing: Okay.
+Amber Fu: So this bill proof is more like a uh I like a I item check. Um so this is more you know uh it's more like a think about like uh like you know you like a uh checking list checking receipt like the like a grocery store. So uh this is like a simply checking whether a few specific bill line item match what we actually detected from your solar EV or battery. So we're just looking at a few item we can clearly recognize and asking oh does this look right. So uh you know some people they think that oh the utility company charge me wrong but this is exactly what we are trying to help user to knowing that uh what we detected based on the data we saw and we expected this specific line to be around X but the bill utility bill shows So this is just difference worse user to double
+ 
+ 
+00:19:23
+ 
+Amber Fu: checking.
+Chaco Does Nothing: You
+Amber Fu: Okay,
+Chaco Does Nothing: sure?
+Amber Fu: we can uh yes we can go back and the last part you can uh scroll down a little bit. Yeah. So the last part will be our uh true bill and uh there have a uh uh the top like driver that cause exposure. So those are the we will show the customer that the top three drivers who will cause you like true up goes high or bill goes high. Yeah. So that basically that will be it that will be all the apps and
+Chaco Does Nothing: Okay.
+Amber Fu: uh so after like when you see it like what what like uh what's your reaction like do you think that is something really can use in the real
+Chaco Does Nothing: Yes, probably this is what I need so that
+Amber Fu: Five.
+Chaco Does Nothing: I can track down my spend char my usage and uh everything about my yeah electricity and solar. Yes, it's what I need.
+Amber Fu: Okay. And is there any uh like suggestion or uh do you think anything still missing from from our side?
+ 
+ 
+00:21:06
+ 
+Chaco Does Nothing: uh probably I think uh it's good uh so the more I'll be using the app uh probably I'll highlight anything I can
+Amber Fu: Mhm.
+Chaco Does Nothing: uh I feel that is missing and then maybe can
+Amber Fu: Mhm.
+Chaco Does Nothing: take support care for you personally so that you can maybe adjust or add. So the more I use the app, the more I'll know uh any thing that you can
+Amber Fu: Okay. Okay.
+Chaco Does Nothing: add.
+Amber Fu: But and and for like what point like you feel like oh this app uh worth to pay it like at the what moment you you feel like oh I I I want I want this app I can pay it.
+Chaco Does Nothing: Okay. So, even right now probably because I think I need to cut down my costs and uh I can track uh when the time I can use my solar not my electricity most of the that's something I really need.
+Amber Fu: Okay, got you. Um, and and uh Okay, so how much you think this app worth to pay it?
+ 
+ 
+00:22:22
+ 
+Amber Fu: Let's see like if this app really help you saving the money or or like uh you will never have a surprise bill like at what point you think oh uh I can pay it and how much you think should be worth.
+Chaco Does Nothing: Oh, something like a subscription.
+Amber Fu: Yes. Yes.
+Chaco Does Nothing: Uh probably if I am cutting down the cost of my bills and the app is helping me do that, I I can like I can pay it at any time.
+Amber Fu: Okay. Okay. Sure. Um Okay. So, sure. So, you know, I really appreciate like uh um thank your time. We we've been uh you went through this. So uh so what we're try to building really only work if like you know test in the real life. Uh so once this live we uh love to invite you try it with your actual bill and charge behavior. Yes.
+Chaco Does Nothing: Okay. All right. Thank you. Okay. I appreciate
+ 
+ 
+Transcription ended after 00:24:37
+
+This editable transcript was computer generated and might contain errors. People can also change the text after it was created.

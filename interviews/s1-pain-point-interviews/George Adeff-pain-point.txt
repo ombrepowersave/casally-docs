@@ -1,0 +1,326 @@
+00:00:00
+
+George Adeff: Hello.
+Amber Fu: Hello.
+George Adeff: Hi, Amber. This is Georgia Dev. Um, I'm sorry I don't have a camera.
+Amber Fu: Oh, it's okay. It's totally fine. Yeah, it's it's fine. It's fine.
+George Adeff: Okay.
+Amber Fu: Hi, George. Thank Thank you. Thank you for taking time today.
+George Adeff: Sure.
+Amber Fu: Yes. Uh well, uh no pressure at all. This is like super casual. So uh let me introduce myself a little bit. Yes. Um I'm Amber and uh one of the founders. So I started this because you know I couldn't figure out like my my own like electricity bill were so crazy and I realized a lot of my friends are dealing with the same thing and you know we we are just a small team based in LA and just bunch of uh tech folks who also got crazy electricity bill. So we are trying to building an app that help people save money on their daily energy use but without changing their lifestyle.
+ 
+ 
+00:11:04
+ 
+Amber Fu: So you know I love to understand how your home use electricity dayto-day so we can figure out what would actually help.
+George Adeff: Okay.
+Amber Fu: Okay. Okay. Thanks. And uh well before we get started would you be okay if I record this call? It just help us to help us make sure like we don't miss anything you said.
+George Adeff: Sure.
+Amber Fu: It's totally option.
+George Adeff: Yeah. Yeah, it's fine.
+Amber Fu: Okay. Okay. Sure. Thanks. Uh give me a second. Okay. So, uh Okay. So, let's start. Um before like we jump into like energy stuff. So um I love be quick uh get a quick sense of your household just you know understand your setup bit better uh nothing personal just whatever you comfortable share with uh so uh how many people live in your home right now?
+George Adeff: generally too. Me and my wife.
+Amber Fu: Okay, got it. And uh is a is a is a is a h is a single house or is ah got it.
+ 
+ 
+00:12:14
+ 
+George Adeff: Yeah. Single family residence. Um it's about uh 2,000 square feet with a detached garage.
+Amber Fu: Got it. And um uh mostly like do you mostly work from home or is everyone flying in and out?
+George Adeff: Well, I'm retired. Well, both my wife and I are retired, so but we spend more time at home than, you know, people that are working.
+Amber Fu: Okay, got it.
+George Adeff: Um I I still do a little bit of consulting, but uh really the last two years uh I've pretty much dropped out of that.
+Amber Fu: Mhm.
+George Adeff: Um so I've been retired about 10 years and for eight of those years I like I said I was still doing some consulting. Uh I also my I had two professions.
+Amber Fu: Oh.
+George Adeff: I'm uh I'm an engineer, but I'm also uh I also am a soccer referee.
+Amber Fu: Oh, wow.
+George Adeff: So, um so even though I was retired from my engineering job, um I was still spending a lot of time outside the house and traveling um as a professional referee.
+ 
+ 
+00:13:22
+ 
+Amber Fu: Oh.
+George Adeff: But I've retired from that now completely uh for about a year now. Uh so basically we're at home unless you know unless we're running um you know running errands or uh or walking the dog or traveling. Um we tend to spend quite a bit more time at home.
+Amber Fu: Got Got it. Awesome. Well, um thanks for sharing sharing that and um uh I just want to know like you know uh kind of want to know about your daily routine like uh how how how many time you spend at home and uh how how long you will go out traveling like what's the the uh like uh I just want to know like the time period and just better me understand your like How long you will stay home and use like uh electricity?
+George Adeff: So on a on a typical day probably out of the house where both of us are out of the house maybe um three or four hours.
+Amber Fu: Mhm. Mhm.
+George Adeff: Other than that, one of us is is in the house.
+ 
+ 
+00:14:56
+ 
+Amber Fu: Mhm.
+George Adeff: Um, you know, we typically, you know, we we sleep between um between 11 in the evening and uh 6:00 in the morning. Um so that's about seven hours where we're using very little uh energy you know probably um one to two kilowatts kilowatt uh but then uh so and then if you take the
+Amber Fu: Oh, let's Okay.
+George Adeff: you know say three or four hours where we're out of the house so that's you know maybe um 10 10 or 11 hours where the electricity usage is between one and let's say three kilowatt um during the day when we're out of the house. Um so that's pretty much a typical day. We, you know, as far as traveling, um, a couple of times a year, you know, two or three times a year, we'll we'll go for, you know, three or four nights, um, just short trips. Um, and generally there's no one in the house during those trips. Uh so again you know the energy usage will drop down to you know one and a half to two.
+ 
+ 
+00:16:22
+ 
+Amber Fu: Mhm.
+George Adeff: Um and then uh we didn't do any any long trips this year but just because of a lot of personal things going on. But generally since we've retired we try to take one extended trip of like three or four weeks uh each year and um so during that three or four week period that's that whole time the energy usage is is very low. Um so having said that I would say you know our typical energy usage is between 18 and and 22 kilowatt hours per day or 24
+Amber Fu: Okay, got it.
+George Adeff: day.
+Amber Fu: Got it. But which hour you feel like the is the busiest electricity wise in your home?
+George Adeff: Which hour is the what? I'm sorry.
+Amber Fu: The busiest like Yeah.
+George Adeff: For the the highest usage.
+Amber Fu: The highest. Yes.
+George Adeff: Um so, uh we do have one EV. We have a Tesla and um and we're on a we're on time of use. So generally we will charge that um between um between 8:30 in the evening and and 6:00 in the morning depending you know how how much we've used the car.
+ 
+ 
+00:18:13
+ 
+George Adeff: Oh, so the highest uh energy usage would occur when when the uh when the EV is charging and you know during that period it can get as high as eight or 10 kilowatts um for anywhere from 30 minutes to uh you know three or four hours. Um so that would be the be the highest energy use. Um yeah we have photovoltaic panels and we have a a battery
+Amber Fu: Got it. Got it. Okay. Thank you. Thank you so much. And um so by the way, I noticed that you I think you got the full setup, right? The solar power and the Okay.
+George Adeff: power wall.
+Amber Fu: Uh, is all Tesla or is uh Oh.
+George Adeff: Yes. Yeah. Well, so that's kind of a funny question because you know right at for the last couple of years Tesla uh power has been very vertically um oriented. So um when we installed our system which was about uh five six years ago now uh Tesla wasn't so vertically integrated.
+ 
+ 
+00:19:42
+ 
+George Adeff: Uh so essentially our system consists of Tesla panels which were manufactured by Panasonic at the time. Uh Panasonic had a had a factory in uh New York and those panels came out of that factory and the inverter uh came from Solar Edge.
+Amber Fu: Mhm.
+George Adeff: So it's a Solar Edge inverter. Um the remainder of the system is um is Tesla. Of course the power wall is Tesla. And I frankly don't remember whose batteries they were using at that time for the power wall, but the installation was done by uh by Tesla Power.
+Amber Fu: Okay. Got it. Got it. But still like since you have like a full setup is, you know, just put in the top few percent of home we talk to. So I just want to hear some like your story like uh what why you got the solar at first place.
+George Adeff: Um, so a couple of reasons. Um, we were we had finished remodeling the house. Um, and the calculations I did at the time said that I could pay off the cost of the photovoltaic and the battery in about eight years.
+ 
+ 
+00:21:25
+ 
+George Adeff: And and we, you know, we're planning to stay in this house till we die.
+Amber Fu: Okay.
+George Adeff: Um, so that seemed a good investment. Um, we were also already seriously considering getting an EV um, for a couple of reasons. One is that my wife really liked the styling of the Tesla at the time and needed a new car for her.
+Amber Fu: Mhm.
+George Adeff: Um, and she really liked the car. And that was, you know, long before Elon Musk went crazy. So, you know, unfortunately, we'd have to say we would never buy anything from from Tesla again because of it politics. Um but um but adding adding the the the Tesla uh would have put would put the the photovoltaic system to better use.
+Amber Fu: Yes, I know. Yeah.
+George Adeff: And I told you earlier I was an engineer. I'm an automotive engineer. So my entire life I worked I worked in the automobile industry specifically powertrains and uh so I kind of felt that even though the work I was doing was on components that were specifically intended to reduce
+ 
+ 
+00:22:42
+ 
+Amber Fu: Oh. Mhm.
+George Adeff: vehicle emissions. I kind of felt like I still made my life out of polluting the air and it's time for me to kind of pay back and uh and I felt that, you know, by by going to an electric vehicle
+Amber Fu: Mhm.
+George Adeff: and and by generating our own our own electricity as much as we could that, you know, we were kind of doing our our part for the ecology and to make things better for our kids and our grandkids.
+Amber Fu: Got it. Uh, so you got the solar first and then the right.
+George Adeff: Yeah. Yes. Got the solar first.
+Amber Fu: Uhhuh.
+George Adeff: Um mainly because again at the time um there was a long lead time on getting the Tesla Model 3. They were just starting production. Uh so we had we had placed the order for the car but we were able to get the the solar system installed uh while we were waiting. So so we got the car couple of months after after we had the solar system installed and operational.
+ 
+ 
+00:24:17
+ 
+Amber Fu: Got it. And um well now since you live this a while and this this those system are you happy with it.
+George Adeff: Yeah. Yeah. I'm I'm actually very happy with it. Um my one regret is that I didn't get two power walls. We I got one power wall and at the time um that was really all I could afford. you know, my cash flow situation didn't allow for another power wall, or so I thought at the time. Um, but like I said, in hindsight now, I wish I had gotten the second power wall. Um, because it actually took us less than eight years to pay off the um the cost of the system. Um, and so even if I had borrowed money to do the second power wall, at the time interest rates were low enough that um I should have done it, but I didn't. And now it's very difficult because they're no longer manufacturing the the Power Wall 2. they've moved on to the Power Wall three and the not compatible.
+ 
+ 
+00:25:47
+ 
+George Adeff: Um, so I'm kind of stuck with the with the one battery, but um, you know, for someone uh that has the same lifestyle and energy usage as we do today, I would getting getting the two two power walls. But other than that, I'm quite happy. We've been we've been very lucky, you know, knock on wood. Uh it's been very reliable. We haven't haven't had to replace anything because of breakdowns. So So that's, you know, we're happy with that.
+Amber Fu: Okay, that's good. Uh how so what's your last uh last month's uh electricity bill? How much you pay for?
+George Adeff: Um, you know, basically we only pay uh some taxes and fees. You know, the interconnection fee. I I actually it's been so long since I've looked at it, I don't remember, but it's order of magnitude $25.
+Amber Fu: Oh, that's that's really good.
+George Adeff: Yeah, it's essentially, you know, we're essentially only paying to maintain the connection with LWP.
+Amber Fu: Okay. Got it. Got it.
+ 
+ 
+00:27:11
+ 
+Amber Fu: And uh so do you know like uh if electricity is cheaper at a certain time of the day where you live?
+George Adeff: Yeah, absolutely. We're so we're uh our utility is is LWP, Los Angeles Department of Water and Power.
+Amber Fu: Okay.
+George Adeff: And um and when when I put in the solar, we switched over to their time of use system, EOU.
+Amber Fu: All right.
+George Adeff: And uh uh so the um the cost is broken down uh generally into two times. Um there's the high rate and the low rate. Um the low rate starts at uh 8:00 in the evening and until 10:00 in the morning from 10 in the morning uh until 8 in the evening were on the standard rate.
+Amber Fu: Mhm. Mhm.
+George Adeff: Um, and I think uh, let me see. I think the standard rate is 21 cents per kilowatt hour and um I think the yeah the off what they call the off peak
+Amber Fu: Mhm.
+George Adeff: rate is 20 cents per kilowatt hour. Um and the the high rate is 22 cents per kilowatt hour.
+ 
+ 
+00:29:04
+ 
+George Adeff: And currently they buy back uh during the the off peak they buy back at 18 cents per kilowatt hour and during the high period they buy back at 21 cents per kilowatt hour.
+Amber Fu: Got it. Got it.
+George Adeff: So for us a time of use is a good uh is a good system.
+Amber Fu: Okay. And uh do you ever worry about like instantly charging during the peak hour? Like do you need to uh Okay.
+George Adeff: Um no we generally don't we we never really have a need for it. If the need ever came up then um you know during the peak time there should be enough solar that a large portion of the usage for charging the vehicle would come from the solar.
+Amber Fu: Mhm.
+George Adeff: It just means that I wouldn't be selling back as much to to the grid.
+Amber Fu: Got it. Um cuz I I heard like you you sometime you travel uh when you travel during your travel time uh do you consider your solar will be vast?
+George Adeff: consider that our solar would be what?
+ 
+ 
+00:30:34
+ 
+George Adeff: I'm sorry.
+Amber Fu: out the waste like wait uh your solar will be waste.
+George Adeff: No, it's not wasted because I'm supplying it to to the utility who's using it to supply other people and or other users and whatever amount I'm supplying, they don't have to buy from from the from the grid. So that's that much less natural gas that's being burned. So, I don't think it's I don't ever consider it being uh being wasted. And you know, when we're not home, all of all of the power that we're generating, we're selling to the utility and selling it at the at the higher rate.
+Amber Fu: Mhm. Mhm. Got it. Got it. And uh you you live in the since you live in LA and uh have you ever been like the p uh public uh safety power shut off?
+George Adeff: Uh we've had a couple of occasions. Our area I think in general LWP is quite good about that. I I think well generally they're a well-run organization.
+Amber Fu: Okay.
+ 
+ 
+00:31:52
+ 
+George Adeff: Um, technically they I don't think they're, you know, administratively I don't think they're so good and I think they're they they have some issues, but technically I think it's it's wellrun. um some areas of the city, you know, the infrastructure is older and so they may have more issues. But where we live, um I would say in the last uh five or six years, we've had maybe a couple of brownouts, not blackouts. We've had a couple of brown outs that have lasted, you know, never more than than 30 or 40 minutes. And we've had a couple of outages. Um, the longest one that I can think of was a couple of hours. Um, but I mean, we're talking about two or three in a six-year span. So generally I don't worry too much about that. Having said that um I always reserve at least 50% of the battery for emergencies.
+Amber Fu: Got it. Got it. Um, so, uh, I just wondering like where do you feel like you spend the most time when you managing your home energy?
+ 
+ 
+00:33:25
+ 
+George Adeff: Um, I'm not sure I understand your question.
+Amber Fu: Do you going to spend a lot of like which part uh like uh uh what I try to say is like what part of managing your home energy take the most of time for you?
+George Adeff: What What do you mean by managing? Um, oh, you mean as far as the electrical system, I I I spend uh
+Amber Fu: or you really you don't need to manage him. They just you're happy with it. You think they're smart enough. Yes. Yes.
+George Adeff: I would say maybe maybe an hour a week.
+Amber Fu: Mhm.
+George Adeff: I I spend very little time on that. I monitor it. Um but but I don't really do much in the way of of managing. Uh you know, every between 18 and 24 months, I I will wash the the panels.
+Amber Fu: Mhm.
+George Adeff: Um, you know, the last couple of years where we've had a lot of fires in in the area, I've washed the panels more often because they they do get covered with soot.
+ 
+ 
+00:34:39
+ 
+Amber Fu: Mhm. Mhm.
+George Adeff: But but I found that in general you lose so little from the panels getting dirty that, you know, I know there's people that pay a couple hundred dollars once or twice a year to to get them washed, but my experience has been that you don't you don't lose enough production from the panels getting dirty to make um you know to worry about about washing them. So, so I would say I spend very little time in terms of managing the power.
+Amber Fu: Got it. Well, besides cleaning the panel, is there anything else you ever have to adjust or take care of?
+George Adeff: Um, not really. You know, uh, Tesla introduced their storm watch system a few years ago. Uh, prior to that, I would always pay attention like when we knew there was a storm coming or Santa Ana winds coming, I would I would look at where we were with the battery to make sure that um that the battery would be fully charged in before the evening. So, in case, you know, there was a blackout overnight, uh, we'd be prepared.
+ 
+ 
+00:36:13
+ 
+George Adeff: But since since Tesla introduced their their automated storm watch um I you know again I monitor it but it's rare that I have to do anything. you know, there's been maybe one or two occasions per year where I will actively uh change the setting on the system um from automatically feeding back to the grid to maybe manually doing it and and stopping the feedback for whatever reason. But it's very rare and and it's, you know, easy to do with the Tesla system. So, it only takes a moment there are times when when I will change it, when I'll raise it or lower it.
+Amber Fu: Got it. But do you ever uh uh ever try change your power wall reserve level or do you just keep it at uh at 50% all the time?
+George Adeff: Um but again that takes maybe 20 seconds to do and um you know maybe another 20 seconds to think about it.
+Amber Fu: Oh, got it.
+George Adeff: You know as I'm monitoring do I think something is going to happen where I should do that.
+ 
+ 
+00:37:35
+ 
+George Adeff: Um it it's just almost no time at all.
+Amber Fu: Got it. Um, so if everything could run automatically like charging, uh, battery reserve, would you prefer that or do you like you you keeping some like, uh, self-control?
+George Adeff: Um, like I say, I generally just let it run automatic.
+Amber Fu: Mhm.
+George Adeff: uh you know we have the car program so it knows not to start charging until we're in the low rate period and it knows to stop charging if if it hasn't uh charged sufficiently by
+Amber Fu: Mhm.
+George Adeff: um by 10:00 in the morning. it will stop charging at 10 in the morning and I'll get a notice that says it stopped charging and then you know I can make a decision uh to tell it to continue charging and and draw from from our solar panels.
+Amber Fu: Mhm.
+George Adeff: But I I think in in the you know in the time that we've had the car I think I've only done that once.
+Amber Fu: Got it. Got it. Okay. And um so uh when you like travel for a few day or week do you will change anything your system before you leave?
+ 
+ 
+00:39:05
+ 
+George Adeff: generally. Nobody I um
+Amber Fu: Okay. Got it. And uh do you think uh if would like have a automatic away mode will be useful or uh what should it do for you?
+George Adeff: at least the way the the Tesla system works and the way that it's programmed uh and the choices that I've made in programming it. I I don't think an away mode uh would have any any utility because essentially if we're not home uh we're just selling power back to the grid and by um by maintaining the the battery reserve at you know generally at least 50% %. I generally keep it between 50 and 60%. Especially since we're not home, uh it means that we would never have any problems because even if there was a power outage during the night, the house is only drawing, you know, one and a half kilowatt, the the
+Amber Fu: Mhm.
+George Adeff: the battery has plenty of capacity. And then morning when the sun comes up uh you know it'll it'll start recharging it.
+Amber Fu: Mhm.
+ 
+ 
+00:40:41
+ 
+George Adeff: And even on days when there's not full sun you know even on cloudy days uh it'll still we still get some production. In fact, there are some cloudy days where the production will be higher than on a sunny day because the clouds tend to diffuse the the light and so it's almost like the panels become less directional. Um, so I, in my case, I, you know, I would have no use for it. And frankly, I, you know, in a in a wellthoughtout system, I I'm not sure I I know what I would even do to call it an away mode.
+Amber Fu: Mhm. Got it. Got it. And um so since you are not worry about like a pig charging like do you ever feel you there are still way to save a bit more?
+George Adeff: Well, um, yeah, and that's, you know, I I mentioned earlier that my one regret is that I didn't buy two batteries, right?
+Amber Fu: Mhm.
+George Adeff: If I had two batteries, I would sell more back to the grid.
+Amber Fu: Mhm.
+ 
+ 
+00:42:03
+ 
+George Adeff: And so, um, once the system had was paid off, then I it I would actually be be making more money and would be less concerned um, if I had the the second battery.
+Amber Fu: Got it. Got it. And um is a Tesla the system ever done something uh where you felt uh is wrong?
+George Adeff: Um, when they first introduced their storm watch concept, I it wasn't it wasn't really well thought out and I think their source for weather information um I think they didn't really understand how how to use the data that they had access to, which frankly isn't surprising. Um but um but over time they've they've improved that system.
+Amber Fu: Mhm.
+George Adeff: So yeah, in the beginning there were some occasions when when the storm watch either didn't come in didn't go into effect in a time that I wanted it to and so I had to I had to account for that manually. Um and on one or two occasions it kicked in when I didn't think it was necessary. And essentially all the storm watch system does is it assures that prior to the time that's predicted that the storm will come in and could cause a problem system makes sure that the battery is fully
+ 
+ 
+00:43:57
+ 
+Amber Fu: Mhm.
+George Adeff: charged.
+Amber Fu: Mhm.
+George Adeff: If that means that they have to draw from the grid because I'm not I'm not producing enough with the panels.
+Amber Fu: Mhm.
+George Adeff: That means they have to draw from the grid. Then it automatically draws from the grid um in order to be fully charged before the event is scheduled, you know, the the weather event is scheduled to happen. Um and so like so you know early on there were some times when I was more concerned about the potential storm or winds coming than the storm watch software was. So I would manually say no we're going to draw from the grid and we're going to charge the battery even though the system wasn't doing it. I would force it to do it. But I would say in the last couple of years I have I've not had to do that because the system works well enough.
+Amber Fu: Got it. Got it. Uh but beside a storm or uh are there any another thing you wish the system uh system could warn you?
+ 
+ 
+00:45:13
+ 
+George Adeff: Um, I really can't think of anything.
+Amber Fu: Okay. So, you're happy.
+George Adeff: I, you know, I'm not I'm not very familiar with, you know, there's a ton of companies that are doing uh photovoltaic installations and battery installations. I don't know how all of those systems work.
+Amber Fu: Okay.
+George Adeff: possible that somebody with a with a different manufacturer's system that wasn't as well thought out as the Tesla, you know, might have to might have to take more control, might have to spend more time uh controlling things. But I, you know, photovoltaic and battery systems have been around so long now that I can't imagine um, you know, I can't imagine there being any systems out there unless maybe somebody did a home, you know, a a a homegrown one, uh, where automation wasn't wasn't included, then you'd have to to do some manual control. But um you know other than that I I can't think of uh I can't think of anything that I would have my system be doing differently. Having said that, I know there's I don't know how big the community is, but there is a community of people in the United States that are do-it-yourselfers and and feel like they're capable of building their own system and buying components from different companies and putting them together.
+ 
+ 
+00:47:02
+ 
+Amber Fu: Mhm.
+George Adeff: um you know it's possible that some of those people don't have the knowledge to create the automation.
+Amber Fu: Mhm.
+George Adeff: So if there were an independent company or an independent producer of automation, you know, that maybe would be a useful a useful thing and that would be a market that they could that they could address. Um, you know, with the caveat that every system then is going to be different and it would require a lot of uh a lot of customization I would think.
+Amber Fu: Got it. And um so are there like a moment where you think you know I wish I knew why the system doing this is is a right or is it wrong?
+George Adeff: Um, no, not really.
+Amber Fu: Okay.
+George Adeff: I mean, part of that is, you know, I am an engineer. I have, you know, I have a more than the casual level of knowledge that that a lot of other users might might have.
+Amber Fu: Mhm.
+George Adeff: Um, so it doesn't take me very long to logic through what's going on.
+ 
+ 
+00:48:32
+ 
+George Adeff: uh at any you know if something peculiar happens I can generally u think through it pretty quickly um but frankly I can't think of any events that have happened that um you know that the average person you know non-engineer uh would have you know would have much of a a problem.
+Amber Fu: Got it. Got it. And um so right now you you're using the Tesla app, right?
+George Adeff: Yes.
+Amber Fu: Okay. And how often do you open it?
+George Adeff: Uh I I monitor quite a bit and part of that is because we use the same app for the solar and for the car.
+Amber Fu: Mhm.
+George Adeff: Um, so you know, so both my wife and I uh use the Tesla app a lot.
+Amber Fu: Mhm. Got it. And uh so well the last question is like if like if you have a magic and fix one thing about your home energy setup anything uh what what would you pick
+George Adeff: Um, again, I I I would like to have a second battery, right?
+Amber Fu: Okay.
+ 
+ 
+00:50:00
+ 
+George Adeff: That's that's one thing that that I can think of.
+Amber Fu: Okay.
+George Adeff: Um, and we and I am going to expand the system because we're in the process. I I just I I finished building a new garage, uh a new attached garage, and we're going to put an ADU on the top of the garage. So, when we're done with that, I will add some more panels, but right now, my plan is to just wire those panels into the existing system.
+Amber Fu: Mhm.
+George Adeff: Um, and so if we do that, I didn't Yeah, I don't uh yeah, I can't think of anything else really that that I would change.
+Amber Fu: Okay. Okay. Well, thanks. Thanks so much. The this is was super super helpful. Yes. Because uh you know we we uh I think you uh because I have a some friend they have a uh EV charging and the solar but they never got the power wall and they uh right now they still think about it get the power wall because you know the NEM3 the policy.
+ 
+ 
+00:51:23
+ 
+George Adeff: Yeah.
+Amber Fu: Yeah. Uh so they think if they don't have a battery then the solar will be waste.
+George Adeff: Yeah.
+Amber Fu: Mhm.
+George Adeff: So I guess now I understand what what you meant earlier by by waste. I think if if people jump into solar and they don't understand how the system works, then they and I've actually spoken to some people in the past and had to explain to them that if you don't have a battery, yeah, you will you won't really waste it. You're just not going to create it, right? Because because the system will never um will never generate more than what your home can use and and what the grid will accept from you depending who your who your utility
+Amber Fu: Yes.
+George Adeff: is. Um so so that's something that is important for people to understand. Many people have been disappointed when they have a power outage and their house goes down because there's no place for the excess generation to go to.
+Amber Fu: Mhm.
+George Adeff: So the entire system shuts down.
+ 
+ 
+00:52:48
+ 
+George Adeff: Um, you know, that could be addressed by the solar industry because there's ways of managing that that could be managed by by the inverter and a control panel so that you don't shut down the system completely. It's it's eminently possible to create a control logic that only shuts down excess generation. um that would add cost and since most companies that do solar installations want to maximize their profits, it it doesn't make sense for them to create a system like that because they'd rather sell a battery. Um, so, so yeah, I think that anyone who has any thoughts of, of using solar needs to understand thoroughly that without a battery, you lose a lot of the incentive for having solar.
+Amber Fu: Yes, exactly. Exactly. So, yeah, that that's that's a yeah, that's a big problem. So, that's why Yeah, I just try to, you know, talk with the different people and just have a more clear picture for this. Uh, yeah. So, well, thanks again.
+George Adeff: Okay. Yeah. Yeah. Feel free to contact me when when uh whenever you want to talk. Okay. Good.
+ 
+ 
+Transcription ended after 00:54:51
+
+This editable transcript was computer generated and might contain errors. People can also change the text after it was created.

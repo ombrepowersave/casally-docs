@@ -1,0 +1,648 @@
+00:00:00
+ 
+Amber Fu: Hi, how are you?
+Greg Chawla: Good. How are you?
+Amber Fu: Good, good. How's your day going so far?
+Greg Chawla: It's good so
+Amber Fu: That's good. That's good. Well,
+Greg Chawla: far.
+Amber Fu: well, thanks again, you know, for making time for this. You know, I I know everyone's busy, you know, especially before the Christmas. So, yeah, no pressure at all.
+Greg Chawla: Yeah.
+Amber Fu: This is like super casual. And um let me introduce myself a little bit.
+Greg Chawla: Okay.
+Amber Fu: Okay. Uh my name is Amber and uh I'm the one of the founder and I started this because you know I I couldn't figure out why my own electricity bill were so crazy and I realized a lot of my friend well are dealing with the same thing. Uh basically we're just a small team based in LA and uh we're trying to building an app that helps people save money on their daily energy use but without changing their lifestyle. So I love to understand how your home use electricity daytoday so we can figure out what would actually
+ 
+ 
+00:02:53
+ 
+Greg Chawla: Okay.
+Amber Fu: help. Okay, perfect.
+Greg Chawla: Okay.
+Amber Fu: And uh before we get started, would you be okay if I record this call? I I just don't want to miss anything you said, but it's totally option.
+Greg Chawla: Yeah. Go ahead.
+Amber Fu: Oh,
+Greg Chawla: That's fine.
+Amber Fu: okay. Thanks. Uh give me a second. Okay, perfect. So let's start. Um so before we jump, you know, jump into the energy stuff, I love to get a quick sense of your household. Just understand your set a bit better. Well, so nothing personal, just whatever your comfort share is.
+Greg Chawla: Okay.
+Amber Fu: Um so uh how many people live in your home right now? Oh,
+Greg Chawla: three
+Amber Fu: okay. Got it. And how big is a house like roughly?
+Greg Chawla: about 3400 square ft.
+Amber Fu: Okay. And um like do you mostly work from home or is everyone flying?
+Greg Chawla: Yes.
+Amber Fu: I know. Okay.
+ 
+ 
+00:03:54
+ 
+Amber Fu: Got you. And like uh by the way,
+Greg Chawla: Yeah.
+Amber Fu: I noticed that you got the solar and the EV, right?
+Greg Chawla: Correct.
+Amber Fu: Okay. And uh I because I noticed that you are leaving the California. Okay.
+Greg Chawla: Yes.
+Amber Fu: Uh so are your solar is that under the EM2 policy.
+Greg Chawla: I'm not sure what that
+Amber Fu: Uh well well there like right now they have like the two policy like the NM2
+Greg Chawla: means.
+Amber Fu: is a old policy for the solar and uh they have a new policy is called EM3. Uh basically uh the new policy means that if uh if you have a solar then you need to get a home battery something
+Greg Chawla: Oh, no. Yeah.
+Amber Fu: otherwise.
+Greg Chawla: Yeah. I'm not required for that.
+Amber Fu: Oh okay. Okay.
+Greg Chawla: I'm not required for that.
+Amber Fu: So okay got it. How long you got the solar?
+Greg Chawla: And this house I've had it since 2012.
+Amber Fu: Oh okay.
+ 
+ 
+00:04:56
+ 
+Amber Fu: Gotcha.
+Greg Chawla: Yeah.
+Amber Fu: And what what originally got you into the solar?
+Greg Chawla: um the um the funding uh for solar panels by the state or the government.
+Amber Fu: Okay. Okay. Got you.
+Greg Chawla: So it was on a it was on a finance plan which was 20
+Amber Fu: And Oh,
+Greg Chawla: years.
+Amber Fu: okay. Got you. Is is a is it like a lease or Okay.
+Greg Chawla: Yes. It's a lease. Yeah.
+Amber Fu: Okay. And um so when you first installed it, what what did you hope solar would do uh for your
+Greg Chawla: You know,
+Amber Fu: home?
+Greg Chawla: it's it's um my understanding was is my bill would be basically close to nothing and that's that's not the
+Amber Fu: Okay.
+Greg Chawla: case.
+Amber Fu: It so so do you mind I ask how much you pay right now?
+Greg Chawla: Okay. During the summertime, my electric bill is about $900 a month.
+Amber Fu: Oh,
+Greg Chawla: sometimes, you know,
+Amber Fu: okay.
+Greg Chawla: it depends.
+ 
+ 
+00:05:56
+ 
+Greg Chawla: Five, six, seven, you know, somewhere around there. Um, but the good thing is during the winter is I I I get a lot of money back,
+Amber Fu: Okay.
+Greg Chawla: so I'm able to use those credits during the summer.
+Amber Fu: Okay. Got it.
+Greg Chawla: So,
+Amber Fu: And uh and uh so and how many EV do you
+Greg Chawla: so I have one
+Amber Fu: have?
+Greg Chawla: Tesla Model Y
+Amber Fu: Okay, got it. And and well like since like right now you're you know leave this little system for a while. Are they doing good or can you think anything you're not super happy with
+Greg Chawla: No, I I mean I'm happy. I'm happy because of the credit the credits I get during the off season.
+Amber Fu: okay?
+Greg Chawla: So the credits I get during the offseason,
+Amber Fu: Got it.
+Greg Chawla: they automatically apply to the
+Amber Fu: Oh okay.
+Greg Chawla: bill.
+Amber Fu: Okay. But uh do you still receive like a true out bill every year?
+Greg Chawla: Uh, yes.
+ 
+ 
+00:06:56
+ 
+Amber Fu: Okay. And do you mind that ask like how much how much is
+Greg Chawla: Yes.
+Amber Fu: it?
+Greg Chawla: I think last year it was like
+Amber Fu: Okay.
+Greg Chawla: 2,200.
+Amber Fu: Okay. That's what do you feel about it?
+Greg Chawla: You know, it's it's interesting because when I originally bought the solar panels, it was with um Solar Edge and I believe
+Amber Fu: Uh-huh.
+Greg Chawla: Tesla now the bills with Tesla.
+Amber Fu: Mhm.
+Greg Chawla: Ever since it went to Tesla, it doesn't seem to be the same.
+Amber Fu: Oh, okay.
+Greg Chawla: I even added panels too uh like in
+Amber Fu: Oh, you
+Greg Chawla: 2001.
+Amber Fu: Mhm.
+Greg Chawla: I added uh I think I have a total of 35 panels right now.
+Amber Fu: Oh, okay. That's that's a that's a
+Greg Chawla: Yeah.
+Amber Fu: lot.
+Greg Chawla: Um I always look at the Tesla app uh you know every week or so to see what the production is and compared to my other house in in uh Orange
+Amber Fu: Mhm.
+Greg Chawla: County,
+Amber Fu: Mhm.
+ 
+ 
+00:08:09
+ 
+Greg Chawla: my Orange County houses seems to produce more energy with less panels.
+Amber Fu: Oh,
+Greg Chawla: So,
+Amber Fu: okay.
+Greg Chawla: I've spoken with the with the the Department of Water and Power.
+Amber Fu: Uh-huh.
+Greg Chawla: I've spoken to Tesla, and they said everything's working fine.
+Amber Fu: Uh-huh.
+Greg Chawla: So, I don't know, you know,
+Amber Fu: Okay.
+Greg Chawla: I I don't know if it's working fine. I would love to have an app that could show me every day how much energy that I use today, you know. Um,
+Amber Fu: H
+Greg Chawla: I'm hoping the app will show me that my average my day my daily average expense.
+Amber Fu: the detail.
+Greg Chawla: So, I'm not surprised at the end of the month. So, I can also say, okay, you know what?
+Amber Fu: Mhm.
+Greg Chawla: Maybe today or this next week, I need to really really hunker down and, you know, not not try to use too much energy.
+Amber Fu: Gotcha. Gotcha. Yeah. Well, and like when you notice like your another house produced more with a feel panel like what what was your like first reaction like confused or like
+ 
+ 
+00:09:15
+ 
+Greg Chawla: No, I mean I've I've had those panels in my other house
+Amber Fu: like
+Greg Chawla: for since about 2010. I don't really live there.
+Amber Fu: Okay.
+Greg Chawla: my ex-wife lives there, but I got it in the Tesla app to where I can see all the,
+Amber Fu: Okay.
+Greg Chawla: you know, how much energy it's producing, even how much my um Tesla Model Y is using because everything's in the in one
+Amber Fu: Mhm.
+Greg Chawla: app. So,
+Amber Fu: Mhm.
+Greg Chawla: like if I looked at it right now, I could tell you I could open the app and tell you exactly what kind of production levels I'm getting between the two houses.
+Amber Fu: Oh, okay. That would be perfect.
+Greg Chawla: Yeah, let me tell you. Hold on one second.
+Amber Fu: Okay.
+Greg Chawla: All right.
+Amber Fu: Thank you.
+Greg Chawla: Okay. All right. So, December, my other house has produced 203.2 kilowatts. Okay.
+Amber Fu: Mhm.
+Greg Chawla: Now, my house has produced 189.2 kilow.
+Amber Fu: Okay.
+Greg Chawla: So I'm not understanding why.
+ 
+ 
+00:10:39
+ 
+Amber Fu: And like like have like have you like call like the installer or like
+Greg Chawla: Um I have they have come they even we we even had the panels cleaned.
+Amber Fu: Mhm. Mhm.
+Greg Chawla: um back in February. So,
+Amber Fu: Mhm.
+Greg Chawla: I don't know. I mean, it's it's mindboggling to me.
+Amber Fu: Did you ever try like investigate by yourself?
+Greg Chawla: I don't know. I don't know much about it.
+Amber Fu: Okay.
+Greg Chawla: I don't know much about it how to do
+Amber Fu: Okay. Okay.
+Greg Chawla: that.
+Amber Fu: But have you checking like a report or like compare the data stuff like
+Greg Chawla: No,
+Amber Fu: that?
+Greg Chawla: not really. Um again, I just haven't looked into it.
+Amber Fu: Okay. Got it. Got it. Got it. And like I was wondering know like how much time uh do you think you spend like trying to understand those things?
+Greg Chawla: I just go based off the bills.
+Amber Fu: Okay.
+Greg Chawla: I go based off the bills.
+ 
+ 
+00:11:37
+ 
+Greg Chawla: I look month, you know,
+Amber Fu: Okay.
+Greg Chawla: every two month I get the bills.
+Amber Fu: Uhhuh.
+Greg Chawla: So I compare what I used um and
+Amber Fu: Mhm. Mhm.
+Greg Chawla: um you know month you know based monthtomonth like last month it was
+Amber Fu: Mhm.
+Greg Chawla: down um there was only two people here one of the people were went to India for 2 months so the bill was much much lower um it
+Amber Fu: Okay.
+Greg Chawla: was somewhere around I think somewhere around
+Amber Fu: Okay.
+Greg Chawla: 500.
+Amber Fu: But that's I don't think that's lower. I think 500 is a lot per month.
+Greg Chawla: I think so too. I think so too. I don't know what's going on.
+Amber Fu: Is it two house together total?
+Greg Chawla: No,
+Amber Fu: 500.
+Greg Chawla: no, that's this house.
+Amber Fu: Oh,
+Greg Chawla: Yeah,
+Amber Fu: really?
+Greg Chawla: the other house. My wife pays for the bill, so I don't even know what she's paying.
+Amber Fu: Oh, okay. Well,
+ 
+ 
+00:12:35
+ 
+Greg Chawla: Yeah.
+Amber Fu: that's that's weird cuz you you got a lot of panel and you still pay that
+Greg Chawla: Yeah, I know. I know.
+Amber Fu: much.
+Greg Chawla: I mean during the summer time. Okay. We do use the air conditioner even in the winter time.
+Amber Fu: Good.
+Greg Chawla: Um here,
+Amber Fu: But it shouldn't be that much.
+Greg Chawla: let me grab the bill. I just I'm going grab the bill.
+Amber Fu: Okay.
+Greg Chawla: Let me show you tell you exactly because we get we get water and electricity together.
+Amber Fu: Okay.
+Greg Chawla: So, I have the bill right here. Maybe I'm not reading it right. I got it right here. All right. That's the gas bill. Okay. Department of Water and Power.
+Amber Fu: Mhm.
+Greg Chawla: Um electric charges uh for 2 months was
+Amber Fu: Mhm.
+Greg Chawla: 419.
+Amber Fu: 490 two month.
+Greg Chawla: Yeah. H yes correct.
+Amber Fu: It's a two month, right? Okay.
+Greg Chawla: November uh September October November.
+ 
+ 
+00:13:55
+ 
+Amber Fu: Okay.
+Greg Chawla: So my usage last month was a lot less than the previous month.
+Amber Fu: Oh, okay.
+Greg Chawla: So yeah,
+Amber Fu: Is it because like like uh someone go to Indian for the trip?
+Greg Chawla: but I also think maybe because of the weather cooled down too, you know,
+Amber Fu: Oh yeah.
+Greg Chawla: since since you know September and October. So,
+Amber Fu: Mhm.
+Greg Chawla: uh, like 2,000, let's see, 1,251 kilowatts I used that last period, right?
+Amber Fu: Okay.
+Greg Chawla: in se in September it was I mean not um the previous bill it was almost 2,000 so
+Amber Fu: Uh, is a true up bill?
+Greg Chawla: h yeah
+Amber Fu: It's a true app bill. The 2,000. Oh, 2,000.
+Greg Chawla: $200
+Amber Fu: Is it $2,000? You said Oh,
+Greg Chawla: watts 200 watts the previous month kilowatts sorry
+Amber Fu: okay. 200. Okay. Got Okay.
+Greg Chawla: kilowatts so That's,
+Amber Fu: Okay.
+Greg Chawla: you know, a difference of, so 2,000 compared to 1,400. So, basically a difference of 600 watts.
+ 
+ 
+00:15:22
+ 
+Greg Chawla: So, I'm sure that's got to do a lot with the AC not being as used as much during October and that part of November,
+Amber Fu: Mhm.
+Greg Chawla: which may be the big difference.
+Amber Fu: Okay.
+Greg Chawla: Now, Chadzsworth,
+Amber Fu: Got it.
+Greg Chawla: Chadzsworth is very, very hot. So,
+Amber Fu: Uh-huh.
+Greg Chawla: you know, but that gives you an idea. I mean, I'm looking looking right at
+Amber Fu: Mhm.
+Greg Chawla: it.
+Amber Fu: But when you like look the bill like is there any part you're not like 100% confident you understand?
+Greg Chawla: Um
+Amber Fu: You know, just maybe guessing a little like when you read the number.
+Greg Chawla: it gives me the breakdown of you know the base kilowatts delivered and received and it gives me the low
+Amber Fu: Uhhuh. Mhm.
+Greg Chawla: low peak kilowatts received and delivered and also the high peak.
+Amber Fu: Mhm. Mhm.
+Greg Chawla: So I mean it I mean it's kind of somewhat easy to understand because what's delivered and what's
+Amber Fu: Okay.
+Greg Chawla: received there is a difference.
+ 
+ 
+00:16:17
+ 
+Amber Fu: Mhm. Mhm.
+Greg Chawla: So it's adjusting basically based on minus the um what's delivered and received. So it's minusing that. So I can see that I am getting credits.
+Amber Fu: Okay. Okay.
+Greg Chawla: I am getting credits. Now,
+Amber Fu: Okay.
+Greg Chawla: maybe the credits aren't high enough is my is my
+Amber Fu: Uhhuh.
+Greg Chawla: opinion.
+Amber Fu: Uhhuh. Got it. Got it.
+Greg Chawla: We bought the Tesla in in May in May of
+Amber Fu: Okay.
+Greg Chawla: this year and I don't think that makes much of a difference because we don't really drive that
+Amber Fu: Uh
+Greg Chawla: much. So,
+Amber Fu: Mhm.
+Greg Chawla: the other car is gas. We only have one electric vehicle. So, I don't know. I mean uh some sort of an app that shows me my energy use or I don't
+Amber Fu: Okay.
+Greg Chawla: know how I mean maybe you I guess you have a explanation basically to me and what what this app is
+Amber Fu: Yeah.
+ 
+ 
+00:17:19
+ 
+Amber Fu: Yeah.
+Greg Chawla: about.
+Amber Fu: Like like when you say like the credit like do you know if they are actually meaningful or just better than nothing?
+Greg Chawla: Better than nothing.
+Amber Fu: Okay. Okay. So like do you ever ask like yourself like oh am I getting like as much credit as I should?
+Greg Chawla: Yes, I do.
+Amber Fu: Okay.
+Greg Chawla: Absolutely.
+Amber Fu: Okay.
+Greg Chawla: Yes, I do. With 35 panels,
+Amber Fu: Yes. I mean that's a lot of Yes.
+Greg Chawla: something is something is not right.
+Amber Fu: Exactly.
+Greg Chawla: And I I I need to figure out what that is.
+Amber Fu: Okay.
+Greg Chawla: So,
+Amber Fu: Okay. Got you. Got you.
+Greg Chawla: yeah.
+Amber Fu: And and like for like right now are those like explanation like something you feel confident about or are they more like you know educate g
+Greg Chawla: I think it's very hard to trust the power company if what those act what those numbers are
+Amber Fu: Yeah, exactly.
+Greg Chawla: actually true.
+Amber Fu: Uh-huh.
+ 
+ 
+00:18:16
+ 
+Greg Chawla: I wouldn't be disappointed as they keep raising rates constantly that you know even if
+Amber Fu: Mhm.
+Greg Chawla: that's true you know I don't know because you get a bill you pay it
+Amber Fu: Mhm.
+Greg Chawla: you really have I mean I don't know how you even question a bill or um if the bill's honest I don't know I don't
+Amber Fu: Exactly. Yes. Yes. Yeah.
+Greg Chawla: know because when I first when we first bought this house I know we bought
+Amber Fu: Mhm.
+Greg Chawla: this house in early8s And I mean,
+Amber Fu: Oh, okay. That's Yeah.
+Greg Chawla: what our what our costs have gone up, I thought, you know,
+Amber Fu: Mhm.
+Greg Chawla: I don't know. Um I wish I wish there was a way to know.
+Amber Fu: Okay.
+Greg Chawla: That's an honest
+Amber Fu: Oh, definitely. Well, and like if there like a system can clearly said,
+Greg Chawla: answer.
+Amber Fu: oh, this uh this change is like 60 70% like AC usage and 30% better like would that be more like valuable than the gasing?
+ 
+ 
+00:19:17
+ 
+Greg Chawla: Absolutely.
+Amber Fu: Uhhuh.
+Greg Chawla: Absolutely.
+Amber Fu: Okay.
+Greg Chawla: Yes.
+Amber Fu: Okay. Mhm.
+Greg Chawla: Yeah.
+Amber Fu: And like like the bail because like which company you're using right now?
+Greg Chawla: Los Angeles Department of Water and
+Amber Fu: Oh, okay. Got you.
+Greg Chawla: Power.
+Amber Fu: And like when you look at like each line item like do you ever wondering if the one of those look like a euro high
+Greg Chawla: Yeah, sure. I question it. Sure. question. I don't know. I mean,
+Amber Fu: okay?
+Greg Chawla: what they're saying or what it actually is. I don't know what what the usage
+Amber Fu: Uhhuh. Uhhuh.
+Greg Chawla: is.
+Amber Fu: Like but but based on like what you say now like do you feel like you know whether you need to do anything differently next month?
+Greg Chawla: Yeah. Use the air conditioning less.
+Amber Fu: Okay. Okay.
+Greg Chawla: I mean, that would be the first thing.
+Amber Fu: Okay. Okay.
+ 
+ 
+00:20:07
+ 
+Amber Fu: And well, and if you could like a press a button and the system like simply told you that oh everything here looks normal, no action need, would that alone be available to you?
+Greg Chawla: Absolutely.
+Amber Fu: Okay. Okay. Gotcha. Gotcha.
+Greg Chawla: Yes.
+Amber Fu: And like and like I uh when like you you look at the like Tesla app like what question does this not answer for you or
+Greg Chawla: It doesn't really. It doesn't really because all it's saying is what what the app is
+Amber Fu: like
+Greg Chawla: producing, you know. Um I
+Amber Fu: what part of information you still want to know?
+Greg Chawla: would like to know actual numbers.
+Amber Fu: Okay.
+Greg Chawla: What's the dollar amount? What is the dollar amount that the energy is how much energy I am creating and how much energy is
+Amber Fu: Okay.
+Greg Chawla: being delivered?
+Amber Fu: Mhm.
+Greg Chawla: That's what I would how much how much how much actual solar power am I actually using and how much solar power is being delivered to the power company.
+ 
+ 
+00:21:09
+ 
+Amber Fu: Mhm. Mhm.
+Greg Chawla: That's what I would like to
+Amber Fu: Okay. Okay. Okay. Got you. Got you.
+Greg Chawla: know.
+Amber Fu: And like and when you like see like your true uphill like does it feel like like I'm reasonable to you the true uphill.
+Greg Chawla: I think it I think it's unreasonable.
+Amber Fu: Okay. Okay.
+Greg Chawla: Yeah.
+Amber Fu: And like would it help if you could say like like exactly like you know uh why like they have like really clearly explanation. Do you think that will be useful? Okay. Okay. Gotcha. Got it.
+Greg Chawla: Absolutely.
+Amber Fu: And and like if the system can told you that oh okay this week um matter more like than a euro would you actually change how you use energy?
+Greg Chawla: Absolutely.
+Amber Fu: Okay. And uh I was want to know like do you like try to use like during the sunny day do you try to use more like solar energy?
+Greg Chawla: Um, I would like to, but I don't think it gives me the choice of how I use my
+ 
+ 
+00:22:16
+ 
+Amber Fu: Oh okay. Okay.
+Greg Chawla: solar
+Amber Fu: Because you know some people they are do you know like during the sunny day they try to use more solar. So they you know do like the per heating or per cooling like you know cool cool down the house and like after like 6:00 p.m. 700 p.m. they just shut down the AC. Well some people do that for saving the money. I don't know like have you ever tried that before?
+Greg Chawla: Um I have not I have not I have I
+Amber Fu: Okay. Okay.
+Greg Chawla: have upstairs and downstairs and I have two separate units.
+Amber Fu: Okay.
+Greg Chawla: So I have not tried that.
+Amber Fu: Got you.
+Greg Chawla: Maybe I should try that. Cool the house down early in the morning.
+Amber Fu: Okay. Okay. Okay.
+Greg Chawla: Maybe I should try
+Amber Fu: And got you. And like what would would make you trust the system enough to say,
+Greg Chawla: that.
+Amber Fu: "Oh, okay. I don't need to worry about this anymore.
+ 
+ 
+00:23:12
+ 
+Greg Chawla: A better understanding of how much electricity I'm actually using would be would be beneficial.
+Amber Fu: Okay.
+Greg Chawla: a number that a number an app that the app could tell me that this is how much energy you use this much and I could if I could compare that to my bill that would be very
+Amber Fu: Okay.
+Greg Chawla: useful I
+Amber Fu: Mhm. Mhm. Got you. Got you. And well um um like but would you trust a third party
+Greg Chawla: guess
+Amber Fu: system? Okay. Okay. Cuz you know some people they they just don't trust a third party system. So Okay.
+Greg Chawla: it's better than the Department of Water and Power. I hope I
+Amber Fu: Okay. Okay. Gotcha. Gotcha. And uh and like so about saying like the if you you said
+Greg Chawla: hope,
+Amber Fu: like a system could trust like what what would it need to show you like for you believe the number are real.
+Greg Chawla: you know, I don't know.
+ 
+ 
+00:24:14
+ 
+Greg Chawla: I don't know. I don't know what it what to compare it to. I mean, I don't know. I don't know.
+Amber Fu: Okay.
+Greg Chawla: until I can see something that that I can understand physically with my
+Amber Fu: Mhm. Mhm.
+Greg Chawla: eyes,
+Amber Fu: Mhm.
+Greg Chawla: then I'd be able to better answer that question. I I don't know what I don't know what it would take to better understand what I'm looking
+Amber Fu: Okay. Okay. Got you. Got you.
+Greg Chawla: for.
+Amber Fu: And like if you had a choice like would you rather say energy in the kilowatt hours or everything translate into dollars?
+Greg Chawla: Dollars.
+Amber Fu: Dollars. Okay.
+Greg Chawla: Dollars.
+Amber Fu: Okay. And like at end of day is a dollar the only number that really matters to you or you need to some like something else data.
+Greg Chawla: I I think dollars because when I when I charge my Tesla at the end of the month,
+Amber Fu: Mhm.
+Greg Chawla: it could tell me on average what I would have spent on gas and what did I spend on actually charging my
+ 
+ 
+00:25:08
+ 
+Amber Fu: Mhm.
+Greg Chawla: car.
+Amber Fu: Mhm.
+Greg Chawla: That's a beautiful That's a beautiful thing to me.
+Amber Fu: Okay. Mhm.
+Greg Chawla: It gives you a true explanation of dollar amount that you would have spent this much on gas and you would have spent you said you
+Amber Fu: Mhm.
+Greg Chawla: spent this much on electricity.
+Amber Fu: Mhm.
+Greg Chawla: This is what you saved.
+Amber Fu: Mhm.
+Greg Chawla: That to me is fantastic.
+Amber Fu: Gotcha.
+Greg Chawla: I can I can actually understand what's going
+Amber Fu: Gotcha. Gotcha. Okay. I totally understand.
+Greg Chawla: on.
+Amber Fu: And And do you ever feel like, you know, even though you did everything right, like solar panel, EV, but the system still isn't working in your favor? that says ever feel like unfair.
+Greg Chawla: Yes,
+Amber Fu: Okay. Okay. Okay.
+Greg Chawla: absolutely.
+Amber Fu: But but I I was wondering like would you rather than say some like automatically made decision for you or like just simple explain like clearly what's happened and let you decide.
+ 
+ 
+00:26:04
+ 
+Greg Chawla: Would the I mean would the system be able to do it by itself?
+Amber Fu: Yeah. like you know like they can automatically make make a decision for you or uh they just you know simple explain like like oh what happening right now and let you decide what to do.
+Greg Chawla: I think I would rather have more control over
+Amber Fu: Okay. Okay. Okay. Got you. Got you.
+Greg Chawla: it.
+Amber Fu: And and like what yearly number would you say, oh, okay, this is like unassettable. Something is wrong for the true bill. And what's or like what number is like you think, oh, that's reasonable.
+Greg Chawla: I think $200 a month should be reasonable.
+Amber Fu: Okay.
+Greg Chawla: I think so. I
+Amber Fu: Okay. Okay. Okay. Got you. And well,
+Greg Chawla: mean,
+Amber Fu: if there have a app today that show you like a daily dollar usage and whether whether everything looks normal and like a clearly explanation when something changed, would you actually use it every day?
+ 
+ 
+00:27:09
+ 
+Greg Chawla: Yes, I would.
+Amber Fu: Okay.
+Greg Chawla: Especially at the start until I understood what's going
+Amber Fu: Okay. Okay. Got you. And like uh maybe after you're using like a month or something like
+Greg Chawla: on.
+Amber Fu: if really like can explain everything really clearly and would you willing to pay for that or you think well maybe just wait.
+Greg Chawla: It depends how much it is. Is it monthly, yearly?
+Amber Fu: Okay. Well maybe let's see like monthly like $4 something like that.
+Greg Chawla: If it does what I want it to do and it shows me I'm getting value.
+Amber Fu: Uhhuh.
+Greg Chawla: If I'm getting value, yes, I have no problem paying
+Amber Fu: Okay. Okay. Okay.
+Greg Chawla: it.
+Amber Fu: U have like right now did you ever use like a third party app except the Tesla and the solar app?
+Greg Chawla: All I have is Tesla.
+Amber Fu: Okay.
+Greg Chawla: That's it.
+Amber Fu: Okay. Gotcha. Gotcha. And um so do do you have any question for me?
+ 
+ 
+00:28:13
+ 
+Greg Chawla: Um, I would um I would like to see how the app
+Amber Fu: Okay. Okay. Definitely. Definitely.
+Greg Chawla: works.
+Amber Fu: Well, you know what? Um, so like right now we're still like in the early version, but but like once we had the app ready,
+Greg Chawla: Sure.
+Amber Fu: like would you open to try it out as a beta tester? Okay. because like uh we we your feedback is very valuable for for us
+Greg Chawla: Absolutely.
+Amber Fu: and I really want to hear like what you think and is it like it does this app is really help you
+Greg Chawla: Again, if it g if it gives me value,
+Amber Fu: uh
+Greg Chawla: I have no problem paying for it. I would love to have something like because I don't think there's anything like that on the market right now.
+Amber Fu: okay yeah okay
+Greg Chawla: I haven't seen anything.
+Amber Fu: so well I'm really appreciate and uh probably our early version app will be coming soon like in two week.
+Greg Chawla: Oh,
+ 
+ 
+00:29:14
+ 
+Amber Fu: Uh so yeah once we have that uh I will like invite you so please keep
+Greg Chawla: okay.
+Amber Fu: in touch.
+Greg Chawla: Okay. Yeah. Okay.
+Amber Fu: Okay thank you.
+Greg Chawla: Yeah. You could just email me anytime. You have my phone number. You can call me.
+Amber Fu: Okay okay okay sure thank you thank you thank you and
+Greg Chawla: That's fine. No problem. No problem. Yeah.
+Amber Fu: appreciate your time today.
+Greg Chawla: Oh, my pleasure. Thank you for your time.
+Amber Fu: Okay. Uhhuh. Well take care.
+Greg Chawla: Thank you.
+Amber Fu: keep in touch.
+Greg Chawla: Okay.
+Amber Fu: Okay,
+Greg Chawla: Anything else you need to know for me before you hang
+Amber Fu: bye.
+Greg Chawla: up?
+Amber Fu: Um, right now I think I'm fine.
+Greg Chawla: Yeah.
+Amber Fu: I will if I have coming up with some more question I will let you
+Greg Chawla: Okay. Yeah.
+Amber Fu: know.
+Greg Chawla: Just you can just uh message me and say, you know, I'd like to speak to you and then that you can say, I'm going to give you a call right now.
+ 
+ 
+00:29:56
+ 
+Amber Fu: Okay.
+Greg Chawla: You available and Yeah. Well,
+Amber Fu: Sure.
+Greg Chawla: no problem.
+Amber Fu: Sure. That that'd be perfect.
+Greg Chawla: No problem.
+Amber Fu: Thank you.
+Greg Chawla: Yeah,
+Amber Fu: I appreciate.
+Greg Chawla: no problem.
+Amber Fu: Okay. Thanks.
+Greg Chawla: And you you have my email when that beta testing is ready, you can just email it to me or or if you want to if you want to talk first to give me,
+Amber Fu: Okay. Sure, sure. Definitely.
+Greg Chawla: you know, give me a rundown how to use it.
+Amber Fu: Yeah. Yeah. Yeah. Yeah.
+Greg Chawla: Either way,
+Amber Fu: I I probably need to I probably need to do another like this to just show you how to use it.
+Greg Chawla: that's fine. That's fine.
+Amber Fu: Okay.
+Greg Chawla: I'm excited about that.
+Amber Fu: Okay. Thank you.
+Greg Chawla: I'm excited about that.
+Amber Fu: Thank you so much.
+Greg Chawla: Yeah.
+Amber Fu: Yeah. Okay.
+Greg Chawla: Good luck to you.
+Amber Fu: Thanks.
+Greg Chawla: Good luck to you.
+Amber Fu: Okay.
+Greg Chawla: I hope it works.
+Amber Fu: Thank you. I hope too. Okay.
+Greg Chawla: Oh, okay. Thank you. Okay. Bye.

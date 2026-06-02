@@ -1,0 +1,784 @@
+Feb 2, 2026
+Casally Demo 2.0 Interviews (Tony Reece) - Transcript
+00:00:00
+ 
+Amber Fu: Hi Tony.
+Tony: Hello. How are you?
+Amber Fu: Good. Good. Thanks taking time today.
+Tony: No
+Amber Fu: Okay. I really appreciate.
+Tony: problem.
+Amber Fu: So uh uh so today I will show you our uh demo and uh before I show you I just want to make sure
+Tony: Okay.
+Amber Fu: like uh from our last conversation like uh you mentioned some your concerns like uh I think you said like you know like 4 to 9 p.m. is expensive and you you move laundry to the morning,
+Tony: Right.
+Amber Fu: right?
+Tony: Either the morning or
+Amber Fu: Okay. Okay.
+Tony: after.
+Amber Fu: And and I think and also you mentioned that you you don't want to guess where the bills coming from.
+Tony: No. Right.
+Amber Fu: Okay. And you don't you don't want to recalculate rate in your head every day,
+Tony: Right.
+Amber Fu: right?
+Tony: Exactly.
+Amber Fu: Okay. Perfect. So well uh so a quick two question before we get start. So, first is uh if you could pick only one, would you rather know like the real time price or the the the top home load?
+ 
+ 
+00:01:22
+ 
+Tony: Uh I think real time price I would prefer. Uh
+Amber Fu: Okay, got you.
+Tony: yeah,
+Amber Fu: And and second is like do you prefer like a daily check in style or only alert like when something look off
+Tony: you know, I think I would prefer the daily check-in uh and prefer that would be preferable
+Amber Fu: okay
+Tony: uh because it would sort of remind me as opposed to it's Yeah.
+Amber Fu: got you uh I will send you a link uh is through you can see through the uh chat with us.
+Tony: I see
+Amber Fu: Okay, perfect. And um so for our app uh we are trying to do three
+Tony: it.
+Amber Fu: things. Uh the first is like a calculate today's cost for the customer and the second is like a surface what's a driving usage right now like including like I know baseline and the third is like gave you a daily confidence check so you don't have to think about
+Tony: Okay.
+Amber Fu: it okay and let me know if you can open
+Tony: Right. Okay.
+Amber Fu: it
+ 
+ 
+00:02:32
+ 
+Tony: I'm opening uh I'm just going to open it in a new window for now just to see it.
+Amber Fu: Okay.
+Tony: So there it is. Figma app. Cool. Yes, it just popped
+Amber Fu: Okay.
+Tony: up.
+Amber Fu: Perfect. And if you don't mind, uh can you share the screen with us?
+Tony: Sure.
+Amber Fu: Thank
+Tony: I'm going to put it in there.
+Amber Fu: you.
+Tony: And me a second. Got too many tabs open. I'm closing it so you guys don't get confused with my crazy screen.
+Amber Fu: It's okay.
+Tony: All
+Amber Fu: Take your time.
+Tony: right. And where is the share screen?
+Amber Fu: Uh I think it's a right uh the bottom. And do you see did you see the icon like a turn off camera and on the right side?
+Tony: Oh. Oh, yeah. I clicked on it. I was choosing between the Chrome tab and the entire screen.
+Amber Fu: Yes.
+Tony: I'm just going to share the Chrome tab with you. Um, the tab to share. Hello. Is it working?
+ 
+ 
+00:04:00
+ 
+Amber Fu: Um I didn't see yet.
+Tony: Yes. Let me try again.
+Amber Fu: Okay.
+Tony: There. Can you see it now?
+Amber Fu: Yes, I can see it. Okay. So,
+Tony: Perfect.
+Amber Fu: uh so before we go uh f uh further uh I want to try something like slightly different today. So we actually have a two version of the home screen. So one is a new direct uh direction and another is a already version and on
+Tony: Okay.
+Amber Fu: the left side uh you can see the list called the flows on the right. Yeah.
+Tony: Okay.
+Amber Fu: And the one called the new home like which is right now the page is our new version and
+Tony: Right.
+Amber Fu: another three are old version represented by a different state.
+Tony: Okay.
+Amber Fu: So yeah just let you know in case you are confused. Okay.
+Tony: Okay.
+Amber Fu: So you can just you know uh look like both those uh those app and just click uh or like looking around and I will
+Tony: Sure.
+ 
+ 
+00:05:12
+ 
+Amber Fu: give you a few minutes and when you finish I can we can go through together it
+Tony: Um, should I start with new home or should I start at the top with Okay,
+Amber Fu: doesn't matter.
+Tony: I'm going to start where we are right. Great. All right, I'm looking at it right now.
+Amber Fu: Yeah.
+Tony: So uh simple who it I like who I am temperature all those things. So at least it's talking about where I am budget and
+Amber Fu: Mhm.
+Tony: it and the achieved is how much of the budget I've actually you know if I say it's $200 that's how much of the 200 or 170 that I've already spent. That's what that means I think.
+Amber Fu: Yeah.
+Tony: Okay cool. Automatic Tesla mode is charging a high price. Pause EV charging during peak hours. Okay. Charge during off peak. Okay. Oh, all right. Yeah, it's it seems pretty straightforward. Um and this is looks like this is the homepage I'm seeing.
+Amber Fu: Yes.
+Tony: Okay.
+Amber Fu: And also you can drag drag down like it to have more
+ 
+ 
+00:06:16
+ 
+Tony: So, I'm Let's see.
+Amber Fu: stuff.
+Tony: I was trying to to scroll it. It's not scrolling. It's like
+Amber Fu: Uh,
+Tony: uh
+Amber Fu: I think probably you need to like a click and like like click and drag.
+Tony: Okay, let me try that. Oh, okay. At least I've got the cursor moving on,
+Amber Fu: Okay.
+Tony: but I'm clicking and dragging and it's
+Amber Fu: Oh,
+Tony: seems to be stuck in one place,
+Amber Fu: or like uh
+Tony: you know. I'm going to I'm going to go click on normal blue right now and then come on.
+Amber Fu: Okay.
+Tony: It's not even it's not shifting. H. That's interesting. It's like it's not uh I can move the cursor and you could probably see that, but I'm not getting
+Amber Fu: Yeah. Um,
+Tony: the
+Amber Fu: let me see how this work. Uh so uh maybe you can like click and just like like like this click and Yeah.
+Tony: and drag.
+Amber Fu: And you need to
+Tony: Yeah,
+Amber Fu: click
+Tony: I I've been trying to click and drag and I'm moving it to different places on
+ 
+ 
+00:07:58
+ 
+Amber Fu: um you can click any like a a blank like
+Tony: Right.
+Amber Fu: the
+Tony: Like like right now I'm I'm Let me see if I can get this thing to Yeah, I'm I'm holding and it's not it's not catching anything. I know it I know it works. It's my Apple mouse and it uh but for whatever reason it's not connecting to this thing, nor is it allowing me to jump around to any of the other flows right now. Then just need to refresh
+Amber Fu: Oh, it's okay.
+Tony: it.
+Amber Fu: Uh, maybe we can try. Let's see. Uh, uh, it's okay. Or you can maybe try to like, you know, under the flows there have like attention red. Maybe you can try that page to see if
+Tony: Yeah, I I've tried and every time I click on attention red I it's not
+Amber Fu: if
+Tony: uh all here.
+Amber Fu: it's
+Tony: Let's Oh, okay. There we go.
+Amber Fu: Oh, okay. There we go.
+Tony: Soon as I shrunk it from full screen, it works now.
+ 
+ 
+00:09:09
+ 
+Amber Fu: Perfect.
+Tony: Okay, great, great, great, great. All right, so we've gone through the first part with uh the Tesla and pausing the charging. Um,
+Amber Fu: Mhm.
+Tony: now moving on to second part, power outage warning. Change your power wing.
+Amber Fu: Mhm.
+Tony: So, this this saying that uh it'll also tie in to let me know if there's any outages being alerted. Right.
+Amber Fu: Uh yes.
+Tony: Okay. And then going down to usage hourly. See daily. So this is the daily look. All right. So, uh maybe I'm missing something it can help me with. So, right now I clicked on daily and uh
+Amber Fu: Uh-huh.
+Tony: it's that's showing me my daily from September 21 to September 27th. That's I'm reading that
+Amber Fu: Oh,
+Tony: right.
+Amber Fu: so Oh, sorry. This is uh I think it's a mistake for the word actually. I think this will should be like a weekly.
+Tony: Uh oh. Okay.
+Amber Fu: Okay,
+Tony: No, no, no. It it it's fine.
+Amber Fu: sorry.
+Tony: Um uh it cuz like there's this but it it actually makes sense because if I'm looking, you know, on the hourly and it's showing me right now from TW,
+ 
+ 
+00:10:46
+ 
+Amber Fu: I love
+Tony: you know, uh all throughout the day,
+Amber Fu: Yeah.
+Tony: um it's showing that I would take this as that's my price for the day. Like spent $9.
+Amber Fu: Yeah.
+Tony: I'm I am gonna have to pay $9.28 is the way I'm looking at it.
+Amber Fu: Yeah.
+Tony: So yeah, I I like that. I think this the only change on I would have for it making sense to to to people more would be changing hourly to daily and daily to weekly just like you said. Uh, and then now daily makes sense because I'm seeing seven days and I could say that's the weekly and there's 50 bucks. And then monthly I could back shows me most of the days and there's my price for uh for them. So yeah, so if that hourly was changed to daily and the daily was changed to weekly that it I
+Amber Fu: Yeah.
+Tony: got it right away. It was it makes it's very
+Amber Fu: Gotcha.
+Tony: simple.
+Amber Fu: And uh so maybe you can uh do you mind tell me to go up a little bit?
+ 
+ 
+00:12:00
+ 
+Tony: Sure.
+Amber Fu: Uh maybe go up one more. Okay. Yeah, I go up a little bit. Sorry. Yeah. So, uh the for those like a suggestion card, they have like automatic and menu. Uh so, the automatic is like we will uh help you to handle it by our side. The manual is like we will we will send to you e if like if you're using if you have the Tesla or well you can click on the menu to see. Yeah. uh you you can go your or if you got the Tesla you can go to the Tesla setting. So yeah the so the customer have their choice either like automatic or
+Tony: Right. Right.
+Amber Fu: manually
+Tony: Right. So, if it's on automatic, you guys would would have the Tesla log in and would fix would make the change.
+Amber Fu: there. Yes.
+Tony: And on manual, you're just saying,
+Amber Fu: Yes.
+Tony: "Hey, here's the change you need to make." and I have to go in and
+ 
+ 
+00:12:57
+ 
+Amber Fu: Uhhuh. A Tesla app. Yes.
+Tony: and write into my app and and take care of it.
+Amber Fu: Mhm.
+Tony: Okay. Yeah, that I I have to say one thing about that.
+Amber Fu: Yeah.
+Tony: I like the option of automatic and manual. uh because I think a lot of people when they have that won't would be have
+Amber Fu: Mhm.
+Tony: a hard time kind of sharing uh what you know that login but if you gave them the information for the manual fixing then it wouldn't be a big deal because they could then turn around and just take care of it themselves. So, uh, they may choose the automatic at some point, but having the manual option, uh, I think makes them feel like they have much more control.
+Amber Fu: Mhm. Yeah, that's right.
+Tony: Yeah.
+Amber Fu: Yeah. And how how you feel about like the like the you know monthly bill budget?
+Tony: Um, I think it's a good starting point because it kind of tells you, uh, you know, if you're going, I think I average $170 a month.
+ 
+ 
+00:14:09
+ 
+Tony: I think it because it makes you then go,
+Amber Fu: Mhm.
+Tony: okay, am I staying within that average?
+Amber Fu: Mhm. Yes.
+Tony: Yeah. So,
+Amber Fu: Yes.
+Tony: it's it's a good it's good for a starting point. Yeah.
+Amber Fu: Mhm.
+Tony: which is nice. Um, and we we all know, you know, we budget one thing, but the actual is what we care about. And people will really love if they're if the they figure out ways to bring their number below their budget.
+Amber Fu: Yeah.
+Tony: Yeah.
+Amber Fu: Yeah.
+Tony: Even if it's even if it's $1.
+Amber Fu: Mhm.
+Tony: Um,
+Amber Fu: Yeah.
+Tony: yeah.
+Amber Fu: So, so the mostly budget. So when we think about this, we're thinking design this because we're not thinking this is uh not a goal. It's kind of like a comfort boundary like so you're not telling the app like how low
+Tony: Yeah,
+Amber Fu: your bill should be. You're telling us like oh if my bill goes above this I want to know earlier and
+Tony: exact
+Amber Fu: I want to help before become like a surprise bill you know.
+ 
+ 
+00:15:13
+ 
+Amber Fu: Yeah.
+Tony: right.
+Amber Fu: So it's kind of like a a different from like a traditional budget. So, we're not trying to like optimize your bill to the lowest possible number and we're like definitely not like forcing you to change your lifestyle.
+Tony: Right. Right.
+Amber Fu: Yeah.
+Tony: But and the uh the next bar with how much of the budget you've already spent is great because if you know the day and you have that kind of you kind of get that sense of uh here's you know I'm halfway through and I've uh
+Amber Fu: Mhm.
+Tony: and I've only spent you know 52 62%.
+Amber Fu: Mhm.
+Tony: you in your head already start thinking about what you have to do to
+Amber Fu: Yes. Exactly. So, so you know once you set the boundary like everything else in the app will become
+Tony: Yeah.
+Amber Fu: relevant to you like the same events can mean very different things to different people.
+Tony: Yeah. Yeah. Um it interestingly when because you set that uh monthly budget and then where you are it almost makes uh what you do sort of a
+ 
+ 
+00:16:16
+ 
+Amber Fu: Uh-huh.
+Tony: game um because you start feeling the oh I want to keep this below a certain amount. Um,
+Amber Fu: Yeah.
+Tony: so it's it feels more like a game than than it does uh something big and serious. Um, which can I think weigh people down. So, you know, oh, I'm saving money. Great. Oh, what? You know, I reset my Tesla to now only turn on, you know, start drawing power at 900 PM till the next morning. Oh, look, I'm saving money. And you keep seeing that. That I think that's really cool.
+Amber Fu: Okay. Yes. So that's why like you know the budget is uh you know set at the center because it's decide like three things. First is like what we flag as a risk and second is like what show up on hold you know like a suggestion card and and the last is like which action we push and which action we
+Tony: Right.
+Amber Fu: quietly ignore.
+Tony: Right.
+Amber Fu: Yeah.
+Tony: Right.
+Amber Fu: Okay. And uh you can uh maybe you can uh click on the more detail.
+ 
+ 
+00:17:28
+ 
+Amber Fu: Did you see it under the menu?
+Tony: Yes.
+Amber Fu: Okay. So you know every suggestion cards we will have like the really detailed page. So just tell the users like oh what's happened why matter like how impact. Yeah,
+Tony: Yeah.
+Amber Fu: because like you know like because I know like uh some app they really automatic but the a lot of user think oh why why they do that you know so we try to you know uh have more more explanation
+Tony: Right. Right. No, that that's actually that's actually good, especially if it it can hit all of those specific reasons like you know this one the EV was charging while electricity prices were higher. Makes perfect sense.
+Amber Fu: Mhm.
+Tony: Uh and I also like I'm going back one.
+Amber Fu: It's okay. You can click go back. Yes. Oh. Uh go you can click home. Home home.
+Tony: Let me go back to home. Uh,
+Amber Fu: Yeah.
+Tony: I like how it's all of this info here at uh is kind of sets you up for all of the details coming afterwards.
+ 
+ 
+00:18:47
+ 
+Tony: So, um, like Tesla Model SV charging during high price,
+Amber Fu: Mhm.
+Tony: here's a suggestion, pause the EV charging, etc. So you get that up front, but when you click on the more detail, it literally tells me, yes, we're charging a high price. Hey, the solar panels are not producing more. The power wall is low, etc., etc. that G literally just giving that information um I think will have a lot of impact on what people will actually do at that point because now they know now they have actually something they can do which is
+Amber Fu: Okay.
+Tony: unplug the Tesla or stop it charging or you know turn off more lights or reset the thermostat or whatever it is they have an action that they can
+Amber Fu: Yeah, that's right. So uh or like is there if anything you feel like confusing or you feel like oh we're missing anything just just uh free to tell me. Yeah.
+Tony: Um, no. I don't think you're missing anything.
+Amber Fu: Uhhuh.
+Tony: I'm going to read it again really quickly.
+Amber Fu: Okay.
+Tony: Uh, no, it's it's straightforward and very easy to understand.
+ 
+ 
+00:20:16
+ 
+Amber Fu: Okay.
+Tony: I like that it's basically one sentence, bullet points, simple sentences. Makes it much easier to understand.
+Amber Fu: Okay. Got you.
+Tony: And interestingly it's uh I I know that you you know that this model is in in English but I I I am assuming that
+Amber Fu: Mhm.
+Tony: if you have this also you know at some point in other languages it's the same thing you want to go as
+Amber Fu: Okay.
+Tony: simple as possible so so that uh so that there's no you
+Amber Fu: Okay. Got you.
+Tony: know no real mistake.
+Amber Fu: Yeah.
+Tony: Yeah. All right. This is cool.
+Amber Fu: Yeah. So this are the event page. So the event only shows like a euro
+Tony: Okay.
+Amber Fu: activity. Yeah.
+Tony: Okay.
+Amber Fu: So just kind of like a ledger uh the user always can check
+Tony: Okay. So,
+Amber Fu: in uh or
+Tony: this is all the things that are happening during the day.
+Amber Fu: like maybe during the week like cuz like you uh if like someday so it's not like every day is h happened you know like a euro event so those kind of like you know during like a whole week or like two week like what happening
+ 
+ 
+00:21:45
+ 
+Tony: Mhm. All right. So, it'll show me what how how re real time is it? So, let's say uh something like the EB charging thing pops up. I'll see that in multiple places.
+Amber Fu: Uh
+Tony: It's a it's both an alert and it's something actionable with earlier in the thing,
+Amber Fu: yes and uh yes and we will uh for this part
+Tony: right?
+Amber Fu: uh we will like uh adding like more specific date and the time.
+Tony: Okay.
+Amber Fu: So then the yeah the user can really
+Tony: Okay, great. So, I I could see what happened earlier,
+Amber Fu: clearly
+Tony: last week, and earlier today. And is it always something that has happened or will it be things that might be h like the p earlier the power outage was saying there there's going to be a power outage between one and four or whatever. In advance, will it show up that same way where you're seeing or is it just things that have already happened?
+Amber Fu: Uh so well usually the power outage if we uh we can notice like earlier then we will definitely uh immediately tell the user.
+ 
+ 
+00:23:04
+ 
+Tony: M okay.
+Amber Fu: Yeah. But still like uh if like utility company can like early
+Tony: All right.
+Amber Fu: warning.
+Tony: Right.
+Amber Fu: Yeah.
+Tony: Like right now I get early warnings whenever there power outage because they're fixing something. They give early warnings or if there's a fire or an accident or something.
+Amber Fu: Yes.
+Tony: I always get those early warnings.
+Amber Fu: Yes.
+Tony: Okay. Cool. So there is it. There's the same thing
+Amber Fu: Yeah. And you can uh click on the saving uh is next to the Yeah.
+Tony: again.
+Amber Fu: event. Yeah.
+Tony: Saving shows cost exposure based on your behavior. All right. So at risk costs this number is calculated by adding up extra costs from each detected event. So if something this could go this is an up or down. So you know let's say for instance there's a power outage. Well the only thing I'm going to be using is my battery and solar. So at that point it'll it's not going to show you know I I'm not
+ 
+ 
+00:24:20
+ 
+Amber Fu: Um,
+Tony: spending. Would it show like you're you're not spending any money for instance?
+Amber Fu: well, uh, so for this like $56,
+Tony: Yeah.
+Amber Fu: this is kind of like the total like at risk cost kind of like you know extra cost exposure because like we we we detected
+Tony: for
+Amber Fu: in like current uh current building period but the outage uh
+Tony: so
+Amber Fu: the power outage will not uh
+Tony: right.
+Amber Fu: included
+Tony: Okay. So it's just these things like you you may be you you're overcharging
+Amber Fu: like EV yes yeah like when you use like a
+Tony: so your car right
+Amber Fu: peak hours or like and also like a solar power cuz sometime like the some customer they are solar is kind of like a breakdown or not produce enough uh credit or or either or like a power charging is have some problem. So this is kind of like the ledgers uh help uh customer to you know to know like oh where I you know have extra cost
+Tony: Got it.
+Amber Fu: exposure.
+Tony: Got it.
+ 
+ 
+00:25:40
+ 
+Tony: I I understand it. I think that that it makes sense. And I think the only thing is just making it so clear that everyone understands that you're going to
+Amber Fu: Uhhuh. Oh,
+Tony: spend Yes, it's $56 and you're going to spend 2130.
+Amber Fu: okay.
+Tony: It looks like you're going to spend 2131 extra because of the EV charging you've done. And you know, so far the it's been too cloudy. So, um, you're going to spend 20 more dollars in electric buying electricity than you produced. Um,
+Amber Fu: Mhm.
+Tony: just as long as it's super clear because like when I looked at the solar power one, I wasn't It took me a minute to realize that you're talking about I wasn't producing enough solar power, not that that's how much um I put back into the grid.
+Amber Fu: Got you. And so and down here like there have like uh so we try to break the risk ledger into the category. So it's kind of like you know how many times happened in this building period and uh
+Tony: Mhm.
+ 
+ 
+00:26:42
+ 
+Amber Fu: estimate total extra cost exposure from the category.
+Tony: Right.
+Amber Fu: So uh you can click on the EV charging appear four time. Yes. So they have some detail about uh
+Tony: about what
+Amber Fu: uh yes like each row is detect uh detected
+Tony: happened.
+Amber Fu: event. So you can review like what happened event by event and like each like shows the event when it happened and the like uh uh extra cost exposure
+Tony: Right.
+Amber Fu: and if you type in you will see like exactly explanation and how we calculate
+Tony: Oh, that's even better. Wow, that's detailed. That's very detailed. See that that that's ex that level of detail is is is amazing.
+Amber Fu: Okay,
+Tony: Um,
+Amber Fu: thank you
+Tony: and because you're not expecting as a customer,
+Amber Fu: again.
+Tony: I'm not expecting that uh level of detail. I thought when I was seeing this, I was like, "Oh, wow. Look on the, you know, on July 18th, um, I end up spending $7.28." But to see that it it literally tells me why I spent $7.28 28 cents is that's that's that's great detail
+ 
+ 
+00:28:18
+ 
+Amber Fu: Okay.
+Tony: and I can filter accordingly. Okay, that's smart. Solar power Okay. Yeah, I think that I like that. I like this. I think the only thing uh the only thing is just some of the
+Amber Fu: Mhm.
+Tony: wording needs Yeah,
+Amber Fu: Yes. We still need to fix it because it's
+Tony: I love love love it. It's very very very
+Amber Fu: Yeah.
+Tony: smart. I Yeah. you you really surprised me with the with the ex the details within the details.
+Amber Fu: Okay.
+Tony: I did not expect that at all and I think until you told me to talk about it, I would have just looked at it as is. Um so
+Amber Fu: So maybe maybe do you think maybe we should give like user more
+Tony: yeah.
+Amber Fu: hits like oh click this to see the detail stuff like
+Tony: Yeah, I think you could do that. Or you know,
+Amber Fu: that.
+Tony: you know how everyone we're so used to that something is a link if it's underlined. So maybe if it's even just like this is underlined,
+ 
+ 
+00:29:44
+ 
+Amber Fu: Okay.
+Tony: you you know that you can click on it.
+Amber Fu: Okay. Got
+Tony: Um and then and then this one is not underlined so you know,
+Amber Fu: you.
+Tony: okay, this is as far as you go. But it might be easier just to have it all, you know, it's underlined and wherever there's underlined, you know, you can go in. You can go in. you can go in because we're so used to seeing, you know, in our emails and all that stuff, the underlying link.
+Amber Fu: Mhm.
+Tony: Yeah. Like here, you know, monthly budget I can or EB charging. If these were underlined, I would.
+Amber Fu: Uhhuh.
+Tony: And then if these are underlined,
+Amber Fu: Okay.
+Tony: I I would click on it.
+Amber Fu: Got you.
+Tony: Yeah.
+Amber Fu: And we can go uh top and there have a bill.
+Tony: Okay.
+Amber Fu: Do you see it? Yes. So uh so we split the two the
+Tony: Yes.
+Amber Fu: one is a saving one is a bill. So so the saving is kind of like our side.
+ 
+ 
+00:30:48
+ 
+Amber Fu: It's like cost risk we detected from like the user behavior and the timing and the bill is kind of utility side. It's like what show up on your
+Tony: Okay. Okay.
+Amber Fu: bill.
+Tony: on on the bill side. Is that directly tied into my utility bill they're sending me
+Amber Fu: Yes.
+Tony: or
+Amber Fu: Yes. Uh so before you uh using this uh you need to
+Tony: Okay.
+Amber Fu: uh connect with your utility account so we we can know like how much your app like how much your last month's bill.
+Tony: Right.
+Amber Fu: So then I can show it on uh on the app and you can click on the view more. And for this part is uh is is like a bill proof. Uh so the idea is like uh you know thinking of this like checking a receipt at the g grocery store. So we're not saying like the whole receipt is wrong like whole your bill is wrong but we're just looking at a few item we can clearly like recognize and asking oh does this look right?
+ 
+ 
+00:32:00
+ 
+Amber Fu: Yeah.
+Tony: Yeah.
+Amber Fu: So uh this is not not like a full full like uh uh cuz we are I I can't uh assess your like a full home load. So but I can still you know have your like a solar and uh the EV stuff like that. So it means like based on the data we saw we expect this specific line to be around uh let's say X but the bill shows Y.
+Tony: Right.
+Amber Fu: So this is just different words to double check.
+Tony: Okay. So, yeah. So, okay. That that's actually nice.
+Amber Fu: Yeah.
+Tony: Um because I think if uh if me as a consumer saw that mismatch and didn't know why,
+Amber Fu: Mhm.
+Tony: um I it would make me not trust the app as much.
+Amber Fu: Yes. So uh because like for this idea is like we talk like few users they they think their bill is charging wrong and and and they can like figure out why what's happening. So this is the idea that we just help the user to you
+ 
+ 
+00:33:12
+ 
+Tony: right?
+Amber Fu: know have something to talk to the utility company or like you know to the solar company to to see like oh something went wrong you need to help me
+Tony: Right. Right. Yeah. Because I think uh I think it happens more often than people realize
+Amber Fu: chat.
+Tony: that uh the rates that they are paying or charging you fluctuate so much that uh sometimes you don't even know when you're being build or when you're m when you're billing them.
+Amber Fu: Exactly. Exactly.
+Tony: Okay, cool. I like this. I like this app. I like this app.
+Amber Fu: Yeah. So uh so we we like like the reason we are cuz like we try to you know do like a third party like because the reason with third part is actually so we can set on the customer side you know not the utility side and and also we don't sell the power and we don't make money
+Tony: Right.
+Amber Fu: when you use more electricity. So we're more like you know sit on the customer side and help the customer to you know understand why they're they're like why their bill like what's happening and how they can smart to use
+ 
+ 
+00:34:46
+ 
+Tony: Right. Right.
+Amber Fu: electricity.
+Tony: Well, th this makes me ask one question. If I were to, you know, get this app, would I would it be uh a month, you know, a subscription monthly or is it like a one time here's, you know, here's the the the fee and it it goes from there.
+Amber Fu: Uh so we're thinking that you know uh so if because like I think like if this app really can help people to saving some money then I think people may be willing to pay like a little bit fee, right?
+Tony: Right.
+Amber Fu: Yes. So, uh I let's see like if like you can save like uh $20 every month, would you pay like $5 to for this app?
+Tony: Yeah, it I would I would pay I would be very comfortable, you know, and you know how they always do it $4.99$5.99. I would be very comfortable four or$5.99 a month if it saved me $20 a month.
+Amber Fu: Okay, got you.
+Tony: It would be fine.
+Amber Fu: Okay.
+Tony: Yeah.
+Amber Fu: Okay. And also you can uh sc uh roll down a little bit.
+ 
+ 
+00:36:20
+ 
+Amber Fu: So those ander there have a like you see like the this top three driven uh driving you like home loads why it's
+Tony: Mhm.
+Amber Fu: expensive. So uh those three thing like EVA charging during the pig like
+Tony: Right.
+Amber Fu: solar
+Tony: Right.
+Amber Fu: available.
+Tony: I Yeah, I'm I'm seeing those uh and I can see how it changes for each month.
+Amber Fu: Uh yes.
+Tony: Uh, you know,
+Amber Fu: So those kind of like cost uh top cost driver
+Tony: the the only the only um it looks like looking at it, you know, I can I can see I can immediately go, okay, I can see the EV in the purple and I can see the uh
+Amber Fu: Yes.
+Tony: the um power wall in the light blue. Um, the only question then I have is the,
+Amber Fu: Yes.
+Tony: you know, the light purple, the red, uh, the dark blue. What are those for? Because I'm not seeing anything else that matches
+Amber Fu: Okay.
+Tony: those.
+Amber Fu: The cuz those are the you uh we will fix that.
+ 
+ 
+00:37:42
+ 
+Tony: Yeah. Okay. So, but it is there are will be other things that match color-wise so that we know what they are. Okay. Yeah. because I it's simple with the bar graph,
+Amber Fu: Mhm.
+Tony: especially when you know what each one represents. Um,
+Amber Fu: Mhm.
+Tony: and you can see how it it how it it's affecting the the bill. And at the top here,
+Amber Fu: Yeah.
+Tony: uh, middle right under view where it says true up,
+Amber Fu: Mhm.
+Tony: uh, everyone who has solar gets that. They they know that, you know, once a year you're going to pay. Um, so for me the only thing about that would be to make sure that that is highlighted enough that you realize that that everything below it is dealing with your true up and not actual cost.
+Amber Fu: Got
+Tony: Yeah,
+Amber Fu: you.
+Tony: I think I figured it out. But I think there just something if it was in just a bigger font similar to the view more you would know. Okay, that's what we're talking about. We're talking about everybody everything below it.
+ 
+ 
+00:38:41
+ 
+Amber Fu: Mhm. Got you.
+Tony: Yeah, this is cool, man. Yeah, I I earlier in our conversation, I had the thought about would I pay for this?
+Amber Fu: M.
+Tony: Uh after looking at a few things uh and
+Amber Fu: Mhm.
+Tony: uh about a and I was kind of reserving my judgment and about halfway through in my head I went, I would pay for this. I would pay for this,
+Amber Fu: Okay.
+Tony: especially if it saved me money. So, you just kind of go, okay, I'm paying $5 a month, but I say 20 $25 a month on my electricity bill. You It's a It's a no-brainer.
+Amber Fu: Yeah. So because you know uh uh I know uh in especially like in the winter or sometimes summer like the uh the bail is kind of different right and
+Tony: Yes.
+Amber Fu: also lot of I think a lot of people they they will sometime receive like a surprise bill and they don't know where that come from.
+Tony: Yes. Yep.
+Amber Fu: So yeah,
+Tony: Yep.
+Amber Fu: so this is what we are trying to help people just you know stay in average stay in like the confirm zoom no surprise bill and
+ 
+ 
+00:40:04
+ 
+Tony: All right.
+Amber Fu: know like uh exactly like uh what's what uh what they're doing what we are doing I think yeah just you know let people you know save some money and know like you know smart to use electricity
+Tony: Yeah. Yeah. And the uh uh I one of the things and this is something that uh I got like our rates are getting ready to go up again
+Amber Fu: Mhm.
+Tony: and so if notifications are appearing here letting
+Amber Fu: Mhm.
+Tony: you know hey you know in October they're going to raise the rate uh to you know this and you know and those kind of alerts are very very very uh handy because it literally it it literally shows you again here's how much you're going to save because we're letting you know to not use electricity at such and such time because they're raising your rate and you know here's what you do.
+Amber Fu: Got you.
+Tony: The one thing and this is just thinking off the top of my head that uh as an this app people who have electric cars and
+Amber Fu: Mhm.
+ 
+ 
+00:41:23
+ 
+Tony: solar will be very interested in I I can
+Amber Fu: Mhm.
+Tony: see people who it's a harder cell to the person who's just getting electricity.
+Amber Fu: Mhm.
+Tony: um you know for that the same thing to go okay hey we can save you something a month you know we can save money per month and here's the here's the cost it's a it's a little bit harder for them to to go well how are you actually going to save me money other than tell me to not use electricity at a time that I know don't use it um but to me the the solar person and the electric car person. Um, it I can see it immediately. Yeah,
+Amber Fu: Got you.
+Tony: because I know I'm making money back from my solar those
+Amber Fu: Yes, exactly.
+Tony: Yeah.
+Amber Fu: U So is there any like uh maybe any tips for us or suggestion for us for this app?
+Tony: you know, I think a little bit of, you know, of tightening up some wording, but it's good.
+Amber Fu: Okay, thank
+Tony: It's really good. It's re and it's uh, you know,
+ 
+ 
+00:42:41
+ 
+Amber Fu: you.
+Tony: I think the my the the thing about anything that uh is clickable and is linkable, having underlines is probably the biggest thing. And just a a couple of like here's a small thing. Um this whole section up here.
+Amber Fu: Mhm.
+Tony: Okay, we get it. Uh and then we can see that this is a section here.
+Amber Fu: Mhm.
+Tony: Um I think the only thing I that would help in this case is uh is highlighting the color a little bit like uh you know like if it's on automatic. it's green or blue or whatever. And if it's on manual,
+Amber Fu: Got you.
+Tony: you know, as it's going back and forth,
+Amber Fu: Got
+Tony: just just so people can see that there's this part,
+Amber Fu: you.
+Tony: here's this part, you know, they got to that's pretty much it with this part. Yeah. Just so you can cleanly see that it's its own section.
+Amber Fu: Got you.
+Tony: But the and then here in usage, you know, changing hourly to daily and daily to weekly. But you guys already figured that out.
+ 
+ 
+00:44:00
+ 
+Tony: Um because this is this part is great.
+Amber Fu: Mhm.
+Tony: Uh when you literally see your usage as it's happening. Um, I think people will really having an actual uh uh info that's that detailed u will change people's habits which saves them money. Yeah.
+Amber Fu: Yeah.
+Tony: Um so I like all that. Uh, I like at the top where you're giving the local weather.
+Amber Fu: Uh you can uh click on like do you see online those uh you
+Tony: Yes, I can click on
+Amber Fu: can click Yeah. So there how like device status you know you you can know like because like
+Tony: Oh.
+Amber Fu: I I remember like one of the user said uh their solar is like breakdown offline but they they don't know after like a day you
+Tony: Yeah.
+Amber Fu: know so this is something I think maybe like helpful
+Tony: Yeah. Yeah.
+Amber Fu: Oh,
+Tony: Like monthly budget online. Yeah. I I I think with these Yeah.
+Amber Fu: and
+Tony: The same thing. Uh if they're highlighted so you know that you can click them because I looked I I looked at it and and just went,
+ 
+ 
+00:45:26
+ 
+Amber Fu: Mhm.
+Tony: "Oh, I guess everything's working. I saw the online and thought, "Okay, that just means everything's working." Um, or that I'm online with your app and it's and it's much more detailed. It's actually telling you you're online with your stuff. Um,
+Amber Fu: Yeah.
+Tony: yeah, that highlighted that. I wonder, you know, maybe this is one of those ones that it if it's all the way across and they're just take up a little bit more space, it will get your attention.
+Amber Fu: Okay.
+Tony: Um,
+Amber Fu: Thank you.
+Tony: so you know, a third of it is the car with the battery uh and it's highlighted uh or underlined. A third of it outline is underlined the bet. Yeah. And so you see it right away and you know, okay, I can click and get some information.
+Amber Fu: Got
+Tony: Oh, that's cool,
+Amber Fu: you.
+Tony: too. And there's my notifications again. Oh, that's so nice. Oh, yeah. I I I mean I know you guys have done some great work and your coding is really cool and all that, but this is it's a good this is a smart smart smart useful app.
+ 
+ 
+00:46:51
+ 
+Amber Fu: Okay, thank you. I'm I'm really happy you said
+Tony: Yeah,
+Amber Fu: that.
+Tony: it it I can I can see uses for it immediately.
+Amber Fu: Okay. You know what?
+Tony: Yeah.
+Amber Fu: I'm really appreciate how thoughtful you went through this. Well, this kind of feedback exactly what what's going to shift the product. So, I think I we don't think this is as a user testing. we are thinking you know we're kind of like co- building so I mean if you're open it like I love to have you as a part of smoke group who use the app in real life and help us you know decide what to build next and what to keep simple so
+Tony: Yeah. Yeah.
+Amber Fu: yeah
+Tony: We'd be I we'd be happy to beta test here. I It would be it's the idea this whole part right here with the monthly budget part.
+Amber Fu: Uh-huh.
+Tony: Highlighting that and giving it that sense of you're playing a game to save yourself some money changes everything.
+Amber Fu: Got you.
+ 
+ 
+00:47:58
+ 
+Amber Fu: Uh I have a question.
+Tony: Yes.
+Amber Fu: So uh some of the user when they say saw the monthly budget they kind of confuse. So do you think maybe we change the word or like highlight or I don't know how to you know just some people they just don't know know what is that you know so I try to figure out
+Tony: Yeah, I'm trying to think of that the uh
+Amber Fu: like
+Tony: uh I would actually change it to uh monthly bill average um or average monthly
+Amber Fu: Okay.
+Tony: Bill.
+Amber Fu: Average. Okay.
+Tony: Um.
+Amber Fu: You can actually you can click try to click on the monthly bill budget to see uh 170 maybe.
+Tony: Oh, okay. Oh,
+Amber Fu: Uh
+Tony: there we go. It was the It was actually the little arrow. Um, yeah. Set a monthly bill limit based on your last three month bills.
+Amber Fu: Yeah. So we you know like uh those number is not like we're ma imagine it's like it's more depends on like a last uh the user last three uh utility bill and we will give those number.
+ 
+ 
+00:49:25
+ 
+Amber Fu: So let's say so for example like uh this user like
+Tony: Yeah.
+Amber Fu: uh his last three months bill is like you know 210 uh 210 208 200 and then we recommend the range like 170
+Tony: Right.
+Amber Fu: 180 200.
+Tony: Right.
+Amber Fu: Yes.
+Tony: Yeah. Uh other than a little bit of wording changes, it makes perfect sense because I like uh I like where
+Amber Fu: Okay.
+Tony: you explain here's what your bills were.
+Amber Fu: Mhm.
+Tony: Here's the recommendations. So tightly uh uh uh I would
+Amber Fu: Mhm.
+Tony: even have no idea what that was. I think Siri literally was listening to me. Uh it was that recommended range. I mean maybe some wording change, but just really highlighting here's your choices. you can choose uh you it to be exact,
+Amber Fu: Mhm.
+Tony: you know, either the average of your bills or whatever you you want. Um uh but it it makes I I understand it from the
+Amber Fu: Gotcha.
+Tony: as soon as I saw it, I understood what you're you're doing. Like here's the average, here's what you spent.
+ 
+ 
+00:50:51
+ 
+Tony: Do you want to set alerts based on really tight range, a little bit less,
+Amber Fu: Mhm.
+Tony: or just really whatever?
+Amber Fu: Got you.
+Tony: Makes perfect sense.
+Amber Fu: Got you.
+Tony: That's cool. Yeah, I like that.
+Amber Fu: Okay. So, perfect. And you know once the this app is like alive so I will definitely invite you at first place and please please will try it on the real life and to see like what would look like and hopefully like we're saving some
+Tony: Yeah.
+Amber Fu: money.
+Tony: Yeah. Yeah. It would be I I would be fine with absolutely helping you guys test this because I can see a use for it for our house right now.
+Amber Fu: Okay. Okay, that will be perfect. Thank you, Tony. Thank you so
+Tony: And I think you caught me at a good time because I just,
+Amber Fu: much.
+Tony: you know, just a month ago had to pay the true up bill.
+Amber Fu: Oh, how much is it?
+Tony: of uh it was $1,800
+Amber Fu: Oh, okay.
+ 
+ 
+00:52:04
+ 
+Tony: for the No,
+Amber Fu: Is that kind of like a surprise for you or Oh,
+Tony: no. I I I I kind of expected because I was paying attention,
+Amber Fu: okay. Oh, okay. Got you.
+Tony: but uh but every year it's gone up. So,
+Amber Fu: Mhm.
+Tony: when we first got the house it was about 1,600 for the whole year, and the second year was about 1,700 and this year was 1,800.
+Amber Fu: Uhhuh.
+Tony: And we haven't really changed our electricity usage.
+Amber Fu: Mhm.
+Tony: The price has gone up anyway.
+Amber Fu: Yeah.
+Tony: Seeing that is is nice.
+Amber Fu: Hopefully this app can help you.
+Tony: I I think it could I I think it could help a lot of people. Um,
+Amber Fu: Yes.
+Tony: and as soon as they real as soon as they realize how much it can help them and realize how simple it is because it's not doing anything other than telling you,
+Amber Fu: Mhm.
+Tony: here's how to save money. You know, it's not it's not like it's paying the bill or turning on and off the lights.
+Amber Fu: Mhm.
+Tony: It's just telling you, you know, don't use electricity between this time. Hey, it's a peak time. Hey, they've raised the rate.
+Amber Fu: Yes.
+ 
+ 
+Transcription ended after 00:53:47
+
+This editable transcript was computer generated and might contain errors. People can also change the text after it was created.

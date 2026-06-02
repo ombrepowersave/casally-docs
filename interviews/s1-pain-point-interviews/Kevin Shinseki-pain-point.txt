@@ -1,0 +1,768 @@
+00:00:00
+ 
+Kevin Shinseki: Hello.
+Amber Fu: Hi.
+Kevin Shinseki: On video,
+Amber Fu: Yes. Yes. Hi, Kevin.
+Kevin Shinseki: hang on one second. Uh, can you hear me?
+Amber Fu: Yes.
+Kevin Shinseki: Okay,
+Amber Fu: Uh, can can you hear me?
+Kevin Shinseki: I can hear you.
+Amber Fu: Okay. Perfect. Perfect. Um, so how's your days going so far?
+Kevin Shinseki: Good. Been a little bit of everything. How about
+Amber Fu: Okay. Well, it's busy.
+Kevin Shinseki: you?
+Amber Fu: Yeah. Well, and well, thanks again for, you know, making time for this. I know everyone's busy, especially before the Christmas. So, um,
+Kevin Shinseki: Yeah.
+Amber Fu: yeah, no, no pressure at all. Like, this is super casual. And, uh, let me introduce myself a little bit. Uh, my name is Amber and, um, I am the one of the founder. Well, I started this because, you know, I just could figure out why my own electricity bill was so crazy and and I realized like lots of my friend are dealing with the same thing.
+ 
+ 
+00:02:01
+ 
+Amber Fu: Uh, basically, we're just a small team based in LA and uh we're trying to building an app that helps people save money on their daily uh energy use uh without changing their lifestyle. So, you know, I just try to, you know, I love to understand how your home use electricity dayto day so we can figure out what will actually help.
+Kevin Shinseki: Mhm.
+Amber Fu: Yeah. And well,
+Kevin Shinseki: Okay.
+Amber Fu: and before we get start, would you be okay if I record this call? It's totally option.
+Kevin Shinseki: Sure.
+Amber Fu: Just Okay.
+Kevin Shinseki: Yeah.
+Amber Fu: Okay.
+Kevin Shinseki: It's helpful for you.
+Amber Fu: Sure. Okay.
+Kevin Shinseki: What's your background?
+Amber Fu: Thank you.
+Kevin Shinseki: Tell me about your background. Or you
+Amber Fu: Okay.
+Kevin Shinseki: come
+Amber Fu: Uh well, you know, I uh my background Okay.
+Kevin Shinseki: my professional background.
+Amber Fu: I'm from China.
+Kevin Shinseki: Professional
+Amber Fu: Okay. For I moved to uh C like uh I moved to Virginia when I was
+Kevin Shinseki: background.
+Amber Fu: uh 16. Yes.
+ 
+ 
+00:02:53
+ 
+Amber Fu: And uh I went to Virginia for high school for one year and the second year I transferred to San Diego and then at my college I go to the I went to UCLA. So yeah. And uh my uh so and our team is just just like really small team like four or five people and uh uh my my CTO is my high school friend. Yeah. And then he went to the UIU.
+Kevin Shinseki: Okay.
+Amber Fu: Uh yeah.
+Kevin Shinseki: Wait. So,
+Amber Fu: And afterward Oh yeah.
+Kevin Shinseki: did you graduate UCLA and then what did in
+Amber Fu: Yeah.
+Kevin Shinseki: what?
+Amber Fu: is well it's business but yeah but well and after
+Kevin Shinseki: Okay.
+Amber Fu: I graduate uh I I I just uh you know
+Kevin Shinseki: Okay.
+Amber Fu: I just start I do like a one startup like tech startup and it's fail and I go and like a second second round well but and second round I I think it's a little successful uccessful. Yeah.
+Kevin Shinseki: Yeah. Okay.
+Amber Fu: Yeah.
+ 
+ 
+00:04:06
+ 
+Amber Fu: And like right now I we are trying to do this because you know uh we just want to like just try to build a app and to see like can I lower my electricity bill.
+Kevin Shinseki: Yeah.
+Amber Fu: There's a there's a
+Kevin Shinseki: What did what did you learn from the first
+Amber Fu: reason.
+Kevin Shinseki: failure?
+Amber Fu: Uh well um so when I first first to start up I I didn't think about it too much you know I think like everything is like really like for me I think every oh everything is really simple I just do step to steps to step but I really I don't really think so far like you know and I just to I don't know. I I I I guess I don't have a like really good plan, you know, and and um well and you know and
+Kevin Shinseki: Mhm.
+Amber Fu: but back then I don't have a lot of money like you know so I just do like like just me myself. Yeah.
+Kevin Shinseki: Yeah.
+Amber Fu: And like after that like my second round like I found like really good partner together.
+ 
+ 
+00:05:24
+ 
+Kevin Shinseki: Yeah.
+Amber Fu: Yes.
+Kevin Shinseki: Yeah.
+Amber Fu: So,
+Kevin Shinseki: Okay.
+Amber Fu: yeah,
+Kevin Shinseki: That's good.
+Amber Fu: I think a great team is really important.
+Kevin Shinseki: Absolutely. Yeah.
+Amber Fu: Yeah.
+Kevin Shinseki: Yeah. I'd say there's two things.
+Amber Fu: Yeah.
+Kevin Shinseki: So, I I'll tell you my background is product management and right this is why I'm asking
+Amber Fu: Okay.
+Kevin Shinseki: you the questions.
+Amber Fu: Oh,
+Kevin Shinseki: I also I also teach at UC Davis the business school.
+Amber Fu: okay. Oh, okay.
+Kevin Shinseki: Um and I am I I do advisory for um small startups now. But um I have a lot I have a lot of experience in product management.
+Amber Fu: Oh.
+Kevin Shinseki: And the reason why I ask you this um like what did you learn from that first experience? I think there's two things that I'd say are the most important
+Amber Fu: Uh.
+Kevin Shinseki: things at least to get give yourself a chance.
+Amber Fu: Yes.
+Kevin Shinseki: Number one is a good technical co-founder,
+Amber Fu: Mhm.
+ 
+ 
+00:06:19
+ 
+Kevin Shinseki: right? So I think you have a good technical co-founder as you said, right? That your CTO and you are are the the two co-founders, right?
+Amber Fu: Mhm.
+Kevin Shinseki: And then this this the other point is make sure you have a really clear understanding of the problem you're solving and that problem like who has that
+Amber Fu: Mhm.
+Kevin Shinseki: problem and why would they use this app
+Amber Fu: Yes.
+Kevin Shinseki: right is it right so that that's kind of the key fundamental things that I would just
+Amber Fu: Yeah.
+Kevin Shinseki: generally you know make sure that you understand you can answer but um so number one you already answered you a good co-founder. Number two, we'll find out a little bit more. Um, so let's uh I'll let you ask your questions and then we can talk a little bit
+Amber Fu: Okay. Okay. Sure. Sure. Perfect. Perfect. Thank you. I appreciate it.
+Kevin Shinseki: more.
+Amber Fu: Well uh so before uh you know we jump into like the energy stuff I love to get quick sense of your household.
+ 
+ 
+00:07:21
+ 
+Amber Fu: You just understand like your setup bit better also nothing personal just whatever you you know want to sharing with. Yeah.
+Kevin Shinseki: Okay.
+Amber Fu: So um like how many people live in your home right now?
+Kevin Shinseki: Two people and one
+Amber Fu: Okay. Okay.
+Kevin Shinseki: dog.
+Amber Fu: And um so how how big your house like roughly.
+Kevin Shinseki: Uh I'd say um 1,200 square ft. 1,100 for the main house. And I'm in an office right now that is uh 100 square
+Amber Fu: Okay. Okay. Got it. Got it.
+Kevin Shinseki: feet.
+Amber Fu: And um like do you mostly like work from home or is like everyone flying in now?
+Kevin Shinseki: Mostly both of us work from
+Amber Fu: Oh, okay. Got it.
+Kevin Shinseki: home.
+Amber Fu: And like uh what kind of schedule do you normally have? Is like a pretty constant or all over the place week to week?
+Kevin Shinseki: Um pretty consistent schedule.
+Amber Fu: Okay. Got it. Got it. And And well like would you say your home is like always busy or like more quiet most most of the time?
+ 
+ 
+00:08:32
+ 
+Kevin Shinseki: Uh, what do you mean by busy or quiet?
+Amber Fu: uh like you know like like the bus time I I try to ask is when you guys like
+Kevin Shinseki: That
+Amber Fu: use electricity like during the day like which period like what time to start like busy like a cooking like uh pool or anything like
+Kevin Shinseki: I think um there is a pretty steady use
+Amber Fu: they should
+Kevin Shinseki: um from the morning starting around like 8:30 8:30 um it's pretty steady use all the way until the evening um about 11 about 8 8 a.m.
+Amber Fu: Okay. Okay. Got it.
+Kevin Shinseki: to about 11.
+Amber Fu: Mhm.
+Kevin Shinseki: It's pretty steady.
+Amber Fu: Mhm.
+Kevin Shinseki: Uh it'll vary based on whether one of us has to go to an office or um but for the most part that that's a couple days a week. Um and even then someone is normally
+Amber Fu: Okay.
+Kevin Shinseki: home.
+Amber Fu: Got it. Got it. And um cuz I noticed that you got the I think the solar and the power wall, right?
+ 
+ 
+00:09:51
+ 
+Amber Fu: And Oh, solar.
+Kevin Shinseki: I have solar and an LG battery
+Amber Fu: Okay. and the Tesla.
+Kevin Shinseki: and a I have a Tesla.
+Amber Fu: Uhhuh.
+Kevin Shinseki: I have a heat pump electric, right? Um a lot of my um kind of
+Amber Fu: Okay.
+Kevin Shinseki: strategies moving more to electric versus gas.
+Amber Fu: Mhm. Got it. Got it. And um so what like originally got you into the solar
+Kevin Shinseki: um wanting to move to an EV uh was one of those things.
+Amber Fu: Mhm.
+Kevin Shinseki: Wanting to minimize my dependency on the utility company. So a big part of that.
+Amber Fu: Mhm.
+Kevin Shinseki: So, I always was interested in um shifting to solar for many years, but I'd say in 2020 2021,
+Amber Fu: Okay.
+Kevin Shinseki: I think it was fairly warm in California and in the Bay Area.
+Amber Fu: Uhhuh.
+Kevin Shinseki: That's where I'm in the Bay Area. We had a lot of um power outages and um
+Amber Fu: Mhm.
+Kevin Shinseki: that that really um was motivation to have less dependency on on the
+ 
+ 
+00:11:10
+ 
+Amber Fu: Mhm. Got it.
+Kevin Shinseki: grid.
+Amber Fu: And um and ho how about like the uh battery because uh you're my first interview uh user that use LG
+Kevin Shinseki: Yeah.
+Amber Fu: battery.
+Kevin Shinseki: The reason why it's an LG is because the installer at the time uh Tesla batteries were difficult to to get and this is during the pandemic and
+Amber Fu: Mhm.
+Kevin Shinseki: so um I think the only way to get Tesla batteries at that time were through Tesla and um I use a different installer and so that they can only get the
+Amber Fu: Okay.
+Kevin Shinseki: LG
+Amber Fu: Mhm. Got it. And like uh how how many how many EV do you have?
+Kevin Shinseki: Just one.
+Amber Fu: Just one. Uh it's a Tesla. Okay. Got it.
+Kevin Shinseki: Yes,
+Amber Fu: Got it. Like when do you usually charge? like at night or daytime with the solar.
+Kevin Shinseki: I try to charge at the daytime when uh I'm producing
+Amber Fu: Mhm.
+Kevin Shinseki: electricity.
+Amber Fu: Got it.
+ 
+ 
+00:12:12
+ 
+Amber Fu: And um so like since you leave this those system for a while, are they doing good or like can you think anything you're not happy with?
+Kevin Shinseki: Uh, you mean the
+Amber Fu: Uh,
+Kevin Shinseki: solar?
+Amber Fu: I mean the solar end like the LG battery and the EV.
+Kevin Shinseki: Uh, I would say all in general have been positive. So, no real problems on any of those.
+Amber Fu: Uh-huh.
+Kevin Shinseki: Um, although I don't I can tell you that the first year I've monitored the production of the solar
+Amber Fu: Mhm.
+Kevin Shinseki: panels,
+Amber Fu: Mhm.
+Kevin Shinseki: but since then it's very rare that I look to see the the production on it. Um I also use it the setting on the
+Amber Fu: Mhm.
+Kevin Shinseki: battery is that in the evenings I will use up to 50% of the capacity the charge of the battery and then it'll stop and use the
+Amber Fu: Mhm.
+Kevin Shinseki: grid and it's more to make sure
+Amber Fu: Mhm.
+Kevin Shinseki: if there was a power outage that I did have uh some capacity in the the
+ 
+ 
+00:13:34
+ 
+Amber Fu: Okay.
+Kevin Shinseki: battery.
+Amber Fu: And um so do you mind ask like uh how long you have the solar
+Kevin Shinseki: H I knew you were going to ask that. Uh let's see. Um I think four years
+Amber Fu: Okay.
+Kevin Shinseki: now.
+Amber Fu: Uh, so you under the AM2, right?
+Kevin Shinseki: I'm under two. Yeah.
+Amber Fu: Okay.
+Kevin Shinseki: Nem two for now.
+Amber Fu: Okay. That's that's good. And And yeah.
+Kevin Shinseki: That's great.
+Amber Fu: And like uh so do you mind I ask like how how much you pay before you have uh solar and and after
+Kevin Shinseki: Well, it's not necessarily uh going to correlate because I think my consumption changed after I got solar. Um so prior to solar
+Amber Fu: Okay.
+Kevin Shinseki: um I mostly charged the EV at um the supercharging stations.
+Amber Fu: Oh,
+Kevin Shinseki: So I I because I didn't have a fast charger at that time. So uh and then I had a lot of credits from Tesla.
+Amber Fu: okay.
+ 
+ 
+00:15:04
+ 
+Kevin Shinseki: So I didn't really use it there.
+Amber Fu: Mhm.
+Kevin Shinseki: Uh, I used more gas, I'd say, for heating as well, and I was more conservative in my usage prior to solar as well.
+Amber Fu: Mhm.
+Kevin Shinseki: After solar,
+Amber Fu: Okay.
+Kevin Shinseki: that's when I started to charge more with my EV at home. Uh,
+Amber Fu: Mhm.
+Kevin Shinseki: I got a a charging station at home. Um I think a year after that I got the um heat pump, electric heat pump and it's kind of changed my consumption overall.
+Amber Fu: Mhm.
+Kevin Shinseki: But in terms of bills, I'd say in the winter time it was probably about 150 to 200 um in the winter months.
+Amber Fu: Mhm.
+Kevin Shinseki: So that's from like Octoberish November to February, March. And then because I didn't have air conditioning or anything, um summer months were probably maybe 50 to $60.
+Amber Fu: Mhm. Okay.
+Kevin Shinseki: This is before the EV stuff. Uh after solar it dramatically dropped to
+Amber Fu: Okay.
+Kevin Shinseki: um probably like on average is 40 and that large part of that is gas.
+ 
+ 
+00:16:36
+ 
+Amber Fu: Mhm.
+Kevin Shinseki: Does that make
+Amber Fu: Okay. Okay. Got it. Got it.
+Kevin Shinseki: sense?
+Amber Fu: And well like uh so like when you mention you monitor the solar production a lot in the first year but like now you're rarely to check it like I was wondering like what changed like like habit or trust or just
+Kevin Shinseki: combination. Yeah. Habit and and trust.
+Amber Fu: Okay.
+Kevin Shinseki: Um, yeah.
+Amber Fu: Okay.
+Kevin Shinseki: I I'd say if I saw a spike in like my utility bill, then maybe that would trigger something. But, uh, I probably should monitor it more often.
+Amber Fu: No.
+Kevin Shinseki: It's just um I guess it's it it's more I'm I'm trusting that it it's operating.
+Amber Fu: Okay. Okay. Got it.
+Kevin Shinseki: Okay.
+Amber Fu: and and like like if if something went wrong with the system today like how how confident you're noticed quickly cuz I cuz you know some sometime I uh one of my friend they they got solar and uh like maybe once a year or like uh their solar kind of like offline but they they will not not notice like for a while and then they they kind of like realize.
+ 
+ 
+00:18:18
+ 
+Amber Fu: So, have you have that situation ever
+Kevin Shinseki: Not not that I know of.
+Amber Fu: happened?
+Kevin Shinseki: I know I am you I get notifications. I use um I think it's Solar Edge.
+Amber Fu: Mhm.
+Kevin Shinseki: Uh let me just double check. Yeah, Solar Edge is the app that I'm using uh that they they
+Amber Fu: Mhm.
+Kevin Shinseki: connected for me. And there are uh notifications sometimes when there's there's
+Amber Fu: Mhm.
+Kevin Shinseki: an error, but um yeah, for the most part, yeah, I I'm opening it up for the first time in probably I don't know, almost a year maybe right now.
+Amber Fu: Okay. Okay. Okay.
+Kevin Shinseki: So it I wouldn't say it's very reliable in terms of notifying me that there would be an issue. So I'm not confident that it would tell me that without me
+Amber Fu: Okay. Okay.
+Kevin Shinseki: looking
+Amber Fu: And and like well uh like do you ever worry like few like because like you right now you're under the EM2 of the policy and like do you ever worry like like the future rate will be changed like
+ 
+ 
+00:19:42
+ 
+Kevin Shinseki: Yes.
+Amber Fu: could like break this set up?
+Kevin Shinseki: Yes. I think it's very possible that it will um get changed before the contract
+Amber Fu: Mhm.
+Kevin Shinseki: expires.
+Amber Fu: Mhm. And and if that happened, if if that situation really happened, like would what would you want to know first? Like does something change or what you should to what you should do about it?
+Kevin Shinseki: Uh I don't understand that question.
+Amber Fu: Uh,
+Kevin Shinseki: Um if if if the NE contract changes right
+Amber Fu: so yeah, it's like
+Kevin Shinseki: where there is no um basically rebate for
+Amber Fu: Uhhuh. Uhhuh.
+Kevin Shinseki: the contribution that you're put putting into the grid.
+Amber Fu: Mhm.
+Kevin Shinseki: What
+Amber Fu: Like do do you want to like uh something like maybe like their system can remind you for pol policy alert or like action recommendation.
+Kevin Shinseki: I I think um I think it would change my behavior and how I used um right now I'm overproducing,
+Amber Fu: Okay.
+Kevin Shinseki: Right. And when I'm
+ 
+ 
+00:21:07
+ 
+Amber Fu: Okay.
+Kevin Shinseki: overproducing, it's better for me to do things when it's generating um power.
+Amber Fu: Mhm.
+Kevin Shinseki: So during the daytime,
+Amber Fu: Mhm. Okay. Got
+Kevin Shinseki: I would change my consumption patterns.
+Amber Fu: it.
+Kevin Shinseki: I would probably reduce my heating and air conditioning uh approaches meaning I would lower
+Amber Fu: Mhm.
+Kevin Shinseki: the temperature for heating. I would uh increase the temperature or even not use air conditioning. Um, so it would definitely change if I think it would be useful and I would change my behavior of consumption if it was clear to me when I was consuming either electricity or gas. um in a way that uh I understood it was either out of the normal or
+Amber Fu: Mhm.
+Kevin Shinseki: that uh there was an opportunity to conserve and and the
+Amber Fu: Mhm. Got it.
+Kevin Shinseki: conservation is more about the bill than conserving just to conserve,
+Amber Fu: Mhm.
+Kevin Shinseki: right? It's more about billing. So, I don't feel like I have a good view of real-time consumption and I don't feel like I have the ability to
+ 
+ 
+00:22:45
+ 
+Amber Fu: Mhm.
+Kevin Shinseki: monitor even at certain thresholds to warn me about consumption.
+Amber Fu: Mhm.
+Kevin Shinseki: So, if that was available,
+Amber Fu: Got it.
+Kevin Shinseki: I'd probably use
+Amber Fu: Mhm. Okay. Got it.
+Kevin Shinseki: that.
+Amber Fu: Got it. And like I as like you mentioned before like your uh battery reserve like usually is a 50%.
+Kevin Shinseki: Mhm.
+Amber Fu: Um so how do you decide on that 50% reserve?
+Kevin Shinseki: the um the the actual uh installer put that condition in um initially and I don't I I believe this was kind of a a policy with the utility that they didn't enable this and you had to ask for
+Amber Fu: Okay. Okay. Oh, okay.
+Kevin Shinseki: And with Tesla, I know you can configure it on your
+Amber Fu: Yeah. Oh, okay.
+Kevin Shinseki: own.
+Amber Fu: I didn't know that. Okay, got it. And uh Okay. So, and like do you ever wondering whether the reserve level is still optimal for today better usage?
+ 
+ 
+00:24:22
+ 
+Kevin Shinseki: I think it would it would be helpful. It'd be nice to know what is my consumption on the battery uh the reserve and
+Amber Fu: Mhm.
+Kevin Shinseki: um it could make me change my consumption behavior.
+Amber Fu: Mhm.
+Kevin Shinseki: I'd say especially during the winter months
+Amber Fu: Mhm. Okay.
+Kevin Shinseki: because the winter months uh I just looked and my battery uh was at 80%.
+Amber Fu: Okay.
+Kevin Shinseki: today when we just when I just looked that means it some of it
+Amber Fu: Okay.
+Kevin Shinseki: was consumption um for the last hour and a half or so
+Amber Fu: Mhm.
+Kevin Shinseki: um but it may not have fully charged today.
+Amber Fu: Mhm. Okay.
+Kevin Shinseki: I'm not sure.
+Amber Fu: Okay. Okay. And well, if there have a app could like quietly watch everything and like only alert you like when something like really actually need attention. Would that be more valuable than like dashboard you check manually?
+Kevin Shinseki: Yes. Yeah.
+Amber Fu: Okay.
+Kevin Shinseki: I don't think the D I mean the dashboard view is interesting to see just how things are functioning.
+ 
+ 
+00:25:47
+ 
+Kevin Shinseki: Um but I think for longer term use it's notifications that will be
+Amber Fu: Mhm.
+Kevin Shinseki: um more helpful.
+Amber Fu: Okay.
+Kevin Shinseki: and like maybe an optimization kind of report or something like
+Amber Fu: Okay. Mhm. Got it. And and like but what would like what would make you trust an app
+Kevin Shinseki: that.
+Amber Fu: enough like to stop thinking about like like about energy most days like if they have like you know the app the app can like help you watch everything and like uh like advise you like something what what you you do to save money? What you shouldn't do? Like, but you know, it's like a totally like a new app. Like what what would make you trust?
+Kevin Shinseki: I think for me it's probably seeing how it's tracking in real time like the consumption that would be important like for example there's really no I mean the the utility should give you an app that shows you your meter in real time. And um it would be nice to understand like what appliances or devices or you know what what consumption really looks like.
+ 
+ 
+00:27:36
+ 
+Kevin Shinseki: And um I think ultimately if if you understood
+Amber Fu: Mhm.
+Kevin Shinseki: how consumption um at more of a granular level um is is applied.
+Amber Fu: Mhm.
+Kevin Shinseki: I think that is probably more helpful. Obviously if you can even drive that into a billing kind of um metric as opposed to just energy usage
+Amber Fu: Mhm.
+Kevin Shinseki: that would be even more effective, right? And so I think being able to see that you build trust to understand that it's tracking and has that ability to to do this like I'll give you another example.
+Amber Fu: Mhm.
+Kevin Shinseki: I I use Flume which is a um monitoring device for
+Amber Fu: Mhm.
+Kevin Shinseki: water right consump
+Amber Fu: Mhm.
+Kevin Shinseki: uh water supply meter and it's monitoring your water supply
+Amber Fu: Mhm.
+Kevin Shinseki: and will let you know if there's excessive usage. For example, if you've left uh the sprinklers on or the hose on too long, it'll let you know that there's uh excessive consumption um to avoid a massive water bill, right? So, kind of similar circumstance here.
+ 
+ 
+00:28:59
+ 
+Amber Fu: Mhm.
+Kevin Shinseki: And again, the first year, again, this is really similar to solar. Um I used to look at this to see my water consumption. Um, and it warned me once or twice when I was using water like for a number of things like not only washing the car but I think I think we had some construction going on and they were using a lot of water and when you start to
+Amber Fu: Mhm.
+Kevin Shinseki: see these that it identifies these incidents you build trust around it and then over time you just realize like okay this is
+Amber Fu: Okay.
+Kevin Shinseki: not as interesting. every day to look at, but if something happens,
+Amber Fu: Mhm.
+Kevin Shinseki: I know this will likely catch it. So, similar to what you're we talked about for utilities, if I can see that it's actually monitoring the right things and it's giving me insight
+Amber Fu: God.
+Kevin Shinseki: into like granular things or even notifying me uh in a state where overconumption is going to drive a higher bill, a really significant higher bill, I'll trust it.
+ 
+ 
+00:30:10
+ 
+Kevin Shinseki: I'll start to trust it.
+Amber Fu: Got it. Got it. And like what kind of change would make you start to paying close attention again? Like rate increase or extreme weather or like surprise bill.
+Kevin Shinseki: I think rate increase and surprise bill like it's it it really comes down to the bills.
+Amber Fu: Mhm.
+Kevin Shinseki: Like for example, I know I overconume, but I have no idea. I mean, I overproduce, but I have no idea like what is the um like the break even for me right now.
+Amber Fu: Hey.
+Kevin Shinseki: I just know I overproduce,
+Amber Fu: Uh
+Kevin Shinseki: but I also know that the um the compensation that I get from the utility is is not much compared to how much I
+Amber Fu: uh.
+Kevin Shinseki: produce.
+Amber Fu: Mhm. Got it. Got it. And like uh like what point would you want the app to, you know, interrupt you? Like only when it could cost you like real money or also like when something just look at euro.
+Kevin Shinseki: I think um both it it's definitely I' probably react more with a higher bill, but the unusual pattern is I think helpful to know.
+ 
+ 
+00:31:45
+ 
+Amber Fu: Okay. And like and like when the app like notice something off, would you prefer like to say like, "Oh, here's what's happened or like here's what you should do right now or mix both.
+Kevin Shinseki: Um I think um here's what happened is the more more important thing I think suggestions or recommendations might be interesting depending
+Amber Fu: Mhm.
+Kevin Shinseki: on what what kind of advice was given.
+Amber Fu: Mhm.
+Kevin Shinseki: Um like if I already know and I anticipate the additional
+Amber Fu: Mhm.
+Kevin Shinseki: consumption then any recommendation I get is going to
+Amber Fu: Mhm.
+Kevin Shinseki: be noise. But if it's something that I was unaware of um
+Amber Fu: Mhm.
+Kevin Shinseki: then the recommendations become more
+Amber Fu: Mhm. Got it.
+Kevin Shinseki: powerful.
+Amber Fu: And and but if like the app were you couple of time but turn out to like nothing serious would that reduce your trust?
+Kevin Shinseki: not necessarily trust, but it would be more I'd be less attentive to it,
+Amber Fu: Mhm.
+Kevin Shinseki: I'd say. And I think that's where you want to learn is this a type the type of alert that you you want to
+ 
+ 
+00:33:36
+ 
+Amber Fu: And
+Kevin Shinseki: continue receiving or uh how you know maybe you could you could you could um monitor that alert or that event uh but not necessarily
+Amber Fu: Mhm. Mhm.
+Kevin Shinseki: um alert the the consumer on
+Amber Fu: Got it. And and and u I was thinking like if if if the app can set like your battery reserve is lower than like as a euro for this season will that will be actionable for you.
+Kevin Shinseki: I think so. I think seeing um because I don't know what the consumption is, right? I I just I don't even know when I get to 50%.
+Amber Fu: Okay.
+Kevin Shinseki: So, I mean, I would have to look at the app to to see if I'm close,
+Amber Fu: Uh-huh.
+Kevin Shinseki: but I uh I'll tell you what we're at right
+Amber Fu: Mhm.
+Kevin Shinseki: now. Yeah, in the last I don't know, 30 minutes, it's gone down 4%.
+Amber Fu: Okay.
+Kevin Shinseki: Yep.
+Amber Fu: Okay. Okay. And and like and um and like would you like everyone like the app can automatically take action like uh like uh like like turn off something, turn on something or like uh uh delay uh like do something like a smart reserve or only notify you.
+ 
+ 
+00:35:31
+ 
+Kevin Shinseki: For me, I think notifying I don't want the app to to I can't think of
+Amber Fu: Okay.
+Kevin Shinseki: a specific use case where I want the app to actually turn something off.
+Amber Fu: Mhm. Got it. Got it. And like would you say like the real value here is like saving money or the peace of mind of knowing like someone is watching things for
+Kevin Shinseki: For me in my current situation,
+Amber Fu: you?
+Kevin Shinseki: it's that someone's monitoring it and that I can see it because it helps me understand consumption behaviors and it gives me the freedom to decide whether I think I need to change or not. Um,
+Amber Fu: Mhm.
+Kevin Shinseki: my bills aren't that excessive at this point where that would be more valuable for me.
+Amber Fu: Mhm.
+Kevin Shinseki: Now if things can totally change with you know the changes in NEM and um just maybe overall consumption could change but like I can get another EV for example um and have two of them then uh then that would be that might be significant to me but
+ 
+ 
+00:36:48
+ 
+Amber Fu: Amen.
+Kevin Shinseki: um in my current kind of consumption in my current billing it's less as interesting right now for me than um just the monitoring of behavior, monitoring of the
+Amber Fu: Mhm. Got it.
+Kevin Shinseki: conditions.
+Amber Fu: And and like like if you had to like describe the perfect energy app in like one sentence, what what would it be?
+Kevin Shinseki: That's a tough question if you're asking that to
+Amber Fu: Okay.
+Kevin Shinseki: people.
+Amber Fu: or uh let me think like okay I try to ask another okay okay another
+Kevin Shinseki: I I No,
+Amber Fu: question
+Kevin Shinseki: I'll give you a description. I can't probably do it in one sentence, but you know,
+Amber Fu: Yeah.
+Kevin Shinseki: to me, the the perfect app is going to really help me understand at a granular level what I'm consuming and what
+Amber Fu: Mhm.
+Kevin Shinseki: is consuming that um that energy and to give me awareness of when it's unusual, uh when it's high um or or or when the battery uh reserve is low and enable me to make decisions based on those conditions but
+ 
+ 
+00:38:18
+ 
+Amber Fu: Mhm. Got
+Kevin Shinseki: um maybe potentially it you know infusing the
+Amber Fu: it.
+Kevin Shinseki: the billing aspect would help me but I'm not in a again I'm not in a current situation where that is as big of a
+Amber Fu: Mhm. Got it. Got it.
+Kevin Shinseki: deal.
+Amber Fu: And and like uh I was thinking like like when you think about your like daytoday uh what part of your energy setup require the most attention from you?
+Kevin Shinseki: Um, just the time the schedule and the temperature I set the heat pump at heat pump and air conditioning.
+Amber Fu: Okay.
+Kevin Shinseki: That's probably I mean to to be honest that's what takes the most um thought process for
+Amber Fu: Okay. Mhm.
+Kevin Shinseki: me and I'm try I try to optimize based on usage and comfort but um I mean the only other thing is trying to charge the EV during the day. Uh and then I also try to minimize the consumption
+Amber Fu: Where?
+Kevin Shinseki: of electricity during the peak hours of 4 to9 if I can just because of the the billing plan that I'm
+ 
+ 
+00:40:00
+ 
+Amber Fu: Okay.
+Kevin Shinseki: on.
+Amber Fu: Got it. Got it. And um so the last question is like if their app can really help you like lower your electricity bill, let's say like uh $40 per month. Uh would you willing to pay it for the app?
+Kevin Shinseki: It's a good question.
+Amber Fu: you know, not like not only saving I you know can like uh
+Kevin Shinseki: Um,
+Amber Fu: you know just uh like handling all the timing stuff like you know the EV charging like AC per cooling heating like using more solar solar when available so that you don't have to think about it uh and you know and like help you lower your bill like would you willing to pay it?
+Kevin Shinseki: depends on how much it was. Um,
+Amber Fu: Okay, let's
+Kevin Shinseki: but like for example, 40 isn't significant enough where you'd pay a lot for an
+Amber Fu: see.
+Kevin Shinseki: app. If you were to bring bring in households down like a hundred or more, I think that is a bigger selling point, you know, in terms of the the the
+ 
+ 
+00:41:36
+ 
+Amber Fu: I was thinking like maybe like if if like there uh you you can lower your bill like
+Kevin Shinseki: value.
+Amber Fu: $40 and you pay like like five $5 something per
+Kevin Shinseki: If it was just $40,
+Amber Fu: month.
+Kevin Shinseki: like I don't think I would not I would I wouldn't pay $5 a month to to
+Amber Fu: Okay.
+Kevin Shinseki: save 40.
+Amber Fu: Okay.
+Kevin Shinseki: I I think mathematically it obviously makes sense that you would do
+Amber Fu: Uhhuh.
+Kevin Shinseki: that. I don't know it would be a big motivator for me to to do it though.
+Amber Fu: Uhhuh.
+Kevin Shinseki: um unless it was like really almost guaranteed that I am going to save that much money every month,
+Amber Fu: Okay. Okay. Okay.
+Kevin Shinseki: right?
+Amber Fu: And and by the way, I I want to know like do you uh do you receive like a true out bill every year?
+Kevin Shinseki: I do, but I don't look at it.
+Amber Fu: Okay. But but you need to pay it right or how how much do you know like how how what's amount
+ 
+ 
+00:42:51
+ 
+Kevin Shinseki: Um like most of my bill is going to be gas related because I have all the electric
+Amber Fu: Okay.
+Kevin Shinseki: covered and it I mean there
+Amber Fu: Uhhuh.
+Kevin Shinseki: isn't there are some months that it will be zero
+Amber Fu: Mhm.
+Kevin Shinseki: right essentially.
+Amber Fu: Oh, okay.
+Kevin Shinseki: So yeah,
+Amber Fu: Mhm.
+Kevin Shinseki: I'm not in the situation where the bill is a big factor for me right now,
+Amber Fu: Okay.
+Kevin Shinseki: but I'm consciously like moving away from gas to
+Amber Fu: Uh-huh.
+Kevin Shinseki: avoid bills.
+Amber Fu: Mhm.
+Kevin Shinseki: So I am very costconscious about that. And I have a gas furnace,
+Amber Fu: Mhm.
+Kevin Shinseki: but I also have a electric heat pump, right? So, I haven't turned on that gas furnace for two years now,
+Amber Fu: Okay. Okay. Got it. Got
+Kevin Shinseki: but the heat pump is on every day now for well,
+Amber Fu: it.
+Kevin Shinseki: you're down south, so it's not as cold down there, but in the Bay Area, it's it's been
+ 
+ 
+00:44:00
+ 
+Amber Fu: Mhm.
+Kevin Shinseki: colder.
+Amber Fu: Got it. And like uh do you mind asking which company you're using right now? The the Oh,
+Kevin Shinseki: Fijing
+Amber Fu: PJ. Okay. Okay.
+Kevin Shinseki: Yeah.
+Amber Fu: You're happy with the company?
+Kevin Shinseki: What's
+Amber Fu: Are you happy with the company?
+Kevin Shinseki: that?
+Amber Fu: because I heard like their customer service is soft.
+Kevin Shinseki: Uh, am I happy with them? No. I I'm not happy with how they've increased rates, how um they're passing on the cost to consumers overall when they have these fires, right? Fire dangers that are based on power lines not being turned off. I'm not happy that they are passing on that cost now to consumers to remedy by bearing power lines in some cases. And it's, you know,
+Amber Fu: Mhm.
+Kevin Shinseki: it's kind of like a government thing. They're always going to get money to fund whatever they need.
+Amber Fu: Wow.
+Kevin Shinseki: So from that standpoint,
+Amber Fu: Wow.
+Kevin Shinseki: I don't like that.
+ 
+ 
+00:45:13
+ 
+Amber Fu: Okay.
+Kevin Shinseki: Uh,
+Amber Fu: Okay.
+Kevin Shinseki: I don't like that I have to be tied to the grid as well. I'd rather be um independent of the
+Amber Fu: Got it.
+Kevin Shinseki: grid.
+Amber Fu: Got it. And um you know uh so do you like do you have any question about me or I can like you know give you little little introduce about like what we're trying to do right now.
+Kevin Shinseki: Tell me a little bit more about what you're trying to do right
+Amber Fu: Okay. Well,
+Kevin Shinseki: now.
+Amber Fu: you know like uh like right now uh we are uh still in the like the MVP stage. So our MEP focus on like the household with a solar and the
+Kevin Shinseki: Mhm.
+Amber Fu: EV and and like who have a battery in California and New York like where time of use price and like EM3 make energy decision uh you know especially pinfall and and at like at this stage we're not controlling the device we're helping user to make better decision. Well, so so the the app look like uh like electricity price, solar production, like battery state and usage and turn that into like simple dollar base like like oh wait two hour to charge your EV and like save like $10 something like that.
+ 
+ 
+00:46:47
+ 
+Amber Fu: So uh and not now like what we learn from user interview is like the biggest problem isn't l of data is uh is like you know people just not really clear what what they are doing and people don't want to like dashboard they want they don't want to lose they just want confident that they are not wasting the money so uh our like MVP proved the try to prove three thing like you know user change behavior when like the uh the uh when like it's a clear and tie to the dollar and user like value early warning more the automation and user are willing to pay when saving and peace
+Kevin Shinseki: Mhm.
+Amber Fu: of mind. Yeah. Uh so that's what uh our um we try to prove those things and uh like uh and then like in the next step we explain into early warning uh for example like alert when like energy usage like start like creeping up or notification if solar or battery per uh performance look and I'm normal or some uh or like uh the battery reserve level during the extreme weather like later for more uh more user and we move into like optimization and uh coordination.
+ 
+ 
+00:48:28
+ 
+Amber Fu: So uh something like uh smart battery and EV recommendation or support for uh some market like you know Texas or like read only insights into pro programs like virtual power plant. Yeah.
+Kevin Shinseki: What um h how do you get data about specific like devices like any a battery or like are you tapping into the API for right for the meter.
+Amber Fu: Oh yeah, the API. Yeah.
+Kevin Shinseki: Yeah.
+Amber Fu: Uh you know like right now a lot of brand they they have open API especially like big company like Tesla. Yeah.
+Kevin Shinseki: Yeah.
+Amber Fu: I believe LG I think they have it. I need to double check with my technical guys but I think they they they also have a open API. So you basically we we well we don't we don't manage energy we like red we try to reduce decision stress you know uh we try to do you know our product like you know speak in a dollar kil kilowatt hours.
+Kevin Shinseki: Yeah.
+Amber Fu: Yeah. And and we are trying to building like in intelligence layer like not another dashboard.
+ 
+ 
+00:50:05
+ 
+Amber Fu: Yeah.
+Kevin Shinseki: Yeah.
+Amber Fu: So and for like a long term we see this becoming intelligence layer for like a more than home um you know as energy price become more more expensive and home become more you know using more electricity people will need a system that you know quietly watch everything and only speak up when something matters. So just our goal is just you know right now it's pretty simple and just help people stop
+Kevin Shinseki: Mhm.
+Amber Fu: worrying about energy and feel confident they're making a good decisions.
+Kevin Shinseki: Yeah. I want I'm wondering if you need to look at the monetization strategy
+Amber Fu: Yeah.
+Kevin Shinseki: differently if um if it's a better strategy to get users by not
+Amber Fu: Uh-huh.
+Kevin Shinseki: charging and by using the
+Amber Fu: Mhm.
+Kevin Shinseki: data somehow to monetize versus having them buy the app. I I I I feel like that would be until you get um really kind of a mass adoption,
+Amber Fu: Mhm.
+Kevin Shinseki: people be very reluctant. You'll you'll you'll be chasing selling the subscription versus growing because who do
+ 
+ 
+00:51:30
+ 
+Amber Fu: Mhm. Mhm.
+Kevin Shinseki: you think your competition is right now?
+Amber Fu: Uh I was thinking uh well I don't think we have like uh like really similar computation uh computation but uh maybe out my uh out out what something called out and the net zero something like that. Yeah, but uh but those app they I think they trying do something like
+Kevin Shinseki: Mhm.
+Amber Fu: us but only problem is like uh they just can't help pe they can't help people to lower their bill. So when they uh when they start uh they have a free app the people willing to download it but after they charge uh a lot of user I saw it they they don't want to pay it because they think yeah it's everybody do the math you
+Kevin Shinseki: So,
+Amber Fu: know.
+Kevin Shinseki: this is why I'm I question your monetization strategy. Would you pay for an app? I probably would not pay.
+Amber Fu: Okay.
+Kevin Shinseki: And I think if I'm looking at your strategy, I want to know what what's valuable will be the data,
+ 
+ 
+00:52:51
+ 
+Amber Fu: And
+Kevin Shinseki: right? The consumption and um and what people are using um to to consume as well.
+Amber Fu: um
+Kevin Shinseki: You could sell that information to utility companies.
+Amber Fu: uh
+Kevin Shinseki: You could sell that information to um device companies. you there's a lot of things that you could really consider, but it's only valuable if you have mass adoption, right? That a significant amount of the population that is interesting to someone that you might want to license the data to.
+Amber Fu: Mhm. Mhm. Got it.
+Kevin Shinseki: So,
+Amber Fu: Got it.
+Kevin Shinseki: I would consider I think your lesson learned already is that these other apps that are out there that people don't want to pay for
+Amber Fu: Well, well, I I think that that's very like fair concern and we're felt deeply about like a tra uh that tradeoff and I think uh I think you're right that that's in like very early stage like uh you know charging too early can slow down the growth and like scrap the selling is always harder than like a freight uh like
+ 
+ 
+00:54:07
+ 
+Kevin Shinseki: Mhm.
+Amber Fu: adoption. So um our plan is not like it's not to like charge user on day one. Well uh the goal is like trust you know the trust uh trust habit and the behavior change like not revenue. So like we agree that data can be available long term but in home energy data
+Kevin Shinseki: Mhm.
+Amber Fu: without trust is actually very hard to to yeah and people
+Kevin Shinseki: Yeah.
+Amber Fu: are extremely sensitive about who their energy data is sold to and why you know so uh the reason we learn toward user
+Kevin Shinseki: Yeah.
+Amber Fu: paid monetization is you know uh is incentive uh and if likeity company uh parties are the customer and our automization goals may not fully align with the homeowner. So if the user is a customer our success is really simple like we only win they save money and feel less stress. So uh we we so we look like closely at product like net zero but what we see is like many free app get download but they struggle to convert because they don't clearly change outcomes.
+ 
+ 
+00:55:43
+ 
+Kevin Shinseki: Yeah.
+Amber Fu: So they they show data but they don't help user make better decisions. So uh our our bet is like that when value is is
+Kevin Shinseki: Yeah.
+Amber Fu: like really clear for example oh this save you like 27 dollar this month user are much more open to paying later. Uh so you know our strategy is like is phase phase one is like a free decision maybe you know trust building. I think trust is really really important at the first step and maybe like uh phase two is like uh option to pay it feature and to
+Kevin Shinseki: Mhm.
+Amber Fu: clear to saving or peace of mind and later on maybe like you know uh yeah just uh maybe later on is just you know uh you know do some like automation and you know just helping people manage like later on like like a like I I don't know like a a home energy CFO or something like that.
+Kevin Shinseki: Yeah.
+Amber Fu: Yeah.
+Kevin Shinseki: Okay.
+Amber Fu: So yeah so like in short we don't want to user to feel like uh the
+Kevin Shinseki: Yeah.
+Amber Fu: uh product is free because they're the product I think like the trust is first and the value is next.
+Kevin Shinseki: Yeah.
+Amber Fu: Yeah.
+Kevin Shinseki: I agree. Yeah.
+Amber Fu: Yeah. So, um you know uh I we we have we will have a early version like maybe uh two week later and if you open to try it,
+Kevin Shinseki: Sure.
+Amber Fu: would you be our uh beta tester? Okay, that'd be great because I I I really want to hear some advice from you.
+Kevin Shinseki: Yeah. Okay. And you have my contact information, right? You have my email, right? Yeah. Yeah.

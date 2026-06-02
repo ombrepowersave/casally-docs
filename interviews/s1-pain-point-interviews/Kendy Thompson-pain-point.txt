@@ -1,0 +1,325 @@
+Casally User Interviews (Kendy  Thompson ) - Transcript
+00:00:00
+ 
+Amber Fu: Oh, Hello. Hi.
+Kendy: Okay.
+Amber Fu: Hi. Uh, how are you?
+Kendy: I'm fine.
+Amber Fu: Oh, good. Good. How's your day going so far?
+Kendy: It's
+Amber Fu: That's good. That's good. Well, well, thanks again for,
+Kendy: good.
+Amber Fu: you know, making time for this. I know everyone's busy right now, especially before the Christmas. So, uh, no pressure at all. This is this is like super casual. And, uh, let me introduce myself a little bit. Um, my name is Amber and I'm one of the founder. I started this because I couldn't figure out why my own electricity bill was so crazy. Uh, and I realized a lot of my friend are dealing with the same thing. And basically we're just small team based in LA and bunch of you know tech folks who also got hit with a crazy electricity bill. So we're trying to building an app that helps people save money on their daily energy use without changing their lifestyle.
+ 
+ 
+00:01:33
+ 
+Amber Fu: So I love to understand you know how your home use electricity daytoday so we can figure out what would actually help
+Kendy: And that's good.
+Amber Fu: Yeah. And um so before we got start, would you be okay if I record this call? It's just help me make sure I don't miss anything you said. Oh, but totally option.
+Kendy: It's okay. You can record it.
+Amber Fu: Okay. Okay. Sure. Thanks. And give me a second. Okay. Well, let's start. And before we jump in, you know, into the energy stuff, I love to get some quick sense of your household just to understand your setup bit better. Uh nothing personal, just whatever uh you're comfortable uh comfortable sharing. Um so um uh how many people live in your home right now?
+Kendy: Um, okay. Um, I live in a single family home. Um,
+Amber Fu: Uhhuh.
+Kendy: I have a three-year-old baby and my my
+Amber Fu: Uhhuh.
+Kendy: partner.
+Amber Fu: Okay.
+Kendy: Yeah.
+Amber Fu: And um and uh are you do you mostly uh work from home or is everyone fly in and out all day?
+ 
+ 
+00:03:02
+ 
+Kendy: Um, for now I'm at home because I have a 3-year-old baby, but my partner goes in and out.
+Amber Fu: Mhm.
+Kendy: Yeah.
+Amber Fu: Okay. Got it. Got it. And um what uh and would you say your home home is always busy or more uh more quiet most days?
+Kendy: Um, I would say that it's always busy having a little
+Amber Fu: Mhm.
+Kendy: kid. Yeah. Yeah.
+Amber Fu: Mhm. Got it. Got it. And uh by the way,
+Kendy: Yeah.
+Amber Fu: I noticed that you you have a a power wall, right?
+Kendy: Yeah.
+Amber Fu: And do you have a solar or you you you just have power wall?
+Kendy: Um I have a Yeah. Yeah. I also have it.
+Amber Fu: Okay.
+Kendy: Yeah.
+Amber Fu: So the solar power wall and do you have a EV?
+Kendy: Yeah. Yeah. Yeah. Of course. Of course I have it.
+Amber Fu: Okay. And uh and I was wondering like what what originally got you got you into the solar like why you decide to have a solar in your house.
+ 
+ 
+00:04:20
+ 
+Kendy: Um, okay. So, it was actually my husband's idea. So,
+Amber Fu: Mhm.
+Kendy: he wanted to save some energy, but we don't mostly use it. Yeah.
+Amber Fu: Mhm.
+Kendy: Yeah.
+Amber Fu: Okay.
+Kendy: Yeah.
+Amber Fu: And uh do you mind I ask like before you got the solar and the power wall, how much you pay and after you got the solar and the power wall, how much you pay?
+Kendy: Um when I had like when before I had the solar
+Amber Fu: Mhm.
+Kendy: uh I was like lit to compare like literal amount. Yeah.
+Amber Fu: Mhm.
+Kendy: Yeah.
+Amber Fu: Okay. And uh since like you you have those system for a while,
+Kendy: Yeah.
+Amber Fu: uh are they doing good or or anything you're
+Kendy: Yeah. Yeah. Good.
+Amber Fu: not?
+Kendy: Yeah, they're doing good.
+Amber Fu: Okay. Okay. Awesome.
+Kendy: Yeah.
+Amber Fu: Well, thanks for sharing that and um it's really help us understand where where you're coming from and um and can you uh like talk about like uh so walk me through like your day in your home like when does you guys like wake up and when your home will be empty or when you try to you know do the laundry and have a EV charging.
+ 
+ 
+00:05:50
+ 
+Amber Fu: Okay.
+Kendy: Um, okay. So most of mostly in my family like I use
+Amber Fu: Mhm.
+Kendy: the lighting most of the time and also for laundry. So when I wake up in the morning I don't do much laundry.
+Amber Fu: Mhm.
+Kendy: I do it well in the evening also in charging the EV. I do it mostly at night and the evening. Yeah.
+Amber Fu: Okay. Okay. And uh and when do you feel like your electricity used is the highest? Like you know the time when everything seemed to be running like dinner time or cooking time or like which period?
+Kendy: um during the day um I would say that is uh it's normally higher
+Amber Fu: Mhm.
+Kendy: peak hours. So I normally use to store the the energy through the power wall and then I charge it I charge my
+Amber Fu: Mhm.
+Kendy: EV overnight.
+Amber Fu: Mhm.
+Kendy: Yeah. When the Yeah.
+Amber Fu: Mhm.
+Kendy: Yeah.
+Amber Fu: Okay. Okay. And uh have you ever tried to charge your EV uh during the sunny day?
+ 
+ 
+00:07:12
+ 
+Amber Fu: Like you can use your solar is afraid.
+Kendy: Uh yeah, I've ever tried. Yeah. Yeah. But not most of the time.
+Amber Fu: Mhm.
+Kendy: I normally like charging it overnight. Yeah.
+Amber Fu: Mhm. Okay.
+Kendy: Yeah.
+Amber Fu: Okay. And well, do you know uh if electricity is a cheaper at a certain time of the day where you live?
+Kendy: Yeah. Um I would say like at night it's normally cheaper compared during the day.
+Amber Fu: Mhm. Okay.
+Kendy: Yeah.
+Amber Fu: And what do you ever try to use a cheap a cheap hour or is like like uh you know it's good but just never happen.
+Kendy: Um um I've tried using during the the chip hour. Yeah.
+Amber Fu: Okay. And uh so like are those are there things you could
+Kendy: Yeah.
+Amber Fu: run during the cheaper hour like do the laundry, dishwash, uh EV charging like uh you just try to keep keep those to in the cheaper hour or sometime.
+Kendy: Um during the cheap hours I would try like I normally try like the normal lighting.
+ 
+ 
+00:08:35
+ 
+Kendy: Um it wouldn't take the bills higher.
+Amber Fu: Uhhuh.
+Kendy: Um also sometimes run the dishwasher.
+Amber Fu: Mhm.
+Kendy: Yeah. Yeah. But not charging the EV.
+Amber Fu: Mhm.
+Kendy: Yeah.
+Amber Fu: Okay.
+Kendy: Yeah.
+Amber Fu: Okay. Okay. Got it. Got it. And um well so when you think about your like daytoday what part of your energy setup require the most attention from you?
+Kendy: Um,
+Amber Fu: Do you have that moment?
+Kendy: pardon
+Amber Fu: Uh so so when you think about like your daytoday uh what part of a energy setup requires the most attention from you
+Kendy: um I would say my power wall to store the energy, but mostly I don't use the solar.
+Amber Fu: okay
+Kendy: Yeah. Yeah.
+Amber Fu: so why you don't use solar
+Kendy: Um, it had some issues, some I would say some technical issues and then my husband told me that I shouldn't use it for a while even look to it. Yeah.
+Amber Fu: Mhm.
+Kendy: Yeah.
+Amber Fu: Okay. Okay. Got it. Got it.
+ 
+ 
+00:09:55
+ 
+Amber Fu: And uh so like when you charge at night your EV uh do you ever feel like you may be missing out on using your own solar during the
+Kendy: Yeah,
+Amber Fu: day?
+Kendy: I normally feel it like I'm missing out because um sometimes I have a little baby and sometimes he might get sick
+Amber Fu: Mhm.
+Kendy: on fever like I need to rush to the hospital but you see I charge I charge
+Amber Fu: Okay. Okay.
+Kendy: my EV during the night, so I would sometimes it's not reliable.
+Amber Fu: Mhm.
+Kendy: Yeah.
+Amber Fu: Okay. Okay. Got it.
+Kendy: Yeah.
+Amber Fu: Got it. And well, do you ever ever check whether your EV is charging from the battery or from the road?
+Kendy: Um I normally use the Tesla app. Yeah. Yeah.
+Amber Fu: Okay. And has your power wall ever gotten lower than you expect because of eBay charging? Um,
+Kendy: P.
+Amber Fu: so has you your power wall uh ever got lower than your expect because of uh because of EV
+Kendy: Um, sometimes I would say Yeah.
+ 
+ 
+00:11:10
+ 
+Amber Fu: charging?
+Kendy: And then it's Yeah. And it affects me when I have like um unexpected trip. Yeah.
+Amber Fu: M okay.
+Kendy: Yeah.
+Amber Fu: And would it would it help if the app can protect your battery automatically at the
+Kendy: Yeah.
+Amber Fu: night?
+Kendy: It would really help.
+Amber Fu: Okay.
+Kendy: Yeah.
+Amber Fu: And well uh when would you want the system to decide thing for you like when to charge the EV or when save the battery?
+Kendy: Um, for me, I would say if there would be an app to help me,
+Amber Fu: I
+Kendy: I would say an app that would combine all my like monitoring all my
+Amber Fu: know.
+Kendy: devices at one dashboard. Yeah, that one would be easier. Just like one app, I see how my power wall is charging and also my EV from like one dashboard. Yeah.
+Amber Fu: Okay. Got it. Got it. And um so I I uh so you're uh which company you're using right now? The energy
+Kendy: Um,
+Amber Fu: company?
+Kendy: is it good to discuss
+ 
+ 
+00:12:35
+ 
+Amber Fu: Uh is that a pardon? What what is it? What so where you live right now? Is it LA or is it San Diego?
+Kendy: Yeah, I live in LA. Yeah.
+Amber Fu: Oh, okay. Okay.
+Kendy: Yeah.
+Amber Fu: And which uh which energy company you're using? Is a is a Edson?
+Kendy: Pardon?
+Amber Fu: Uh which energy company you're
+Kendy: Um,
+Amber Fu: using?
+Kendy: I'll say that I use the Tesla power one and
+Amber Fu: Okay.
+Kendy: yeah.
+Amber Fu: Okay. Um, and do you ever look at your electricity bill or usage and feel unsure what's it mean?
+Kendy: Um, I normally look at it. Um, I I use the PG and E monitoring total.
+Amber Fu: Uh-huh.
+Kendy: Yeah,
+Amber Fu: Okay.
+Kendy: I have to look at it. Yeah, I normally look at it.
+Amber Fu: Okay. Okay.
+Kendy: Yeah.
+Amber Fu: And would it help if a app can told you like, "Oh, here how much your solar save you this
+Kendy: Yeah,
+Amber Fu: week." Mhm.
+Kendy: it would really help.
+ 
+ 
+00:13:41
+ 
+Kendy: Yeah.
+Amber Fu: Okay, that's good. Well, um, so how much you pay right now every month for electricity
+Kendy: Um I've like for this month actually I really don't um
+Amber Fu: bill?
+Kendy: I can't remember it like my husband checked it I think last month. Yeah.
+Amber Fu: Mhm. Okay. Okay.
+Kendy: Yeah.
+Amber Fu: And uh do you ever wondering your solar system is performing well or is under
+Kendy: Um yes sometimes um when sometimes like
+Amber Fu: producing?
+Kendy: I find the bills are higher sometimes I question myself. Yeah.
+Amber Fu: Okay.
+Kendy: Yeah.
+Amber Fu: But um have had has you uh like your solar ever stopped working without your notice or
+Kendy: Oh,
+Amber Fu: never?
+Kendy: like I told you like it had some actually right now it has some technical uh problem.
+Amber Fu: Okay.
+Kendy: Yeah.
+Amber Fu: Issues. Okay.
+Kendy: Yeah.
+Amber Fu: Okay. Got it. Got it.
+Kendy: Yeah.
+Amber Fu: And how but how you fix it? You need to call the customer service.
+Kendy: Um I told my husband and then he told me like for now um I'll wait and then he will tell me it.
+ 
+ 
+00:15:10
+ 
+Amber Fu: Mhm.
+Kendy: Yeah.
+Amber Fu: Mhm.
+Kendy: But I'm sure he will call the customer service.
+Amber Fu: Got it.
+Kendy: And like next week Yeah.
+Amber Fu: Mhm. Got it.
+Kendy: Yeah.
+Amber Fu: And uh so when you like busy with your baby, do you ever like forgot things like you know plug in the EV or like turn turn something
+Kendy: Yeah.
+Amber Fu: off?
+Kendy: There is one time that I I actually forgot to plug in my EV. Um and then my baby just got sick that night.
+Amber Fu: Uhhuh.
+Kendy: Um yeah yeah yeah and good
+Amber Fu: Oh, okay. Okay. And well would like a quick remind on your phone make your day
+Kendy: yeah
+Amber Fu: easier you think like always remind you like oh uh don't forgot to plug EV or something like that. Do you think that will make your day
+Kendy: I would really appreciate if I can get like an app that will give me some
+Amber Fu: easier?
+Kendy: notification Because for me having a small baby it's I normally forgot when Yeah.
+Amber Fu: Mhm.
+ 
+ 
+00:16:21
+ 
+Kendy: most of the time.
+Amber Fu: Okay.
+Kendy: Yeah.
+Amber Fu: And do you want this like system to be simple enough that even your partner can use it without the
+Kendy: Yeah. I would really love to like if we can share like the the like the data
+Amber Fu: thinking?
+Kendy: that is given me and also my partner.
+Amber Fu: Got it. Got it.
+Kendy: Yeah.
+Amber Fu: Got it. And um so uh like like right now how many app do you check?
+Kendy: Um I have the
+Amber Fu: Uh Tesla solar app
+Kendy: Yeah.
+Amber Fu: right?
+Kendy: And also the PG and A monitoring that's a portal. Yeah.
+Amber Fu: Okay. Okay. Got it. about it.
+Kendy: Yeah.
+Amber Fu: And um so um what what's the hardest part that you think you know when you managing your home energy? Like do you do you have like ever have a moment think oh this is hard or this is take a lot of
+Kendy: Yeah,
+Amber Fu: time.
+Kendy: like moving from one I would say from one app to the other.
+ 
+ 
+00:17:41
+ 
+Kendy: It's Yeah, I wish it would be just one app.
+Amber Fu: Okay.
+Kendy: I just see it. I see everything. It has reminders. Yeah.
+Amber Fu: Mhm. Got it. Got it. Got it. Got it. Well, um and well, thanks for sharing that. I mean is like you know really helpful to me understand like uh your daily energy use and um so and last question is if there have a system could you know help you save you money and then help you you know automize your home. Do you do you willing to pay it or you think you will be think about it or you you don't use third third party app?
+Kendy: Uh I would say if there there would be a n to help me like schedule, give me reminders, u make my work easier and meaning willing to pay it especially in my Yeah.
+Amber Fu: Okay.
+Kendy: Especially in my situation. I have a baby. Sometimes I have to forget sometimes. Yeah. I I would be willing much to pay for the app. Yeah.
+Amber Fu: Uhhuh.
+Kendy: Mhm.
+Amber Fu: Got it. Got it. Okay. Well, that's uh super helpful. And you know, uh once we have early version of the app ready, uh would you be open to try it out as a beta
+Kendy: Yeah. Yeah.
+Amber Fu: tester?
+Kendy: Yeah. Yeah.
+Amber Fu: Oh, okay. Well, we that would be wonderful because your feedback is really valuable for us.
+Kendy: Yeah.
+Amber Fu: Okay. Sure. Sure. Definitely. Well, uh please uh keep in touch and uh we will contact you when the app's
+Kendy: Yeah,
+Amber Fu: ready.
+Kendy: I'm I'm willing you just send me um actually I remind you I'm very much willing to try it because I don't like moving from one app to the other.
+Amber Fu: Uhhuh.
+Kendy: Sometimes I have to forget charging my EV. Yeah. Yeah. Okay. Um Okay. Bye.
+ 
+ 
+Transcription ended after 00:20:10

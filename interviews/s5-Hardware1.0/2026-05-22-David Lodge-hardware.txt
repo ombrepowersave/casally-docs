@@ -1,0 +1,1181 @@
+May 22, 2026
+Casally  CA Licensed electrician Interviews - Transcript
+00:00:00
+ 
+Amber Fu: Hi, David. Hi. How are you?
+David Lodge: I'm doing okay. I'm doing okay.
+Amber Fu: Good. Good. I'm really sorry.
+David Lodge: Nice to meet you.
+Amber Fu: Uh I'm being late.
+David Lodge: No problem at
+Amber Fu: Okay. Thank you. Thank you so much.
+David Lodge: all.
+Amber Fu: Well, I I know like you know everyone's busy so thank you so much for making the time. I really appreciate.
+David Lodge: No problem. I appreciate it as well.
+Amber Fu: Okay, perfect. So before we start like do you mind I record this call or it's it's fine if you mind because I just I just want to you know actually listen to you instead you know just taking a note.
+David Lodge: No problem.
+Amber Fu: Okay thank you so much and give me one second.
+David Lodge: I also have an Irish accent which means you might have difficulty understanding
+Amber Fu: Uh
+David Lodge: me. So if you do just ask me to repeat
+Amber Fu: I will try my best.
+ 
+ 
+00:00:51
+ 
+David Lodge: myself.
+Amber Fu: Okay, sure. Definitely.
+David Lodge: I'll I'll talk as slowly and succinctly as
+Amber Fu: Perfect.
+David Lodge: possible.
+Amber Fu: Thank you so much. Okay. Uh Okay. So, uh let's start.
+David Lodge: Yeah.
+Amber Fu: Sure.
+David Lodge: How can I help
+Amber Fu: Perfect. Yeah. And Okay. Great. So,
+David Lodge: you?
+Amber Fu: I will be honest about like how I want to use this hour. I I I'm not like here to like, you know, uh just pitch you or I I'm here to learn from someone who's been like inside the thousands of home and panels. So, so like if anything I I say sounds like really stupid, the most useful thing is you can do just tell me this is stupid. Okay. Okay. Perfect.
+David Lodge: Okay.
+Amber Fu: So, well, quick uh version of like who we are. Uh uh well basically we're just a small company called the Cassie. Um so the problem is most homeowner especially one of solar or battery or EV uh have no idea why their uh electricity bill uh is what it is.
+ 
+ 
+00:02:02
+ 
+Amber Fu: So well basically like right now the rate uh the rate rules are like insane you know like really the price will be changed by the hours and the people overpay without like realizing it. So right now we have an app that warn the people before they make expensive mistake like you know don't charge your EV right now uh is pickover or like uh or like for the uh solar uh customer they have uh the true up especially under the NAM three in California policy and it's like really complicated and uh a lot of people think they are have uh overpaying stuff like that. So we just try to help them to figure out like uh like you know uh just as possible as like a lower they can pay. So uh and right now we we have tasks in with a real home owner and people uh and and we talk a lot of people and we show them the app. So the basically like people want this but here is where I need your help and is a two-part first to give advice that people can trust.
+ 
+ 
+00:03:21
+ 
+Amber Fu: We think we need hardware uh the hardware uh in the in the home that can see the whole home energy in the real time because like right now it's only the app. So we only can you know uh see the stuff like they have the API. So uh you know it's because it's only the app. So in case like if we want to see the the whole home uh load uh we need the hardware uh in the home and to see like uh the energy in real time. And the second part is uh kind of a little bit bigger. Uh eventually the homeowners uh this a homeowner permission. We don't just want to see it. We want to be able actually act on it. So just like automatically you know to to help them to uh to do some like the when the EV charging to the pig without uh without them can do by theirel. So uh and also like tell the battery when the uh when to charge um maybe even manage specific u some stuff.
+ 
+ 
+00:04:38
+ 
+Amber Fu: So so the hardware can't just be sensor. It has to be able to control the things and also reliable and safe uh safe uh safely. And honestly like we don't know the right way to build that yet. So that exactly why I want to talk to you. So most of today I just want to learn from you.
+David Lodge: No
+Amber Fu: Yeah. Yeah. So uh before we get into what we're building,
+David Lodge: problem.
+Amber Fu: can do you mind me um do you mind walk me through like typical like uh EV charger install like start to finish like how long and what's involved?
+David Lodge: No problem. Um, so it sounds to me before we go on that you're talking about an energy monitoring monitoring system um and
+Amber Fu: Uh but not only monitoring, we want to also can control the thing.
+David Lodge: control. So
+Amber Fu: But you know like some uh some people uh I know like right now uh the most uh applies that can be like higher can cause a higher
+ 
+ 
+00:05:42
+ 
+David Lodge: yes,
+Amber Fu: electricity will be like EV right that's the most part and but also like the people said like oh uh the EV and the AC that the two big part in the whole but also like maybe the third and fourth some people said oh the laundry will cause you know some and the heater like the you know the old one the heater but I just want to know how can control those
+David Lodge: Yeah.
+Amber Fu: things
+David Lodge: So, you can get a smart panel. There's a panel called a span panel.
+Amber Fu: yes I I I know that but that is really expensive
+David Lodge: S an Yeah. And uh Leviton does another version that's cheaper, but it is the same thing where you can remotely control devices with your phone. You're controlling the panel. And so basically, you leave the device turned on and then the panel turn can you can set timers to turn the panel turns the breaker on and then starts the charging or you know that kind of thing.
+Amber Fu: But basically Everything.
+ 
+ 
+00:07:04
+ 
+David Lodge: Um It's not going to work for the likes of
+Amber Fu: Everything in the
+David Lodge: of dryers because,
+Amber Fu: whole.
+David Lodge: you know, you would have to have the you know, you you can't you would have to be able to control the dryer with your phone as well to turn on the dryer.
+Amber Fu: Okay. But yeah, but
+David Lodge: But you but you could certainly turn off the dryer but turning it back on. You can turn the breaker back on but remotely but you would not be able to
+Amber Fu: Okay.
+David Lodge: turn the dryer back on with this but not unless the
+Amber Fu: Okay.
+David Lodge: dryer itself was connected to the app.
+Amber Fu: Okay.
+David Lodge: So you can turn off and on breakers at the panel and you can
+Amber Fu: Okay.
+David Lodge: monitor those breakers at the panel with a span
+Amber Fu: Mhm.
+David Lodge: or a leviton panel um that can control the breakers themselves.
+Amber Fu: Okay. Got you.
+David Lodge: Yeah.
+Amber Fu: Uh.
+David Lodge: So for EV charging for example, an EV charger is just plugged in.
+ 
+ 
+00:08:12
+ 
+Amber Fu: Mhm.
+David Lodge: So, if you come home and you plug your EV charger in,
+Amber Fu: Mhm.
+David Lodge: but the breaker's off until 9:00 when a timer on your phone
+Amber Fu: Mhm.
+David Lodge: goes off and then it tells the panel, "Turn that breaker on, the breaker turns on and the car charts starts charging." That would work, but that wouldn't work for a dishwasher.
+Amber Fu: Okay.
+David Lodge: Um, you know, it wouldn't work for appliances like that,
+Amber Fu: Mhm.
+David Lodge: but it would work for um appliances that come on automatically, like your AC, your dishwasher, that kind of thing. You could control that with the electrical panel.
+Amber Fu: Got you.
+David Lodge: Yes.
+Amber Fu: Got you. Okay.
+David Lodge: So, getting So,
+Amber Fu: Hey.
+David Lodge: will we start back with the the EV charger installation?
+Amber Fu: Yes.
+David Lodge: Okay. So, uh, for the most basic installation,
+Amber Fu: Yes.
+David Lodge: the cheapest, most basic installation, I would use the service panel on that's the the service panel is the outdoor panel that has the meter on it,
+ 
+ 
+00:09:20
+ 
+Amber Fu: Uh
+David Lodge: the circular meter that's controlled by the utility company.
+Amber Fu: Um, let me like this called a service
+David Lodge: That's called the service panel.
+Amber Fu: panel.
+David Lodge: Correct.
+Amber Fu: Okay.
+David Lodge: Inside the panel that they have inside,
+Amber Fu: Uh-huh.
+David Lodge: usually in the garage or or possibly in a closet,
+Amber Fu: Uh-huh. Uh,
+David Lodge: is called the sub panel.
+Amber Fu: server panel. Okay.
+David Lodge: Sub
+Amber Fu: Uh uh so so is that
+David Lodge: SUV.
+Amber Fu: is something kind of like a span or is a different
+David Lodge: Uh so the span would be usually is is a sub panel.
+Amber Fu: thing.
+David Lodge: It's not a service panel yet but
+Amber Fu: Okay. But is is that cost money or the the the people gonna need to buy it to have that
+David Lodge: but
+Amber Fu: or it's already there in Oh,
+David Lodge: already there with the house.
+Amber Fu: there's a house, right? It's already there. Oh,
+David Lodge: There's another panel though that is only that's very new called
+ 
+ 
+00:10:23
+ 
+Amber Fu: okay.
+David Lodge: a a Snider um smart panel
+Amber Fu: Okay. Oh, I know.
+David Lodge: that
+Amber Fu: So the service panel is like kind of like a breaker box, right? Okay.
+David Lodge: Yes.
+Amber Fu: Got you. Got you.
+David Lodge: And the service panel has the circular meter control that
+Amber Fu: Uh
+David Lodge: PG&E controls.
+Amber Fu: okay.
+David Lodge: Okay. So it's like the PG& panel.
+Amber Fu: So uh that belongs to the PG.
+David Lodge: No, the the meter on that panel belongs to
+Amber Fu: Uh uh.
+David Lodge: PG&
+Amber Fu: Okay. Okay, got you.
+David Lodge: the panel belongs to the house.
+Amber Fu: Okay, got you. Got you.
+David Lodge: Okay.
+Amber Fu: Mhm.
+David Lodge: Uh so there are smart panels now
+Amber Fu: Mhm.
+David Lodge: that that are service panels.
+Amber Fu: Mhm.
+David Lodge: but they're very new and there's not very many installed yet,
+Amber Fu: Okay.
+David Lodge: but they can be controlled with your smartphone.
+Amber Fu: Gotcha. Gotcha. Um,
+David Lodge: Yeah.
+ 
+ 
+00:11:35
+ 
+David Lodge: So,
+Amber Fu: so we please go
+David Lodge: I Okay,
+Amber Fu: ahead.
+David Lodge: so getting back to the most basic EVSE charger installation.
+Amber Fu: Mhm.
+David Lodge: If usually what I like to do is the service panel outside with the
+Amber Fu: Mhm.
+David Lodge: meter if that has space for a breaker
+Amber Fu: Uh-huh. Uh-huh.
+David Lodge: if it can take the charger. That's the panel I use. So what we would do is we would open that panel. We would drill through into the garage.
+Amber Fu: Mhm.
+David Lodge: Then in the garage we have to mount a disconnect on the wall. Okay. A disconnect is an emergency feature that allows you to disconnect the charger and it has to be in a line of sight from the charger.
+Amber Fu: Okay.
+David Lodge: Okay? So,
+Amber Fu: Okay.
+David Lodge: you have you have to be able to see the disconnect in in the same
+Amber Fu: Okay.
+David Lodge: room as the charger.
+Amber Fu: Okay. Got
+David Lodge: Okay? So,
+ 
+ 
+00:12:37
+ 
+Amber Fu: you.
+David Lodge: I install the disconnect and then beside the disconnect, I mount the charger on the wall and then I run a flexible conduit from
+Amber Fu: Oh.
+David Lodge: the charger to the disconnect and I and then I terminate
+Amber Fu: Mhm.
+David Lodge: them.
+Amber Fu: Okay.
+David Lodge: And that's the most that's the one that I do nine times out of
+Amber Fu: Okay. Got you.
+David Lodge: 10.
+Amber Fu: Uh, is there need to the permits for the city from the city?
+David Lodge: Yes. Yes. And the permit is more expensive.
+Amber Fu: Okay.
+David Lodge: It's almost twice as expensive as the
+Amber Fu: Oh, really?
+David Lodge: installation.
+Amber Fu: I mean, in the uh San Francisco or in LA or is the same?
+David Lodge: So in the Tri Valley in Liverour,
+Amber Fu: Uh-huh.
+David Lodge: uh in Pleasanton, in Dublin, it's called the Tri Valley. The Tri Valley. So the three cities,
+Amber Fu: Okay. Oh,
+David Lodge: okay,
+Amber Fu: yeah.
+David Lodge: in in that area. Uh so and then close to the city the permit the permit usually costs
+ 
+ 
+00:13:37
+ 
+Amber Fu: Mhm.
+David Lodge: between $700 to $900 whereas the installation only costs $400.
+Amber Fu: Okay. So, that money goes to the city, right?
+David Lodge: Yes. So well so the city charge for their permit and then
+Amber Fu: Uh-huh.
+David Lodge: the time it takes so that so yeah so there's one charge from the city the reason that it
+Amber Fu: Uh-huh.
+David Lodge: costs between $700 and $900 is my time
+Amber Fu: Mhm.
+David Lodge: so the installation is $400 and and then what happens is
+Amber Fu: Uh-huh. Uh.
+David Lodge: this so the customer hires me Okay.
+Amber Fu: Mhm. So, is the customer hires you or the city hires you?
+David Lodge: Then I the customer hires
+Amber Fu: The C.
+David Lodge: me.
+Amber Fu: Okay.
+David Lodge: Then I file an application with the city.
+Amber Fu: Okay.
+David Lodge: It usually takes them one week to get back to me. Then they say,
+Amber Fu: Uhhuh.
+David Lodge: "We need a load calculation. We need various different things.
+Amber Fu: Uhhuh.
+David Lodge: We need a site plan.
+ 
+ 
+00:14:49
+ 
+Amber Fu: Uhhuh.
+David Lodge: We need the manual for the charger.
+Amber Fu: Mhm.
+David Lodge: It can be various different things depending on the city. Then I submit those forms to them and then about a week later they come back and
+Amber Fu: Mhm.
+David Lodge: they approve the permit. Okay.
+Amber Fu: Okay. Got you.
+David Lodge: Then I book the job with the customer. So, I say to the customer,
+Amber Fu: Mhm.
+David Lodge: uh, that we're going to be doing an inspection in the afternoon between 12
+Amber Fu: Mhm.
+David Lodge: o'clock and 3:00 usually.
+Amber Fu: Mhm.
+David Lodge: Okay?
+Amber Fu: Mhm.
+David Lodge: It changes with each city, but usually it's between 12:00 and 3:00.
+Amber Fu: Mhm.
+David Lodge: So,
+Amber Fu: Mhm.
+David Lodge: I will arrive two hours earlier to do the installation.
+Amber Fu: Mhm.
+David Lodge: So, I I'll arrive at 10:00 a.m.
+Amber Fu: Okay.
+David Lodge: and I do the installation, which takes maximum two hours and then I wait for the inspector to
+Amber Fu: Okay.
+David Lodge: come. The inspector comes,
+ 
+ 
+00:15:47
+ 
+Amber Fu: Okay.
+David Lodge: I show him the permit,
+Amber Fu: Uh-huh.
+David Lodge: he inspects my work, signs the permit,
+Amber Fu: Uh-huh.
+David Lodge: and then the job is done.
+Amber Fu: Okay. Got you.
+David Lodge: Now,
+Amber Fu: Got you.
+David Lodge: to be clear, most electricians don't do that.
+Amber Fu: Uh-huh.
+David Lodge: Most electricians um and a lot of handymen who don't know what they're doing will not get a permit and will install it for $400. So, there's lots of chargers all over the cities that are basically illegal.
+Amber Fu: Oh, that's Oh, okay. That's really Well, that's something news is uh do you mind like tell me bit more like uh so if they don't fail the documents to the city, they just you know go in in the house and down and leave. What's going to happen?
+David Lodge: So, um, the city don't know you that we're doing work on the house,
+Amber Fu: Yeah. Uh-huh.
+David Lodge: but say two years later,
+Amber Fu: Mhm.
+David Lodge: the customer wants to do a remodel on their house.
+ 
+ 
+00:17:06
+ 
+Amber Fu: Um,
+David Lodge: Okay.
+Amber Fu: okay. Okay.
+David Lodge: Now they have to pull a permit and then what happens is the city come to do the inspection on the remodel and the and the inspector
+Amber Fu: Uh
+David Lodge: says you've got an electric charger here that's not permitted
+Amber Fu: so that will be 100% happened or uh
+David Lodge: and that happens a lot of the time. Yes.
+Amber Fu: Okay.
+David Lodge: So, this the the city inspector catches the homeowner doing illegal work that they didn't that the homeowner didn't know was illegal because the electrical
+Amber Fu: Mhm. Mhm.
+David Lodge: contractor didn't tell them because they're trying to keep costs
+Amber Fu: Uh-huh.
+David Lodge: down. Okay.
+Amber Fu: Mhm.
+David Lodge: Um and then rather than finding the customer, what they do is they force the customer to go through the permitting process and prove that the installation is up to
+Amber Fu: Okay.
+David Lodge: code and then they just they just charge the
+Amber Fu: Okay.
+David Lodge: same amount that they would have charged when you were doing the installation.
+ 
+ 
+00:18:19
+ 
+David Lodge: So $7 to $900.
+Amber Fu: Okay. Got you. Got you. Well, that's Yeah.
+David Lodge: Yes.
+Amber Fu: So uh so basically just because the customer they they just don't know they just don't know it right. Okay.
+David Lodge: Correct.
+Amber Fu: Got you got you got you well and also um so next thing is like when you're adding uh you know like uh Okay. So um the smart panel is something new right? Um like have you ever like helped the customer
+David Lodge: Yes.
+Amber Fu: to adding to to to uh to installed that before one.
+David Lodge: One. One.
+Amber Fu: Okay. Uh okay.
+David Lodge: Just one.
+Amber Fu: In that case like have you ever talked to them like oh why you need this stuff like
+David Lodge: Um,
+Amber Fu: that?
+David Lodge: have I talked to them why they need it? Um, it's usually so I've talked to many people about these panels and people who
+Amber Fu: Uh-huh.
+David Lodge: were interested in um installing them and then when I would tell them how much
+ 
+ 
+00:19:29
+ 
+Amber Fu: Uhhuh.
+David Lodge: it would cost, they would no no they would stop.
+Amber Fu: Uh-huh. Okay.
+David Lodge: They they would stop. But usually the type of people who want to install them are usually tech
+Amber Fu: Okay.
+David Lodge: people.
+Amber Fu: Okay. Got you.
+David Lodge: People in tech who like the idea of having a phone that they can
+Amber Fu: Mhm.
+David Lodge: see everything in their house in that they like to monitor the the money in
+Amber Fu: Mhm.
+David Lodge: their house. You know, they want to monitor the energy usage.
+Amber Fu: Mhm.
+David Lodge: So, usually it's tech people, but like I said,
+Amber Fu: Mhm.
+David Lodge: most people that I've talked to don't go with this with the smart panels yet because they're still very
+Amber Fu: Mhm. Well, if like replacing the whole panel is too expensive,
+David Lodge: expensive.
+Amber Fu: is there like a lighter way to control the home load? Can you ever think about anything?
+David Lodge: Well, and controlling the load is the problem here. There is
+ 
+ 
+00:20:30
+ 
+Amber Fu: Because we we want you, you know, not even like the EV AC,
+David Lodge: there
+Amber Fu: like maybe even like the water heater, like a pole bomb, but we we
+David Lodge: well so there is uh an
+Amber Fu: Yeah.
+David Lodge: energy monitoring system provided by the company Emporia.
+Amber Fu: Oh yeah, I know.
+David Lodge: Emporia,
+Amber Fu: Yes. Yes. In Pora, I know that the city clam, right?
+David Lodge: you got it.
+Amber Fu: Okay.
+David Lodge: The CL Did you say the clamp clamps?
+Amber Fu: Yeah. Yeah.
+David Lodge: Yes.
+Amber Fu: Clamps.
+David Lodge: Yes. So,
+Amber Fu: Yeah.
+David Lodge: that's easily installed on any old panel,
+Amber Fu: Okay.
+David Lodge: but it doesn't control it doesn't control anything.
+Amber Fu: They only re
+David Lodge: It simply tells you simply tells you what's happening.
+Amber Fu: Okay.
+David Lodge: So through that you could provide recommendations to the customer saying oh it's between 4:00 and 9:00.
+Amber Fu: Mhm.
+David Lodge: This is high peak energy usage time.
+Amber Fu: Mhm.
+David Lodge: Um you know your EV charger is on.
+ 
+ 
+00:21:39
+ 
+Amber Fu: Mhm.
+David Lodge: We don't recommend you use that.
+Amber Fu: Okay.
+David Lodge: But it's not something that can turn off the actual
+Amber Fu: Uh-huh.
+David Lodge: charger.
+Amber Fu: Okay. Um, but can you think anything that maybe can control some like big load? Not like whole home load, but like Yes.
+David Lodge: remotely.
+Amber Fu: But it's a lighter way.
+David Lodge: A lighter way.
+Amber Fu: Mhm.
+David Lodge: What do you mean by a lighter way?
+Amber Fu: Uh because like the smart panel is like we think it's too heavy because you know you need to installed and a lot of people it's really new yet
+David Lodge: Yeah.
+Amber Fu: expensive.
+David Lodge: Yeah.
+Amber Fu: Um but the so we want to something that's you know like a lighter way to control only the big loads.
+David Lodge: So, so if you use the energy monitor on the panel and then maybe you could
+Amber Fu: Uh-huh.
+David Lodge: use um you know wifi controlled plugs,
+Amber Fu: Mhm. Okay.
+David Lodge: something like that as in a plug that you plug in to a 50 amp receptacle or a normal receptacle
+ 
+ 
+00:23:01
+ 
+Amber Fu: Uh-huh. Mhm.
+David Lodge: that is Wi-Fi attached that attaches to your phone. So, for example,
+Amber Fu: Okay.
+David Lodge: you have um a 50 amp receptacle for your
+Amber Fu: Mhm.
+David Lodge: EV charger instead of a hardwired charger because there's there's a
+Amber Fu: Mhm. Mhm.
+David Lodge: few different ways of doing a vehicle charging. We just talked about one hard wiring.
+Amber Fu: Uh uh.
+David Lodge: Okay.
+Amber Fu: Uh.
+David Lodge: Do you want me to tell you the others first?
+Amber Fu: Yes, please.
+David Lodge: Okay, so the first one that we talked about was a hardwired charger that
+Amber Fu: Uhhuh.
+David Lodge: takes a 60 amp circuit and it's directly
+Amber Fu: Uhhuh.
+David Lodge: wired into the charger, the hardwired charger.
+Amber Fu: Uhhuh.
+David Lodge: Okay, that gives you the maximum level of charge,
+Amber Fu: Okay.
+David Lodge: which is 25 miles per hour of charge.
+Amber Fu: Uhhuh. Uhhuh.
+David Lodge: Okay. If a customer's panel can't support that because it's too small a
+Amber Fu: Mhm.
+David Lodge: panel, we can put in a receptacle.
+ 
+ 
+00:24:15
+ 
+David Lodge: The next level,
+Amber Fu: Okay.
+David Lodge: so a hardwired is the top.
+Amber Fu: Uh-huh.
+David Lodge: The next level down is a 50 amp receptacle.
+Amber Fu: Okay.
+David Lodge: And similarly again if I have a if I have a service panel
+Amber Fu: Uh-huh. Uh-huh.
+David Lodge: outside I would drill through I on the inside I would
+Amber Fu: Uh-huh.
+David Lodge: put a disconnect. Same again but this but but this time I put a receptacle under the
+Amber Fu: Uh-huh.
+David Lodge: disconnect. Okay. And then I put a GFCI breaker in the panel.
+Amber Fu: Okay.
+David Lodge: a ground fault circuit interrupter breaker. Okay? And the reason you need those is for personal protection. If you get an electric shock, it turns off the power in 300 milliseconds.
+Amber Fu: Okay.
+David Lodge: So instead of being caught and cooked and killed,
+Amber Fu: Oh. Mhm.
+David Lodge: you get an electric shock and then it turns off.
+Amber Fu: Uh
+David Lodge: Okay,
+Amber Fu: okay.
+David Lodge: that's a GFCI breaker.
+ 
+ 
+00:25:23
+ 
+Amber Fu: Okay.
+David Lodge: Then the customer plugs in a 50 amp charger.
+Amber Fu: Uh-huh. Uh-huh.
+David Lodge: So their charger has a plug and you plug in
+Amber Fu: Uh-huh.
+David Lodge: your charger.
+Amber Fu: Uh-huh. Uh-huh.
+David Lodge: Okay?
+Amber Fu: Okay.
+David Lodge: And so you can do that with a 50 amp receptacle and that gives you
+Amber Fu: Uh-huh.
+David Lodge: 20 miles per hour of charge. Okay,
+Amber Fu: Okay.
+David Lodge: the next level down is if their panel is even smaller and can't take
+Amber Fu: Mhm.
+David Lodge: that,
+Amber Fu: Uhhuh.
+David Lodge: you can put in a 30 amp receptacle with a
+Amber Fu: Okay.
+David Lodge: 30 amp GFCI breaker and that gives you Go
+Amber Fu: Mhm. Well,
+David Lodge: ahead.
+Amber Fu: quick quick question is like uh so the panel bigger or smaller depends on what case?
+David Lodge: Yes, if it's a 200 amp panel,
+Amber Fu: Uhhuh.
+David Lodge: we can definitely put in a hardwired charger, 60 amps.
+Amber Fu: Um,
+David Lodge: If it's a 125 amp panel, we probably have to put in a 50 amp receptacle.
+ 
+ 
+00:26:40
+ 
+David Lodge: If it's a 100 amp panel,
+Amber Fu: okay.
+David Lodge: we probably have to put in a 30 amp receptacle.
+Amber Fu: Oh s***.
+David Lodge: And the 30 amp receptacle will give you about 15 miles per hour of charge. Okay.
+Amber Fu: Gotcha. Got you.
+David Lodge: Yeah.
+Amber Fu: And uh for example like uh the customer they have like even the uh 100 or 200 is depend on the house bigger or smaller.
+David Lodge: Yes.
+Amber Fu: Okay.
+David Lodge: Now,
+Amber Fu: Gotcha.
+David Lodge: there's one other thing that we can do.
+Amber Fu: Mhm.
+David Lodge: So, if a customer wants a hardwired charger, 60 amps, okay,
+Amber Fu: Uh,
+David Lodge: a 60 amp circuit, if they want that, but their panel is only 100 amps, the city will not allow us install that. Not unless we put in a thing called a charge controller.
+Amber Fu: okay.
+David Lodge: And a charge controller has the clamps and it monitors the
+Amber Fu: Uh-huh.
+David Lodge: incoming power, okay? And only allows the customer to turn on that 60 amp charger when it makes sure that the panel is not going to
+ 
+ 
+00:27:58
+ 
+Amber Fu: Uh,
+David Lodge: be overloaded. Okay. So,
+Amber Fu: okay.
+David Lodge: what is overloaded? If you have a 100 amp panel, the breaker,
+Amber Fu: Uh-huh.
+David Lodge: the 100 amp breaker is rated at
+Amber Fu: Uh-huh.
+David Lodge: 80%.
+Amber Fu: Mhm.
+David Lodge: 80 amps continuous load.
+Amber Fu: Mhm.
+David Lodge: What that means is if you have a 100 amp breaker,
+Amber Fu: Okay.
+David Lodge: it will pull 80 amps for three hours and then it's
+Amber Fu: Mhm.
+David Lodge: going to trip.
+Amber Fu: Okay.
+David Lodge: Okay.
+Amber Fu: Uhhuh.
+David Lodge: So that 100 amp breaker will do two things. Number one, if it goes over 100 amps,
+Amber Fu: Mhm.
+David Lodge: 105 amps breaker trips or if the breaker exceeds 80% which is 80 amps for more
+Amber Fu: Mhm.
+David Lodge: than three hours,
+Amber Fu: Mhm.
+David Lodge: the breaker will heat up and trip. Okay?
+Amber Fu: Okay.
+David Lodge: So, you could possibly install a charge controller that you could control with Wi-Fi. That's what you could do. So,
+ 
+ 
+00:29:15
+ 
+Amber Fu: Okay.
+David Lodge: for example, Emporia with with the monitoring system.
+Amber Fu: Uh
+David Lodge: So, if you get the Emporia charger and the Emporia monitoring
+Amber Fu: uh.
+David Lodge: system,
+Amber Fu: Uh
+David Lodge: it monitors everything in the house and then only allows the
+Amber Fu: uh.
+David Lodge: charger to pull whatever amount of
+Amber Fu: Oh,
+David Lodge: amps is not being used out of the 80%. So, if your house is using 40 amps, the Emporia monitoring system will allow the Emporia
+Amber Fu: hello.
+David Lodge: charger to pull 39 amps up to 79
+Amber Fu: Hello.
+David Lodge: amps so it doesn't trip the breaker.
+Amber Fu: Okay. Okay.
+David Lodge: That's something that you could potentially control remotely. A charge controller. So a charge controller.
+Amber Fu: Okay. Got you. Got you.
+David Lodge: The problem with the charge controllers are Emporius charge controller is the one I recommend to
+Amber Fu: Okay.
+David Lodge: every customer because it's the cheapest.
+Amber Fu: Mhm.
+David Lodge: If you want to install a charge controller unit,
+ 
+ 
+00:30:27
+ 
+Amber Fu: Yeah. Mhm.
+David Lodge: the charge controller unit is not Wi-Fi controlled right now. Okay? or none of the ones that I've done are Wi-Fi controlled.
+Amber Fu: Mhm.
+David Lodge: They just look at the system,
+Amber Fu: Mhm.
+David Lodge: monitor it, and then turn it off if it needs to.
+Amber Fu: Mhm.
+David Lodge: That's all. So, the Emporia charger is the best at that.
+Amber Fu: Got you.
+David Lodge: But it's very possible that you guys could find a Wii
+Amber Fu: Mhm.
+David Lodge: controlled charge controller that you can control with your
+Amber Fu: Mhm. Mhm.
+David Lodge: app.
+Amber Fu: Okay. Got you. Got you. And and also uh I have a question is um if uh cuz that's also my biggest concern. Uh if like it's a failure, if the control device lose internet or crashed or the app fails, how do we make sure the homeowner does not lose the power?
+David Lodge: um if the app fails. So you're talking about a manual device.
+Amber Fu: Oh
+ 
+ 
+00:31:41
+ 
+David Lodge: So if if you had say for example
+Amber Fu: yes.
+David Lodge: the 50 amp receptacle for the charger and you guys
+Amber Fu: Uhhuh.
+David Lodge: developed a 50 amp plug that went into it that could be the
+Amber Fu: Mhm.
+David Lodge: charge controller and it was controlled by Wi-Fi
+Amber Fu: Mhm. Mhm.
+David Lodge: but also had an on and off button and all a lot all those
+Amber Fu: Mhm.
+David Lodge: devices generally do have an on and off button. Okay,
+Amber Fu: Okay.
+David Lodge: so right now you can get ones energing energy monitoring systems for your house with devices that just plug into your wall and you can control them with
+Amber Fu: Mhm. Uhhuh.
+David Lodge: your phone or you can control them with the button on the side of the device.
+Amber Fu: Mhm.
+David Lodge: So it has a manual on and off and that's what I'd recommend for
+Amber Fu: Okay. But got you.
+David Lodge: that.
+Amber Fu: But uh like should should the device like feel open or feel close or bypass itself?
+ 
+ 
+00:32:44
+ 
+Amber Fu: What would be the safe safe design from electric like point of view?
+David Lodge: obviously to just turn it off.
+Amber Fu: Okay. Okay. Gotcha.
+David Lodge: If there's no if there's no power,
+Amber Fu: But so but gotcha gotcha.
+David Lodge: there's no danger.
+Amber Fu: But if you install a device that control the power and something goes wrong, for example, it's just shut off like the wrong uh uh the damage equipment or fail to turn something back on. Who is your responsibility for that?
+David Lodge: uh I have to make it the customer's responsibility. So be before I install anything to a customer, I make recommendations,
+Amber Fu: Mhm.
+David Lodge: but I will say please do your research, check out the reviews, make sure you're happy with the device.
+Amber Fu: Mhm.
+David Lodge: I put it onto the customer and you know you guys could have
+Amber Fu: Mhm.
+David Lodge: a disclaimer to have them sign it that says this is their device. It's their
+Amber Fu: Got you. Um and also uh uh talk about this.
+ 
+ 
+00:33:54
+ 
+David Lodge: responsibility.
+Amber Fu: Um so what kind of equipment you willing to install? What kind of equipment you don't want to touch it or don't want to install?
+David Lodge: Um, I'll install anything electrical.
+Amber Fu: Okay. But uh is there some equipment you you know that's not really work out and you just don't want to have that responsibility
+David Lodge: Oh well.
+Amber Fu: for that.
+David Lodge: So when EV chargers started appearing a few years ago, we we as electricians were installing 50 amp receptacles,
+Amber Fu: Mhm.
+David Lodge: okay, from Home Depot.
+Amber Fu: Mhm.
+David Lodge: These receptacles, while they were rated at 50 amps, we didn't know that they weren't rated for 50 amps for six or
+Amber Fu: Mhm.
+David Lodge: eight hours. So, what's happened is those devices started to
+Amber Fu: Okay.
+David Lodge: melt.
+Amber Fu: Oh,
+David Lodge: So,
+Amber Fu: okay.
+David Lodge: so now I won't install one of those ones.
+Amber Fu: Mhm.
+David Lodge: I ha it has to be an EV rated receptacle or an industrial rated 50 amp receptacle. Something that is used is designed for a continuous load.
+ 
+ 
+00:35:29
+ 
+David Lodge: Continuous load means more than three hours. Three hours or more is continuous
+Amber Fu: Open.
+David Lodge: load.
+Amber Fu: Gotcha. Gotcha. And and also like when you open a panel in a real home like how often are
+David Lodge: often.
+Amber Fu: they already full with no space for extra breakers often? Okay. But if they're full, what the options like a like a
+David Lodge: Okay. So, if a panel is completely full, um actually I shouldn't say often,
+Amber Fu: um Okay.
+David Lodge: I should say occasionally. Um, so often they'll open their panels and all the spaces are filled. Okay.
+Amber Fu: Uhhuh.
+David Lodge: But you can also do a thing called a tandem breaker. Okay. Or or a quad breaker.
+Amber Fu: Okay.
+David Lodge: Let me show you. Let me show you what they look like. So a tandem breaker. Okay. So,
+Amber Fu: Mhm.
+David Lodge: so a a normal panel in a customer's garage has 12
+Amber Fu: Mhm.
+ 
+ 
+00:36:37
+ 
+David Lodge: spaces. So,
+Amber Fu: Mhm.
+David Lodge: it can take 12 standard breakers.
+Amber Fu: Mhm.
+David Lodge: Okay? But because you can get a tandem breaker,
+Amber Fu: Okay.
+David Lodge: a tandem breaker is two breakers on one space. Okay?
+Amber Fu: Okay.
+David Lodge: Which means if you have a 12 space panel, you're not limited to tw to 12 circuits.
+Amber Fu: Mhm.
+David Lodge: You can put in 24 circuits.
+Amber Fu: Okay.
+David Lodge: So let me show you
+Amber Fu: Okay.
+David Lodge: This is a standard breaker. You see that there?
+Amber Fu: Uh, let me see. Oh, yeah. Yeah.
+David Lodge: That's a That's a standard breaker.
+Amber Fu: Okay.
+David Lodge: Okay.
+Amber Fu: Okay. Okay.
+David Lodge: It takes up It takes up one spot. Okay.
+Amber Fu: Okay.
+David Lodge: Takes up one space.
+Amber Fu: Okay.
+David Lodge: Okay. Here's a tandem
+Amber Fu: Oh.
+David Lodge: breaker. This is a tandem breaker.
+Amber Fu: Okay,
+David Lodge: So,
+Amber Fu: that's a more
+David Lodge: it takes up That's a lot more expensive.
+ 
+ 
+00:38:12
+ 
+Amber Fu: expensive.
+David Lodge: Well, no, it's more expensive. Yes. Ignore this one, though.
+Amber Fu: Yes.
+David Lodge: But this this one has two. You see the way it has two breakers,
+Amber Fu: Mhm.
+David Lodge: but it's one space.
+Amber Fu: Uh-huh.
+David Lodge: So often times you can go to a customer's panel and it is full.
+Amber Fu: Mhm.
+David Lodge: All 12 spaces are filled, but you can take out a breaker and put in a tandem
+Amber Fu: Mhm.
+David Lodge: breaker or or you can also put in a
+Amber Fu: Okay.
+David Lodge: quad breaker. This is a quad breaker.
+Amber Fu: Okay.
+David Lodge: So that's two spaces. One,
+Amber Fu: Uh-huh.
+David Lodge: two spaces.
+Amber Fu: Uh-huh.
+David Lodge: Okay.
+Amber Fu: Okay.
+David Lodge: So that allows you to take a 12 space panel and put in
+Amber Fu: Uh-huh.
+David Lodge: 24 circuits. So I often have to do that.
+Amber Fu: Okay.
+David Lodge: Now, sometimes you can't do that at all because somebody's already done that.
+Amber Fu: Oh,
+David Lodge: Okay?
+ 
+ 
+00:39:21
+ 
+Amber Fu: okay.
+David Lodge: So, what you do in that situation is you put another sub
+Amber Fu: Mhm.
+David Lodge: panel below or beside the
+Amber Fu: Uhhuh.
+David Lodge: existing sub panel.
+Amber Fu: Uhhuh.
+David Lodge: You reroute some circuits from the old
+Amber Fu: Uhhuh.
+David Lodge: panel to the new panel and then you
+Amber Fu: Mhm.
+David Lodge: put a double pole breaker in the old panel
+Amber Fu: Mhm.
+David Lodge: that feeds the new panel.
+Amber Fu: Mhm. Okay.
+David Lodge: Okay, a double pole breaker. Let me show you a double pole breaker.
+Amber Fu: Um,
+David Lodge: A double pole breaker is for 240 volts. This is a two pole breaker. Two spaces. One two spaces. But but this is for one circuit. So a two So 110 goes in here.
+Amber Fu: okay. Huh.
+David Lodge: 110 goes in here. But 240 volts come out.
+Amber Fu: Okay.
+David Lodge: Okay.
+Amber Fu: Uh
+David Lodge: So now you put that in the old panel and you and that
+Amber Fu: uh.
+ 
+ 
+00:40:34
+ 
+David Lodge: feeds the new panel and then you route you reroute
+Amber Fu: Mhm.
+David Lodge: some of the old circuits from the old panel into the new panel and then it gives you lots more spaces.
+Amber Fu: Okay. Got you. Got you. Okay, thank you.
+David Lodge: Okay,
+Amber Fu: Thank you. I learned I learned a lot new stuff today.
+David Lodge: it's a lot of
+Amber Fu: Yes, it's a lot of information. Oh,
+David Lodge: information.
+Amber Fu: and also like is it like is it like installing like a control device like a trade differently from installing a monitor ring
+David Lodge: I'm sorry.
+Amber Fu: device like uh like cuz like uh it's like installing the control
+David Lodge: Say it again.
+Amber Fu: device is like treated differently from installing a monitoring device from a permit. It's
+David Lodge: I don't think Do you need a permit for the monitor? So, I've done a few of them and I haven't got permits for them.
+Amber Fu: okay. Okay.
+David Lodge: because you're not really doing any wiring.
+ 
+ 
+00:41:49
+ 
+Amber Fu: Got you.
+David Lodge: There's no wires being run from the panel anywhere else.
+Amber Fu: Okay. Okay.
+David Lodge: All you're doing is installing the monitor in that panel.
+Amber Fu: Mhm.
+David Lodge: And so I didn't get permits for that because there was no
+Amber Fu: Gotcha. Gotcha. Gotcha.
+David Lodge: wiring.
+Amber Fu: And also like you know like for like like a EV chargers or battery do you think controlling through the manufacturer app or API is reliable enough or would you still want to physical control at the uh electricity level uh like
+David Lodge: Um, sorry. Say that one more
+Amber Fu: you know like the EV uh charger or like a battery.
+David Lodge: time.
+Amber Fu: Do you think controlling the API is a reliable enough like a Wi-Fi is a reliable enough or would
+David Lodge: I haven't had anybody complain about it.
+Amber Fu: you
+David Lodge: Um,
+Amber Fu: Okay.
+David Lodge: so but the only one that I've installed is Emporia. It's literally the only one.
+Amber Fu: Okay.
+David Lodge: And the customer was very happy with it.
+ 
+ 
+00:42:58
+ 
+Amber Fu: Okay. Okay.
+David Lodge: Yeah,
+Amber Fu: Okay.
+David Lodge: I I don't know of any other devices that you can char that you can control like an Emporia because the
+Amber Fu: Mhm.
+David Lodge: the Emporium monitors everything and then controls the
+Amber Fu: Mhm.
+David Lodge: charger. Of course,
+Amber Fu: Okay.
+David Lodge: you can access your your Tesla charger with your phone. That's not a problem,
+Amber Fu: Mhm.
+David Lodge: but it's not monitoring anything else.
+Amber Fu: Mhm. Gotcha. Gotcha. Uh but for your opinion like which home load are safe to control automatically and which one shouldn't be controlled at
+David Lodge: which one shouldn't be controlled at
+Amber Fu: all.
+David Lodge: all. I think that it's okay to control anything with a monitor.
+Amber Fu: Okay. Okay.
+David Lodge: I I don't see nothing comes to mind that could be dangerous. You know, that you know,
+Amber Fu: Mhm.
+David Lodge: I suppose if there's children around and something turns on and they're not expecting it. Um,
+Amber Fu: Mhm.
+ 
+ 
+00:44:16
+ 
+David Lodge: but a dryer can't hurt a child. An EV charger can't hurt a child.
+Amber Fu: Mhm.
+David Lodge: Um, what else? AC can't hurt a child.
+Amber Fu: Mhm.
+David Lodge: So all of these devices have built-in protection so
+Amber Fu: Mhm.
+David Lodge: you can't access the electrics. Nobody can walk up and stick their fingers in anywhere,
+Amber Fu: Okay.
+David Lodge: you know, and and modern devices like receptacles all have tamper
+Amber Fu: Okay.
+David Lodge: tamperproof devices so children can't stick things into them.
+Amber Fu: Mhm. Mhm.
+David Lodge: So that there's nothing that I can think of that should well until you get into industry. If you're in industry, so I'm talking specifically residential. I don't see any issues in residential in in industry for large
+Amber Fu: Mhm.
+David Lodge: machinery.
+Amber Fu: Mhm.
+David Lodge: Absolutely. there has to be there would have to be um a
+Amber Fu: Okay.
+David Lodge: manual permission given in industry.
+Amber Fu: Uhhuh.
+David Lodge: So,
+Amber Fu: Mhm.
+David Lodge: if it's a large device that can just turn automatically on, um,
+ 
+ 
+00:45:29
+ 
+Amber Fu: Mhm.
+David Lodge: you know, I would say that there has to be permission by whoever's locally controlling the the the piece of equipment personally,
+Amber Fu: Got you. Got you. Got
+David Lodge: but you but you know,
+Amber Fu: you.
+David Lodge: residential and commercial are two completely different fields obviously, you know,
+Amber Fu: Yes. Yeah.
+David Lodge: and I'm talking I'm I'm definitely a uh I'm definitely a residential specialist. Um while I know I have worked in commercial a lot um
+Amber Fu: Mhm.
+David Lodge: things change so much in commercial uh that's almost
+Amber Fu: Mhm.
+David Lodge: impossible to sort of predict what's going to happen next.
+Amber Fu: Oh,
+David Lodge: But with residential electrics it changes very
+Amber Fu: okay.
+David Lodge: slowly.
+Amber Fu: Do you want me
+David Lodge: And why? Well,
+Amber Fu: Yeah.
+David Lodge: basic electric systems are generally not electronic. So,
+Amber Fu: Okay.
+David Lodge: so there's no software to upgrade on your electrical panel outside if it's
+Amber Fu: Okay.
+David Lodge: from 1970 or even if it's from 1998 or
+ 
+ 
+00:46:39
+ 
+Amber Fu: Okay. Okay. Gotcha.
+David Lodge: 2010 or 2015. There's nothing automated about it. It's a, you know,
+Amber Fu: Mhm.
+David Lodge: it's an it's a plugandplay on andoff device.
+Amber Fu: Okay.
+David Lodge: you know.
+Amber Fu: Got you. Got you. Oh, and I think one more thing is like some homeowner basically want to like
+David Lodge: Yeah.
+Amber Fu: like just some like or like few homeowner want the second meter like next to the utility meter that tell them like what they're using. Is that like installed or like what's what going to be
+David Lodge: Well,
+Amber Fu: involved?
+David Lodge: um, the only time I've seen a second meter on a home is when there's solar.
+Amber Fu: Okay.
+David Lodge: It's It's not a control device. It's a solar device.
+Amber Fu: Okay.
+David Lodge: Now, um, something that California recently approved was what they call a meter collar. Okay. Now, a meter collar is you go to your service panel and you take off the
+Amber Fu: Okay.
+David Lodge: meter and then you put on this collar and then you put the
+ 
+ 
+00:47:53
+ 
+Amber Fu: Okay.
+David Lodge: meter back on the collar.
+Amber Fu: Okay.
+David Lodge: And what the collar is is it has a plug on the collar that
+Amber Fu: Uhhuh.
+David Lodge: attaches to a generator. Okay? So if the power shuts off from the the utility company,
+Amber Fu: Okay.
+David Lodge: if PG&E if the power goes down,
+Amber Fu: Well,
+David Lodge: you can power your entire house with a generator using a collar.
+Amber Fu: okay. Uh let me show you the picture.
+David Lodge: You guys could
+Amber Fu: Uh if if this is something
+David Lodge: Yeah. So it just strikes me that you could control a collar.
+Amber Fu: So, uh I don't know. Okay.
+David Lodge: You're you're vanishing.
+Amber Fu: Just give me Yes.
+David Lodge: So if you just get it Yeah.
+Amber Fu: Uh wait.
+David Lodge: If you put it in front of your face.
+Amber Fu: Oh, yes. Okay. Can you see Can you see it?
+David Lodge: Yeah, definitely. I can't really see it, but I I I saw a little bit of it.
+ 
+ 
+00:49:03
+ 
+Amber Fu: Oh, the it's in phase they have the I it's called IQ meter caller.
+David Lodge: There you go. That we're talking about the same thing,
+Amber Fu: So that's is something
+David Lodge: I think. I I can't see it on your phone, but let me let me look let me look it up on mine.
+Amber Fu: okay. Okay.
+David Lodge: So, an end phase.
+Amber Fu: Oh. Oh. Can I see it? this right.
+David Lodge: Yeah, that's it.
+Amber Fu: Okay.
+David Lodge: That's it.
+Amber Fu: Okay.
+David Lodge: Yeah. Yeah.
+Amber Fu: Uh so for this one uh it's from the solar customer
+David Lodge: that. Well, no, no, no, no, no, no.
+Amber Fu: right.
+David Lodge: This that that's um that's a generator um what would you call it? That's an a generator attachment. It's an electronic transfer switch. Okay.
+Amber Fu: Oh okay.
+David Lodge: But what I'm saying to you is you guys could potentially create a new
+Amber Fu: Uhhuh.
+David Lodge: one that monitors the incoming and outgoing power of the house.
+ 
+ 
+00:50:08
+ 
+Amber Fu: Okay. But for this one,
+David Lodge: Potentially
+Amber Fu: do you think this is a better uh situation than the imperial?
+David Lodge: no. The the Emporia.
+Amber Fu: Oh, imperial. Yeah.
+David Lodge: Uh no. uh because all you would be doing is measuring the how much power is coming into the house. It's not measuring the intricacies.
+Amber Fu: Okay.
+David Lodge: It's not measuring it's not seeing your your dryer being on. It's not seeing your cooker being on. It's not seeing any of that. All it's seeing is this customer is using 60% of his power.
+Amber Fu: Okay. Okay.
+David Lodge: That's it.
+Amber Fu: Okay. Got you.
+David Lodge: Yeah.
+Amber Fu: Got you. So,
+David Lodge: Emporia.
+Amber Fu: so for like right now when you see in the market the best lighter way is from the imperial right
+David Lodge: Yeah. Yeah.
+Amber Fu: Imperia.
+David Lodge: The best way to control your EV charger right now is definitely the
+Amber Fu: Got you.
+David Lodge: Emporia.
+ 
+ 
+00:51:15
+ 
+Amber Fu: Got you. Got you. And And you you haven't see anything better than that?
+David Lodge: No. No.
+Amber Fu: Got you. Got
+David Lodge: So, the Emporia and the Energy Monitor,
+Amber Fu: you.
+David Lodge: Emporia energy monitor go together.
+Amber Fu: Okay. Okay. Got you.
+David Lodge: So, you buy the charger and you buy the energy monitor and then they to each
+Amber Fu: Got you. Okay. Got you.
+David Lodge: other.
+Amber Fu: And also I want you to know like uh from the imperial. Okay. I always forgot how to
+David Lodge: Empor
+Amber Fu: emporia.
+David Lodge: Emporia.
+Amber Fu: Okay. Emporia. Yes. Thank you.
+David Lodge: No
+Amber Fu: Um, are they gonna collaborate someone like you
+David Lodge: worries.
+Amber Fu: guys and are you going to get get to you going to get to pay it like a installation fee or like a mark up on the hard? No.
+David Lodge: I I haven't seen that. No. No. Um,
+Amber Fu: Okay.
+ 
+ 
+00:52:15
+ 
+David Lodge: it's just been that the customers bought them and then I install
+Amber Fu: Okay.
+David Lodge: them
+Amber Fu: And how much cost per per like do if you don't mind?
+David Lodge: to install.
+Amber Fu: Yeah.
+David Lodge: Um, like 500 bucks maybe.
+Amber Fu: Okay. Okay. And how how long will we
+David Lodge: Yeah. Uh,
+Amber Fu: take?
+David Lodge: actually let's call it 600 bucks and let's call it three hours.
+Amber Fu: Oh, that will going to cost 3
+David Lodge: So,
+Amber Fu: hours.
+David Lodge: installing the electric, the hardwired charger,
+Amber Fu: Mhm.
+David Lodge: and the monitoring system, three hours,
+Amber Fu: Okay. Got you.
+David Lodge: $600 for the install.
+Amber Fu: Okay. Got you.
+David Lodge: Of course, you need a permit for that.
+Amber Fu: And
+David Lodge: Because it's an electric vehicle charger, that's going to be between $7 to $900 depending on the area that because you're installing
+Amber Fu: Okay. So, that need to permit.
+David Lodge: an electric vehicle charger. Yes,
+Amber Fu: Okay.
+David Lodge: you
+ 
+ 
+00:53:12
+ 
+Amber Fu: Yes. Got you. Got you. Oh,
+David Lodge: Yeah.
+Amber Fu: and also um so
+David Lodge: And and and sorry, sorry, Amber. Um,
+Amber Fu: like
+David Lodge: also, it depends on the city. Some cities may want you to get a permit for the sensor monitor. So, if I were you, I would assume that you have to have a permit.
+Amber Fu: Oh,
+David Lodge: Other cities won't. It depends on the city, and every city is different. So,
+Amber Fu: okay.
+David Lodge: if you want to be safe, assume that we need a permit to install the energy monitor. And it would probably be around
+Amber Fu: Okay.
+David Lodge: $400,
+Amber Fu: And that will uh need to we to apply to the CD or the customer apply CD or you apply to the CD. Oh,
+David Lodge: the electrician.
+Amber Fu: okay. Okay.
+David Lodge: Well, well,
+Amber Fu: Okay.
+David Lodge: the electrician or the customer. The customer can do it,
+Amber Fu: Okay.
+David Lodge: too.
+ 
+ 
+00:54:10
+ 
+Amber Fu: A
+David Lodge: a homeowner and a contractor can both pull permits for their
+Amber Fu: lot.
+David Lodge: home because in California, well, across the states, every city allows you to work on your home. So, if I wasn't an electrician,
+Amber Fu: M.
+David Lodge: I could still p pull a permit from the city doing my own electrics. That's why they want to come and inspect it to make sure that homeowners don't do dangerous work on their house, which they do, by the way,
+Amber Fu: Okay.
+David Lodge: all the time.
+Amber Fu: Got you. Got you. Got you.
+David Lodge: So, Americans Americans are very much like,
+Amber Fu: Okay.
+David Lodge: I don't want the government in my in my house and and I'm going to do it myself.
+Amber Fu: Yes. Yes.
+David Lodge: And I go I'm like, don't do that,
+Amber Fu: Yeah.
+David Lodge: you know, do don't do electrics yourself. You need someone who knows what they're doing because you could
+Amber Fu: Uh oh. Yeah. Yeah. Yeah.
+ 
+ 
+00:55:06
+ 
+Amber Fu: Definitely. Definitely.
+David Lodge: die.
+Amber Fu: Okay. Well, thank you so much, Devon, because like as we get future along, could I come back to you like maybe send you uh early like you know if we think about some something that maybe you can help us to see
+David Lodge: Of course. Yes.
+Amber Fu: it like if this reasonable or not. Okay.
+David Lodge: Yes.
+Amber Fu: Perfect. Okay.
+David Lodge: I appreciate it and and I appreciate you and and thank you for for the the payment on a on my last hour on a Friday. It's great.
+Amber Fu: Okay.
+David Lodge: Thank you.
+Amber Fu: Yeah. Thank you so much and please keep in touch.
+David Lodge: No problem. You have my email,
+Amber Fu: We definitely Yeah, we definitely have a lot of uh another like questions you want to maybe uh we got
+David Lodge: Amber.
+Amber Fu: another like meeting like this.
+David Lodge: Of course.
+Amber Fu: Okay.
+David Lodge: Anytime.
+Amber Fu: Okay. Thank you so much and have a Yeah.
+David Lodge: Nice to meet you.
+Amber Fu: Have a good night.
+David Lodge: YouTube.
+Amber Fu: Bye.
+ 
+ 
+Transcription ended after 00:56:15
+
+This editable transcript was computer generated and might contain errors. People can also change the text after it was created.
+

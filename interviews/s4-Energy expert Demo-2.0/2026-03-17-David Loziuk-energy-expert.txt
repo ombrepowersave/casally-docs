@@ -1,0 +1,1377 @@
+Mar 16, 2026
+Casally Interviews(Utility Bill&Solar Credit Consulting) (David Loziuk) - Transcript
+00:00:00
+ 
+Amber Fu: Hello. Hey, David.
+David Loziuk: Hi. Is it Oh,
+Amber Fu: Hi.
+David Loziuk: Amber.
+Amber Fu: How are Yes.
+David Loziuk: Good. How are you doing?
+Amber Fu: Good. Good. I'm perfect. How's your day going so far?
+David Loziuk: It's good. Yeah. How you
+Amber Fu: Good. Good.
+David Loziuk: doing?
+Amber Fu: Okay. So, cool. Uh I I guess we can start from here.
+David Loziuk: Okay. Is somebody else on the line or
+Amber Fu: Uh yeah. Yes. Uh we we're going to have a two also two our uh coworker uh join us together. Okay, perfect. Well, you know,
+David Loziuk: Okay.
+Amber Fu: thanks you again for taking time to speak up with us today and we truly appreciate your experience and perspective.
+David Loziuk: Okay. Yeah. No, not a problem.
+Amber Fu: Cool. Cool. So uh let me uh briefly introduce who we are and why we want to have this conversation.
+ 
+ 
+00:01:00
+ 
+Amber Fu: Cool. So uh we are building a company called the castle and our vision is to become
+David Loziuk: Okay.
+Amber Fu: a financial layer for the household energy. Um and you know we speak with a lot of user I we believe like like today most homeowner with a solar or battery don't actually understand how their bill is uh calculated or like how credits are apply or like whether they're truly saving the money. So we believe there are a gap between like what utility calculate or like what installer promise and what the home owner actually see. So basically we're just trying to close that gap.
+David Loziuk: Okay. So, yeah, you're trying to develop an app that makes it real easy for the residential PV owner to uh to see what they're in terms of uh what they're selling to the utility and what they're purchasing and when.
+Amber Fu: Yes. Yes. Exactly. So, yeah. So, also as join me today is over to co-worker Ling and Ivy. So they're basically uh they're behind our building logics and the uh the data mo modeling.
+ 
+ 
+00:02:09
+ 
+Amber Fu: So uh well I will focus more on the product direction and and we thought it be helpful to have both perspective in the room and so we can make sure we're building this correctly from the both you know the product and system standpoint. Cool. Cool.
+David Loziuk: Okay.
+Amber Fu: So uh before we start uh do you mind I ask like at which state or utility are you most familiar with?
+David Loziuk: Um, I've done a little work in Southern California. Um, mostly been a federal contractor. So,
+Amber Fu: Mhm.
+David Loziuk: I believe it was S Southern California Electric and the other one, what is it? DG gas and electric. Um, but primarily I've done Kameed is in Illinois. Um, and then Amaran, Mid American, these are like Illinois, Iowa. So, m Midwest is where I'm based. But I've done some work uh doing rate assessments in Southern California uh for the federal
+Amber Fu: Mhm.
+David Loziuk: government uh down there at the border or they have a bunch of sites down in in the San Diego area.
+ 
+ 
+00:03:11
+ 
+Amber Fu: Mhm.
+David Loziuk: So I I I'm familiar with the there were some of the rate structures, but there was on the commercial side. So I I haven't done any residential rate assessment in Southern California, at least not recently. Um but in KMED, Illinois,
+Amber Fu: Mhm.
+David Loziuk: yeah, I've done residential solar uh rate assessment and solar design. Um so but yeah,
+Amber Fu: Mhm.
+David Loziuk: I'm familiar I'm fairly familiar with the different programs around the country.
+Amber Fu: Sure. Sure. Perfect. So, just let you know our first market will be in the California.
+David Loziuk: Okay. Yeah, that's what I
+Amber Fu: Uh, okay. Cool. So you know before we go deeper into the technique question we love to briefly show you
+David Loziuk: understood.
+Amber Fu: our current demo. It's still in the really early stage but you you just you can have like a contact for like what we're building.
+David Loziuk: Okay.
+Amber Fu: Sure. Uh so Lindia will share the screen and uh okay uh let me know can you see the screen?
+ 
+ 
+00:04:25
+ 
+David Loziuk: Yeah, you know, I'm on my phone. It's uh Oh, I can zoom in. Hold on. Okay, I I can see it good now.
+Amber Fu: Okay, perfect. So I will go through like really quick. Um so this is our home and the top section provide like environment uh the system context so we display a real-time stat for the household energy uh ecosystem like solar EV or battery and the uh the grid connection so user can immediately understand like the current state of their energy system and also the weather contact is included because you know the energy usage and solar production are highly together uh dependent and uh for this part um I have a like one question. So uh if we pulling the device studies and the interval data like what field do you consider must have for credibility?
+David Loziuk: I'm sorry if we say the question again.
+Amber Fu: Uh so if we pull in the device stud and like interro data like what field do you consider must have for credibility in our
+David Loziuk: You bring in the device interval data.
+ 
+ 
+00:05:39
+ 
+Amber Fu: case?
+David Loziuk: What what data do you need for credibility? What which device are you talking about?
+Amber Fu: Yes.
+David Loziuk: Like the battery pack or the like the solar inverter?
+Amber Fu: The the the battery and the solar
+David Loziuk: Um, which is critical. I mean, I I assume you're I mean, you'd want to bring in data. How often you bring in data? Like every 15 minutes, I would assume, because I I don't know if you need it. Uh, yeah, I would have to think about the time frame you'd want it, but I mean, the intervals that you pull data, um, I I don't think you need to pull it every second. It's just too much data. Um, but maybe every minute if you really wanted instantaneous data.
+Amber Fu: Uh-huh.
+David Loziuk: Um, in terms I mean you're measuring the battery pack,
+Amber Fu: Mhm.
+David Loziuk: you really care about the state of charge is um is is the main criteria you want off the battery. Um, the solar panel is the production.
+ 
+ 
+00:06:42
+ 
+David Loziuk: Um,
+Amber Fu: Uh-huh.
+David Loziuk: so so the power that you're you're drawing at that time. Um and then I mean you it'll be integrated over the time frames.
+Amber Fu: Uh-huh.
+David Loziuk: So I'm sorry if I'm not answering your question correctly if I don't understand but yeah the battery the most important is the state of charge and the solar panels would
+Amber Fu: Oh.
+David Loziuk: be your production amount for those two devices. Um and and then again the other variable would be deciding how often you want to pull that data
+Amber Fu: Mhm.
+David Loziuk: from the device. uh whether you know every minute or every 10 minutes or or if you were just continuously going to pull data from
+Amber Fu: Okay.
+David Loziuk: it
+Amber Fu: Uh so if we showing a home loaner their energy system is started uh what the signal must be like present for the system to feel like a tr like trust.
+David Loziuk: for it to feel trust for I mean for the
+Amber Fu: Yes. Well, not like not from the data collection perspective,
+ 
+ 
+00:07:42
+ 
+David Loziuk: Um,
+Amber Fu: but from the system uh credibility perspective.
+David Loziuk: oh, how do are you asking how you know the data is correct that you're pulling in?
+Amber Fu: Do you know what I mean? Yes. Yes.
+David Loziuk: I the quality of the data.
+Amber Fu: Yeah. Uh-huh.
+David Loziuk: Um, uh, I mean, I I don't know.
+Amber Fu: Oh,
+David Loziuk: I mean, you're just reading the data from the device. So, I mean, you're assuming the device is providing the correct information to you. Um, I mean, I guess the the c the customer if they they have like a a display screen, they can check on their phone and make sure that it matches what their device,
+Amber Fu: okay.
+David Loziuk: the inverter or the uh or or the battery pack is showing them. uh in terms of I mean if your phone says that the state of charge of the battery is you know 90% but then when they go to the Tesla pack it says it's only at you know 80% then I mean they're I mean that's how they could verify that the data is is not I mean they're not correct or there's a discrepancy there.
+ 
+ 
+00:08:52
+ 
+David Loziuk: I'm sorry. Is that what you're asking me or am I not answering the right
+Amber Fu: Okay.
+David Loziuk: question?
+Amber Fu: Uh yes. And also uh and also another thing is like do you think we can uh have like 15 minute data for you know every 15 minute because a lot of uh uh we we speak to another uh really uh another guy and he said that uh it's hard to have a 15minute data through the API.
+David Loziuk: that that time frame is too long or too short for pulling. I mean,
+Amber Fu: It's too short.
+David Loziuk: well, I mean, for the solar production, you're going to want it short because I mean, a cloud can come overhead, you know, for a five minute period. you're you're not going to see that uh that dip if you're pulling every 15 minutes. Um or I I mean if if you're just pulling energy KW uh KWH from the system then I guess it doesn't matter. You let the device calculate how much energy. But if you want to show instantaneous power then uh yeah I mean are you trying to show KW to the user or just how much they're they've produced over a time period.
+ 
+ 
+00:10:07
+ 
+Amber Fu: Uh just how much they produce in time
+David Loziuk: Okay. So you don't care about the power.
+Amber Fu: period.
+David Loziuk: Yeah. So uh yeah I would do every 15 minutes. They thought it was too short that it should be like every hour. KW
+Amber Fu: Well, uh because like right now we threw the third party APS uh to get that number. So like do you usually see like uh like true 15 minute interval data is available or is that often hard to get?
+David Loziuk: Yeah, I mean it it it's whatever the device is is is told to calculate at, but I feel like 15 minutes is pretty standard. Um an interview I mean it's it's four points per hour.
+Amber Fu: I mean uh
+David Loziuk: It's not that much for the
+Amber Fu: I mean from the growth from the util from from the utility
+David Loziuk: what? Oh,
+Amber Fu: side.
+David Loziuk: from the meter, the utility meter.
+Amber Fu: Yes.
+David Loziuk: Yeah. I mean,
+Amber Fu: Yes.
+David Loziuk: what I read is that they're pulling data instantaneous.
+ 
+ 
+00:11:08
+ 
+David Loziuk: I mean, that they get a measurement I don't know if every minute or what, but it's all smart meters is what I understand in California. Um, but yeah, for you just to get KWH, I would just do every 15 minutes. And if that's too much data, then yeah, every hour is fine, but I I would think 15 four points per hour would be is what I would shoot for. Um, so that I mean that way somebody can really tr because otherwise the user is going to have to wait a full hour before they get any updates on the system. um where this way they you know if they're sitting there tracking it on their phone they can see every 15 minutes okay I produce this
+Amber Fu: Mhm.
+David Loziuk: much more I mean just for the user experience I mean nobody's going to sit there for an hour for a
+Amber Fu: Mhm.
+David Loziuk: new data point but you know 15 minutes you might want to try but I I guess if they're just looking at historically
+Amber Fu: Mhm.
+David Loziuk: it doesn't matter so yeah it's so in terms of what you can get
+ 
+ 
+00:12:01
+ 
+Amber Fu: Mhm. That's
+David Loziuk: from the utility yeah I they're taking it instantaneous so for you to get it every 15 minutes
+Amber Fu: good.
+David Loziuk: shouldn't be a problem. Um, it just your only thing is how much data do you want? Do you want it that many points or do you want it just every hour? So, I think that's you you guys got to make that decision. But I I would lean towards the the shorter side 15 minutes. But I is somebody telling you that there's technical issues in getting it the 15minute data from the
+Amber Fu: Mhm.
+David Loziuk: utility that they would only provide like hourly. Okay. Well, if that's I mean, if they only provide hourly,
+Amber Fu: Yes.
+David Loziuk: then I guess that's the case. I Yeah, normally I mean, if you have a residential account, I I like I said, I'm not in California, but yeah, you should be able to log into your your meter and whatever interval they're providing at um I mean through your through the residential account, you should be able to see.
+ 
+ 
+00:12:58
+ 
+David Loziuk: So, they might only just give it every hour,
+Amber Fu: Mhm.
+David Loziuk: but I feel like because there's I mean there's time of use rates. I mean I mean all this solar stuff in California is on time of use now. So they I mean they have to show pricing you know throughout the hour. They're not just going to give you one price for the hour. Um so I assume if they're providing uh export pricing every I don't know five minutes or something then that they would give you your production on a similar time scale or or or your imports.
+Amber Fu: Uh we're still uh like right now we're still figure figure that
+David Loziuk: Okay. Okay. I mean, but somebody has like a residential uh like PG&
+Amber Fu: out.
+David Loziuk: account, so you should be able to log into your your your meter and see uh what what data you can pull off the website. I mean,
+Amber Fu: But are they going to have some
+David Loziuk: assuming um I mean I'm in
+Amber Fu: delay?
+ 
+ 
+00:13:57
+ 
+David Loziuk: KMED, but I I I don't know. I mean, there might be like a 15 minute gap, but it's not like a day later, I don't think. I I think you But you got to check with the specific utility and see what they're set
+Amber Fu: Okay.
+David Loziuk: up on their online system.
+Amber Fu: Okay. Sure. Sure. Uh, we Yeah, we're going to do that. But yes, we still like figure that out.
+David Loziuk: Okay. So yeah, I guess to answer your question, whatever the utility will provide,
+Amber Fu: Okay.
+David Loziuk: but I I just they're either going to do hourly or maybe they'll do something less in terms of what you're what you
+Amber Fu: Okay. Sure. Sure.
+David Loziuk: importing.
+Amber Fu: Um, yeah, that's cool. So, uh, we can move to the next part. Um so the next part you can see is like our monthly bill budget this section and I mean this is like really different from like most app. Uh I will take some time to briefly uh show you like what is that mean?
+ 
+ 
+00:15:03
+ 
+Amber Fu: So uh like most energy app show like data but they don't know like what outcome the home owner actually care about. So uh they can show like usage or like solar production or like a battery activity but they usually can't tell like which of those thing truly matter to the household. So uh that the role of the goal in Cassley. So um our goal is like the homeowner can acceptable bill boundary. So this is not like a optimization target. So we're not trying to minimize the bill at at all cost. So it's not it's not uh a guarantee either. So we're not like promising like that the bail will definitely land at a certain number but instead the goal can tell the castle like where the homeowner start to feel that outcome is no longer uh acceptable. So basically that boundary become the system uh reference point. So it's help us decide like oh what is normal what is at the risk what deserve a warning and what act action is worth to surfacing. So this is what turned like Cassie from like dashboard into a decision system.
+ 
+ 
+00:16:13
+ 
+Amber Fu: I don't know if you can fully understand like what this
+David Loziuk: it this is like in terms of you start using more energy one month so it flags you like hey what's going
+Amber Fu: do.
+David Loziuk: on this normally you only use uh this much but now you you've increased by 20% so is it that type of idea okay so that the user could be notified
+Amber Fu: Yes. Yes. Yes.
+David Loziuk: like oh okay yeah I was running my machines more than normal or we were home this month and on vacation the last month so that's why there's There's a discrepancy.
+Amber Fu: Yeah. Yeah. Sort of. So,
+David Loziuk: Okay.
+Amber Fu: so we also like intentionally like don't let user enter like any random number here. So, because like you know most home owner especially after like a solar or EV uh or battery uh don't actually have a a precise sense of what their bill should be. So instead of asking them to guess so we ground the goal in two things. Uh the one is their recent bill history and another is their current rate plan.
+ 
+ 
+00:17:16
+ 
+Amber Fu: So well the bill history just give us like a real household baseline and the rate plan tell us like how future behavior uh translate uh into the financial uh outcome. So together they let us like uh basically like recommend the range. Uh yes and what what make this technique difficult is like the goal is not just a numbers uh storage in the setting it's have like a function as a systemwide decision boundary. So that means it need to influence like a kind of like a large sensitive or like a pro uh project risk or like a savings buffer and execution recommendation. So so in basically in our product goal is not just a budget feature is the layer that translate the homeowner uh tolerance into the system behavior.
+David Loziuk: Okay. And is the idea that the the homeowner is going to change their their their um change their usage based on this information that um
+Amber Fu: Uh so we going to give them suggestion.
+David Loziuk: Okay. Yeah. Like I mean if there are I know a lot of this is tied to solar right I mean that they're producing
+ 
+ 
+00:18:29
+ 
+Amber Fu: Yes.
+David Loziuk: power on there right so the suggestion might be like um you should wash your clothes
+Amber Fu: Uh
+David Loziuk: in the morning or late at night versus running machines and appliances during uh the evening when the
+Amber Fu: Yes.
+David Loziuk: activity is more
+Amber Fu: Something like that. Yes. Yeah. Yeah. So um and for here like uh my question is like from the
+David Loziuk: Okay.
+Amber Fu: system optimization standpoint like how often do user um define like financial goals uh conflict with actual like system uh inisions.
+David Loziuk: I'm sorry. Say that one more time.
+Amber Fu: Um so I mean like you know like a system optimization standpoint like how often I mean the user can you know define their financial goals uh conflict with actual system ins
+David Loziuk: The user defines their goals their their goals being in terms of like their s their energy savings, right? Or what what they're trying to spend on electrical cost.
+Amber Fu: uh basically what I try to ask is like uh like from your experience like working I I know like you're mostly working with a commercial side but uh for your experience like with homeowner like uh first is like do people think more in term of like saving money or like avoiding unexpect bills
+ 
+ 
+00:20:04
+ 
+David Loziuk: saving money or what's the second option? Avoiding Oh,
+Amber Fu: uh unexpect bills like a surprise too.
+David Loziuk: they don't want a surprise bill. Um, yeah, I don't think anybody likes the surprise bill. Um, or at least I personally don't.
+Amber Fu: Yeah.
+David Loziuk: um we like to know or at least have a good idea what we're going to be spending for the the future. Um so yeah, like me personally, I I I like to set a budget and be, you know, within that budget with, you know, 10% or some reasonable variance. Um, but in terms of savings, yeah, I I mean I think if you can make the app like a game is kind of cool because I mean there's a benefit they're actually getting the savings that okay, we save $50 on electricity this month, but um, you know, especially if they have kids maybe it's like, okay, let's play this game like how do we, you know, what what strategies or can we implement these cast these strategies to save household energy cost um, in terms of, you know, using appliances at different times times of the day or you know trying to export that solar power when when it's peak time.
+ 
+ 
+00:21:13
+ 
+David Loziuk: So yeah.
+Amber Fu: Mhm.
+David Loziuk: Yeah. I mean the answer I I think both are important. Um the why would you get an unexpected bill? I guess if somebody's just running the air condition all the time and you don't normally do that or or I guess with the time of use rates that Yeah.
+Amber Fu: Mhm.
+David Loziuk: maybe the the power price jumped for those few hours and you didn't realize that oh it's you know 50 cents per kilow hour right now. Um but yeah if your if your phone is tied into that system and give you a notification that hey the the time of use rate is real high right now you know shut off as much as you can then you know obviously that will help them avoid those costs. I I think people aren't aware that when you're on a time of use rate like that that uh I'm sorry the
+Amber Fu: Good night.
+David Loziuk: time of use is just for export. I think it's still fixed retail for most people in California.
+ 
+ 
+00:22:07
+ 
+David Loziuk: It it varies. Like I have some customers residential and commercial that are on import time of use, but I think the time of use rate is just for exports in California residential. No, no, I'm sorry. It's both. So, okay. So yeah, if your app can notify you that the price has gone up and that you should be worry or be cautious of what you're using at home, um I think that's a very useful tool to have in your pocket. Did I did I answer your question or am
+Amber Fu: and and yes yes but and and also like for example if if
+David Loziuk: I
+Amber Fu: the system suggests like shifting the EV charging to the let's say like off peg for the cost reasons but the user maybe prefer like uh convenience like How often do you see that kind of tradeoff will happen?
+David Loziuk: Yeah, I mean I I the EV charging I assume you can schedule it or I mean I mean I can't imagine it's just an on andoff switch but you should be able to set a schedule for it so that you know it's told to you know only charge between midnight and 6:00 a.m. when the price is real low or yeah the electricity costs are low then um you're saying in terms of convenience that okay they want to just start charging now but I mean if they don't need the power
+ 
+ 
+00:23:30
+ 
+David Loziuk: like they know they're not going to drive anywhere or there's enough battery power in the car then I don't see why they would be eager to uh start charging I mean I would think they would just plug in the charger and let the the schedule on the charger handle when it it's going to turn on and off Um,
+Amber Fu: Mhm.
+David Loziuk: so I I guess what convenience is there just that you know that you have 100% charge just in case you need to drive, you know, as far real far quickly. I I guess I mean if I I don't have an EV car, but I I would want some juice in the car so we have to run to the store or whatever. But otherwise, yeah, I don't I mean I would just let it charge overnight when I know I'm going to get the lowest cost of electricity.
+Amber Fu: Got you.
+David Loziuk: Is that your question or no?
+Amber Fu: And yeah.
+David Loziuk: Go
+Amber Fu: Yeah, definitely like and also like do small like behavioral change like actually
+David Loziuk: ahead.
+ 
+ 
+00:24:25
+ 
+Amber Fu: translate into like the meaningful cost like difference at the system level.
+David Loziuk: Yeah. I think if they're aware of their of the savings cuz I mean you only get a bill from the utility once a month. So, I mean, that's normally all the most people are thinking about their electricity usage is when they get that bill and it's like,
+Amber Fu: What?
+David Loziuk: "Oh, this is real expensive." Um, but yeah, if they have an app, you know, a phone, I mean, on their phone in their pocket and it's sending them notifications constantly or at least a few, you know, once a day, um, you know, I think that's a good reminder for them that, hey, yeah, it's you are incurring these co costs regularly and,
+Amber Fu: Mhm.
+David Loziuk: you know, the phone is that constant reminder that, hey, if you make this change to your behavior that you will at the end of the month see, you know, $50 worth of savings and I I think everybody likes money in their pocket like that. So that's why I was saying if you can make the app like a game, it's like how much did you save this month just based on changing your behavior at home?
+ 
+ 
+00:25:29
+ 
+Amber Fu: Got you. Got you. Well, that's a really valuable information for us. What what we are uh like before we are thinking about like the game thing, you know, but we just not really sure like if like the customer really love that.
+David Loziuk: Well, not like I mean you know what I mean by a game.
+Amber Fu: Yeah. Yeah. Yeah.
+David Loziuk: It's just I mean if you they see it as like money in their pocket and like the app is fun to interact with then I mean at least from my point of but again this is what I do for a living. I would find it enjoyable like oh yeah let's do this we just save $20 you know whatever it's just I like that type of stuff and maybe mo the average person that doesn't deal with energy systems wouldn't think that along those lines but I know everybody likes their apps and games so that's what I was trying to say like if you tie you know make it like something that they're enjoying on their phone and they're getting
+ 
+ 
+00:26:21
+ 
+Amber Fu: Mhm.
+David Loziuk: money as a result why not
+Amber Fu: Sure. Sure. Yes. We gonna Yeah. We maybe like after the the the demo we we going to try that the game thing and that that yeah that will be like that's makes sense.
+David Loziuk: Okay.
+Amber Fu: So the key is not just you know the saving itself but making the saving visible right
+David Loziuk: Yeah. But again, I I assume your app is just going to give like suggestions or notifications that says, "Hey,
+Amber Fu: at the first stage.
+David Loziuk: if you do this, you'll you'll save this." Okay.
+Amber Fu: Yes.
+David Loziuk: So, they'll either ignore it or they'll say, "Hey, yeah, I want to save $10. Let's let's do this.
+Amber Fu: Yes. And also uh yeah we can move to the next part. This the saving card. So um so the saving card is not just like a reward is like more reflect like how reason behavioral your select goal. So basically like if you go is a financial tolerance boundary then the savings shows like how much buffer you currently have.
+ 
+ 
+00:27:25
+ 
+Amber Fu: Yeah. So this is about like the saving card and well I mean like in the energy uh uh uh particular like do professional actually calculate saving at a behavioral level or only a system level.
+David Loziuk: your question is does a professional calculate savings at a behavioral
+Amber Fu: Yeah. Uhhuh.
+David Loziuk: level?
+Amber Fu: or like only a system uh the system level.
+David Loziuk: Um, what do you be behavior is that they I don't understand that they set a budget and that they're coming in under that budget. Is that the behavioral level or or what do you mean by behavioral
+Amber Fu: Uh yes,
+David Loziuk: level?
+Amber Fu: a behavior level is more like you know uh the people going to change their behavior uh maybe like uh when they charging the car during the off peak over or like they using the AC uh in the off peak over something like that. Um so let me make it's a more concern yes like for example like if a user like
+David Loziuk: Oh.
+Amber Fu: shifts the EV charging from the paid to off paid and we show the cost differently at the saving.
+ 
+ 
+00:28:43
+ 
+Amber Fu: So this is that reasonable way to calculate
+David Loziuk: Yeah.
+Amber Fu: savings.
+David Loziuk: Yeah. I mean, if they're Yeah. I would show them that if you charge it between 400 p.m. and 9:00 p.m., you know, peak time, it's going to cost you this much. And if you do it overnight when everybody's sleeping, then it's going to save you this much.
+Amber Fu: Mhm.
+David Loziuk: So, yeah, you that's definitely how you would calculate it.
+Amber Fu: Okay. Okay. So, so like do you ever attribute like a cost saving to specific action like like that or like is a saving you really calculate like at the overall system level? So this is what I mean.
+David Loziuk: Yeah. No, I would I mean I if they you said you take bill history from the from the residential history to create a baseline. So from that data you would be able to you know make some assumptions or you would interpret it and say okay
+Amber Fu: Oh,
+David Loziuk: well you know you're using a lot of power but you know during peak time you know and we get at your home but is there any way some of these loads that you're using during the peak period of the day
+ 
+ 
+00:29:51
+ 
+Amber Fu: man.
+David Loziuk: we can use during off peak and so I mean you take that from the baseline you say hey you spent you know $500 on electricity last month because you had too many peak hours now if you move the EV charge ing to overnight. Um, you know, you've just reduced that bill by $100 or whatever, but you're going to get that from your baseline. I mean, if if somebody's already doing that strategy without your app, then yeah, I don't think your app is going to be able to take credit for it because they're already aware and doing that. But, you know, the whole the whole idea of your app is it's it's making the user the residential culture more informed about their energy usage and the rate structures that they're getting from their utility. Um, so that that's all I mean that the baseline if if there's two users, I mean two customers and their baseline is high on one, the other one's low, then yeah, you you would calculate the savings for the one high, but you're not going to take credit if the other person's already doing that uh energy strategy.
+ 
+ 
+00:30:52
+ 
+Amber Fu: Mhm.
+David Loziuk: I mean,
+Amber Fu: And and yes,
+David Loziuk: isn't that what Go ahead.
+Amber Fu: exactly. So in your experience like our saving more driven by behavior or system design or tariff uh structure like which one do you think?
+David Loziuk: Yeah. Like I mean system design I assume. Okay. Going back to the EV example, if the EV charger can be scheduled, you know, that it's just programmed that like, hey, it's only going to be charged between midnight and 6:00 a.m., then yeah, that's designed into the system. The user doesn't think about it. they don't,
+Amber Fu: Mhm.
+David Loziuk: you know, they're most likely not using their car at nighttime. Um, so yeah, I guess that's a system level design that that gives you that savings versus if the user is just manually plugging in the car and saying, "Okay, start charging at midnight." Then that's I guess you're saying a behavior change. Is that what you're saying? I mean, one uses technology. The other one the the other the user actually has to go and implement it himself and say,
+ 
+ 
+00:31:46
+ 
+Amber Fu: Mhm.
+David Loziuk: "Okay, there's no schedule on my EV charger. I have to turn it on at midnight, turn it off at 6:00 a.m. I mean, just the way you would, you know, not wash clothes or run the dishwasher during peak hours.
+Amber Fu: Mhm.
+David Loziuk: Is that what you're trying to compare between behavior versus system? I mean, system would be the dishwasher is programmed not to run, but in the other case, the beha the the the homeowner just knows,
+Amber Fu: Yes.
+David Loziuk: okay, I just don't run the the appliances during these hours. So, I mean, one is just a human making the decision. The other one's a computer. So I I don't really know that but yeah I guess one you're calling a system the other one is the behavior but the savings are going to be calculated the same I I mean
+Amber Fu: Got you.
+David Loziuk: what I I hope I'm understanding your question correct
+Amber Fu: Well, that's that's a make a lot of sense. Yes. Yes. Exactly. That's exactly what I mean.
+ 
+ 
+00:32:39
+ 
+David Loziuk: Okay.
+Amber Fu: So I mean this is makes sense. So the well well what I understand like so there are like like two type of saving. So one is like coming from the system design right or like automation and another like from
+David Loziuk: Yeah.
+Amber Fu: actual behavioral change right?
+David Loziuk: Yeah. Like the I mean the one I not washing clothes during you know peak hours.
+Amber Fu: Okay.
+David Loziuk: I mean running your washing machine,
+Amber Fu: Yes,
+David Loziuk: dishwasher.
+Amber Fu: I understand. So, so basically like if user is already doing the optimal uh behavioral then we shouldn't really claim that as a saving
+David Loziuk: No,
+Amber Fu: right
+David Loziuk: because they're not going to see any difference on their utility bill. I mean, they already have the savings.
+Amber Fu: got you got
+David Loziuk: I mean, the user is going to want to see end results and the end results going to be the bill from the utility at the end of the month.
+Amber Fu: you
+David Loziuk: So, yeah, if they don't see a drop there, then they're going to say, "What did you do for me?
+ 
+ 
+00:33:37
+ 
+Amber Fu: Mhm. Gotcha. So, so in that sense like our role is less about automization and it's more about like a making the cause impact visible, right?
+David Loziuk: Yeah,
+Amber Fu: Just Yeah. Just help your user like understand oh what actually
+David Loziuk: but
+Amber Fu: matters.
+David Loziuk: yeah, I mean you're making them more aware, but I mean all this stuff is can be automated. I mean, even your thermostat, uh, you know, for your heating and cooling. I mean,
+Amber Fu: Mhm.
+David Loziuk: that you get an app on your phone and you can set schedules on that, too. So, I mean, if if if your app tells them, hey,
+Amber Fu: Mhm.
+David Loziuk: the price of electricity is really high, if you don't need to run the air condition right now, you know, lower the set point. So, I mean, that they would Okay, that would be a behavior thing that says, okay, manually go in and lower your thermostat or I'm sorry, your cooling. So you'd raise the thermostat. Um but similar you could set a schedule on that thermostat and you can say okay between you know peak time you know let's say noon till 9:00 p.m.
+ 
+ 
+00:34:42
+ 
+David Loziuk: let's raise the temperature in the house that nobody's home or or or whatever.
+Amber Fu: Oh
+David Loziuk: Yeah. Just raise make the set point higher.
+Amber Fu: yeah.
+David Loziuk: So, so yeah, it's it's a mixture between the behavior, I mean the the user themsself making the changes, you know, when you they're notified or they're aware or the system themselves is programmed to make those changes on a regular
+Amber Fu: Got you. Got you.
+David Loziuk: basis.
+Amber Fu: And and if we had to focus on one thing, would it better to design for like automation or for influencing the behavioral?
+David Loziuk: I I would do both. I mean, because it's so easy to schedule these these systems like thermostat,
+Amber Fu: Uh
+David Loziuk: assume the EV, too. Uh the charger for the EV. Um yeah, I mean, the notification from you could just be like, "Hey, we recommend you setting, you know, an EV charging schedule between midnight and 6:00 a.m. or we recommend doing a a cooling set point uh setback.
+Amber Fu: Yeah.
+David Loziuk: Uh so raise your temperature to 76°." So yeah,
+ 
+ 
+00:35:44
+ 
+Amber Fu: No.
+David Loziuk: I would do both that if there's not if there's suggestions on the automation side, provide it. There's suggestions just on the user, you know, change side, then provide it.
+Amber Fu: Mhm. Got you.
+David Loziuk: I mean,
+Amber Fu: Got
+David Loziuk: the automation's better because then the person doesn't have to think about it.
+Amber Fu: you.
+David Loziuk: It's it's programmed and it just runs itself. But I mean,
+Amber Fu: Yes.
+David Loziuk: both are useful.
+Amber Fu: Yes. Exactly. So you can see like below the saving section is what we call the execution card. So this is where the system move from the awareness to the action. So you know so the execution card is always like a trigger rabbit to your select goal. So they they basically here it's just answer one question like oh what action right now would make most I mean meaningful reduce risk rel uh related to the user goal. So in this example, so the uh execution card show like power outage warning, but it's also could be like EV charging during the peak like battery charging at the high price period or solar and their uh performance or like euro uh the great import.
+ 
+ 
+00:37:00
+ 
+Amber Fu: So basically like the content change but the structure stay constant and and when you click view more there will lead to the our event page and when you click any of those events uh they have uh the uh the contact is more like a recommend action and uh uh like a clear call to action. Uh just wait a second. Yes. So the this is like event detail and uh we we basically we just you know where we explain like a reasoning behind the
+David Loziuk: Yeah.
+Amber Fu: recommendation.
+David Loziuk: No. And my only suggestion would be try to quantify the the savings so that I mean somebody reads this quick okay but if they see a dollar a month it says hey this cost you you know $5 or you would save $5 $10 and uh I would put estimated savings at the
+Amber Fu: Mhm.
+David Loziuk: bottom so that somebody can then judge well is this worth it or not and you say okay it is I I see a dollar amount um and I I think you can just do a basic approximate calculation to to show them what they would be
+ 
+ 
+00:38:17
+ 
+Amber Fu: Yes. Yes. We we're going to add that.
+David Loziuk: saving.
+Amber Fu: We we um we're just thinking like two weeks ago we probably like every uh every action we're going to add in the a dollar amount so the people will decide it's worth to you know to listen it or not.
+David Loziuk: Yeah. Yeah. And it just I would just write as an estimated savings. Yeah. It's dollar amount.
+Amber Fu: Okay. Got you. That will be
+David Loziuk: And that and that's pretty standard in the like the I deal with like building automation systems. They say there's all these faults or these issues and it quantifies them by the dollar
+Amber Fu: Uh-huh.
+David Loziuk: amount that says you know like this is how much energy saving I mean savings you would get if you fix these items. So that like a facility manager can go through and say oh we're you know if I you know switch out
+Amber Fu: Uhhuh.
+David Loziuk: these filters or you know do some maintenance here this is going to reduce costs.
+ 
+ 
+00:39:11
+ 
+David Loziuk: So I just this is a standard that and it helps influence the decision makers in terms of what they're going to focus on um in for reducing
+Amber Fu: Gotcha. Gotcha.
+David Loziuk: cost.
+Amber Fu: And well and and also like in California under the TU tariff uh for your experience like which residential behavior typically like credit a large cost exposure? I I know like the first maybe the top one will be the EV charging and maybe the second will be the AC. uh I I don't know if that right but what we're uh speak to the users they think that the largest cost in the residential uh place will will the the top will be the the charging and the second will be the AC and maybe the laundry I don't know some some user think they they think the laundry will be also the really largest
+David Loziuk: Yeah, I I would think the EV is the is the largest. Um, and that one just seems the easiest to shift because, you know, most people sleep at night time. So, you know, and that's when the price of electricity is low.
+ 
+ 
+00:40:27
+ 
+David Loziuk: Um, this the air conditioner,
+Amber Fu: Mhm.
+David Loziuk: yeah, that's going to be tied to the outdoor air temperature. Uh, you know, hot days, you're going to run the air conditioner a lot more.
+Amber Fu: Mhm.
+David Loziuk: Um, so I mean that's, you know, I noticed you had some weather alerts in there, too, for I think power outages.
+Amber Fu: Oh yes.
+David Loziuk: But, yeah, like I think this week it's, you know, real hot in California, like severe heat.
+Amber Fu: Yes.
+David Loziuk: So, so e everybody's going to be running their air conditioner. Um, and one of the suggestions I have for for the the load shifting the AC is you you cool the house down in the morning that you you bring it down to 67° maybe on the cold cold side. And so then that way during the day as it heats up to 90° outside that air conditioner can just
+Amber Fu: Hello.
+David Loziuk: float. So you know we we try to keep it off as much as possible. So I I call it subcooling in the morning and then in the afternoon you let it the house overheat a little um for a to to so if you're you're still within like a
+ 
+ 
+00:41:27
+ 
+Amber Fu: Mhm.
+David Loziuk: thermal comfort layer you know 67 to say 74 degrees Fahrenheit but um yeah you're not running the air conditioner as much during that the hottest part of the day. Um so is you know as long as the user's you know comfortable with that that's one of the suggestions I always say. Um so yeah I would I mean yeah definitely EV is going to be expensive.
+Amber Fu: Mhm.
+David Loziuk: I mean it's a large battery bank. Um also you know if they can do a birectional charger you potentially if you're not using that uh power in the EV in the evening you could be exporting that to the utility when when the prices are peaking. So, I mean, your car itself is I mean, I guess somebody wants to look at the, you know, the lifetime use of their battery. They say, "Well, if I'm charging discharging more, my batteries aren't going to last as long." But, uh, potentially that car could make the homeowner a bunch of money by discharging during peak hours and then recharging in the in the evening.
+ 
+ 
+00:42:32
+ 
+David Loziuk: I mean, over the overnight hours.
+Amber Fu: Mhm.
+David Loziuk: So, but yeah,
+Amber Fu: Got
+David Loziuk: the the focus your largest loads are the air conditioner and the um the EV and you know
+Amber Fu: you.
+David Loziuk: there was some talk about heat pumps and like electric heaters, but Southern California you guys are pretty warm um year round. So, I heating heating isn't going to be a primary thing there.
+Amber Fu: Mhm.
+David Loziuk: Um that that was the only I was recommending to residential customers in Illinois where they do you know gets get very cold that the surplus solar production that we make in the summer you because they the utility um what do they call it they do it every year that you can you you shift the credits forward monthto monthth and then at the end of the year 12-month period they they
+Amber Fu: I
+David Loziuk: they uh I forget what it's called but you get paid out.
+Amber Fu: know.
+David Loziuk: It doesn't carry over year to air. So that's all I was saying is that you overproduce in the summer, but in the winter time you can either run a heat pump or electric resistant heater to um to burn that surplus power before you have to use it or use use it or lose it by the end of the year.
+ 
+ 
+00:43:38
+ 
+Amber Fu: Got
+David Loziuk: So but if you're focused on Southern California,
+Amber Fu: you.
+David Loziuk: I wouldn't worry too much about the heating that's going to be very small down there.
+Amber Fu: Mhm. Got
+David Loziuk: Um and then yeah the other although it's just the appliances lights
+Amber Fu: you.
+David Loziuk: everybody has LEDs so that's very small. Um what? Oh, water heaters. Uh domestic water heaters if it's electric. Um so that that that's I don't know if they I I mean any device could be fitted with a controller, but that would be this similar idea that you take a shower in the night in the evening.
+Amber Fu: Mhm.
+David Loziuk: Maybe you don't want to heat that water back up until overnight.
+Amber Fu: Come
+David Loziuk: Uh that that would save some power.
+Amber Fu: on.
+David Loziuk: But to do that manually, most people probably wouldn't do that. Um, it would have to be done by a controller on the device that says, "Okay,
+Amber Fu: Amen.
+David Loziuk: only heat between midnight and 6:00 a.m." So,
+ 
+ 
+00:44:31
+ 
+David Loziuk: but that that's the that would be the third one,
+Amber Fu: Got you.
+David Loziuk: the domestic water heater. If if it's electric down
+Amber Fu: Mhm. Gotcha.
+David Loziuk: there,
+Amber Fu: Gotcha. Well, but like for something like AC like where behavioral change is harder, do you think like recommendation are still useful or like would automation be more more more useful for the customer?
+David Loziuk: Yeah, I mean scheduling is is the best. Um I mean if they know they're going to work, you know, all day and nobody's going to be in the house, it's it's real easy to set up a a schedule on the HVAC on the thermostat.
+Amber Fu: Mhm.
+David Loziuk: Um, yeah. I mean,
+Amber Fu: Mhm.
+David Loziuk: otherwise if if they are home and they get a notification, hey, the price of electricity is peaked right now, it would be good if you could shut off your AC for a couple hours. Um, yeah, maybe that person goes for a drive or is like, okay,
+Amber Fu: Mhm.
+David Loziuk: I'm going to go do errands now and I'm going to allow my air conditioner to turn off and the house to warm up a little bit.
+ 
+ 
+00:45:37
+ 
+David Loziuk: Um, but I I think that's going to come to the individual, though. I mean it is person's budget, their level of discomfort, um you know, if they want their house to warm up like that. So I I I can't answer for all people. Everybody's different. But yeah, I mean the scheduling is easy. If they know they're at work Monday through Friday, then I there's no reason why you wouldn't have a setback on your thermostat or I couldn't think
+Amber Fu: Mhm.
+David Loziuk: of one.
+Amber Fu: Gotcha. Gotcha. Sure. And um that's really helps information and um we can go move to the next on the the usage part. So the usage more provide the layer behind the go and execution. at least just allow user to see how their uh consumption maps to a tu structure and like a financial exposure. So um and for this part like when mapping like the interval data to the TOE are there I mean tear threshold or seasonal baseline that we must apply before calculation exposure
+ 
+ 
+00:46:51
+ 
+David Loziuk: I'm sorry. Say it one more time
+Amber Fu: like like I mean like the mapping interval data at a to I don't know if you're familiar with a TU plan.
+David Loziuk: with what you Oh,
+Amber Fu: The TOU plan in California.
+David Loziuk: to time of use.
+Amber Fu: You Yes. Yes.
+David Loziuk: Yeah,
+Amber Fu: Yes.
+David Loziuk: you know, I'm from Yeah.
+Amber Fu: Yeah. Are there like a tear uh threshold or like a seasonal baseline where we must apply before
+David Loziuk: Um,
+Amber Fu: calculation exposure?
+David Loziuk: is there
+Amber Fu: Yeah. Yeah. the seasonal baseline. I mean,
+David Loziuk: seasonals?
+Amber Fu: is it different like or like do daylight saving shift or like holiday override for the TOU?
+David Loziuk: You are you asking if if the rate plans vary? I mean, yeah.
+Amber Fu: Well, well,
+David Loziuk: If they very tingly and
+Amber Fu: I mean like what? Yes. I mean what I mean is like uh for like are they like a seasonal or
+David Loziuk: seasonally
+ 
+ 
+00:47:46
+ 
+Amber Fu: like day daylight saving or like holiday overrides will affect the TOU mapping in the real uh in the real building.
+David Loziuk: yeah I mean you got to get the the rate uh the rate from the utility but yeah my understanding is it's based on the time of day. So as you have here hourly, on peak, super off- peak um but it's also day I mean day of the week. So weekends might be cheaper than weekdays or vice versa. I forget which way it is. I think weekends are cheaper. And then yes, seasonally holidays too, but yeah, holidays is the same as like a weekend. Um, and then seasonally, yeah, summer is going to be more expensive for electricity than winter because more people are using their air conditions in the summer. And there's just it's supply and demand. So, yeah,
+Amber Fu: Mhm.
+David Loziuk: the price of electricity is higher in the summer than the the winter. So, the time of use very it depends on the hour, depends on the day of the week, and also the the month of the year.
+ 
+ 
+00:48:45
+ 
+Amber Fu: Uh um so well let me like break this into like a really simple question. So when mapping interval data to the tu rate well are there have additional factor we need to consider like you know seasonal rate or like rake davis of vacant difference or like a daylight saving time.
+David Loziuk: mapping unifor data into the in terms of what the c the customer is going to see. Yeah,
+Amber Fu: Hey.
+David Loziuk: I think they they need to see that it's that the electricity is not as expensive in December than it is in July. Is that what you're asking?
+Amber Fu: Uhhuh.
+David Loziuk: I mean, you said mapping the interval data
+Amber Fu: Yes. like well I'm trying to ask like in like a real building system like is a TU mapping
+David Loziuk: into
+Amber Fu: applied directly on the interval data or are they adjustment like tears or seasonal before that?
+David Loziuk: 9:25.
+Amber Fu: Yes. I mean like do but can do do you understand my question or okay uh or well let me change
+David Loziuk: Not really.
+ 
+ 
+00:50:04
+ 
+David Loziuk: Sorry. It's I I mean I mean the
+Amber Fu: another another way to ask like what are the most common mistake people will make
+David Loziuk: YouTube
+Amber Fu: when mapping the tu rate.
+David Loziuk: and so when you say mapping what do you mean by mapping?
+Amber Fu: Uh so the the mapping lat rate uh I mean the well
+David Loziuk: the the display is it it varies throughout the day and week and
+Amber Fu: the Yes.
+David Loziuk: year.
+Amber Fu: Yes.
+David Loziuk: Uh okay. So just I mean would you consider this map this is one day you're mapping the toou rate right right this this uh okay yeah and so I I think you just need to show that this is
+Amber Fu: Yeah.
+David Loziuk: a July you know weekday and that well oh this is usage you're
+Amber Fu: Uh-huh.
+David Loziuk: showing but um I mean you want to show what the price of electricity is during
+Amber Fu: Well, I mean like
+David Loziuk: these different periods of the day not just how much they're using but I guess in the summer you're you want to be able to show them
+ 
+ 
+00:51:03
+ 
+Amber Fu: um
+David Loziuk: that You're using a lot more power during the day to run your air
+Amber Fu: uh well like um so the mapping
+David Loziuk: conditioner.
+Amber Fu: like well I mean like uh let me think how to explain. Okay. So uh like taking a interval energy data so each interval to the tu period and then applying to the rate to calculate the cost. So in that process like what are the common mistake that people can make? So, so what I mean is like when you take usage data over time and try to calculate cost based on the tu rate like where do people usually get it wrong?
+David Loziuk: Okay. Yeah, I understand. Um I I I mean you just have to understand the rate structure of the the rate of by the utility where they're getting it wrong. Uh I I I I don't know where I mean where the common mistakes would be. Um I yeah I think they just they need to be aware you know if it's a weekday or weekend charge I mean that it's applied to the to the right time of use rate um that your on peak weekday is calculated with those that kilowatt hours that you're consumed during the on peak weekdays.
+ 
+ 
+00:52:37
+ 
+David Loziuk: I I I I I can't think of what a common mistake would be for calculating the the rate structure.
+Amber Fu: Um or or like like what would cause our calculated bill to
+David Loziuk: Um
+Amber Fu: not match the actual utility bill? You think in your experience?
+David Loziuk: I mean there's some like fixed costs like a grid participation charge I think they So I mean you got to make sure that's included. Um, I don't I don't think they're doing this residential, but they do peak demand charges. So, the but I I think that's just for commercial that they charge you for the KW, the highest KW for the month. Um,
+Amber Fu: Mhm.
+David Loziuk: and then I mean there's a bunch, you know, residential. Well, I mean, there's all these um additional tariff charges for like energy efficiency programs and uh the taxes um you know, so th those all need to be factored in. But okay, so you're saying when you you're trying to match a utility bill with the interval data and when you you have the rate structure, when you go and calculate it, there's a discrepancy between what the utility bill says and what you calculated from the actual usage data.
+ 
+ 
+00:53:54
+ 
+Amber Fu: Exactly.
+David Loziuk: and and you're not sure why you're you're running into uh this discrepancy.
+Amber Fu: Yeah. Exactly.
+David Loziuk: So yeah, I would have to go through the Yeah,
+Amber Fu: the I know like Yeah.
+David Loziuk: I mean you just I mean is the usage matching up at least because
+Amber Fu: the
+David Loziuk: I mean the utility is going to provide you on peak,
+Amber Fu: like
+David Loziuk: off peak and um whatever they call that super off- peak. Um, so I mean are your KWH's matching up with the what the utility is providing and then you're just not able to calculate out what their rate what the rate is for those to come? No, I'm asking are are you getting is the is the energy usage the same that you're pulling from the I mean it matches what the utility bill says but you're just not able to do the dollar amounts or are the energy usage not even matching?
+Amber Fu: Uh the well I mean we are still trying to figure that out. Um because like so so even like right now we get the TU mapping correctly but there's still like an another like a component like a fixed fixed charge or like a program fee and the taxes right that's still well at the final
+ 
+ 
+00:55:06
+ 
+David Loziuk: Yeah.
+Amber Fu: bill.
+David Loziuk: Yeah. The fix and any other whatever riders they call them. But yeah, that the additional cost
+Amber Fu: Uhhuh. Yes. Yes. So um I mean the so the thing is um so do you think like in the real world for product like ours the the fully like uh replace the utility bill or should we focus more on the expandation uh the major driven
+David Loziuk: Yeah, I mean you should include all the savings. So yeah, I mean if there's, you know, charges for, you know, riders that are based on kilowatt hours, those should be included, too. Um, so I mean, yeah, it should be as close as possible to what the actual savings are on the utility bill.
+Amber Fu: Mhm.
+David Loziuk: So it should include all the riders if that's what you're asking. The like the so the added charges at the bottom of the bill.
+Amber Fu: Yes.
+David Loziuk: Um that I mean ideally yeah if your app says that you save $50 this month then the the use the customer should be able to look at the utility bill and see you know let's say within a dollar $50 savings it is that's what you're asking how close the it should be to what the utility actually says the savings are or the the cost will
+ 
+ 
+00:56:28
+ 
+Amber Fu: Yes. Yes.
+David Loziuk: be.
+Amber Fu: Yes.
+David Loziuk: Yeah. I mean, I would think you should be able to get it within a dollar. Uh, but it sounds like you you guys are not able to calculate exactly what the utility says the the bill should be.
+Amber Fu: Uh because I since like right now we still on the uh the the the test the demo test uh stage. So uh we're still working on that. But we we're just we're just trying to see like what part we still going to missing uh on the bill side utility bill side.
+David Loziuk: Yeah, it's just the fixed cost in any writers. And like I said, I don't think they do a peak demand for residential, but and I would have to look at the actual rate structure, uh,
+Amber Fu: Sure.
+David Loziuk: the utility rate structure, but excuse me. Yeah, I I would think you'd have some margin of error, but you know, I would think you'd be able to get it within, you know, 5% or something of what the utilities saying uh for the the cost.
+ 
+ 
+00:57:33
+ 
+Amber Fu: Sure. Okay. Well, uh we can you know I can show you like our next part is really important to us is our saving part. Uh just yes. So this is our most important part in this app. So we we separate you you can see like we separate the saving from the bill. So saving is more like a behavioral impact and the bill like you know is more like official utility accounting. So we don't want to use or confuse those two and and you can see there have a dollar amount like $50.8 this is kind of accumulate a vote cost based on the event level adjustment. Yes.
+David Loziuk: Okay.
+Amber Fu: So I mean um so if the question here is like if we calculate saving based on the counterfactual modeling like what baseline would you consider defensible like same months last year or the the tariff or the like a weather normalized?
+David Loziuk: Hey, hey, yeah, I would do the same month last year as the baseline. Um, I mean,
+Amber Fu: Mhm.
+ 
+ 
+00:58:58
+ 
+David Loziuk: if you if you can get 12 months worth of utility bills from the customer, uh,
+Amber Fu: Mhm.
+David Loziuk: then, yeah, I mean, that's the most concrete that July of last year, they spent this much. Um, you do have to account for rate increases though between years. So they normalize um I I mean okay so you you'd have to do the energy from last year compared to the energy of this year is is you you wouldn't look at the dollar amount or or you'd have to rate normalize saying okay the rate did increase by 5% so um yeah you'd have to factor that in that um that I mean that you're trying to say that you save 10 kilowatt hours But at the same time the price of electricity went up. So yeah, you need to factor both in. It had to think about it more. But yeah,
+Amber Fu: Yes.
+David Loziuk: you got to consider both that how the rate increases year to year and how the energy uses varies uh for the same month each
+Amber Fu: Gotcha.
+David Loziuk: year.
+ 
+ 
+01:00:04
+ 
+Amber Fu: Gotcha. But like how often do you think the behavioral change between the year?
+David Loziuk: How often do you see behavior change?
+Amber Fu: Yeah.
+David Loziuk: would Yeah.
+Amber Fu: Between the year
+David Loziuk: I I mean
+Amber Fu: for the residential part.
+David Loziuk: I mean I think it's just the the user themsself is just going to have to be aware that they weren't doing something last year.
+Amber Fu: Uhhuh.
+David Loziuk: Now they are.
+Amber Fu: Cuz like for example like if someone buy the EV this year would that will be break the validate of the baseline do you think?
+David Loziuk: If somebody bought an EV, how would that affect the baseline? Um, yeah,
+Amber Fu: Yes.
+David Loziuk: obviously they need to you'd have to somehow determine I mean, if you know when the EV is being charged, you'd have to, you know, figure out how much additional energy usage is. I mean, that's an increase in usage based on the behavior or because they bought a new appliance, the EV. Oh, I'm going to put headphones on.
+Amber Fu: Mhm.
+ 
+ 
+01:01:29
+ 
+David Loziuk: Uh, give me a second. Hey, can you hear me? It just It's got noisy. Sorry. Um,
+Amber Fu: Yes.
+David Loziuk: yeah. So, you'd have to try to quantify what the EV added to their energy usage. um you know, if you're pulling interval data and you know when the EV is being charged, it's probably it should be easy to quantify that. Um and then yeah,
+Amber Fu: Mhm.
+David Loziuk: you're not you're not going to look at that as an additional cost on the system. You just that that's just the new baseline at that point that the the user changed their baseline requirements by adding apply an
+Amber Fu: Mhm.
+David Loziuk: appliance.
+Amber Fu: And well I mean like in that case like would the model base I mean based baseline like you know uh simulate uh expected usage under the current tariff will be more defensible. in your experience.
+David Loziuk: Say that one more
+Amber Fu: Well, like I mean like would like a if we try to model the based
+David Loziuk: time.
+ 
+ 
+01:02:56
+ 
+Amber Fu: baseline like you know simulate uh expanded usage under the current tariff do you think will be more defensible?
+David Loziuk: Yeah, I mean you would adjust the baseline if they purchased an EV. So if they didn't have the EV last year when you created the baseline um and then all a
+Amber Fu: Mhm.
+David Loziuk: sudden EV was the baseline would be ch it would be adjusted then you would recalculate it u based on this new extra load now in the system. Um and then would that the rates I'm sorry what was the second part of your
+Amber Fu: Uh
+David Loziuk: question? How would the rate impact that
+Amber Fu: yeah,
+David Loziuk: or
+Amber Fu: the the the current tariff will be more defensible.
+David Loziuk: um I the baseline would have a you'd have a baseline rate and then you would adjust the savings by you normalize the rate between the years. So, so I mean you you don't want to just show all the savings are just because the price of electricity went up um you know between last year and this year.
+ 
+ 
+01:04:14
+ 
+Amber Fu: There you go.
+David Loziuk: So you need to account for the rate adjustment I mean normalization rate. Um so yeah you would base it off the baseline rate and then but then they're going to want to see that savings on the utility bill. So yeah, you you kind of have to you have to show them that like, okay, maybe you're saving $50 because of um usage change, but you actually have to pay $10 more because the price of electricity is just more expensive this year. But you you have to kind of break it out like that.
+Amber Fu: Mhm.
+David Loziuk: But maybe their net savings is only $40 per month and you know 50 is because you changed your behavior and you use less energy, but um but at the same time the price of electricity is just more expensive this year. So you know you you have to pay a little bit more.
+Amber Fu: Mhm. Got
+David Loziuk: though I I I would try to break it out and and that's what I do for a commercial customer
+ 
+ 
+01:05:13
+ 
+Amber Fu: you.
+David Loziuk: that um I mean they did an energy savings program you know 8 years ago so every year I show them how much they're saving but I I also adjust for how much the rate has just increased between years so that we're not calculate I mean the savings are still based on the higher rate but then I adjust out the what the rate has actually increased between years so that way it it it looks like what they're they're paying on their utility bill now versus 10, eight years ago. You know, those numbers more or less match up to what I'm showing in terms of the program
+Amber Fu: Got you. Well,
+David Loziuk: savings.
+Amber Fu: that's makes sense. I mean, uh, so what I understood is like so the baseline isn't really like fixed. It's it's change, right? when the user behavioral change like when they maybe like when they add a new load such as EV and I I mean uh in that case like compared to last year may not always be re reliable.
+ 
+ 
+01:06:19
+ 
+David Loziuk: Yeah. Yeah. You either you either change the baseline if if the user is changing their their loads or yeah they did something new
+Amber Fu: Mhm.
+David Loziuk: this year by or or you just deduct that from this year's um usage and saying okay this is user change so we're not we're going to take that out of the equation to compare it to the baseline. it doesn't you can put it on either side of the equation but yeah you you you subtract that out so that
+Amber Fu: Mhm.
+David Loziuk: it doesn't look like you know you increased your energy usage over the baseline I mean you do but it's for a user change reason so you don't count that
+Amber Fu: Got you. Got you. So, so that's actually like why we're thinking about like a model the based baseline. So where we can simulate uh expected usage under the current setup. So instead of like you know relying only on the history uh compare. So like do do you think that will be more defensible or like would users still prefer like the uh I mean the the the uh the the prefer like the history like the compare from the last year monthly bill or or
+ 
+ 
+01:07:41
+ 
+David Loziuk: Yeah, I mean I I I mean they want to compare last last year last
+Amber Fu: like like
+David Loziuk: month last last year's month to this year's month, but I think they just there needs to be a note saying or additional line saying okay but at the same time user increased or um the rate increased this much or um even the weather there's a normal ization for weather that uh July of last year was real hot. So, you know, you had to run your air conditioner where this year it's it's El Nino or El Nino and now it's it's
+Amber Fu: Mhm.
+David Loziuk: cool in July. So, you're not So, it's the same thing as the rate or the user changed. There's also a factor for weather. So, you can't like trying to compare last year to this year. It's it's apples to oranges. I mean, if if if the I mean, the rate would have to be the same.
+Amber Fu: Hello.
+David Loziuk: the the be the user behavior would have to be exactly the same and the weather would have to be identical in order to compare them exactly.
+ 
+ 
+01:08:39
+ 
+David Loziuk: So, I mean,
+Amber Fu: Mhm.
+David Loziuk: you can show it that you spent $300 last July and 250 this year, but there has to be notes that like, okay, you added an EV that, you know, increased your power cost by $100. And, uh, it was it was, you know, 10° hotter last year than this year, so that reduced your power this year by, you know, $20. Um, you have to normalize if you really want to show it. Uh, compare the two years, uh, two months year to year.
+Amber Fu: Gotcha. Gotcha. Thank you. That's really uh valuable information for us. Yeah. And and also uh you can see like under it there have some uh equation. So the equation you can see like at risk cost equal like events actual cost. So I mean like instead of only show the saving we also show like accumulate at risk culture the cost of like ignoring the optimization event. So for you see as you're saying that for that equation would you consider this like a major meaningful from the professional standpoint or does look like too simple or unuseful.
+ 
+ 
+01:10:03
+ 
+David Loziuk: Let me make sure I'm looking at the same page as you. It says EV charging $21 and then solar power
+Amber Fu: Oh no. I mean the you can see the top there have the equation.
+David Loziuk: $20.
+Amber Fu: Can you see it?
+David Loziuk: Oh, at the top at risk costs uh by adding
+Amber Fu: Oh yes the risk
+David Loziuk: extra cost from each
+Amber Fu: cause.
+David Loziuk: detective. Okay. And I assume these at risk costs are what the the examples are below the EV charging the solar power.
+Amber Fu: Oh yes.
+David Loziuk: Okay. And your your question is does this look professional calculating it this
+Amber Fu: Do you think this Yes. Do you think that those uh equation should show on there?
+David Loziuk: way?
+Amber Fu: We just you know don't want to be a you know the black boss. We try to explain explanate to the customer that how we calculate stuff like that. So for your opinion, do you think the equation should be show on there or just
+ 
+ 
+01:11:07
+ 
+David Loziuk: I I I don't know if you need to show the equation,
+Amber Fu: ignore?
+David Loziuk: but I I think just an explanation of where the like the EV charging like like I assume if you click on that there should be an explanation that says because you charged your EV during off peak hours you you you save $21 this month. Uh versus, you
+Amber Fu: Oh yeah like like let me explain like this in a simple way.
+David Loziuk: know,
+Amber Fu: So instead of only showing how much you save, we also try to show like how much extra cost you would you would have. So if you ignore certain behavior so for example if someone like charge this EV uh during the pig hour that may cost them like let's see like $10 more than the off pig. So we trade that $10 as a at risk cost. So the cost is not taking the recommendation
+David Loziuk: It it Yeah. No,
+Amber Fu: actions.
+David Loziuk: I I I think I you should show him that. I think earlier we were talking about this when you clicked on EV charging during off peak and my suggestion was you should put you should quantify a dollar amount.
+ 
+ 
+01:12:11
+ 
+Amber Fu: Mhm.
+David Loziuk: that says, "Yeah, if you don't do this, then it, you know, you're potentially going to spend, you know, $10 more today." So, yeah, where you show it, I I I don't It's up to you guys,
+Amber Fu: Mhm.
+David Loziuk: but I should definitely show I would show the uh and when you give them the notification that says you should change this behavior,
+Amber Fu: Mhm.
+David Loziuk: you you should quantify that potential savings and say this is why uh you should change this behavior. So, no, I I agree. It it's not unprofessional. It's just people need to know a dollar amount.
+Amber Fu: Um
+David Loziuk: Um, and it helps them, you know, that might motivate their behavior changes versus if you just give an explanation, they, you know, it's just a lot of words. Uh, you know, if they see a dollar amount at the bottom, then they go, "Oh, okay. I want to do this.
+Amber Fu: Got you. But uh but for your perspective like does that feel like a meaningful way to uh frame it or does this risk over simplify that actual building logic?
+ 
+ 
+01:13:18
+ 
+David Loziuk: No, I think providing I I wouldn't I mean you're doing this to the to the to the penny $21.32, but I mean you may you probably just want to say these are approximate or calculated approximations and you know yeah because of significant figures I would just do it to like
+Amber Fu: Mhm.
+David Loziuk: dollar. It just says, "Okay, you can potentially save between," and you might give it as a range, too, between 20 and $23. Um, I I wouldn't do it to the penny like this because that implies that,
+Amber Fu: Mhm.
+David Loziuk: you know, you've calculated to that level of accuracy. Um, but it doesn't matter. I mean, it it just for me, I like to show significant figures based on like the accuracy of the calculation. So, for me, I would just say $21. Keep it simple. Nobody cares about 30 cents really anyways.
+Amber Fu: Got
+David Loziuk: Um but but yeah, no,
+Amber Fu: you.
+David Loziuk: I think it it's it's appropriate and I think it's it's a good idea to show these savings in there.
+ 
+ 
+01:14:16
+ 
+David Loziuk: I mean,
+Amber Fu: Okay.
+David Loziuk: just as is an approximate potentially
+Amber Fu: Got you. Got you. Okay. Okay.
+David Loziuk: approximate
+Amber Fu: Cool. So um and also under it there have a events breakdown. So you can see like they have a EV charging the solar or the power charging. So when you click it there they have a detail page and they just break down the each number and when you click each detail you can see it is over the bottom sheet. So this is how we calculate it. So this is where we uh expose the calculation logics. So you can see there have some detail like uh what happening as matter how we calculate what you can do
+David Loziuk: Yeah. No, I think this is fine.
+Amber Fu: next.
+David Loziuk: I I wouldn't make it over complicated, but this seems simple enough that somebody wanted to know like what the price difference is between off and on peak. And um yeah, I I I don't think this is too much information.
+ 
+ 
+01:15:24
+ 
+Amber Fu: Okay. Do you have any suggestion for this for this part?
+David Loziuk: Um, $12. No. Or I I mean maybe I mean my no it looks fine. I mean sometimes too much words can I mean a lot of words can you know but this isn't that much information. Yeah.
+Amber Fu: Mhm.
+David Loziuk: No it looks fine. Yeah. I mean, the idea is to keep it simple for the average user, homeowner who, you know, doesn't understand this stuff, but I I think this is simple enough.
+Amber Fu: Okay.
+David Loziuk: I mean, so that they're not like overwhelmed like what is all this?
+Amber Fu: Okay.
+David Loziuk: But I mean, all you do is give two rates, you know, off peak, off on peak, and say this is how much you use. So, I would think that they can easily understand this.
+Amber Fu: Mhm. Got you. Okay. Sure. And uh uh Okay. So we can go back uh and we can go to the our last part is uh the bill part.
+ 
+ 
+01:16:53
+ 
+Amber Fu: So the bill is here we like a marrow the official bill structure. Uh you can see we break down like a base service charge or deliver adjustments special fund. So we want to every dollar can be traceable.
+David Loziuk: Okay.
+Amber Fu: So yes,
+David Loziuk: is
+Amber Fu: so from a citizen modeling standpoint uh I mean is this reasonable to uh the project and annual outcome based on a partial the partial data.
+David Loziuk: is this part. I mean I assume the electricity deliver Oh, that's just total delivery. Is there a consumption charge in there?
+Amber Fu: Yes,
+David Loziuk: Is okay. Okay. So the consumption break breaks down by on off and whatever super
+Amber Fu: we Yes, we and we still like figure that out because uh we know like in California they
+David Loziuk: off.
+Amber Fu: have you know like like like PGE CJ Sce or like or like uh or another like a a lot of different utility company. So what we are trying to do here is we try to uh show some common stuff on here because I because different utility company they I think they kind of charge different
+ 
+ 
+01:18:23
+ 
+David Loziuk: Yeah, there each rate's going to be a little different, but it's going to be all similar.
+Amber Fu: Right.
+David Loziuk: So, you're just trying to make it general, so it would work across all three utilities plus the the smaller ones. Yeah. I I mean you got the delivery the the fixed charge is the base and then the rider is like a wild car like an energy efficiency program. Um yeah I wouldn't the consumption is what
+Amber Fu: What we're still missing here
+David Loziuk: the big thing I mean the 444 I assume is the total consumption but uh don't you do it should be consumption based on on off and the time of use right so it when you click on view more what else does it Oh,
+Amber Fu: Uh the view more is another part is is a bill proof.
+David Loziuk: build
+Amber Fu: Uh I could you can click we can go click view more and to see you
+David Loziuk: proof.
+Amber Fu: can see like the bill proof. Well the so this feature is compare like uh expanded uh export credit versus bill export credit.
+ 
+ 
+01:19:33
+ 
+Amber Fu: So if basically like if there mismatch we going to surface it. Yes.
+David Loziuk: Okay.
+Amber Fu: So the uh left side is what we detected and the right side is what utility uh show uh give to the
+David Loziuk: Okay.
+Amber Fu: customer.
+David Loziuk: And this is what you were asking me earlier about if there's discrepancy between the two. Where are the errors? And I mean this Yeah. I mean, this is this is significant.
+Amber Fu: Exactly.
+David Loziuk: $127 variance on a $200 bill.
+Amber Fu: Well, it's just it's just a it's just a random number.
+David Loziuk: Oh, this is just an example.
+Amber Fu: Yeah. Yeah.
+David Loziuk: Oh,
+Amber Fu: example. Yes. Yeah. But for here like uh my question is like what calculation layer does export
+David Loziuk: okay.
+Amber Fu: credit netting occur in the user utility billing engines like are there case where export is will avoid cost rather than the retail.
+David Loziuk: It's a when export is it let me is is the export credits are based on time of use rates right but are the
+ 
+ 
+01:20:48
+ 
+Amber Fu: Uhhuh.
+David Loziuk: are they the imports are they doing time of use too or is that just a fixed rate uh like a residential rate for these utilities and
+Amber Fu: Uh, so you mean for this bill
+David Loziuk: Just in general between the three major utilities in Southern California,
+Amber Fu: proofer?
+David Loziuk: are they doing time of use import rates or is it just for the export solar credits in the in the imports or just fixed rate for residential?
+Amber Fu: I believe. Let me uh let me see.
+David Loziuk: I I think that's what I was wondering earlier and for some I'm thinking it's actually fixed rate for the
+Amber Fu: I
+David Loziuk: import and only the export when there's over production they're doing time of use and that's what they're they're paying back as a credit to the the owner but uh okay so okay so that's why on the previous
+Amber Fu: Yes.
+David Loziuk: screen you just showed a delivery fee uh so that is their consumption that it's just
+Amber Fu: Uhhuh.
+David Loziuk: a fixed rate they're not char they're not being bu based on the time of you time of use that they're using that import
+ 
+ 
+01:22:03
+ 
+Amber Fu: Um well,
+David Loziuk: credit
+Amber Fu: um so okay. So my uh my question is like like a like the utility building engines like how are import and export actual handled like are they calculate separately or are they and and then like a credit apply or are they like netted first before applying Great.
+David Loziuk: Yeah. So, let me think about this. They're instantaneously reading the meter. So, Yeah, I believe that they're if if you're drawing if you're importing
+Amber Fu: Mhm.
+David Loziuk: power, I think they're utilities just charging you a fixed rate. But then if you export power to them, then they're giving you whatever the the the like the real time pricing is on that power.
+Amber Fu: Mhm.
+David Loziuk: Um so some sometimes, you know, they might pay you 50 cents,
+Amber Fu: Really?
+David Loziuk: but other times they might only pay you 5 cents for that power. Um, so, so yeah, they're I mean they're calculating it.
+Amber Fu: I mean
+David Loziuk: Yeah. Yeah. I mean, they're they're they're instantaneously calculating it.
+ 
+ 
+01:23:45
+ 
+David Loziuk: It's just on their side.
+Amber Fu: like
+David Loziuk: If you're taking power from them, I believe it's just fixed rate is what they multiply that power by. But if you send power to them, then they give you whatever the market rate is at that exact moment.
+Amber Fu: uh but so are are you familiar with the um the newer net building structure in California. I think they just proof this year I
+David Loziuk: Yeah.
+Amber Fu: believe.
+David Loziuk: The NEM the 3.0 version.
+Amber Fu: Uh yes.
+David Loziuk: Yeah. And that's that's what I was seeing is the big switch over that before it was it was just fixed rate
+Amber Fu: Uh
+David Loziuk: whether you import it or exported but now with 3.0 I think it's it's you import at a fixed rate but you export at the market rate and and the idea my understanding the idea is that they're trying to get more people to buy batteries um to do load shifting to so that you
+Amber Fu: Mhm.
+David Loziuk: export at the high hours. So yeah. Yeah.
+ 
+ 
+01:24:46
+ 
+David Loziuk: No, I'm familiar with the three the the newer regulation. I think it's 2023 they switched over,
+Amber Fu: Okay.
+David Loziuk: but I I was just confused for a second,
+Amber Fu: And
+David Loziuk: but I believe you import at a fixed rate and then that the new rules say you can export at the the time of use
+Amber Fu: uh but but but so in that case like do import and export
+David Loziuk: rate.
+Amber Fu: follow the different pricing
+David Loziuk: Yeah.
+Amber Fu: structure.
+David Loziuk: Yeah. I mean, it's when I looked into it, it says there's like 576 different rate structures or residential rate
+Amber Fu: Oh
+David Loziuk: structures uh between the three utilities, PG& and SD and whatever.
+Amber Fu: no.
+David Loziuk: Uh so I guess it's it's up I mean I I guess some residential users could be on a time of use imports uh rate structure and others could just be on like a standard fixed rate. Uh but for between these three utilities,
+Amber Fu: Mhm.
+David Loziuk: I was reading that there's 576 different possible combinations that they could be on.
+ 
+ 
+01:25:49
+ 
+Amber Fu: Oh, really? Enter the new
+David Loziuk: Yeah. And that there's this thing called this uh AC what is it?
+Amber Fu: name.
+David Loziuk: Uh uh ACC the um uh I forget what the acronym stands for. or something like cost the count. The public utility came out with this. Um, give me a second. The avoided cost calculator, ACC. So, this this California Public Utilities Commission came out with it. It's an um some type I don't know if it's an app or just like on your computer. Um, but th this is supposed to help people with solar and considering solar determine what
+Amber Fu: Oh.
+David Loziuk: what they're actually going to make under the new NEM 3.0. Um, because because like I said,
+Amber Fu: Mhm.
+David Loziuk: it says there's 576 different structures now with when they went from 2.0 to three. Are you familiar with this ACC, the avoided cost calculator? Okay, you may I I just started checking it out. I mean,
+Amber Fu: Nope.
+ 
+ 
+01:27:00
+ 
+David Loziuk: there's some workshops that they were or training seminars they were having on it, but I didn't get too far in detail. But this is what the the public utility commission came out so people could try to figure out what they're going to save on their with their solar exports now that the NEM 3.0 is the the new law or the you know, yeah, the new standard in California. So yeah,
+Amber Fu: Okay.
+David Loziuk: I guess the answer to your question the whether it's imports or time of use or fixed, I think the you the customer still has the choice whether they want to try to be on a time of use import or
+Amber Fu: Uhhuh.
+David Loziuk: just the fixed like retail rate. Um and then but the the the new system says that all the exports are going to be now time of use that we're going to pay you. They call it deferred cost to the utility. So yeah, that's so that might be why if you're having a big variance like this is is is uh between the build and expected might be the reason that that
+ 
+ 
+01:27:59
+ 
+Amber Fu: Mhm.
+David Loziuk: but I mean it looks like I mean you're building solar exported. Oh, you're just doing a fixed rate on export. So yeah, I mean for the solar export, you got to go in and figure out what the price is at that exact I don't know if they're doing it every minute or every 15 minutes the price changes. Um and so yeah, you got to go and calculate that for every interval at that exact moment.
+Amber Fu: Mhm.
+David Loziuk: But then on the import side, it depends on what rate structure the the customers on. So I mean it'd be it's easy if it's just fixed rate. you just say, "Okay, they use 400 kilowatt hours. It's, you know, 10 cents per or whatever 30 cents you're saying." Um, but they could be on a time of use import, too. I believe I mean, they should have that option if there's 576 different rate structures.
+Amber Fu: Okay.
+David Loziuk: So any anyway I I I started digging into it but there's this avoided cost
+ 
+ 
+01:28:54
+ 
+Amber Fu: Uh
+David Loziuk: calculator that the utility came out with and I think that's I was thinking this is what you guys were building but on the private side I mean you were bu building an app similar to
+Amber Fu: Yes. Um no we
+David Loziuk: what the utility came out with.
+Amber Fu: actually for uh we are building the app that try well basically just try uh to help the user to understand like what what their bill saying that you know cuz we uh talked to a lot of user and uh what their problem is uh some of user they think oh so I went vacation last month I uh like whole months at nobody in the home but our bill uh utility bill still really high. So they call basically they call the utility company or they call the solar installer like everyone said their uh data is correct uh it's nothing wrong. So we just help user to you know understand or break down the bill and to helping them to saving the money on the utility bill.
+David Loziuk: Okay. Yeah.
+ 
+ 
+01:30:08
+ 
+David Loziuk: I know I get that. I mean, okay.
+Amber Fu: Yes.
+David Loziuk: But go
+Amber Fu: And yeah. So, so yeah.
+David Loziuk: ahead.
+Amber Fu: So this is what the app do at the first uh at the early stage and um so the first stage the first stage we only going to have a app but the the second stage we going to have some hardware in uh you know maybe smart meter like second smart meter or AC clam we we we are not like uh we're not sure
+David Loziuk: What? What? Why would you add a another smart meter?
+Amber Fu: Okay.
+David Loziuk: I mean, if the utility already has a meter and the solar system has a meter on the inverter, is this like for submetering of appliances or or what?
+Amber Fu: Uh oh,
+David Loziuk: I guess why would you add another master meter to the system if that's
+Amber Fu: we so the we we just not uh we are not sure yet whether
+David Loziuk: what
+Amber Fu: well it's just a gateway or smart meter.
+ 
+ 
+01:31:12
+ 
+Amber Fu: We're not sure yet the hardware what will be look like. Yeah. And the thing is you know uh right now it's only the app. So if either like if you have a EV or the power wall or the solar we only can connect with the API but you know the API have delay.
+David Loziuk: Oh god. Oh, okay. So, the little delay would be the reason to add How much of a delay do they have?
+Amber Fu: Yeah.
+David Loziuk: Like a day or how much is the delay?
+Amber Fu: sometime a day or two day three
+David Loziuk: Oh,
+Amber Fu: days.
+David Loziuk: it is. Okay. Huh.
+Amber Fu: Yes. So you know so like so that's why like a early stage we are we only have a software like using uh either utility data or existing system data but like the the reason we're exploring the hardware is not just you know uh try we just try to can detective the home load for the user for for example like as you know some utility don't provide real data or some like user don't have a full system visibility.
+ 
+ 
+01:32:26
+ 
+David Loziuk: Are you okay?
+Amber Fu: So in that case we going to have a local device could help us provide more more like reliable and uh insight.
+David Loziuk: Okay. And more detail if you wanted like submeters on devices or
+Amber Fu: Yeah. Yes. Yes.
+David Loziuk: appliances.
+Amber Fu: And also we can detective you know like a laundry or TV or refrigerator something like that but in that case we need to have the hardware.
+David Loziuk: Okay.
+Amber Fu: Yeah. Okay cool. So um and the last part is our true build. So I don't know if you're familiar with a solar user and their true up because this this part is really bothers me because I don't have user I mean I don't have a
+David Loziuk: I'm
+Amber Fu: solar so I never receive the uh the true up view so I I don't know like that's really complicated when I talk to the user. So for this part we just try to you know to uh to do some like modeling uh for uh detected for the user to to let them know like uh how much they're going to be in a true bill like a you know more like a monthly tracking.
+ 
+ 
+01:33:48
+ 
+David Loziuk: Okay. I mean this looks like like submetering solar unavailable power. How did you guys are these just calculated or how did you determine how much EV charging they were doing? Is is
+Amber Fu: Uh so actually that's
+David Loziuk: it?
+Amber Fu: my question. So my question is like should we model to a monthly projection or just wait for annual uh settlement data?
+David Loziuk: So, is true up something the utility provides you or what is I'm not familiar with true up.
+Amber Fu: Oh okay. Okay. So the truck bill is uh only for the solar user.
+David Loziuk: Okay. So, the utility provides provides the true ability if you if you're producing solar and
+Amber Fu: Yes. Yeah.
+David Loziuk: and they break it down like this. I mean,
+Amber Fu: Yeah.
+David Loziuk: they actually I mean, how does the utility know that you're charging your your EV during peak hours?
+Amber Fu: Uh okay. So this is really complicated. It's really complicated. So especially in the California so like um like the simple way so throughout the year your utility bill may show credit or charge each month right and but the those months number are not final number.
+ 
+ 
+01:35:07
+ 
+David Loziuk: Yeah.
+Amber Fu: So at the end of the year the utility does a full you know full calculation adding up everything you used and everything you exported and then they uh determined whether you actually own the money or have remain credit. So the that final calculation is what we call the true
+David Loziuk: Oh,
+Amber Fu: up.
+David Loziuk: okay. I got it. Yeah. for the annual solar
+Amber Fu: Yeah. So for Yes. So for example like you may see small bill or even credit during the year but
+David Loziuk: production.
+Amber Fu: at the end of year you suddenly get a really large bill in California. This really common yes or like you know realize you
+David Loziuk: Okay, I got you.
+Amber Fu: didn't save much you expected. So that becomes like a real result is only deter uh determined at the true up. So, and that's actually the one of the problem we are trying to uh solve because a user don't know their real outcome until the final job.
+ 
+ 
+01:36:22
+ 
+Amber Fu: So, they only receive end of year. So, before that they don't know.
+David Loziuk: Okay. But are are you saying that they're getting large some customers are getting large bills at the end of the year that
+Amber Fu: Uh the $2,000 is really common in California.
+David Loziuk: the that I mean why is it I mean if they're calculating it monthly what what's the big discrepancy at the end of the year? My understand is just at the end of the year you lose any solar credits that you don't use. I mean, they don't carry over yeartoear, but I mean, if if they're if they're if they have a smart meter and they're calculating import export and billing
+Amber Fu: Um
+David Loziuk: it monthly, where's the discrepancy at the end of the year?
+Amber Fu: well uh I mean I don't know like uh I don't know another state but I know like in California. So what they what like the what the main issue at that the value of what your export is not always equal to what you're consumed. So so basically like during the year the user may think oh I'm building up the credit but those credit are often valued differently than the electricity you use later.
+ 
+ 
+01:37:41
+ 
+Amber Fu: So basically it means like value is a mismatch. So so for example like you may explore solar during the day when the value is low right but consume uh electricity at the night when the price is higher there. So even if the energy look balanced but the dollar value is not and you know
+David Loziuk: Yeah. Yeah. No, I get it. I I'm just surprised if they're rec Sorry.
+Amber Fu: especially
+David Loziuk: Go ahead.
+Amber Fu: yeah especially under the new policy in California like any credit
+David Loziuk: No. No.
+Amber Fu: at end of year may either expire
+David Loziuk: Yeah, they expire. I'm just surprised if they're reconciling every month that there's a huge difference at the end of the year. But no, I I understand that the I mean, as we were discussing, the imports, you know, might be build cheaper than what you're exporting or there's going to be a difference. So, um, but you're saying you're find there are customers that are finding these huge bills at the end of the year that they thought they didn't see
+ 
+ 
+01:38:43
+ 
+Amber Fu: is yes it's really really common
+David Loziuk: coming.
+Amber Fu: in California in the especially in the solar user so the uh yeah
+David Loziuk: I mean, is it because they're not they're not is it because they're not able to use all the solar credits and they they just
+Amber Fu: so
+David Loziuk: lose them at the end of the year? So then I mean but you you would still think the last month's bill would be nothing if you had all these extra solar credits, but then I mean you're starting over from zero again with zero credits for the next
+Amber Fu: Uh I know so but I mean the key thing is like the monthly bill is not full settlement.
+David Loziuk: year.
+Amber Fu: So it's more like for the solar user monthly uh monthly bill is not full settlement. It's more like a running balance like not the final calculation.
+David Loziuk: Okay. So it's just like it's estimated every
+Amber Fu: So so so yes. So the actual settlement rule is are only fully applied at the end of year.
+David Loziuk: month.
+ 
+ 
+01:39:43
+ 
+Amber Fu: So that will be include like how credits are valued and how they roll over and how they're settled or expired. So so you know like during the year it may look like uh you're you're good you're have a lot of credit but those credits are not worth the same electricity you consume later.
+David Loziuk: Okay.
+Amber Fu: Yeah. So which kind like result is a large adjustment if the timing or like a valuation
+David Loziuk: Yeah.
+Amber Fu: was not like a favor uh like uh favorable. So especially under the new policy in California uh the export value can be really really low.
+David Loziuk: Okay.
+Amber Fu: Yes. So,
+David Loziuk: Yeah.
+Amber Fu: so even like the energy is in balance but the financial outcome is
+David Loziuk: Yeah. Yeah,
+Amber Fu: not.
+David Loziuk: I guess if you're on like a fixed you're on a fixed utility rate residential then yeah in December when I mean the price of electricity should be low it's still fixed rate for you it's you know I don't know what you guys are charging let's say 20 cents a kilowatt hour so then yeah even though you're not as using as much power in December you're still paying this high fixed rate um versus like in the summertime it's it you know it the the time of use rate is very high,
+ 
+ 
+01:41:13
+ 
+David Loziuk: but you're paying the fixed rate, so you get the lower rate. So, yeah, I can Okay, if you're on a fixed rate, I can see that at the end of the year,
+Amber Fu: Mhm.
+David Loziuk: but if you're on a time of use rate for imports, then at the end of the year, the price of electricity should be cheap or in the winter time. I'm saying the end of the year.
+Amber Fu: Yes. So, so you uh
+David Loziuk: So, Oh, okay. I I I can see why there's a discrepancy there based on what rate structure they're
+Amber Fu: Yeah.
+David Loziuk: on.
+Amber Fu: Uh yes. Yes. So like for example like maybe I can give you one more example like uh if like some solar user in California if they export during the day at let's say 5 cent but consume at night is 3 cent. So every uh kilowatt create a gap. So and over the months the gap will builds up.
+David Loziuk: Okay.
+Amber Fu: Yes. So the
+David Loziuk: But but you're not but but you don't see that true gap till the end of the year is what you're saying.
+ 
+ 
+01:42:12
+ 
+Amber Fu: reason
+David Loziuk: Even though they're billing
+Amber Fu: yes you the yes the customer only can see it uh end of
+David Loziuk: monthly
+Amber Fu: year. So we are trying to build a model then they can attract every month.
+David Loziuk: I just surprised that if they're they're reconciling every month too that there's that much of a discrepancy at the end of the year. But it maybe they're just approximating it during the month. I mean they they should they should know what you're char every month.
+Amber Fu: Yeah.
+David Loziuk: They should know what you're paying for the import and the export and it should be build then. So I guess I would have to see one of these true up bills and to understand why there's a if there is a big discrepancy at the end of the year why the utilities claiming
+Amber Fu: Uh yeah. Yeah. Well,
+David Loziuk: that
+Amber Fu: the uh Yeah. So, so you know the different is that that the monthly bill is not calculated. So, using the final set uh the the key different is like they're using the final set rule.
+ 
+ 
+01:43:17
+ 
+David Loziuk: okay just the the annual final settlement
+Amber Fu: Yeah. So yeah, so the monthly billing in California is more like a how do you say the simplified calculation. It's just track the energy credit but it doesn't fully apply all uh val violation rules. So so the the full valuation including how export uh is priced and how credit are settled is only applied end of year. This is California.
+David Loziuk: Okay.
+Amber Fu: Yes. So the all the solar users are suffer
+David Loziuk: Yeah. I mean,
+Amber Fu: here.
+David Loziuk: if you get a big bill at the end of the year, I can see that as being a problem. Um, I mean, unexpected. Oh, okay. So, yeah, I'm not that I'm not familiar with this true up, but I understand what you're saying the issue is with this. So, you're trying to you're trying to show this ahead of time so that the user be prepared. They might get a $1,000 additional bill at the end of the year.
+Amber Fu: Yes.
+ 
+ 
+01:44:33
+ 
+David Loziuk: Is that the point of
+Amber Fu: So we just try to Yeah.
+David Loziuk: what?
+Amber Fu: We just try to help user to track their uh monthly uh I mean the true up uh for the monthly and also uh just make sure they don't have any surprise bill.
+David Loziuk: Okay.
+Amber Fu: Yeah. So, you know what? That's about it. That's that's all our app. And uh like based on what you're seeing today, uh do you think the product like this makes sense in the current market?
+David Loziuk: Yeah. I mean, if if it's going to save a user money through behavior changes or system changes, I I I wouldn't I mean, I like I said, I I've done similar I didn't build an app, but I've made these recommendations to residential customers in Illinois in Kameed District and they're they're on a a time of use rate for solar with the solar system and yeah, they they ch they changed their behaviors around the household in terms of you know, shifting loads and so yeah, to formal ize it like this would I mean I think you would attract more people to uh to to to save money on their energy bills.
+ 
+ 
+01:45:50
+ 
+David Loziuk: Um I didn't build an app.
+Amber Fu: Mhm.
+David Loziuk: I just made the recommendations uh you know verbally to to customers. But yeah,
+Amber Fu: Oh,
+David Loziuk: if if they had con reminders um of where they can save money around the house
+Amber Fu: she
+David Loziuk: and I don't see why they wouldn't take take advantage. Um yeah. No, it it seems like a good tool to have.
+Amber Fu: got you. And and like have you see anything in the market right now like you know to explain energy bill at this level of
+David Loziuk: No,
+Amber Fu: detail.
+David Loziuk: I mean the utilities come up with their own I mean you have your account with them and I think they try to make some basic recommendations in terms of saving energy.
+Amber Fu: Uh
+David Loziuk: uh but not on like the scale that I mean you're trying to do it on like a time of use scale where you know
+Amber Fu: yeah.
+David Loziuk: during these hours um or or or I mean you're trying to interpret their data their usage and you know make the recommendations based on that.
+ 
+ 
+01:46:48
+ 
+David Loziuk: I I haven't seen the utilities do that. They just I think they just make general recommendations as you know turn turn off your air conditioning during the day. um where or you yeah I guess you guys are just taking it to the next level of uh detail in terms of analysis of the the data that's being provided from these
+Amber Fu: Mhm. Mhm. Got you.
+David Loziuk: devices
+Amber Fu: like I I like we was really wondering to know like cuz we we either don't see any like app like this like ours. So uh I always have a always wondering like if something like this doesn't really exist in the market today like why do you think that is because I I just don't want to have any you know gap here.
+David Loziuk: Yeah, I mean the NEM 3.0 when that came into effect 2023. So yeah, I guess it's three years old at this point.
+Amber Fu: I
+David Loziuk: But yeah, it's it's the utility came out the not the utility,
+Amber Fu: know.
+David Loziuk: the public utility commission, they came out with their avoided cost calculated, which it sounds like it's similar to what you guys have.
+ 
+ 
+01:47:59
+ 
+David Loziuk: Um yeah, I don't know why other private uh enterprises haven't tried building something like this too if
+Amber Fu: Mhm.
+David Loziuk: you're saying it doesn't exist cuz Yeah, it just sounds like it became a lot more complicated with the 3.0 to calculate your
+Amber Fu: Mhm.
+David Loziuk: savings. I mean, 2.0 you know, was easy. It was just fixed price whether you're importing or exporting, but now it's it, you know, your imports can be on different,
+Amber Fu: Mhm.
+David Loziuk: you know, fixed or the time of use and your exports are on the time of use. So, yeah, it's just much more complicated now. And I guess I mean, in terms of calculating the savings and you know, and if the trueup is really showing huge discrepancies at the end of the year, then I mean that's the reason why. Um, so yeah, I don't know. I mean, it's been around for 3 years, 3.0. So I don't know why in 3 years other people haven't come up with similar applications, but it it seems like it it's useful because of the complexity
+ 
+ 
+01:48:54
+ 
+Amber Fu: Mhm.
+David Loziuk: now.
+Amber Fu: Got you. Got you. Cuz like you know like well that's like actually really helpful pers uh perspective but like what we're trying to build is like slightly different from just recommendation. I mean um so instead just a s suggest way to save energy we're try to to like reconstruct how the bill is calculated and also use that explanation like what actually driving the cost. So uh you know less about like a general advice and more about like why your bill look that way it does and what will happen next.
+David Loziuk: Okay. Yeah. So, it's it's educational for the for the homeowner,
+Amber Fu: Yeah.
+David Loziuk: too.
+Amber Fu: And like Yeah.
+David Loziuk: I
+Amber Fu: And like in the future we would really try to do like you know the like a household energy CFO you know
+David Loziuk: see
+Amber Fu: like yes like we help the user
+David Loziuk: CFS.
+Amber Fu: to you know avoid surprise bill and help help user to calculate uh like uh like the bill and we more like a third party to help them to understand the utility or like you know cuz we talked uh some like export from the utility side and the utility is calculated wrong sometime.
+ 
+ 
+01:50:30
+ 
+David Loziuk: Oh, the Yeah, they make mistakes too sometimes.
+Amber Fu: Yes. Yes. So this is why we exit exist.
+David Loziuk: Okay.
+Amber Fu: Yeah.
+David Loziuk: Okay. Yeah. No,
+Amber Fu: And um Okay.
+David Loziuk: it seems good.
+Amber Fu: Yeah, you know, like because I mean I I think like right now at this uh at this time I especially in the California um the the bill like electricity bill will be more competitive for the for the I mean residential side. So we are just try to let them you know be really uh like convenience and simplify and also so you know uh we try to do something like energy turbo tax.
+David Loziuk: Okay. Yeah. Energy accounting or Yeah. Gotcha.
+Amber Fu: Yes. Yes. Exactly.
+David Loziuk: Okay. Yeah.
+Amber Fu: Sure.
+David Loziuk: No, it it seems
+Amber Fu: And sure. So I mean thanks David and like uh your information is really valuable
+David Loziuk: fine.
+Amber Fu: and uh like about your persp uh perspective is that your like you know work across the you know the both system control and reward uh operation.
+ 
+ 
+01:51:56
+ 
+Amber Fu: So uh I mean a lot of what we are trying to build uh sit exactly at uh at that intersection. So I mean between how system actually behave and how outcome are present to the homeowner. So we love to have someone like you help us make sure we are not you know oversimplified reality. So if that if that is resonate we really enjoy continue this as a ongoing collaboration. If you're
+David Loziuk: Yeah, I can if like as a consultant or yeah,
+Amber Fu: open,
+David Loziuk: if you have questions or any type of um yeah, I can provide my industry uh expertise as you guys are developing this app further and give you yeah my opinions in terms of how things should be calculated. Uh yeah, I'm available for that. Is that assume that's what you had in mind, right? Just as a
+Amber Fu: sure. Yes. Yes.
+David Loziuk: Okay.
+Amber Fu: Sure. And thank you so much. And actually, do you have my email or
+David Loziuk: Uh I I was communicating with somebody named Jessica.
+ 
+ 
+01:53:06
+ 
+Amber Fu: Oh,
+David Loziuk: Um
+Amber Fu: yes. It's our another coworker. Yes. And if you don't mind, you can uh do you mind uh leave the your email in the chat box?
+David Loziuk: Just leave it. Okay.
+Amber Fu: Yeah.
+David Loziuk: Um,
+Amber Fu: And we can I can email you anytime.
+David Loziuk: okay. Let me figure out how to chat box here.
+Amber Fu: Uh
+David Loziuk: I don't Where's the chat box?
+Amber Fu: it's under it's right do you see the icon the
+David Loziuk: Sorry
+Amber Fu: leave call is right side the chat with everyone do you see the icon there
+David Loziuk: on the bottom or all they have is like a smiley face for emojis. That's not it.
+Amber Fu: uh right side any okay so smiling is right side is a turn on the the caption and did you see the leave call the icon the
+David Loziuk: Yeah, I have the leave car. Yeah. Yeah,
+Amber Fu: leave the right side the right
+David Loziuk: I have that. Where is it? Well,
+Amber Fu: next to the leave call there have a chat with everyone did you see
+David Loziuk: no. Maybe I'm not in there. Uh, sorry.
+Amber Fu: It's okay.
+David Loziuk: Do you can you send me a chat or can you
+Amber Fu: It's okay. You know what? We uh Yes,
+David Loziuk: send
+Amber Fu: it's uh right right behind the leave call, but it's okay. You know what? I can uh steal um I can let the Jessica uh send you a message.
+David Loziuk: Oh,
+Amber Fu: Oh, yes.
+David Loziuk: I got Is it in?
+Amber Fu: Uh did you see it? Yes,
+David Loziuk: Yeah.
+Amber Fu: it's our email.
+David Loziuk: Is this you?
+Amber Fu: Yes. Yeah,
+David Loziuk: Info at Wait,
+Amber Fu: it's our email. Our
+David Loziuk: it just disappeared though.
+Amber Fu: pastina.
+David Loziuk: Ombre Pasadena, right?
+Amber Fu: Yes.
+David Loziuk: Pasadena. Just one minute. One minute. Okay. Yeah, I have that email.
+ 
+ 
+Transcription ended after 01:56:01
+
+This editable transcript was computer generated and might contain errors. People can also change the text after it was created.

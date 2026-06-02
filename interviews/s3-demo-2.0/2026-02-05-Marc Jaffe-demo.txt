@@ -1,0 +1,818 @@
+Feb 4, 2026
+Casally Demo 2.0 Interviews (Marc Jaffe) - Transcript
+00:00:00
+ 
+Amber Fu: for taking your time today. Yes, nice to see you again. So, okay. So, uh so Mark, before we jump in, I just want to, you know, just double check something. I think I heard from you last time.
+Marc Jaffe: Well, you you heard from me related to um um you wanted to see some of the billing I had related
+Amber Fu: Uh
+Marc Jaffe: to utilities, correct? My utility usage.
+Amber Fu: yes. So I think last time where when when when we like you we we have a like a first conversation I think you're actually doing everything right already like you know the solar EV of peak charging smart home
+Marc Jaffe: Yes.
+Amber Fu: stuff like that. Yeah.
+Marc Jaffe: Yes.
+Amber Fu: And you I think you even have a negative bill right?
+Marc Jaffe: What what type of bill?
+Amber Fu: Uh the negative bill like you know uh you I think you have like really low bill.
+Marc Jaffe: It's very low because my home's solar. So I um have uh you know time of use solar uh
+ 
+ 
+00:00:58
+ 
+Amber Fu: Mhm.
+Marc Jaffe: uh plan. I'm on the EV plan and my my bill is relatively low. It's, you know,
+Amber Fu: Mhm.
+Marc Jaffe: it's it's it's gas and electric. Gas is the same.
+Amber Fu: Mhm.
+Marc Jaffe: There's really no, it just is what it is, basically. It's a flat rate.
+Amber Fu: Got you.
+Marc Jaffe: It's flat rate. Uh, so it's the electricity that I really focus on.
+Amber Fu: Got you. Uh-huh.
+Marc Jaffe: And so it's it's it's uh um, you know, like zero to maybe $80. We're in a transition because I bought a second electric car recently.
+Amber Fu: Okay.
+Marc Jaffe: It's only been a few months, so I really don't know how that's going to shake out.
+Amber Fu: Okay.
+Marc Jaffe: I actually spoke with my uh solar panel installer and got a quote for putting a few more panels in. So, I may end up going down that road depending because it's, you know, it it's it's best to wait for a little bit because now it's the winter time and so it's less
+ 
+ 
+00:01:54
+ 
+Amber Fu: Yeah.
+Marc Jaffe: sun. Uh, and so maybe it evens out if I look at So I'm thinking about waiting for,
+Amber Fu: Yeah.
+Marc Jaffe: you know, a number of more months before I pull the trigger about adding new or not because ultimately I'd like
+Amber Fu: Got you. Got you.
+Marc Jaffe: to have a zero bill.
+Amber Fu: Got you. Well, that's perfect. But I think uh last time you mentioned that uh uh it's not so I think you kind of frustrating about like the the 12-page bill, right?
+Marc Jaffe: It's It's impossible to read.
+Amber Fu: Like you can't really Okay.
+Marc Jaffe: Completely impossible.
+Amber Fu: So you can't really explain like or like used to
+Marc Jaffe: No, that's why I can't really make this determination about giving extra panels or not
+Amber Fu: makeization. Okay. Yes.
+Marc Jaffe: because it's just I mean I just I don't know.
+Amber Fu: Gotcha.
+Marc Jaffe: It's just so unclear about how credits are applied and this and that.
+Amber Fu: Uh,
+Marc Jaffe: It just it doesn't make sense to
+ 
+ 
+00:02:45
+ 
+Amber Fu: got you.
+Marc Jaffe: me.
+Amber Fu: Got you. So, I summarize your situation like you don't need to help saving more, but you need to help understand like the financial truth of your system,
+Marc Jaffe: Yes.
+Amber Fu: right?
+Marc Jaffe: And then no. Is there anything else I can do better? For example,
+Amber Fu: Okay.
+Marc Jaffe: does it make sense to add more electric uh solar panels to what I have now?
+Amber Fu: Got you. Well, so this is exactly why we build this app for someone like you. You know, isn't an energy app. It's like a real-time solar self uh consu page and like uh plus like a onepage bill. Uh we we can give you like really clearly explanation. So let me send you link through the meeting. Uh give me a second.
+Marc Jaffe: I do chat.
+Amber Fu: Yeah, through the chat. Give me a second.
+Marc Jaffe: I see
+Amber Fu: Okay,
+Marc Jaffe: it.
+Amber Fu: so this is a fake moink. You just need to click on and you don't need to login or anything.
+ 
+ 
+00:03:49
+ 
+Amber Fu: It's just, you know,
+Marc Jaffe: I see it.
+Amber Fu: we Okay.
+Marc Jaffe: You want me to share my I don't need to share my screen or you want me to share my screen.
+Amber Fu: Yeah, that would be great. Thank you. And before we get started, do you mind uh record this this call?
+Marc Jaffe: Yes, feel
+Amber Fu: Okay, thank you so
+Marc Jaffe: free.
+Amber Fu: much. Okay. So, I will give you like couple minute. You can just click wrong a little bit.
+Marc Jaffe: Okay. Is this is this working for you by the way?
+Amber Fu: Yes. Yes, I can see your screen.
+Marc Jaffe: Okay. Okay.
+Amber Fu: Yeah,
+Marc Jaffe: So,
+Amber Fu: you can.
+Marc Jaffe: um monthly
+Amber Fu: Mhm.
+Marc Jaffe: budget. Okay. So, it's
+Amber Fu: You can you can click uh you can click around a little bit and I we can you know after
+Marc Jaffe: g
+Amber Fu: it we can go through together.
+Marc Jaffe: Okay. So, I'm kind of want to start at the top, right?
+ 
+ 
+00:04:59
+ 
+Amber Fu: Uhhuh. Yeah.
+Marc Jaffe: Uh, and it says, uh, my monthly budget, right? So, what is that? What is that based on?
+Amber Fu: Yes.
+Marc Jaffe: So, I'm going to hit that.
+Amber Fu: Uh, you can click on the 17 uh Yeah,
+Marc Jaffe: There it is. Okay.
+Amber Fu: that Yeah.
+Marc Jaffe: So, set a monthly budget limit. Basically,
+Amber Fu: Uh-huh.
+Marc Jaffe: last three months bills and your rate plan. So, I'm looking at my bill.
+Amber Fu: Yes.
+Marc Jaffe: I assume I I enter what my rates are, you know, per kilowatt hour or whatever, time of day use, um, you know, whatever it allows me to in to to input. That way, you know, the more data I put in,
+Amber Fu: Mhm.
+Marc Jaffe: the more accurate it's going to be, right? So, then I'm going to hit save.
+Amber Fu: Yeah.
+Marc Jaffe: And so, this is going to be like my target bill, right?
+Amber Fu: Yes.
+Marc Jaffe: Then I do need to know,
+Amber Fu: Yes.
+Marc Jaffe: is this electric only?
+ 
+ 
+00:05:53
+ 
+Marc Jaffe: Do I leave the gas out? Right?
+Amber Fu: Uhhuh.
+Marc Jaffe: So that's a component because uh where I am it's San Diego gas and electric. So is gas included in this or do I leave all that out which I can do that I need to
+Amber Fu: Mhm. Uh okay.
+Marc Jaffe: know.
+Amber Fu: So the gas will be uh not
+Marc Jaffe: Right.
+Amber Fu: included.
+Marc Jaffe: So we want to make sure that when I look at my bill that I'm only putting in the information related to my electric meter and not my gas meter.
+Amber Fu: Got you. Yes.
+Marc Jaffe: And then of course I have two functions,
+Amber Fu: Yes.
+Marc Jaffe: right? I have my my set fee which is $24 a month which just
+Amber Fu: Uh
+Marc Jaffe: started I think in October right just a few months ago.
+Amber Fu: yeah.
+Marc Jaffe: uh and um and then what my rate would be per kilowatt hour and then I don't know if I would put in the time of use because my kilowatt hour usage
+ 
+ 
+00:06:39
+ 
+Amber Fu: Yeah.
+Marc Jaffe: varies right uh three times a day right between um um peak off- peak and super off- peak. So those my three tiers of service every 24 hours, right? So that would have to be included,
+Amber Fu: Yeah.
+Marc Jaffe: right? Okay.
+Amber Fu: And
+Marc Jaffe: And then um see automatic manual. So this is going to settings, right?
+Amber Fu: Yes. Go to your either like Tesla or like another your brand either.
+Marc Jaffe: Okay.
+Amber Fu: What?
+Marc Jaffe: So this is this would be now this is this is a picture of my Tesla app.
+Amber Fu: Yeah.
+Marc Jaffe: Right.
+Amber Fu: Oh, yeah.
+Marc Jaffe: Right. And so um um I don't know what it wants me to do
+Amber Fu: Uh-huh.
+Marc Jaffe: here or if it's in the data because you know through my Tesla
+Amber Fu: Mhm.
+Marc Jaffe: app what am I changing? Well I'm changing the amperage right that I'm charging which going to be I would put it like
+Amber Fu: Mhm.
+Marc Jaffe: at 32.
+Amber Fu: Yeah.
+ 
+ 
+00:07:48
+ 
+Marc Jaffe: Uh, and then what is my charge limit? Set that at like 80%. Right. And that's that's about it with my with my app in terms of energy charging because I
+Amber Fu: Mhm.
+Marc Jaffe: know I don't use my car app for
+Amber Fu: Mhm.
+Marc Jaffe: scheduling charging.
+Amber Fu: Mhm.
+Marc Jaffe: I'm using my level two charger wall charger to schedule charging. So,
+Amber Fu: Mhm.
+Marc Jaffe: the only thing I'm using this app for is setting the limit to the charge, which would be like 80% and how fast it's going to accept
+Amber Fu: Mhm.
+Marc Jaffe: power, which is based on my circuit,
+Amber Fu: Mhm.
+Marc Jaffe: right? So, I have a 40 amp circuit, so I'm going to set it like at 32 uh for charging.
+Amber Fu: Mhm.
+Marc Jaffe: So, those are the only two things I'm going to do in the app.
+Amber Fu: Okay. So uh for this we can go back.
+Marc Jaffe: So,
+Amber Fu: Yeah.
+Marc Jaffe: I'd love for it to also say um my EV charger,
+ 
+ 
+00:08:42
+ 
+Amber Fu: Uhhuh.
+Marc Jaffe: right? If I could my my wall charger because that's what I've scheduled in terms of when it charges,
+Amber Fu: Uhhuh.
+Marc Jaffe: right? You understand? I just plug it in whenever,
+Amber Fu: Gotcha.
+Marc Jaffe: but it only charges off peak hours unless I manually do it otherwise.
+Amber Fu: Gotcha. Gotcha. So for this card, it's more like a actionable moment like we like and as as you said uh the top is like what's happening and the middle like what to do and the bottom is is like exactly when the time window. So this is basically like the reason action and
+Marc Jaffe: Okay. So, this is what I'm charging.
+Amber Fu: time.
+Marc Jaffe: This is what kind of what's happening. And then this is the like the times that I've set. Is that what you're saying?
+Amber Fu: Yeah.
+Marc Jaffe: And and could I So,
+Amber Fu: Yeah.
+Marc Jaffe: this is based But could I set this up to to work with my um wall charger, my EV wall charger.
+ 
+ 
+00:09:45
+ 
+Amber Fu: Yes, you care.
+Marc Jaffe: So,
+Amber Fu: You do. You
+Marc Jaffe: I would have the same parameters and it would say EV charger.
+Amber Fu: care.
+Marc Jaffe: Um, uh, these are the time of day. This is the time of day when it's active. And then maybe, um, here it would be, I don't know, maybe the rate or something like that. I'm not sure. Or or actually,
+Amber Fu: Okay.
+Marc Jaffe: I bring the rain in up here maybe. Right. I forgot where I'm rate in somewhere, right? But I'm adding it. So, I would add my Tesla. I would add my other EV. I would add my um um wall charger. Now,
+Amber Fu: Mhm.
+Marc Jaffe: what about all my other utilities?
+Amber Fu: Mhm.
+Marc Jaffe: How how do I do anything with those? Like my dishwasher, the washing machine,
+Amber Fu: Uh
+Marc Jaffe: my my refrigerator. Those are all big counterhungry
+Amber Fu: um those I I right now uh
+ 
+ 
+00:10:29
+ 
+Marc Jaffe: devices.
+Amber Fu: it's can't we can't but later on we we can
+Marc Jaffe: Yeah. Because Yeah. So, for example,
+Amber Fu: Yeah.
+Marc Jaffe: you know, I mean, the fridge goes on when it goes on, right?
+Amber Fu: Yes.
+Marc Jaffe: I really don't control that other than I can how much power it uses, right?
+Amber Fu: Yeah.
+Marc Jaffe: The dishwasher, it does actually have a little programming function, but it's usually a manual thing when I turn it on.
+Amber Fu: Mhm.
+Marc Jaffe: And same as washing my washing machine, right? I I try to do it during non- peak hours, you know?
+Amber Fu: Yes. So, uh well, let me explain a little bit. So, so for this those like kind of plan or like a suggestion card is more like you know related for uh to the monthly bill budget. So you know uh think about like the monthly bill budget as you like a personal like oh this still feel okay line. So different people they have a different uh tolerance like some people are okay fine this like you know $200 bill or another will feeling stressful once it's go above like a 80 or 50 something.
+ 
+ 
+00:11:42
+ 
+Amber Fu: So once you set that boundary everything else in this app will become uh relative to you like a same event can mean very different things to different people like for example like a $12 peak hour charging mistake.
+Marc Jaffe: Yeah.
+Amber Fu: If your budget is one or $80 that 12 really matters but
+Marc Jaffe: Yeah.
+Amber Fu: if your budget is like a $200 is may not be you know that matter.
+Marc Jaffe: As much of an impact. Now,
+Amber Fu: So yes,
+Marc Jaffe: this bar here, is this real time or not? Okay.
+Amber Fu: it's real time.
+Marc Jaffe: So, question and I know I know I brought this up last time. Okay. So,
+Amber Fu: Uh-huh.
+Marc Jaffe: my reader runs backwards when I'm producing more power than I'm using.
+Amber Fu: Okay.
+Marc Jaffe: Is that incorporated in here? Okay. Because that's what I want to know.
+Amber Fu: Yes.
+Marc Jaffe: If I'm looking at real time, I want to make sure it's coming off my meter and that it's telling me,
+Amber Fu: Oh, yes.
+ 
+ 
+00:12:38
+ 
+Amber Fu: That's a real high
+Marc Jaffe: you know, you're using power or you're not using power.
+Amber Fu: Uhhuh.
+Marc Jaffe: You're actually sending power back.
+Amber Fu: Yes.
+Marc Jaffe: So, like it would go green here,
+Amber Fu: Yes.
+Marc Jaffe: but maybe it would go red here or something like that. You know what I mean?
+Amber Fu: Okay.
+Marc Jaffe: just so that I'm sending power back to the utility.
+Amber Fu: Okay.
+Marc Jaffe: I guess that's not necessarily crucial, right? Uh but it it'd be interesting to know.
+Amber Fu: Uh-huh.
+Marc Jaffe: But again, yeah, as long as I know that it's real time and incorporating uh the offset for my solar during the daytime,
+Amber Fu: Uhhuh.
+Marc Jaffe: right? Because at night, I'm not producing any power, but I am during the day.
+Amber Fu: Uhhuh.
+Marc Jaffe: And that may lead me to um you know change my habits during the day where I'm kind of like it's noon. I'm producing all this power. Now's a good time to run a washing machine.
+Amber Fu: Yes, we definitely will adding that uh that part.
+ 
+ 
+00:13:33
+ 
+Amber Fu: Uh I think that will be re really helpful tips. for us.
+Marc Jaffe: Right.
+Amber Fu: Yes.
+Marc Jaffe: And then this is okay. So this is like a timebased, right? Every what every
+Amber Fu: Yeah. The use the usage like Yeah.
+Marc Jaffe: like maybe 30 minutes or something like
+Amber Fu: It's like the like the you know Yeah.
+Marc Jaffe: that.
+Amber Fu: So yes. So this data is from the utility side and uh we just show show the user to let them know like oh when is the cheaper timing or when
+Marc Jaffe: Okay. So, is this are these bars actually usage right here?
+Amber Fu: is like the expensive.
+Marc Jaffe: These green bars?
+Amber Fu: Uh yes.
+Marc Jaffe: Okay. Because it would be really cool if you like did like uh 12 a.m.
+Amber Fu: Yes.
+Marc Jaffe: to 6:00 a.m. if that was if that whole bar area here was colored for super
+Amber Fu: Mhm. Mhm.
+Marc Jaffe: off peak. Right.
+Amber Fu: Okay.
+Marc Jaffe: And then from from 6:00 a.m. to 400 pm,
+ 
+ 
+00:14:37
+ 
+Amber Fu: Mhm.
+Marc Jaffe: this whole bar up here vertically.
+Amber Fu: Mhm.
+Marc Jaffe: Okay, that bar is a different color shaded to show me off
+Amber Fu: Mhm. Okay.
+Marc Jaffe: peak.
+Amber Fu: Uh-huh. Got
+Marc Jaffe: And then from 400 pm to 900 p.m.
+Amber Fu: you.
+Marc Jaffe: that that this they would also be shaded vertically here in that that time window to show me on peak hours.
+Amber Fu: Oh, okay.
+Marc Jaffe: And then at 900 p.m.
+Amber Fu: Got you.
+Marc Jaffe: to midnight I'm now on off peak. Right?
+Amber Fu: Mhm.
+Marc Jaffe: So I have all four windows. Right? It's three rates,
+Amber Fu: Mhm.
+Marc Jaffe: four windows within a 24h hour period.
+Amber Fu: Mhm. Mhm.
+Marc Jaffe: That would be great if they were shaded because then I look at these bars
+Amber Fu: Mhm.
+Marc Jaffe: realistically and say, "Oh, yeah. See, I'm this bar right here. You know,
+Amber Fu: Mhm.
+Marc Jaffe: I don't want that bar so high in the window that's that's
+Amber Fu: Mhm.
+ 
+ 
+00:15:35
+ 
+Marc Jaffe: on peak hours." Visually would make it really easy to
+Amber Fu: Okay. Got you.
+Marc Jaffe: understand, right? If if these are shaded,
+Amber Fu: Mhm.
+Marc Jaffe: I mean, you can't see it. If this is shaded, uh, 12, you know, midnight to 6:00 a.m., 6:00 a.m. to 2 p uh to 400 pm,
+Amber Fu: Yeah.
+Marc Jaffe: 400 pm to um 900 p.m., and then 9:00 p.m. to midnight. And I hate to do this to you, I'm going to throw you a little curveball here.
+Amber Fu: Uhhuh.
+Marc Jaffe: These windows change on the weekends and they change on the
+Amber Fu: Okay.
+Marc Jaffe: holidays, too. So, um,
+Amber Fu: Okay.
+Marc Jaffe: so for example, on the weekends, my super off peak goes from not 12 a.m.
+Amber Fu: Mhm.
+Marc Jaffe: to 6:00 a.m., it goes from 12:00 a.m. to 2:00 p.m.
+Amber Fu: Mhm.
+Marc Jaffe: This really large window of super off peak on Saturday and Sunday.
+Amber Fu: Mhm.
+Marc Jaffe: Same with holidays. So it it it'd be,
+Amber Fu: Mhm.
+ 
+ 
+00:16:36
+ 
+Marc Jaffe: you know, maybe if you know, if you want to make this chart super useful, maybe you could click on it and it would go back and forth between weekdays and weekends.
+Amber Fu: Oh, okay. Well,
+Marc Jaffe: Okay?
+Amber Fu: that's really
+Marc Jaffe: Because those that's really significant because if you think about it,
+Amber Fu: really
+Marc Jaffe: super off peak on the weekends between midnight and 2 p.m. is a huge window. That's where I'm going to do my laundry. You know what I mean?
+Amber Fu: Yeah. Yeah. Yeah. Definitely. Oh, okay.
+Marc Jaffe: So,
+Amber Fu: Well,
+Marc Jaffe: I'm just saying is that it's not seven days a week,
+Amber Fu: that's Uhhuh.
+Marc Jaffe: unfortunately. Uh um in my garage,
+Amber Fu: Umh.
+Marc Jaffe: I have I made a chart just like this that shows those windows and I have two charts, weekdays,
+Amber Fu: Mhm.
+Marc Jaffe: weekends,
+Amber Fu: Got you.
+Marc Jaffe: just as a reminder to me when the super off-
+Amber Fu: Got you.
+Marc Jaffe: peak, off- peak, and on peak uh times are.
+ 
+ 
+00:17:25
+ 
+Amber Fu: Got you. So, so this is kind of like, you know, uh maybe like an actionable moment, right? So like,
+Marc Jaffe: Yeah.
+Amber Fu: okay,
+Marc Jaffe: See, because you have it red right here, which is great. That's one peak,
+Amber Fu: got
+Marc Jaffe: right? But again, it'd be great if I had something shaded behind it so I know the exact times because right here,
+Amber Fu: you.
+Marc Jaffe: I'd have to guess.
+Amber Fu: Got you.
+Marc Jaffe: Well, I can't really tell what that bar is, you know, but you know,
+Amber Fu: Mhm.
+Marc Jaffe: if that bar started right at 4 PM, not that bar,
+Amber Fu: Mhm.
+Marc Jaffe: but shading and that bar was in that shading area, it would just be easier to read at a
+Amber Fu: Gotcha.
+Marc Jaffe: glance.
+Amber Fu: Gotcha. So, so is it this is isn't about like a show more data. It's about like helping you to answer.
+Marc Jaffe: It's way presented so I can really kind of do a quick look and understand it.
+Amber Fu: Yeah.
+ 
+ 
+00:18:14
+ 
+Amber Fu: Got you. Got you. Well, that's really really helpful tips. Thank you so much.
+Marc Jaffe: Every time you talk to me, I make it more complicated. I
+Amber Fu: Oh,
+Marc Jaffe: apologize.
+Amber Fu: no. Okay. Well, but Okay. myself. So, well, thank you. And this is this is like cuz like we show uh a few users well they they what do they look at the usage this part? Well, they just think like kind of like confused,
+Marc Jaffe: Yeah,
+Amber Fu: you know.
+Marc Jaffe: but if you put it within the the shaded background, it wouldn't be as confusing, right?
+Amber Fu: Gotcha. Yeah,
+Marc Jaffe: And because I would want to look at it and I would say,
+Amber Fu: that's that's helpful.
+Marc Jaffe: I want to see my tallest bars, right, during the shaded area where it says super off peak. Then I know I'm doing it
+Amber Fu: Mhm. Yeah,
+Marc Jaffe: right.
+Amber Fu: exactly. Okay. Got you.
+ 
+ 
+00:19:09
+ 
+Amber Fu: Well, we we will we will figure out that part. We we I think probably we will change it like after this meeting to see
+Marc Jaffe: Yeah. I mean maybe like up here it would say weekdays,
+Amber Fu: what uh
+Marc Jaffe: weekends. I mean something that
+Amber Fu: Okay.
+Marc Jaffe: simple.
+Amber Fu: You know what? After we change that, do you mind I can like, you know, send you a link. You can re view more like review to see like if this is really Okay,
+Marc Jaffe: Sure. Be happy like like what format looks best for me.
+Amber Fu: thank you. Perfect.
+Marc Jaffe: Yeah, that'd be great. Yeah,
+Amber Fu: Okay, thanks.
+Marc Jaffe: sure.
+Amber Fu: Okay, so uh do you mind go like a row row up a little bit? Yeah. Uh yes. Did you see like the uh uh maybe more up? Yeah. So did you see like the more detail a
+Marc Jaffe: The detail for what?
+Amber Fu: more detail they have at the bottom uh button shows yeah you
+ 
+ 
+00:20:03
+ 
+Marc Jaffe: Yes, right here.
+Amber Fu: can click that yes so those are kind of like you know lead you to the event page. So every suggestion card we will lead people to event page. They can you know uh figure out like why this happened like
+Marc Jaffe: Now,
+Amber Fu: why uh
+Marc Jaffe: is that linked to the utility company?
+Amber Fu: yes
+Marc Jaffe: Okay, because like if there's an outage, I'll get a notice on my phone or whatever,
+Amber Fu: yeah.
+Marc Jaffe: right? Or email. This is linked to that. So, it's the same info, right? Which can say like it's only in your local area or what have you,
+Amber Fu: Uhhuh. Yes.
+Marc Jaffe: right?
+Amber Fu: And uh do you mind we can click on go back? Yeah. So this page is like event page.
+Marc Jaffe: This is really nice.
+Amber Fu: So uh yeah yeah yeah
+Marc Jaffe: It kind of like picks up triggers, right? As you know, charging a EV at 3 in the afternoon,
+ 
+ 
+00:20:56
+ 
+Amber Fu: like yeah
+Marc Jaffe: not so good, right? Right.
+Amber Fu: yes like this is kind of like a yeah this is kind of like a ledger event you
+Marc Jaffe: So, I like that. Right.
+Amber Fu: know just let people know like oh what's a euro activity and what happening like how impact something like
+Marc Jaffe: Right. And so Right. Exactly.
+Amber Fu: Yeah.
+Marc Jaffe: And maybe maybe even this exclamation point can show up elsewhere. So I said, you know, it's given me some warning somewhere. I should go to the warning page and see what's up.
+Amber Fu: Yes.
+Marc Jaffe: So I do like that, right? And so and you know the solar device breakdown is a great example for so for example I was talking
+Amber Fu: Mhm.
+Marc Jaffe: to the uh my the people who put in my solar system and occasionally they have issues
+Amber Fu: Mhm.
+Marc Jaffe: right and my they're supposed to watch it and and monitor
+Amber Fu: Yeah.
+Marc Jaffe: it but if I had an issue and they didn't get back to me right away I could go for a week without
+ 
+ 
+00:21:54
+ 
+Amber Fu: Yeah.
+Marc Jaffe: generating power and I wouldn't even know right and and and uh the pro
+Amber Fu: Mhm. Yeah. Exactly.
+Marc Jaffe: the the the the people who put in the the the solar said, "Well, we'll come out and fix it,
+Amber Fu: Um
+Marc Jaffe: but we're not going to pay your electric bill for the power that you lost out on." You know what I mean?
+Amber Fu: Yeah.
+Marc Jaffe: This would totally fix something like that because I'd get a warning that that there's a problem with my
+Amber Fu: Mhm.
+Marc Jaffe: electric system and not have to learn about it a week later and realize I've just lost all this energy producing that I could have that that that that I'll never be able to re recoup or recover. So, that's very cool.
+Amber Fu: Yes.
+Marc Jaffe: And of course, severe weather, you know, just kind of keep me apprised that, you know, in in in theory, you know, there could be some power
+Amber Fu: Yes.
+Marc Jaffe: disruption.
+Amber Fu: Yes. So this is kind of a you know uh when we detected uh some like really uh terrible weather like a storm or stuff like that we will definitely like warned the user before to let them prep uh
+ 
+ 
+00:22:54
+ 
+Marc Jaffe: Yeah,
+Amber Fu: prepare.
+Marc Jaffe: right.
+Amber Fu: Okay. So yeah.
+Marc Jaffe: That generator
+Amber Fu: So uh so yeah this is about like the event page and we can go to the saving. Okay. So the saving I want to spend some time on saving. So this is like this page is we change the most and uh so the saving you can see like at the top we uh sublit the two type. So the bill uh the saving and the bill. So the saving is more like our side. is like the cost risk we detected from the behavior and the timing and the bill
+Marc Jaffe: like an algorithm that does that.
+Amber Fu: is uh
+Marc Jaffe: Is that like an algorithm that's that's generating
+Amber Fu: what yeah so we we basically like
+Marc Jaffe: that?
+Amber Fu: we you know detected from like the from the user side like the solar EV charging and the the power wall and uh the bill is more like a utility side it's like what show on show up on your So, so you can see like the $56 that will be like kind of like actual uh cost exposure.
+ 
+ 
+00:24:09
+ 
+Amber Fu: So, it's kind of like a risk cost.
+Marc Jaffe: Right.
+Amber Fu: We detected that current uh current building period.
+Marc Jaffe: And what what triggered that? For example,
+Amber Fu: Uh okay. So, we can go uh uh go down a little bit. Yeah. So, the trigger down. So we break down like uh down here we break the risk ledger into category you see like a EV solar and power wall. So each row shows how many times happen in the building period and the total extra cost exposure from the category. So it's not a daily is a row up across the billing period. So for example so appear for time means like four events in this billing period and you can click click that. Yeah. You see like the they they have the the detail page is a letter.
+Marc Jaffe: and there we go.
+Amber Fu: So each
+Marc Jaffe: Say during peak hour. During peak hour.
+Amber Fu: Yeah.
+Marc Jaffe: So that that's what kind of the trigger was.
+ 
+ 
+00:25:05
+ 
+Amber Fu: Oh, the trigger.
+Marc Jaffe: The trigger was that it was charging during peak hours.
+Amber Fu: Well,
+Marc Jaffe: Is that what it was? At a higher kilowatt per hour rate than than normal.
+Amber Fu: yes. Yes, you can click actually you can click either. Yes, there have the more detail stuff like
+Marc Jaffe: Yes. While electricity prices were high, that's the stuff I want to be shamed about, right?
+Amber Fu: Oh
+Marc Jaffe: You know, likely I know why I did it. I had to for whatever reason. Someone's yelling at me.
+Amber Fu: yes.
+Marc Jaffe: I was, you know, whatever. But it's kind of cool to go into it and then reminded me that I that that I uh I slacked off a little bit and I was charging when I shouldn't have. So, I do like that. That's really cool.
+Amber Fu: Yeah. So we try to you know like Yeah.
+Marc Jaffe: the same page, right? Telling me what I what I did
+Amber Fu: Yeah.
+Marc Jaffe: wrong,
+ 
+ 
+00:25:49
+ 
+Amber Fu: And we also we have some advice, you know, we we have like what to do next.
+Marc Jaffe: right? Like, you know,
+Amber Fu: Yeah.
+Marc Jaffe: run charge during super off peak hours, you know, just, you know,
+Amber Fu: Yeah.
+Marc Jaffe: don't forget next time to ch to charge the car, right? And now you're making up for it. Don't forget,
+Amber Fu: Yes.
+Marc Jaffe: you know, so I like that.
+Amber Fu: And we can go back a little bit. Uh yeah. And we can type in the bill.
+Marc Jaffe: to the retro bar.
+Amber Fu: Did you see it up? Uh yeah.
+Marc Jaffe: So, this is getting real time data on my billing. Is that correct?
+Amber Fu: Yes.
+Marc Jaffe: From the utility.
+Amber Fu: Yes.
+Marc Jaffe: Okay. So,
+Amber Fu: Yeah.
+Marc Jaffe: there's the basic service charge. This is the delivery. Uh yeah,
+Amber Fu: Mhm.
+Marc Jaffe: there's going to be a lot of taxes and stuff, right? It's really
+Amber Fu: Mhm.
+ 
+ 
+00:26:42
+ 
+Marc Jaffe: cool.
+Amber Fu: And this is more like you know uh we're thinking this of like a checking receipt at the grocery store. So it's like a simply check checking whether few uh specific bail line item match what we actually detected from your solar EV or battery.
+Marc Jaffe: Yeah. Now, this one extrapolated from recent months,
+Amber Fu: Uhhuh.
+Marc Jaffe: but again,
+Amber Fu: Uhhuh.
+Marc Jaffe: remember that if I'm on solar, you know,
+Amber Fu: Mhm.
+Marc Jaffe: I'm going to have this, you know, uh there's a huge difference between winter and summer,
+Amber Fu: Mhm.
+Marc Jaffe: right? So, if you only go back a couple months in wintertime, well,
+Amber Fu: Mhm.
+Marc Jaffe: that's not accounting for the fact that I'm going to have, you know, a lot more sunshine during uh the the summer months. So just to keep that in mind in terms of how you calculate
+Amber Fu: Yeah.
+Marc Jaffe: that.
+Amber Fu: Got you. And the the top uh the the bottom is like uh is the like three main cost for the for the user like oh uh such like the EV charging during the pig
+ 
+ 
+00:27:50
+ 
+Marc Jaffe: Okay, so this is for example,
+Amber Fu: like
+Marc Jaffe: this is kind of telling me this is this is how it all added up, right?
+Amber Fu: Yes.
+Marc Jaffe: That your biggest issue here was EV charging during peak hours and that's what you need to
+Amber Fu: Yeah. Mhm.
+Marc Jaffe: address, you know, really first, you know, solar unavailable. Maybe that was because it was cloudy days or whatever.
+Amber Fu: Mhm.
+Marc Jaffe: Maybe I don't have control of that, you know. And then power wall. My neighbors just had one put in last week and um
+Amber Fu: Oh,
+Marc Jaffe: um and um uh you know the reason they did is that they're under
+Amber Fu: okay.
+Marc Jaffe: under a different protocol for um the the reimbursement for power going back to the to the grid. Okay. Uh they're under uh net energy metering level three.
+Amber Fu: Mhm.
+Marc Jaffe: I'm on two and it's just related to the date that I had my solar put in.
+Amber Fu: Mhm.
+Marc Jaffe: And so they had the power wall put in because of that because we're not getting as much
+ 
+ 
+00:28:44
+ 
+Amber Fu: Okay. Mhm.
+Marc Jaffe: back when they produce power.
+Amber Fu: Yeah.
+Marc Jaffe: This is something but I actually am looking at considering right now.
+Amber Fu: Mhm.
+Marc Jaffe: I don't know if it makes sense um economically, but it's something that I'm looking into.
+Amber Fu: Got you. So, but right now uh how how long you have a
+Marc Jaffe: I've had solar for I want to say four years.
+Amber Fu: solar?
+Marc Jaffe: I think
+Amber Fu: Oh, okay. So, I think you're in the like the EM2,
+Marc Jaffe: I'm an MEM2 and I'm grandfathered for 20
+Amber Fu: right?
+Marc Jaffe: years.
+Amber Fu: Mhm.
+Marc Jaffe: My neighbors just put theirs in last week. the runner any3. So, um anyway, so I am grandfathered in.
+Amber Fu: Mhm.
+Marc Jaffe: That's why the power wall may or may not make as much sense for my neighbors. It only made sense to get a power wall because their return on their power
+Amber Fu: Mhm.
+Marc Jaffe: generation is so minimal.
+Amber Fu: Mhm. Got you.
+ 
+ 
+00:29:45
+ 
+Amber Fu: Got you. So, um yeah. So, this is uh about it. So, this is like our whole app. Yeah.
+Marc Jaffe: Yeah.
+Amber Fu: And um what do you
+Marc Jaffe: Well,
+Amber Fu: think?
+Marc Jaffe: how much what's how much you going to charge for it?
+Amber Fu: I don't know yet.
+Marc Jaffe: You know, now Well, I mean,
+Amber Fu: I I tried to Yeah.
+Marc Jaffe: it's going to be based partly on what it costs you to do it,
+Amber Fu: Yeah.
+Marc Jaffe: right?
+Amber Fu: Exactly. But I I I feel like you know uh I try to well I ask some users like well some people say think that oh okay if you help me like save like $20 I will pay you know like $5.99 or $6.99 something like that or or some people think that oh if if this app can help me to stay the average or stay the below no surprise bill I'm willing to pay it. So I will so that's why I try to know like for you um at the what moment you think oh this app is worth to pay
+ 
+ 
+00:30:50
+ 
+Marc Jaffe: Right. Right. So again,
+Amber Fu: it.
+Marc Jaffe: you know, I've got my schedule so I know how to save money, right?
+Amber Fu: Yeah.
+Marc Jaffe: I'm got the the hours in my head and I have a system set up in my
+Amber Fu: Yeah.
+Marc Jaffe: househ so that I'm I'm being uh uh the most energy
+Amber Fu: Mhm.
+Marc Jaffe: efficient in general,
+Amber Fu: Mhm.
+Marc Jaffe: right?
+Amber Fu: Yeah.
+Marc Jaffe: This would be an added aspect of providing me a more data, making things more readable and able to see real time,
+Amber Fu: Mhm.
+Marc Jaffe: which I think will save me some money if I can see the real time meter because again, I'm not paying attention to how much sun is out in the middle of the day or not, right? Versus a cloudy day versus a sunny day, you know, they'll do laundry tomorrow,
+Amber Fu: Mhm.
+Marc Jaffe: you know, something like that.
+Amber Fu: Got
+Marc Jaffe: So um uh on the other hand I have so many subscriptions to things
+Amber Fu: here.
+Marc Jaffe: right in today's age in terms of the chaming channels and music service and blah blah blah adds up.
+ 
+ 
+00:31:47
+ 
+Marc Jaffe: So, you know, something like $20 a month would scare me, right?
+Amber Fu: Yeah.
+Marc Jaffe: Because that's that's a big chunk if you can compare to what I'm paying for other other other
+Amber Fu: Mhm.
+Marc Jaffe: services, right? But like $5 a month, you know? So, I mean, my my my electric vehicles manufacturer just hit me up today. these, you know,
+Amber Fu: Uh here.
+Marc Jaffe: I have um I can let go of the steering wheel and the car self-drives on the freeway like uh
+Amber Fu: M.
+Marc Jaffe: which is great. It's one of the reasons I bought the car and uh yet today or yesterday they sent me a notice.
+Amber Fu: Mhm.
+Marc Jaffe: Oh, we're going to start charging $50 a month for that. And I'm just like,
+Amber Fu: Oh
+Marc Jaffe: well, I'm not going to pay it, you know?
+Amber Fu: yeah.
+Marc Jaffe: And I'm mad because they gave me something and they just took it away. So, but that's just another example.
+Amber Fu: Yeah.
+Marc Jaffe: It's like I can just drive my car in the street and all of a sudden they want to pay $50 a
+ 
+ 
+00:32:42
+ 
+Amber Fu: Mhm.
+Marc Jaffe: month subscription service just to keep something that I already have.
+Amber Fu: That's so
+Marc Jaffe: So I'm just saying there's a lot of pressure because of all these subscriptions for everything.
+Amber Fu: Yeah.
+Marc Jaffe: So that's why coming in at at a reasonable price,
+Amber Fu: Uhhuh. Mhm.
+Marc Jaffe: I'm totally much more willing to jump onto something like this versus like $20 a month because these
+Amber Fu: Mhm.
+Marc Jaffe: subscriptions are adding up like crazy.
+Amber Fu: Definitely. Got you. So, so we're thinking maybe like, you know, five 5.99 or like $6.99, something like that.
+Marc Jaffe: that and you know again for that kind of rate uh um I jump
+Amber Fu: Uhhuh.
+Marc Jaffe: in and see you know you know if I like it and it looks like I'm saving money and things like that you
+Amber Fu: Uhhuh.
+Marc Jaffe: know uh I'm going to say well if it's saving me over $6 a month then worth
+Amber Fu: Yeah. Got you. And for this app, is there any uh more suggestion for us or like any anything you
+ 
+ 
+00:33:34
+ 
+Marc Jaffe: Well, I you know,
+Amber Fu: think still can?
+Marc Jaffe: we've been talking. I think I threw enough at you.
+Amber Fu: Yeah. But yeah,
+Marc Jaffe: Right.
+Amber Fu: because like but anything you can think about like maybe the steel can
+Marc Jaffe: Again, I think the real time aspect of it is is really to me
+Amber Fu: improve.
+Marc Jaffe: really kind of really good. The Let me see if I can go back. Oh, here we go. home, you know, this thing, looking at this bar, looking at this chart, that's the stuff that I kind of would really help because um looking at things real time to me would be the most helpful,
+Amber Fu: Mhm.
+Marc Jaffe: right? Because I can get a sense of uh here,
+Amber Fu: Yeah.
+Marc Jaffe: I'm looking at my screen here. Hold on. I'll show you. I think I've shown this to you before. Let's see if it works.
+Amber Fu: Mhm.
+Marc Jaffe: might not because I haven't logged in for a long time.
+ 
+ 
+00:34:32
+ 
+Marc Jaffe: May not. Let's see what happens. I think it's it should be populating hopefully. Okay, there we go.
+Amber Fu: Oh,
+Marc Jaffe: So, okay. So,
+Amber Fu: okay.
+Marc Jaffe: you know, this is my real time power generation, right? So, this is over three days.
+Amber Fu: Uhhuh.
+Marc Jaffe: Okay. So, this is today, right? And right here, that's going to be, you know, the peak of the day, right? you know,
+Amber Fu: Mhm.
+Marc Jaffe: around noon, right? So,
+Amber Fu: Mhm.
+Marc Jaffe: uh this is my power generation right here, right? And then I would love to be able to, you know,
+Amber Fu: Mhm.
+Marc Jaffe: be able to um uh see how that, you know, syncs with my actual usage here.
+Amber Fu: Okay.
+Marc Jaffe: You know what I mean?
+Amber Fu: Got you.
+Marc Jaffe: So, that real time information I think is super kind of helpful because
+Amber Fu: Mhm.
+Marc Jaffe: this is pretty regular. But you so you can see here these this is a what is that a parabola
+ 
+ 
+00:35:50
+ 
+Amber Fu: Mhm.
+Marc Jaffe: right pretty consistent because these days didn't have very many clouds but you can see right
+Amber Fu: Mhm.
+Marc Jaffe: here two days ago I had this huge dip right here you know what I mean right here at uh that was at 1015 right well if I had the app I could see that well you know what now's now's not a great time to be spending doing electricity. I had this huge dip in my usage in my generation, right? Maybe I should wait an hour, you know, because there's clouds overhead without me having to run out and look at the sky, you know, that's kind of stuff that'd be kind of cool to see how it works,
+Amber Fu: M.
+Marc Jaffe: you know, looking at real time data to say, you know,
+Amber Fu: Mhm.
+Marc Jaffe: it's cloudy right now. I'm gonna wait, you know, to do that use this power. Even though it's a good window in terms of time of day, it might not be a good window in terms of what the sky is doing to my
+ 
+ 
+00:36:47
+ 
+Amber Fu: Yes. Well,
+Marc Jaffe: solar.
+Amber Fu: that's well that's make a lot of sense. Well, I think like it's about like having real time awareness.
+Marc Jaffe: Right. The real time aspect of it, I think, really saved me
+Amber Fu: Yeah.
+Marc Jaffe: money.
+Amber Fu: Got you. Especially like you know on cloudy or like sunny days like when you have it should change,
+Marc Jaffe: Exactly.
+Amber Fu: right?
+Marc Jaffe: I can just look at this bar and kind of see where we are without looking out my
+Amber Fu: Mhm. Got you.
+Marc Jaffe: window.
+Amber Fu: Got you. Well, that that's really help. So I I probably after this, you know, our conversation finish, we will definitely change something the app. I think it's really useful tips. Thank you. And you know what like you know it's really incredible helpful and thank you so much working through this with us you know and you know what we're building like really only works if test in real life not just a demo
+Marc Jaffe: Yeah, I was gonna say that, you know,
+Amber Fu: right that's what exactly I want
+Marc Jaffe: maybe I can be one of your beta testers or something.
+Amber Fu: to invite you yes they'll be perfect so please like uh if you don't
+Marc Jaffe: Yeah.
+Amber Fu: mind you can try it with your actual bill and you know charge habit
+Marc Jaffe: Right. So, when you're ready, just let me know and I'll download it and all that. Yeah. So, keep in touch. Exactly. All right.
+ 
+ 
+Transcription ended after 00:38:48
+
+This editable transcript was computer generated and might contain errors. People can also change the text after it was created.

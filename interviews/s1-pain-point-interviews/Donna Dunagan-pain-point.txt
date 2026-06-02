@@ -1,0 +1,833 @@
+Donna Dunagan - Transcript
+00:00:00
+ 
+Amber Fu: Uh, hello. Hi.
+Donna Dunagan: Hi.
+Amber Fu: Hi. How uh how's your day go so far?
+Donna Dunagan: Oh, good. Good. I just got done working.
+Amber Fu: That's good. That's good. That's good. Well,
+Donna Dunagan: So,
+Amber Fu: well, thanks again for, you know, making time for this. Well, I know everyone's busy, especially, you know, in before the Christmas. Yeah.
+Donna Dunagan: yeah,
+Amber Fu: So,
+Donna Dunagan: that's all.
+Amber Fu: so no pressure at all. This is like super casual.
+Donna Dunagan: Yeah.
+Amber Fu: And uh let me introduce myself a little bit. Uh I'm a my name is Amber and I'm a one of the founder and I started this because you know I couldn't figure out why my own electricity bill were so crazy and I realized a lot of my friend are dealing with the same thing. Uh basically we're just a small team based in LA and you know just bunch of tech folks who also get hit with a crazy electricity bill.
+ 
+ 
+00:02:20
+ 
+Amber Fu: So we are trying to building an app that helps people save money on their daily energy use but without changing their lifestyle. So yeah I love to understand how you home use electricity daytoday so we can
+Donna Dunagan: Okay.
+Amber Fu: you know figure out what would actually help.
+Donna Dunagan: Okay. And where where do you live or where you where's the study
+Amber Fu: Uh oh I I live in Pasadena but right now I'm
+Donna Dunagan: loc?
+Amber Fu: in Hong Kong. Yeah. I try travel like force and back.
+Donna Dunagan: Oh. Okay.
+Amber Fu: Yeah.
+Donna Dunagan: I figured that you were overseas because with the changing of the times and the days and I
+Amber Fu: Yeah. Yeah. Yeah. Yes.
+Donna Dunagan: was like, "Oh my gosh,
+Amber Fu: Yeah.
+Donna Dunagan: I hope I got this one
+Amber Fu: Okay. Yes.
+Donna Dunagan: right."
+Amber Fu: So, yeah. So, before we start, do you are you be okay if we record this call? It's totally option.
+Donna Dunagan: Yes.
+ 
+ 
+00:03:11
+ 
+Donna Dunagan: Yes.
+Amber Fu: Okay.
+Donna Dunagan: Totally fine.
+Amber Fu: Thank you. Thank you.
+Donna Dunagan: Yeah.
+Amber Fu: Uh just give me a sec. Okay, cool. So, let's start.
+Donna Dunagan: Okay.
+Amber Fu: And um so before we jump into you know energy stuff, I love to get quick sense of your household just understand your setup bit better.
+Donna Dunagan: Okay.
+Amber Fu: Uh nothing personal,
+Donna Dunagan: Got
+Amber Fu: just whatever you're comfortable sharing. Yes.
+Donna Dunagan: okay.
+Amber Fu: Um so how many people live in your home right now?
+Donna Dunagan: Right now it's just my husband and I and um yeah I mean I could have
+Amber Fu: Okay.
+Donna Dunagan: looked this stuff up but um as far as the energy thing like we we first got solar do you want me to go into our whole history of the solar?
+Amber Fu: Yeah, sure.
+Donna Dunagan: Okay.
+Amber Fu: Sure.
+Donna Dunagan: So I think we first got solar it was at least 10 years ago if not more.
+Amber Fu: Oh, wow. That's a long
+Donna Dunagan: Yeah.
+ 
+ 
+00:04:06
+ 
+Amber Fu: time.
+Donna Dunagan: Um, yeah, it was it was fairly new, you know, to I mean to San Diego. Not really new, but you know, not many people had. But anyway, um, and we never that that system we really had a lot of problems with. And that's when your app could have really helped us a lot,
+Amber Fu: Mhm.
+Donna Dunagan: I think. um because we weren't getting a lot of explanation from the installer or the the maker of
+Amber Fu: Mhm.
+Donna Dunagan: the power uh cells. They were um oh shoot if I can remember. uh SunPower I think was the the name uh the
+Amber Fu: Mhm. A company.
+Donna Dunagan: company. Yeah. That that that the uh the solar panels were made.
+Amber Fu: Okay.
+Donna Dunagan: And um yeah,
+Amber Fu: Mhm.
+Donna Dunagan: we just we just never had enough, you know, then we were on the time of use we're on the time of use uh plan with SDG& and um it just it always just felt so restrictive, right?
+ 
+ 
+00:05:10
+ 
+Donna Dunagan: It's like, "Oh, I can really only use it during this time and this time and blah blah blah." Um, and I found I I was like use not baking as much, not cooking in the oven as much. And yeah, anyway um it was very frustrating.
+Amber Fu: Mhm.
+Donna Dunagan: Then um about again I'm bad with um probably about three four years ago.
+Amber Fu: Mhm.
+Donna Dunagan: Well, let's see. We gauge everything with COVID, right? So yeah, maybe it was about three years ago.
+Amber Fu: Yeah.
+Donna Dunagan: Uh we looked into it again because at the time we got the other the our first solar panels um we didn't
+Amber Fu: Mhm.
+Donna Dunagan: realize that we couldn't add on solar panels
+Amber Fu: Okay.
+Donna Dunagan: and so that was frustrating. So the only way and we were doing it as a lease.
+Amber Fu: Mhm.
+Donna Dunagan: So,
+Amber Fu: Mhm.
+Donna Dunagan: the only way we could have done it is if we paid off the lease and then we could have gotten more more panels and it's like no,
+ 
+ 
+00:06:08
+ 
+Amber Fu: Mhm.
+Donna Dunagan: we don't have the money to do that, you know. Anyway, um so then new programs, new incentives came on and about three years ended up getting some more solar
+Amber Fu: Mhm.
+Donna Dunagan: panels um and the two two power walls
+Amber Fu: Mhm. Mhm.
+Donna Dunagan: and now we're set because we got plenty of of electricity. We've got about a 3,000 square foot home. Um but you know, we don't use the heat that much.
+Amber Fu: Mhm.
+Donna Dunagan: We have mini splits, so we can just heat up or or AC an individual room if we wanted to. Um, you know, San Diego, it doesn't get that hot there.
+Amber Fu: Yeah.
+Donna Dunagan: It's gotten hotter over the years. Um,
+Amber Fu: Um
+Donna Dunagan: that's why we originally didn't have AC in the house when we built the house in 2009. Um, and then I have a a 2-year-old,
+Amber Fu: Mhm.
+Donna Dunagan: um, Tesla car now, so I can charge that at home. uh too. And yeah, and that's kind of the
+ 
+ 
+00:07:15
+ 
+Amber Fu: Got it. Got it. And uh I believe you you because you have solar more than 10
+Donna Dunagan: overview.
+Amber Fu: like around 10 years. So I believe you still uh in the EM2, right?
+Donna Dunagan: I don't know.
+Amber Fu: Okay. Well, well, it's like the different policy. They have like in California they have EM2 and they have EM3. Uh so basically the AM3 is uh after you uh after 2023 if you have a solar you will uh you will like in the AM3 policy but before that you're in
+Donna Dunagan: Okay.
+Amber Fu: the M2. Yeah, AM3 is not really good policy because like uh they will
+Donna Dunagan: Okay.
+Amber Fu: like you know when uh you have extra energy and sent back to girl uh they will be like really cheap really really cheap it means like you're wasting yeah so a lot of people if they are under the AM3 policy they need
+Donna Dunagan: Yeah.
+Amber Fu: to got a battery home power wall or another like home battery to make sure there.
+ 
+ 
+00:08:30
+ 
+Amber Fu: No
+Donna Dunagan: Right.
+Amber Fu: way.
+Donna Dunagan: Well, I know the program we're on now because we're also through community power and and so they draw energy from our
+Amber Fu: Okay. Uh-huh.
+Donna Dunagan: battery I think is the way it works.
+Amber Fu: Oh,
+Donna Dunagan: Yeah.
+Amber Fu: really?
+Donna Dunagan: Like like at night like I don't know like between 7 and 9 or something and
+Amber Fu: Mhm.
+Donna Dunagan: that's take it back and yeah give us credit but it's you know very cheap that they're
+Amber Fu: Mhm.
+Donna Dunagan: buying it at.
+Amber Fu: Got it. Got it. And um don't mind I ask how much you pay right now uh for your uh uh electricity
+Donna Dunagan: Um, it's only I don't know like 30 bucks or something.
+Amber Fu: bill.
+Donna Dunagan: It's, you know, all we have to pay are the the taxes or the I don't know all the, you know, the different things that are that are you you can't dispute, right? You know, you have to pay for
+Amber Fu: Got it. Got it.
+ 
+ 
+00:09:30
+ 
+Amber Fu: And uh so you got the power wall, right?
+Donna Dunagan: have two of them.
+Amber Fu: Oh, okay. Okay. And since like you have those system like while uh you feel
+Donna Dunagan: Yeah.
+Amber Fu: like it's they are working really well or you think they have some problem.
+Donna Dunagan: So far so good. I mean, I think yeah, we haven't had any problems.
+Amber Fu: So
+Donna Dunagan: Um, I haven't noticed, you know, it's just it's nice to to see that we don't have to pay out for electricity anymore. Um, now granted, there's only two of us now,
+Amber Fu: yeah,
+Donna Dunagan: but but um, still with charging a car and,
+Amber Fu: got
+Donna Dunagan: you know, like I said,
+Amber Fu: it.
+Donna Dunagan: just knowing that I can just use electricity when I want to to to bake or or cook or it was Yeah, it was extremely restrictive before.
+Amber Fu: Got it. Got it. And well uh as you mentioned the solar uh so uh
+Donna Dunagan: So
+Amber Fu: when like the solar now working like back then what's a part uh stress you out the most?
+ 
+ 
+00:10:43
+ 
+Donna Dunagan: um feeling like, you know, I could only do anything, do laundry, do you know after midnight, you know, setting setting it and and of course that wasn't conducive to to cooking or baking. Um um you know,
+Amber Fu: Mhm.
+Donna Dunagan: and then you had to use it before 2:00 even on holidays because that was the
+Amber Fu: Mhm.
+Donna Dunagan: cheapest, you know. So I was having a lot of people over for lunch. I mean, I was just being just so careful because I hated seeing the bills. It just seemed like here we are, we have one bill for paying for the solar and the other bill still coming from the electric company and we never could figure out what was going wrong because other people through other companies had gotten solar and they they're like, "Oh yeah, no, we haven't we don't pay for electricity anymore." I'm like, I what's different? I don't I don't
+Amber Fu: Mhm.
+Donna Dunagan: understand.
+Amber Fu: Yeah. Well, you So, but the solar you already like pay out, right?
+ 
+ 
+00:11:48
+ 
+Donna Dunagan: Uh, no. We still, it's a 25 year uh lease.
+Amber Fu: Oh, okay.
+Donna Dunagan: Yeah.
+Amber Fu: Still is how much pay per
+Donna Dunagan: Yeah.
+Amber Fu: month?
+Donna Dunagan: Uh, $34.
+Amber Fu: Okay. Okay. Got it. Got it. Okay. And um well,
+Donna Dunagan: Yeah.
+Amber Fu: it sounds like like to like you have like the TOU, right? The uh the TOU plan, right?
+Donna Dunagan: Yes.
+Amber Fu: Okay.
+Donna Dunagan: Yes.
+Amber Fu: Well, sounds like that till you rule change your daily habit in some way,
+Donna Dunagan: Right. Right. Oh,
+Amber Fu: right?
+Donna Dunagan: definitely it did. Yeah. Yeah. But we also we have the EV toou because of having the car.
+Amber Fu: Okay. Oh, okay. Okay. Okay. And did like during the sunny day,
+Donna Dunagan: Yeah.
+Amber Fu: did you try, you know, use the solar to charge the EV?
+Donna Dunagan: Uh yeah. Yeah. I don't I don't really think about it anymore, you know, because it's just whenever I need it.
+ 
+ 
+00:12:42
+ 
+Amber Fu: Okay.
+Donna Dunagan: Um yeah, and especially now that I'm I I park the car in the garage.
+Amber Fu: Okay.
+Donna Dunagan: So, originally I wasn't. So, our um our charger is outside the garage. So, I would have to leave the car outside at night if I was going to charge it at midnight. And it's like, "No, I'll just do it during the day when it's nice and sunny and it should be fine." And it's been fine.
+Amber Fu: Got it. Um, got it. What were there like a moment like you thought,
+Donna Dunagan: Yeah.
+Amber Fu: huh, I shouldn't run this this now, but I really want to, you know.
+Donna Dunagan: Not anymore.
+Amber Fu: Oh,
+Donna Dunagan: Not since we got the extra the panels.
+Amber Fu: let me Okay.
+Donna Dunagan: Yeah. Yeah. And the battery.
+Amber Fu: Okay.
+Donna Dunagan: I mean, I Yeah. I don't even think about it anymore.
+Amber Fu: Got it.
+Donna Dunagan: So it's it's really
+Amber Fu: That's good. That's good. And well, with your power wall now,
+ 
+ 
+00:13:33
+ 
+Donna Dunagan: good.
+Amber Fu: do you ever wondering if they're being used in like the smartest way or you just trust they're doing something?
+Donna Dunagan: Uh yeah, definitely just trusting because I I know I've got the app and I don't know.
+Amber Fu: Okay.
+Donna Dunagan: I think I looked at it at the beginning, but I yeah,
+Amber Fu: Mhm.
+Donna Dunagan: I don't I don't watch it, you know, as to when it's doing things. Um I just I just look at the you know,
+Amber Fu: Mhm.
+Donna Dunagan: SDG does this um weekly usage report. So,
+Amber Fu: Mhm.
+Donna Dunagan: as long as I see that it's in the negative, don't worry.
+Amber Fu: Okay. Got it. Got it. Got it. And well uh did you check your battery or solar uh solar app often or you mostly let it run?
+Donna Dunagan: I just let her run. Yeah.
+Amber Fu: Okay. Okay. Got it. Got it.
+Donna Dunagan: Yeah.
+Amber Fu: And well but has there like I mean ever been moment where you wish the system can explain like why is charge or discharge certain way?
+ 
+ 
+00:14:42
+ 
+Donna Dunagan: Um well, not since we've gotten the power walls.
+Amber Fu: Mhm.
+Donna Dunagan: Um, but like I said, that original system we had uh when it wasn't enough,
+Amber Fu: Mhm.
+Donna Dunagan: it was it was just I didn't know.
+Amber Fu: Mhm.
+Donna Dunagan: And we would call SDG& to try to get more information and to learn. We would call our um installer of the power of our solar system, our original one. And like they would talk to us but they would they couldn't say
+Amber Fu: Mhm.
+Donna Dunagan: definitively you know oh it all depends blah blah blah.
+Amber Fu: Mhm.
+Donna Dunagan: It's like well it you should you should be able to explain this to us. So the the the people selling this stuff were just they they didn't know how to
+Amber Fu: Yes.
+Donna Dunagan: talk to the average person and and to give them customer service after you bought it. Um,
+Amber Fu: Mhm.
+Donna Dunagan: I mean, I know you're you're asking about me, but um my daughter and her husband um got got it through Tesla,
+ 
+ 
+00:15:44
+ 
+Amber Fu: Mhm. Mhm.
+Donna Dunagan: the solar panels and power wall up in Santa Clarita and so they
+Amber Fu: Mhm.
+Donna Dunagan: had the Tesla app and they could never figure I mean we would go
+Amber Fu: Mhm.
+Donna Dunagan: in and when we were up there, you know, she's like, "Would you look at my app? See if I've got this all configured right." And we change some things and you know, see what happens.
+Amber Fu: and
+Donna Dunagan: and and Tesla was awful with their customer service with them too as far
+Amber Fu: love.
+Donna Dunagan: as explaining things and um I don't think they ever got that figured out now they've moved down here so they don't have that problem anymore but um
+Amber Fu: Mhm. Got it. But well like but if if you had like for example like a simple like
+Donna Dunagan: Yeah.
+Amber Fu: the app or told you like oh here's how much you save today would would that matter to
+Donna Dunagan: Yeah. I think it would be great to have an an app that said,
+ 
+ 
+00:16:37
+ 
+Amber Fu: you.
+Donna Dunagan: um, I see that you run your, you know, dishwasher during this hour. Well, it actually would be better instead of doing it at midnight, you know,
+Amber Fu: Mhm.
+Donna Dunagan: you could run it on a sunny day between, you know, 10 and 12 or whatever, you know, during these months or, you know, just just some good feedback would be wonderful.
+Amber Fu: Got it. Got it. And like so,
+Donna Dunagan: Yeah.
+Amber Fu: but when you think your home energy now, do you feel like fully in control or is still some like guess work?
+Donna Dunagan: Um, I don't think I feel fully in control.
+Amber Fu: Okay.
+Donna Dunagan: I think like you asked me earlier, I just am trusting. And because I'm not getting electricity bills now that are for electricity, I just am like it's a relief, you know?
+Amber Fu: Got it. Got it. Well, and um so and do you ever do you ever worry that your uh utility may change sometime again and you just suddenly be back to the stressful
+ 
+ 
+00:17:54
+ 
+Donna Dunagan: Yes,
+Amber Fu: period?
+Donna Dunagan: there is a little part of me that um you know I know SDG& is losing money here. They were pushing for everybody to go solar, but now they're saying, "Oh, we're not making enough money, right? And that's why we have to buy your electricity for less and all, you know, charge you this this fee because of,
+Amber Fu: Mhm.
+Donna Dunagan: you know, whatever." Um, yeah, there's always that.
+Amber Fu: Mhm.
+Donna Dunagan: And then there's, like I said, this community power thing that we're signed up for, which we didn't even realize we were going to be signed up for. It was one of those things if you don't respond by a certain time, it's like, "Oh, well, I didn't read the fine print." So, what they're doing as a middleman, I don't know. I know there's a big um uh you know, group of people that are trying to change uh the monopoly of
+Amber Fu: Mhm.
+Donna Dunagan: SDG& down here. um you know whether they'll be able to get some other party in and but it's you know bottom line it's always about them making more money
+ 
+ 
+00:19:04
+ 
+Amber Fu: Yeah. Yeah. I well and I uh I I asked my uh I have a friend who live in San
+Donna Dunagan: right.
+Amber Fu: Diego and uh he said he his bill is like a 12 page long.
+Donna Dunagan: Oh yeah.
+Amber Fu: He said okay that's normal.
+Donna Dunagan: Oh yeah. And and their website Yeah.
+Amber Fu: Okay.
+Donna Dunagan: website is awful to navigate. Oh my gosh, there's like all these charts and all these things.
+Amber Fu: Okay.
+Donna Dunagan: It's like, can I somebody just explain that to me? I don't I don't want a chart, you know? I want it for for my usage. I don't care about in general uh you know,
+Amber Fu: Uhhuh.
+Donna Dunagan: how I compare to other houses.
+Amber Fu: Mhm.
+Donna Dunagan: I don't really care.
+Amber Fu: Yeah. And and and I think you guys have assume have like call it like the something credit things, right?
+Donna Dunagan: Yeah,
+Amber Fu: like energy credit or some credit.
+Donna Dunagan: there's there's something. Yeah.
+ 
+ 
+00:19:58
+ 
+Donna Dunagan: Yeah. I don't know.
+Amber Fu: Okay.
+Donna Dunagan: Yeah.
+Amber Fu: Okay. Okay. Yeah,
+Donna Dunagan: Yeah.
+Amber Fu: it's it's kind of complicated.
+Donna Dunagan: I think they make it that way intentionally.
+Amber Fu: Yeah,
+Donna Dunagan: They kind of keep us in the dark so that we really don't know.
+Amber Fu: true. And you I I don't think you have another choice, right? You don't you can't choose another company. I think they only have one,
+Donna Dunagan: Oh
+Amber Fu: right? Yeah, that's that's well like in LA you still have some you know choice
+Donna Dunagan: yeah.
+Amber Fu: but yeah so it's yeah it's it's not
+Donna Dunagan: No,
+Amber Fu: good
+Donna Dunagan: it's never good when there's a monopoly, you know, that's it's gets greedy.
+Amber Fu: yeah
+Donna Dunagan: They don't have any u why why would they change anything?
+Amber Fu: well like since since you said like sometime you don't fully think you in the control for the home energy. Like when do you feel the least in control like morning, evening or bill time or just
+ 
+ 
+00:21:02
+ 
+Donna Dunagan: That's a good question. Um,
+Amber Fu: randomly
+Donna Dunagan: yeah, I don't I I I I don't know if there's a particular time of day. I think it's more when when I'm entertaining, you know, if I'm having people over, there's still that slight bit of h, you know, we've got all the lights on, we've got, you know, the heat going or the air conditioning going and, you know, I'm cooking and, you know, are we are we maxed out, you know, but yeah,
+Amber Fu: Yeah.
+Donna Dunagan: um, we should know that,
+Amber Fu: Yes. Yes. Exactly.
+Donna Dunagan: Right.
+Amber Fu: And well, is there a time of day when you'd love have uh you love to have a simple like oh here's what going or right now or summary.
+Donna Dunagan: Um things that I would have
+Amber Fu: Yeah.
+Donna Dunagan: going.
+Amber Fu: like you wish like you know uh know like oh what what's going right now in my house like
+Donna Dunagan: Oh.
+Amber Fu: oh when I should use like the dishwash or when I should do the laundry when I should uh charging my car like when is the cheapest hour when is the expensive
+ 
+ 
+00:22:14
+ 
+Donna Dunagan: Right, right, right.
+Amber Fu: hour okay Mhm.
+Donna Dunagan: I mean, you kind of know that because of the toou, right?
+Amber Fu: Uhhuh.
+Donna Dunagan: So,
+Amber Fu: Yeah.
+Donna Dunagan: I'm just going by that. But that's that's kind of the question.
+Amber Fu: Mhm.
+Donna Dunagan: And it's like, well, okay, when it's a really sunny day and we're producing electricity,
+Amber Fu: Mhm.
+Donna Dunagan: you know,
+Amber Fu: Yes.
+Donna Dunagan: the solar panels are producing electricity,
+Amber Fu: Mhm.
+Donna Dunagan: shouldn't that be the time of day that I'm using because it's just kind of going directly from the sun into
+Amber Fu: Mhm.
+Donna Dunagan: my appliance? I mean,
+Amber Fu: Mhm.
+Donna Dunagan: I mean, that's my thought. I don't know. Um, but they're like, "No, you know, the cheapest time is is at midnight." But I'm thinking, well, that's the cheapest time to buy your electric, but I don't want to buy your electricity. I want to use my
+Amber Fu: Yeah. Yes. Yes. Yes. Got it.
+ 
+ 
+00:23:08
+ 
+Amber Fu: Yeah.
+Donna Dunagan: electricity.
+Amber Fu: Well, well, because like you know since like you you have a solar and I think that's uh it's a big investment and people should have you know some back like even like money back or like you know like comfortable and using their energy.
+Donna Dunagan: Yeah.
+Amber Fu: I so I totally understand and well if there have like s system could
+Donna Dunagan: Yeah.
+Amber Fu: explain like one thing really clear every day what would you want to be for like the home energy
+Donna Dunagan: Um well
+Amber Fu: Hi.
+Donna Dunagan: really I mean I don't know how to explain it but it's just that the you know like when when what are the best conditions let's not even say time what are the best conditions because let's say weather
+Amber Fu: Okay. Oh.
+Donna Dunagan: right um for me to use my own electricity. You to just use the electricity.
+Amber Fu: Mhm. Mhm.
+Donna Dunagan: I don't I don't want to have it by the clock, you know. I you know it if Oh,
+ 
+ 
+00:24:13
+ 
+Amber Fu: Mhm.
+Donna Dunagan: that's something like I don't that would be really hard. But you know, it's almost like this the solar panel should be able to tell you Well, it's got to tell you it's got to tell you in the report like how much it's producing,
+Amber Fu: Mhm.
+Donna Dunagan: right? Yeah.
+Amber Fu: Yeah.
+Donna Dunagan: So, see, I hardly ever look at that stuff, but I mean, it's like then it's on us to track that whole thing and to figure it
+Amber Fu: Mhm.
+Donna Dunagan: out. It shouldn't be on us.
+Amber Fu: Mhm.
+Donna Dunagan: It should It would be nice to have something that actually explained it
+Amber Fu: Got it. Got it.
+Donna Dunagan: easier.
+Amber Fu: And if you could like remove one thing from your energy decision making, what would you never want to think about it again? or like like for example like oh am I wasting the solar or the power
+Donna Dunagan: Well,
+Amber Fu: reserve or like the uh why like when you say you build like uh sometime you come confused like oh what's this money for what's that money for like one
+ 
+ 
+00:25:25
+ 
+Donna Dunagan: right.
+Amber Fu: thing like you want to remove like never want to think about it
+Donna Dunagan: Well,
+Amber Fu: again.
+Donna Dunagan: Truthfully, I think the one thing that kind of bothers me is after the 25 years and we own the system,
+Amber Fu: Mhm. Mhm.
+Donna Dunagan: what happens if it breaks or what h it's not producing anymore?
+Amber Fu: Okay.
+Donna Dunagan: I mean, it's going to it's got to have degradation of the solar cells, right? So, yeah. Um but other than that, yeah, I guess the the one thing would be not not having to worry about what even what the weather's like to like to know that I have enough electricity in the battery,
+Amber Fu: Mhm.
+Donna Dunagan: which is what they talk about that, you know, if the if the power goes out,
+Amber Fu: Mhm.
+Donna Dunagan: you have enough electricity to power I don't expect everything to be perfect. Like it's like, oh, but you know,
+Amber Fu: Yeah.
+Donna Dunagan: you want to be able to keep your refrigerator going, right? So you don't lose your food.
+ 
+ 
+00:26:38
+ 
+Amber Fu: Mhm.
+Donna Dunagan: Um, yeah.
+Amber Fu: Got it.
+Donna Dunagan: I don't know if that answers your question.
+Amber Fu: Yeah. Definitely. Definitely. Definitely. And like when you said like you don't want to buy like buy the electricity from
+Donna Dunagan: Okay.
+Amber Fu: girl, you want to use your own electricity. Uh, do you ever wondering like am I actually using my solar right now or am I like using the girl
+Donna Dunagan: I I probably should have Amber,
+Amber Fu: power
+Donna Dunagan: but I I haven't. It's like I just I'm just like the the once a month the bill if I don't if I'm not paying electricity anymore,
+Amber Fu: okay?
+Donna Dunagan: I'm like, "Okay, I guess I'm doing everything."
+Amber Fu: Got it.
+Donna Dunagan: Okay.
+Amber Fu: Got it. But would it help if like a app can clearly said,
+Donna Dunagan: Oh, yeah.
+Amber Fu: "Hey, yes, right now you're using your solar.
+Donna Dunagan: Absolutely.
+Amber Fu: Go ahead." Okay.
+Donna Dunagan: I still think what you're doing is very important, you know,
+ 
+ 
+00:27:35
+ 
+Amber Fu: Okay.
+Donna Dunagan: especially knowing what we went through before we added on the extra panels or we were allowed to add on the,
+Amber Fu: Mhm.
+Donna Dunagan: you know, that's like all the codes and stuff changed over the years. So, you know,
+Amber Fu: Mhm.
+Donna Dunagan: it's it's constantly changing.
+Amber Fu: Uhhuh.
+Donna Dunagan: So I think yeah I think if you had something like that to to offer the public that
+Amber Fu: Mhm.
+Donna Dunagan: that's buying electricity I think it would be very helpful.
+Amber Fu: Got it. Got it. And well um so if the system could make the decision for you or give
+Donna Dunagan: Yeah.
+Amber Fu: you advice or would you think that will be feel free or you think oh I'm kind of losing control?
+Donna Dunagan: No, I' I'd be like, "Go ahead.
+Amber Fu: Okay.
+Donna Dunagan: Go for it." Yeah.
+Amber Fu: Okay. Okay. Sure.
+Donna Dunagan: Yeah. I I don't think it's a control.
+Amber Fu: Sure.
+Donna Dunagan: It's not for me anyway, a control thing. Like, I'm not afraid AI is going to take over my house and I don't know do
+ 
+ 
+00:28:31
+ 
+Amber Fu: Okay. Okay. Got it.
+Donna Dunagan: what?
+Amber Fu: Got it. And for like before, like you said, like the installer couldn't explain and Tesla could explain and SDG could explain. Um, did that experience make you feel like you couldn't trust those company to give you like the answer?
+Donna Dunagan: Oh, absolutely.
+Amber Fu: Mhm.
+Donna Dunagan: Absolutely.
+Amber Fu: Okay. And if if there have app finally can explain like oh why things behave the
+Donna Dunagan: Yeah.
+Amber Fu: way they do, would that change how you feel?
+Donna Dunagan: Oh, it gives you more trust. Absolutely.
+Amber Fu: Okay.
+Donna Dunagan: Yeah.
+Amber Fu: Okay.
+Donna Dunagan: I mean I think knowledge is power.
+Amber Fu: Mhm. Got it. Got it.
+Donna Dunagan: Yeah.
+Amber Fu: And for the like the bill uh because I know like SG they have a lot really really long bill and the website is awful and have you ever like open your
+Donna Dunagan: Yeah.
+Amber Fu: bill and feel like I have no idea what that mean or you can read
+ 
+ 
+00:29:36
+ 
+Donna Dunagan: Yeah.
+Amber Fu: some.
+Donna Dunagan: That's not that I have no idea, but it's just a lot of superolous information that I'm not sure what the point of it
+Amber Fu: Uhhuh.
+Donna Dunagan: is. You know,
+Amber Fu: Mhm.
+Donna Dunagan: when when we call to actually get a a
+Amber Fu: Mhm.
+Donna Dunagan: or ask for an answer on something that's totally relevant to us and they can't answer
+Amber Fu: Mhm. Mhm.
+Donna Dunagan: it. Oh, but you can generate all these pages of of reports to just make it look
+Amber Fu: Mhm.
+Donna Dunagan: like you know a lot.
+Amber Fu: Mhm.
+Donna Dunagan: Yeah. So, just, you know, just lose you definitely definitely lose confidence and trust in in a company that does that because energy is really important,
+Amber Fu: Mhm.
+Donna Dunagan: you know,
+Amber Fu: Yes.
+Donna Dunagan: and and it's also, you know,
+Amber Fu: Yes.
+Donna Dunagan: god forbid somebody takes out, right, our our electricity. I mean, we're wiped out, right? Without computers, without phones, without anything. And what the heck are we going to do?
+ 
+ 
+00:30:31
+ 
+Amber Fu: Mhm.
+Donna Dunagan: That's that's kind of scary to be so reliant on one energy source.
+Amber Fu: Uhhuh.
+Donna Dunagan: But that's a whole another subject
+Amber Fu: Yeah. Yeah. Well, um,
+Donna Dunagan: anyway.
+Amber Fu: so think about it like imagine like if you have a magic and could fix one thing about your home energy forever, what would you
+Donna Dunagan: Wow.
+Amber Fu: fix?
+Donna Dunagan: I don't know. Um.
+Amber Fu: anything like you know make your apply like smarter
+Donna Dunagan: Um.
+Amber Fu: or
+Donna Dunagan: Damn. That's an interesting idea. Sorry. just like wouldn't that be interesting if the appliances could talk to the, you know,
+Amber Fu: okay
+Donna Dunagan: talk like, you know, be connected to maybe an app that was connected to our energy thing and then be able to to go,
+Amber Fu: Um,
+Donna Dunagan: oh, you know, it would be much better if or, you know, the washing machine would alert me on my phone saying now would be a good time to run a load. load of laundry.
+ 
+ 
+00:31:49
+ 
+Donna Dunagan: I don't know.
+Amber Fu: okay.
+Donna Dunagan: That would that would be e make it easier, you
+Amber Fu: Uh-huh. Got it. Got it. Got it. Got it.
+Donna Dunagan: know.
+Amber Fu: And and if like if your appliance could talk your energy talk to your energy system, what the first thing you would want want them to say or
+Donna Dunagan: Right.
+Amber Fu: do like what okay what's what time
+Donna Dunagan: It was would be to find the cheapest.
+Amber Fu: can do the laundry is the best time, right?
+Donna Dunagan: Right. Right.
+Amber Fu: Okay. Okay. And uh so what would the smart applies decisionation look like in your daily
+Donna Dunagan: Yeah.
+Amber Fu: routine?
+Donna Dunagan: Sorry. What's the smart appliance?
+Amber Fu: this like this uh decision look like in your day like uh imagine like oh when you
+Donna Dunagan: What
+Amber Fu: wake up you know like uh like your some smart appliance can do everything for you and you don't need to you you just sit sit up one time and they will like run by themselves.
+ 
+ 
+00:32:48
+ 
+Donna Dunagan: Yeah.
+Amber Fu: Do you think that would be wonderful or you think you think oh kind of
+Donna Dunagan: Yeah. Yeah. No, I don't think scary, you know, with with now just the two of us.
+Amber Fu: scary?
+Donna Dunagan: It's, you know, I could see where like my daughter and she's got two two babies and, you know, she's like doing laundry every day kind of almost, you know, it's like I don't have all that much anymore. So um you know we wait and do it on a Saturday for most the
+Amber Fu: Mhm.
+Donna Dunagan: part but I also feel I right now I don't feel um intimidated by the the cost of electricity.
+Amber Fu: Mhm.
+Donna Dunagan: If if you know something I don't know something got soiled and I wanted to just you know throw
+Amber Fu: Mhm.
+Donna Dunagan: something in the washing machine I would just do it because that's frequent. But yeah, I mean right now I still do like the laundry on a Saturday morning, you know, before two o'clock, but I can do that.
+Amber Fu: Mhm.
+ 
+ 
+00:33:48
+ 
+Amber Fu: Got it.
+Donna Dunagan: So yeah,
+Amber Fu: Got it. Got it.
+Donna Dunagan: it's it still feels good to do it during that time period or like for us,
+Amber Fu: Mhm.
+Donna Dunagan: I don't know if you got this, but um in March and April, SDG&
+Amber Fu: Mhm.
+Donna Dunagan: lets us do it's the cheapest time of use between um 10 and two every day,
+Amber Fu: Oh, okay. Oh, okay.
+Donna Dunagan: but just in the month of March and April cuz I I don't know
+Amber Fu: Oh, I I don't know that every
+Donna Dunagan: Why? But and it's almost a T every year.
+Amber Fu: year. Oh, okay.
+Donna Dunagan: Yeah.
+Amber Fu: Oh, I that's that's uh well, I first time he heard that.
+Donna Dunagan: Oh
+Amber Fu: Okay.
+Donna Dunagan: yeah.
+Amber Fu: But have you ever received some like a true up bill?
+Donna Dunagan: Oh yeah.
+Amber Fu: Oh, okay. Oh,
+Donna Dunagan: Yeah.
+Amber Fu: I think it's a is a seasonal or it's a once a year.
+Donna Dunagan: Well, it's once a year,
+ 
+ 
+00:34:46
+ 
+Amber Fu: Uhhuh. How
+Donna Dunagan: but I was able to change that on SDG&
+Amber Fu: much?
+Donna Dunagan: so that I used, you know, when we had electricity bill, I wanted it monthly. You know,
+Amber Fu: Oh,
+Donna Dunagan: I didn't want to get a $1,500 bill once a year,
+Amber Fu: okay.
+Donna Dunagan: right?
+Amber Fu: Okay. Yeah.
+Donna Dunagan: Um, and they weren't allowing any other way of doing it except once a year, but then they changed it. And I don't know if they went back, but during that window, I was like, "Oh, yeah. I'm I'm changing it to once a month because I'd much rather just pay it monthly.
+Amber Fu: Okay. Okay. Got it. Got it.
+Donna Dunagan: Yeah, but now we don't now we don't have
+Amber Fu: And how how much Oh,
+Donna Dunagan: it.
+Amber Fu: you don't have a a job right now? Oh, that's good.
+Donna Dunagan: No.
+Amber Fu: That's good. But how much you pay last year?
+Donna Dunagan: Yeah. Oh, I mean this was before we put in the new system.
+ 
+ 
+00:35:32
+ 
+Donna Dunagan: So, you know, we were still paying like maybe $100 a month.
+Amber Fu: Oh,
+Donna Dunagan: Yeah.
+Amber Fu: really?
+Donna Dunagan: Oh, yeah. even when we had the original the solar thing.
+Amber Fu: That's weird.
+Donna Dunagan: That's why we were like that's awful. You know, we were paying that plus plus the the um the cost of the
+Amber Fu: Yeah.
+Donna Dunagan: lease and you know, not that much, but you know, it's like no, that's not what we signed up for. You know,
+Amber Fu: Yeah.
+Donna Dunagan: we wanted to be
+Amber Fu: Yeah. Yeah.
+Donna Dunagan: zero.
+Amber Fu: Have you ever tried to call the like the J to explain like where
+Donna Dunagan: Yes.
+Amber Fu: the money come from?
+Donna Dunagan: Yes.
+Amber Fu: What like was a
+Donna Dunagan: Well, I mean,
+Amber Fu: calculation?
+Donna Dunagan: even with the toou, okay, they still had um like it's it's a tiered so
+Amber Fu: Oh yeah.
+Donna Dunagan: right. So that you you pay like, you know, only 17 cents, but then once you go over x amount of kilowatts, then it turns out to be 25 cents and blah blah blah.
+ 
+ 
+00:36:30
+ 
+Amber Fu: Mhm.
+Donna Dunagan: Yeah.
+Amber Fu: Mhm.
+Donna Dunagan: So if we went over the those tears and that was during a time too,
+Amber Fu: Okay.
+Donna Dunagan: I mean in 2018 we started a a Tesla rental company from our home. So we used to charge the cars here.
+Amber Fu: Okay.
+Donna Dunagan: So we were we were charging, you know, we were racking up kind of a a goodiz electricity bill, but still the solar should have helped,
+Amber Fu: Mhm.
+Donna Dunagan: you know.
+Amber Fu: Okay. Well, that's that's kind of weird because it's like that's a lot per month,
+Donna Dunagan: Yeah. Yeah.
+Amber Fu: especially you have a solar and a power wall.
+Donna Dunagan: Oh, now we do.
+Amber Fu: Oh,
+Donna Dunagan: Now we have ex extra extra cells and power wall.
+Amber Fu: now
+Donna Dunagan: Yeah. We didn't have a power wall back then.
+Amber Fu: okay. Okay.
+Donna Dunagan: Yeah.
+Amber Fu: You got the one power wall or two?
+Donna Dunagan: Two
+Amber Fu: Oh, okay. Okay. And you lease that or you buy out?
+ 
+ 
+00:37:29
+ 
+Amber Fu: Pay out.
+Donna Dunagan: Uh, no. We paid that. Yeah,
+Amber Fu: Okay.
+Donna Dunagan: we paid that off.
+Amber Fu: Okay.
+Donna Dunagan: We just We just saved money and said,
+Amber Fu: Uh-huh.
+Donna Dunagan: "No, we're just going to buy it outright."
+Amber Fu: Mhm. Okay. And well like um the question I have question like would would a like no
+Donna Dunagan: Yeah.
+Amber Fu: surprise bill guarantee where we want you like you way ahead will be valuable like like if there have app can guarantee like you have no surprise bill and they will explain really clear do you think
+Donna Dunagan: Oh yeah.
+Amber Fu: that's valuable
+Donna Dunagan: Oh, do I think it's available now?
+Amber Fu: valuable Yeah.
+Donna Dunagan: Oh, valuable. Oh, absolutely. Yeah.
+Amber Fu: Okay.
+Donna Dunagan: Yes, definitely. Definitely.
+Amber Fu: Okay.
+Donna Dunagan: Nobody likes surprises. And like I said,
+Amber Fu: Uh-huh.
+Donna Dunagan: I think anything that would help explain and be relevant to your, you know, everybody's particular lifestyle,
+Amber Fu: Mhm.
+Donna Dunagan: right?
+ 
+ 
+00:38:30
+ 
+Donna Dunagan: I mean, everybody's different. So,
+Amber Fu: Mhm.
+Donna Dunagan: um, I think that would be great. Yeah.
+Amber Fu: Got it. And would do you want like a app that track the policy change and tell you exactly what it mean for your
+Donna Dunagan: Oh yes,
+Amber Fu: home?
+Donna Dunagan: that would yes that would be really helpful as they change and
+Amber Fu: Okay. Okay. Got it. Got it.
+Donna Dunagan: yeah
+Amber Fu: And well, if their app could remove one worry from your mind, which one would make worth it worth to pay it?
+Donna Dunagan: I would say the like what would happen if even if this uh I think it's called power San Diego you
+Amber Fu: Oh
+Donna Dunagan: know this grassroots uh com you know group of people that you know are trying to
+Amber Fu: yeah.
+Donna Dunagan: overthrow SDG I mean even if they come up with something you know is it really
+Amber Fu: Mhm.
+Donna Dunagan: going to help or not you know like there's so many questions so if something else comes in or like you said the it would be very valuable to know if SDG& was changing policies or I mean what if they even come up with new plans that would
+ 
+ 
+00:39:46
+ 
+Amber Fu: Yeah.
+Donna Dunagan: actually be better, you know,
+Amber Fu: Yeah.
+Donna Dunagan: for my
+Amber Fu: Mhm.
+Donna Dunagan: situation.
+Amber Fu: I think uh this in the San Diego uh have a STG and STCP, right?
+Donna Dunagan: Yes.
+Amber Fu: And that's a true company.
+Donna Dunagan: I I'm not even sure what it is, honey. I really That's the thing.
+Amber Fu: Okay.
+Donna Dunagan: It's like I don't know. I know we're we're under that, but I don't know why they're in the midst.
+Amber Fu: Um
+Donna Dunagan: I mean, I don't know. We never could really understand what what that was about.
+Amber Fu: Okay.
+Donna Dunagan: I can't explain it to you.
+Amber Fu: Got it. Got it. And do you ever wish like uh there if there have app can could tell you in real time whether you're using your solar or you're using the grow.
+Donna Dunagan: Oh yeah. Oh, that would that would be interesting.
+Amber Fu: Okay.
+Donna Dunagan: Absolutely.
+Amber Fu: Mhm. Got it. Got it.
+Donna Dunagan: Yeah.
+ 
+ 
+00:40:43
+ 
+Amber Fu: Got it. Well well well thank you. Thank you for sharing everything. Yes. Cuz well I Yeah. because I I don't really know like the San Diego uh uh like the energy company. So I learn a lot from you and I think the San Diego is more
+Donna Dunagan: Yeah,
+Amber Fu: complicated than LA.
+Donna Dunagan: I think so.
+Amber Fu: Yes.
+Donna Dunagan: I think
+Amber Fu: And and people I think they don't have a choice. That's that's really that's not good.
+Donna Dunagan: Yeah. Right. Right. And like I said, you know, if if you wanted to contact me,
+Amber Fu: Yeah.
+Donna Dunagan: if you wanted more followup, like, you know, I could go get reports or you know and you know from our solar or whatever if you needed something I'd be happy to do
+Amber Fu: Well, that would be really really grateful and helpful.
+Donna Dunagan: that.
+Amber Fu: And you know what? Like once we have our early version app ready, uh I want to invite you to uh try out as our beta tester if you
+Donna Dunagan: Oh, okay.
+Amber Fu: want. Yeah. Yeah.
+Donna Dunagan: Okay,
+Amber Fu: Because you know I think our early version uh app should just you know tell people oh when is the right time to using their electricity and
+Donna Dunagan: that'd be great.
+Amber Fu: when Yeah. Yes.
+Donna Dunagan: Yeah.
+Amber Fu: Yeah. And your feedback will be really valuable for us.
+Donna Dunagan: Okay. Okay. Yeah.
+Amber Fu: Okay.
+Donna Dunagan: Let me know if there's something I could help you with.
+Amber Fu: Sure. Sure. Sure. Definitely keep in touch.
+Donna Dunagan: Okay. All right.
+Amber Fu: Thank you. Thank you. Mhm. Have a good day.
+ 
+ 
+Transcription ended after 00:42:32

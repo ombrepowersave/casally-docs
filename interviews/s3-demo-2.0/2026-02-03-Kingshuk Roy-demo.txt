@@ -1,0 +1,529 @@
+Feb 2, 2026
+[UI] Kingshuk Roy - Transcript
+00:00:00
+ 
+Amber Fu: Hi.
+kingshuk roy: Hey everyone.
+Amber Fu: Good. Good. Thank you. Thank you. Hi. Thank you taking time for this.
+kingshuk roy: Mhm.
+Amber Fu: Uh so uh so uh let me introduce myself a little bit. Uh my name's Amber.
+kingshuk roy: Mhm.
+Amber Fu: Uh so I'm the founder of uh this and I we are when we try to do this because you know uh my my own electricity bill was really crazy. So I just always try to figure out how can lower my bill and uh yes so that's why uh we're trying to build the app help people you know to understand how the electric use smarter and to and also can lower their bill and no surprise bill at all and yes and um so before I
+kingshuk roy: Okay.
+Amber Fu: um show you anything I want to be uh clear about the goal and this season so I'm not here to uh pitch your finished pro product and I'm I'm here to see like whether what we are building actually makes sense for for the you know customer.
+ 
+ 
+00:03:16
+ 
+Amber Fu: Yeah.
+kingshuk roy: Okay.
+Amber Fu: So there's no right or wrong feedback. If like something feels confusing or necessary,
+kingshuk roy: Mhm.
+Amber Fu: it's actually the most help helpful thing you know you can tell me.
+kingshuk roy: Okay.
+Amber Fu: Okay, perfect.
+kingshuk roy: Got it.
+Amber Fu: So uh before we jump in uh can you uh tell me a bit about your setup like home setup like do you have a solar EV or like
+kingshuk roy: Yeah. So,
+Amber Fu: battery?
+kingshuk roy: uh for my home setup like kind of I already have the solar and I also have the EV. So, like I just target to see that like kind of my EVs and everything gets charged like during the daytime so that I can use the solar and then like also like kind of when I installed it, I just calculated and saw like kind of how much solar I need to install. so that I don't have to pay the much electricity bills and everything and all.
+Amber Fu: Got
+kingshuk roy: And I don't have a battery.
+Amber Fu: you.
+ 
+ 
+00:04:08
+ 
+kingshuk roy: I just have the solar setup and the EVs. I don't have the storage
+Amber Fu: Oh,
+kingshuk roy: batteries.
+Amber Fu: okay. Uh, so how how long you get the so uh solar like uh in
+kingshuk roy: Uh I think it is 3 years back I guess like when I like installed
+Amber Fu: which Okay.
+kingshuk roy: it.
+Amber Fu: So I think you're Is it you're under the uh AM2 policy or AM3 policy?
+kingshuk roy: Uh I think it's true. I think it's the older one like kind of like the payment.
+Amber Fu: Oh, okay. That's that's perfect.
+kingshuk roy: I think it's the older one.
+Amber Fu: That's good.
+kingshuk roy: Yeah. So I think we just installed I think few months before I think the policy was going away.
+Amber Fu: Yeah.
+kingshuk roy: Yeah.
+Amber Fu: Oh, that's that's lucky. And uh so uh how do you mind I ask like how much you
+kingshuk roy: Yeah.
+Amber Fu: pay every every uh every month for
+kingshuk roy: every month. I think right now for electricity I think we are paying around I think uh $12 something
+ 
+ 
+00:04:57
+ 
+Amber Fu: your
+kingshuk roy: some somewhere around $12 for the maintenance and all.
+Amber Fu: you mean $12?
+kingshuk roy: Yeah, that's $12 per month for electricity.
+Amber Fu: Oh well that's really low.
+kingshuk roy: Yeah.
+Amber Fu: Okay.
+kingshuk roy: So to the PGNA essentially we pay $12 and there is a monthly uh sorry there is a
+Amber Fu: So,
+kingshuk roy: yearly like roll up also like for any extra usage or something which we might have done. So for that I pay maybe around $60 or $70 per
+Amber Fu: uhhuh. Oh,
+kingshuk roy: year.
+Amber Fu: that's good. But do you have a true aail or
+kingshuk roy: Yeah.
+Amber Fu: no?
+kingshuk roy: That's true up is like $60 or $70. I would say the true up bill is 60 or $70.
+Amber Fu: Oh, really? The $70?
+kingshuk roy: Yeah.
+Amber Fu: Oh, wow.
+kingshuk roy: Yeah.
+Amber Fu: That's That's really low.
+kingshuk roy: Yeah.
+Amber Fu: Okay.
+kingshuk roy: Because like we just like calculated like how much we need and like we are still mindful of like kind of using like kind of when to use it like most of the appliances we try to use during the daytime and all.
+ 
+ 
+00:05:54
+ 
+kingshuk roy: So that's how like we are able to manage
+Amber Fu: That's perfect. That's perfect.
+kingshuk roy: it.
+Amber Fu: And uh is there any like you think any problem or like uh when you're using the electricity or like any
+kingshuk roy: Uh no I haven't seen like any issues or any problem just like kind of during winter or like during the time like
+Amber Fu: Okay.
+kingshuk roy: when it rains and all during the winter season when the daytime is smaller. So that time I will say like the production is little bit less but like during the summer and all like the production is like kind of really high. So that time like kind of I produce more and like send it to the grid that time more and uh during the winter time I would say just break break even for a particular day like
+Amber Fu: Okay.
+kingshuk roy: how much you are producing like essentially you are like using that like you're not like sending much back to the grid during the winter time but summer time you send a lot of energy to the grid during that
+ 
+ 
+00:06:46
+ 
+Amber Fu: Okay, gotcha.
+kingshuk roy: time.
+Amber Fu: Gotcha. So, uh you know what? I will send you a link uh through the meeting and uh give me a
+kingshuk roy: Mhm.
+Amber Fu: second. Okay. Uh, sorry. Give me uh one.
+kingshuk roy: Mhm. This Figma one, right?
+Amber Fu: Oh
+kingshuk roy: Okay. Let me just try to share my screen.
+Amber Fu: yes.
+kingshuk roy: Like I'm not I don't use like this one too much like the Google Meet. So I'm just trying to figure out where it is. Okay, I think I got it. Uh can I see my screen?
+Amber Fu: Uh yes, I can see it.
+kingshuk roy: Okay.
+Amber Fu: Uh you can you know what? You can uh look around. click around and I give you a few minute. Yeah,
+kingshuk roy: Mhm.
+Amber Fu: just you know uh click around to see what it look like and uh oh so uh before I start I I have some like uh so you can see the like a left side there have a like a under the flow.
+ 
+ 
+00:08:42
+ 
+Amber Fu: So uh those uh the new home is our the one called the new home is
+kingshuk roy: Mhm.
+Amber Fu: our new version and another three our old version represent uh the difference instead.
+kingshuk roy: Mhm. Okay.
+Amber Fu: So you can look up the new version to see the new home. Yes.
+kingshuk roy: Okay.
+Amber Fu: And the new home.
+kingshuk roy: So, this is the old one.
+Amber Fu: Yeah.
+kingshuk roy: Sorry.
+Amber Fu: That's the old one.
+kingshuk roy: This is the current one. And Okay. Okay.
+Amber Fu: Yeah.
+kingshuk roy: Got it. And this is the first page of the app. And then you have the home event savings profile. Okay.
+Amber Fu: Actually, you can click on the new home like new home like under the So you can look at this.
+kingshuk roy: Mhm.
+Amber Fu: This is our new version. So you can drag drag down to see there.
+kingshuk roy: Mhm.
+Amber Fu: Yeah. Let me know if you can drag.
+kingshuk roy: Yeah.
+Amber Fu: Yeah.
+ 
+ 
+00:10:11
+ 
+kingshuk roy: So essentially you are like kind of monitoring like all the different kind of usage and everything and then I think you're suggesting like the charging schedule and all those things and all and then also you are just showing the consumption and like kind of how much might be your expected bill and everything Also, okay, I think I am good with this. I have browsed through. So maybe I think we can move to the next steps on this.
+Amber Fu: Yes. Yeah. So, we can actually we can go over the uh the home screen first. Um uh give me a second.
+kingshuk roy: Mhm.
+Amber Fu: So uh for the home like um you at the top like we show like device connected. So you can you can see like at the top there have a little bit icon.
+kingshuk roy: Oh, this one.
+Amber Fu: Yeah. Uh the online Yes. Yes. You can click on online.
+kingshuk roy: Mhm.
+Amber Fu: Yeah. Yeah. So yeah.
+ 
+ 
+00:11:30
+ 
+Amber Fu: So those are uh those like you know some sometime if your solar power power
+kingshuk roy: Okay.
+Amber Fu: was offline you want to know immediately. So that's like real world facts. So yeah and also and under that is a like the budget bill uh monthly bill budget. So for this we are uh we try to uh it's not like a
+kingshuk roy: Mhm. Oh,
+Amber Fu: optimization.
+kingshuk roy: is it? Okay.
+Amber Fu: Yes.
+kingshuk roy: Okay.
+Amber Fu: It's think like like a tolerance boundary. So you know just telling the system like oh if my bill ends up about the this number I feel like something went wrong or yeah and I want to early warning. So basically you can click on $170 there.
+kingshuk roy: Mhm.
+Amber Fu: Uh
+kingshuk roy: Nothing is happening.
+Amber Fu: okay. Yes. Here you go.
+kingshuk roy: Oh.
+Amber Fu: So basically uh we let the customer uh we uh set their like last three months bill and depends on the last three months bill.
+kingshuk roy: Mhm.
+ 
+ 
+00:12:39
+ 
+Amber Fu: For example like this customer the they have like a three months. Yeah. last three months bill and like we have a recommend range for for for
+kingshuk roy: Mhm.
+Amber Fu: for him like you know if he want to save more money then uh he can click on the one $170 or like 80 or 200 and when they set up this goal and we the system will help them to achieve this goal.
+kingshuk roy: Okay. I'm just trying to understand one thing. So if already like kind of if someone has a solar and the battery.
+Amber Fu: Uhhuh.
+kingshuk roy: So in that particular scenario like this bill seems to be like kind of pretty high already like the 200
+Amber Fu: Oh,
+kingshuk roy: or 170 or something.
+Amber Fu: it's Yeah, it's definitely it's definitely depends on like uh like the uh what the customer real real bill. Let's say if like Yeah.
+kingshuk roy: Okay.
+Amber Fu: If your bill like uh every month is like $30, then we will give you like a 10 or 15 some some kind those
+ 
+ 
+00:13:43
+ 
+kingshuk roy: Mhm. Oh,
+Amber Fu: choice.
+kingshuk roy: okay. Okay. Got it.
+Amber Fu: Yeah. So,
+kingshuk roy: Okay.
+Amber Fu: uh so you know just you know just think about like a can kind of like a user to telling the app if my bill goes about this I want to know early and I want to help before it comes the price bill.
+kingshuk roy: Okay, got
+Amber Fu: Yeah.
+kingshuk roy: it.
+Amber Fu: So, so once like the user set the boundary like everything else in the app will
+kingshuk roy: Mhm.
+Amber Fu: become real uh relative to to the customer. So kind of like a same event can mean very different things to different people.
+kingshuk roy: All
+Amber Fu: Yeah.
+kingshuk roy: right.
+Amber Fu: And you can click cancel is fine. And the next is our uh suggestion card. So basically we are just give uh customer some like you
+kingshuk roy: Mhm.
+Amber Fu: know try uh try help them to you know avo uh pick our stuff like that. Yeah. And also we have a two options.
+ 
+ 
+00:14:52
+ 
+Amber Fu: One is automatic.
+kingshuk roy: Mhm.
+Amber Fu: Automatic which means like we will handle it from our side and another is a menu. You can click on the menu. Yeah. So some people they they have the uh let's say like this customer uh he got the Tesla and he don't want to our ad that our to
+kingshuk roy: Mhm.
+Amber Fu: you know change the Tesla setting. So we will send to them to the his Tesla app he can do by himself.
+kingshuk roy: Okay. And your app is only like kind of like looking for this EV charging only for optimization.
+Amber Fu: Yeah.
+kingshuk roy: It's not looking into anything else like say for example a user might have a like a
+Amber Fu: Yeah.
+kingshuk roy: very old like dryer or old washing machine, old fridge. So that might be consuming a lot of electricity.
+Amber Fu: Yes.
+kingshuk roy: So you're just just looking at the EV vehicles only right now.
+Amber Fu: We will adding that will later cause because because right now like if only the app we only can assess the EV EV EV car but like
+ 
+ 
+00:15:59
+ 
+kingshuk roy: Oh,
+Amber Fu: later adds the you know the uh you know the refrigerator or something like that.
+kingshuk roy: okay.
+Amber Fu: Yeah.
+kingshuk roy: Okay. Got it. So, right now you're just like kind of starting with the EV car
+Amber Fu: Yeah. Yes. And you can click on the more detail.
+kingshuk roy: only.
+Amber Fu: So the more detail lead to the event page. So the event page basically means like we will tell the customer like what's a like why we
+kingshuk roy: Mhm.
+Amber Fu: suggest like that.
+kingshuk roy: Okay. Got it.
+Amber Fu: Yeah. Because you know I know like some app they don't really like they they're really like automatic but the some people they just don't know why. So we try to uh give the customer like the
+kingshuk roy: Mhm.
+Amber Fu: explanation letting them know like why this happened and why it's
+kingshuk roy: Okay. Got it.
+Amber Fu: matter.
+kingshuk roy: So like essentially like if someone is charging at night time maybe 9:00 or something so they might get a more charge like because they're not using the solar
+ 
+ 
+00:17:01
+ 
+Amber Fu: Okay. Yes.
+kingshuk roy: directly.
+Amber Fu: And you can go back. Yeah. And this is like the event page. So event page you is like only a euro activity
+kingshuk roy: Mhm.
+Amber Fu: will show on the event page such like you know the EV during the high price or like a so solar breakdown or like power wall uh is like
+kingshuk roy: Mhm.
+Amber Fu: charging during the high price from the or like a power outage like a surf weather stuff like that. So this is kind of like like a letter to letting people's know like what's going
+kingshuk roy: Okay.
+Amber Fu: on here.
+kingshuk roy: Mhm. All
+Amber Fu: You know what like we are trying like to you know do something like you know uh I don't know you you know like the Turboax right? Yeah, Turboax like credit karma where try to do something like you know like
+kingshuk roy: right.
+Amber Fu: electricity you know uh like a ledger thing or like a home electricity uh family CFO or something like that just like help
+ 
+ 
+00:18:09
+ 
+kingshuk roy: Mhm.
+Amber Fu: people to you know to smart to use uh electricity and know what happening and no surprise bill at all. Yeah.
+kingshuk roy: Okay,
+Amber Fu: Okay.
+kingshuk roy: got it.
+Amber Fu: And you uh do you mind click on the home?
+kingshuk roy: Yeah.
+Amber Fu: Yeah. So so right now because like we only got the app first.
+kingshuk roy: Mhm.
+Amber Fu: So which means like we only can assess like a really few uh stuff like the EV charging or right but later on if we have uh like
+kingshuk roy: All right. Yeah.
+Amber Fu: some like real hardware device then we can you know to to do like laundry or like refrigerator TV or or like AC or stuff like
+kingshuk roy: Mhm.
+Amber Fu: that. Yeah.
+kingshuk roy: Right.
+Amber Fu: And you can go like drag down a little bit. Yeah. So this is like a a power outage warning. I know like in California uh there is not a lot of like power outage thing. Um but still like when it's happen is be like really big
+ 
+ 
+00:19:12
+ 
+kingshuk roy: Mhm.
+Amber Fu: deal. So basically the power outage we try to like once we connect with
+kingshuk roy: You're right.
+Amber Fu: the utility company and we will uh let the customer immediately to know like when is will be the power outage. So maybe like let's say like before 24 hours uh we will uh like
+kingshuk roy: Okay. Mhm.
+Amber Fu: help the customer to guide them to to see like oh let's say like you only have a 24 hour and after 24 hour you will let's say the power will shut down for another 24 hours. So uh we will suggest you let's say like use your solar first to charge you uh power wall and then the EV right and then the home load just make
+kingshuk roy: Okay. Got it.
+Amber Fu: sure like everyone's safe and can use their electricity like during the
+kingshuk roy: Mhm.
+Amber Fu: power outage.
+kingshuk roy: Right. Okay. Got it.
+Amber Fu: Yeah. And after the
+kingshuk roy: And how does this thing works like kind of you have something written as apply plan.
+ 
+ 
+00:20:19
+ 
+kingshuk roy: So how this particular piece
+Amber Fu: Oh yeah. Yeah.
+kingshuk roy: works.
+Amber Fu: Ply plan basically just means we we just automated helping the customer to do that.
+kingshuk roy: Okay. Okay.
+Amber Fu: Yeah. And also the next one is the usage. So the usage is more like uh just let the the customer to know to know the you know when's peak hour when's out peak hour.
+kingshuk roy: Okay.
+Amber Fu: Are you in the under the till you rate plan or you are a different
+kingshuk roy: Uh
+Amber Fu: plan?
+kingshuk roy: uh I just need to check. I don't remember like on top of my head which one it is.
+Amber Fu: Okay it's fine. Yes but this is basically like uh the use data usage. So uh let the people know like oh are we using the expensive uh like expensive power from the girls or are we use the cheap uh cheap Yeah.
+kingshuk roy: Okay, got it. And you have your app is like going to connect to like the whatever the solar app or whatever the
+ 
+ 
+00:21:20
+ 
+Amber Fu: Uhhuh.
+kingshuk roy: solar app like that particular person is using as well as like with Tesla
+Amber Fu: Yes. Yeah. Yes.
+kingshuk roy: also.
+Amber Fu: And we also will connect with uh utility company. Yeah.
+kingshuk roy: Okay.
+Amber Fu: And then we will have their uh data.
+kingshuk roy: Mhm.
+Amber Fu: Mhm. And uh and also you do you mind I click on the
+kingshuk roy: See?
+Amber Fu: saving? Okay.
+kingshuk roy: Okay.
+Amber Fu: So uh for the for the saving um so they're they're kind of like uh we uh at the top we uh split the into the two types the saving and the bill.
+kingshuk roy: Mhm.
+Amber Fu: So the saving kind of like our side is is it's like the cost risk we detected from the behavior and the timing and Yeah.
+kingshuk roy: Okay.
+Amber Fu: And the bill is like utility side is like what show up on your bill.
+kingshuk roy: Okay. Got
+Amber Fu: Yeah. So saving you can uh just kind of like you know risk
+kingshuk roy: it.
+ 
+ 
+00:22:29
+ 
+Amber Fu: exposure from the behavior. Yeah.
+kingshuk roy: Mhm.
+Amber Fu: So and like $56 that number is kind of like the total risk cost. So like we detect it in the current building period. So basically like if you repeat those patterns this the mount will be tend to show up as a extra cost exposure. So yes.
+kingshuk roy: Okay, got it.
+Amber Fu: Yeah.
+kingshuk roy: And this charging is fine.
+Amber Fu: And
+kingshuk roy: I have one question on like kind of how this like kind of solar power and the power wall charging is adding up to the cost.
+Amber Fu: yeah. So well down here we like kind of like break down the risk ledger into the categories like EV, solar and power wall. So each rows shows like how many times happened in the billing period.
+kingshuk roy: Mhm.
+Amber Fu: Uh let's say like for example the EV charging appear four times means like four event in this billing period. So you can click on click on it to see what's happening. Uh uh it's okay.
+ 
+ 
+00:23:31
+ 
+kingshuk roy: Mhm.
+Amber Fu: Yeah. Uh or this solar. Yeah. You can click it. Yeah. So basically uh we we just you know uh for like each uh it shows events like when's
+kingshuk roy: Mhm.
+Amber Fu: happening when's actual uh cost exposure and when you tap in you will say exactly the explanation and how we calculate.
+kingshuk roy: Okay. Yeah, this is really nice. I like this like kind of the explanation of this one.
+Amber Fu: Yeah,
+kingshuk roy: Okay.
+Amber Fu: this is kind of like so this is like how we calculate kind of like the proof the you know
+kingshuk roy: Got it.
+Amber Fu: the watt like peak rate out peak rate and the mass thing.
+kingshuk roy: Mhm. Mhm.
+Amber Fu: So we try to be auditable.
+kingshuk roy: Okay. Yeah. Okay. So,
+Amber Fu: Yeah.
+kingshuk roy: you're using this particular formula extra cost. Okay. Makes sense.
+Amber Fu: Yeah.
+kingshuk roy: Okay. So,
+Amber Fu: And
+kingshuk roy: all the different events you are like kind of giving like how much possibly like because of the actions
+ 
+ 
+00:24:40
+ 
+Amber Fu: Yes.
+kingshuk roy: or something that like kind of you might add up to your
+Amber Fu: Yes. Exactly.
+kingshuk roy: bill.
+Amber Fu: And you can click on the bill. Yes, the bill is like uh so for this one, this guy uh his uh bill is like $200 uh as months. Yes. So they will show show here and you can click on the view
+kingshuk roy: Mhm.
+Amber Fu: more. Uh yes. So well to lead to the bill proof. So basically well this is kind of like you know uh it's just like a simple checking whether a few uh specific bill line item match what we actually detected from your solar EV
+kingshuk roy: Oh, okay.
+Amber Fu: battery. Yes.
+kingshuk roy: Mhm.
+Amber Fu: So uh we're just looking at a few item we can clearly recognize and asking like oh does this look right? Yeah. So for example the mismatch the number that doesn't means like
+kingshuk roy: Mhm.
+Amber Fu: overcharge but it means like based on the data we saw we expect this specific line to be around ads but the bill shows one.
+ 
+ 
+00:26:03
+ 
+kingshuk roy: Mhm.
+Amber Fu: So this is just a tact worth to double
+kingshuk roy: Right.
+Amber Fu: checking.
+kingshuk roy: Right. Makes sense.
+Amber Fu: Yeah.
+kingshuk roy: Okay.
+Amber Fu: And you can scroll down a little bit. Yeah. And also on the uh the bottom there have a top cost driver we believe contribute the most uh most to your bill outcome. So it's our like best explanation of the biggest livers.
+kingshuk roy: Okay.
+Amber Fu: Yeah, basically that's it. So but for I know like you have like really lower bill. So uh I just want to know like for example like our app is there anything that you think will be useful for your
+kingshuk roy: So like let me just like think for a moment.
+Amber Fu: situation.
+kingshuk roy: Yeah, I think maybe I can just like from this app I can just take like I think this data that which time like will be off peak and peak cuz generally like I just try to do it like during the daytime but like
+Amber Fu: Got you.
+kingshuk roy: definitely that will be like one data point I think for my scenario which might be helpful like the charge during the peak and off peak and how much I'm going to pay for it.
+ 
+ 
+00:27:30
+ 
+Amber Fu: Got you. Got you. Uh do you mind ask that is there uh any like third party app you're using such like this?
+kingshuk roy: Uh no, currently I'm not using any third party app like this.
+Amber Fu: Okay. Okay.
+kingshuk roy: Yeah,
+Amber Fu: Okay. Gotcha. Gotcha.
+kingshuk roy: because I just like kind of have like two different apps. One for like the general PG& app for the usage and everything and all and then the solar app like kind of where I see like the production and everything and usage and all. So like I don't have any integrated app like this like kind of where I can see everything in a single
+Amber Fu: Got you. Got you.
+kingshuk roy: place.
+Amber Fu: And uh is there uh any suggestion for us or any tips for us for this app? Like do you think like we're still missing
+kingshuk roy: So this like kind of like as we have talked I think this really like kind of mentions
+Amber Fu: anything?
+kingshuk roy: like kind of covers everything I would say.
+ 
+ 
+00:28:24
+ 
+kingshuk roy: I think in one particular thing I think this power outage like kind of you can like add like one thing like kind of if you know that if it's a planned power outage for like say 4 hours or 5 hours then
+Amber Fu: Oh, okay.
+kingshuk roy: how like it is going to affect the bill that like you're going to use more from the battery or more from the solar or whatever like the parameters might be to just like to give a projection that like because of this power outage you're getting like this kind of bell and everything and
+Amber Fu: Okay, gotcha. And uh what what what else you think? Oh, uh we still can prove it.
+kingshuk roy: So one is this like EV charging and I am assuming that like kind of it should have the option like kind of there are many houses households like there where there are multiple cars. So like give the option to add multiple cars like there might be like kind of two Teslas. So like kind of you're giving the option to showing like both the Teslas over here.
+ 
+ 
+00:29:26
+ 
+Amber Fu: Oh, okay. Got you.
+kingshuk roy: So that is one common thing and some people might have like a combination of a Tesla and some other other electric cars.
+Amber Fu: Yeah. Yeah.
+kingshuk roy: So I don't know like kind of if that is for future or something but this for sure like kind of like two
+Amber Fu: Yeah.
+kingshuk roy: Teslas like in a particular household like that's pretty common cuz in my household also I have the same. So that's why like I'm saying like maybe like two different like cars Tesla cars and then you are just giving it like kind of whatever the time
+Amber Fu: Got you. Got you.
+kingshuk roy: and everything and all.
+Amber Fu: Got you. Well, that's really helpful
+kingshuk roy: Yeah. And I think one more I think you can add like kind of maybe week day and weekend because like
+Amber Fu: tips.
+kingshuk roy: say for example if I have to go to work like weekly three days like maybe say for example
+Amber Fu: Uhhuh.
+kingshuk roy: I'm working three days from office and two days I'm working from home Monday to Friday.
+ 
+ 
+00:30:20
+ 
+Amber Fu: Ah. Yes. Oh, that's smart.
+kingshuk roy: So maybe like so maybe for 3 days I won't be able to like means charge it during
+Amber Fu: Yeah.
+kingshuk roy: like maybe daytime like from say for example from 9:00 a.m. to say 5:00 a.m. or 6:00 a.m. So maybe adjust it accordingly. So that might be like a very good data point to like do or view that like okay like this is the time frame like kind of when I am at work like I am not at home so I can't really use the benefits of the solar thing.
+Amber Fu: Got you. Got you. Well, thank you so much. That really helpful. I never thought about
+kingshuk roy: Yeah,
+Amber Fu: this.
+kingshuk roy: because like most of most of the people like kind of returning back to office at least few days a week. So that's like will be like a very big parameter I would say like kind of if you have a car and maybe every day night only you have
+Amber Fu: Uh-huh.
+ 
+ 
+00:31:06
+ 
+kingshuk roy: the opportunity to charge it for weekly 3 days or something. So that will give a like a good data point I would say.
+Amber Fu: Okay. Okay. That's that's that's smart. Thank you. We will we will think about that idea. I I never thought about that but it's really useful.
+kingshuk roy: Yeah, right. Because that time like your like this charging principle and everything might not apply because that particular person might not be
+Amber Fu: Yes.
+kingshuk roy: available during that
+Amber Fu: Got you. Yes. Exactly. Exactly.
+kingshuk roy: time.
+Amber Fu: Okay. Well, thank you so much. And uh is there anything else? Maybe you you want to like give us some like
+kingshuk roy: No, I think for the current setup,
+Amber Fu: wise.
+kingshuk roy: I think those are the only things which I can think of like kind of adding a different schedule or your work schedule or something when you won't be there when you won't be
+Amber Fu: Got you. Got you.
+ 
+ 
+00:31:58
+ 
+kingshuk roy: there at home.
+Amber Fu: Got you.
+kingshuk roy: And maybe one more thing you can add like some vacation thing also maybe like in weekly like uh monthly like maybe you might have to travel for for 3 days or like one week a month. So that time like how you adjusted. So these are like kind of very much like generic like kind of things that like your car might be just at home only like you don't need the charge for one week of a month. So that also might like change your schedule or like kind of save you more money and all.
+Amber Fu: Okay. Well, thank you. That's really helpful. Yes.
+kingshuk roy: I'm just like telling from like all practical pers like when I have to like kind of go for like some outside of the city like for some office work. So okay 3 days I'm not using my car like I'm outside and I don't have the ability to also charge my car or something and also it just like kind of sits in the garage so and I'm not consuming or
+ 
+ 
+00:32:51
+ 
+Amber Fu: Yes. Exactly.
+kingshuk roy: using anything also.
+Amber Fu: Exactly. Exactly. Well, thank you so much. That's like incredible. Incredible helpful. And and you know what? Thank you for working through this with us.
+kingshuk roy: Mhm. No
+Amber Fu: Yes. Because like you know what we're building like really only works if the is test in real
+kingshuk roy: worries.
+Amber Fu: life, not just a demo. So uh I was wondering like once it's alive I love to invite you to try
+kingshuk roy: Right.
+Amber Fu: it uh where you know we definitely will make sure there are compensation or like incentive for your time and but also your
+kingshuk roy: Mhm.
+Amber Fu: uh opinion and feedback will be really really
+kingshuk roy: Sure.
+Amber Fu: important.
+kingshuk roy: Yeah.
+Amber Fu: Okay.
+kingshuk roy: I would love to like test that because like it's just as you have like the things very limited like just few things.
+Amber Fu: Yes.
+kingshuk roy: I think it's very Yeah,
+Amber Fu: I will definitely add the thing you told us. Yes.
+kingshuk roy: because it's like very important to like kind of add like different kind of scenarios or the test cases I would
+Amber Fu: Yeah.
+kingshuk roy: say.
+Amber Fu: Exactly. Exactly. Well, thank you so much. Thank you. I appreciate and you know what? Once the live this app, I will uh definitely uh invite you at the first place. So, please keep in touch. We will talk to you soon. Thank you. Thank you. Take care. Okay. Bye.
+ 
+ 
+Transcription ended after 00:35:17
+
+This editable transcript was computer generated and might contain errors. People can also change the text after it was created.

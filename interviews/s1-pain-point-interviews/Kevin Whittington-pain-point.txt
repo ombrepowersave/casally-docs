@@ -1,0 +1,877 @@
+00:00:00
+ 
+Amber Fu: Hi. Hi, Kevin.
+Kevin Whittington: Hi.
+Amber Fu: How are you?
+Kevin Whittington: I'm great.
+Amber Fu: Good. Good. Perfect. Uh, how's your day going so far?
+Kevin Whittington: So far so good. And
+Amber Fu: That's good. That's good. Oh, yeah. It's good. Well, you know,
+Kevin Whittington: yours?
+Amber Fu: like before the Christmas, everyone's busy. Yeah. Well, thanks again for making time for this. I I know everyone's busy and like no pressure at all. This is like super casual. And let me introduce myself a little bit. My name's Amber and I'm one of the founder. Well, I started this, you know, because I couldn't figure out why my own electricity bill were so crazy and I realized a lot of my friend are dealing with the same thing. Uh basically we're just a small team based in LA and we're trying to building an app that helps people uh save money on their daily energy use but but without changing their lifestyle.
+ 
+ 
+00:01:08
+ 
+Amber Fu: So you know I just love to understand how your home use electricity daytoday so we can figure out what would actually help. Okay perfect.
+Kevin Whittington: Okay,
+Amber Fu: And well before we start do you mind uh I record this call? I totally option. and I just don't want to miss anything you said but it's totally option for to you.
+Kevin Whittington: you have my permission.
+Amber Fu: Okay, thank you. Uh give me a second. Okay, perfect. So, let's start.
+Kevin Whittington: s***.
+Amber Fu: And um so before we jump into the energy stuff, I love to get a quick sense of your household just understand your uh setup bit better. So nothing personal, just whatever your composure is. Um so how many people living your home right now?
+Kevin Whittington: Two people live in the home.
+Amber Fu: Mhm.
+Kevin Whittington: my uh wife and myself.
+Amber Fu: Okay. Okay.
+Kevin Whittington: Okay.
+Amber Fu: And how big the house is?
+Kevin Whittington: It's 2500 square feet. It's in
+Amber Fu: Okay.
+ 
+ 
+00:02:05
+ 
+Amber Fu: Mhm.
+Kevin Whittington: Valencia.
+Amber Fu: Gotcha. And do you mostly like work from home or is everyone fly in and out?
+Kevin Whittington: We're It's a combination the combination of home and going going
+Amber Fu: Okay. Okay.
+Kevin Whittington: out.
+Amber Fu: Gotcha. And well, um, I noticed that you got the solar and the
+Kevin Whittington: Yes,
+Amber Fu: EV.
+Kevin Whittington: I have a I have solar panels and I also have a Tesla Model 3 and also my wife has a BMW i4 and we also charge at the house
+Amber Fu: Oh, okay. And Okay, got you. How long How long you have
+Kevin Whittington: and we um we've moved into the house three and a half I'm
+Amber Fu: solar?
+Kevin Whittington: sorry, three years and three months ago.
+Amber Fu: Oh, okay. And like what originally got you into the solar?
+Kevin Whittington: Well, the house came with it,
+Amber Fu: Okay. Okay.
+Kevin Whittington: so we took over a lease.
+Amber Fu: Okay. Got you.
+Kevin Whittington: And we we also have a swimming pool that has a pool pump and a pool uh
+ 
+ 
+00:02:57
+ 
+Amber Fu: And Okay. Got you.
+Kevin Whittington: heater.
+Amber Fu: And um so do you mind ask how much your bill right now? Like uh electricity bill.
+Kevin Whittington: Okay. So, you have the uh the solar lease bill right now. That's 1 70.
+Amber Fu: Okay, that's a le,
+Kevin Whittington: Yes,
+Amber Fu: right?
+Kevin Whittington: that's for the panels.
+Amber Fu: Okay.
+Kevin Whittington: And so the electricity you pay it a setup bill at the end of 12 months. So first year um we only we had a partial
+Amber Fu: Oh.
+Kevin Whittington: bill because we only No, you know what? It was a year. It was a year. Okay. So the first year that bill was maybe
+Amber Fu: Mhm.
+Kevin Whittington: $500 the settle bill.
+Amber Fu: Okay. Okay.
+Kevin Whittington: Second year that bill was minus like 150.
+Amber Fu: Oh,
+Kevin Whittington: This year's bill was more like um
+Amber Fu: okay.
+Kevin Whittington: say six 600.
+Amber Fu: Okay. For a whole year, right?
+Kevin Whittington: for the whole year.
+ 
+ 
+00:04:15
+ 
+Kevin Whittington: So our our energy use you got you have to add
+Amber Fu: Okay.
+Kevin Whittington: 170*
+Amber Fu: Mhm. Oh, yeah.
+Kevin Whittington: 12 and add the 600 and say what
+Amber Fu: Yeah, that's right. Okay. Okay.
+Kevin Whittington: happened. You're like well wow you had a free bill.
+Amber Fu: Gotcha.
+Kevin Whittington: Um she had free public charging on her car and so it ended.
+Amber Fu: Okay.
+Kevin Whittington: And so what that is is now more of the charging of the
+Amber Fu: Okay.
+Kevin Whittington: car.
+Amber Fu: Got you. And and do you receive the true up bill per every year?
+Kevin Whittington: Yes.
+Amber Fu: And how much that will be?
+Kevin Whittington: Okay. So it's all those numbers I just told you.
+Amber Fu: Oh,
+Kevin Whittington: So that that one bill.
+Amber Fu: okay.
+Kevin Whittington: Yes. So the the latest bill was 600 and
+Amber Fu: Okay. Okay. I got you. And uh like like since like you got the solar and the EV uh are like are they doing good or is there anything you are not super happy
+ 
+ 
+00:05:18
+ 
+Kevin Whittington: Well,
+Amber Fu: with?
+Kevin Whittington: I'm pretty happy with what I don't like is is what I can't control is the lease situation. So, my lease is going up $5 every year. And so, I think I'll pay this this solar lease off in
+Amber Fu: Oh,
+Kevin Whittington: probably in about five years it'll be paid off and so I won't have a
+Amber Fu: okay.
+Kevin Whittington: bill anymore. But,
+Amber Fu: Okay.
+Kevin Whittington: who knows if the panels are still in working condition.
+Amber Fu: Oh, yeah. Well, uh, so how how how many panel you have right now?
+Kevin Whittington: I believe it's
+Amber Fu: Oh, okay. Okay, got you.
+Kevin Whittington: 18.
+Amber Fu: And well, uh, does this bother you more that the lease cost is going up or that you don't really have a way to change it?
+Kevin Whittington: Well, if I make any changes to my system, I have to pay some kind of bill higher.
+Amber Fu: Mhm.
+Kevin Whittington: I can't make any changes to it.
+Amber Fu: Okay, I got you. Okay.
+ 
+ 
+00:06:22
+ 
+Amber Fu: And well, do you like ever feel like you're kind of lo locked into this setup?
+Kevin Whittington: Yes. And the company they went out of business and so they just sold the bill off to someone else.
+Amber Fu: Okay.
+Kevin Whittington: So it was Sun Power.
+Amber Fu: Oh.
+Kevin Whittington: Now it's Sun
+Amber Fu: Uhhuh.
+Kevin Whittington: Strong.
+Amber Fu: But but if like anything happened to the solar like who you going to talk to?
+Kevin Whittington: I call them and and probably just kind of be just pushed around. So, it's pro I'm really rolling the dice here. It's just it's been a miracle so far. No
+Amber Fu: Mhm. Got you.
+Kevin Whittington: problems.
+Amber Fu: Got you. And well, like when you add everything up, do you like feel like this setup is actually worth it or do you ever like wondering if I didn't have a solar, would I would I actually be paying that much more?
+Kevin Whittington: Well, it's worth it for me because I have Neem Nema 2 and um so
+Amber Fu: Uhhuh.
+ 
+ 
+00:07:25
+ 
+Kevin Whittington: I get reimbursed dollar for dollar.
+Amber Fu: Oh,
+Kevin Whittington: All the new people getting solar right now,
+Amber Fu: okay.
+Kevin Whittington: you're getting only pennies on the dollar.
+Amber Fu: Yeah. Yeah,
+Kevin Whittington: So,
+Amber Fu: that's right.
+Kevin Whittington: it's definitely not going to be worth it for them.
+Amber Fu: Yeah,
+Kevin Whittington: And initially,
+Amber Fu: that's right.
+Kevin Whittington: when you do a lease, if there's anything wrong with it, the leasing company is on the hook to fix
+Amber Fu: Mhm. Okay. Okay.
+Kevin Whittington: it.
+Amber Fu: Okay. Got you. And like and when like the free charging like went away, did you immediately notice the impact on your energy
+Kevin Whittington: Yes.
+Amber Fu: cost?
+Kevin Whittington: because I mean you could see it from the monitoring that we were using more electricity at home but because we generate so much it's still
+Amber Fu: Mhm.
+Kevin Whittington: better than going anywhere else. I believe I paid 33 cents a kilowatt here.
+Amber Fu: Okay, got you.
+Kevin Whittington: So chargers you they average anywhere from 30 cents to 47 to
+ 
+ 
+00:08:21
+ 
+Amber Fu: And
+Kevin Whittington: 50 and 60 with connection fees and and uh overage fees and congestion
+Amber Fu: got you.
+Kevin Whittington: fees.
+Amber Fu: And well and if their type have app can like clearly to show like oh like e EV charging like added like like let's say like $10 this month would that would be helpful or like stressful.
+Kevin Whittington: Oh, it definitely would be helpful. It would be helpful. So,
+Amber Fu: Okay.
+Kevin Whittington: on my Tesla app, I can actually set it and and look and
+Amber Fu: Mhm.
+Kevin Whittington: see how I'm how I'm doing with that. I don't look at it much. see here.
+Amber Fu: Mhm.
+Kevin Whittington: Um, yeah, I haven't looked at it in a while, but it says that I've
+Amber Fu: Okay.
+Kevin Whittington: March 7th top day added
+Amber Fu: Mhm.
+Kevin Whittington: 13,000. So,
+Amber Fu: Mhm.
+Kevin Whittington: h there's I hadn't looked at it in a while. This looks different now, but that's charging cont. Oh, charging stats. That should be the same.
+ 
+ 
+00:09:54
+ 
+Kevin Whittington: That's what we're looking for.
+Amber Fu: Oh, okay. Oh, okay.
+Kevin Whittington: Okay.
+Amber Fu: Got you.
+Kevin Whittington: So, 25 I've charged 4,480
+Amber Fu: Uh
+Kevin Whittington: kilowatts.
+Amber Fu: Oh yeah. Oh, I see it. This is from Tesla, right?
+Kevin Whittington: Yes. And I spent 12,200 uh
+Amber Fu: Okay.
+Kevin Whittington: $1,259.
+Amber Fu: Okay.
+Kevin Whittington: That seems like a lot,
+Amber Fu: Yeah.
+Kevin Whittington: but it says my gas savings is 1,000.
+Amber Fu: Okay.
+Kevin Whittington: And uh so I don't have the parameter set. And it says based off of 28 cents is and I
+Amber Fu: Uhhuh.
+Kevin Whittington: haven't I I don't charge at home.
+Amber Fu: Oh.
+Kevin Whittington: So my wife charges at home.
+Amber Fu: Okay.
+Kevin Whittington: So I just I take I sacrifice for her.
+Amber Fu: Okay.
+Kevin Whittington: So I take all that bill for myself and then she gets to put that on there. So she wins in that regard.
+Amber Fu: Okay, gotcha. And well um and for like like the poll like do you have any sense of like how much the poll actually cost you per month?
+ 
+ 
+00:11:15
+ 
+Kevin Whittington: um from here from this app.
+Amber Fu: Oh, no. No. Like uh I I don't think this app could show you, right?
+Kevin Whittington: Oh,
+Amber Fu: I mean the pool.
+Kevin Whittington: what what my wife is pulling?
+Amber Fu: No, no,
+Kevin Whittington: Well,
+Amber Fu: no.
+Kevin Whittington: this is Oh,
+Amber Fu: Like the swimming pool.
+Kevin Whittington: the swimming pool. Oh,
+Amber Fu: Yeah. Yeah.
+Kevin Whittington: yes. I can show you.
+Amber Fu: Okay.
+Kevin Whittington: Okay. So, but okay. Let's go back to this real quick. So, this actually isn't bad.
+Amber Fu: Okay.
+Kevin Whittington: So, I'm only spending $120 a month to drive a
+Amber Fu: Uh-huh.
+Kevin Whittington: car.
+Amber Fu: Yeah.
+Kevin Whittington: It's not too bad.
+Amber Fu: Yeah.
+Kevin Whittington: Most people spend 120 in a week. So, I I' I've done well.
+Amber Fu: Okay. Okay. And like like um and like what worry you more the system actually like breaking or like not knowing like who would help you if it
+Kevin Whittington: Oh yeah.
+ 
+ 
+00:12:09
+ 
+Kevin Whittington: Yeah,
+Amber Fu: did.
+Kevin Whittington: that's it's it's a worry and I'm going to try to forget about that worry, but uh but it's definitely a
+Amber Fu: Okay.
+Kevin Whittington: worry.
+Amber Fu: And and like if like something went wrong tomorrow, do you like feel like you know exactly who to call?
+Kevin Whittington: Oh, I know who to call,
+Amber Fu: Okay.
+Kevin Whittington: but nothing's gonna happen.
+Amber Fu: Okay, that's good. That's good. That's good.
+Kevin Whittington: Okay. So, my bill starts over. Let me see here. Here the date two months. So, November. So September is when my bill starts.
+Amber Fu: Mhm.
+Kevin Whittington: So we're doing pretty well.
+Amber Fu: Mhm.
+Kevin Whittington: So on our SC Edison bill,
+Amber Fu: Mhm.
+Kevin Whittington: we're at 168 for our settle up for right
+Amber Fu: Mhm.
+Kevin Whittington: now.
+Amber Fu: Okay.
+Kevin Whittington: So and it's going to go higher because you make less electricity during the winter time.
+Amber Fu: Mhm.
+Kevin Whittington: The earth tilts away from the sun.
+Amber Fu: Mhm.
+ 
+ 
+00:13:21
+ 
+Kevin Whittington: Um,
+Amber Fu: But like for the Tesla num uh the Tesla the number or like the utility bill like which would you trust more like a Tesla calculation or you actually utility
+Kevin Whittington: okay. So,
+Amber Fu: bill?
+Kevin Whittington: the Tesla calculation is right on the money because that's coming from their chargers.
+Amber Fu: Okay.
+Kevin Whittington: So, for the house, it's on the money, too. I have to find it here for you.
+Amber Fu: Uhhuh.
+Kevin Whittington: I will find it. I just need to find usage here. I haven't opened this in a while.
+Amber Fu: But are they match?
+Kevin Whittington: Well, my info won't be on there because I'm not using that energy number you just saw was purely from the Tesla of what the Tesla used.
+Amber Fu: Mhm.
+Kevin Whittington: Now, what I can do is say, okay, if I charged that home,
+Amber Fu: Mhm.
+Kevin Whittington: this is what I would add to that settle up bill. I would add $1,200 to the
+Amber Fu: Mhm.
+Kevin Whittington: bill. So, I'm trying to find usage on here.
+ 
+ 
+00:14:39
+ 
+Kevin Whittington: Okay. All right. Here's the usage. see how early. Okay, here we go. Okay, so this is this day I chose here is November the 21st.
+Amber Fu: Okay. This is a Tesla app or Oh,
+Kevin Whittington: No, this is from Edison.
+Amber Fu: okay.
+Kevin Whittington: This is the electric bill. This is This is what the house uses.
+Amber Fu: Okay.
+Kevin Whittington: No car.
+Amber Fu: Okay.
+Kevin Whittington: This is whatever's plugged in.
+Amber Fu: Mhm.
+Kevin Whittington: It's under 0.5 kilowatts an hour at 12 a.m. So,
+Amber Fu: Mhm.
+Kevin Whittington: we're asleep. You see that? One, two, three, four,
+Amber Fu: Mhm.
+Kevin Whittington: five. See, we're asleep. Sleep. And then around 5,
+Amber Fu: Mhm.
+Kevin Whittington: we start waking up. So we're at 1 kilowatt.
+Amber Fu: Okay.
+Kevin Whittington: 1 kilowatt at 7. And then now we may have probably left for work.
+Amber Fu: Mhm.
+Kevin Whittington: And so now we're under five, under five.
+Amber Fu: Mhm.
+Kevin Whittington: That pool pump comes on at 9:00.
+ 
+ 
+00:16:13
+ 
+Amber Fu: Mhm.
+Kevin Whittington: And what happens is we're starting to make electricity right here. So,
+Amber Fu: Okay.
+Kevin Whittington: it's still covering the use of the pool pump, but when the uh sun is not there between look one and
+Amber Fu: Mhm.
+Kevin Whittington: two, all of a sudden you're starting to see usage in four and five and then the
+Amber Fu: Mhm.
+Kevin Whittington: that's probably a car plugged in. Well, no, no, that's just us. So we when we're having dinner or watching TV, we're right under two kilowatts an hour.
+Amber Fu: Okay.
+Kevin Whittington: And so using this app,
+Amber Fu: How how often you check?
+Kevin Whittington: there's my account usage and settings and things like
+Amber Fu: Got it.
+Kevin Whittington: that.
+Amber Fu: How how often you check the
+Kevin Whittington: Uh I used to check it all the time when when I changed out the pool pump.
+Amber Fu: app?
+Kevin Whittington: I wanted to see the setting, the savings because I went to an energy efficient pool pump and when I didn't have that that I would be using um instead
+Amber Fu: Okay.
+ 
+ 
+00:17:25
+ 
+Kevin Whittington: of -2 kilowatt, it would be 2 kilowatt.
+Amber Fu: Okay.
+Kevin Whittington: It'd be 3 kilowatts. So, I'm I'm saving at least like four to five kilowatts going to a more fuel efficient
+Amber Fu: Okay.
+Kevin Whittington: pool pump. And also, I turn the RPMs down, too, so I can save a little bit there,
+Amber Fu: Got it. But when you look at the day like this,
+Kevin Whittington: too.
+Amber Fu: how confident are you are you that your interruption is actually correct?
+Kevin Whittington: Oh, well, this is the bill.
+Amber Fu: If you were wrong.
+Kevin Whittington: This is uh Edison's bill. this is what I have to pay.
+Amber Fu: Okay. Okay. I got you.
+Kevin Whittington: Now I could say hey there are some inaccuracies and Edison will come out and they can do an audit so they will do
+Amber Fu: Uh, got it.
+Kevin Whittington: that
+Amber Fu: But do you think someone without your background would make sense of this data? If like a friend just got a solar today, do you think they'd be totally lost?
+ 
+ 
+00:18:30
+ 
+Kevin Whittington: probably. Now there's one more app. So, here's an app from the solar company.
+Amber Fu: Mhm.
+Kevin Whittington: So, the first app I showed you was from Tesla.
+Amber Fu: Mhm.
+Kevin Whittington: The second one here,
+Amber Fu: Mhm.
+Kevin Whittington: this is from SC Edison. And the next app,
+Amber Fu: Okay.
+Kevin Whittington: hopefully it works, will be for monitoring from Edison. Okay,
+Amber Fu: Okay.
+Kevin Whittington: let me pull that one up. And I think that's the one you want to know about.
+Amber Fu: Okay. Sure.
+Kevin Whittington: Okay, Sunstrong. Okay. Ah, you're going to make me sign in. Okay. Okay. Okay.
+Amber Fu: Mhm.
+Kevin Whittington: So now this is monitoring right now.
+Amber Fu: Okay.
+Kevin Whittington: So this is probably what you wanted to see. Well,
+Amber Fu: Uhhuh.
+Kevin Whittington: sorry.
+Amber Fu: Yeah, I can see
+Kevin Whittington: So you can see um right now I'm not making
+Amber Fu: it.
+Kevin Whittington: any but we hit that we can say today, this week, this month, this year, the lifetime Okay.
+ 
+ 
+00:19:57
+ 
+Amber Fu: Okay.
+Kevin Whittington: So, let's see what we made today. Oh, I have to turn away. It's just so hard to do that. Oh, well, they changed the game on me. So, now for me to get that data. I used to have the data. I used to look at it. Now, I can pay them a hundred bucks for the year and I get to see what I'm using from them.
+Amber Fu: Okay.
+Kevin Whittington: Or I can pay 10 bucks a month.
+Amber Fu: Are you going to pay it?
+Kevin Whittington: No, because you want to save money, but I I'm paying money to save money and it's like, no, because you see I have the Tesla app and then I have Edison's
+Amber Fu: Mhm.
+Kevin Whittington: app. Now,
+Amber Fu: Mhm.
+Kevin Whittington: if someone was gonna have an app that would help with my monitoring, I would I would be okay with with ads, especially if it was ads that help you with life and saving money. I would be totally with with a ad.
+ 
+ 
+00:21:04
+ 
+Amber Fu: Mhm.
+Kevin Whittington: I'd be okay with that.
+Amber Fu: Okay.
+Kevin Whittington: I think it would be better for the uh the business person because they can advertisers they have a budget and they have the money and it wouldn't hurt them to pay a advertising
+Amber Fu: Mhm.
+Kevin Whittington: bill versus a consumer paying another bill.
+Amber Fu: Got you. And what? And how often do you find yourself doing this? Like zoom
+Kevin Whittington: Okay. When you first get into this whole solar panels,
+Amber Fu: into
+Kevin Whittington: pools, and EVs, oh, you're checking every day. But now life is just kind of moving and you you just want it to just
+Amber Fu: Okay.
+Kevin Whittington: work. I wanted to see if I can save money. That's why you use the app. You use the app to figure out, okay, set the pump this way. Change the lights to LED bulbs.
+Amber Fu: Mhm.
+Kevin Whittington: Try to be energy uh um efficient. Make sure you don't leave windows open.
+Amber Fu: Mhm.
+ 
+ 
+00:22:02
+ 
+Kevin Whittington: Make sure the insulation's right. Set the smart thermostat.
+Amber Fu: Mhm.
+Kevin Whittington: You know, things like that. Once you kind of get to saving money,
+Amber Fu: Mhm.
+Kevin Whittington: you don't really look anymore. For me, I until you just asked
+Amber Fu: Got you. Got you. Got you. And like do you ever like mentally play out like oh what if we charge more at home? What if like rate go up? Like would it help if the like system could just you know help you to calculate that for
+Kevin Whittington: Well, I mean,
+Amber Fu: you.
+Kevin Whittington: just case in point, when I just showed you the Tesla app and I'm like, "Oh, okay. I spent $1,200." $1,200 would go into the bill on
+Amber Fu: Mhm.
+Kevin Whittington: top. And so in our household,
+Amber Fu: Uh-huh.
+Kevin Whittington: my wife handles the uh electric bill and I handle the solar panel lease bill and her bill has been really
+Amber Fu: Mhm.
+Kevin Whittington: cheap.
+Amber Fu: Mhm.
+Kevin Whittington: She doesn't want to pay that one because it would be more.
+ 
+ 
+00:23:03
+ 
+Kevin Whittington: You know,
+Amber Fu: Uh
+Kevin Whittington: 175* 12 is way more than the amount that she paid.
+Amber Fu: yeah. Yeah. Exactly. Yeah. And like like Yeah.
+Kevin Whittington: Oh yeah, that's two 2,100.
+Amber Fu: For like the lease, right? The solar lease.
+Kevin Whittington: Yes. So the lease is 2,00
+Amber Fu: Mhm. And you need to add like actual six 600 for the for
+Kevin Whittington: usage and for the usage.
+Amber Fu: the usage, right?
+Kevin Whittington: Yes,
+Amber Fu: Okay. Okay.
+Kevin Whittington: that's 2700 and so that's okay. plus 600. So that's 2700 for the year divided by 12. So 225.
+Amber Fu: That's that's that's a lot.
+Kevin Whittington: It's a lot, but we have 2500 square feet and we have 8,000gallon pool and we have to run
+Amber Fu: Oh, yeah. But how how how often you're using the pool right
+Kevin Whittington: the cleaner in that pool and the pump.
+Amber Fu: now?
+Kevin Whittington: Oh, I don't use it that much, but I like to look at it.
+ 
+ 
+00:24:09
+ 
+Amber Fu: Okay.
+Kevin Whittington: But the cleaner has to come on whether I get it or not. So, you have to run the pump.
+Amber Fu: Okay.
+Kevin Whittington: So, the pumps have to run six hours a day.
+Amber Fu: Okay.
+Kevin Whittington: You can look out at the beautiful water.
+Amber Fu: Okay. Okay.
+Kevin Whittington: It's too cold to go get in there right now.
+Amber Fu: Sure.
+Kevin Whittington: But if I want to get in there, I have to turn the heater on and then that's warm.
+Amber Fu: Uh-huh.
+Kevin Whittington: But it's therapy therapy for me to see the water.
+Amber Fu: Okay. Okay. Got you. And and for the pool like uh uh like do you know exactly like how how how much you you know you using the electricity for the
+Kevin Whittington: Okay.
+Amber Fu: pool.
+Kevin Whittington: Like I was saying before, I have to do a a guesstimation where from
+Amber Fu: Mhm.
+Kevin Whittington: previous Okay. U like there's days where the sun may not shine.
+Amber Fu: Mhm.
+Kevin Whittington: Then you can really kind of tell because that
+ 
+ 
+00:25:03
+ 
+Amber Fu: Mhm.
+Kevin Whittington: that meter I showed you, it when we're asleep, we use 0.5 kilowatts.
+Amber Fu: Mhm.
+Kevin Whittington: When we wake up,
+Amber Fu: Mhm.
+Kevin Whittington: we go almost to one.
+Amber Fu: Mhm.
+Kevin Whittington: And when that pump comes on, we still save,
+Amber Fu: Mhm.
+Kevin Whittington: but we don't we don't save as much.
+Amber Fu: Mhm.
+Kevin Whittington: That pump's probably using at least two kilowatts,
+Amber Fu: Mhm.
+Kevin Whittington: maybe three an hour.
+Amber Fu: Mhm. Got it. And like like even though like you don't check often like the app anymore like does energy still said somewhere in the back of your mind.
+Kevin Whittington: Yes. Energy is always in the back of my mind. You're talking to the right person.
+Amber Fu: Okay. Okay. That's good.
+Kevin Whittington: Yes.
+Amber Fu: And is it something like you feel you handle it or something like you just hoping to stay fine?
+Kevin Whittington: Uh I definitely hope to stay fine. I'm better than most. I think about this. My wife, she doesn't want to think about it.
+ 
+ 
+00:26:03
+ 
+Amber Fu: Okay.
+Kevin Whittington: She just wants it to be there.
+Amber Fu: Yeah.
+Kevin Whittington: She just wants to wake up and boom, it's done.
+Amber Fu: Okay. Yeah. Well, same. Same.
+Kevin Whittington: Yeah.
+Amber Fu: Okay.
+Kevin Whittington: She wants the bill just to be low.
+Amber Fu: And
+Kevin Whittington: She doesn't want to be looking at the bill do this and monitoring it by the
+Amber Fu: okay. Got you.
+Kevin Whittington: day.
+Amber Fu: And like do you feel like the responsibility for getting this right entirely on you?
+Kevin Whittington: Yes.
+Amber Fu: Okay. And if something like a slowly went wrong over time, do you feel like anyone would catch it or would be on you to
+Kevin Whittington: Oh,
+Amber Fu: notify?
+Kevin Whittington: it'll be on me to catch. Oh, it'd be on me to catch because if the uh if I looked into the uh
+Amber Fu: Okay.
+Kevin Whittington: SE Edison bill and it's way high and we haven't produced any
+Amber Fu: Mhm.
+Kevin Whittington: electricity, then that means I need to make a call and say we have a panel or the system is not
+ 
+ 
+00:26:55
+ 
+Amber Fu: Mhm. Mhm. Got you.
+Kevin Whittington: working.
+Amber Fu: And and and like when the Tesla and Addison and the like solar app like all show different thing like who do you trust to tell you like whether
+Kevin Whittington: Right.
+Amber Fu: everything is actually okay?
+Kevin Whittington: Um I do trust um all of the apps to an extent.
+Amber Fu: Uh-huh.
+Kevin Whittington: I I definitely do.
+Amber Fu: Mhm.
+Kevin Whittington: Um Edison could make a mistake. They definitely could.
+Amber Fu: Mhm.
+Kevin Whittington: Um but it's just I mean you just you really have to trust if it gets too crazy.
+Amber Fu: Mhm.
+Kevin Whittington: Right now I most people don't even know what crazy is. I do because I looked at it for so many years now I can sit back. You know,
+Amber Fu: Mhm.
+Kevin Whittington: if that if I wake up and I've used 100 kilowatts, I'm like, whoa, this isn't right. Because I know my average is about I can average H.
+Amber Fu: it.
+Kevin Whittington: Well, before they start making us pay, I could look at it and
+ 
+ 
+00:27:59
+ 
+Amber Fu: Mhm. Mhm.
+Kevin Whittington: see.
+Amber Fu: But like if like after maybe sometime you wake up and you say, "Oh, this number doesn't seem right." Like what are you going to do next?
+Kevin Whittington: Now all I can do is call um Sunstrong and say, "Hey,
+Amber Fu: Uhhuh.
+Kevin Whittington: we need an audit.
+Amber Fu: Okay.
+Kevin Whittington: We need to speak to, you know, a
+Amber Fu: Okay. Okay.
+Kevin Whittington: technician."
+Amber Fu: Okay. And like and do you like like so like you mentioned that you're I think you're on the EM2, right?
+Kevin Whittington: Say that
+Amber Fu: The policy the you the solar is uh you have a is a
+Kevin Whittington: again.
+Amber Fu: EM2, right?
+Kevin Whittington: Oh, yes. Name it. Name it, too.
+Amber Fu: Name two. Yeah. And like do you feel like your setup is like protected or like more like you just got lucky with timing?
+Kevin Whittington: lucky, but don't get too happy because they're trying to vote it away.
+Amber Fu: Oh. Oh,
+ 
+ 
+00:28:53
+ 
+Kevin Whittington: Yeah. They're saying,
+Amber Fu: really?
+Kevin Whittington: um, we shouldn't be getting those savings. They're losing money on us getting savings, so we need to take it from
+Amber Fu: Oh,
+Kevin Whittington: you.
+Amber Fu: I I didn't know that. Well, is that is that like this year happened or like
+Kevin Whittington: It hasn't happened but uh different politicians and um energy regulators they they wanted to take it
+Amber Fu: Okay.
+Kevin Whittington: away.
+Amber Fu: And well like if the rules change again like what what do you expect to see is coming?
+Kevin Whittington: Um I I hope it never comes.
+Amber Fu: Okay. Okay. And but well if there really change like what are you going to do?
+Kevin Whittington: Um, I just have to deal with
+Amber Fu: Okay. Gotcha.
+Kevin Whittington: it.
+Amber Fu: And and um and I I think like the the uh the solar you show me the app.
+Kevin Whittington: Mhm.
+Amber Fu: Uh if you need to see like exactly number you need to pay right now, right?
+Kevin Whittington: Say that again.
+ 
+ 
+00:29:53
+ 
+Amber Fu: Like 99 uh the solar solar app you show me and you if you want to say
+Kevin Whittington: Mhm.
+Amber Fu: exactly number you need to pay right now, right?
+Kevin Whittington: Yes. 100
+Amber Fu: Okay. Okay.
+Kevin Whittington: bucks.
+Amber Fu: And like what bother you more like a pay another monthly fee or paying with your time and attention.
+Kevin Whittington: Oh, it's it's it's like getting another streaming service you don't watch.
+Amber Fu: Okay. Okay. I got you. And well um think about it like right now if you have a magic and you you can change like your one setup what you going to be change?
+Kevin Whittington: if I could change
+Amber Fu: Yeah. Or be like like maybe make your solar or like EV charging smarter or something like that.
+Kevin Whittington: something.
+Amber Fu: Like what are you gonna change? One
+Kevin Whittington: Um,
+Amber Fu: thing.
+Kevin Whittington: I would it's probably there. I would like to know the efficiency of the actual um panel. If I knew,
+Amber Fu: Okay.
+ 
+ 
+00:30:59
+ 
+Kevin Whittington: oh, the panel is operating at 90% efficiency,
+Amber Fu: Mhm. Mhm.
+Kevin Whittington: that would help me more than just the amount of energy that I'm using because I don't know the health
+Amber Fu: Mhm.
+Kevin Whittington: of the panel.
+Amber Fu: Mhm. Got you.
+Kevin Whittington: Now,
+Amber Fu: Got you.
+Kevin Whittington: if you can get metering with uh panel health
+Amber Fu: Mhm. Got you. And and um and like like if like like if your wife doesn't want to think about energy at all, like what would she pay attention to? Like a monthly number or like a large or like
+Kevin Whittington: Oh, okay. So, like Google Nest when you save, they send you this little funny little email with a little leaf. Oh, you saved. You were so good. That would be good. A happy email. Hey,
+Amber Fu: Okay.
+Kevin Whittington: look. Look, your consumption is better. Oh, you're saving the world. You're saving trees.
+Amber Fu: Okay. Okay.
+ 
+ 
+00:31:56
+ 
+Kevin Whittington: That would be
+Amber Fu: Got you. Okay. Okay. Got you. Got you.
+Kevin Whittington: fun.
+Amber Fu: And like and like you mentioned that like if you wake up and you use like a 100 kilowatt you will be like thinking oh is that right? Like so what's your normally daily range like a normal
+Kevin Whittington: Um,
+Amber Fu: day?
+Kevin Whittington: now see, I'm going to have to go back into my mind. Um,
+Amber Fu: Uhhuh.
+Kevin Whittington: in the summertime, I mean spring, I would be at minus I'd have some minus8s,
+Amber Fu: Oh, okay.
+Kevin Whittington: minus5s, and then the winter time,
+Amber Fu: Mhm.
+Kevin Whittington: I'd have some plus fours, plus fives. Sometimes if we had a party or a charge,
+Amber Fu: Mhm.
+Kevin Whittington: we'd be at a plus 30 kilowatt hour.
+Amber Fu: Mhm. And and like what number would trigger a like oh oh no moment for you like 20%
+Kevin Whittington: Uh even 30 and we didn't have a party.
+Amber Fu: higher.
+Kevin Whittington: If I didn't have the uh jacuzzi on and the air condition wasn't running.
+ 
+ 
+00:32:57
+ 
+Amber Fu: Uh
+Kevin Whittington: Yeah. Anything over 30,
+Amber Fu: uhhuh.
+Kevin Whittington: I'm like, "Hey, what was going on
+Amber Fu: Okay. Okay.
+Kevin Whittington: here?
+Amber Fu: And like and when like something feels off like what's your stepbystep process? Like what do you check first? like Addison or
+Kevin Whittington: Well, I mean it's going to be quick.
+Amber Fu: Tesla
+Kevin Whittington: Did we charge two cars? Did we have a party? If we didn't, something's wrong. You know, maybe someone is you charge their car here.
+Amber Fu: okay.
+Kevin Whittington: I don't
+Amber Fu: Got you. And and like do you feel like there have a hard part like finding the data or
+Kevin Whittington: know.
+Amber Fu: like compare the app or like deciding like whether it's worth to calling Like do you think like is there have any like a hardest part for
+Kevin Whittington: Um, I don't for me I wish checking that bill was
+Amber Fu: you?
+Kevin Whittington: a little easier. I mean I have experience with it because you can check it by the week, by the month, by the day, by the hour.
+ 
+ 
+00:34:08
+ 
+Kevin Whittington: And so you click on that and you can see those graphs. Like I was able to tell you I use point a little probably 04 or
+Amber Fu: Mhm.
+Kevin Whittington: 0.2 of a kilowatt when we go provided the AC isn't on or a ceiling fan or something like
+Amber Fu: Mhm. Got you.
+Kevin Whittington: that.
+Amber Fu: And and if like they have a app can could just tell you like oh your pool cost you like let's say like a $10 per month. Will that change anything you do?
+Kevin Whittington: Uh, no. Because I can kind of uh I mean I can just I just would know because it
+Amber Fu: You just like to watch it, right? Okay.
+Kevin Whittington: I know it's set to come on at 8:30 and it goes off at
+Amber Fu: Uhhuh.
+Kevin Whittington: 2:30. Well,
+Amber Fu: Okay.
+Kevin Whittington: it's going to do six hours.
+Amber Fu: Okay. Okay.
+Kevin Whittington: I mean, it would be kind of nice to know.
+Amber Fu: And and Mhm.
+Kevin Whittington: I can I can already just kind of estimate it.
+ 
+ 
+00:35:05
+ 
+Amber Fu: Mhm. Got it. And let's say like if could save let's say like $30 per month by changing pump schedule like would you actually do it or is a P that
+Kevin Whittington: Oh,
+Amber Fu: just
+Kevin Whittington: yes. Yes. If they said, "Well, if you change the pump schedule," for some people,
+Amber Fu: Okay.
+Kevin Whittington: that's a that's a really good one. But for me, because I'm on the better uh um lease deal as far as compensation for what I generate,
+Amber Fu: Mhm.
+Kevin Whittington: it's dollar for dollar. But when you're not dollar for dollar, you really need to know they they they would need that.
+Amber Fu: Mhm. Mhm.
+Kevin Whittington: All the new people getting solar,
+Amber Fu: Got
+Kevin Whittington: you need to know when to run different processes. When should I charge?
+Amber Fu: you. And
+Kevin Whittington: But for those grandfathered in, it wouldn't make much of a difference. But for the new people, oh, it be
+Amber Fu: Yeah. Yeah, that's true. That's true.
+ 
+ 
+00:36:02
+ 
+Kevin Whittington: essential.
+Amber Fu: And and and and if there like was a one place that can comband like a Tesla, AdSense, solar together like in one dashboard and you never had to cross check again.
+Kevin Whittington: Oh,
+Amber Fu: How valuable that you
+Kevin Whittington: now that's really nice. That's really nice. I would I would show that to my friends and brag.
+Amber Fu: Okay.
+Kevin Whittington: Hey, look what I can
+Amber Fu: Okay.
+Kevin Whittington: do.
+Amber Fu: Okay. Okay. Okay, got you. And and and uh like would you rather like pay a small monthly fee or pay only when the app actually fund you the savings? Let's see like if there app you know can handle all the like timing thing
+Kevin Whittington: Um,
+Amber Fu: and tell you exactly uh like when you're using the power how much will be and they can do like like they can come in like the Tesla solar anything in the one dashboard and just like every week can clearly to explain you like what happening this week and how much you're using uh something like that like
+ 
+ 
+00:37:12
+ 
+Kevin Whittington: Um, it's it's it sounds wonderful,
+Amber Fu: And
+Kevin Whittington: but I'm a typical consumer. We don't want any more bills. That's so that's why I was saying if it was adbased,
+Amber Fu: okay,
+Kevin Whittington: I I would be fine with that.
+Amber Fu: okay.
+Kevin Whittington: I mean,
+Amber Fu: But Mhm.
+Kevin Whittington: I watch YouTube all the time and I and I like some of the ads.
+Amber Fu: Okay. Okay. Got it. Got it. And um so but if there really can help you to saving like let's say like $40 per month or $30 per month, do you think that would be worth to pay
+Kevin Whittington: I would say for those who are not on the same bill,
+Amber Fu: it?
+Kevin Whittington: they would it would be essential. They would have to pay it. It's pay or lose for those because they're only getting compensated pennies on a
+Amber Fu: Yeah. Yeah.
+Kevin Whittington: dollar.
+Amber Fu: Mhm.
+Kevin Whittington: So only way they can recoup their money is with that particular type of
+ 
+ 
+00:38:05
+ 
+Amber Fu: Mhm. Yeah.
+Kevin Whittington: product.
+Amber Fu: And like do you want to like a manually tag event like a party or like EV charge or would you rather the system like infer it like automatically?
+Kevin Whittington: Oh, like for the receipt for it,
+Amber Fu: Yeah. Yeah.
+Kevin Whittington: how you would Um,
+Amber Fu: Yeah.
+Kevin Whittington: yeah, it's better just to have automatic charge. That way it doesn't it's not as painful. You just look up and you either have money or you don't.
+Amber Fu: Oh,
+Kevin Whittington: So,
+Amber Fu: okay.
+Kevin Whittington: it's it's much better to do it that
+Amber Fu: Okay. Got it.
+Kevin Whittington: way.
+Amber Fu: Got it. Well, like you know if we build like one simple thing first like every day show you dollar dollar number tell you like a normal this off and if it's off it explain like why why in like in plain English and would you use that and what would feel like fair way for use for us to make money as or time fee.
+Kevin Whittington: Um, yeah, I would I would definitely use it, especially See,
+ 
+ 
+00:39:08
+ 
+Amber Fu: Mhm.
+Kevin Whittington: I just moved into the house, so I was really interested.
+Amber Fu: Mhm.
+Kevin Whittington: What have I gotten myself into?
+Amber Fu: Mhm.
+Kevin Whittington: So, I needed to monitor. Now I'm more established in the house,
+Amber Fu: Mhm.
+Kevin Whittington: so I don't really need to know as much to the detail as I did
+Amber Fu: Mhm. Got you. Got you.
+Kevin Whittington: before.
+Amber Fu: Got it. Well, like and but like this is was super helpful. I really appreciate like how you how clearly you walk me through your set setup. Like what I'm hearing is like you can find the data but you want the system that turn it into confident like a panel healthy or like a normal with a normal or like a clear cur p clear p clear p clear p clear p clear p clear p clear p clear p clear p clear p clearly like explanation without needing those three
+Kevin Whittington: Right. Right.
+Amber Fu: apps.
+Kevin Whittington: Or or or the uh the uh Sunstrong app that I just pulled up.
+ 
+ 
+00:40:03
+ 
+Amber Fu: Uhhuh.
+Kevin Whittington: They want $99 for the year.
+Amber Fu: Oh,
+Kevin Whittington: So someone else would have to beat that.
+Amber Fu: okay.
+Kevin Whittington: Now,
+Amber Fu: Okay.
+Kevin Whittington: they had another one. Mine wasn't set up for it.
+Amber Fu: Mhm.
+Kevin Whittington: It shows you your energy consumption in real
+Amber Fu: Mhm.
+Kevin Whittington: time.
+Amber Fu: Mhm.
+Kevin Whittington: I saw that when the guy showed it to me when they were putting in my uh car charger, but my system wasn't set up for that.
+Amber Fu: Okay.
+Kevin Whittington: But yeah,
+Amber Fu: Okay.
+Kevin Whittington: it there there's apps that will show right at that moment.
+Amber Fu: Okay.
+Kevin Whittington: electricity in kilowatts moving. I mean, that was really nice, but I didn't need it to have that.
+Amber Fu: Okay.
+Kevin Whittington: I can go back at the end of the day and look and see. Boom, boom,
+Amber Fu: Mhm. Gotcha. Gotcha. Gotcha. And you know uh this is super helpful.
+Kevin Whittington: boom.
+Amber Fu: You know, you give us like exactly the kind of real world contact we need to help home like run cheaper and smarter.
+ 
+ 
+00:41:02
+ 
+Amber Fu: And you know, one last thing is like we once we have a early version of the app ready, would you be open to try it out as a beta tester just you know just you know look
+Kevin Whittington: Yes. Yes.
+Amber Fu: around and see like oh this is makes sense or oh doesn't make sense.
+Kevin Whittington: Oh, I'm right here. I'm all in.
+Amber Fu: Okay.
+Kevin Whittington: Just Yeah.
+Amber Fu: Okay.
+Kevin Whittington: Email me or email.
+Amber Fu: That would be perfect.
+Kevin Whittington: Call me if I don't answer the text or email.
+Amber Fu: Okay. Sure.
+Kevin Whittington: I love technology.
+Amber Fu: Sure.
+Kevin Whittington: I love
+Amber Fu: I appreciate.
+Kevin Whittington: technology.
+Amber Fu: Yeah. You know, just you know, basically just using our app like in your in your daily life and just telling us like oh what do you feel good or like you feel annoying anything your feedback would be super valuable for us. Okay.
+Kevin Whittington: Yes.
+Amber Fu: Appreciate Kevin and I really appreciate this today conversation. Thank you Amber.
+Kevin Whittington: Should tell me your name again. Amber. Okay. Thank you so much,
+Amber Fu: Okay.
+Kevin Whittington: Amber.
+Amber Fu: Okay. Take care.
+Kevin Whittington: Bye. Okay. Bye.
+ 

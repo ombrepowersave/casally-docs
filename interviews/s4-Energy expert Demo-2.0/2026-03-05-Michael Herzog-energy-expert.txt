@@ -1,0 +1,968 @@
+Mar 4, 2026
+Casally Interviews(Utility Bill&Solar Credit Consulting) (Michael Herzog) - Transcript
+00:00:00
+ 
+Amber Fu: Uh, hello Mike.
+Mike: Hello.
+Amber Fu: Hi. How are
+Mike: Good. Good. Sorry about that.
+Amber Fu: you?
+Mike: I was on one of the previous links and it must have been the wrong one. So, yeah, I was sitting there in the waiting room, but I think we're good. I think we're
+Amber Fu: No worry at all.
+Mike: good.
+Amber Fu: Thank you. Thank you. you know joining us like uh taking the time speak with us today and
+Mike: Yeah, of course. Of course.
+Amber Fu: yes and we truly appreciate your experience and the perspective.
+Mike: Mhm.
+Amber Fu: Yeah. And um so let me briefly introduce who we are and why we want to have this conversation. Uh my name is Amber and uh we are building a company called the castle. So our uh vision is to become like financial layer for household
+Mike: Mhm.
+Amber Fu: energy and you know today uh we think like most homeowner versus solar or battery don't actually understand how their bill is calculated and how
+Mike: Mhm.
+ 
+ 
+00:01:31
+ 
+Amber Fu: credit are applied or whether they're like truly saving the money. So uh we we believe like there have a gap between like what utility calculate what installer promise and what home owner actually see. So basically we're just trying to close the app. Yes. And oh also join me today is our uh c-orker uh Ling is our technic lead. So his responsibility for the uh the architect behind our building log uh logic and uh data modeling. So while I'm more focused more on the product direction. Yeah. So uh LinkedIn may ask few deeper technique question around uh you know the calculation logic or terform mapping. So just make sure we are building the correct things. And um before we start like uh I I wondering like which state or
+Mike: Yep.
+Amber Fu: utility are you most familiar with?
+Mike: So the the work I do right now is is around the country um different locations. So I do Midwest,
+Amber Fu: Okay.
+Mike: Northeast, Texas, West Coast, California, um everything like that.
+ 
+ 
+00:02:44
+ 
+Mike: My I have direct utility experience in in the middle part of the country, um is where I'm at. But in consulting, I've been all over in uh international consulting spaces, too.
+Amber Fu: Got you.
+Mike: So different models, regulated states, deregulated states,
+Amber Fu: Got
+Mike: um investor own utilities, public publicly owned utilities, lot lots of different utilities in that space.
+Amber Fu: you. Got you. That's perfect. That's perfect. Thank you. And uh so before we go deeper uh into uh technical question so we love to briefly show you our current demo so you have a context for what we're
+Mike: Cool.
+Amber Fu: building.
+Mike: Yeah, that'd be awesome.
+Amber Fu: Yeah, let's just remind you like still really early stage.
+Mike: Oh, yeah.
+Amber Fu: So,
+Mike: Yeah. No, I'm all good.
+Amber Fu: okay.
+Mike: All
+Amber Fu: Okay. So, let me just share the screen.
+Mike: good.
+Amber Fu: Okay. Give me a second. Okay. Perfect. So, um can you see the screen?
+Mike: Yep. Yep.
+Amber Fu: Okay, cool.
+ 
+ 
+00:03:47
+ 
+Amber Fu: So uh uh you can see like the over the there have like a top section provides environment and system contact. So we display like real uh real-time status for the household energy ecosystem like solar, EV,
+Mike: Mhm.
+Amber Fu: battery and the grid connection. So user immediately understand like the current state of their energy system. So uh so the weather contact is included because energy usage and solar production are highly weather uh dependent. Yes. So uh so if we are pulling device that is and in uh interro data what field do you consider must have for cred uh credibility?
+Mike: Um, can you repeat that? Sorry, I was looking I was watching that as it was going through.
+Amber Fu: It's okay.
+Mike: Yeah. Yeah. I got I got distracted by your app.
+Amber Fu: It's okay because we yeah because we so if we try to you know pulling device
+Mike: Do it.
+Amber Fu: studies and the interval date the data so what part of field do you think that that's must have for credit uh credibility and which miss field like would you make bill uh reconstruction impossible
+ 
+ 
+00:05:00
+ 
+Mike: Um it's like the the critical if if you're doing anything billing uh obviously energy um if you have that data um power at the same time so K k KWs you're pulling that information across I would say the standard right now in most places is 15 minute interval um so if you can go lower than that you're probably going to be okay um but when you start talking about uh valuation, market participation, um ratcheted demand rates, everything like that. Most of that's calculated at a 15-minute interval in the United States. So, as you're pulling that that information, that's that's kind of a critical one to know. Um depending on the the part of the country you're in or or what you're looking at, uh like a timestamp on it, as you mentioned, is very important too, um because it's uh time of use pricing is becoming much more prevalent um in the United States. So understanding when when all of these things are happening um everything associated with that I mean otherwise as you're as you're starting to pull this information across I mean um th those are kind of the basics that that are real time kind of kind of that that piece of data that's coming out out of the information from a residence or business or whatever it might be.
+ 
+ 
+00:06:18
+ 
+Mike: um when when you start to look at other pieces, you know, published tariff information, rate information, um is all all publicly available. Um that all has to be published out there.
+Amber Fu: Gotcha.
+Mike: Um but from like a credibility standpoint, what what I'm looking at right here, um yeah, I mean that that speaks to consumers, that speaks to, you know, somebody who doesn't necessarily know the business inside and out of of what what they need and what they're trying to do.
+Amber Fu: Um but for from like a building re uh reconstruction standpoint like which uh data source are absolutely uh uh critical is it utility interval data or like solar monitory or
+Mike: Yeah.
+Amber Fu: Sorry.
+Mike: So if so basically you're are you trying to you have a device they would put on their system to be able like in front of their meter or by their meter to be able to record some of this
+Amber Fu: Uh because like in the first stage we will only have the
+Mike: information.
+Amber Fu: app the API.
+Mike: Yeah. Yeah. Yeah.
+Amber Fu: Yeah. But the second stage we going to uh we want to the hardware.
+ 
+ 
+00:07:29
+ 
+Mike: Do you want you want to have the hard but now it's just a API from like a Tesla power wall.
+Amber Fu: Yeah but yeah but we Yes.
+Mike: Yeah.
+Amber Fu: But we didn't think like I I haven't thinking like what what kind of hardwell will be uh good for like you know uh we we're thinking like maybe I don't know like a second smart meter or a city clam. I I I didn't know
+Mike: like a a CT clamp. I mean,
+Amber Fu: yet.
+Mike: that's like something typical we'd see or the the collared meters that you can put like in between the meter and the meter socket. Um, you know, something like that that that helps quite a bit. Um, but my question would be, so like from uh any any new solar system that's going to go in, you're going to have that that information, time stamp, solar output. I would say most of them anymore have it almost down to the panel. Um depending on how the inverter strings are set up. Um similarly with any any type of battery backup, you're going to have that level of information.
+ 
+ 
+00:08:29
+ 
+Mike: However, for what you're running, like you don't need you don't need the health of each individual cell, you know, or output. You just need the aggregate total output um and demand from these. But like that's that's the part I'm not sure of where you would get like the actual like home consumption. Um because if you're doing cost cost analysis and offset of that cost
+Amber Fu: Um,
+Mike: analysis, energy usage or or peak demand pricing, whatever it might be from solar or battery, you'd kind of need what what the home would have would have been consuming. Because if like the premise of this product is like here's where you you would have been out without this with our optimization tools and and how it's going to run and put it together to optimize
+Amber Fu: All
+Mike: benefits, rebates, demand response programs, however you might fit into these different areas, like this is where your bill is actually at based off of that. You'd need to know what that that energy delta was. So without kind of knowing what's actually coming into the house um or the premise, residence,
+ 
+ 
+00:09:29
+ 
+Amber Fu: right.
+Mike: business, um what whatever that might be um that that's where it's I think it would be tough to come up with some of this. So that like looking at reconstructing a bill from a critical standpoint um I think you'd need the actual energy consumption of the premise.
+Amber Fu: Gotcha. Gotcha. Uh, thank you for that. And for like a app like ours, what like what level of a data resolution do you think is actually
+Mike: very small.
+Amber Fu: necessary?
+Mike: I I think you would just I think you would just need a couple of data points and it and it's really it's just those those same big numbers if you had uh energy consumption uh instantaneous power in like a 15inute interval and a time stamp on all of those. Um you you could use the tariff language, the billing language and reconstruct it on your own. I think those those are the important
+Amber Fu: Got you. Got you.
+Mike: ones.
+Amber Fu: But in your experience like do most energy app rely more on device APIs like solar uh inventory or and battery
+ 
+ 
+00:10:34
+ 
+Mike: Yep.
+Amber Fu: rather than installing their own hardware.
+Mike: Yeah. If if if they have that available today, um there's no reason not to use it. No reason not to use it. um like 5 10 years ago like you would have to put your own device on there just just because everything was not you know those things were not set up for that and what they were trying to do but in in today's world like every everything has an app already everything has an API it's just use it if you have it
+Amber Fu: Got you. Got you. Thankful.
+Mike: Yeah.
+Amber Fu: And uh so we can go the next. So next will be our most view budget. Uh so this part is really different from a most app.
+Mike: Mhm.
+Amber Fu: So uh it's not like a optimization target. We're not trying to you know push user bill as low as possible. So like it's like more like a to a tolerance boundary and and uh so we don't let user to type any random number.
+ 
+ 
+00:11:22
+ 
+Mike: Mhm.
+Amber Fu: So we ground the the goal in two things uh the last uh three months bill and the user currently rate plan. So we show recommendation range uh the user can choose from and so this part is what turn the our app from the dashboard into a decision system. So we look at the same event event like a pick our EV charging and ask like oh does this event meaningful threaten your goal? Yes.
+Mike: Yeah. Yeah, I follow.
+Amber Fu: Yeah.
+Mike: Yep.
+Amber Fu: And uh for uh like so when you see this does this feel like reasonable that we anchor uh this on pass bill and the replan or that that feel too much friction.
+Mike: No, I I think this is I think this this is very reasonable on what you would do.
+Amber Fu: Really?
+Mike: And um especially since you're starting off with a reasonable bill like this this is, you know, like this what you have on the screen here is $200 US. Like they can't pick a $100 US just because that like you're never you're not going to be able to meet
+ 
+ 
+00:12:36
+ 
+Amber Fu: Yeah.
+Mike: something like that. Um, but yeah, having here's here's what your targets would be, here's, you know, here are things that you would look at and and kind of that instantaneous control. I think that's very reasonable and especially if there's an upfront setting of, you know, here's any any operation like EV charging you could just by default push off to non-critical peak or time of use power pricing. Like would you want to do that? Like yes, set it up. Set up the control on those things. I I think this looks like a very very reasonable
+Amber Fu: Got you.
+Mike: tool.
+Amber Fu: Got you. Yeah. Because uh so I I try to clarify one thing because I uh I think the key idea may not have uh come across clearly.
+Mike: Mhm.
+Amber Fu: So uh the goal is not the like optimize the bill to the lowest possible number. So the goal is to help the user avoid unexpect bill.
+Mike: Mhm.
+Amber Fu: So the user set a bill boundary and the system uh yes the
+Mike: Yep.
+ 
+ 
+00:13:39
+ 
+Amber Fu: system uh help the user to see everyday action against the boundary. So, for example, if the user sets a two $200 bill a month a monthly bill goal and they
+Mike: Yep.
+Amber Fu: plug in their EV during the peak period, the system will say, "Oh, this action may push your bill beyond your goal." So, charging after 900 p.m. would likely keep you with the
+Mike: Yeah.
+Amber Fu: target.
+Mike: And that's um I guess I was thinking as it was set up upfront, there would be kind of that decision tree questions of like here's here's your target for what your bill is. Here are, you know, three or four items that contribute to that high bill. Like did you know your time of use rates were here? Any deferable um action we can take outside of this? Do you want to set that up to happen? Like yes. So, just by default, I want my EV to charge at two in the morning rather than than in the middle of the afternoon. But yeah, I know I I follow what you're doing.
+ 
+ 
+00:14:41
+ 
+Mike: It's just it's not they push a button and the house automates itself. It's just giving them choice and hey, do do you want to start this device right now knowing that this is going to cost more money
+Amber Fu: Yeah.
+Mike: if you do it now rather than later?
+Amber Fu: Yes. Yes. So uh so do customers uh typically have a clear sense of what their bill should be after solar for your
+Mike: Um yeah,
+Amber Fu: experience?
+Mike: yes and no. It's it's uh going back to like 5 years ago, people absolutely knew what it was. Um because it was early adoption, people were putting those on there. But a lot of what's happening today, and it's it's a big issue, is is there's poor practices from the installers and and developers in places who promise very very large bill savings um and what that looks like. So, if if people talk to their utility ahead of time, I think there's a pretty good understanding of what it looks like. But if people are doing their own research and or relying on somebody trying to sell them a product or installation, then there's a lot of misinformation and uh a lot of poor expectations of of what what their bill actually is versus what they expected it to
+ 
+ 
+00:16:03
+ 
+Amber Fu: Gotcha.
+Mike: be.
+Amber Fu: And like and for like uh because our first market will be in the
+Mike: Yeah.
+Amber Fu: California and uh for in the California like for TU plan. How is TU typically displayed and calculate on the real utility bill uh by period or blend total?
+Mike: Yeah, it's they they they will break it out by period um and and show it and we'll have a line by line and say you consumed this many kilowatt hours during during peak periods. You consume this many per kilowatts out of out of peak periods. Um and have it broken out line by line. Um, I would say if even if you go to some of the largest utilities like San Diego Gas and Electric, Southern California, Edison, uh, PG&E, like they they'll have sample bills on their website and just say this is what a sample net metering bill will look like and kind of walk walk people through these are the different line items. This is how much you consume during this period for time of use. This is how much your solar produced during these different periods.
+ 
+ 
+00:17:10
+ 
+Mike: Um, so they're they're monitoring all of that, but most of that is available on the bill. Now, I don't know, some of it's some of it's available real time. Um, you know, if they have the app and have it developed, but but every time the bill's reconciled, all that information will be in
+Amber Fu: Got you. Got you.
+Mike: there.
+Amber Fu: And does uh and does till you apply both uh generation and deliver in your
+Mike: Uh, most of the time it's on delivery.
+Amber Fu: experience.
+Mike: Most of the time it's on delivery. there there will be depending on how you're structured from the generation side on that you know diff different periods critical peak pricing but most of that's a fixed fixed charge on those so California not necessarily but some states like Texas where it's very deregulated uh you can play the market and say what is the actual price of energy and and this is what I'm doing and this is how it looks but most of the time the theou pricing is is more focused on the delivery than than the generation
+ 
+ 
+00:18:09
+ 
+Amber Fu: Got you.
+Mike: itself.
+Amber Fu: But but from like a tariff modeling uh perspective, how sensitive are residential wheel to small behavioral change like EV charging time?
+Mike: Um they can be pretty significant. Um when you look at it, it's it's the the EV model that or not EV but the the time of use model typically employed in the United States. It's we have very drastic peaks like they're they're very very sharp peaks.
+Amber Fu: Nothing.
+Mike: Um so it's it's highly highly like different costs between the the time of use periods and non-time of use periods. You know double triple um sometimes four times as much during those those critical peak pricing or or time of use periods. So um for something like EV charging where you are accumulating quite a few kilowatt hours during those periods like it it would be noticeable. It would be noticeable. um you know, it's not it's not hundreds of dollars a month necessarily, but it's tens, 20s, you know, $50 a month, things like that. You could you could you could rack up a bill very quickly if you didn't pay attention to
+ 
+ 
+00:19:13
+ 
+Amber Fu: Gotcha. But but under the TU uh structure is the uh
+Mike: that.
+Amber Fu: marginal cost difference really large enough for behavioral shift to matter.
+Mike: Yeah. Yeah.
+Amber Fu: Okay.
+Mike: Um, lately it's a uh I don't I won't I'll get the numbers wrong off the top of my head, but I think the average electric rate in California right now is about 28 cents per kilowatt hour. Um, and critical peak pricing could be 50 cents, 75 cents. I mean, it can be very, very expensive.
+Amber Fu: Got you. Got you. Okay. Thank a lot for that.
+Mike: Mhm.
+Amber Fu: That's really helpful uh information for
+Mike: Yeah. Because I I you don't have to tell me,
+Amber Fu: us.
+Mike: but um I don't know what what country you're located out of or building, but like I I did some consulting work in Malaysia recently and like their their load profile is very very different than what we see. So it's like very flat and a couple of peaks here and there. So it's not not quite the same as the US.
+ 
+ 
+00:20:11
+ 
+Mike: So like Malaysia is implementing time of use rates right now. um and putting that in there and it's a very very different terrorist structure than than what we have in the United
+Amber Fu: Gotcha.
+Mike: States.
+Amber Fu: Uh because like right now uh so our company is in the LA the Pasadena
+Mike: Oh,
+Amber Fu: but our team like we we have a like uh uh different uh the group
+Mike: nice.
+Amber Fu: uh the a part of group is in the Shenzhen China and another uh
+Mike: Okay.
+Amber Fu: the group will be in LA. So it's like you know uh and in China it's totally different.
+Mike: Yeah. Yeah.
+Amber Fu: It's like the government Yeah.
+Mike: Very totally totally
+Amber Fu: Yeah. So the electricity will be really cheap.
+Mike: different.
+Amber Fu: Yeah. So uh okay. So let's uh move on to the saving card. So um so the saving card is not just a reward is more like a reflect how your reason behavioral uh with your uh selected goal. So uh if let's say like if you use user goal is a financial uh tolerance boundary.
+ 
+ 
+00:21:20
+ 
+Amber Fu: The savings shows how much buffer you currently have.
+Mike: Okay.
+Amber Fu: Yeah.
+Mike: Yeah. Yeah.
+Amber Fu: So for uh uh for your like a particular standpoint like do homeowner usually think in term of saving money or in term of avoiding bill surprise.
+Mike: Um, saving money is always important. Um, and and especially the the homeowner themselves and kind of the the demographic they fall in. Um, and and how how big of a chunk those monthly utility bills are to them, especially in places like California. Um, like it's significant. I mean, those those things are significant. So seeing seeing that from like a cost-savings standpoint um is is the primary driver for for a lot of these. Now you know there's secondary benefits and carbon reduction and you know how how you're meeting these targets but seeing it represented from a financial standpoint I think has has a lot of value from from what we
+Amber Fu: Got you.
+Mike: see.
+Amber Fu: But but if we calculate saving based on a vote uh uh marginal cost, what base would you consider defensible?
+Mike: um that that's where if you had past billing information like that's that's always a good start.
+ 
+ 
+00:22:39
+ 
+Mike: So, like,
+Amber Fu: Okay.
+Mike: you know, here's your past couple of bills and and if you went back here and said, "Hey, your your bill last July, last whatever month it was, it was this, we can we can reasonably assume what that is." And um, you know, there there's ways you can kind of scale those up or change them a little bit based on weather patterns and and what it looked like to see what their energy consumption might have been or what it would look like. Um, defensible is a really good word to use in there and what that means and like how can we come back and that that would be a very straightforward way from from a regulator standpoint from whoever is looking at it like this is how much under similar conditions they used this much power before. nothing else changed except our app. Um, and they use, you know, something tangibly lower of what it
+Amber Fu: Got you.
+Mike: was.
+Amber Fu: But uh but do you think the weather should be included? The seasonal weather.
+Mike: Yeah. And there there are um it's really tough to to figure that out and put it
+ 
+ 
+00:23:35
+ 
+Amber Fu: Okay.
+Mike: together. So, there are some generalities you can use. Um what one thing from like a for utility forecasting standpoint what we would look at to kind of
+Amber Fu: Mhm.
+Mike: normalize weather beha behavior from from like a system scale um they call them like heating degree days and cooling degree days. So it's um it's it's national weather forecast information.
+Amber Fu: Mhm.
+Mike: It's put out there and it's it basically says like hey if it's above 65 degrees it's you needed to run your AC. If it's below 65 degrees you potentially needed to run your heat. and they kind of measure the climate based off of that information. So, it's it's just a quick way to to scale that and to be able to say like, well, was it a hot summer or was it a cold summer? You know, was it a hot winter or was it a cold winter? Um, and even down to, you know, monthto month, daytoday, week to week. Um, they have averages for that type of information out there. So, you can kind of defensively say like yes, like you didn't have to run your air conditioning as much this summer.
+ 
+ 
+00:24:40
+ 
+Mike: We took that into account. Um, but we still, you know, showed all of these savings on top of
+Amber Fu: Got you.
+Mike: that.
+Amber Fu: But but in your experience like do utility themselves ever calculate saving that that that way?
+Mike: Um, from like a savings standpoint, yeah. Um, yeah, we we we will look at those things. We'll put it in.
+Amber Fu: Oh
+Mike: It's it's a little bit different from like um the energy standpoint because lots of times when we're talking about like because energy sales from the utility standpoint, like that's money. like we're we're in the business of selling energy.
+Amber Fu: yeah. Where?
+Mike: Um but it's more from like a peak peak demand reduction um where it is because that prevents the you know construction of infrastructure and and new projects and all of those things.
+Amber Fu: Um,
+Mike: So it's if we can shave the peak demand a little bit that's that's more valuable and um using that weather normalization we can that's that's about the only way to predict like what would have happened you know if we we didn't do that.
+ 
+ 
+00:25:37
+ 
+Amber Fu: got you. Got you. Thank you so much. And that's a really valuable information and uh okay so we can move to the next. So the below the saving section is what we call the ex uh execution card. So this is where the system move from the awareness to the action. So the execution card is always like trigger relative uh relative for to you to the user select goal. So uh basically this just answer one question like what action right now would mostly meaningful reduce risk relative to the user goal. So for this in this case the example the esocation car show the power outage warning but it could also be like you know the EV charging during the peak or battery charging the high price period. So the contact change but the uh uh uh structure stay the constant. So and uh when you click like a view detail there have uh some like uh event detail page and we explain like the reason reasoning behind the recommendation. Yeah.
+Mike: Mhm.
+ 
+ 
+00:26:49
+ 
+Amber Fu: So uh you can click any uh Yes. So th those kind of like give the user the idea like what's
+Mike: Yeah.
+Amber Fu: happening.
+Mike: Yeah.
+Amber Fu: Yeah. the time window and the clear call to action. So, uh the the card for quick decision making and the event detail page is for like a transparency. Yeah. So, uh for uh so for this part I have a couple question for you. Uh so from your perspective does this make sense to trigger execution suggestion relative to a financial boundary rather than pure optimization.
+Mike: Um that's that's a good question of of how to how to approach that and go forward. Can you I mean obviously it's it's working in the background and doing that if it's coming up with suggestions um and what it's looking at. I mean that's almost you could almost have both right and just say optimize it for me you know from a pure financial standpoint of like what reduce energy consumption and cost um you could do actually you could do it both ways from that you could do reduce energy consumption or reduce cost um if you wanted to optimize on either one um but but hitting a target I think I think is a great start um and and you know maybe this is more of a final comment from what I've seen but a
+ 
+ 
+00:28:22
+ 
+Mike: lot of what you're explaining in here. Um, keeping it at that high level of just saying like, I think this is what my bill want. I want to get it lower. It doesn't have to be optimized or perfect. Like helps a lot of people. Um, I think it's it stays out of what's cons confusing about tariffs and time of use pricing and all of these different things that that don't make sense. um do a page like this that's very simple like hey if you want to reduce your bill don't charge your car during this period um and put it on there and and the the previous page to this where it was here's a couple of suggestions do these if you want to you don't have to um like no you know maybe you don't want to charge your car car during your EV during the those off- peak periods because you need to charge it during peak periods but um the way it's set up is okay Um I I think people do like it's 2026 in the world of AI like I think there is some type of expectation of automation
+ 
+ 
+00:29:23
+ 
+Amber Fu: What?
+Mike: and it just optimizes everything and does it all for you. So having that functionality built in even if you just make it up and say it's AI like it's it's AI and it it optimized it for you. Um I I think that would be appreciated by consumers.
+Amber Fu: Gotcha. Gotcha. So, but like when uh surfacing an execution recommendation, should we always include estimate financial impact or would that risk over simple FI the building structure?
+Mike: I I' I'd put it in there. Um I I would put potential financial impact. Um and it doesn't I don't think it has to be super complicated. Um, but but with a couple of those, like using time of use rates as an example,
+Amber Fu: Okay.
+Mike: I mean, I think you could put it in there for if you charge your electric vehicle now, it's going to be $3. If you charge your electric vehicle at 9:00 tonight,
+Amber Fu: What?
+Mike: it's going to be 27. Um, th those kind of things like it's, you know, it's up to you. You make the decision now.
+ 
+ 
+00:30:33
+ 
+Mike: But having having, I think, those financial implications in there uh would would start to add up. Um, however, and now as I'm thinking about it, the back the opposite of that could be true um to one of your earlier questions or points. If if a homeowner saving, you know, three cents, are they ever going to care? You know, is that or is that just going to be discouraging? Like, oh,
+Amber Fu: Yeah,
+Mike: that's I'm going to go through all of these hardships and change what I'm doing and, you know, it really really does not add up in the end.
+Amber Fu: got you. Got you. But uh so so under the TU uh tariff like wh which residential behavior typically create the largest cost exposure? I know I know maybe like first maybe the EV charging but what the
+Mike: uh the the the biggest one typically and it's not as prevalent in in parts of
+Amber Fu: second
+Mike: California, but uh climate control, AC um heating is Yeah. Yeah. That's that's almost always what what the main peak driver of peak is.
+ 
+ 
+00:31:30
+ 
+Amber Fu: got
+Mike: Um and then then probably the next contributing factor is just coincidence,
+Amber Fu: you
+Mike: which is um pe people get home at the same time. You know, when you get home, you you start to do things, you turn on all the lights, you start to cook dinner, run laundry, everything like that. So, it's it's all of these things starting to run.
+Amber Fu: Good morning.
+Mike: So, it's it's a product of um yeah, one, it's hot, you know, and people want want climate control, and then two, everybody starts doing things when they get home. Um, so it's just how do we can we space all that out a little bit? Um, so we don't don't do it all at the same
+Amber Fu: Got you.
+Mike: time.
+Amber Fu: And because I talked uh a lot of user and some of user feedback said oh they think it's a like a they do a laundry like the they think will be cost a lot of you know uh electricity. Is that true?
+Mike: Yeah. Yeah.
+Amber Fu: Oh.
+Mike: I like a lot a lot is relative.
+ 
+ 
+00:32:29
+ 
+Mike: A lot is a lot is a relative term. Um and and that's where like the the the delta would be um you know 50 cents or or a dollar of of the critical critical peak pricing. you know, it's I I can do a lot load of laundry now at the hottest part of the afternoon on the most constrained day
+Amber Fu: 9.
+Mike: and you know,
+Amber Fu: Yeah.
+Mike: those couple of kilowatt hours are going to cost me a $150 or or if I wait to do it overnight, those couple of kilowatt hours are going to cost me 50 cents, you know, or or whatever it might be. Um, so that that's where, you know, seeing some of those could could be impactful depending on what what product they're using, what they're doing, and even if it's just an alert during critical peak pricing. I mean, I mean, you could calculate generic numbers for a washing machine and a dryer, and it's I don't care what you have at your house. A typical washer, you know, under this standard will running it now will cost this much. Running it later will cost, you know, a lot lower.
+ 
+ 
+00:33:27
+ 
+Mike: Maybe not a lot lower, but something lower.
+Amber Fu: Gotcha. Gotcha. Okay. Thank thanks for that. And uh and we can move on to the next uh is our uh the usage the usage part. So uh so this is our home tab. The last part is like the you the usage they uh provide the the layer behind the goal and execution. So it's allow user to see how their uh consumption map to tou structure and financial exposure. But uh so when mapping interval data to tell you are there tier uh uh threshold or the sessant baseline what we must apply before calcul calculating exposure and and do do daylight
+Mike: Mhm.
+Amber Fu: saving shift or holiday override override um affects the tu mapping in the real uh billing. Thank
+Mike: Um,
+Amber Fu: you.
+Mike: you know, I haven't seen a lot with daylight savings time. Um, but holidays, um, day of the week, weekends,
+Amber Fu: Okay.
+Mike: um, do definitely do impact that. Uh, and then then depending on the utility too, it can be seasonal as well.
+ 
+ 
+00:34:47
+ 
+Mike: Um, you know, it may shift a couple hours in the winter, it may shift a couple hours in the summer. Um, and what it looks like. Um, that I'm going to write that down. Daylight savings time is a good question. I haven't thought about that before. U but yeah, see seeing that information on there in maps, it it doesn't change very much. It doesn't change very much.
+Amber Fu: Clear.
+Mike: And and as as metering is getting more sophisticated, maybe maybe some tariff structures will start to change a little bit more. But now the the biggest breakdown I would see it's it's winter pricing and summer pricing tends to be when those those big things go forward or get get a little bit different.
+Amber Fu: Gotcha. Gotcha. But but when utility apply like TU rates is a mapping typically done directly on interval data or after
+Mike: Yep.
+Amber Fu: arguation.
+Mike: Um so to really facilitated by AMI metering um so you actually are getting that that real time interval data um where those pieces of information are coming in during time of use.
+ 
+ 
+00:35:52
+ 
+Amber Fu: I don't know.
+Mike: So it's not it's not necessarily like an after the fact we're we're going to apply you know a formula or apply some type of metric to this of how we think these were spread out. Um that that's one of the things in the past 10 to 15 years that's really facilitated time of use rates is the um you can get that five minute interval 15 minute interval data and be recording that as it's happening.
+Amber Fu: Got you. But how are DST shift handled?
+Mike: Say that again.
+Amber Fu: The the the DST.
+Mike: Uh I I don't know. I don't know. Yeah. Yeah,
+Amber Fu: Oh okay.
+Mike: that's what I'm not I'm not 100% sure to be honest with
+Amber Fu: Okay.
+Mike: you.
+Amber Fu: So but but our holiday treat
+Mike: Yeah, holidays would be treated differently.
+Amber Fu: differently
+Mike: So those those would be pre-programmed in there of as they're recording it and and and shifted out and and most programs will have that spelled out in the tariff of these these are when when the tariff days happen.
+ 
+ 
+00:36:53
+ 
+Mike: Um this this is when it applies because even um like weekends a lot of times like weekends will be shifted out separately too.
+Amber Fu: Okay. And and how about the like the winter and
+Mike: um th those will be broken out and similarly like you'll that's one where you'll see on the bill like it is the
+Amber Fu: summer?
+Mike: winter tariff rate applied to this toou time period or it's the summer tariff rate or summer just normal energy rate whatever that might be applied to that period.
+Amber Fu: Gotcha.
+Mike: So those those will be broken out and that's all spelled out in the tariff language and rate rate language of here here are the parameters of how this operates. Here's how how we do the billing. Here's how all those things are put together for and it's just it's just a big math equation of you know this this time this day you know line item we use this much energy it costs this
+Amber Fu: Got you. Got you. And and uh so so in your experience like how easy if like third party like us to assess like AMI interal data from utility.
+ 
+ 
+00:37:57
+ 
+Mike: Um, it it'd be easy for you guys to assess it. Now, getting your hands on it would be very different. Um, that's that's not data I think you'd be able to really get your your hands on necessarily without having
+Amber Fu: the
+Mike: your own monitoring device in there of what you're looking at.
+Amber Fu: hardware, right?
+Mike: Say that again.
+Amber Fu: Is that we need to have a the hardwell drive?
+Mike: Yeah. Yeah.
+Amber Fu: Oh,
+Mike: you you need to have something because the like if if you if you sign a customer up for this,
+Amber Fu: okay.
+Mike: you know, and what they look at and they they agree to it and say, "Hey, I I will provide you my past 24 months or 12 months of billing data." You'll have all of that information in there and and be able to pull it out and and drive formulas and and build this profile for for the customer, you know, that they would be able to look at. But kind of the real time like what happened last month, what is happening, you know, as these things are going forward and moving forward like that's all proprietary.
+ 
+ 
+00:38:53
+ 
+Mike: Um and that's that's not information that a utility is going to share um about all through if if anything.
+Amber Fu: Hey.
+Mike: I mean it's it's financial. Um there's now there's cyber security concerns. Um there's there's a lot of those things happening out there. So like that that's going to be tough to get
+Amber Fu: Mhm. And um and uh is this like how about if like a utility data delayed what we going
+Mike: um they they get it pretty quickly.
+Amber Fu: do?
+Mike: They get it pretty. So it's it's coming in.
+Amber Fu: Okay.
+Mike: So the way the way AMI metering is set up, it's it's all radio or cell signal um today or some of it's hardwired fibered in, but then they have collection points all around. So it's it's kind of a constant real time feedback where all this information is coming from u to the point where you know on their systems with AMI they know when outages happen you know kind of instantaneously and
+Amber Fu: Mhm.
+Mike: when those power power is restored and everything happening. So it's it's a huge huge real time communication system out to the individual premises.
+ 
+ 
+00:39:59
+ 
+Amber Fu: Got you. Got you. Thank you so much. and uh and also okay so we can move to the next to the event section. So the event section is more uh is more uh castly like intelligence layer. So basically the homepage show like financial tracking and event uh capture the meaningful system change that may affect cost uh performance or reliability. Um so we try now do the event is not just a notification it's more like a decision moment. So uh basically the events are triggered when the system is detected like you know charging during the peak hour or solar device offline or scheduled outage or several weather or behavioral uh you know will be threatened for the user's goal. So um so in your exper experience like would export timing mismatch also qualify as a event worth surfacing
+Mike: Um,
+Amber Fu: for the solar.
+Mike: yeah. Yeah, that's I'm I'm trying to think.
+Amber Fu: Mhm.
+Mike: I don't know. I don't know. I I I I like I like the kind of information you have in there.
+ 
+ 
+00:41:15
+ 
+Mike: Um, and and the way it's going forward. And to me, that's almost more of the financial piece, too, of Yeah. you can you can report how that's coming out.
+Amber Fu: Gotcha.
+Mike: But um as as like in a reportable event like as compared to what you have on here, I I don't know if I would include it in there. But that that's just my
+Amber Fu: Gotcha. Thank you.
+Mike: opinion.
+Amber Fu: And uh I we can click on any of the events detail and to see uh there what you know when you tip it we break into the three layer like what happened what's matter what to do next. So we basically separate the uh detection from the explanation and action. So user can understand like reasoning before the acting. Um but for this part in your opinion like what level explanation is necessary for the professional to trust and invent
+Mike: I I think this for for uh an individual like this this level of
+Amber Fu: recommendation.
+Mike: information um and and it's not not getting into depth and detail and and like I said earlier I think that's where a lot of the confusion happens and it's almost too much information of this and that and if you apply for this tariff structure you know it it it's this is nice and simple It's easy.
+ 
+ 
+00:42:35
+ 
+Mike: Here's what happened. You charged your EV when prices were high. If you want your bill to go down, don't do that again. It makes a lot of like it's very it keeps it very straightforward.
+Amber Fu: Okay.
+Mike: Um and um even even for somebody like me who you know does tariff rates and looks and everything like that like if I if I got this type of information as a personal user, I would appreciate it and just be like, "Oh, what happened?" Oh, yeah. or like I saw on your page before,
+Amber Fu: Mhm.
+Mike: there's potential severe weather like which which I'm guessing would lead to do you want to pre-charge your battery? Do you want to pre-charge your vehicle? You know, those those kind of events and questions which is um would be very very helpful in in a simple simple format like
+Amber Fu: Got you. Got you.
+Mike: this.
+Amber Fu: Appreciate. Thank you so much and uh okay so we can move to the next the saving tab and this is the most important uh tab in our app.
+ 
+ 
+00:43:33
+ 
+Amber Fu: So uh so basically we separate the saving from the bill. So the saving is more like a behavioral impact.
+Mike: Mhm.
+Amber Fu: The bill is more like official utility accounting. So we don't want to use her to conflict those two. And in you your view is it important to clearly separate the behavioral saving from building component like a minimum
+Mike: Yes.
+Amber Fu: charge.
+Mike: Yeah.
+Amber Fu: Okay.
+Mike: Yeah. Yeah.
+Amber Fu: Thank
+Mike: Um because that that is a that's a hu that's the huge point of confusion right
+Amber Fu: you.
+Mike: now on billing and everything that that that looks like. And um that that's where there's a lot of sales like hey if I get enough solar like I'll never have a electricity bill again. And this this is the part where it's for people to understand like no these are fixed costs like your
+Amber Fu: Mhm.
+Mike: bill is never going to go below this and what it looks like and having those broken out and um especially in California like I don't I don't know if you followed this but they just passed legislation last fall uh where yeah they significantly increase the fixed service charge on a bill
+ 
+ 
+00:44:35
+ 
+Amber Fu: Oh.
+Mike: um and then reduce the variable energy cost. So,
+Amber Fu: Um.
+Mike: it's really like it's it's important because that's the way costs are actually structured within a utility, but it's also like kind of detrimental to solar and things like that because it's it's worth less um now as a part of that. But that that's one of those that's that's very important um as well um for people to see that and understand it because they're not insignificant charges anymore. It used to be like as a rule of thumb like 75% 25% something like that. So Tony about you know a quarter of your bill was fixed service fees and charges and then threequarters of your bill was variable energy like how much you use as a commodity and
+Amber Fu: Mhm.
+Mike: that's starting to flop on its head like almost completely turnovers as they're starting to understand utility cost structures a little bit better and making sure people are actually paying for keeping the system maintained. But that that's a long answer to say like breaking those things out and and even spending a like an extra sentence or two on some of those and making sure people understand like this is this is fixed like these cost items are not going
+ 
+ 
+00:45:53
+ 
+Amber Fu: Gotcha.
+Mike: away.
+Amber Fu: Gotcha. But do you think the increased uh uh fixed charge will be reduced uh incentive for for homeowner to install the solar?
+Mike: Yeah,
+Amber Fu: Okay.
+Mike: unfortunately.
+Amber Fu: Gotcha.
+Mike: Um, yeah, it's Yeah, it it it does. I mean, just because you get less value. Now, now for the larger utilities like net metering regulations in California, like it's you're not paying retail anyway. Um, you're paying avoid cost, but for other people under different net metering structures, like it is lower. I mean, you get lower value out of the energy you're putting back on the
+Amber Fu: Got you.
+Mike: system.
+Amber Fu: But do do you think the tools like this could help close the gap between what the solar installer promise and what home owner actually
+Mike: 100 100% 100%.
+Amber Fu: experience? Got it.
+Mike: Especially as as it becomes more bills become more leveraged towards fixed cost items like th those are yeah very important for the consumers to understand what what solar actually does and how it impacts your
+Amber Fu: Gotcha. Gotcha.
+ 
+ 
+00:47:00
+ 
+Amber Fu: Thank you so much.
+Mike: bill.
+Amber Fu: Thank you the information and uh we can move to the next is the you can see the number 55.8. So this is kind of accumulate of all cost based on the event level adjustment. Yeah.
+Mike: Mhm.
+Amber Fu: So if we calculate saving based on the uh counterfactual mo modeling, what baseline would you consider defensible? Like a same month last year or like a weather normalized or like tariff tariff simulation?
+Mike: Yeah, if like if there if there were any any changes in tariffs, you know, or anything like that,
+Amber Fu: All
+Mike: obviously that has to be included um in in what that looks like. But I I think monthtomonth and then just simple basic weather normalization um
+Amber Fu: right.
+Mike: and what that looks like and it doesn't have to be anything complicated and just say we we normalized it was an average May, it was a hot May, it was a cool May, whatever that was. um this this is what that delta was when we looked at it from that perspective or from the year before or two
+ 
+ 
+00:48:03
+ 
+Amber Fu: Gotcha.
+Mike: years before. Um like just looking at one year in the past is is a little bit tough. So any anytime you can get at least like 24 months you know worth of of building in a rears is is pretty helpful. Um or or if you can you know if if it's pretty steady climate then that's fine too. like a lot of, you know, more more temperate places where you don't get the extreme weather up and down.
+Amber Fu: Thank
+Mike: Um, you can compare to other months as well and it would be okay.
+Amber Fu: you.
+Mike: But I I I would find that very defensible, you know, and and having calculated things like this for a utility before, it's this is what we did. It's, you know, it's the best we can do. We can't we can't predict it perfectly, but it it makes a lot of sense if you you take a step back and look at it.
+Amber Fu: Got you. Got you. And and also like uh for next part uh will be over uh like uh event uh level saving attribution.
+ 
+ 
+00:49:01
+ 
+Amber Fu: So uh we we attribute like saving by system category.
+Mike: Mhm.
+Amber Fu: So this is like a prevent a blackbox clamp and keep saving explanable and you can see like there have like we we break down like a EV charging and solar and the power wall charging and um so should we separate generation side saving and the deliver side saving or is blend attribution acceptable?
+Mike: Um, I would break them out if you're if you if you're able to break them out.
+Amber Fu: Okay.
+Mike: I I would I would potentially do that just because it's from from the consumer standpoint. Uh, you know, the delivery they're kind of stuck with. Uh but then if they are going to shop around for different generation and you know if they're they're in that spa
+Amber Fu: Mhm.
+Mike: deregulated space um I think there would be value in that.
+Amber Fu: Gotcha. Gotcha. And also uh we I can uh can click on the let's see the EV charging and they have a detail where you kind of break down and click any of those things will show the the called the bottom sheet there have a uh the detail is this is where like we uh calculation logic.
+ 
+ 
+00:50:23
+ 
+Mike: Mhm.
+Amber Fu: So uh there have like a a peak rate of peak rate different formula uh energy charge and like the calcul uh how we calculate stuff like that. So does this calculation layer match how utility apply to tu rate difference?
+Mike: Yep. Totally.
+Amber Fu: Okay.
+Mike: Yep. Yep. This This is Yep. It's nothing nothing crazy, nothing complicated. I mean, it's it's pretty straightforward.
+Amber Fu: Got you.
+Mike: Yeah.
+Amber Fu: Are we missing a step like terror uh threshold uh hold or minimum bill
+Mike: Um,
+Amber Fu: enforcement?
+Mike: no. like this this I don't think this would this would play into it like these individual line items or anything like that. You're you're assuming you know um a residence or or what that might look like. Like there you're going to use a lot more energy than this. So I don't I don't think like you saying this you could potentially reduce your bill by $4 by doing this is not I it's factual. You know what I mean? It makes sense.
+Amber Fu: Yeah.
+Mike: It's not you're not you're not telling them something incorrect.
+ 
+ 
+00:51:33
+ 
+Amber Fu: Got
+Mike: and and this approach of basically like yeah,
+Amber Fu: Okay.
+Mike: you know, you just move the energy to a different time. Um it look it looks like this is geared towards residential.
+Amber Fu: Mhm.
+Mike: Um but if you looked at like commercial or industrial applications, any CNI, um the one thing that is missing on that would be like peak demand charging and anything but like
+Amber Fu: Okay.
+Mike: that's that'd be a whole lot of extra stuff in there. But um for for what you have, this is this is fine. It makes a lot of
+Amber Fu: Gotcha.
+Mike: sense.
+Amber Fu: Gotcha. Okay. Thank you. And uh we can go go back to our next part is our bill page. Uh so the bill page we here we uh mirror the official bill uh structure.
+Mike: Huh?
+Amber Fu: So like a base service chart deliver adjustment uh we want to every dollar to be uh traceable. So uh so if you will reconstruct a residential bill uh what would the crack calculation order be like energy charge or delivery charge fixed service charge?
+ 
+ 
+00:52:49
+ 
+Mike: Yeah, like um the way you have these broken out um I I would I would break it out between anything that's a fixed amount on your bill and anything that's a variable
+Amber Fu: Uh-huh.
+Mike: energy charge. So like basic service charges 2460 um and then like wildlife fund or wildfire fund charge like group those together because people know like I
+Amber Fu: Yeah.
+Mike: can't do anything about that like those are together then anything with the the variable energy put put in it some category there too um because then it's it gives people an idea of like hey you know my bill was $200 well 20 $28 of that or $27 $7 I can't change or however much it is of this like I I can't ever get below this amount or what it would look like. Um but no if like if you're re reconstructing a bill like that like can you scroll down on there a little bit?
+Amber Fu: Yeah,
+Mike: It's like yeah that's that's the way you even have the way kind of you know increasing your bill
+Amber Fu: sure.
+Mike: year-over-year and how it's how it's moving forward.
+ 
+ 
+00:53:55
+ 
+Mike: Like it's yeah here's here's from these categories we're monitoring this is how your bill is broken out. Like that's that's a very cool
+Amber Fu: Got you.
+Mike: feature.
+Amber Fu: But for your experience like what are the most commonly misunderstood compo uh component in the residential
+Mike: Um one that's it's always the the service like the fixed
+Amber Fu: bill?
+Mike: fee like what is this? Why do I have to pay this? Um so even even providing some type of explanation on that of like this is just what it is. We have to put those things on there. Um the two one one we see a lot um I I don't know how applicable it is to California where we see but fuel adjustment costs that come up or they're variable they don't have to go through the same tariff processes approval processes anything like that just fuel costs more like the price of gas goes up the price of coal goes up you know those things happen so you need to be able to account and pass those charges on to your customers that's one we we see a lot or
+ 
+ 
+00:54:56
+ 
+Amber Fu: No.
+Mike: I've typically seen seen a lot of confusion over because it's like, hey, you said you weren't going to raise my bill. Like, it's it's higher than it was before. It's like, well,
+Amber Fu: Good.
+Mike: we didn't technically change your tariff structure, but there's a fuel adder we have to put onto that. And that can be upwards of, you know, like 5% or 10% depending on on the differences in those. Um, so any any type of variable adders that come up like a fuel search charge or things like that, I would I would include on those. Um cuz that that's the one where people like why is my bill higher, you know, been just because the the the percentages went up a little bit. Um no,
+Amber Fu: Mhm.
+Mike: otherwise I think I think people get it pretty well. Um and what those look like, but it's um I don't know. I think I think I think those are the main ones. The other thing you can do if you haven't like go out to the different websites at the state at least and see their sample bills because like every utility out there will have like how to read your bill.
+ 
+ 
+00:55:57
+ 
+Mike: Uh you can see where the different sections they call out like some of them are really easy like your account number and address. Okay, like we get it. Um but then the other ones where they spend a lot of time I think that that might give you some insight too of like where do they spend a lot of time explaining these things.
+Amber Fu: Got you. Got you. Appreciate for your information.
+Mike: Mhm.
+Amber Fu: And uh and also like uh and and below that if is a true up because honestly I don't have a solar so I don't I never receive a true up bill and I don't know like uh cuz our uh first market will be in the California and I think the California they have a you know the name to one two three right so is this uh the true up calculations are different between like one two three or it's all the thing.
+Mike: um between one,
+Amber Fu: I think it's a
+Mike: two, three. I think the true up's the same and I I I don't know it off the top of my head.
+ 
+ 
+00:56:55
+ 
+Mike: I think they if they do it monthly or annually um but it's it's published in the NEM one 123. the the challenge is in um other utilities the nonus regulated by
+Amber Fu: Mhm.
+Mike: the PUC the CPU don't have to follow that um so like LA power water and light like SMUD you know any any any of the other smaller ones aren't
+Amber Fu: Oh, yeah. Yeah. Yes.
+Mike: aren't going to have to follow those on their own but the all the I big IUS have have to follow that
+Amber Fu: Okay. Okay.
+Mike: Yeah.
+Amber Fu: But like uh so should we model true up monthly projection or wait for annual settlement data?
+Mike: Mhm.
+Amber Fu: What do you
+Mike: I I would I if you're able to watch it monthly,
+Amber Fu: think?
+Mike: I'd be able to track it and just make sure it's clear like, hey, this is, you know, here's when your true up period is and here's what we're looking at, but these are the projections we're looking at, you know, based on your past bills, based on what we can expect to see from this.
+ 
+ 
+00:57:51
+ 
+Mike: Here's here's what it's going to look like as it goes. Project it out.
+Amber Fu: Got you. And I always wonder because like we talked to speak to a lot of uh users, they always can receive a large up surprise.
+Mike: I
+Amber Fu: What would that be cost? Like why? What the reason you think?
+Mike: don't know to be honest with you. Um uh like a a couple of things I would think like if if they're system wasn't behaving the way they thought it was going to um like uh inverter string went out, modules went out, you know, just just something happened um like maintenance issues that that kind of thing. Uh,
+Amber Fu: Mhm.
+Mike: no. Otherwise, I mean, like I said, everything has an API and an app now. So, you should be able to what's this doing all the time? Um, and and monitoring it. So, I don't um unless it's those first couple of months where they were not expecting to have a bill at all. Um, that or you know, if they were expecting full retail rate for everything that they're putting out there and they're only getting avoided
+ 
+ 
+00:58:51
+ 
+Amber Fu: Mhm.
+Mike: cost. Um, but that's that's that confusion upfront, you know, where it's they were they were misled or or didn't understand. But boy, after after seeing it for a couple of months, I would not I would not expect there to be a big surprise on there because that's that's monitored monthly and and put out there. So, that'd be a I'm I'm not sure to be honest with
+Amber Fu: Got you.
+Mike: you.
+Amber Fu: Got you. Thank you. And uh let's move on to a last part is our bill proof. So uh the bill proof the feature compare uh expected export credit versus uh bill uh export credit. So is uh if there is a mismatch we surface it. Um so question is at what calculation layer does export credit netting uh acre in your utility billing engine. Are there costs where export is uh composite at a world cost rather than uh the retail?
+Mike: Uh, yes. And I I I know I'm trying to think of any any examples in California, not not at the IUS, but like there are where some net metering laws any anything above and beyond those settlements are, you know, if it's at at your bill or below, it's paid back at retail rate.
+ 
+ 
+01:00:31
+ 
+Mike: But then if it's anything beyond that, it's paid back at avoided cost. So it's like you're getting 10 to 25 cents per kilowatt hour at this first block and then 3 to seven cents at the block below it. Um so there are there can be discrepancies in that in California though I don't I don't think that comes
+Amber Fu: Um,
+Mike: up right I think that's more of a Midwest thing that we see. So,
+Amber Fu: Mhm.
+Mike: so like looking at this like that that would be a pretty surprising discrepancy to see of like what is happening but that's the kind of thing you want to see right of like call your utility of like I I'm monitoring this and I got something very very different than what you build me for walk me through and explain it of of what look like
+Amber Fu: Got you. Got you. And like so in your experience like if expert export credit and the building credit what's usually the cost.
+Mike: How big of a cost difference could that be? I don't I don't know if I have a good number for that unfortunately because Yeah,
+ 
+ 
+01:01:32
+ 
+Amber Fu: Okay.
+Mike: that's um why
+Amber Fu: Because like you know some home because like some
+Mike: I'm trying to I'm trying to think like how would why would that be different? Um
+Amber Fu: homeowner sometimes believe their utility bill or export credit are incorrect and uh so I was trying to like wondering to know like in your experience like when there is a mismatch between what they expect and what appears on the bill what are most common cause Because I talk few user and they said oh uh I am on vacation this month or last month and my bills still like really high and they said nobody in the home. Why is that? And they you know try to call the uh solar installer call try to call the Tesla and try to call the utility. Uh each company said oh your your number is fine. we we did we we didn't calculate uh uh wrong.
+Mike: Huh?
+Amber Fu: So you know that's not like the one case it's like a a lot of user they have that confusion.
+ 
+ 
+01:02:50
+ 
+Amber Fu: So this is why we designed this build proof to try to help them to see what's going on. But for us we still kind of confused like why that
+Mike: Why is it different?
+Amber Fu: happened. Yes.
+Mike: Why would that happen?
+Amber Fu: Yeah, that's weird. That's so
+Mike: And like I I I don't that's what I'm going through my head like I I don't know why those would be so different and and like it it goes in my head always like equipment failure or maintenance or something's out of calibration. Um either either the utility could be wrong too and you know everybody like equipment fails you know
+Amber Fu: really.
+Mike: or it goes bad that that's not happen like it's it doesn't happen very often.
+Amber Fu: Okay.
+Mike: It doesn't happen very often but th those things do happen. Um and when they pop up,
+Amber Fu: Do you know why just what was the reason the
+Mike: uh it's just sometimes it's just like technology.
+Amber Fu: for Okay.
+Mike: Um it just it just fails or a lot of times like uh premature fail will be from like power surges um or something like that like faults,
+ 
+ 
+01:03:50
+ 
+Amber Fu: Um,
+Mike: lightning strikes, things like that. Equipment goes bad.
+Amber Fu: I don't
+Mike: Um and this is a little bit of calibration um that it's looking for.
+Amber Fu: know.
+Mike: But typically and and they're normally really easy to see like it's a very big difference. the utility goes out, tests a piece of equipment, said, "Okay, this piece of equipment went bad." Like, we're going to replace it, we'll do an estimated bill for the past month um based based on what we had because the number we charged you was not correct. Um other reasons for that like I don't I don't know like and and unfortunately the way
+Amber Fu: Anyway,
+Mike: Terra language is all written in metering specs and manuals and everything like whatever the meter says is what it is. So unless the meter is incorrect or or out of calibration like that's going to be the
+Amber Fu: What?
+Mike: answer when everything part part of that is um metering specifications and and metering grade equipment uh has has much higher tolerances much much tighter bandwidths everything like that because it is revenue grade so a lot of stuff you're going to get on API the the little monitor they're going to put on your solar panel whatever that might
+ 
+ 
+01:04:54
+ 
+Amber Fu: Mhm.
+Mike: be is going to be much much less less accurate than the meter um and what it looks like. There could be stuff behind the meter, you know, issues at homeowners houses,
+Amber Fu: Amen.
+Mike: vampire load, you know, just lot of weird stuff can happen, but typically most of the time like the utility is going to win if if they say like this is what the meter said.
+Amber Fu: Yes.
+Mike: But it would be very it like all all of this is just good info for the homeowner to know or whoever it is like something's weird here. Like can I can who can I follow up with and and get more information about that?
+Amber Fu: Got you. Got you. And so if an app like us detects a mismatch between uh uh expanded credit and the bill, what uh Thrive showed would actually be meaningful to
+Mike: That's a great question, too.
+Amber Fu: flag.
+Mike: Um and and it's like a default answer for a lot of things like 3% you know because it there's losses there's stuff there's stuff just is different on those but most things have a a tolerance of a of a couple of% so anything more than you know one two 3% um anything above three I'd probably flag you know it's like yellow if it's above if it's above 5% it's you know orange if it's above 10% like yeah that's that's not right?
+ 
+ 
+01:06:19
+ 
+Mike: You know, there's something not not right happening
+Amber Fu: Got you.
+Mike: here.
+Amber Fu: Got you. Okay. So uh so that that will be it like the so we walk through like quite a few part of product today.
+Mike: Mhm.
+Amber Fu: So from your perspective how this overall approach uh look to
+Mike: It's cool.
+Amber Fu: you.
+Mike: And it it's it's especially if you get the if you get that real time like two-way communication between a power wall and a charging station and solar output and whatever that might be. Um I I think there's a lot of benefit in there um for those items and and it's you can even do ACs, you know, or big air conditioners, bigger pieces of equipment like that can also also start to fit into those of how you run it,
+Amber Fu: Yeah.
+Mike: when you run it, of just those small differences of like if you set your thermostat two degrees lower right now, what is what is my expected energy savings during this peak period?
+Amber Fu: No.
+Mike: So it's not just a complete deferring, you know, I'm going to do this now or later.
+ 
+ 
+01:07:22
+ 
+Mike: It's more like I if I make myself a little bit uncomfortable for two hours, how much how much money could I save? Um yeah,
+Amber Fu: Mhm.
+Mike: and and having that information and that that interface of like here are three suggestions of how you can save money. Click click click. I want to do those three.
+Amber Fu: Mhm.
+Mike: Great. And then here's the report. Here's what you did. Here's here's how you saved it when everything is said and done.
+Amber Fu: Mhm.
+Mike: Um the the biggest challenge I would see with this is is the um billing level data from a utility and the energy consumption and the the
+Amber Fu: Yes.
+Mike: interval information and everything like that and putting because I think there's a lot to
+Amber Fu: Yes.
+Mike: say I mean you could almost remove all of the billing construct and just say when you charge your vehicle when you run solar when you know when you do all of these different things and and how moving those things around can save But tying it to the bills really, you know, really ties everything together and makes it great.
+ 
+ 
+01:08:20
+ 
+Mike: But that's that's the limitation I would see right now of just how do you how do you get that information without
+Amber Fu: Yes.
+Mike: hardware of of understanding how consumption is actually happening at the residence?
+Amber Fu: Got you. But but have you seen any uh consumer app that try to do something similar help homeowner understand and managing their electricity bill and this level.
+Mike: Not this simple. Not this simple. And and and simple is not a negative in that in that context of something that's very straightforward.
+Amber Fu: Okay.
+Mike: There there are complicated systems out there where you put monitoring devices on each one of your light switch, you know, and all of this and understand how every electron in your home is moving and and how all those things
+Amber Fu: Mhm.
+Mike: happen. Uh, but it's complicated and expensive. And I'm guessing one of the benefits of a product like this is since it's using APIs and or it's not complicated and not not highly expensive when everything's said and done, you're not installing hardware in your home, you're not, you know, doing all of that stuff.
+ 
+ 
+01:09:22
+ 
+Mike: So, I have I have not seen one like this where it's it's simple in a good way of just this is this is what we're trying to do. This is this is how it delivers.
+Amber Fu: Got you. But cuz I was wondering like if a tooth like this aren't common today, why do you think that is?
+Mike: Um, one, one, because it is tying back to the billing information and and you know that level of sophistication and and putting that stuff in there. Um, two because I don't from from a consumer standpoint, I don't think people have been that conscious before. um to be honest with you and and a lot of people have tried things like this over the year even I've seen
+Amber Fu: Mhm.
+Mike: people put like red lights in their house you know like oh my gosh billing consumption is really high it's it's red now it turns to orange and green and and different things like that but I I nobody was ready for it because we didn't quite understand um the the impact of billing and and shifting this around and if if we're all kind of pitch in on the same team we can avoid very large capital infrastructure and produce coal and all of that stuff.
+ 
+ 
+01:10:33
+ 
+Mike: So I I think one of the reasons is we didn't have a consumer base that was ready for it at the time. Um and now with apps and and everything like that and people are used to picking up their phone for everything else in the
+Amber Fu: Amen.
+Mike: world. Um it's just it's ready. Um and frankly another reason is the utility industry is 5 to 10 years behind everybody else. Um, so whereas every other industry and and tech platform was using something similar like this a while ago, it's just the utilities are catching up and that's just kind of the way it's always been.
+Amber Fu: Got you. But do you think the market may be more ready for something like this
+Mike: Yeah. Yeah. That's what I mean. That's that's the consumers like that that people are more more used to this
+Amber Fu: today?
+Mike: type of application, more used to this expectation is maybe a better word. If I can get this type of information about something as as ubiquitous as power like it's, you know, everything like I should be able to get some information about that if I can get information about my Costco order, you know, at at real time and all of that.
+ 
+ 
+01:11:39
+ 
+Mike: So um I think the market is in a much different place than it was and it's it's very
+Amber Fu: Mhm.
+Mike: different price conscious market and just just a general understanding better understanding of how all of this stuff works.
+Amber Fu: Got you. Got you. And um Okay. So uh I know like in the United States there each state they have even like each city they have a different utility company. So for our app um because like uh we we try to do the first market in the California and then maybe Texas. I don't know yet. What's your
+Mike: Yeah, te Texas is a huge one. Um,
+Amber Fu: suggestion?
+Mike: f I would I would focus in one area like California is a good good starting place before jumping to like the east coast like stay in the west coast just because practices are a little bit different systems are built a little bit differently um as it goes forward.
+Amber Fu: Um,
+Mike: Te Texas is it's the biggest market with the most opportunity. I mean, California is the biggest market, but I mean, from a a power production standpoint, everything that's happening in that state, uh, a lot is happening in Texas right now.
+ 
+ 
+01:12:54
+ 
+Mike: Um, they they have the most open platforms,
+Amber Fu: Amen.
+Mike: different generation options, you know, everything like that. But it's also super complicated. Um, and they have weird regulations and weird rules.
+Amber Fu: Amen.
+Mike: um as you do start to expand to other states and looking at it. I mean once you have it built, it's straightforward. I mean it's, you know, you have your own utility in the city, it's just upload the tariff information. Um and kind of have that model out there. I don't I don't think there's anything going to be like if you're starting in California and Texas, those are the two most exotic like different places from a utility standpoint we've got. So works there, it's going to work anywhere.
+Amber Fu: Got you. Got you. And if we eventually want to introduce hardware, uh in what situation do you think it would be actually be necessary?
+Mike: um if you start to get more advanced with this and and you really want to start looking at um devices that might not have API capabilities and and monitoring specific loads.
+ 
+ 
+01:13:54
+ 
+Mike: Um I I think that's where you'd look at it.
+Amber Fu: Yeah.
+Mike: It it's not just one one CT clamp, one meter caller, whatever it is, like more of a whole whole home package. You know, that optimization, you know, how how all of those things might look
+Amber Fu: Got you.
+Mike: together.
+Amber Fu: But uh so like uh I knew like the panel will be the the best but well there will have a a problem is the installation you know is too complicated. So um so how difficult is the installation for those type of device? Would the homeowner typically need you know the guy to help them?
+Mike: you you'd have to yeah if if you're opening up the panel it's always recommended to have electrician um just just for insurance purposes every everything like that.
+Amber Fu: But is there any like type of hardware uh the customer can do them
+Mike: Um,
+Amber Fu: by theirself? Any of
+Mike: yeah. I'm I'm trying to think of like where where you would be able to clamp on and and that might be a research thing where it's just,
+ 
+ 
+01:14:52
+ 
+Amber Fu: those
+Mike: hey, is is there a consumer ready product where you don't have to have an electrician and and put those out there? I'm not aware of one off the top of my head um that I would look at but then again I'm not I'm looking at more more technical solutions rather than just hey I need like
+Amber Fu: Got
+Mike: these two pieces of information and that's it you know more okay I want to see see everything that's happening
+Amber Fu: you. Got you. Got you. Got you. And okay, thank you so much. And oh, you know what? I have a few more technique question if you don't mind. Okay.
+Mike: Yes.
+Amber Fu: And um so there have sort of okay so uh for the so if for our app so if you were to
+Mike: Mhm.
+Amber Fu: design a residential energy ledger how would you layer it like you know like a rate mapping or deliver charge fixed charge
+Mike: Yeah. Yeah. I I mean fix fixed charge and energy charge. I mean I I would keep it I would keep it simple um with within that breakout between delivery and energy or generation just just because they're they're different in those spaces too.
+ 
+ 
+01:16:08
+ 
+Amber Fu: Amen.
+Mike: Um yeah I I I don't know. I I would honestly I'd look at people's bills, you know, the sample bills and and how how they structure it because everybody does it a little bit differently um and kind of how they break it out and um but there's there's a couple of things that everybody kind of kind of does the same when they group it out like that.
+Amber Fu: Got you. And it's also like in a tier tu uh structure like which apply first the tier of threshold or the time of use rate.
+Mike: uh time of use rates I believe.
+Amber Fu: Okay. Gotcha.
+Mike: I believe.
+Amber Fu: Gotcha.
+Mike: Yeah.
+Amber Fu: Got you. And also uh I was wondering like like the does the trap settlement work under the name or the net billing.
+Mike: Um, I think the net. I think the net. Um, that's another one.
+Amber Fu: Okay.
+Mike: And that's why I don't want to I don't want to say some I I mean I'm giving you an answer, but it's also one of those I I wish I knew more about and could give you more definitive on that.
+ 
+ 
+01:17:21
+ 
+Mike: But yeah.
+Amber Fu: Gotcha. Gotcha. And also uh and also for like a solar user like does uh engines calculate import and export separately and then apply credit or does this a net kilowatt first.
+Mike: um depends on how it's metered. Um if you have separate metering on it, they'll they'll calculate them separately.
+Amber Fu: Oh no.
+Mike: But if it's if it's net like just one birectional meter, uh it'll keep track of those kind of in interval spaces.
+Amber Fu: And
+Mike: So it it'll do the total energy consumption going through it. But um especially older systems, older older installations that have the actual two like an import meter and an export meter, they'll they'll be reading on both of those.
+Amber Fu: got you. Got you. and and for like in the let's say like in the California uh do you expect like a more cost recovery to shift to fixed charge?
+Mike: Um it was pretty pretty big deal when that passed this past fall. Um and went forward.
+Amber Fu: Uh
+Mike: I I would expect that to continue um as things move forward.
+ 
+ 
+01:18:34
+ 
+Mike: But it's it's it's it was a big step. So I don't think anything's going to happen anytime soon. Um but I would expect more places in the country to start to go to that that more more heavily leaning towards fixed costs as opposed to variable energy costs.
+Amber Fu: Got you. Got you. And okay. So let's see what else I about to because I saving some question.
+Mike: That's
+Amber Fu: Uh okay. So uh one more question is you know
+Mike: all.
+Amber Fu: uh I know like right now for our team the really hard part is like the you know we we need to figure out like the true up and the uh the utility uh the bill and also some user have a power wall and we also need to help them calculate that. is like a huge work for us. So, uh would we need someone with utility building background, right? Or someone who has work on the tariff modeling. What's your
+Mike: Yeah,
+Amber Fu: suggestion?
+Mike: I I I think having somebody with that background does does provide a lot of support.
+ 
+ 
+01:19:49
+ 
+Mike: No, it doesn't have to be like a dayto-day, you know, but it's more just are we looking up front,
+Amber Fu: Mhm.
+Mike: in the middle, and on the back end. Are we thinking about this correctly before we go into it? Yes. Yes. Yes. Um but but then the actual implementation of it, it's not um every everything you're showing here, it's not not crazy. It's not crazy once you kind of figure out the formulas and and what it looks like. Um so uh and and I I fortunately unfortunately use use bill, rate, tariff um pretty interchangeably. Um there there are different you know and and looking at it but it's um yeah somebody who has that utility billing structure and ratemaking specifically they'll they'll they'll be the people who can who can support in those
+Amber Fu: Got you.
+Mike: areas.
+Amber Fu: Because oh we we we we're friends out like you know uh we used to ask another expert uh really uh good at like the the building structures stuff but you know since he live in the corado so he know the corado utility system but he don't know the California
+ 
+ 
+01:20:55
+ 
+Mike: Yeah,
+Amber Fu: utility system so I don't know like I thought like oh they know like a
+Mike: I don't know.
+Amber Fu: national utility But oh right now I know oh okay I probably we need to find someone in the California and then know like knowing really well like each utility company how they uh build to the customer how they calculate the stuff like that
+Mike: Yeah. Yeah. And and like I said,
+Amber Fu: right
+Mike: they're not like the billing structure is all kind of the same, right? It's it's pretty it's pretty straightforward.
+Amber Fu: Okay.
+Mike: Everybody follows generally the same same type of line items, costs, general structure, you know, how how do these different things work? But but every state is unique.
+Amber Fu: Mhm.
+Mike: Everybody has their own, you know, different different way of doing some of these things and what it looks like. And uh it it is a shock like yeah when I've I've talked to people in in other countries it's like yeah well there's thousands of utilities like what it's not that's just like one um how does that how does that work?
+ 
+ 
+01:22:01
+ 
+Mike: It's like it's very it's very
+Amber Fu: Yeah. Yes. Yes.
+Mike: complicated.
+Amber Fu: Exactly. Yeah. Well, you know, uh, Max, thanks so much. This has been incredible helpful for us. We really appreciate you're taking the time to work through all those detail with us, you know,
+Mike: No,
+Amber Fu: especially
+Mike: this this this is cool and and good the best of luck to you with this product and I I hope it works because it's it it's a need out there and and what I see from people of just this type of straightforward easy to follow um sign up and and make simple decisions and and improve your your bill. Um that's great. Yeah, if you ever have followup or any any further questions or looking for engineering support, tariff bill support, please don't hesitate to reach out. Um,
+Amber Fu: Sure.
+Mike: we go through the Upwork structure or however that looks for your company, but I'm I'm out there in the world in private consulting and always always available out
+Amber Fu: That's what's what I going to say next.
+Mike: there.
+Amber Fu: So, so you know like you know so so we are uh starting to think about it like a brain on field like advisor with a deep experience in the energy space. So if you ever open it, we love to explore whether you're maybe interesting to advising us as a you know continue to building
+Mike: Yeah, I'm always Yeah, I love it.
+Amber Fu: this
+Mike: Like, and it's it's what I what I've seen here like I was not expecting to see the developed app. I was expecting to see more of this question. So, it's cool. It's it's Yeah, I'm always always very open to that and what it looks like and we can um yeah, we can figure out the best way to to facilitate that looks forward. So, let's It's late.
+Amber Fu: Yeah, sure. Thank you so much.
+ 
+ 
+Transcription ended after 01:24:08
+
+This editable transcript was computer generated and might contain errors. People can also change the text after it was created.

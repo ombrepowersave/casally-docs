@@ -1,0 +1,700 @@
+Feb 1, 2026
+[UI] Rob Proctor - Transcript
+00:00:00
+ 
+Amber Fu: Um, hi. Uh, hello.
+Rob Proctor III's Presentation: Hey, how's it
+Amber Fu: Hi. Good. Good.
+Rob Proctor III's Presentation: going?
+Amber Fu: Hi. Thank uh hi Rob. Thank you like uh taking time today.
+Rob Proctor III's Presentation: Absolutely no problem.
+Amber Fu: Yeah.
+Rob Proctor III's Presentation: How you
+Amber Fu: So, thank you.
+Rob Proctor III's Presentation: doing?
+Amber Fu: And um well, so like uh I know like everyone's busy, so no pressure at all. Like this is super casual. Uh let me introduce myself a little bit. Uh my name is Amber and uh I'm one of the founder. So we uh I started this because you know uh I always couldn't figure out why my own electricity bill was so crazy. So I realized like a lot of household uh are dealing with the same thing. So basically we're just small team based in LA and um we are just you know who gets hit with a crazy electricity bill. So we are trying to building an app helps people save money on their daily energy use without changing their lifestyles.
+ 
+ 
+00:01:29
+ 
+Amber Fu: So yeah, so I love to understand how your home use electricity dayto-day, you know, so we can figure out what could actually help. Yeah.
+Rob Proctor III's Presentation: Okay.
+Amber Fu: And um so uh before I show you anything like I I want to uh be very clear about the goal of the season. So um I'm here to see see like whether we're building the app actually makes sense for someone like you. So well there's no right or wrong feedback. If like something feel like confusing or unnecessary that's actually the most helpful thing you tell me.
+Rob Proctor III's Presentation: Okay.
+Amber Fu: Okay cool. So uh before we jump in like uh can you tell me a bit about like your setup uh like you know the power
+Rob Proctor III's Presentation: set up as far
+Amber Fu: wall,
+Rob Proctor III's Presentation: as
+Amber Fu: solar, EV stuff like that like energy use.
+Rob Proctor III's Presentation: Okay, no worries. Yes, I do have an EV. I have a uh 22 Model S um Tesla um and I also have the um Tesla Power Wall also.
+ 
+ 
+00:02:45
+ 
+Amber Fu: Oh, okay. Uh, so how how long you got the power wall?
+Rob Proctor III's Presentation: Uh, I bought them at the same time.
+Amber Fu: Oh, okay.
+Rob Proctor III's Presentation: So that and that was back in
+Amber Fu: Um Oh, okay.
+Rob Proctor III's Presentation: 2010.
+Amber Fu: Do you mind ask like how much your utility bill right now?
+Rob Proctor III's Presentation: Um, not much at all. Um, right around Well, I it it differs, right? Um definitely this um the last month or so, you know, it's been quite a bit colder. So I've utilized a couple,
+Amber Fu: Mhm.
+Rob Proctor III's Presentation: you know, space heaters. I have a a little bit bigger home and I don't think we're we're prepared for how cold it got. So it's been up a couple hundred bucks.
+Amber Fu: Mhm.
+Rob Proctor III's Presentation: So right around um let's just say it ranges around two to highend 350 400 bucks.
+Amber Fu: Oh, okay. It it Well, it's only the winter or is like
+ 
+ 
+00:03:41
+ 
+Rob Proctor III's Presentation: Um well,
+Amber Fu: average.
+Rob Proctor III's Presentation: winter and summer. So our our springs and falls are a little bit lighter. So winter and summer, those are the biggest. So that's like an um a range.
+Amber Fu: Got you. And uh and do so I noticed that you're you're from the Texas, right?
+Rob Proctor III's Presentation: Yes.
+Amber Fu: Okay. Uh I know like the taxes are really different with California the you know the utility company the policy. Um, so, uh,
+Rob Proctor III's Presentation: Huh?
+Amber Fu: is, uh, so do do you guys have like a the bill called a true up because in California we we
+Rob Proctor III's Presentation: Okay. True up.
+Amber Fu: do
+Rob Proctor III's Presentation: What? What's that? We may have something similar, but what's true up? What's that?
+Amber Fu: uh well there uh there you know like uh it's like when the like some household they have a solar and uh the utility company will usually
+ 
+ 
+00:04:34
+ 
+Rob Proctor III's Presentation: Okay.
+Amber Fu: you know like charge charge you or like give your credit every month, right? But the drug bill is kind of like, you know, end of year they will give you a bill said, "Oh, you know, you you owe me like certain money."
+Rob Proctor III's Presentation: Oh, okay. No, no, no. We don't have um I heard something maybe,
+Amber Fu: Yes.
+Rob Proctor III's Presentation: you know, true up is a thing. I don't personally use it. Um so, and I'm not familiar with um you know, my neighbors anything having that when if they do, I don't know anything about it. So, no, I don't I don't know anybody that utilize it specifically in my
+Amber Fu: Um,
+Rob Proctor III's Presentation: area.
+Amber Fu: okay. So, basically, you're just only pay uh every month. You don't need to like pay end of year,
+Rob Proctor III's Presentation: Right.
+Amber Fu: right?
+Rob Proctor III's Presentation: Exactly. No, I don't pay anything at the end of the
+ 
+ 
+00:05:32
+ 
+Amber Fu: Oh,
+Rob Proctor III's Presentation: year.
+Amber Fu: okay. Gotcha. Got you. So do my do you have like estimate number like how much you pay per year for electricity use
+Rob Proctor III's Presentation: Um,
+Amber Fu: like
+Rob Proctor III's Presentation: right. And I'm thinking about,
+Amber Fu: roughly
+Rob Proctor III's Presentation: so you would you like the um, matter of fact, I I can look at a couple of statements here. Would is this just my primary home or all my homes combined or just what what what are we talking about here? Just so I can give you a specific number.
+Amber Fu: Yes, it's only your your home like your house like how much you
+Rob Proctor III's Presentation: Okay, cool. Um, well, I paid multiple.
+Amber Fu: pay.
+Rob Proctor III's Presentation: That's why I'm asking. But the home that I'm in now, we're going to talk about this one. So, um, think we do right around No more. Because if it were anything more than 1,200, it would defeat the purpose.
+ 
+ 
+00:06:30
+ 
+Rob Proctor III's Presentation: So, no more than right around 8 to 12. 36 12. No, hold on.
+Amber Fu: Okay.
+Rob Proctor III's Presentation: No, let's say 15 to be safe. 1,500 just to be
+Amber Fu: Oh, okay. Okay. Got you.
+Rob Proctor III's Presentation: safe.
+Amber Fu: Like uh is there any moment that you or any month you receive ever receive like a surprise bill?
+Rob Proctor III's Presentation: Um, I'm actually expecting to receive a surprise one this month because it's been so cold. Um, we've been utilizing a lot more electricity. So,
+Amber Fu: Uh,
+Rob Proctor III's Presentation: if you would if if if you would have called me next week, it um it probably would probably be it'll probably be this month. Well, January, the month of
+Amber Fu: got you.
+Rob Proctor III's Presentation: January.
+Amber Fu: Like usually like we electricity bill change like what the first thing you usually want to know?
+Rob Proctor III's Presentation: Um how is it? Well, again, it it it hasn't I haven't seen it yet, but I'm I'm expecting.
+ 
+ 
+00:07:29
+ 
+Rob Proctor III's Presentation: But when it does, I would expect to see like how like the usage uh not necessarily rates because here in Texas it it we have like a fluctuation thing where it could fluctuate depending on the usage at what time
+Amber Fu: Okay.
+Rob Proctor III's Presentation: of day and um I would like to see how that is uh separated and how that's
+Amber Fu: Uh-huh.
+Rob Proctor III's Presentation: calculated, you know, specifically during this time of the year.
+Amber Fu: Got you. Got you. And like and do you generally prefer like a tools that give you control or like tools that quietly handle things for you and just explain like when you need
+Rob Proctor III's Presentation: It depends, right?
+Amber Fu: it?
+Rob Proctor III's Presentation: Um if if if the uh I I would like the option to take control for sure, right? I don't want to be um you know to be forced to allow somebody manually to do it, right? But uh if I were to be able to manage it myself, you know, on the front end and then be able to set it how I would like.
+ 
+ 
+00:08:26
+ 
+Rob Proctor III's Presentation: Yeah, that's preferred. Yeah, for
+Amber Fu: Okay, perfect. So, uh as we go through the demo,
+Rob Proctor III's Presentation: sure.
+Amber Fu: I will send you a link. Uh just give me a second. Okay. Uh you see it uh through the uh chat with everyone the on the meeting.
+Rob Proctor III's Presentation: I'm looking Let's see
+Amber Fu: Okay, there have Figma
+Rob Proctor III's Presentation: here.
+Amber Fu: link.
+Rob Proctor III's Presentation: Link, link, link, link, link. Put it in the chat. I do see the link.
+Amber Fu: Oh yeah. Do you see it?
+Rob Proctor III's Presentation: Yes,
+Amber Fu: Okay, perfect.
+Rob Proctor III's Presentation: stigma.
+Amber Fu: And um you can try to open it and uh let me know if you you can open it.
+Rob Proctor III's Presentation: Okay, give me one second here. I'm opening. Do you guys prefer for me to utilize um Chrome or Safari or
+Amber Fu: Sure.
+Rob Proctor III's Presentation: uh Linux is the preferred?
+ 
+ 
+00:09:26
+ 
+Amber Fu: I I think it doesn't matter like just whatever you want
+Rob Proctor III's Presentation: Okay, let's try Chrome.
+Amber Fu: and yeah and if you don't mind uh can you like share the screen so then I can you know see like your yeah when you click the app like
+Rob Proctor III's Presentation: Sure.
+Amber Fu: the problem.
+Rob Proctor III's Presentation: One second here. Make sure it loads up. Soon as it loads up, I'll uh share the screen with
+Amber Fu: Sure. Thanks.
+Rob Proctor III's Presentation: you. All right. It's taking a little time here. Okay. Okay, I'm about to share it now with you. Let's see.
+Amber Fu: So, um, yeah. Uh, well, I love I I'd love for you just like react naturally, like tell me what you notice when you open the app and like what do you click or what you feel off. So, like at at very simple level like this app helps you understand like why your electricity bill looks the way it does and then like quickly to fix the part that shouldn't cost that much.
+ 
+ 
+00:12:11
+ 
+Rob Proctor III's Presentation: Okay, great. Give me one second here. I'm trying to figure out how to share. I don't personally use Meets too often, so I'm trying to figure out how to share the screen
+Amber Fu: Oh, okay.
+Rob Proctor III's Presentation: here.
+Amber Fu: I I think it's in the meeting our meeting like right now and there bottom have a icon.
+Rob Proctor III's Presentation: Okay.
+Amber Fu: It's a turn off camera thing like it's a right on on the right. The icon is uh set the share.
+Rob Proctor III's Presentation: Yes,
+Amber Fu: Oh,
+Rob Proctor III's Presentation: that's it.
+Amber Fu: okay. Okay. Perfect.
+Rob Proctor III's Presentation: Clicking it now. All right, let's see here. Are you able to see my screen?
+Amber Fu: I I didn't see the screen yet. The Did you share the screen yet?
+Rob Proctor III's Presentation: Can you hear me?
+Amber Fu: Yes. Yes. Uh hello.
+Rob Proctor III's Presentation: Yes.
+ 
+ 
+00:13:58
+ 
+Amber Fu: Can you hear me?
+Rob Proctor III's Presentation: No.
+Amber Fu: Yes. Yes. Yes, I can hear you. Can you hear
+Rob Proctor III's Presentation: Oh, it hasn't came up.
+Amber Fu: me?
+Rob Proctor III's Presentation: Okay, okay. Yes, I did. Let's try a different way here. Make sure I don't have anything um camera turned on. All right, let's try it again. All right, one second. Yes. Can you hear me fine? Yes.
+Amber Fu: Yeah,
+Rob Proctor III's Presentation: All right. Give me one second. Let me try it one more time.
+Amber Fu: sure.
+Rob Proctor III's Presentation: Yes. Yes, I hear you fine. So, I started sharing and it didn't pop up for whatever reason. So, I'm going to go ahead and try it again if you don't mind. All right.
+ 
+ 
+00:14:22
+ 
+Rob Proctor III's Presentation: Give me one second here.
+Amber Fu: Yeah. Yeah, sure. No problem.
+Rob Proctor III's Presentation: All right.
+Amber Fu: Yes.
+Rob Proctor III's Presentation: I don't know What?
+Amber Fu: Yeah, I see it.
+Rob Proctor III's Presentation: All right. All right. You can see my screen
+Amber Fu: Um, no.
+Rob Proctor III's Presentation: file.
+Amber Fu: I think it's a disappear right now. Do you mind try one more time? It's It's a popup, but it's disappear.
+Rob Proctor III's Presentation: Sure. Absolutely. Okay. Let's try again.
+Amber Fu: Thank you.
+Rob Proctor III's Presentation: No worries.
+Amber Fu: Okay.
+Rob Proctor III's Presentation: Let's see. All right.
+Amber Fu: Yeah, I can see it right now.
+Rob Proctor III's Presentation: It says I'm now sharing my screen with everyone.
+Amber Fu: Yes. Yes.
+Rob Proctor III's Presentation: Okay.
+Amber Fu: And uh you can switch to the the link I sent to you.
+Rob Proctor III's Presentation: Yes,
+ 
+ 
+00:16:25
+ 
+Amber Fu: Yes.
+Rob Proctor III's Presentation: I'm I'm I'm actually looking at it right now.
+Amber Fu: Yes, I can see it.
+Rob Proctor III's Presentation: Can you see it? I'm actually on the screen.
+Amber Fu: Yes, I can see
+Rob Proctor III's Presentation: It says, "Hi, Alex at the top. Um,
+Amber Fu: it.
+Rob Proctor III's Presentation: your monthly budget is 170 bucks.
+Amber Fu: Uh, I Hello, Rob. Can you hear
+Rob Proctor III's Presentation: All right.
+Amber Fu: me?
+Rob Proctor III's Presentation: So, what would you like me to
+Amber Fu: Sorry. I I think I kind of lost you a little bit.
+Rob Proctor III's Presentation: do?
+Amber Fu: I think it's is uh we kind of disconnect a little bit. Can you hear me right now? Uh hello. Uh hello.
+Rob Proctor III's Presentation: Yeah,
+Amber Fu: Hi. Can you hear me?
+Rob Proctor III's Presentation: I hear you clearly. Can you hear? Can you hear me fine?
+Amber Fu: Oh, okay. No,
+Rob Proctor III's Presentation: Okay.
+ 
+ 
+00:17:35
+ 
+Amber Fu: I can't hear you like like in Yes,
+Rob Proctor III's Presentation: Yes, I can hear you fine right now. Yes, ma'am. Yes. Can you not hear me?
+Amber Fu: I can. Right now I can hear you but like let's Yeah,
+Rob Proctor III's Presentation: Yes, I hear you fine. Can you hear me now?
+Amber Fu: I can hear you right
+Rob Proctor III's Presentation: That's terrible. Yeah, unfortunately every time it goes into the
+Amber Fu: now.
+Rob Proctor III's Presentation: share. Okay. Yeah. Unfortunately, every time it goes into the share, we get uh some some sort of distortion there.
+Amber Fu: Sure.
+Rob Proctor III's Presentation: Um would you like me to try it again or can we look at it from your screen?
+Amber Fu: Sure. Uh please uh appreciate uh please try again.
+Rob Proctor III's Presentation: How would you want to do it?
+Amber Fu: If if it doesn't work uh I can share my my side.
+ 
+ 
+00:18:06
+ 
+Rob Proctor III's Presentation: All right. Well, let's give it one more go
+Amber Fu: Sure. Thank
+Rob Proctor III's Presentation: here.
+Amber Fu: you.
+Rob Proctor III's Presentation: All right. Okay. All right. You should should be appearing now.
+Amber Fu: Uh
+Rob Proctor III's Presentation: Okay.
+Amber Fu: Yes.
+Rob Proctor III's Presentation: Well, okay. Let's go back to your link here now. I can see your link. Can you see it on your end?
+Amber Fu: No. Okay. I can see right now, but I kind of lost your voice right now. Okay. I can I Well, I can see your screen like share the screen. I can see the app. But I think I kind of lost you. Can Can you hear
+Rob Proctor III's Presentation: No,
+Amber Fu: me?
+Rob Proctor III's Presentation: not yet. I'm looking at it right now. Can you see it on your
+ 
+ 
+00:20:04
+ 
+Amber Fu: Yes, I can see it. But uh can Okay,
+Rob Proctor III's Presentation: end?
+Amber Fu: maybe you can try seeing something. I Okay, you know what? Uh, I think every time you share the screen, I I can't hear you. That's weird. But yeah,
+Rob Proctor III's Presentation: Oh
+Amber Fu: I kind of lost
+Rob Proctor III's Presentation: man, this is terrible.
+Amber Fu: you.
+Rob Proctor III's Presentation: I I kind of want to see the app, too. Oh,
+Amber Fu: Okay.
+Rob Proctor III's Presentation: man.
+Amber Fu: Okay. You know what? I I I share my my my
+Rob Proctor III's Presentation: Okay. Yes, I can hear you fine.
+Amber Fu: side.
+Rob Proctor III's Presentation: Can you hear me at all?
+Amber Fu: Okay, give me a
+Rob Proctor III's Presentation: Yes, I'm talking right now. Can you not hear me?
+Amber Fu: second.
+Rob Proctor III's Presentation: No. Yeah. No, I'm back now. This is terrible. I I appreciate it.
+ 
+ 
+00:21:09
+ 
+Amber Fu: Oh, it's okay. It's fine. Uh, let me know if you can you can see the screen. Can you see the
+Rob Proctor III's Presentation: Uh,
+Amber Fu: app?
+Rob Proctor III's Presentation: I'm waiting for it to pop up. Double tap pin three times. Um, I see it. It created another. Okay. Yeah, I see it now.
+Amber Fu: Oh, okay.
+Rob Proctor III's Presentation: Got
+Amber Fu: Perfect. Perfect.
+Rob Proctor III's Presentation: it.
+Amber Fu: So uh well I I can go uh I can go through a little bit.
+Rob Proctor III's Presentation: Sure.
+Amber Fu: So yeah so at the top like we show the device uh connectly. So uh you can see there have like some like uh icon like the car and the solar and power wall and there is uh something that uh we you know is like the trust serve va va basic. So you know if solar power is offline you'd want to know like immediately
+ 
+ 
+00:22:02
+ 
+Rob Proctor III's Presentation: Uhhuh.
+Amber Fu: right. Yeah. And next is like a monthly uh bill budget.
+Rob Proctor III's Presentation: Right.
+Amber Fu: And uh I I I I want to explain a little bit what's a monthly bill budget means. So uh this is kind of different from like a most app.
+Rob Proctor III's Presentation: Okay.
+Amber Fu: Uh so the the monthly budget goal is is not like a optimization target. So we're not trying to uh push your bill as low as possible, but think about like a tolerance boundary. It's like you know you telling the system oh if my bill ends up about this number I'm I will feel like something went wrong or I want to early warning. So uh it's is something like the uh personal like this is like a setable boundary and there have like a yeah there have a a set monthly bill limit and this is like a basics on your last three months
+Rob Proctor III's Presentation: Okay.
+Amber Fu: bill and and let's say like for for example like if your average bill let's say is $200, right?
+ 
+ 
+00:23:13
+ 
+Amber Fu: And usually like during the winter uh some sometimes goes high
+Rob Proctor III's Presentation: Okay.
+Amber Fu: and you can choose like you know maybe like uh 190 or like
+Rob Proctor III's Presentation: Right.
+Amber Fu: a 180 and the system will help you to achieve the goal. Yeah.
+Rob Proctor III's Presentation: Okay.
+Amber Fu: So basically is is something that you know we are try to uh helping you to uh you know no surprise bill and uh below the average. Yeah. Yeah.
+Rob Proctor III's Presentation: Okay.
+Amber Fu: And then the next one is the like you you can see there they have like the suggest a suggestion card like the a plan. So which means that uh uh for for example like you know when you're uh you're charging the EV during the high price we will like notice you at the first uh like a first place. Yeah. And also we have a two option. The first is automatic.
+Rob Proctor III's Presentation: Okay.
+Amber Fu: So we will uh just help you to you know to do it or another is like a manually.
+ 
+ 
+00:24:31
+ 
+Amber Fu: The manually means like we will send to you uh to the te Tesla or whatever your your EV is like you can go to the Tesla setting or your like another brand setting to change in that side. So it's
+Rob Proctor III's Presentation: What do you what what what do you mean by that?
+Amber Fu: holy.
+Rob Proctor III's Presentation: Like what do you mean by it changes setting dependent it changes the setting depending on the the maker of the vehicle is what you're
+Amber Fu: Yeah.
+Rob Proctor III's Presentation: saying.
+Amber Fu: Uh I let me click on the go to Tesla setting.
+Rob Proctor III's Presentation: Okay.
+Amber Fu: Yeah. And you know you just we will send to you the Tesla app and then you you can Yeah.
+Rob Proctor III's Presentation: Oh, okay.
+Amber Fu: You can do from there. Yeah.
+Rob Proctor III's Presentation: Okay.
+Amber Fu: Okay. So the basically is like the this this card is kind of like a actionable moment.
+Rob Proctor III's Presentation: Mhm.
+Amber Fu: So like you know in the top it's just it's like uh like it's always show like what's happening for example like even charging during the high price right and the middle like it's like
+ 
+ 
+00:25:41
+ 
+Rob Proctor III's Presentation: Right.
+Amber Fu: what to do like you know to uh charge off peak and the bottom is exactly when like the time window.
+Rob Proctor III's Presentation: Mhm.
+Amber Fu: So it's kind of like the reason action and time. Yeah.
+Rob Proctor III's Presentation: Gotcha.
+Amber Fu: So when you see this do you feel like oh it's good I know what to do or does it feel like another things to management
+Rob Proctor III's Presentation: No, I think it's I think it's um from a consumer standpoint, I think it's thoughtful, right? Because as a as a consumer,
+Amber Fu: Uh-huh.
+Rob Proctor III's Presentation: it gives us um well, it makes it feel like we have some sort of control there, right? Even though,
+Amber Fu: Mhm.
+Rob Proctor III's Presentation: right? uh you know we we we would like to think that we know the best right even though you guys probably do right but giving us uh the opportunity to be able to control that is awesome because a lot of people uh would like to have control over that rather than just being made to do you know so I think that's that's a great that's a great idea
+ 
+ 
+00:26:47
+ 
+Amber Fu: Gotcha. Gotcha. And uh like for you, do you want to like the system to handle the routine decision for you or do you want to like approve each time?
+Rob Proctor III's Presentation: I I'd like to personally approve it every
+Amber Fu: Okay. Gotcha. Gotcha.
+Rob Proctor III's Presentation: time.
+Amber Fu: And uh so uh and also like apply plan is like a do it bottom and the the like the goal is like a one time problem handled. Yeah. Okay. So and the and the next one is a power uh I will scroll down a little
+Rob Proctor III's Presentation: Mhm.
+Amber Fu: bit. So next one is like a power outage warning. So, uh this is something that like
+Rob Proctor III's Presentation: Mhm. The screen didn't move. It's still I'm still looking at the u the original screen.
+Amber Fu: uh
+Rob Proctor III's Presentation: If you if you clicked on anything else, I'm still looking at the the first
+Amber Fu: Okay.
+Rob Proctor III's Presentation: tab.
+ 
+ 
+00:27:39
+ 
+Amber Fu: Uh how about now?
+Rob Proctor III's Presentation: No, it has not changed.
+Amber Fu: Okay. Uh I think How about now? Is it
+Rob Proctor III's Presentation: Okay. Um,
+Amber Fu: okay?
+Rob Proctor III's Presentation: did it scroll down any? Yeah, it scrolled down a little bit. Okay, cool.
+Amber Fu: Oh, okay. Got you. Okay.
+Rob Proctor III's Presentation: Yeah,
+Amber Fu: So, uh and the next part is like the power outage warning. So, you know,
+Rob Proctor III's Presentation: gotcha.
+Amber Fu: sometime we'll have a like a power outage and we will like early to remind you like as soon as possible and tell you like what to do next. Yeah. So this card is not about saving money. It's about like a re reliability.
+Rob Proctor III's Presentation: Mhm.
+Amber Fu: So it's here because you know uh the most people think like most a lot of people think most stress moment are the moment you are not sure if you'll be okay right so
+ 
+ 
+00:28:39
+ 
+Rob Proctor III's Presentation: Right.
+Amber Fu: we're try to make the same pattern like oh what's happening and what to do and what yeah and uh and also
+Rob Proctor III's Presentation: Gotcha.
+Amber Fu: there have a automatic and a menu uh so basically let's say like for
+Rob Proctor III's Presentation: Okay.
+Amber Fu: example if like there have a our power outage warning before 48 hour or 24 hours and we will just uh quickly to the system will help you calculate and quickly to tell you like oh how we we can make sure you like maybe drew those time period how you can use your electricity like uh smarter or like how maybe like charge your power wall first and then the EV And we will time uh tell you like what time to to do that.
+Rob Proctor III's Presentation: Right. Question. I know you guys are in California.
+Amber Fu: Mhm.
+Rob Proctor III's Presentation: Is is that a frequent thing there? The power outages.
+Amber Fu: Uh in LA. No. But San Francisco sometime.
+ 
+ 
+00:29:43
+ 
+Rob Proctor III's Presentation: Okay. Really?
+Amber Fu: Yes.
+Rob Proctor III's Presentation: Okay.
+Amber Fu: But al you know what a couple months ago you know the Pasadena they have a fire the mountain fire.
+Rob Proctor III's Presentation: Gotcha. Right.
+Amber Fu: Yeah. that so depend on uh depends
+Rob Proctor III's Presentation: Mhm.
+Amber Fu: area how how about the Texas I think I think it's more
+Rob Proctor III's Presentation: Gotcha. Okay.
+Amber Fu: happening right
+Rob Proctor III's Presentation: Um only like so I've been here since COVID 2019 and we've only really had two power
+Amber Fu: uh
+Rob Proctor III's Presentation: outages and they both came during the winter. Like so you I don't I don't know if you know or not but Texas we're on our own power grid.
+Amber Fu: Okay.
+Rob Proctor III's Presentation: We only we only get power from the state of Texas. We don't get it from no other surrounding state. So um I think it was 2021 I believe it
+ 
+ 
+00:30:29
+ 
+Amber Fu: Uh-huh.
+Rob Proctor III's Presentation: was u we had a power outages because it got too cold and the generators couldn't kick on and the power was out for almost a week. Right.
+Amber Fu: Uhhuh.
+Rob Proctor III's Presentation: And that and that was one of the reasons that I did go get a power bank was because of that reason.
+Amber Fu: Okay.
+Rob Proctor III's Presentation: So yeah.
+Amber Fu: Got you.
+Rob Proctor III's Presentation: So it's not it's not it's not that frequent, but you know when it does it's a big deal for
+Amber Fu: Yeah. Yeah. Definitely. Definitely. Gotcha.
+Rob Proctor III's Presentation: sure.
+Amber Fu: Gotcha. And uh so and then next uh next one is like a usage part. So basically it's like uh we're not to try to turn into like
+Rob Proctor III's Presentation: No.
+Amber Fu: the energy analysis. But the reason we add the like the off peak unpick is to make the cost different at the gallons. So green means like cheaper, red means expensive cuz in California we have like a a lot of people they're using like a to rate plan.
+ 
+ 
+00:31:31
+ 
+Amber Fu: Yeah. I don't know in Texas, do you have a tou like the same price?
+Rob Proctor III's Presentation: No, we have No, we have something similar.
+Amber Fu: Oh, okay. Okay. Gotcha.
+Rob Proctor III's Presentation: Yeah.
+Amber Fu: Yeah. And uh but I want to like you know I have questions. So uh should this be driven by time only or should we also show like a conditions like you know the solar weather since that's how like uh a lot of people naturally think about like using the power.
+Rob Proctor III's Presentation: Yeah, the second I would definitely go that route only because um you will be showing people
+Amber Fu: Okay. All
+Rob Proctor III's Presentation: um what they're used to or what that we naturally think about, right?
+Amber Fu: right.
+Rob Proctor III's Presentation: What you don't want to do is is over um give give too much information um because that can overstimulate a person and it and then they'll think it's too complicated, right?
+Amber Fu: Yeah.
+Rob Proctor III's Presentation: You want to you want to make it so you know it'll be more attractive.
+ 
+ 
+00:32:32
+ 
+Amber Fu: Mhm. Gotcha. Gotcha. But when you say like are you the person who always to like to see the usage or data stuff like
+Rob Proctor III's Presentation: Uh yeah,
+Amber Fu: that.
+Rob Proctor III's Presentation: it'll be yeah it would be between me and another person depending on where I am. I travel quite a bit. I do real estate for a living.
+Amber Fu: Okay.
+Rob Proctor III's Presentation: So and I invest in real estate so I'm moving a lot, right?
+Amber Fu: Mhm.
+Rob Proctor III's Presentation: So I have a 30-day month. I'm probably at home 14 days. But I definitely check um when I come and go um the usage for
+Amber Fu: Okay. Got you. Got you. And like uh for like the when you I I I'm sure you uh you have
+Rob Proctor III's Presentation: sure.
+Amber Fu: a certain app can check the usage but when you saw those like what what part you think they still missing or what part you think oh maybe should appear here but didn't
+ 
+ 
+00:33:27
+ 
+Rob Proctor III's Presentation: Um, that's a great question because I never really do. That's a great I'll have to you guys you should have sent me a couple questions to have ready, right? So I don't have to take so much time thinking because that's a great question.
+Amber Fu: Okay.
+Rob Proctor III's Presentation: Um, and I never thought about it that way, right? I think like when you guys you you well when when energy company presents me that information, I just think that's what we're supposed to go off of. I never thought about like what should be here. But no, that that's a great question to answer it.
+Amber Fu: Okay.
+Rob Proctor III's Presentation: I couldn't I couldn't tell you off top of my
+Amber Fu: Okay. It's okay. But uh for example,
+Rob Proctor III's Presentation: head.
+Amber Fu: for me uh I'm not really like to see the like usage like those number things. I just want to like there have like a a quote or something like just tell me what
+ 
+ 
+00:34:11
+ 
+Rob Proctor III's Presentation: Uh
+Amber Fu: happening and what what I need to do something like that you know.
+Rob Proctor III's Presentation: right. Okay. Uh
+Amber Fu: So cuz I you know cuz I like a lot of number I can't remember it like probably like yesterday I saw it then today I forgot.
+Rob Proctor III's Presentation: Yeah.
+Amber Fu: So I want you something that you know just uh clearly to tell me uh okay
+Rob Proctor III's Presentation: Right.
+Amber Fu: those are number thing but this is like what's going on here
+Rob Proctor III's Presentation: Yeah. I I from my standpoint,
+Amber Fu: and what
+Rob Proctor III's Presentation: I honestly don't even look that indepth, right? As long as I don't have a problem.
+Amber Fu: uh
+Rob Proctor III's Presentation: Um, and and that number as far as the the the bill isn't, you know, out of the ordinary, I don't even pay that much attention, you know, which is probably terrible, but I I honestly
+Amber Fu: Gotcha. Gotcha. Gotcha.
+ 
+ 
+00:35:03
+ 
+Rob Proctor III's Presentation: don't.
+Amber Fu: Okay. So, and uh we we can uh go to the event like there have a uh uh the event card the type.
+Rob Proctor III's Presentation: Uh-huh.
+Amber Fu: So we uh so when you see those s suggestion and there have a more more detail and uh you can click on the more detail and uh there have like the event part. Yes. So the event is means like give the user like the details says oh what happened why is matter and how impact you know like because like every time we give suggestion or like either like you can do manually or we
+Rob Proctor III's Presentation: Okay.
+Amber Fu: help you do automatic but a lot of people always need need to know like the reason the detail reason. So this is kind of basics like oh just tell you like the really detailed
+Rob Proctor III's Presentation: Right.
+Amber Fu: stuff.
+Rob Proctor III's Presentation: Right. Got you.
+Amber Fu: Okay. And we can go back and uh give me a second and
+ 
+ 
+00:36:05
+ 
+Rob Proctor III's Presentation: Okay.
+Amber Fu: uh and those those part this part event part is like um usually it's like when is euro like you know something like EV charging during the high price or solar is like a breakdown or like power wall charging through the high price stuff like that it's only like I things will appears on the
+Rob Proctor III's Presentation: Mhm.
+Amber Fu: event shows on event. Okay. And next one is like saving.
+Rob Proctor III's Presentation: Okay.
+Amber Fu: Uh so the saving uh we uh uh we split to the two part. Uh the one is like the uh the saving the savings means like a like risk exposure from the behavior and the bill part is like what you your utility actually build you. So basically saving is kind of like our side. It's like a cost risk like we detected from the behavior and the timing and the bill part is like a utility side.
+Rob Proctor III's Presentation: Mhm.
+Amber Fu: It's like what showed up on your bill. Yeah.
+Rob Proctor III's Presentation: Okay.
+ 
+ 
+00:37:16
+ 
+Amber Fu: And for like the the $56 uh the number is like a kind of like a a total at risk cost. So basically like we detected in the current billing periods basically if you are re uh just try to tell the user like if oh if you repeat those pattern this is amount that uh tend to show up extra cost exposure. Yeah. And uh and there uh so and the chart is help you to say whether
+Rob Proctor III's Presentation: Okay.
+Amber Fu: your risk exposure is getting better or worse over time. Yeah.
+Rob Proctor III's Presentation: Okay.
+Amber Fu: And the the next part is like the the the equation like just tell the user how we calculate the is like the definition uh and
+Rob Proctor III's Presentation: which is really which is helpful for
+Amber Fu: and also there have the the bottom there have the event on this month.
+Rob Proctor III's Presentation: sure.
+Amber Fu: So uh down here we break the risk ledger into a category. So EV, solar and power like each row shows how many times happened in this building period and uh the estimate total extra cost exposure from the category.
+ 
+ 
+00:38:35
+ 
+Amber Fu: So it's not a daily is roll up across a billing period. uh for example like EV charging appear four time means like four event in the billing
+Rob Proctor III's Presentation: Mhm.
+Amber Fu: period and they will they will have a
+Rob Proctor III's Presentation: Okay.
+Amber Fu: detail is like uh uh like how much your uh uh risk or saving and you can uh we can try to click on that. So the bottom sheet is uh uh is just uh we we try to you know uh more detail to tell you like how we calculate what's matter what happening and what to do next.
+Rob Proctor III's Presentation: Got you.
+Amber Fu: Uh-huh.
+Rob Proctor III's Presentation: Okay.
+Amber Fu: And we can go back and this uh a top there have a the bill part. So the bill part uh the true part is for like you know the California user. So for cuz in California uh most of people they will uh have the trial bill but if like in Texas they you don't then that part will not showing and and the bill is like uh the monthly bill like when you receive
+ 
+ 
+00:39:52
+ 
+Rob Proctor III's Presentation: Okay.
+Amber Fu: it every month and and uh when you click on the view more uh they will have a things called bill proof. So uh this is uh you know think of the think of this like a check and receipt at the grocery store. So we're not saying like the whole your utility bill is wrong. We're just looking at a few item we can clearly recognize and asking like does this line look right? So cuz like some users they are you know receive the bill from
+Rob Proctor III's Presentation: Okay.
+Amber Fu: utility they think is something wrong like either like they if like the uh the solar user either they think oh I didn't have enough credit or like they charge me wrong or my solar problem. So this is kind of like we're trying to help user to see like the mismatch. Yeah.
+Rob Proctor III's Presentation: Okay.
+Amber Fu: So uh uh so yeah that will be kind of it. Let's say we uh and we can go
+Rob Proctor III's Presentation: It's coming.
+ 
+ 
+00:41:17
+ 
+Amber Fu: go back there. Is there any problem or like anything you want to ask?
+Rob Proctor III's Presentation: Uh yeah, I I do have a question now. Um so you would be a third party or would you be working directly with my cable like Okay, so my energy provider here is Reliant, right? So you would partner with Reliant or would you be some a third party that I that I would be or you would be feeding like hooking up to my personal um electric usage? Like how are you monitoring
+Amber Fu: Um okay so I'm we are more like a third
+Rob Proctor III's Presentation: this?
+Amber Fu: party so uh usually we are we will have we we can have the like utility the number and also the the customer will if they want they will uh give us they will connect their like utility account with with us. Yes.
+Rob Proctor III's Presentation: Oh,
+Amber Fu: And we will help the user to you know deal with the utility company.
+Rob Proctor III's Presentation: how much does this service
+ 
+ 
+00:42:29
+ 
+Amber Fu: Uh right now is still free.
+Rob Proctor III's Presentation: cost?
+Amber Fu: We we we want we want we still want to you know user to try it and to see like how much they want to
+Rob Proctor III's Presentation: Uh-huh.
+Amber Fu: pay.
+Rob Proctor III's Presentation: Got you. And and lastly, the the the biggest thing that would come to my mind is
+Amber Fu: Uhhuh.
+Rob Proctor III's Presentation: security.
+Amber Fu: Oh okay. Got you.
+Rob Proctor III's Presentation: Mhm. because you being third party and you're working directly with me rather than the electric company, then I would be, you know,
+Amber Fu: Mhm.
+Rob Proctor III's Presentation: holding the liability as far as security. Well, you would be holding liability at the end of the day, but I would be holding that liability to do do my due diligence as far as, you know, you guys infrastructure as far as my home security, right?
+Amber Fu: Got you. Um, so okay. So I have a question. So uh we can go to profile.
+ 
+ 
+00:43:27
+ 
+Amber Fu: Oh sorry give me a second. Uh we can go to profile and there have a data and connection
+Rob Proctor III's Presentation: Okay.
+Amber Fu: and those are the thing that we uh like we wish.
+Rob Proctor III's Presentation: Okay.
+Amber Fu: Yeah.
+Rob Proctor III's Presentation: Gotcha.
+Amber Fu: But I I I want to know like there is there any part you feel not com comfortable to connect with and the reason
+Rob Proctor III's Presentation: Um yeah, only because so what what I think of right so you you once you once I give you my login so I'm pretty sure I'm have to give you my login information for my um utilities right right so once I share that you have the shared amount of control over my utilities as I would right so that would create a privacy concern just with me
+Amber Fu: Yeah.
+Rob Proctor III's Presentation: offhand just because one I'm not familiar with the company and then two you guys aren't partnering directly with the energy company and you're you know you're going direct to consumer so you know the liability again the liability would be on me um if anything were to happen right not and and I can't imagine well I kind of could kind of imagine what could happen right as far as security of accounts and things of that nature.
+ 
+ 
+00:44:58
+ 
+Rob Proctor III's Presentation: Um, but that would be a a general concern of mine on the, you know, right off the bat, you
+Amber Fu: Gotcha. Gotcha. Well, that's a very fair concern.
+Rob Proctor III's Presentation: know.
+Amber Fu: And yes, we're like a third party, but we're like read mostly third party, not something that take control by default. So like think of us more like a financial app you know like
+Rob Proctor III's Presentation: Uh-huh. Okay. Right. Okay.
+Amber Fu: read your statement not something that can move money on your uh on its own.
+Rob Proctor III's Presentation: Gotcha.
+Amber Fu: Yeah. So we can only say the data but we can't change anything.
+Rob Proctor III's Presentation: Okay.
+Amber Fu: Yeah.
+Rob Proctor III's Presentation: Gotcha.
+Amber Fu: So we don't like switch your rate plan,
+Rob Proctor III's Presentation: Gotcha.
+Amber Fu: change your utility count or don't control device unless you expect turn that on. But and even then for things like EV charging we always like route your back to Tesla or like you know another like brand to confirm.
+ 
+ 
+00:45:59
+ 
+Rob Proctor III's Presentation: Got
+Amber Fu: So the reason where like a third party is like actually we can sit on your side not
+Rob Proctor III's Presentation: it.
+Amber Fu: utility side. So yeah and also the very important thing is like we don't sell power and we don't make
+Rob Proctor III's Presentation: Okay,
+Amber Fu: money when you use more electricity. So uh only our institive is helping you understand like what's
+Rob Proctor III's Presentation: gotcha.
+Amber Fu: happening and a vote a vote surprise bill.
+Rob Proctor III's Presentation: Gotcha. Makes sense. Okay.
+Amber Fu: Yeah.
+Rob Proctor III's Presentation: I I I appreciate the
+Amber Fu: Okay. So, so at the at the top like you know that like the bill section is just what you receive every month for the
+Rob Proctor III's Presentation: clarity.
+Amber Fu: utility and and and and also like we do a lot of the the saving type the we just try to you know let people like let user to can understand like oh how much you're using the electricity why you use it uh maybe uh anything like any part you can still save some money.
+ 
+ 
+00:46:59
+ 
+Rob Proctor III's Presentation: Mhm.
+Amber Fu: Yeah.
+Rob Proctor III's Presentation: Okay.
+Amber Fu: And and also you know for long term we do expect to have our own
+Rob Proctor III's Presentation: Yeah.
+Amber Fu: hardware but the idea is very simple is there to make the data more reliable not to take control away from you. Yeah.
+Rob Proctor III's Presentation: Gotcha.
+Amber Fu: So uh you know our goal basically is just using use can using this app feel safer than not knowing what's happening.
+Rob Proctor III's Presentation: for sure. And and again, you know, I I can appreciate that for sure. You know, and and I appreciate the
+Amber Fu: Okay, perfect.
+Rob Proctor III's Presentation: clarity.
+Amber Fu: And uh so when you saw those app like uh yeah it what what what do you feel like what's your first reaction and what what what else you think we're still missing?
+Rob Proctor III's Presentation: Um no I think it's you know again you know my first reaction would have been the security right so how would you number one how would you gather this information right because and you answered that right it would be come directly from the consumer I would give you you know basically you just get the information from me basically right and um that was my first thing like how would you gather information did you work with you know were you third party did you work directly with you
+ 
+ 
+00:48:11
+ 
+Rob Proctor III's Presentation: know energy companies but secondly Um, I think I think it it would it I think it'll probably be advantageous, right? And your you guys' positioning is smart as a business model as far as working directly with the consumer because it makes a lot more sense now, you know, how you explained it, you know, working, you know, with the consumer rather than with the energy company because like you said,
+Amber Fu: M.
+Rob Proctor III's Presentation: you guys don't benefit as far as the, you know, you me using more energy. You guys don't get a kick from that, right? So, um, as of now, I don't have any qu any more questions, but I think that that cleared everything
+Amber Fu: Okay. Okay. Sure. And you know I really appreciate like how thoughtful you went through this and this is kind of feedback exactly
+Rob Proctor III's Presentation: up.
+Amber Fu: like what shaped the product and you know uh so we don't like so this is still like early version demo and uh what we're building
+Rob Proctor III's Presentation: Uh-huh.
+Amber Fu: really only work if like it's test in real life not just in demo. So, uh I always wonder like once this is alive,
+Rob Proctor III's Presentation: Absolutely.
+Amber Fu: I would love to invite you to try with like a actual like your actual bill and charge habit and tell us like honest like what works or or like what doesn't.
+Rob Proctor III's Presentation: Yeah, you guys have my email. Shoot me over one of you guys' brochure. I'd love to look at
+Amber Fu: Yeah, sure. Sure.
+Rob Proctor III's Presentation: it.
+Amber Fu: Thank you so much. And uh please uh keep in touch.
+Rob Proctor III's Presentation: Absolutely.
+Amber Fu: Yeah.
+ 
+ 
+Transcription ended after 00:50:04
+
+This editable transcript was computer generated and might contain errors. People can also change the text after it was created.

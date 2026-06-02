@@ -1,0 +1,1058 @@
+Mar 5, 2026
+Casally Interviews(Utility Bill&Solar Credit Consulting) (Dexter Luu) - Transcript
+00:00:00
+ 
+Amber Fu: Okay, here we go. Hi, how are you?
+Dexter Luu: I'm good. How about
+Amber Fu: Good. Good. Um,
+Dexter Luu: yourself?
+Amber Fu: so really, uh, thank you again for taking time to speak with us today and I, uh, truly appreciate your experience and respective. Um, so let me, uh, briefly introduce who we are and why we want to have this conversation. Yes. Um so we are building a company called the castle and and our vision is become like a financial layer for the household energy u because like you know like today like most home owner with solar or battery doesn't uh actually understand how their bill is calculate and how credit are apply or like whether they are truly saving the money and um there and we think there is a gap between like uh like what
+Dexter Luu: Awesome.
+Amber Fu: utility are calculated what installer promise and what uh homeowner actually see and we are just trying to close the gap. Yes. And uh and you also join me today is Alingia and he's our technique lead and he's responsibility for the architect behind the building logic and the data modeling and I'm more focused on the product direction.
+ 
+ 
+00:01:24
+ 
+Amber Fu: Yeah.
+Dexter Luu: Mhm.
+Amber Fu: So we can make sure like we're building this correctly from both product system uh standpoint. Yes.
+Dexter Luu: Okay.
+Amber Fu: And um before we get start uh which state or utility are you most familiar with?
+Dexter Luu: uh California and I'm I'm in PG Gene territory.
+Amber Fu: Oh, that's
+Dexter Luu: Um so when I started my career I was in energy consulting and I did
+Amber Fu: good.
+Dexter Luu: um demand response for California statewide. So I worked with SDG& and PG&
+Amber Fu: Okay,
+Dexter Luu: um yeah and now I'm at uh UCSF and I do energy management over there.
+Amber Fu: perfect. Got you. Got you.
+Dexter Luu: So,
+Amber Fu: Perfect. Because um our first market is in
+Dexter Luu: okay.
+Amber Fu: California.
+Dexter Luu: I think California is probably the most uh complicated in the US.
+Amber Fu: Yes. Yes. Exactly. So uh before we go deeper uh into the technique question we love to briefly show you our current demo so you have contact for what we are building.
+ 
+ 
+00:02:25
+ 
+Amber Fu: Yeah it's still in the early stage. So yeah and uh did you can you see the screen?
+Dexter Luu: Yes, I can see it.
+Amber Fu: Okay perfect. Uh okay let's let me go through really quick and uh as you see like the this uh the first is our home uh on the top a section uh we provide environment and the system contact uh so basically we're display realtime status for the household energy ecosystem like solar battery and the grid connection so user immediately understand like currently state of their energy system and also the weather contact is included because like uh energy usage and solar production are highly weather uh dependent. Um so uh for the where the question is like if we want to uh raise construct household energy flow correctly what's interval data are
+Dexter Luu: Uh
+Amber Fu: absolutely need to be there like utility interval data or like battery charging log
+Dexter Luu: I think you would need interval data for both.
+Amber Fu: talk.
+Dexter Luu: I think what is most important for um at least the export credits I think the minimum for that is probably an hour.
+ 
+ 
+00:03:44
+ 
+Amber Fu: Mhm.
+Dexter Luu: Uh I know utility interval data is usually 15 minutes but I think they do the export
+Amber Fu: Mhm.
+Dexter Luu: credits by the hour.
+Amber Fu: Okay. Um if like one data must be the source of truth which one should be
+Dexter Luu: Uh, you mean for the granularity or or do you mean for the export credit?
+Amber Fu: as for Got
+Dexter Luu: Uh, I would use the avoided or I guess it depends on what um program
+Amber Fu: it.
+Dexter Luu: your your customers on. uh if they install their solar after april 2023 I think I
+Amber Fu: Yeah.
+Dexter Luu: think they would be on NEM 3 which their expert credit is dependent on the avoided
+Amber Fu: Mhm.
+Dexter Luu: cost calculator and um there's a
+Amber Fu: Yeah.
+Dexter Luu: consulting company who has made that public so then um if you just Google what it cost calculator uh I think it's by might be their company name like E3 or I think um but yeah either way they they were the consultant that that came up with this avoiding cost
+ 
+ 
+00:04:48
+ 
+Amber Fu: Mhm.
+Dexter Luu: calculator and you just have to input a couple parameters and then it gives you the
+Amber Fu: Mhm.
+Dexter Luu: um export credit and basically customers under NEM3 they're incentivized to use batteries because the export credit is not very good most of the time.
+Amber Fu: Got
+Dexter Luu: Um yeah and then but then there are some times especially in the summertime when you you mentioned you know when
+Amber Fu: you.
+Dexter Luu: it gets hot so August September time October time I think the export credit is very high and you can see that in the uh avoided cost
+Amber Fu: Got you. Got you.
+Dexter Luu: calculator
+Amber Fu: Uh and also like from the uh uh if we like pulling device status of and interval data what field do you consider must have for credibility and which missing field would make bill like re construction impossible.
+Dexter Luu: Uh, can you repeat that? Sorry.
+Amber Fu: Oh you mean like uh so if we pulling device that is like you know you as you can see the top uh the section. So if we pulling the uh device studies and the interval data like what fail do you consider must have for credibility?
+ 
+ 
+00:06:06
+ 
+Dexter Luu: Uh what is the Y status? Sorry.
+Amber Fu: Uh I'm sorry I I kind of my signal is kind of bad. Can you repeat the question?
+Dexter Luu: Uh you were saying the Y
+Amber Fu: Uh yes.
+Dexter Luu: status.
+Amber Fu: Uh uh so what I try to say is like the uh the device device.
+Dexter Luu: Oh, device set. Okay. Yeah.
+Amber Fu: Yes.
+Dexter Luu: So then you're saying um for the device status and the interval data what is necessary? So for the interval data you know usually that's just time stamp and and the energy
+Amber Fu: Yes.
+Dexter Luu: usage. Uh for device status definitely the amount of charge the battery has left. Um you also need to know usually batteries they're set up so they operate in a couple different operating modes. um there's usually a minimum reserve. So understanding how much capacity is left and how much you're currently using or exporting is important to know like how much longer your battery is going to live um once it gets to that minimum threshold.
+ 
+ 
+00:07:09
+ 
+Amber Fu: Mhm.
+Dexter Luu: Um and there's battery there's interval data coming in and yeah
+Amber Fu: Mhm.
+Dexter Luu: basically you just need to know if you're currently exporting anything you know like you need to know like what your current setup is. Um, usually the customer would probably work with their solar installer, I guess, to program their their uh battery, you know, to make sure that it's kind of operating the way that they wanted to. Um,
+Amber Fu: Mhm.
+Dexter Luu: but it really depends on how how they set it
+Amber Fu: Gotcha. Gotcha.
+Dexter Luu: up.
+Amber Fu: Okay. Perfect. And uh so move to the next is our uh uh monthly bill budget. So uh this is is it's really different from the most app. Uh so it's not like a automization target. Uh it's more like a tolerance boundary. So basically user just telling system oh if my bill end up about this number I feel like something went wrong and want to early warning. So we don't let user tap any random number here.
+ 
+ 
+00:08:11
+ 
+Amber Fu: So uh is uh we we ground ground the goal into things based on the user last three months bill and uh currently read plan and uh so this is more like turn the app from the dashboard into the decision system. So we basically look at the same event like pick our EV charging and just ask like oh does this event meaningful threaten the users left go yeah so I don't know like do do you do you think this
+Dexter Luu: Mhm.
+Amber Fu: part is make sense to you?
+Dexter Luu: Uh so it's just kind of like how much money uh it's estimating that they have left for for the month.
+Amber Fu: Uh well uh let me uh let me see what I how I can see it. Um so so basically so okay so this monthly bill uh monthly vehicle is more like uh let's see so uh it's more like a comfort boundary for the monthly bill like you know like many homeowner don't try to optimize their electric bill every day but
+Dexter Luu: Yeah.
+Amber Fu: they usually have sense of what their bill should roughly be.
+ 
+ 
+00:09:29
+ 
+Amber Fu: So, for example, like someone may think, "Oh, my electricity bill is usually around the 120." Uh,
+Dexter Luu: No.
+Amber Fu: since like right now it's not like a really hot summer day or really cold winter day and I'm not using the AC a lot. So, I think oh, probably next month will be like same same amount. So, if something happened that may push the bill to like let's say the $200, the system warm warn them early. So it's more like a early warning system, not the spending tracker. So the system only like surface recommendation when the user expand the bill at the risk of exceeding the that boundary. For example, like if if charging the EV during the peak hour could push the bill about that number, we surface a recommendation. It's less about like a max meaning saving and more about like avoiding bill price.
+Dexter Luu: Yeah. So, so that monthly bill budget, you know, it says 74.8 right now and it says and it's saying that the past three months the average is 170, I think that's what it says.
+ 
+ 
+00:10:35
+ 
+Amber Fu: No. So the the the top is like the is like the uh user last three months bill like 210 208 200 and the recommend uh
+Dexter Luu: Yeah.
+Amber Fu: recommended range is what we let the user choose like if they try to you know choose like 170 which need to be cheaper than like like a 30 to $40 then the system will have like you know uh some uh uh some like advice or uh yes just tell the user how he can achieve that goal.
+Dexter Luu: Okay. So,
+Amber Fu: Yes.
+Dexter Luu: so it's like it's setting a goal and then um
+Amber Fu: Yeah. Yeah. So you in your experience do homeowner care more about u minimizing their
+Dexter Luu: Okay.
+Amber Fu: bail or about avoing an expat bill.
+Dexter Luu: Uh I think they would appreciate minimizing their bill, you know, wherever they can save money. Um,
+Amber Fu: Mhm.
+Dexter Luu: but I also think that they usually don't want to be too involved. You know, they don't want to have to manage it every single day.
+ 
+ 
+00:11:51
+ 
+Dexter Luu: So, I I could see like the notification system being being helpful for them. Um, I think the notification and you're trying to say that,
+Amber Fu: Um
+Dexter Luu: you know, like it you want to warn them or you want to advise them on possible measures that they can take. Um, you know, I think the information that you're currently getting, you probably need to forecast like the temperature and things like that or or take into account the forecast the temperature. Um,
+Amber Fu: Mhm.
+Dexter Luu: but most importantly, I think if your customer is on NE3 and they have solar, they should probably take that into account as well. So, they know like how much they should be exporting or maybe when to use their battery.
+Amber Fu: Mhm. Got you. Um, so okay. And also, uh, let me see. Oh, we can go back a little bit. Okay. So and uh the question for here is like from a tariff modeling perspective like how sensitive our residential bill to small behavioral change like EV charging time.
+ 
+ 
+00:12:56
+ 
+Dexter Luu: Uh there I mean if you do it on a consistent basis it's going to be a big
+Amber Fu: Mhm. Okay. And and and under the tu structure is it like the marginal cost different usually large enough to for behavioral shift to
+Dexter Luu: Yes, because you know,
+Amber Fu: matter.
+Dexter Luu: say um I would say most people probably are not doing this because they'll be warned against it already. But for some reason, if somebody is charging their EV every day during peak hours in the summertime, um if they were to move it to off peak hours, I would guess that they'll probably save at least like 50%. It's it's pretty it's a pretty big difference because uh you know, peak hours usually when it's hot, um between 4:00 to 9:00 p.m. it's I feel like sometimes we get to like 40 something cents, 50 something cents, uh depending on where you live.
+Amber Fu: Mhm.
+Dexter Luu: Yeah.
+Amber Fu: Okay. Got you. Got you. Um Okay. So uh the next next one will be the saving.
+ 
+ 
+00:13:57
+ 
+Amber Fu: So the the saving card is not just a reward is more like a uh reflex how you reason behavioral uh elements with select goal. So basically like if your goal is financial to tolerance boundary the savings shows how much buffer you currently have. Um so for here like from like uh the standpoint that do home owner usually think in the term of saving money or in term of avoing bill price because like uh some some people they they especially
+Dexter Luu: Yeah.
+Amber Fu: in California uh some like solar solar owner they sometime will have like the chura bill. Um so and also and also like some own uh some homeowner uh sense like they we cuz we speak a few like homeowner in LA and they said that uh like maybe like last month they're on the vacation and but the bill is still really high so they just don't want that surprise bill. So my question is like in your experience like a percentage of the customer
+Dexter Luu: Mhm.
+Amber Fu: like how many percentage they just want to saving money how many percentage they just want to avoiding the surprise
+ 
+ 
+00:15:21
+ 
+Dexter Luu: I would say that honestly 100% for for both. I I think what's most important to them is that their bill is what they expect it to be. So,
+Amber Fu: I don't
+Dexter Luu: I would say that they don't want surprise bills. Um,
+Amber Fu: know.
+Dexter Luu: but if you present them with an opportunity to save money, then I think that they would take it. So, I would put the avoiding surprise bills probably ahead of saving money. Um,
+Amber Fu: Mhm.
+Dexter Luu: but I think those two are pretty closely related to each other.
+Amber Fu: Gotcha. Gotcha. And uh Okay. And also like uh if we calculate saving based on uh avo margin cost, what a baseline would you consider uh defensible?
+Dexter Luu: Sorry. Calculate savings baseline avoided like uh
+Amber Fu: like emerging cost.
+Dexter Luu: yeah and then you're talking about baseline.
+Amber Fu: Yeah.
+Dexter Luu: Uh usually I mean people would just use like the year before if you want to calculate for the next
+Amber Fu: Yeah.
+ 
+ 
+00:16:25
+ 
+Dexter Luu: following year. Um, and if you're using interval data,
+Amber Fu: Uh-huh.
+Dexter Luu: then I would say the the year before.
+Amber Fu: Okay. But in your experience, do utilities themselves ever calculate uh saving this way?
+Dexter Luu: Yes.
+Amber Fu: Okay. Got you. Got
+Dexter Luu: So, so usually I mean honestly I in my work is actually a lot of this I I usually create a model
+Amber Fu: you.
+Dexter Luu: um usually regression based uh time week and temperature and you know I create a baseline using a year before I implement some some type of energy efficiency measure um and then I measure it for after implementation. So basically could and the reason why you want to use a year of data is because it captures every single weather period. Maybe if you only care about the summer months, um you know,
+Amber Fu: Mhm.
+Dexter Luu: so like say July through like October or something, if you were to build a model only on uh March through June,
+Amber Fu: Mhm.
+Dexter Luu: then you're probably not going to capture the entire temperature range.
+ 
+ 
+00:17:26
+ 
+Amber Fu: Mhm. Mhm.
+Dexter Luu: Um,
+Amber Fu: Got you.
+Dexter Luu: so usually I would I would use a year before, but um, if you're lucky and you're you're trying to measure maybe like a shoulder season, that's a little bit easier to capture the temperature range. Um, but you know, if usually if you do a year before, then you're going to capture the entire temperature range because you're going winter to
+Amber Fu: Gotcha.
+Dexter Luu: summer.
+Amber Fu: Gotcha. Okay. Thank you. That's really valuable information for us. And okay, so let's move to the next part will be the we see uh we call the execution card. So this is where like the system move from the awareness to action. So um basically the attriution card is uh always trigger the relative to the user select goal. Uh it's just answer one question like what action right now would most meaningful reduce risk related to the user goal. uh for in this uh example the execution card shows power outage warning but it's also could be like EV charging during the peak battery charging at a higher price period or like solar and uh performance so the content change but the uh structure stay constant and uh also when you click view more uh more detail they will have uh like event page like just uh just you know uh where we explain reasoning behind the recommendation.
+ 
+ 
+00:19:00
+ 
+Amber Fu: Yeah. So uh for your perspective does this make sense like trigger execution suggestion related to the financial boundary rather than the pure
+Dexter Luu: I think this makes sense.
+Amber Fu: optimization.
+Dexter Luu: So, this is kind of like warning them. Uh, you mentioned the EV charging during I think 9 to 11. So, it's saying that they're currently doing that and they should stop doing that or they're warning them to to not do
+Amber Fu: Mhm. Okay. Got you.
+Dexter Luu: that.
+Amber Fu: And like um like in real world project do customer prefer like automatic automization or do they prefer like clear decision promote with the explanation in
+Dexter Luu: By auto by automatic,
+Amber Fu: your uh okay so we can
+Dexter Luu: you mean it does it by itself?
+Amber Fu: go back uh home. So do you see like we we have a two uh select one is automation we we just do it by our app or end and another menu will
+Dexter Luu: Yeah.
+Amber Fu: be uh let's see uh for example like if if it's a Tesla we will we're going to let them to to go to a Tesla setting and do them by though.
+ 
+ 
+00:20:19
+ 
+Dexter Luu: So, this app is going to control their their Tesla charging and stuff like that.
+Amber Fu: Yeah.
+Dexter Luu: I would say if it's correct,
+Amber Fu: Yeah.
+Dexter Luu: then automatic would be better.
+Amber Fu: Okay. Okay. Got you. Got
+Dexter Luu: Um but I think on your for your guys' side you guys just need to make sure that it is doing
+Amber Fu: you.
+Dexter Luu: what is optimal because then uh you know if you make a product and the
+Amber Fu: Uhhuh.
+Dexter Luu: customer just lets it do do its thing and it's not saving them money or it's making them use more electricity and costing them more money then they
+Amber Fu: Mhm.
+Dexter Luu: will they would probably be upset.
+Amber Fu: Okay.
+Dexter Luu: So
+Amber Fu: Gotcha. Gotcha. And but and when surfacing and uh execution recommendation should we always include
+Dexter Luu: yeah,
+Amber Fu: estimate financial impact or would that risk over simple life the build building structure.
+Dexter Luu: I think they would appreciate if you could do it accurately, but it is a little complex.
+ 
+ 
+00:21:22
+ 
+Dexter Luu: I would ag I would uh um say, you know, it's because there's a lot of things that go into a utility bill that's not just directly like energy usage. You know, they they talk about like transmission and distribution charges and and all these things. So, it's going to be hard to incorporate all that. But maybe if you're just you could simplify it for them and just, you know, do it in terms of KWH values and and uh a blended rate.
+Amber Fu: Mhm.
+Dexter Luu: Usually that's enough for
+Amber Fu: Gotcha. Gotcha.
+Dexter Luu: customers.
+Amber Fu: And and uh for in your experience like which behavior usually create the largest cost exposure uh cause a large
+Dexter Luu: What which behavior does what? Oh,
+Amber Fu: exposure.
+Dexter Luu: uh I mean just using electricity during like peak hours, I think.
+Amber Fu: Okay. But like what uh like what kind of what applies do you think is cost most like EV charging or like AC or like
+Dexter Luu: Yeah. Oh, okay. Yeah, I would say uh both of those.
+ 
+ 
+00:22:25
+ 
+Dexter Luu: Yeah, EV charging, AC. That's why um a lot of times uh utility bills go up during like weather events, right? That's why it's very temperature dependent.
+Amber Fu: Mhm.
+Dexter Luu: Um I would say primarily AC um because most
+Amber Fu: Mhm.
+Dexter Luu: people understand that they shouldn't charge their EVs already at like the peak hours. They'll normally charge it a little bit more oftenly. maybe not the most optimal but they won't do it at the worst times either. Um AC is a comfort that people cannot give up. So I think you know usually AC is probably the biggest driver or you know other temperature related
+Amber Fu: Got you. Got you.
+Dexter Luu: things
+Amber Fu: So and um Okay. So we can go next one. The usage. So uh the the user provide like the uh layer be behind the goal and execution is like uh we try allow user to see how their uh consumption maps to tou structure uh and the financial exposure. Uh so uh the question here is like when mapping uh interval data to to are there uh tier threshold or seasonal baseline that we must apply before the calculating exposure.
+ 
+ 
+00:23:47
+ 
+Dexter Luu: Oh, I mean when you're mapping it to TLOU, there are different seasons for it. Like winter season doesn't have the same I don't know if they even have an off peak. I think there might be only be two for winter season, but um yeah, so it is it is seasonal like like one the rates are going to be different depending on the season and and two uh I don't even know if there's a off or a super off peak or something like that in in the winter season. So it is going to be different. Um, and then can you repeat the second part of the
+Amber Fu: Uh yeah.
+Dexter Luu: question?
+Amber Fu: So and uh the another question is like the do we must apply before calculating exposure uh
+Dexter Luu: Exposure to
+Amber Fu: to you know uh so the when this like they they have like the uh sent or daylight or holiday stuff like that.
+Dexter Luu: Mhm.
+Amber Fu: Um do uh is it like uh is it like a fact like to mapping in a
+Dexter Luu: Um,
+ 
+ 
+00:24:52
+ 
+Amber Fu: bill?
+Dexter Luu: I think I mean usually TOU is pretty consistent. Um, at least my my TOU bill for for my own resident is uh it's going to be the same whether it's
+Amber Fu: Okay.
+Dexter Luu: uh the weekend or the weekday for myself. I think there are a couple that change whether it's a weekend or weekday but that should be um like within already like integrated within the rate. So if you already have the structure for for the different tariffs then um you probably already have that
+Amber Fu: And then
+Dexter Luu: information but I don't think you need a baseline for it because the rate it will tell you like how much it is um costwise uh depending on the the time
+Amber Fu: go.
+Dexter Luu: of day it is.
+Amber Fu: Gotcha. Gotcha. Okay.
+Dexter Luu: I would say usually you need a baseline if you're trying to um like create a model or something to show like a difference between uh now and what it was before.
+Amber Fu: Got you. But but when like mapping in interval data to tu tariff uh isn't mapping usually applied directly to the raw interval data or like after uh arguation.
+ 
+ 
+00:26:07
+ 
+Dexter Luu: Uh, you mean like how does a utility company do it? Yeah. So, the utility company,
+Amber Fu: Yes.
+Dexter Luu: you know, they they do it by 15 minute or at least PG, they'll do it by 15-inute intervals. Um, but they're not using like a baseline or anything. they they already have the rate uh described and it's just you know if you
+Amber Fu: Mhm.
+Dexter Luu: use like 3KW during uh 7 p.m. it's going to cost you 3 KW times the electricity rate at 7 p.m.
+Amber Fu: Mhm.
+Dexter Luu: You know, they're not basing it off of a baseline or anything.
+Amber Fu: Got you. Got you. Okay. Thank you. And uh uh we can go the next part will be the event. So uh so the event section is is more like a capture the meaningful system change that may affect cost or like reliability. So um so event are triggered like when the system detect like uh event charging during the peak hour or like solar device offline or uh something like a server weather or schedule outage.
+ 
+ 
+00:27:21
+ 
+Amber Fu: So uh based on this part uh my question is uh we have a few questions the one is for solar. So in your experience like would uh export timing mismatch also qualify as an event worse to surfacing?
+Dexter Luu: Yes, I would. Um because if you export during non ideal
+Amber Fu: Okay.
+Dexter Luu: times and one the credit that you get back is is very little.
+Amber Fu: Mhm.
+Dexter Luu: But under NEM3 um that could be pretty damaging. to say in M3 if you export more energy than you did uh or sorry if you export more than you imported for the entire year um there's
+Amber Fu: Mhm.
+Dexter Luu: going to be like an adjustment at the end and then if all of your exported energy was during uh very low low export credit times
+Amber Fu: Mhm.
+Dexter Luu: then your credit bank is going to be very low and all your and then if you import energy during
+Amber Fu: Mhm.
+Dexter Luu: expensive times then you you're still going to be paying money on it, but since you exported more than you imported, say you exported 6,000 and you imported 5,000,
+ 
+ 
+00:28:29
+ 
+Amber Fu: Mhm.
+Dexter Luu: there's going to be an adjustment on that on the 1,00 kid of age difference, and basically they're going to take away the small credit that you did get for it. Um,
+Amber Fu: Oh.
+Dexter Luu: and then they're going to basically hit you with like a uh a debit, right? And then they're going to kind of charge you money for it. And then they're going to pay that 1,00 kWh at the wholesale price, which could be very low. You know, it I it depends on um their policy for that year.
+Amber Fu: Gotcha. Gotcha. And also uh another is for the battery. So should battery charging during peak hour always be flat or only under certain tariffs?
+Dexter Luu: battery charging during peak hours. Uh, so if you're saying that you're saying during peak hours you are Oh, we lost Amber. Is Amber still here?
+lingjie jin: Sorry, sorry, Amber. Maybe lost connect.
+Dexter Luu: Okay.
+lingjie jin: Oh, please wait.
+Dexter Luu: Yeah.
+lingjie jin: Okay, he will restart uh she will restart computer.
+ 
+ 
+00:29:53
+ 
+Dexter Luu: Okay, I think this app is cool though. Uh, she said that you you made this
+lingjie jin: Uh yes, we we uh now we just uh uh in early early stage uh in a early stage uh in a demo. Yeah. Uh and uh now we we try to figure out the problem uh
+Dexter Luu: Mhm.
+lingjie jin: which uh we we pose the uh utility data. Uh yeah.
+Dexter Luu: Yeah.
+lingjie jin: Yes. Uh and uh yeah this is a um now it's a problem for us. uh we try to pull pull utilitated data from uh s data provider. Uh but uh we not sure uh which data uh we can get uh we we can we can got we can
+Dexter Luu: Yeah,
+lingjie jin: get
+Dexter Luu: I think um if you're working with the California utilities, you could um apply as like a third party and then um customers could share their their data directly with you, share their interval data directly with you.
+lingjie jin: uh but uh we uh for example like uh PG we didn't got the uh uh we didn't got
+ 
+ 
+00:31:29
+ 
+Dexter Luu: Mhm.
+lingjie jin: the uh API uh from PG uh official uh website. Uh uh we we search for another uh another one like uh utility API or or uh uh uh some another um company for for the solution.
+Dexter Luu: Mhm. So, so P Gen said that you couldn't use their
+lingjie jin: Yeah.
+Dexter Luu: API.
+lingjie jin: Yeah. We we didn't got uh uh from uh this uh from official official
+Dexter Luu: Yeah,
+lingjie jin: website.
+Dexter Luu: I see. Yeah, it's okay.
+lingjie jin: So uh so uh
+Dexter Luu: I think P gen is making it more complicated too because um we
+lingjie jin: uh
+Dexter Luu: use we use a third party right now to get uh our P Gen data and then they are making it so the um SSL certificate needs to be renewed every like 45 days now. It used to be one year, so they're making it a lot
+lingjie jin: Yeah,
+Dexter Luu: harder.
+lingjie jin: we we now got the same way. Which company uh you use
+Dexter Luu: Uh well, yeah.
+ 
+ 
+00:32:57
+ 
+Dexter Luu: So,
+lingjie jin: now?
+Dexter Luu: at UCSF, we use um this company called Alura. They're like a energy service provider company.
+Amber Fu: Okay, sorry about that.
+lingjie jin: Okay.
+Amber Fu: I I think my connection dropped for a moment.
+Dexter Luu: Yeah, no worries. Of course.
+Amber Fu: Thanks for your patience. Sorry.
+Dexter Luu: Yeah. Um I think you were mentioning uh we're talking
+Amber Fu: Okay.
+Dexter Luu: about solar a little bit. Um
+Amber Fu: Okay. So, uh let me quickly continue from where we left off. All right. So, uh let me sorry.
+Dexter Luu: yeah,
+Amber Fu: Okay. So uh the back battery question uh so like should battery charging during the takeover always be flagged or only under certain uh tariff uh structure.
+Dexter Luu: battery charging during peak hours. I think battery charging during peak hours is okay if it's based it's if it's using the
+Amber Fu: Uh-huh.
+Dexter Luu: solar like excess solar energy because I'm imagining you know during peak hours if you
+Amber Fu: Okay.
+ 
+ 
+00:34:02
+ 
+Dexter Luu: are getting solar and your solar is covering your entire building usage and then you still have an excess then that should definitely go toward uh battery charging
+Amber Fu: Mhm.
+Dexter Luu: um or unless you know you want to export it. It really depends on if they're on NEM 3 or NEM 2. Um if they're on NEM3 and we're forecasting that um the credit is going to be really big then then I would go you know you could consider um exporting that instead of instead of charging your battery.
+Amber Fu: Okay.
+Dexter Luu: But to be honest I think what is most important is that you are not um you are not importing during peak hours. So, usually if you are uh charging your battery during peak hours,
+Amber Fu: I
+Dexter Luu: it's going to be based off of solar and that's probably going to be the early times of peak hours. So, peak hours is between 4 to 9. So, maybe between 4:00 and 7:00 p.m.
+Amber Fu: More.
+Dexter Luu: you could get a little bit of solar energy and you you know, you could be charging your your your battery then, but between the eight the hours of 7 to 9, you don't want to be importing.
+ 
+ 
+00:35:09
+ 
+Dexter Luu: So, it's good to have that battery charge um you know to uh use your use your um use your battery during those hours so you're not getting charged by you know the high peak
+Amber Fu: Got you.
+Dexter Luu: prices.
+Amber Fu: Got you. Thank you so much for that. And uh uh we can click any of the event. So uh basically this event include like uh the what like three layer uh what happened why matter and what to next. So we separate detection from the explanation and action. So user understand like reasoning before the acting. Um so in your opinion like what level explanation is necessary for the professional to trust and event recommendation.
+Dexter Luu: Sorry, I'm I'm reading it right now.
+Amber Fu: Oh okay sure.
+Dexter Luu: Uh
+Amber Fu: Yes. You take your time.
+Dexter Luu: yeah, I mean I think this is this is good. uh you know it explains the issue, why it matters to them and what they can do to uh fix
+Amber Fu: Mhm.
+Dexter Luu: it.
+ 
+ 
+00:36:27
+ 
+Amber Fu: Mhm.
+Dexter Luu: So I think this level of detail is
+Amber Fu: Okay. Cool.
+Dexter Luu: fine.
+Amber Fu: And uh and also uh your opinion should every event include should include like a estimate financial data or should some events remain like purely re reliability based.
+Dexter Luu: I would say if you can do it accurately then I would go ahead and do it but I don't think it's absolutely
+Amber Fu: Got you.
+Dexter Luu: necessary.
+Amber Fu: And like from data science pers uh perspective like how sensitive should event detection be?
+Dexter Luu: I think it should be uh it should be pretty important like like if they're doing something during peak hours that they should not be
+Amber Fu: Okay.
+Dexter Luu: doing like charging their EV then um yeah that that that's a pretty big thing because
+Amber Fu: Mhm.
+Dexter Luu: charging your EV will use a lot of electricity.
+Amber Fu: Gotcha. country. Okay, thank you. And uh we can go back to the next part. So next part will be the saving tab. Um this is uh we this is kind of important.
+ 
+ 
+00:37:44
+ 
+Amber Fu: So we separate like the saving from the bill. So you can see the top there there have a two tab the saving behavior and the uh impact and the bill uh bill is like a official utility accounting. So we we try to don't want to user to confuse the two. Um and also uh on the top the number the $55.8 this is kind of a cumulate award cost based on the even level adjustment. Um so if we calculate saving based on the counterfactual modeling, what baseline would you consider defensible? Like uh same last same month last month or better uh normalized or tariff uh
+Dexter Luu: Yeah.
+Amber Fu: simulation.
+Dexter Luu: Um, you could do last month if the weather is the same, but again, realistically, I would I would probably use um the previous year. And then what what you would need to do is that your model would need to b be based off of the
+Amber Fu: Oh.
+Dexter Luu: KW and not and not just the cost. because then they're,
+Amber Fu: Mhm.
+Dexter Luu: you know, the rates are probably going to be different for the previous year.
+ 
+ 
+00:39:02
+ 
+Dexter Luu: So, you would probably just need to forecast a KW um you know, use that counterfactual for for this year and then kind of say using these rates, what is what would the cost what would have the cost or sorry, what would the cost have been? Um, but if you're just trying to say that like,
+Amber Fu: Mhm.
+Dexter Luu: you know, you're talking about a specific event this this year. Um, a lot of times maybe you could just,
+Amber Fu: Mhm.
+Dexter Luu: you know, use like an event like day that wasn't an event. Um, that's what we would do in demand response. But again, I I think just using the previous year is probably the
+Amber Fu: Got you. Got you. Okay.
+Dexter Luu: easiest
+Amber Fu: and and and under that will there have some equation instead only show the saving we also show uh accumulate as uh at risk exposure uh the costs of ignoring the optimization event you can see that's have a little like equation there like I risk cost um so would you consider this matter meaningful from the professional standpoint or does this risk over simple fation.
+ 
+ 
+00:40:17
+ 
+Dexter Luu: I think that might be actually too much information for the customer.
+Amber Fu: Oh, is it too?
+Dexter Luu: Yeah,
+Amber Fu: Okay.
+Dexter Luu: cuz usually, you know, I don't think the customer sees
+Amber Fu: Care about this, right?
+Dexter Luu: Yeah.
+Amber Fu: Okay. Sure. Okay. Got you. And okay. And and when and we can move to the next is a event level. Uh this is kind of uh we attribute saving by system category. Um this is a prevent blackbox clam and keep saving explanable. So uh you can see like there have a EV charging solar power and power wall charging. Um the question is should we separate generation side saving and deliver side savings or is a blended attribution acceptable?
+Dexter Luu: for the customer. I think to keep it simple, um I would just do it together, but maybe if they have a question about their bill, you can have like a section where they can access it separately because yeah,
+Amber Fu: Mhm.
+Dexter Luu: uh you're right in that like a lot of the the credits and stuff, they're going to be separate for generation and delivery.
+ 
+ 
+00:41:31
+ 
+Dexter Luu: Um so if they have questions on that, then you know, it would be good to be able to advise them on that. But I would say 95% of the time, 99% of the time, you know, this is
+Amber Fu: Got you. Got you. Okay. And we can click on the any event the EV charging is fine.
+Dexter Luu: fine.
+Amber Fu: And there will have the the detail. And when you click on the detail they will have the bottom sheet is more like this is where we explain like a calculation logic like yes and um for here question is uh is like is this in your experience is this analysis defensible to attribute V cost to the specific behavioral event or would you recommend like calculating the saving only at the system level?
+Dexter Luu: seeing charging. Um, so the way you're calculating this is that you're estimating how much energy it would have used and um just saying that okay well it didn't use that energy so we're going to uh
+Amber Fu: Mhm.
+Dexter Luu: attribute a cost to it.
+ 
+ 
+00:42:52
+ 
+Amber Fu: Mhm.
+Dexter Luu: I think that's fine. This is this is fine.
+Amber Fu: Okay.
+Dexter Luu: Yeah, because you know like especially if if you know the uh electricity
+Amber Fu: Oh.
+Dexter Luu: demand on on their charger and how long they were going to charge it, then I think that's accurate
+Amber Fu: Mhm. Got you.
+Dexter Luu: enough.
+Amber Fu: But that this calculation layer match how utility applied uh the TU rate difference.
+Dexter Luu: Um well, I mean it really depends on how your algorithm is doing the back end. say if they're charging between like 7:00 to 9:00 p.m. and you know 7 to 9:00 p.m. is probably the same rate throughout then uh yeah it would be it would be the same you know it's like if they're charging between 7:00 to 9:00 p.m. and it takes like x kW to charge it um or xkw for for the demand and they charge it for two hours then you you kind of know how much kW it was going to use.
+Amber Fu: Got you.
+Dexter Luu: Yeah.
+ 
+ 
+00:43:44
+ 
+Amber Fu: But are are we missing a step like a tier threshold threshold of like a minimum bill enforcement?
+Dexter Luu: Uh, I think that they were probably going to use the minimum anyways.
+Amber Fu: Okay.
+Dexter Luu: So,
+Amber Fu: Okay.
+Dexter Luu: and usually a lot of times the minimum bill is something that they need to pay no matter what,
+Amber Fu: Gotcha.
+Dexter Luu: even if they don't use any electricity.
+Amber Fu: Gotcha. But would you consider this level of uh transparency uh uh sufficient for an explanable saving
+Dexter Luu: Yeah,
+Amber Fu: claim?
+Dexter Luu: I mean you have like the rate, you know, you have the how we calculated it and it seems to make
+Amber Fu: Okay. Okay. Got you.
+Dexter Luu: sense.
+Amber Fu: Got you. Okay. So, uh we can go back and move to the bill uh bill part. So the bill part is uh here we marrow the official bill uh structure uh like base service chart deliverment. So we we just want to every dollar can be traceable. And um for this part like uh if if you were to reconstruct the residential bill uh by algorithmically what would the crack calculation order be such like energy charge or delivery charge or fixed service charge?
+ 
+ 
+00:45:13
+ 
+Dexter Luu: Uh, what do you mean by order? I guess
+Amber Fu: uh so because you know like uh every utility company they I think they is it they charge differently or they charge say I think it's a differently
+Dexter Luu: Yeah, they're all a little bit
+Amber Fu: right yes so we try to you know um
+Dexter Luu: different.
+Amber Fu: uh just show some like a common info here but what kind of information you think is we need to show there and which information you think we still missing
+Dexter Luu: I would say for the customer they there's a lot going on the utility bill right there they they'll talk about like um the CCA charges they'll talk about yeah you know like generation charges there's demand charges um to me I think even when I look at like the bills at UCSF the only thing I really care about is the demand charge and the electricity used and the uh cost per kWh for that electricity.
+Amber Fu: Mhm.
+Dexter Luu: Um, right. There's that the wildfire fund charge that that charge is probably going to be like yeah I would I would just include all that as like a blended rate as with
+ 
+ 
+00:46:31
+ 
+Amber Fu: Mhm.
+Dexter Luu: the uh with the like time of use, you know.
+Amber Fu: Gotcha. Got you. That's makes sense. So from the homeowner perspective, the the two thing that matter most are like how much electricity they use and the effective price per kilowatt. So, is that the right way to think about it?
+Dexter Luu: Yeah, I would say to the customer that they don't like the wild fire charge and stuff like that,
+Amber Fu: Oh,
+Dexter Luu: then yeah, I would just uh group all that into a blended like TOU
+Amber Fu: got you.
+Dexter Luu: rate.
+Amber Fu: But if we uh simplify the bill for homeowner, would it make sense to highlight those two number first?
+Dexter Luu: highlight the
+Amber Fu: the the electricity used totally kilowatt and average
+Dexter Luu: uh yeah I mean I think they they should know what that is and you could
+Amber Fu: price.
+Dexter Luu: say like what is going into it too you know if you want to if you're just going to consolidate the wildfire fund charge and all that stuff so
+ 
+ 
+00:47:36
+ 
+Amber Fu: Got you. But like for residential customer like without the demand chart, do you think showing the demand still helps? they understand like the their usage pattern.
+Dexter Luu: Um, I feel like I wouldn't care myself, but um,
+Amber Fu: Okay.
+Dexter Luu: maybe some people would because yeah, if they don't have if they're not getting charged by demand, then uh,
+Amber Fu: Mhm.
+Dexter Luu: I don't think they care too much.
+Amber Fu: Gotcha. Gotcha. And and so like if we were design like a simplified bill view like what would be the three most important number to show it first in your experience.
+Dexter Luu: uh the KH and the um total cost. Um,
+Amber Fu: Mhm.
+Dexter Luu: and I think understanding the TOU structure is still like okay like you know they could have the kitty glitch broken down by uh super off peak, off peak and um peak and yeah just like the cost associated with
+Amber Fu: Mhm. Got you.
+Dexter Luu: it.
+Amber Fu: And uh and also in your experience like what part of utility bill confuse home owner the most?
+ 
+ 
+00:48:51
+ 
+Dexter Luu: Uh the ones with that have solar probably the true
+Amber Fu: Okay. Gotcha. Yes. That's that's yeah that's confus confused me too.
+Dexter Luu: up
+Amber Fu: Okay. And uh and also Okay. Next part will be the true up. So um I have a lot of question about true bill. I don't have a solar. So I don't I I don't know they have a true bill. So since we speak to some uh uh solar owner then I realized oh they have a bill and I think uh in the California under N one two three is a totally different right. Okay.
+Dexter Luu: Yes.
+Amber Fu: Um, is it only NAM three have a true?
+Dexter Luu: No. Numm Nem 2 also has a true up uh I honestly one that's so long ago
+Amber Fu: How about
+Dexter Luu: I don't even remember if one does.
+Amber Fu: one?
+Dexter Luu: Um yeah I think it does have a true up. Um, I think it's probably similar to NEM2 Trueup.
+Amber Fu: Uh,
+ 
+ 
+00:49:53
+ 
+Dexter Luu: NEM2 Trueup is basically at the end of the year. Um, so the NEM2 first of all for for the export credit, it's it's like you get it at the retail rate, the TOU retail rate. And um, you know, a credit from a previous month could offset the cost of electricity in uh, the following month except the uh, non- bypassable uh cost. But at the end of the years, if you still have extra credit, you don't get to cash that out. It actually goes to uh they they zero that. But if you have um they'll they'll take your total or your net sorry your net exports. So if you exported more than you imported, say you exported a thousand more kh than you imported for the year, they'll pay that at the wholesale rate and that that's your true up. So,
+Amber Fu: Mhm.
+Dexter Luu: usually you'll get a credit at the end of the year.
+Amber Fu: Yeah.
+Dexter Luu: Um um and yeah, I mean that's just, you know, some a little bit of small pocket change for uh for the customer.
+ 
+ 
+00:51:01
+ 
+Dexter Luu: In num3, it's a little bit more complicated.
+Amber Fu: Uh-huh.
+Dexter Luu: Um you know, the credits I was mentioning is based off of the avoiding cost calculator, which don't give you as much. um the credits don't get zeroed out at the end of the year, but uh if you have a net export, you can't get credit for um so say you exported a thousand more KW than than you imported, you can't get the credit based off the avoided cost calculator for those thousand for that 1,000 KW and get paid out at the wholesale rate. So, under California policy, the utility companies have to pay you out at the wholesale rate, which means that they need to claw back some of that credit. So, so sometimes, you know,
+Amber Fu: Okay.
+Dexter Luu: people can see that and then it looks like they're actually getting charged for an export. And the reality is that they're not getting charged for an export. it's that they were credited for that export,
+Amber Fu: Uh-huh.
+Dexter Luu: but then they also need to get paid out for that export at the wholesale rate.
+ 
+ 
+00:52:11
+ 
+Dexter Luu: So then you can't get credited twice. So then they need to take back one of those credits and they're take and then they take back
+Amber Fu: Okay.
+Dexter Luu: the uh export credit based off of the ACC. Yeah.
+Amber Fu: Okay.
+Dexter Luu: So so the NEM3 is pretty confusing. Um,
+Amber Fu: Yes. Yes. It's really it's really confused.
+Dexter Luu: Oh.
+Amber Fu: Okay. And um Okay. I I have a few question here. So um let me see. Okay. So the what the okay so there should have a two ledgers. So one is a monthly energy ledger and one is the annual chew up ledger and is kind of
+Dexter Luu: Yes.
+Amber Fu: like they have a current credit balance plus project expo minus project Cons comes to
+Dexter Luu: Uh by project,
+Amber Fu: P the M
+Dexter Luu: do you mean the current month or uh what do you mean? Okay.
+Amber Fu: right.
+Dexter Luu: Yeah.
+Amber Fu: Okay. E code the Smate T.
+ 
+ 
+00:53:34
+ 
+Dexter Luu: Okay. So, so yeah, at the end of the year, um, so, so throughout throughout each month,
+Amber Fu: Okay.
+Dexter Luu: right? So, say the year is January to December. In January,
+Amber Fu: Uhhuh.
+Dexter Luu: uh, you know, you do you just have the month and then you you roll over a credit. We'll say that, right? Um,
+Amber Fu: Okay.
+Dexter Luu: say like you just roll over credit throughout the the whole year and
+Amber Fu: Uh,
+Dexter Luu: then at the end of the year you exported maybe like again I'll say a,000 KW that credit um that that you rolled
+Amber Fu: okay.
+Dexter Luu: over say it's like a $100 right now.
+Amber Fu: Uh-huh.
+Dexter Luu: So,
+Amber Fu: Okay.
+Dexter Luu: so you rolled over that credit and it's that you got that credit because you exported electricity, right? And then the net export is a 1000 KDH.
+Amber Fu: Okay.
+Dexter Luu: So, technically that credit um that thousand KWH is
+Amber Fu: Mhm.
+Dexter Luu: inside of that that credit that that you rolled over,
+ 
+ 
+00:54:34
+ 
+Amber Fu: Mhm.
+Dexter Luu: right? But under California policy,
+Amber Fu: Mhm.
+Dexter Luu: the utility companies have to pay you out on that net export based on the wholesale rate. So for that for that 1,00 kWh they have to pay you on the wholesale rate and maybe that's like two cents or three cents or
+Amber Fu: Okay.
+Dexter Luu: something.
+Amber Fu: But but uh I just want to make sure is that every utility is a different right for the true
+Dexter Luu: Uh they're all a little bit different but the idea is still the same for all three.
+Amber Fu: Okay. Uh okay. And uh few more questions. Sorry. So under a N2 our expo credit assumulate monthly and only settle during the annual
+Dexter Luu: So the credit Yeah,
+Amber Fu: job
+Dexter Luu: the credit will only apply to the monthly bills.
+Amber Fu: the name two right under name two.
+Dexter Luu: Yeah. Yeah. Under N2,
+Amber Fu: Okay.
+Dexter Luu: the credit will only apply to the monthly bills. And at the end,
+ 
+ 
+00:55:48
+ 
+Amber Fu: Uhhuh.
+Dexter Luu: even if you have a surplus credit,
+Amber Fu: Mhm.
+Dexter Luu: they don't cash you out on that surplus credit. They zero out that credit, but then they take your net export and then they pay you on the uh they pay you say say you exported 500 uh net for the whole year. They'll pay you 500 times the wholesale rate.
+Amber Fu: Mhm.
+Dexter Luu: And that might be two or three
+Amber Fu: Okay.
+Dexter Luu: cents.
+Amber Fu: And for the name three our export credit always calculated using the avoded cost calculator
+Dexter Luu: Yes.
+Amber Fu: values.
+Dexter Luu: And under NE2, it's based off of I won't say exactly the TOU uh retail rate,
+Amber Fu: Um
+Dexter Luu: but approximately the TOU retail
+Amber Fu: okay. But when utilities sell the annual trip,
+Dexter Luu: rate.
+Amber Fu: do they convert exceeds credit into wholesale export payment?
+Dexter Luu: They so you if that surplus export credit you don't at
+Amber Fu: Uhhuh.
+Dexter Luu: the end of the year you don't get that they they they they they zero it out and
+ 
+ 
+00:57:01
+ 
+Amber Fu: Oh.
+Dexter Luu: then they just take your net export for the entire year under NE2 and then they so if your total net export was 500 KW then they'll just multiply that
+Amber Fu: Huh?
+Dexter Luu: 500 by the retail or sorry by the wholesale rate.
+Amber Fu: Got you. But when Oh,
+Dexter Luu: So now I say yes.
+Amber Fu: please go ahead.
+Dexter Luu: So N2 is not as complicated because they just zero it out and then they'll pay you on your net
+Amber Fu: Sorry.
+Dexter Luu: export.
+Amber Fu: But like when export credit are applied,
+Dexter Luu: Um
+Amber Fu: are they net netted at the TU period level or at the monthly level?
+Dexter Luu: the T period. So say so say in January um you know you have like 10 kWh uh
+Amber Fu: Uh-huh.
+Dexter Luu: export during um off peak and five during peak hours that will get turned into a credit of like 10
+Amber Fu: Yeah.
+Dexter Luu: time so 10 kW 10 kWh times the off peak rate and then 5k KWH times the peak rate and then that is your credit from January and then that would go apply to your bill in February.
+ 
+ 
+00:58:24
+ 
+Amber Fu: Okay. But but our non by possible charge still apply even when the
+Dexter Luu: Yes.
+Amber Fu: net energy is a
+Dexter Luu: Yeah. The the non-
+Amber Fu: zero.
+Dexter Luu: bypassable credits will or sorry the non- bypassable charges will still apply. So you still have to pay those
+Amber Fu: Okay. Okay. Okay. Got you. All right. So, uh let me let me Okay. So, when we try to do this model the solar building engage uh engines. So, I you can hear like if if I describe right. Okay. So first uh the technical uh team need to do the energy layer which means import export kilowatt and then the tu mapping and then then the tariff in engine and then the credit calculation then the monthly ledger then the final will be the true up settlement right Okay.
+Dexter Luu: Yeah.
+Amber Fu: Is there anything I'm missing?
+Dexter Luu: No, I don't think so.
+Amber Fu: Okay. Okay. Got
+Dexter Luu: And but this is this is for you're saying them too because Yeah,
+ 
+ 
+00:59:45
+ 
+Amber Fu: you.
+Dexter Luu: the the system is going to be a little bit different. Um,
+Amber Fu: But but the threes are different.
+Dexter Luu: yeah, because NEM3, the export credit isn't based off the TOU, it's going to be based off of the ACC. So, you need to incorporate the avoided cost calculator too for NE3.
+Amber Fu: Okay, let me let me Okay, give me a second. I let me write down this one. I don't know. Oh, that's
+Dexter Luu: Yeah. And then,
+Amber Fu: hard.
+Dexter Luu: so NE2 ended April 2023. So, anybody who installed solar probably are on NEM2 if they uh installed it before April
+Amber Fu: Mhm.
+Dexter Luu: 2023 and then after um they are on
+Amber Fu: Gotcha.
+Dexter Luu: NEM3.
+Amber Fu: Gotcha. Um, okay. So, let me see what else I can. Okay. So, like when utility calculate export credit, so they net import and export this hu period, right?
+Dexter Luu: Uh yes.
+Amber Fu: Or they trade them. We or they trade them like separately.
+ 
+ 
+01:01:06
+ 
+Dexter Luu: So if they if they have a net export for uh peak, off- peak, um and super off-
+Amber Fu: Mhm.
+Dexter Luu: peak,
+Amber Fu: Uhhuh.
+Dexter Luu: then all those like they they need to know that there's a net export in each of those three different categories because then they turn that into the credit based off of the TOU retail rate.
+Amber Fu: Uh, got you.
+Dexter Luu: So, so, so they don't combine it all together.
+Amber Fu: And and Oh, okay. Okay.
+Dexter Luu: Um,
+Amber Fu: And for like a solar uh user like which charge category are always known by
+Dexter Luu: I think there's non-
+Amber Fu: passible?
+Dexter Luu: bypassable charge just for any imported KW and it's and it's only imported
+Amber Fu: Okay. got you.
+Dexter Luu: KWH. So, um, so say if you have a battery,
+Amber Fu: Um,
+Dexter Luu: that's why it's beneficial to use your battery because you could not have to pay those, uh, NPCs because then, um, you're not importing anything.
+Amber Fu: okay. And if we want to calculus, right, what would be the most reliable data source for the export energy?
+ 
+ 
+01:02:17
+ 
+Amber Fu: You
+Dexter Luu: Uh I mean the export energy you just get that off of the interval data but
+Amber Fu: think
+Dexter Luu: then the are you talking about the uh the rate and what it turns into
+Amber Fu: yeah yeah yeah like well like where I we we should get th those kind of data it will be uh more reli reliable like for example like a interval a utility interval data or like a smart matter meter
+Dexter Luu: Uh well the utility interval data uh how are you getting it right now if
+Amber Fu: a third party.
+Dexter Luu: it's and is it like live data.
+Amber Fu: Uh, I I need to ask I uh
+Dexter Luu: Yeah. So, normally it's 15 minute interval data, but even like if I get data through PG& it's like never live.
+Amber Fu: is it's not live.
+Dexter Luu: It's always like Yeah,
+Amber Fu: It's like 15 uh 15 minutes in a
+Dexter Luu: it's 15-minute interval data,
+Amber Fu: row.
+Dexter Luu: but um I'm saying that even when I get it from PG, I never get it like it's never current,
+ 
+ 
+01:03:31
+ 
+Amber Fu: All
+Dexter Luu: right? I always get uh my data like three days after. So, so normally if I were to check the data, I I won't have it for uh March 5th.
+Amber Fu: right.
+Dexter Luu: I would have it for like March 2nd or March 3rd only. If you need live data, then you basically need a meter,
+Amber Fu: Mhm.
+Dexter Luu: a smart meter on it or something that is feeding directly into your own system. So, um,
+Amber Fu: Mhm.
+Dexter Luu: but usually, I mean, you don't to to do these calculations at the bill level. You would do this after the fact.
+Amber Fu: Mhm.
+Dexter Luu: Um, so, uh, yeah, I don't know if you could do it live, I guess.
+Amber Fu: Mhm.
+Dexter Luu: But if you're talking about like, um, just the TU rates and stuff like that, I think you get that off of their uh, either their their bill or their, uh, interconnection agreement with P Gen or SE or SDG&.
+Amber Fu: Got you. Got you.
+Dexter Luu: And then yeah,
+ 
+ 
+01:04:37
+ 
+Amber Fu: Got
+Dexter Luu: if you want to get the export credits for NE3,
+Amber Fu: you.
+Dexter Luu: then yeah, you would need to get their usage and combine that with the avoided cost
+Amber Fu: Got you. Thank you so much.
+Dexter Luu: calculator.
+Amber Fu: That's really valuable information for us. And also uh uh for this part one last question. So if if if we were like building a solar building engine for like a residential customer, uh what would be the minimum input and rules we must model
+Dexter Luu: the solar billing engine uh like
+Amber Fu: correctly for your
+Dexter Luu: to to basically get all the exports and export credits and and all that stuff. The first input is you need to know their their NEM agreement is that NEM 1,
+Amber Fu: Mhm.
+Dexter Luu: NEM 2,
+Amber Fu: Mhm.
+Dexter Luu: NEM 3.
+Amber Fu: Mhm.
+Dexter Luu: Um then you need to know yes and then you need to know their net net bill. So, you know, if the interval data for that, are they importing or exporting at every 15-minute interval?
+ 
+ 
+01:05:40
+ 
+Dexter Luu: Um,
+Amber Fu: Mhm.
+Dexter Luu: and then the TOU rates for those. So, because NEM 2, you need TOU rates.
+Amber Fu: Mhm.
+Dexter Luu: Uh, NEM one is usually just one one value. I don't think there's any TOU for NE one.
+Amber Fu: Good.
+Dexter Luu: And then for num3 you need their for the solar credits only. Then I would say you only need the other net export and the ACC calculator.
+Amber Fu: Gotcha. Gotcha. Okay. Thank you so much for this part. Uh okay. And we can go back to the our last last part. It will be the uh the bill proof. So uh this is something that the the feature compare like uh ex expanded export credit versus bill export credit. So if there's a mismatch we surface it. And um for your opinion like at what calculation layer does X for credit netting echor in the utility billing
+Dexter Luu: Uh,
+Amber Fu: engines
+Dexter Luu: is it at what level does export credit do what?
+ 
+ 
+01:07:07
+ 
+Amber Fu: uh netting the uh in your uh in the user utility billing engine like what layer calculation should
+Dexter Luu: What layer? Uh,
+Amber Fu: be.
+Dexter Luu: can you give me like an example of some things that that that you're thinking of?
+Amber Fu: Yeah.
+Dexter Luu: I'm not sure I understand the
+Amber Fu: Uh okay.
+Dexter Luu: question.
+Amber Fu: So the so so because you can see like the uh left side is like is something like we detected from our end.
+Dexter Luu: Yeah. Yeah.
+Amber Fu: The right side will be the utility,
+Dexter Luu: Yeah.
+Amber Fu: right? Um so which means it's like when utility calculate the bill at what stage are solar export credit
+Dexter Luu: Yeah. Oh,
+Amber Fu: apply.
+Dexter Luu: so uh they apply for the delivery and the generation.
+Amber Fu: Uhhuh.
+Dexter Luu: So I I know I mentioned like kind of in the beginning recall that um those are actually treated separately, right? So if you get an export credit um it's going to be separate for delivery and generation. So even if you look at the ACC calculator, there's a there's there's different sections for delivery and generation.
+ 
+ 
+01:08:22
+ 
+Amber Fu: Mhm.
+Dexter Luu: And I think credit that gets applied to delivery um or sorry credit that is for delivery cannot be applied
+Amber Fu: Mhm.
+Dexter Luu: to generation at a future. It's like two separate banks.
+Amber Fu: and
+Dexter Luu: Um so like yeah
+Amber Fu: Okay,
+Dexter Luu: so once they calculate the export credit there's actually two two different banks for it. Um, I'm not sure if that answers your question on on like what lighter I guess it happens
+Amber Fu: got you. Um,
+Dexter Luu: at
+Amber Fu: okay. So, and also um sorry, give me a second. Okay, I'm sorry.
+Dexter Luu: Yeah,
+Amber Fu: I'm back. I'm so sorry.
+Dexter Luu: now you're
+Amber Fu: Apologize. So,
+Dexter Luu: okay.
+Amber Fu: uh the bill proof like in your exper experience like how often do utility actually make the billing mistake for residential solar
+Dexter Luu: Uh,
+Amber Fu: customer.
+Dexter Luu: I wouldn't say it's too often. Um, maybe 5% of the time.
+Amber Fu: there have five%.
+Dexter Luu: Yeah.
+ 
+ 
+01:10:07
+ 
+Amber Fu: Okay. Uh what for what reason like the the system issue or
+Dexter Luu: Uh sometimes it could just be like they they charge too much for um or maybe they're associating too much KWH to you. Um even at UCSF sometimes we we get build and it's like the wrong
+Amber Fu: Mhm.
+Dexter Luu: amount or there's those random charges like uh you know it says that like you're part of like a CCA and then the charge is a little bit is a little bit off. Um,
+Amber Fu: No.
+Dexter Luu: I think ways to to track that is just, you know, kind of what you're saying before is if there's a big bill surprise, then it's probably a good idea to look at what what's going on,
+Amber Fu: Mhm.
+Dexter Luu: you know. So,
+Amber Fu: Okay.
+Dexter Luu: in your example right here, you know,
+Amber Fu: Okay.
+Dexter Luu: it says that it was expected to export 412 KW, but, you know, they only said that we exported 200 KWH. That that that's like a big difference.
+Amber Fu: Okay.
+ 
+ 
+01:11:10
+ 
+Dexter Luu: Yeah.
+Amber Fu: Gotcha. Gotcha. And and when there like uh is a like a discrepancy between the expanded export credit and the utility bill. What are the most common costs? Is it like the meter data mismatch or like interval timing difference?
+Dexter Luu: Uh, I would say it's a probably a data mismatch.
+Amber Fu: Okay. Got you. Got you. I'm sorry.
+Dexter Luu: Okay, no
+Amber Fu: Give me one second. really
+Dexter Luu: worries.
+lingjie jin: Okay. Okay. Hello. Oh,
+Dexter Luu: Hello
+lingjie jin: I have one one one question. Uh so if we can put uh our hardware into customer
+Amber Fu: sorry.
+lingjie jin: house uh so we can simulate our electricity uh electricity data and uh uh uh and can uh this this customer can put the ID hardware u by side the uh utility meters.
+Dexter Luu: So,
+lingjie jin: Earth.
+Dexter Luu: you're asking if you could put meter or install meters on their uh or install electricity meters on their system.
+ 
+ 
+01:12:37
+ 
+Dexter Luu: Uh,
+lingjie jin: Yes.
+Dexter Luu: I'm sure if they agree to it, you could do it, but you have to get them to agree to it.
+lingjie jin: Okay. Okay.
+Amber Fu: Okay, I'm back. My apology. Okay, so uh for this build proof part like what do you think? Like do you think we're still missing anything or any any part we can still to change a little
+Dexter Luu: Uh yeah,
+Amber Fu: bit.
+Dexter Luu: I mean I think this only covers the solar exported. I think it would also be helpful to know how much they imported from their
+Amber Fu: Okay. Okay.
+Dexter Luu: utility.
+Amber Fu: Got you. Got you. Okay. So, uh yeah, that will be it. That's all the app like.
+Dexter Luu: Okay. Yeah, I think it's a lot in this app.
+Amber Fu: Yeah.
+Dexter Luu: So,
+Amber Fu: And and what do you
+Dexter Luu: looks looks useful. I think um if everything is accurate,
+Amber Fu: think?
+Dexter Luu: then yes, it would be useful.
+ 
+ 
+01:13:43
+ 
+Dexter Luu: It's it's a a lot more helpful than like just P gen portal and stuff like that.
+Amber Fu: And any uh Okay. And uh is there anything we should be like watch out or anything you think maybe have a risk or challenge?
+Dexter Luu: Um to me it sounds like getting the the data for you guys even for us getting data from the the the utility companies is always a challenge.
+Amber Fu: Mhm.
+Dexter Luu: Um normally I go straight through the utility company.
+Amber Fu: Mhm.
+Dexter Luu: you guys said that you're using a third party. Um I think that is the biggest challenge.
+Amber Fu: Mhm.
+Dexter Luu: Um keeping that data uh that data flow working has been a huge issue for us.
+Amber Fu: What?
+Dexter Luu: So hopefully you guys have better luck. Um but yeah, that's probably challenge number one. Um cuz some of the stuff you know you were mentioning that you um some of the features seems like it use live data right and yeah yeah I mean but
+Amber Fu: Oh, no. It's not live data.
+ 
+ 
+01:14:50
+ 
+Amber Fu: It's more It's a 50 minute.
+Dexter Luu: I mean like live in 15 minutes still right but for us I
+Amber Fu: Yeah.
+Dexter Luu: I can't get live 15 minute data it's always like a three-day lag.
+Amber Fu: Oh,
+Dexter Luu: Yeah.
+Amber Fu: really?
+Dexter Luu: So,
+Amber Fu: Oh,
+Dexter Luu: I'm not sure if you uh do you already have that data connection,
+Amber Fu: okay.
+Dexter Luu: and if you do, then that that's great. But yeah, for us, uh we go straight through the utility,
+Amber Fu: Okay.
+Dexter Luu: and it's usually like a three-day lag.
+Amber Fu: Okay. Got you. Got you. And and also did you see any similar app like this in the market right
+Dexter Luu: No, I think this is all like integrated into um into one one
+Amber Fu: now?
+Dexter Luu: app, right? I see a lot of this stuff separated into different apps. Like the utility company might have like uh if you switch to this rate, this is how much you can save, you know. Um but and then you're kind of integrating this with like the solar like Tesla charging app probably and a lot of different different other features.
+ 
+ 
+01:15:57
+ 
+Dexter Luu: So having everything in one place is nice. It's kind of like a a central energy manager for a residential
+Amber Fu: Mhm. Gotcha. Got you.
+Dexter Luu: customer.
+Amber Fu: And okay so um thank you again for spending so much time with us today. So I mean like your feedback has been incredible available you know especially like right now we are kind of in the uh you know try to build the tariff building lodges and and especially the true thing.
+Dexter Luu: Mhm.
+Amber Fu: So on on this side of the conversation like this it really help us shape the product and and you know we are still in a very early stage in building the app and
+Dexter Luu: Mhm.
+Amber Fu: uh so we're hoping to work closely with a small group of people who really understand the energy space. So if you're open like we love to keep you involved as like advisor with when we develop the
+Dexter Luu: Yeah, I could be open to it. Um,
+Amber Fu: product.
+Dexter Luu: I also want to mention I saw uh I think I I mentioned the ACC calculator a lot.
+ 
+ 
+01:17:01
+ 
+Dexter Luu: I could send you a link to it too. Um,
+Amber Fu: Uh
+Dexter Luu: it would probably be helpful for for you to be able to download it and look at it. It's it's just an Excel spreadsheet.
+Amber Fu: okay. Got you. Got you. Yes. And you know, we definitely want to because I know that you're really professional to in the like the building stuff and especially in the true because we're really confused about the true up stuff. Yeah. And when we try to build this uh the true up model uh may take some time. So if you willing to you know be a visor will be super helpful for
+Dexter Luu: Yeah,
+Amber Fu: us.
+Dexter Luu: I wouldn't mind helping.
+Amber Fu: Okay. Sure. Thank you so much. And um do you have my
+Dexter Luu: Uh, let me see.
+Amber Fu: email?
+Dexter Luu: Uh, yes. Or let me see. I have a couple people's email, but I don't know which one is yours.
+Amber Fu: Uh it's okay. I can I can leave here or do you mind uh give your uh give me your email through the
+Dexter Luu: Yeah, I can. Yeah, I could put in the
+Amber Fu: chat?
+Dexter Luu: chat
+Amber Fu: Okay, perfect.
+Dexter Luu: chance.
+ 
+ 
+Transcription ended after 01:19:33
+
+This editable transcript was computer generated and might contain errors. People can also change the text after it was created.

@@ -1,0 +1,948 @@
+May 22, 2026
+Casally Interviews (Jeffrey Inbody) - Transcript
+00:00:00
+ 
+Amber Fu: Uh, hello.
+Jeff: Hi. Uh,
+Amber Fu: Hi. Hi, Derek.
+Jeff: Amber,
+Amber Fu: Um, I'm sorry. Been waiting for I'm sorry I'm late.
+Jeff: I uh I can't hear you. Let me make sure my speakers are set up right.
+Amber Fu: Okay, sure. Uh, can you hear me now?
+Jeff: One more.
+Amber Fu: How about right now?
+Jeff: Yeah, let me uh let me drop I'm gonna try to call back in just one second. I'm not sure what's going on, but I can't I don't have those audio.
+Amber Fu: Sure. Sure. Uh, hey Jeffrey, can you hear me right now?
+Jeff: Uh, I can I appreciate it. Thank you. Yeah,
+Amber Fu: Perfect.
+Jeff: I
+Amber Fu: Thank you so much. And you know,
+Jeff: don't.
+Amber Fu: thanks so much for making the time.
+Jeff: Sure. Sure. I'm looking forward to
+Amber Fu: Yeah. Okay, perfect.
+Jeff: it.
+Amber Fu: And before we start, uh, do you mind if I record this so I can actually listen instead to taking the note?
+ 
+ 
+00:02:35
+ 
+Jeff: Sure. Sure. Go ahead.
+Amber Fu: Okay, perfect. Thank you. Uh, give me a second. Uh, okay, perfect. And, uh, great. Uh, I will be upfront. Um, so I'm not like a certification expert at all. So I'm here to learn from you. And if I say something that doesn't make sense, please just tell me. And I'm be fully transparent with you about everything and you know like
+Jeff: Okay, sure.
+Amber Fu: where where we manufacture and what is what is the device because I know you need
+Jeff: Sure.
+Amber Fu: the full picture to give me the right answer.
+Jeff: Sure. No
+Amber Fu: Perfect. And um okay so a quick version of uh who we are.
+Jeff: problem.
+Amber Fu: So uh so the Cassie our app name uh it help we want to help the you know the uh home homeowner in the US especi uh specifically in the California understand and cut their electricity bill uh espec especially like home with a solar battery and EVs and complex raid structure like California N3 and we we have a app today, but to give advice people can trust and eventually to act on it automatically.
+ 
+ 
+00:03:58
+ 
+Amber Fu: We're building a piece of hardware. And here's what what the device does. And I want you can uh like listen and tell uh tell me a little bit more. And uh so the the device is installed in in or near the home uh electro panel and is used the city clamp to monitor the whole home energy in the real time and is also have a Wi-Fi radio to connect to our app and the cloud and is has a control function. is can uh uh you know switch an EV charger and potentially another large load based on the home available uh capacity and uh electricity rate. So, think of it's like an uh I don't know if you're familiar the another brand called Emporia energy monitor uh plus a charge controller but Wi-Fi and app controlled which we don't think uh there have many similar stuff like this really exists yet but if you know anything like really similar like this? Uh you can afraid to tell
+Jeff: Well,
+Amber Fu: me
+Jeff: does it switch between like a PV system and the traditional power company power or or what does it switch between?
+ 
+ 
+00:05:40
+ 
+Amber Fu: uh uh you mean the the you mean the device?
+Jeff: Yes.
+Amber Fu: Okay. Uh so basically the uh the device is more I don't know if you familiar with the the one brand called Emporia.
+Jeff: How do you know how to spell that?
+Amber Fu: Okay.
+Jeff: I
+Amber Fu: Uh it's E M P O R I
+Jeff: Okay. No,
+Amber Fu: A.
+Jeff: I am not familiar with them, but I I I will be here very quickly.
+Amber Fu: Okay. Um it Okay. So, so well it's more like um so okay uh let me answer your question first. So uh no so it's not like a switching between solar and utility power. We're not trying to act like a uh the transfer switch. What I mean is like a controlling the load side. For example, you know, tur turn turning an EV charge on or off or limit how much current it can draw based on the home available uh uh uh based on the home uh available uh capacity and electricity rate. So, so the device would monitor the whole home load with a city clamps and then control the specific large load like EV charger.
+ 
+ 
+00:07:11
+ 
+Amber Fu: It's more like a load control or demand
+Jeff: Okay. Yeah, I I understand now.
+Amber Fu: management.
+Jeff: I I went ahead and took a quick look out at Emporia as well. I I think I I think I understand uh how it works and everything.
+Amber Fu: Okay. And so one more thing uh I think you should know up front. So we likely manufacture in Asia probably in China. I don't know yet but I know that's relevant giving the FCC rules. So uh let's talk about it openly and most of today I want to understand like what does it actually take to bring the a device like this to the US market the right way.
+Jeff: Okay. Well, how many components are there? I mean, there's got to be, you know, there there's probably a component that measures uh, you know, the the main uh AC power, you know, coming in, you know, to the house. And then it sounds like there's got to be uh some kind of a control device for each major load. Correct. you know, you've got like a controlling hub or a gateway or some kind of a some kind of a controller.
+ 
+ 
+00:08:36
+ 
+Jeff: Um, and then it it's got to be able to talk to another device that's probably connected to, you know, the high power usage devices. Correct. So I'm I guess I'm just trying to understand how many pieces of the solution are
+Amber Fu: Uh oh. Yes, that that's right.
+Jeff: there.
+Amber Fu: Well, but at the high level, we're thinking of the three piece. the main controller box uh the CT clamp that measure uh ma measure the incoming AC power and the load control uh component for one specific large load probably like the EV charger. So we're still like early so we don't know yet whether the uh control uh component would be like uh into the same box or separate as another uh module. But that's one of the thing I want to understand from uh uh certification.
+Jeff: And then what would be connected to the EV? charger so that the main controller box could send a signal to it to turn it
+Amber Fu: Um so right now what we're thinking uh
+Jeff: off.
+Amber Fu: let me let me think.
+ 
+ 
+00:09:54
+ 
+Amber Fu: Well, so okay. So um so that is uh exactly one of uh the question we're trying to figure out. So there probably uh three possible way like uh option one is a software control like where our main controller or cloud talks to the you know the EV charger through the API or app. So in that case like the there there may not an actual physical device connect to the charger and option two is using like a uh it's called like a load control device install on the EV charger like something like a rely uh I don't know compactor or like a EV lo EV load controller and and our gateway send to control signal to that device and and the last option is like using the uh smart EV charger that already support uh load management and our system sent uh command to the charge rather than directly uh switching to power. So we have we have not decide which pass is the best uh yet. uh but from um a uh a certification uh perspective uh I'm trying to understand like which is a uh the best option for the
+ 
+ 
+00:11:27
+ 
+Jeff: Okay. Yeah. I mean, what you described, I mean,
+Amber Fu: US
+Jeff: it sound like it could work assuming that the EV charger uh was already cloud aare, you know. I mean, if the e EV charger uh already had some type of, you know, internet connectivity, you know, whether it was wireless or wired or whatever. Um, if if the EV charger came uh from the manufacturer, the EV charger manufacturer, if it already had some kind of internet access, to me, that seemed like it would work. Um, but what what other types of devices would potentially be controlled by this? I mean, is it air condition,
+Amber Fu: Um yeah.
+Jeff: you know, I mean, air conditioning systems or, you know, high high load, you know, or high current, you know, high power devices. I mean, what what other types of things would you
+Amber Fu: Uh we're think about like a solar like and also like a
+Jeff: control?
+Amber Fu: uh home battery.
+Jeff: Would would you assume that all these other devices already have some kind of internet connectivity?
+Amber Fu: Yes. Yes.
+ 
+ 
+00:12:40
+ 
+Jeff: Okay. So, so in in theory, if if all the devices you're trying to control have internet access, you know, in theory, yes, you could potentially do it from
+Amber Fu: Okay. Okay.
+Jeff: software
+Amber Fu: And um but so so uh like given that a a device like a Wi-Fi monitor whole home current and can control or uh like can control like the EV charger. What's a full list of a uh certification would need to legally sell it in the
+Jeff: Yeah. Well, if I I mean,
+Amber Fu: US.
+Jeff: from what I what I heard from you, um I I think I heard there's only really two potentially two pieces of of hardware. You got the main controller box and this safety clamp,
+Amber Fu: Anyway,
+Jeff: if you will. Um, and then I think you said the actual devices that you're controlling, you could potentially do that with software, right? If you did that with software, you only have two different pieces of hardware that you would provide. Correct.
+Amber Fu: Um,
+Jeff: Or is there a third?
+Amber Fu: so uh let me give me like a 20 second.
+ 
+ 
+00:14:00
+ 
+Amber Fu: Let me think about like how can I can describe because we're still like in like really really early stage. So um okay so let me step back and describe like a product more clearly because I think I may have explained like uh uh not really clearly. So it's not trying to be whole home smart panel and we are not trying to like switch the home between the solar power and the utility power. We are also not like trying to control every you know thing in the house at the beginning but the core problem we are uh uh like figure out is the homeowner this EV solar and battery and you know uh and then another device the rate plan often do not know when their home is like creating an expensive electricity bill event for example like charging EV during the peak hour charging when uh charging when the panel is closed to capsity or using large load at the wrong time. So our product have a two layer. The first layer is a monitoring. So we install a device in our in or near the electro panel using the city clam to read whole home energy in real time.
+ 
+ 
+00:15:22
+ 
+Amber Fu: that give our app visible uh visibility in into like what's happening in the home and the second layer is a decision and the control layer. So based on home load uh available panel capacity in customer uh electricity rate and the customer uh per performance our system can recommend or eventually trigger on action for example like delay the EV charging reduce the charging current or you know just stop the charging during the peak rate hour. So in the first version the main uh controllable load would likely be like a EV charging. We're not trying to directly shut off random applies. We're trying to manage on the high impact like of of you know high impact flippable load in a safe way. That's what we are trying to do. So, so in term of a component we're thinking about uh as a system we have a three uh possible piece. The first is a monitoring gateway near to the electro panel. So maybe this include the PCB Wi-Fi module or like a of uh the uh connection to our like a cloud and app and the second is like a CT clamp that me measure the whole home current and possibly the EV charger and the and the third is a uh control path for the EV charger.
+ 
+ 
+00:17:10
+ 
+Amber Fu: This could be done in different ways. So it's it could be through the EV charger existing uh cloud API if charge is already smart and connected or it could be through a uh certified EV load uh control uh a controller or smart charger that our system can communicate with.
+Jeff: Okay. Yeah, I understand that enough. I mean on on that uh on that third piece the like that relates to the EV EV charger uh again I mean in theory it could be done all through software um if it's not done through software then I'm thinking you
+Amber Fu: Mhm.
+Jeff: would you'd almost have to have a device that's connected to AC mains power, you know,
+Amber Fu: Uh-huh.
+Jeff: probably probably 240 volts for an EV charger. Um, and then the EV charger plugs in to your device and
+Amber Fu: Uh-huh.
+Jeff: you talk to your device uh from the monitoring gateway and then you can reduce the amount of power available to the EV
+Amber Fu: Mhm.
+Jeff: charger.
+Amber Fu: Mhm.
+Jeff: I mean that that's that's how I'm visioning it.
+ 
+ 
+00:18:37
+ 
+Jeff: Unless again you you connect uh to the EV charger through the cloud through the internet somehow and somehow the EV charger uh has that functionality you know already in it to be able to you know via an API tell the charger use less power you know reduce your power I mean if if if you have a
+Amber Fu: Hey,
+Jeff: smart EV charger again that already comes from the factory and you can do that then then you don't need a third piece of hardware. You need your monitoring gateway.
+Amber Fu: are you
+Jeff: You need your clamp. And you're going to use the the gateway and the clamp uh and and your cloud to be able to talk to the smart EV charger. But if it's not a smart EV charger,
+Amber Fu: Um,
+Jeff: you're going to have to have some other piece of equipment probably connected between the charger and AC mains. uh you know to reduce that you know the available power. I mean you you you can't uh if it's not if it's not a smart EV charger you're not going to be able to do it via API.
+ 
+ 
+00:19:46
+ 
+Jeff: You're not going to be able to do it through the cloud. you know, you'd have to depend on uh some other piece of hardware again that probably uh acts, you know, as a a current limiter, you know, that's between the charger and the AC main,
+Amber Fu: Mhm.
+Jeff: you know, connector or wall outlet, whatever it may be. I mean, does that does that sound right or
+Amber Fu: Yes. Yes. Um so so and also uh so one important uh question for us is whether we should split this into the into phase like phase one is could be only monitoring only like a city clam Wi-Fi app cloud and recommendation and phase two could add control but properly starting with EV charging only and Even then we may prefer to control through uh a ready uh certified EV charger smart charger or uh a load controller instead of directly switching the high power ourself. So I would love you help uh understand like how the uh certification scoop changed between like a monitoring only product and the monitoring plus control product.
+Jeff: Yeah, the the certification process doesn't change that much.
+ 
+ 
+00:21:19
+ 
+Jeff: Um, it's really just do you have two physical pieces of hardware that need to be certified or do you have three, you know, or or four or or more.
+Amber Fu: Come
+Jeff: I mean, obviously, if if if potentially you need a a third piece of hardware
+Amber Fu: on.
+Jeff: to help limit the EV charger uh current or power, that would be another piece of hardware that's probably a a standalone piece of hardware that
+Amber Fu: Mhm.
+Jeff: would need its own certification. Um, and then if you had other different types of hardware,
+Amber Fu: Mhm.
+Jeff: you know, more than likely each each individual piece would probably need its own certification. But if if you had to develop something for that third piece of hardware, if you had to develop something that again physically sits between the charger and the chargers AC uh power, if you had to develop some some box that the the EV charger plugs into, you could probably reuse that piece of hardware for other high current devices. You may have to have some kind of a of a different adapter or something like that because uh some of these products may be 240 volt.
+ 
+ 
+00:22:38
+ 
+Jeff: Maybe you're going to do some uh maybe there maybe you'll do some other 120 volt uh devices. So you may have to some have some kind of an adapter plate or something, but probably you could develop just one additional piece of hardware that could control or or could limit the EV charger or something else. So, I'm just going to throw out potentially you've got three pieces of hardware here and at least the uh uh the monitoring gateway that would be something that's certified by itself depending on the details. The clamp um might be a part of that. It might be a piece. I'm not sure. Um, but then if you had another uh that third piece of hardware that went again between the EV charger and the AC mains power, that would probably need its own certification as well, especially if it was a a Wi-Fi device. Um, let's talk about the the gateway itself. First of all, um, I mean, it's going to have to have uh, is this North America market only right now or not even North America, but US market only?
+Amber Fu: uh US market
+ 
+ 
+00:23:56
+ 
+Jeff: Okay. Yeah. I mean,
+Amber Fu: only.
+Jeff: it would have to have um what's referred to as FCC authorization.
+Amber Fu: Mhm.
+Jeff: FCC authorization means just like the word implies, authorization. It means that the FCC is authorized it to be uh
+Amber Fu: Really?
+Jeff: imported, sold, and used in the United States. Um there's two different ways uh a product can get authorized. Um there's a process called certification. There's also another process called SDOC which stands for self declaration of conformity. In most cases what a company like you would do is you would use a since it's a it has a radio. you said Wi-Fi.
+Amber Fu: Amen.
+Jeff: Uh most companies will use a radio module that already has uh FCC certification at the module level. Um for example, most of the uh Express if ESP32 line of radio modules most all of those already have uh FCC uh certification. Um and what that means is the module itself has undergone EMC testing, electromagnetic compatibility testing and the module itself has already gone through uh radio testing with the FCC to make sure that the um uh allow allowable power is within the limits.
+ 
+ 
+00:25:35
+ 
+Jeff: Um that the antenna transmission is with is within the allowable limits that the bands it transmits, they're all within the allowable limits. So, a company like ExpressF or Texas Instruments or anybody else that's making radio modules, in most cases, they will go out and they'll get FCC certification. Um, and it makes your job and your life a lot easier. Um, when you're trying to qualify or or you're trying to source a radio module, you really want a module that already has FCC certification.
+Amber Fu: Mhm.
+Jeff: um you know whether you check the data sheet or you ask you know their sales uh the salesperson from a particular hardware vendor you want to ask the question does it already have FCC certification um and if you use something like that again it makes your process a lot easier because the only thing you have to do is test your end solution which would be the monitoring gateway uh for EMC Um and assuming you test it, it passes. Um you can use again this term that I used SDOC, selfdeclaration of conformity. You can use that process to basically self-certify uh the
+ 
+ 
+00:26:53
+ 
+Amber Fu: All
+Jeff: product. Um, so for the radio modules, they have to be certified.
+Amber Fu: right.
+Jeff: They have to have FCC permission before they can be sold or used in the United States. For EMC, you don't have to have FCC permission. The FCC will let you kind of self-certify it. Um, and when I say you, uh, technically if you had the right equipment and the right, uh, people with the right experience, you could do all the testing yourselves. In most cases, uh, you're not going to have an electric uh, EMI chamber. You're not going to have the right equipment to do the testing. You know, even your electrical engineer, you certainly probably have electrical engineers on your team. they're probably not going to have the right experience to do this type of testing. Uh so in reality, pretty much everybody outsources that testing to a third party. Um and it can be done pretty cheap in uh in Asia, you know, for something like the monitoring device, the gateway. Again, assuming you use a certified module in your product and you don't have to have the the the radio portion retested, um you can have the EMC testing done for, you know, $500, $750 US, something like that.
+ 
+ 
+00:28:23
+ 
+Jeff: Um if if you do it in, let's say, China,
+Amber Fu: Mhm.
+Jeff: um if you do it in the United States, it's going to be $45,000.
+Amber Fu: Gotcha. And and so far like we uh we mostly talk about like FCC and the radio side. What about like a safety certification like a UL or like uh the the the What's that called? NRTL like which
+Jeff: uh in our NRTL. Yeah. Um well,
+Amber Fu: Yeah.
+Jeff: let me let me start by saying that legally you as a manufacturer um you don't have to have that um
+Amber Fu: Mhm.
+Jeff: to be able to legally import or sell the product in the United States,
+Amber Fu: Mhm.
+Jeff: but your customers are going to demand it. Um and so you're going to have to have it. Not because um it's legally required. Um it's because because your customers and your market um are going to
+Amber Fu: Mhm.
+Jeff: to dictate or demand that you have it.
+Amber Fu: I hear
+Jeff: And the reason for that is um there's a US federal agency called OSHA um Occupational Safety and Health Administration.
+ 
+ 
+00:29:43
+ 
+Jeff: Um, they regulate workplaces. Um, they regulate uh employers. Um, they don't regulate home consumers. Um, they don't regulate, you know,
+Amber Fu: Mhm.
+Jeff: if I'm a if I'm just a regular consumer and I had a house and I wanted to buy your product and I wanted to try it install it myself. OSHA doesn't regulate that. because because your average home uh homeowner,
+Amber Fu: Okay.
+Jeff: they're not an employer. Um they don't employ anybody at their house typically. Um OSHA regulates things like um if you own an electrical company um and you have electricians that you send out to do installs,
+Amber Fu: Mhm.
+Jeff: um OSHA would regulate the electrical the electric company. Um,
+Amber Fu: Yes.
+Jeff: OSHA would regulate any kind of commercial business. If you had a restaurant and you had employees, OSHA regulates you. Um, if you have a a a warehouse and you have employees, OSHA regulates you. Um, and OSHA has, you know, pretty strict requirements around electrical equipment.
+Amber Fu: Yeah.
+Jeff: Um, OSHA wants electrical electrical equipment to be safe. And how they determine it's safe is it's got to get the NRTL certification um like UL.
+ 
+ 
+00:31:11
+ 
+Amber Fu: Mhm.
+Jeff: Um but there's there's several others. Intertech is another name. Uh Bureau Veritoss is another name. Uh TUV. Uh NEMCO CSA. There's about 12 or 13 of them that do this type of work. Um, so in in so if if you wanted to sell just to a homeowner direct direct to consumer, um, the homeowner may or may not care if it has something like UL certification. Um, in some cases, some some homeowners might care. A lot of other cases, they won't care, but legally you could sell direct to a consumer. Um, now when it comes to, you know, the the monitoring device, just installing it near the electrical panel, probably not a big deal. I'm not the clamp is probably going to be something that that a uh a homeowner can't install. Um just because a lot of times or not a lot of times but you know pretty much all the time the the service entrance into let's say it's a residential house you know not an apartment complex. Let's just say it's a residential house. um your conduit that has the main feeds coming in uh to the house.
+ 
+ 
+00:32:30
+ 
+Jeff: You know, you're going to have uh uh four different cables. You're going to have probably something like uh uh two double lot uh cables for hot power. Each one of them, you know, having 120 volts. They're going to have a third cable which is the neutral. Um, I'm sorry. Actually, the the hots are probably three gauge or size to support uh 200 amps at 120 volts each. And then you're going to have a neutral that's like a double lot that that's a little bit smaller. And then you'll have a ground wire. But th those are all in cables and uh I'm sorry, in conduit. And that conduit is going to be behind sheetrock. So, you know, that there's not a it's not like when you it's not like there's just a big conduit coming into your house that you can put a clamp around. You know, all that's going to be buried behind the wall. So,
+Amber Fu: Mhm.
+Jeff: I I think that you're probably going to have to have somebody install at least the clamp. Um you and and that's that's where you get into do I need NRTL certification?
+ 
+ 
+00:33:42
+ 
+Jeff: Well, if you have to have if you hire installers to do this, uh, a lot of times those installers may be electricians or at least have an electrical license. They're going to be looking for that the mark, the certification mark of the NRTL because they can get, you know, their employer. Let's say they work for John's Electrician Company.
+Amber Fu: Uh,
+Jeff: You know, let's say you you you have a business arrangement with John's Electric Company in San Jose, California to install these devices. Um, they're going to ask, "Does it have NRTL certification?" Um, when their installers go out to a house to install it,
+Amber Fu: Okay,
+Jeff: the installers are going to be looking for that NRTL certification because they can get they can get in trouble if they don't have it. You won't get in trouble as the manufacturer. You know, OSHA is not going to come after you. Um but they will come after the electricians.
+Amber Fu: electrician.
+Jeff: Um,
+Amber Fu: Okay. Uh, one quick question is, uh, we we just talked to an electrician and he said like some,
+ 
+ 
+00:34:44
+ 
+Jeff: sure.
+Amber Fu: uh, a family in the US, they they just do by theirel, you know, like a city clan or like install something. They they just think, oh, it's too expensive, so they just do it by the is like a a a lot of people they're doing like that. So if they're not hire the uh the guys and they just do it by theirel by the customer himself are they going to get have a trouble or the manufacturer going to have a trouble
+Jeff: No, I mean if if again if you sold it uh let's say you sold it directly to
+Amber Fu: or
+Jeff: customers from your website, you know, direct to consumer sales. Um, no. The if the customer just bought it themselves, um, you know, they could, uh, uh, they could install it themselves. Um, and even if you didn't have the NRTL certification,
+Amber Fu: Mhm.
+Jeff: um, and OSHA is not going to come after them because the homeowner is not an employer. You know,
+Amber Fu: Gotcha.
+Jeff: it's not a it's not a commercial environment. Um, and the OSHA doesn't they don't have any authority over you as the manufacturer either.
+ 
+ 
+00:36:01
+ 
+Amber Fu: Amen.
+Jeff: Um, but the other there's another part to that that you need to be aware of too and that is um there's also potentially the problem of building inspectors, uh, permit inspectors. Um especially if if you would you try to sell this in a commercial environment as well or you just targeting a homeowner is all you're trying to do. Okay. Um,
+Amber Fu: Hold.
+Jeff: there's a possibility of a building inspector somewhere in the country having a problem that you don't have this NRTL certification. Um, if it's a if it's a existing house and there's somebody already living there, um, typically you don't have building inspectors, you know, come out and look at that house after it's already built. Um, unless you're unless you're remodeling it.
+Amber Fu: Mhm.
+Jeff: If you're remodeling it, sometimes they may, you know, they may come out. But let's just say I I bought a house. I've owned it for two years. I buy your product, I install it myself. You're not going to have a building inspector come out there. You're not going to have a fire marshal come out there.
+ 
+ 
+00:37:37
+ 
+Amber Fu: Mhm.
+Jeff: You're not going to have a per a permit inspector come out there. Um but if it's brand new construction, you might um you know, let's let's um let's say that uh let's say that you wanted to sell these to uh home a home builder, you know, developer, a company that builds lots of houses in the United States. Well, number one, they're going to require NRTL because they're an employer. you know, they hire people to build the house. So, there's going to be employees, you know, whether they're subcontractors or paid directly, there's going to be employees of that company that are building the house. So, OSHA is going to step in. So, now, you know, if uh um in that case, you know, they haven't sold the house yet. There's no homeowner. You know, it it's only a business that has employees that's building the house.
+Amber Fu: Where?
+Jeff: If they bought this product from you and they tried to get it installed, electricians are going to look at it. They're not going to see the NRTL mark. OSHA could get involved, you know, etc., etc. And the other part of that is during the house building process, there are government agencies that do inspect the house.
+ 
+ 
+00:39:04
+ 
+Jeff: Um, I don't think they do. I'm not sure if all of them do like a they certainly inspect the electrical work. That's typically before uh the drywall is up or the sheetrock is up. That's typically when you can still see all the electrical wires in the wall, the cables, the conduit. That's usually when something like an electrical inspector from a city or a county or state, they'll come and look at the house and probably your your device, at least the gateway, is not going to be installed by then. The clamp, I I think it probably would have to be installed by then. Um because again that all those c all although that conduit everything it's behind the wall.
+Amber Fu: Mhm.
+Jeff: I don't see there's no way that you're going to be able to get a clamp um around something that's I don't let me look something here.
+Amber Fu: Mhm.
+Jeff: Um I mean assume my panel was was right here. um the you know the the most of the time the the tubes the conduit that's feeding that that's going to be behind this this wall.
+ 
+ 
+00:40:14
+ 
+Jeff: You know there's there's no way there's no way for you get a clamp around something like
+Amber Fu: Mhm.
+Jeff: that unless you you know cut out the sheetrock and somehow got something in there. So I just as we're talking I to from my perspective I think you'd almost have to have the clamp inside the wall which tell which which tells me
+Amber Fu: Mhm.
+Jeff: that potentially and you know it would have to be installed before the drywall went up. Um and that's when electrical inspectors will go inspect the house. Um, and so they may uh they may see the clamp and they may say, "Well, what is that?" You know, is is it NRTL certified? And they're looking for the mark on there and they might fail the inspection, you know, because of it. um you know the the gate I'm sorry the monitoring gateway itself that probably doesn't have to be installed till the very very end. I mean you can have the house completely finished drywall up sheetrock up and everything and just almost plug the uh the gateway in. So they might not the a permit person or an electrical inspector, he may not see the gateway, but I suspect they may see the the clamp.
+ 
+ 
+00:41:29
+ 
+Jeff: Um, and another thing you got to be considered too is is that the United States is is somewhat unique um, in that they don't require safety testing for electrical devices in the house. Um, again, if you're an employer, yes, OSHA requires it, but for the um just for your house, like a a personal computer in your house, a lamp,
+Amber Fu: Mhm.
+Jeff: if you're buying a personal computer or buying a lamp or buying a, you know, DVD player or buying a portable air conditioning unit, um, you you know, there's no law that says that that must be NRTL certified. But most of those devices, the manufacturer wants to make sure it's safe. Um because they don't want to get sued, you know, they don't they don't want somebody to get shocked with electricity.
+Amber Fu: Mhm.
+Jeff: They don't want the device to overheat uh and catch fire and burn a house down. So for those type of devices, pretty much all manufacturers, they will still get the NRTL certification.
+Amber Fu: Uhhuh.
+Jeff: Um because it if I if they're if you're serious about your business, you want to, you know, get the startup going, you want to make sure that you're going to have a good future.
+ 
+ 
+00:43:03
+ 
+Jeff: You want to protect yourself. Um you want to get the NRTL certificate certification, especially anything that has to do with with high voltage uh electricity. Um and when I say high voltage, you know,
+Amber Fu: Mhm.
+Jeff: technically, you know, 120 uh or even 240 bay phase u uh 240 volt two-phase, I'm sorry, singlephase electricity is not really high voltage, but mo most consumers will think that. Um but anything anything that's got to do with electricity like that, especially this clamp mechanism, you want to have the NRTL certification. um I mean ju just to protect your business.
+Amber Fu: Oops.
+Jeff: Now it's it's pretty expensive um you know to to get it. You know the FCC stuff is is pretty cheap but the NRT uh L is not. Um I'm not sure. Again, I I'd have to know more about the safety clamp to see if that would be to see how it would fit. The the clamp itself is probably just mechanical, correct? to mechanical with maybe some kind of a or or is there like a a connector up to the main controller box, a physical connector, or does the safety clamp have Wi-Fi on it as well?
+ 
+ 
+00:44:33
+ 
+Jeff: Or
+Amber Fu: Uh so well um okay so before that before I answer the question uh I have a uh another question I want to ask.
+Jeff: sure.
+Amber Fu: So uh it sounds like our cification need to depends on the heavily on our sales channel. So if we launch directly to the customer to existing home owner first can we ship just FCC and defer the NRTL uh uh safety third and then like we we can get like an RTL like
+Jeff: um you you could legally again legally you could you could import it in the United States. US Customs is not going to check um that it has NRTL that that again it's not
+Amber Fu: Okay.
+Jeff: legally required. Um, but your two your two biggest concerns there are if somebody did need professional help, you know, even though you sold it to the customer, if they needed professional help,
+Amber Fu: Good morning.
+Jeff: um, and they reached out to some other company in their area, like a local electrical company, that electrical company may not work on on your product and the electrical comp electrical company might tell the consumer, they might tell who you sold it to, sorry, this thing doesn't have a marking that proves it's safe.
+ 
+ 
+00:46:08
+ 
+Jeff: We're not allowed to work on it. So, yes, you could, but you run into that risk. Number one. Number two, you run into the other risk of how do you know the product is is safe? How do you know it's not going to catch fire? you know, I mean, did did you test it to some relevant standard such as uh UL62368-1 um which is probably the the main standard that uh UL or Intertech or Bureau Veraritoss they would test your device to to uh 62368-1. How do you know the product's not going to catch fire and burn somebody's house down?
+Amber Fu: Let me
+Jeff: you know, I mean, legally, you you don't have to be worried about it,
+Amber Fu: Oh.
+Jeff: but obviously if if your device burns somebody's house down, you know, you're probably going to get sued or, you know, have bad reputations and, you know, in in social social media and everything else like that. So, it uh again going back to your question, can you do it? Yes. Is that a good idea? No.
+Amber Fu: Okay.
+ 
+ 
+00:47:15
+ 
+Amber Fu: Got you. Got you. And um and also u another thing is are there specific like a chips or module or like vendor we now need to avoid in our bill or material because of the covery list rules like how do we uh screen our bomb for that?
+Jeff: Yeah. I mean, right now there's uh I think there's only like 10 or 12 uh Asian hardware companies that are on that on the covered list. Um, uh, one of one of them being the I don't know how you pronounce it, the Huei, you know, the the company that the the big, uh, security camera company,
+Amber Fu: Uh-huh.
+Jeff: you know, is on that list. Um, I mean, you can, uh, you can pretty easily, you know, Google, you know, FCC covered list, um, and find the actual names of the companies. again, I I think there's 10, 12, 14 of them or so. Um, and there might be one or two Russian companies. Um, and but in in most cases, you don't have to worry about I I think most of the most of the companies that are on that list, they're actual manufacturers.
+ 
+ 
+00:48:37
+ 
+Jeff: You know, they don't manufacture parts. You know, they don't manufacture radio modules,
+Amber Fu: Mhm.
+Jeff: capacitors, power supplies, resistors, you know, they don't manufacture those types of things. They manufacture complete solutions. So, you you're probably okay.
+Amber Fu: Mhm.
+Jeff: But, I mean, if you wanted to know for sure how to do it, um I mean, I can I can Google Google or I can uh email you, you know, where uh where that's located. I'm not sure if that's in I'm not sure if it's actually in law, which would be code of federal regulations or US code. It might be some other document that the FCC has, but but you can find that easily enough. And you just need to make sure that you're not buying parts from those, you know, 12, 13, 14 companies. Um, but again, most of them don't sell parts. Most of them just sell finished goods. So, as long as you're designing this yourself, uh, and you're just buying parts and you're, you know, your factory or your contract manufacturer is building it, you're probably not going to have any
+ 
+ 
+00:49:42
+ 
+Amber Fu: Got you. Got you. Appreciate. And also answer the question uh your mention.
+Jeff: issue.
+Amber Fu: So, so uh the for for the city clam our current thinking is that it would be uh mostly uh current uh transformer clamp not separate smart device and it it would not have it own Wi-Fi cloud connection or independent uh uh processor it would connect physically by wire to the main uh monitoring uh the gateway so the gateway would do the signal processing, the Wi-Fi communication, uh the uh the frameware and the uh cloud connection. So from the system uh perspective, we're thinking of the city clam as a accessory or the the sensing input to the gateway. So not as a separate connect device. But I want to understand it from you like whether certification body would treat the safety claim as a part of the gateway system or as their own component then need to separate safe uh safety valid uh uh the uh the safety the permission or something like
+Jeff: Yeah,
+Amber Fu: that.
+Jeff: I think you could you can consider it as a accessory.
+ 
+ 
+00:51:08
+ 
+Jeff: Um, now you know for FCC they would still have to test with it. Um, one of the most the FCC test um, uh, that you would have to do, assuming you used a certified radio module, which which you should, um, really all you have to do is test EMC. Well, they have two different types of tests. they have radiated which means how much energy gets uh how much unwanted or bad energy gets displaced through the air.
+Amber Fu: Mhm.
+Jeff: Um they have another test called conducted and that is how much uh unwanted energy gets
+Amber Fu: Mhm.
+Jeff: sent um out any connected cable like back to AC mains like through through your power supply presumably your your uh uh gateway is going to have some type of an external power supply that's connected to AC mains you know your gateway itself self. It's probably a DC device, but it's going to connect to an AC to DC uh, you know, wall connector, external power supply, but that's connected to AC ma mains. And the FCC wants to make sure that you don't have any unwanted energy radiating through that physical wire.
+ 
+ 
+00:52:34
+ 
+Jeff: Well, the same case for your clamp. You know, they're they're going to have to have that clamp attached when they do the FCC testing. Um, and then the same for the NRTL. If you get that certification, you can probably just say it's an accessory. Um it's it's a required accessory. You have to have it to use your solution. Um but you could probably say it's an accessory and just include it in that that bundle of
+Amber Fu: Mhm.
+Jeff: certifications. So from a certification point of view, I really see at least right now you'd have one product, you know,
+Amber Fu: Okay.
+Jeff: the the the gateway with the clamp accessory and then potentially if you can't do software control in the future of an EV charger, if you've got to have some other piece of hardware, that would probably be a separate device that would need its own certification.
+Amber Fu: Gotcha. And and also for all the uh the RTL like you know the UL interte uh CSA or like TUV like which would you pick for our device?
+Jeff: Um, the two that I've worked the most with recently have been Interertech and another company called NMCO, NEM KO.
+ 
+ 
+00:53:57
+ 
+Jeff: Um, I've worked with UL in the past. I haven't worked with them recently. I've worked with CSA in the past as well. Uh, same thing. I haven't worked with CSA uh lately. Um, I mean, UL is is kind of like the gold standard. You know, they're they're probably the most widely recognized um safety certification company.
+Amber Fu: You hear
+Jeff: Uh, but they're they're probably u a little bit more expensive and they're
+Amber Fu: me?
+Jeff: probably uh a little bit less flexible um in in various things. So, some of the other companies you you probably get a little bit better price for them. um they might be a little bit more flexible in various things. Um but I you just to give you some numbers um it's probably 14,000 or 15,000 US um just for
+Amber Fu: Mhm.
+Jeff: the first part of the certification. When I say the first part there's there's two parts to it. The first part is um the company whether it's Interertech or NMCO or UL um they'll actually do testing you know you you you provide samples to one of their labs they'll do a lot of testing they'll write up a a test report provide that test report to you give you you know some official piece of paper that says you know yes you've got NRTL certification and that's again the first part of the process You need to get the mark on your product as well.
+ 
+ 
+00:55:33
+ 
+Jeff: Whether that's uh UL, they have a mark, you know, their own, it's a trademark symbol. Um UL's trademark symbol is the UL mark. You know, UL the company, they have a trade, they have a a safety certification mark, a logo.
+Amber Fu: Okay.
+Jeff: What's that logo called? It's also called UL. If you look at some of the other companies, they call their mark differently. You know, Intertech is another NRTL. They call their mark ETL. Um, uh,
+Amber Fu: Mhm.
+Jeff: there's I think it's Euro Fins, uh, is another NRTL. I think they call their mark or MEPS. So, you know, there's potentially two different uh, you know, uh, two different names associated, you know, with with the NRTL. there's the name of the the NRTL company and then there's the name of their their mark. Sometimes those are the same, sometimes they're different. Um, but to get permission to use that mark, they're going to charge you more money and they're going to charge that on a year uh on a yearly basis. Um, technically I think they even they bill you quarterly, you know.
+ 
+ 
+00:56:50
+ 
+Jeff: I mean, it's like a yearly fee,
+Amber Fu: Thank you.
+Jeff: but they bill you quarterly. Um, how much that is depends on where your product is manufactured. If it's manufactured in the US,
+Amber Fu: Mhm.
+Jeff: it's probably around5 or $6,000 a year. Um, if it's made in China, it's a little bit more.
+Amber Fu: Mhm.
+Jeff: It's probably around $8,000 a year. So, you've got that that initial uh $15,000 or 14 $15,000 cost and then immediately after that that you've
+Amber Fu: Mhm.
+Jeff: got to start paying these quarterly fees. You know, let's say in China, let's say it's $8,000 a year. So, what that's 2,000 a quarter. Um and then there's also two additional fe up to two
+Amber Fu: Anyway,
+Jeff: additional fees. Um, you can either print the the certification mark directly on your product in your factory. Um, you're going to have to have a label on the product. It's it's typically called a regulatory label. It's going to have something like uh your company name, maybe the brand name of the product. It's going to have a model uh number, and that model number is what's used on test reports.
+ 
+ 
+00:58:03
+ 
+Jeff: Um, you know, to to show that was it tested by the FCC? Yes. How do we know? Well, here's the test report. It says model 123 was tested. And then here's our device. Here's the model number one 123. So, you're going to have to have a regulatory label on there. Um, and most times most companies will just they will print the mark there on that label on their own product in their own factory. Um, most of these companies will also sell you labels. um you know if if you can just buy the label directly from inner techch and you put it on your product somewhere yourself which one of those ways you use it all depends on your volume. Um, it's cheaper if you're doing uh if you're doing less than about 2,000 products a year. Um, it's cheaper to buy the labels from uh Intertech or UL. if if you think your volume is going to be more than 2,000 a year, it's cheaper for you just to print it in your own factory. Um, but ne but in either case, um, I I think it's about a dollar a label if you're buying the labels, you know.
+ 
+ 
+00:59:27
+ 
+Jeff: So, you know, if you're doing the volume of 2,000, it'd be about 2,000 a year. Um, and then they but they also charge you a fee.
+Amber Fu: Yeah.
+Jeff: Um, even if you don't buy their labels, if you print them yourself, they charge you a fee. And I think the break even point is around 2,000 units. Um,
+Amber Fu: Mhm.
+Jeff: and so if if if if you if you ship more than 2,000 units a year, um, your cost for for the label aspect would would be if you printed them yourselves, it makes more sense. If you're doing four, five, six th,000 units a year, makes more sense for you to print the label yourself. It's probably about another 2,000 a year for those rights. Um otherwise if you're doing uh 500 a year um it's cheaper just to buy 500 labels and stick them on your shelves. So, so, so you know, again earlier I said is is expensive and it it is,
+Amber Fu: Mhm.
+Jeff: you know, relatively expensive. You know, if if you've got if you if you're expecting volumes of 50 a year, um it doesn't work.
+ 
+ 
+01:00:33
+ 
+Jeff: You know, I mean, you can't spend uh you know, $20,000, you know, and and roll that into the cost of 50 units. You know, you'd have to charge an extra several hundred per unit. Um, if you're building a h 100,000 of these, you know, $20,000 is not that big a deal. But when you're building two or three thousand, it it's manageable, but yeah, it's still expensive.
+Amber Fu: Got
+Jeff: But I I I I don't I don't see any way around it for you.
+Amber Fu: here.
+Jeff: I mean, if you want, again, given it's got the the clamp, which is going to be around probably at least one or two or or all three of the main cables in a house or two hots, your neutral. Um, and that cable is going to have I'm sorry, that clamp's going to have a physical uh connection going back to the gateway. That's it. From my perspective and probably from most electrical people that work with electricity, that that's somewhat high risk. you want to make sure it's safe so that you know nothing nothing bad happens and the house doesn't burn
+ 
+ 
+01:01:43
+ 
+Amber Fu: Mhm.
+Jeff: down. So you you you just from from your own company's perspective if you want to have a good future you want to make sure it's safe. Um and then again even though some of your don't legally need it for your customers.
+Amber Fu: Mhm.
+Jeff: Some of them uh some of them may look for it. You may have some customers that say is it NRTL tested or does it have safety certification? And if you say no, they may not buy that. A lot of customers will still buy that. But again, if they have to bring in a third party, an electrician or something like that, that electrician probably going to have an issue with it. And again, if you ever thought about maybe you wanted to try to sell these to, you know, brand new home builders, they're probably going to require it as well. So, I think at the end of the day, you're going to need to have that certification.
+Amber Fu: Got you.
+Jeff: You you really you really should have it.
+Amber Fu: Got you. Got you.
+ 
+ 
+01:02:40
+ 
+Amber Fu: And oh, al also like you mentioned the EMC testing can be done in China like around like five
+Jeff: Um,
+Amber Fu: to 75 uh uh $100. But uh I I think given the recent FCC change around Chinese test lab is testing in China still acceptable for the
+Jeff: yeah. Um there there is uh the FCC
+Amber Fu: FCC.
+Jeff: did make some minor changes actually that take effect around June 1st. Um but they're also proposing some other changes that are pretty significant.
+Amber Fu: Okay.
+Jeff: Um but those as long as you went with the uh using a certified radio module um those are not really going to affect you. Um what the FCC has proposed is um it's really not a
+Amber Fu: Mhm.
+Jeff: China ban either. I mean that a lot of people talk about it being a China ban. It's not. Um there's no language in the proposed rule that specifically says China. Um, what it does say is the FCC is is thinking about um not letting test labs in countries that don't have
+Amber Fu: No.
+Jeff: a m they call it an MRA, mutual recognition agreement.
+ 
+ 
+01:04:03
+ 
+Jeff: Um it means uh a different country uh has a written
+Amber Fu: Mhm.
+Jeff: agreement with the US to say we will let you do testing in your country but we will accept those test results. Um the US has that um for many years. I think up to up to about 2015 um the FCC required that your your testing be done um either in the US or in a country that had one of these MRA agreements with the United States. Um since 2015, they dropped that requirement and um allowed basically uh all countries throughout the world as long as they could demonstrate to the United States, the FCC that that they were reputable, uh they could get approved by the FCC to do the testing. Um it didn't matter if they were in Sri Lanka or Uganda or Bise or wherever, as long as they could prove the to the FCC that they were a reputable company, they could get permission to do that. it didn't matter if there was this MRA agreement or not um with the US government. What they're proposing is to go back to that old standard and say no when we're only going to let testing be done in countries that we have an MRA agreement with.
+ 
+ 
+01:05:30
+ 
+Jeff: Um the US has an agreement with uh Canada, European Union, some other European countries, um one or two Latin American countries, and then they uh some of them in Asia-Pacific such as Taiwan, um sorry about the head,
+Amber Fu: Oh, that's a lovely cat.
+Jeff: Taiwan, uh Australia, New Zealand, um I think Vietnam,
+Amber Fu: Mhm.
+Jeff: um as well, but China's not on that list. So, you know what?
+Amber Fu: Okay.
+Jeff: Again, what what they're what they're proposing is if if you're not if we don't have an agreement with you, we're not going to let you do the testing over there. And right now, there is no agreement with China. So, it will affect China and probably affect them most certainly, but but again, that you know,
+Amber Fu: Mhm.
+Jeff: the word China ban or is not in there, but the main thing is that's only going to affect right now. Now, it's only going to affect the radio certification, not EMC. Um,
+Amber Fu: Okay.
+Jeff: the radio certification is more a lot more formal. Um, again, if you remember me talking about it earlier,
+ 
+ 
+01:06:38
+ 
+Amber Fu: Mhm.
+Jeff: uh, that's a certification process versus the SDOC, self-declaration of conformity process. The SDOC, very informal. You're kind of self-certifying the product. That won't be affected. So yes, they they'll still be able to continue to do that in China,
+Amber Fu: Got you. Got you.
+Jeff: assuming you use a certified module. What which what which you want to
+Amber Fu: Got you. Got you. Well, that's really help. And also,
+Jeff: do
+Amber Fu: um, so you said the clamp probably can't be DIY because the main feed is behind the drywall. So even for direct customer the clamps do you need to be hire the uh the higher the electrician and does that pull an RTL back into the picture even for the D2C
+Jeff: Uh yes. Um,
+Amber Fu: Hey,
+Jeff: and in well, they wouldn't necessarily have to have an electrician,
+Amber Fu: Mhm.
+Jeff: but your average homeowner is probably not going to take a drywall saw and cut a square in
+Amber Fu: Mhm. Mhm.
+Jeff: their wall. Um because you know they've got to cut it.
+ 
+ 
+01:08:11
+ 
+Amber Fu: Mhm.
+Jeff: They've got to cut it and make sure they don't cut the conduit behind it because obviously if you if you just take a big you know if you say well my my panel is uh something else here. If you say my panel is right here so I know my electrical uh feed is right here. my electrical conduit is here. Um, you don't want to just take a saw and start cutting in there,
+Amber Fu: Mhm.
+Jeff: you know? I mean, if you take a like a miter saw that has a blade this deep, you might cut that conduit and kill yourself,
+Amber Fu: Mhm.
+Jeff: you know. I mean, if your saw hits uh, you know, hits the live electrical wires in there. So, um, I think most homeowners are probably going to call somebody in uh, to install that, you know, that because they're they're not going to want to cut a hole in their wall. they're not going to want to put the clamp there. They're they're not uh prepared at putting the sheetrock back up there, taping it and mudding it and floating it to make it all look brand new again.
+ 
+ 
+01:09:19
+ 
+Jeff: Um so I think most homeowners because of the clamp, they're going to have to call somebody. Um, I mean there depending on depending on the the feed coming into the house. And again, I'm I'm still talking about like a a single family house, you know, that's on a small piece of land. I'm not talking about an apartment complex.
+Amber Fu: Yeah.
+Jeff: um you know they they can have power coming into the house either underground um
+Amber Fu: Yeah.
+Jeff: which a lot of the newer nicer subdivisions do so that you don't see electrical wires you know hanging in the air everywhere you know most of your older subdivisions um they'll have it on power lines you know they'll have the wire you know on a pole you know wire doing
+Amber Fu: Mhm.
+Jeff: that um if the wire is on a pole if it's coming in overhead head. Um, most of the time that's going to go through the through the roof. There'll be a piece of conduit sticking up through the roof.
+Amber Fu: Wait a minute.
+Jeff: And there's really no no effective way that you could ever install the clamp there.
+ 
+ 
+01:10:36
+ 
+Jeff: Um, other times when it's coming up uh underground, sometimes there might be like on the outside of a house, sometimes that that big conduit, you know,
+Amber Fu: Okay.
+Jeff: piece of conduit, probably a 2-in conduit at least minimum, that's got probably four wires running through that might be on the outside of the house. And in theory, since it's it's exposed, you know, again, a piece of conduit like that, well, yeah, you could probably get a clamp around there.
+Amber Fu: Look,
+Jeff: The the problem is legally you're probably not gonna be able to do that because um that's only going to run up to where the the meter is. Um and everything that's down from the meter
+Amber Fu: nine.
+Jeff: uh that belongs to the electric company. You can't do anything with that. If you tried to put a meter, a clamp on that, um, I mean, there's a good chance the the electrical company would come out, maybe even turn your power off because you're you're, you know, interfering or or messing with or installing stuff on their equipment. Um, the homeowner owns and he's responsible everything behind the meter.
+ 
+ 
+01:11:46
+ 
+Jeff: Um, in front of the in front of the meter. So, let's say your meter's here. Again, there may there might be a conduit outside the house in some cases, but that doesn't belong to the homeowner,
+Amber Fu: Mhm.
+Jeff: belongs to the electrical company, and they're not going to let you put a clamp on there,
+Amber Fu: Mhm.
+Jeff: you know, and if you do, um, there's a good chance the next, you know, the next time a meter reader comes out there, I mean, a lot of it's done electronically these days,
+Amber Fu: Mhm.
+Jeff: but assuming that for some reason the electric company came out there and they saw you had installed something on that, um, they might shut your power off, you know, because you're not allowed to touch any of that. Um, and then again you the homeowner uh everything behind the meter the homeowner can do whatever he wants with it but usually by that time all those wires are internal to the house they're internal to the walls. So, I don't, you know, when you say uh when you say clamp, again, I'm thinking something like, you know, a hose clamp, you know, or something that that does that.
+ 
+ 
+01:12:42
+ 
+Jeff: I don't see any way you're going to be able to get that on an area of the house that the homeowner owns, which again, that's everything behind the meter. And again, that that's almost always going to be in the wall.
+Amber Fu: Got you.
+Jeff: So,
+Amber Fu: Got you. you know, um I I know we're already over the schedule hours,
+Jeff: That's
+Amber Fu: so I want to just I just want to check with you first because I I still have some question,
+Jeff: okay.
+Amber Fu: but I don't know take I don't want to take more of your time without asking. So, I just want to make sure like uh if that's okay. We absolutely happy to pay for extra time, but I just want to make sure your time is okay right now or we can
+Jeff: Yeah. No,
+Amber Fu: schedule.
+Jeff: no, we can we can keep going.
+Amber Fu: Okay.
+Jeff: There's a there's a couple other things that I want to bring up as well yet that you need to be aware of.
+Amber Fu: Yes.
+Jeff: The the the big ones you need to be aware of is FCC and NRTL.
+ 
+ 
+01:13:36
+ 
+Jeff: There's still two or three smaller ones you need to be aware of as well,
+Amber Fu: Yes. Yes.
+Jeff: but but go ahead.
+Amber Fu: And also I have another few question I want to bring up. Yeah.
+Jeff: Sure.
+Amber Fu: Um so I want to clarify one important like install uh installation point. So for product like uh either like the they have a like city clamp or like I don't know another brand called the sense I don't know if you ever heard about that that brand se okay never mind but my understanding is that the city clam are often installed inside
+Jeff: No.
+Amber Fu: the uh the uh electric panel around the service man or select wire not necessary behind the
+Jeff: Okay. It's it's possible that
+Amber Fu: drywall.
+Jeff: it could be installed um you know in the electrical electrical panel. I mean if if you look at a traditional electrical panel you know it's a you know square square rectangle obviously bigger than this. Um and it's going to have cables either coming in usually from the bottom sometimes from the top.
+ 
+ 
+01:14:51
+ 
+Amber Fu: Mhm.
+Jeff: You know, again, it's going to have uh three four different cables in there. It's going to have two very big ones, each one of them being a a hot 120 volt uh cable. Um it'll have a cable that's a little bit smaller, which is your neutral cable. Um and then it'll have one cable that's quite a bit smaller, which is your ground. Um and it it's possible that you could have some kind of a clamp that would go inside the panel. Um but that raises the
+Amber Fu: Mhm.
+Jeff: risk factor quite a bit. Um typically typically home you don't want homeowners in their electrical panel like that. um that they may be able to open the front um and turn a breaker on or turn a breaker
+Amber Fu: Hey
+Jeff: off, but typically you don't want homeowners uh remove it'll have a all these panels, they'll have a a a cover, you know, that swings open.
+Amber Fu: Mhm.
+Jeff: Um and then they'll have another internal cover that the uh circuit
+Amber Fu: Mhm.
+Jeff: breakers uh come through so they can turn a circuit breaker on or off.
+ 
+ 
+01:16:02
+ 
+Jeff: Typically, you don't want homeowners to take that inner panel off and get exposed to that electricity in there. Um, because in in most houses, unless you have a unless they've got unless it's a sub panel, which is not not common, but in your typical normal house, um,
+Amber Fu: Mhm.
+Jeff: there's no way to shut that power off. So when they when you take that inner panel off and you see those the all the cables
+Amber Fu: Mhm.
+Jeff: in there like two big cables those are those are electrically live and you don't want homeowners in there. So, if you're potentially your solution, you're uh you're thinking that it doesn't go around maybe a main conduit feed. Um uh I guess they would call it like a service a service entrance cable is what they would call it. If it doesn't go around the main cable that has three of them in there, but instead maybe it goes around just the hot cable or two of the hot cables inside the
+Amber Fu: Hello.
+Jeff: panel, you don't want homeowners trying to do that. that I mean they're they're especially if you tried to recommend to them that yeah take your panel off um somebody's going to get killed and and you're going to get
+ 
+ 
+01:17:16
+ 
+Amber Fu: Got you. Got you.
+Jeff: sued
+Amber Fu: And also like for moni uh monitoring the uh the gateway plus wire city claim, what the safety standard would you expect an uh an RTL to test against? like uh the U I I think the it's called the UL uh 623 something
+Jeff: Well, the the the gateway it the gateway itself would probably be tested to
+Amber Fu: or
+Jeff: UL62368-1. Um, since you've got the accessory item,
+Amber Fu: uh
+Jeff: the clamp, there may be an additional standard they have to test to. Um, I don't know what that would be right now, but but it's possible. Um, and it would be something along the lines of uh, yeah, I I I don't I don't even want to guess about what other standard it would be.
+Amber Fu: Oh
+Jeff: It may be or may not be. Um, it Well,
+Amber Fu: s***.
+Jeff: and also going back to your can you install it inside the panel? Um, the other problem you run into is okay, how you going to get that wire out of the panel?
+ 
+ 
+01:18:22
+ 
+Amber Fu: Hey
+Jeff: You know, if if the panel's um you know, sitting there sitting there on a wall and and let's say I' I've opened the
+Amber Fu: Mhm.
+Jeff: panel.
+Amber Fu: Yes.
+Jeff: I've removed the inner cover and now all
+Amber Fu: Mhm.
+Jeff: the all the wiring is exposed.
+Amber Fu: Mhm.
+Jeff: I put a clamp around one or both of the main uh hot power cables and that clamp has this wire coming out.
+Amber Fu: Mhm.
+Jeff: Well, how you how you going to do that? Because now you got to put the cover back on the electrical panel um that that has the
+Amber Fu: Mhm.
+Jeff: the cover for the breakers that's got to go back on and then typically the the panel the main panel door. It's got to shut. So, how you going to get that how you going to get that cable that's attached to the clamp out of that box?
+Amber Fu: Mhm.
+Jeff: That that's a problem.
+Amber Fu: Yes. And and also if we later add EV load control, would that move us into more complicated different safety
+ 
+ 
+01:19:32
+ 
+Jeff: I don't think so.
+Amber Fu: standard
+Jeff: Um, well, I mean, if you're doing it software-wise, I don't think that's going to change anything significantly. Um,
+Amber Fu: Mhm.
+Jeff: if if you do have to have another piece of hardware, obviously that that new piece of hardware has got to be certified as well.
+Amber Fu: Mhm.
+Jeff: Um, but again, it would f it would uh follow the same process as your gateway does in that you know it probably if you had another piece of hardware there that that controlled or that a good again could limit the uh current available to an EV charger um you know it would probably be a Wi-Fi product as well or a radio product right I mean it would be an IoT product you know whether it's Wi-Fi or Bluetooth or something like that. Um, so it would probably have a a radio module in it as well. So you again you leverage uh the existing radio module manufacturers FCC certification.
+Amber Fu: Really?
+Jeff: So you don't have to redo the radio testing part and you would just do FCC I'm sorry EMC on the uh uh testing on on the third accessory item assuming that you needed a piece of hardware to do any kind of control.
+ 
+ 
+01:21:03
+ 
+Amber Fu: Yeah.
+Jeff: Um but then you you should still have the NRTL testing done on that third device as well. um especially you know anything connecting to AC mains um to you know uh anything connecting to 120 volt or higher you want to have it NRTL tested so if that third device again it acted as an interface between the EV charger coming here and then connecting to AC power you you want to have that
+Amber Fu: Mhm.
+Jeff: NRTL tested as well again or you know or potentially somebody's going to get hurt killed or you're going to cause a fire and and getting that NRTL certification is going to be one a good way to make sure that you don't do that.
+Amber Fu: Gotcha. Uh but for Okay. And also like for if like for really early like
+Jeff: Um,
+Amber Fu: inside testing we invite let's say like 20 to 40 uh homes uh and for that uh stage do we need to all like uh an RTL FCC stuff like that or is just just maybe only the
+Jeff: Well,
+Amber Fu: FCC.
+ 
+ 
+01:22:33
+ 
+Jeff: you I mean you really should have both. I mean uh you can develop you know prototypes um you know and do testing on those
+Amber Fu: Yeah.
+Jeff: internally. um if you had and you don't need FCC. I mean obviously you can't get FCC or NRTL until you have uh a product and you have to develop
+Amber Fu: Yeah.
+Jeff: prototypes before you can get the product.
+Amber Fu: Uh-huh.
+Jeff: So yeah, you you know internally yeah you can you can you know develop all you want.
+Amber Fu: Yes.
+Jeff: Um, if you're selling it to a customer, like like let's say you're going to do a trial, 20 homes, 40 homes, whatever it is, if you're selling it to them, you're going to have to have at least the FCC certification ahead of time.
+Amber Fu: Yes.
+Jeff: If you're charging any money, you're going to have to have FCC certification. If you had some kind of a written agreement with them that you're not going to charge them any money, they're getting they're they're going to get to evaluate your
+Amber Fu: Hello.
+Jeff: prototypes, evaluate your pre-production units, and uh give you feedback that you can incorporate into your final product.
+ 
+ 
+01:23:56
+ 
+Jeff: Uh, you could probably do that without FCC, but you should have some kind of a written agreement that, you know, you know, let's say you're advertising for 40 households to do this. You should have a written agreement with them saying that,
+Amber Fu: Okay.
+Jeff: you know, you're you're these are not for sale products. They're not FCC certified yet. Um, they're still under development.
+Amber Fu: Um.
+Jeff: You're going to be part of our development team to give us feedback, you know, etc., etc.
+Amber Fu: Oh.
+Jeff: you could probably do that um uh from an FCC perspective. Um but again, you can't can't charge them anything. Um uh as far as NRTL, you know, again, you you probably still should have it ahead of ahead of time. um you know I mean again let's assume that these are pre-production
+Amber Fu: Mhm.
+Jeff: units I mean that's why you're probably why you're having a trial or a study done you know of 20 or 40 people you know potentially the device is not fully uh not fully developed yet you know is it safe you know it doesn't really matter is your you know product going to burn down you know 500 houses or one house it really doesn't matter so I mean even you're doing a limited trial, let's say 20 or 40. Is it going to burn somebody's house down?
+ 
+ 
+01:25:16
+ 
+Jeff: You know, I mean, you know, is their insurance going to allow that? I mean, if uh if their insurance company found out that that the that the homeowner entered into some kind of a agreement to beta test,
+Amber Fu: Mhm.
+Jeff: you know,
+Amber Fu: Uh,
+Jeff: an AC mains connected device that doesn't have any safety testing.
+Amber Fu: I
+Jeff: I I think insurance companies might cancel that insurance. Now, they they probably won't ever find out,
+Amber Fu: mean,
+Jeff: but let's say worst case scenario that uh uh you did this um to 20 houses um and uh one of those houses and the the product caught on fire and burnt one of those houses down. Uh, I can almost guarantee you the insurance company is going to investigate that and when they find out that there was that type of a device, you know, being beta tested, you know, without NRTL certification on the house, insurance company's probably not going to pay. you know,
+Amber Fu: Okay.
+Jeff: they're they're
+Amber Fu: But if that have a RTL, you going to pay, right?
+Jeff: uh No, you're gonna pay because the homeowner is going to come after
+ 
+ 
+01:26:24
+ 
+Amber Fu: I I'm going to pay.
+Jeff: you.
+Amber Fu: Okay.
+Jeff: Now,
+Amber Fu: So
+Jeff: then from from a from a civil lawsuit perspective, um you know,
+Amber Fu: if
+Jeff: OSHA is not going to come after uh uh OSHA's not going to come after anybody because in that scenario, there's no employer. You know, let again, let's say that the homeowner somehow he installs this and the homeowner agrees that
+Amber Fu: I
+Jeff: yes, I'm going to beta test your device and I'm going to install it. OSHA doesn't care. There's no employer. You know, we're not involving electricians. It's not a commercial environment. There's OSHA doesn't care. Um, but if the house did burn down, good chance, uh, the the insurance companies are always looking for a way out. They're looking for a way of we don't want to pay that claim. You know, how can we get out of it? Um, there's probably something in most of people's insurance policies that prohibit um, either beta testing electrical equipment that's connected AC mains or, you know, something like that. So, I guess it's all I'm saying is that if there if there was a fire and even if nobody got hurt and you're thinking, well, you know, you know,
+ 
+ 
+01:27:38
+ 
+Amber Fu: Mhm.
+Jeff: the the gateway caught fire, it caused somebody's house to burn down, but we don't have to worry too much because they probably have insurance. Their insurance company may not pay because they're they're going to investigate what was the cause of the fire. Oh, this gateway product caught on fire. You know, is that gateway product safe? Does it have NRTL? What was it doing there? Oh, we took a untested, you know, you know, a product that wasn't tested for safety and we're beta testing it in our house. You know, I I I suspect the insurance companies would have a a good enough reason to deny that claim. And so then the homeowner stuck without a house. He's not doesn't have an insurance payment. Who's he going to come after? Probably you. Again, if you're in China, not, you know, pretty difficult for American consumer, you know, to to sue somebody in China. But would he try? Probably. Would he get out on social media and make sure that everybody's aware that your company's product burn his house down?
+ 
+ 
+01:28:49
+ 
+Jeff: Yeah, he'd probably do that. So,
+Amber Fu: Got you.
+Jeff: just just something to think about.
+Amber Fu: Got you. Um, but have you ever heard in like another brand like they're really buring the the house or stuff like that? Have you ever heard heard those some product like that to
+Jeff: of untested electrical equipment burning houses down.
+Amber Fu: And what what what the company going to do next after
+Jeff: Yes.
+Amber Fu: that?
+Jeff: Well, it it I mean, it it depends. I mean, you know, I mean, if it if it's a let's say it's something smaller. Let's say it's a power bank. You know,
+Amber Fu: Mhm.
+Jeff: somebody's got a power bank they use to charge their cell phones or whatever. Um, most all those are going to have NRTL certification. Not all of them will because they, again, they don't legally have to. Um, I mean,
+Amber Fu: What?
+Jeff: if it's an American company that's selling that that manufacturing that power bank, um, and somebody's house burned down, I mean, they're that American company is going to get going to get sued, you know, probably lose the the lawsuit if they have any assets.
+ 
+ 
+01:30:03
+ 
+Jeff: They're going to have to pay a judgment and you know that maybe go out of business if they have to pay enough
+Amber Fu: Mhm. Got you. Got you. Got you. And uh and also Okay.
+Jeff: Yeah.
+Amber Fu: Okay. And the last last one is like what are the most common certification mistake that Q kill or seriously delayed hardware startup like us like what did I didn't ask that I should have.
+Jeff: Uh, can you I didn't fully understand that. Can you restate that again? One more time,
+Amber Fu: Okay. So, uh I just want to know like a did I miss anything that I I I
+Jeff: please. No.
+Amber Fu: shouldn't.
+Jeff: Um, you know, the the the big issue with with with at least your initial product here is where is that clamp going to go actually, you know, and two, if it's going to go in the panel, how you going to bring that wire out? Because you can't, you know, you you drill a hole in a panel that that's just making a a route for fire to escape,
+ 
+ 
+01:31:08
+ 
+Amber Fu: Mhm.
+Jeff: you know? I mean, panels are enclosed and they're made of steel. So that excuse me if you have a you have a short in the panel or a breaker that there's no easy way for fire to get out. So when you start drilling a hole in the panel to bring a wire out, you know, that that's going to be a problem. So I guess you just really need to ask yourself how how do you how do you handle that? Exactly where does that clamp go? And if it's internal um uh to the panel, how how do you bring that wire to connect over to the gateway? Those those are the two big problems I see right
+Amber Fu: Gotcha.
+Jeff: now.
+Amber Fu: Gotcha. Okay. Well, okay. So, this is really incredible helpful.
+Jeff: Well, that the couple of things I want to bring up real quick too,
+Amber Fu: Oh, smart
+Jeff: just um one of the other things you need to worry about California Proposition Proposition
+Amber Fu: sir.
+Jeff: 65. Um Proposition 65 it it doesn't restrict certain chemicals um but it requires you to do something if you use certain chemicals.
+ 
+ 
+01:32:20
+ 
+Jeff: There's about a thousand chemicals on that list right now. Um and if you use one of those chemicals in the product or in some cases you use more than an allowed limit. um you got to uh put a warning on their product and that warning would be like a a sticker, you know, that says uh warning. This product has uh contains lead, which is known to the state of California to cause cancer, something like that. So, typically, you're going to want your your product to uh have uh be tested
+Amber Fu: Okay.
+Jeff: for that. the clamp itself. Um, you know, it may be part of lead or it may, you know, just from a from a a mechanical perspective about doing what you want it to do. I suspect it may have lead in there and it may be over the limit or it may have one of the other chemicals that are on the
+Amber Fu: What
+Jeff: list. Um, again, it's not the end of the world if it does. You just have to disclose that to the customers that you know,
+ 
+ 
+01:33:20
+ 
+Amber Fu: do you
+Jeff: hey, we've got a chemical that's on the California Prop Provin 65 list.
+Amber Fu: mean?
+Jeff: Um, how do you know? Um, you do testing for that. Um, and again, you can have testing done for that in China for, you know, probably $400 or $500 US. Um uh the other thing be concerned with too is uh presumably the uh gateway um is going to connect to AC power using a uh AC toDC wall outlet. Correct. You know something like you would charge a cell phone with or a PC or something. Correct.
+Amber Fu: Um, wait. So,
+Jeff: Sure.
+Amber Fu: um, so the, uh, sorry, back to the, uh, California Prop 65.
+Jeff: Sure. Yes.
+Amber Fu: Okay. So,
+Jeff: Yes.
+Amber Fu: I can search online the the list material, right?
+Jeff: Uh you can find it. They you can search for a list of the the chemicals. Um, I think they they have it a downloadable file in three or four different formats. I think you can download a CSV file or an Excel file, but yes, it's publicly available.
+ 
+ 
+01:34:39
+ 
+Amber Fu: Oh,
+Jeff: Um, and again, there there's a there's about a thousand line items
+Amber Fu: okay.
+Jeff: in an Excel file.
+Amber Fu: Okay.
+Jeff: lead,
+Amber Fu: And
+Jeff: lead, um all the heavy metals are concerned. uh lead, um chromium, um hexanient chromium, you know, the the the heavy metals are a big concern, but there's phylates um are another big concern which are used in some
+Amber Fu: Mhm.
+Jeff: plastics um as a as a softener. So, it's not just the metal aspect and you need to make sure that that that the clamp I think I would suspect the clamp you may have chemicals in there that are on the list. And again, if if you do, it's not the end of the world. You just have to disclose it to the
+Amber Fu: Gotcha. Gotcha.
+Jeff: customer.
+Amber Fu: Okay. Thank you. And and what what else need to like I need to be careful
+Jeff: Uh the the power supply um for for the gateway. Um,
+Amber Fu: is
+Jeff: the gateway probably has an external power supply. Uh, just like a laptop PC would.
+ 
+ 
+01:36:00
+ 
+Jeff: Um, or a cell phone would. You know, cell phones use, you know, if you've got a cell phone with a USB connector to it, it's going to connect to an external power supply.
+Amber Fu: There you
+Jeff: And that the external power supply is what plugs into the actual AC power.
+Amber Fu: go.
+Jeff: Um, you want to make sure if you pick when you when you're sourcing that power supply, um, make sure you source one that already has its own NRTL certification. Um,
+Amber Fu: Mhm.
+Jeff: you don't want to pay to get the power supply NRTL certified. Um, there's there's plenty and plenty and plenty of power supplies out there that already have the safety certification. Uh, just make sure and pick one that already has it. Again, you don't want to pay for that. you're going to have to pay for your own product because you're the manufacturer. But for power supplies, there's, you know, there's thousands that are out on the market that you can pick from. Um, so make sure it has NRTL certification. Um, you also want to ask them for a a California Proposition 65 statement on the power supply, whoever the manufacturer is.
+ 
+ 
+01:37:07
+ 
+Jeff: Um, you want to ask them for their FCC, SDOC. you know,
+Amber Fu: Mhm.
+Jeff: you want you want to make sure the power supply has everything it needs so that you're getting a turnkey solution. Um, so you need to ask them, where's the FCC, SDOC, where's your California Property 65 statement? Um, does it have NRTL certification? Can you prove it? Um, and oh, the other thing you want to look for is it needs to have a uh uh US Department of Energy level six symbol on that and that stands for how uh power efficient the power supply is. Um, power supplies have to be at least level six to be sold in the United States. Um,
+Amber Fu: Yes.
+Jeff: and they have to have a a symbol on the power supply that'll have uh have it in Roman numerals. It'll have the Roman numeral six, which is a a V and a, you know, single character kind of like kind of like that.
+Amber Fu: Gotcha. Gotcha. Okay. Well,
+Jeff: And I think I think that's
+Amber Fu: thank you so much Thank you so much.
+ 
+ 
+01:38:07
+ 
+Jeff: it.
+Amber Fu: Well, this is like what today is be incredible helpful because we it's a lot
+Jeff: Sure. Sure.
+Amber Fu: of information for us right now.
+Jeff: Okay.
+Amber Fu: We have a lot of need to you know update and to to to to learn. So but honestly like you term what feel like you know we something that we are totally like don't know and you you help us to like a little bit clearly to know like oh what's the next step what do we need to do so thank you so much and and also um so I also love to talk about
+Jeff: Okay.
+Amber Fu: like uh if you'd open it you can you know advising us or being like uh cuz we still have a lot of question after it. Even like you know when we try to build the hard wheel we still maybe need a consultant like you to help us to know like oh is this right or it's wrong. So if you'd open it uh we we really like to you know work on together our
+ 
+ 
+01:39:20
+ 
+Jeff: Yeah, just reach back out to me.
+Amber Fu: future.
+Jeff: I I'm I'm available. So, if you have any other additional questions or any any additional work as well.
+Amber Fu: Sure. Sure. Sure. And and really appreciate I really appreciate. Please keep in touch and after this meeting uh we we are yeah we still need some time to you know figure out the a lot of a policy and you know to find out some like agency or oh and also uh if you could email me the FCC covered list or or maybe like a website link we can uh we can uh look up a little bit will be
+Jeff: Um, I'll do it.
+Amber Fu: Perfect.
+Jeff: I don't have Well, is the the meeting invite Does that have your your email address in there?
+Amber Fu: Uh yes,
+Jeff: Is a Gmail address?
+Amber Fu: the Gmail. Uh do you have it?
+Jeff: Yeah, I I can I can look it back up if if that was yours.
+Amber Fu: Okay.
+Jeff: Let me uh give me one second here.
+ 
+ 
+01:40:53
+ 
+Jeff: Uh what I there's only one in the meeting invite j15968627562@gmail.com
+Amber Fu: Uh or you can uh let me
+Jeff: Um,
+Amber Fu: send you an another email. Uh give me a second.
+Jeff: yeah, I think I think I gave you my email,
+Amber Fu: Oh, okay.
+Jeff: so Okay.
+Amber Fu: Yeah. Then I will send you
+Jeff: Yeah,
+Amber Fu: email.
+Jeff: I I'll look up the uh uh cover list affirmation um and send it to you. Um it's pretty late my time. I mean, it's actually real late, but I'll uh I'll uh I think I think it'll take me just a minute or two,
+Amber Fu: Yes.
+Jeff: so I'll try to find it tonight and go ahead and send it to
+Amber Fu: Or like another day is fine.
+Jeff: you.
+Amber Fu: Please don't no rush. Yeah.
+Jeff: Okay. Well, in that case,
+Amber Fu: Um,
+Jeff: I'll probably let me do it tomorrow,
+Amber Fu: okay.
+Jeff: but I'll I'll get it done in the morning.
+Amber Fu: Definitely. Okay. Thank you so much and please definitely keep in touch.
+Jeff: Okay, sounds good. I appreciate it.
+Amber Fu: Thank you, Jeffrey. Thank you. Have a good night.
+Jeff: Okay, take care. Bye.
+Amber Fu: And bye.
+ 
+ 
+Transcription ended after 01:42:33
+
+This editable transcript was computer generated and might contain errors. People can also change the text after it was created.
+

@@ -1,0 +1,1320 @@
+00:00:00
+ 
+Amber Fu: Oh, hello.
+Marc Jaffe: Uh oh.
+Amber Fu: Hi. How are you?
+Marc Jaffe: Just fine.
+Amber Fu: Uh, sorry I'm late like three, four minute.
+Marc Jaffe: Not a
+Amber Fu: Okay.
+Marc Jaffe: problem.
+Amber Fu: Uh, just give me a second. Uh, so hi. How's how's your go day going so
+Marc Jaffe: Uh just fine,
+Amber Fu: far?
+Marc Jaffe: thank you. It's been sunny and hot today.
+Amber Fu: Oh, yeah. Okay. Well, um, nice. So, thanks again for, you know, making time for this. I know everyone's busy, especially, you know, before Christmas. So, uh, no pressure at all. Like, this is a super casual conversation. Uh let me introduce myself a little bit. Uh my name is Amber and I'm the one of the founder and I started this because you know I couldn't figure out um my my own electricity bill were so crazy and I realized you know my lot of my friends are dealing with the same same thing. So we basically is a small team based in LA and just you know bunch of attack folks who also get hit with a crazy electricity bill.
+ 
+ 
+00:01:34
+ 
+Amber Fu: So we try to building an app that helps people save money on their daily energy use uh without changing their lifestyle. So, you know, I love to understand how your home use electricity dayto days so we can figure out uh what would actually help. Mhm. And well,
+Marc Jaffe: Okay.
+Amber Fu: before we got start, uh would you be okay if I record this call? It just help me make sure I don't miss anything you said. It's totally option.
+Marc Jaffe: I'm fine with it.
+Amber Fu: Okay, thank you. And uh give me a second. Okay, perfect. Perfect. And well, let's start. So, uh before I uh we jump into the you know energy stuff, I love to get quick sense of your household or just understand your setup bit better. Yes. So, um how how many people uh live your h uh live in your home
+Marc Jaffe: Okay. So,
+Amber Fu: right now?
+Marc Jaffe: I live in a two-story house about 3200 square feet with a
+ 
+ 
+00:02:51
+ 
+Amber Fu: Mhm. Mhm.
+Marc Jaffe: garage. Um,
+Amber Fu: Mhm.
+Marc Jaffe: we are a family of four, although my both of my children are off at college.
+Amber Fu: Mhm.
+Marc Jaffe: And so, uh, right now there's just the two of us. We are empty nesters. But for the past 20 years,
+Amber Fu: Okay.
+Marc Jaffe: we had four people in the house. Now we're down to two, at least for now. Who knows what'll happen after they graduate. So, um, that's our current setup. This house has both natural gas and,
+Amber Fu: Mhm.
+Marc Jaffe: uh, electric power. And we have utilities, uh, appliances in the house that work on both.
+Amber Fu: Yeah.
+Marc Jaffe: And,
+Amber Fu: Mhm.
+Marc Jaffe: um, our provider here is San Diego Gas and Electric that provides both services.
+Amber Fu: Uhhuh.
+Marc Jaffe: They are a um um they are a commercial utility regulated here in the state of California by the California Public Utilities
+Amber Fu: Mhm.
+Marc Jaffe: Commission. And to make things more complicated,
+ 
+ 
+00:03:50
+ 
+Amber Fu: Mhm.
+Marc Jaffe: uh there's also a consortium that helps run that the state legislated into existence called San Diego Community Power. So,
+Amber Fu: Mhm.
+Marc Jaffe: our our service is actually coming from San Diego Gas and Electric uh through San Diego Community Power to our house. Our bill has both of their logos on it.
+Amber Fu: Mhm.
+Marc Jaffe: My bill is 12 pages long.
+Amber Fu: Mhm.
+Marc Jaffe: And um I'm on a few different I don't know if you you know if this is important,
+Amber Fu: Okay.
+Marc Jaffe: but I'm on a few different uh programs with my utility.
+Amber Fu: Mhm. Mhm.
+Marc Jaffe: I have two electric vehicles and so I'm what's on called their
+Amber Fu: Mhm.
+Marc Jaffe: electric vehicle plan which has numerous uh iterations over the years. It's now I think on um the EV5 plan.
+Amber Fu: Mhm.
+Marc Jaffe: I also have so rooftop solar on the house that I installed about three years ago and
+Amber Fu: Mhm.
+Marc Jaffe: so I'm on their solar plan. So, I I I I um send power back to the grid when it like on a day like today, I generated much more power than I used.
+ 
+ 
+00:05:02
+ 
+Amber Fu: Mhm. Mhm.
+Marc Jaffe: And I have apps that I can monitor that I could show you of my the power generation that I'm doing on
+Amber Fu: Mhm.
+Marc Jaffe: my roof. Utility bills are very low because I'm generating often uh more power than
+Amber Fu: Mhm.
+Marc Jaffe: I'm actually consuming even with two electric vehicles. So, my energy bill last month was negative $37.
+Amber Fu: Oh,
+Marc Jaffe: Isn't that crazy?
+Amber Fu: that's good.
+Marc Jaffe: Two cars I'm I'm powering off of.
+Amber Fu: Yeah.
+Marc Jaffe: That's a whole household.
+Amber Fu: Yeah.
+Marc Jaffe: And then California enacted a new law that was effective I think in July. No, now I'm thinking October.
+Amber Fu: Uh-huh.
+Marc Jaffe: It was effective in October. So just the past two months where they've begun charging a flat fee to households, all service households of $24 and then in
+Amber Fu: Oh, I never heard that.
+Marc Jaffe: in started October 1st.
+Amber Fu: It's Is it new?
+Marc Jaffe: So and so um all all subscribers now have this flat
+Amber Fu: Okay.
+ 
+ 
+00:06:04
+ 
+Marc Jaffe: fee of $24 for the price of transmission. And then in in in relation to that, our actual rate rates went down a certain amount to
+Amber Fu: Mhm.
+Marc Jaffe: compensate for that. So it's complicated. And then to make things even more complicated,
+Amber Fu: Mhm.
+Marc Jaffe: uh the um California Public Utilities has been going back and forth on um the rates that solar households get paid for sending energy back to the grid.
+Amber Fu: Oh, yeah. Yeah,
+Marc Jaffe: And um it was a big issue.
+Amber Fu: that was I heard of. Yeah.
+Marc Jaffe: And the and the ultimate compromise was that people who already had
+Amber Fu: Mhm.
+Marc Jaffe: existing solar power on their house, rooftop solar power were grandfathered in for 20 years.
+Amber Fu: Mhm. Mhm.
+Marc Jaffe: So I'm I'm unlike solar power something something too even though anyone who's
+Amber Fu: Mhm.
+Marc Jaffe: had who's put in solar power over the last few years is on their solar power three program which isn't isn't as advantageous.
+Amber Fu: Mhm.
+Marc Jaffe: So, it's a complicated network and it's um confusing even for, you know, I'm kind of tuned into some of this stuff and even I can't make heads or tails of it.
+ 
+ 
+00:07:23
+ 
+Marc Jaffe: And of course, my 12-page bill is outrageous and I I can't make heads or tails out of it
+Amber Fu: Got it. Got it.
+Marc Jaffe: either.
+Amber Fu: And uh so you got the uh solar and the EV.
+Marc Jaffe: Correct. I'm under both programs. Yeah.
+Amber Fu: Okay.
+Marc Jaffe: which is which is automatically uh uh automatically when you get solar you you you go you you you become a timeofuse household so the solar program is a
+Amber Fu: Mhm.
+Marc Jaffe: timeofuse program and soul is the EV program it is a
+Amber Fu: Mhm.
+Marc Jaffe: timeofuse program so for example when I charge my two
+Amber Fu: Mhm.
+Marc Jaffe: EVs uh I charge at midnight midnight to 6:00 am is the um super off peak hours. So, my charger doesn't click on till midnight. Uh I get the lowest rate uh by doing. Of course, it makes a huge
+Amber Fu: Mhm. Got it. Got it.
+Marc Jaffe: difference.
+Amber Fu: Well, well, since like when you open your bill like 12 12 page, which part is the most confusing like the delivery charge or generary
+ 
+ 
+00:08:27
+ 
+Marc Jaffe: The most confusing part is the the literally is is the
+Amber Fu: charge?
+Marc Jaffe: separate power transmission from power usage.
+Amber Fu: Uhhuh. Mhm.
+Marc Jaffe: So it's just it doesn't you know how do I know what power I'm using and you know what I mean that it's just hard to
+Amber Fu: Mhm.
+Marc Jaffe: understand all of that. It's hard to understand my credits that I get for solar power and how that offsets the
+Amber Fu: Mhm.
+Marc Jaffe: charges that I have on power. Uh to make things more complicated.
+Amber Fu: Mhm.
+Marc Jaffe: Um um gosh I wish I could share can I share something with you?
+Amber Fu: Sure. Sure.
+Marc Jaffe: I think I wanted to um Yeah,
+Amber Fu: Definitely.
+Marc Jaffe: I can share this with you. Um where's the share
+Amber Fu: Okay.
+Marc Jaffe: screen
+Amber Fu: I try to figure out because
+Marc Jaffe: window? Here we go. Hold on.
+Amber Fu: okay.
+Marc Jaffe: I'm going to Yeah, I'm going to share this screen with you. See if this works.
+ 
+ 
+00:09:28
+ 
+Amber Fu: Oh yeah.
+Marc Jaffe: Okay.
+Amber Fu: Perfect.
+Marc Jaffe: Do you see it?
+Amber Fu: Yes.
+Marc Jaffe: Okay. So,
+Amber Fu: Yes.
+Marc Jaffe: this is my email. And if you'll notice, so it said that I'm actually in negative territory for the month of November,
+Amber Fu: Mhm.
+Marc Jaffe: but then I have this NEM true uh net energy metering true up. So, you know, in theory,
+Amber Fu: Mhm.
+Marc Jaffe: it says I don't even have to pay electricity until my trueup period,
+Amber Fu: Yeah.
+Marc Jaffe: which is once a year. So, again, it's all so horrendously um confusing.
+Amber Fu: Mhm.
+Marc Jaffe: It's just really, really difficult to just grasp it all. And I understand there's a lot of complications. Um, but it's just for me to understand where I am.
+Amber Fu: Mhm.
+Marc Jaffe: In other words, could I do better if I add another solar panel to my house? I have no idea.
+Amber Fu: Yeah.
+Marc Jaffe: You know, things like
+Amber Fu: Yeah. Yeah. Got it.
+ 
+ 
+00:10:17
+ 
+Amber Fu: Got it.
+Marc Jaffe: that.
+Amber Fu: But uh do you like uh I know like the California they have like the NEM the new NEM3 the policy.
+Marc Jaffe: Yes. NM3.
+Amber Fu: Yeah.
+Marc Jaffe: Right. So,
+Amber Fu: Yeah.
+Marc Jaffe: I'm under NM2 and I'm grandfathered in for 20 years.
+Amber Fu: Okay. Okay.
+Marc Jaffe: because I because I purchased my system prior to the the enactment of
+Amber Fu: Mhm.
+Marc Jaffe: NEM3, but I was aware that NM3 was coming.
+Amber Fu: Yes. Yes.
+Marc Jaffe: Uh so that's why I rushed to get solar in because I knew it'd be more advantageous in the long run for
+Amber Fu: Yeah.
+Marc Jaffe: me to do so.
+Amber Fu: Mhm.
+Marc Jaffe: And now there's a big fight in California to even those who are grandfathered in,
+Amber Fu: But
+Marc Jaffe: if you sell your house, you lose that grandfathering. So that's a current fight going on.
+Amber Fu: yeah. Yeah. And well, do you ever ever worry the policy change like an EM like you know may reduce the value of your solar system over
+ 
+ 
+00:11:10
+ 
+Marc Jaffe: Uh the answer not really reduce the value of the solar.
+Amber Fu: time?
+Marc Jaffe: I don't know how much solar adds to the value of the house.
+Amber Fu: Okay. Okay.
+Marc Jaffe: So I would you know is it does it add a lot? It probably adds some. How much? You know does it add more than it would cost to for put it in?
+Amber Fu: Mhm.
+Marc Jaffe: It wasn't overly expensive to put in in comparison to the value of
+Amber Fu: Mhm.
+Marc Jaffe: houses here in Southern California. It's kind of a drop in the bucket.
+Amber Fu: Mhm.
+Marc Jaffe: You know, $20,000,
+Amber Fu: Mhm.
+Marc Jaffe: $30,000 to put it in a system. That's irrelevant to the price of what homes cost here, unfortunately,
+Amber Fu: Mhm.
+Marc Jaffe: here in Southern California.
+Amber Fu: Mhm. Got it. Got it. And but would this uh would be a simple breakdown like oh your solar explode like a certain amount and you earn like certain money help you feel like more in control.
+ 
+ 
+00:12:04
+ 
+Marc Jaffe: Yeah, I'd like to see a graph, you know, that kind of says here's the charges,
+Amber Fu: Okay.
+Marc Jaffe: here's, you know, what you're generating, here's the differential, and how that impacts directly on my bill. That would be really nice.
+Amber Fu: Mhm.
+Marc Jaffe: I think they try to do that, but it's hard. You know,
+Amber Fu: Mhm.
+Marc Jaffe: I I see it says I have credits.
+Amber Fu: Mhm.
+Marc Jaffe: It just doesn't it it's just not clear, you know? I mean, I'm I mean,
+Amber Fu: Okay.
+Marc Jaffe: again, I'm a little more tuned in, I think, than most people, uh, on this subject,
+Amber Fu: Mhm.
+Marc Jaffe: yet I still can't make heads or tails out of it. That's that's the that's the that's the sad
+Amber Fu: Mhm. Got it. Got it.
+Marc Jaffe: part.
+Amber Fu: Yeah. True. True. Well, but um so and you mentioned that you have a two two EV,
+Marc Jaffe: I have two EV vehicles.
+Amber Fu: right?
+Marc Jaffe: That was a recent occurrence that we got we got our second EV got rid of our last gasoline car
+ 
+ 
+00:12:49
+ 
+Amber Fu: Okay. Mhm.
+Marc Jaffe: and went to a full EV household about two months ago.
+Amber Fu: And it's all uh below from the Tesla brand or the same brand or
+Marc Jaffe: Yeah, that that that bill was included.
+Amber Fu: Okay.
+Marc Jaffe: Well, yeah, that bill included the new EV, so I think we're in good shape,
+Amber Fu: Okay. Okay. And and oh,
+Marc Jaffe: you know.
+Amber Fu: by the way, is a solar also from Tesla or is another
+Marc Jaffe: No, it is not.
+Amber Fu: brand?
+Marc Jaffe: And my EVs are not Tesla. I h I had a Tesla but I sold it.
+Amber Fu: Oh. Oh,
+Marc Jaffe: Uh so um we have two other EVs and our I originally
+Amber Fu: okay.
+Marc Jaffe: went to Tesla to put my solar system in but they couldn't do it
+Amber Fu: Mhm.
+Marc Jaffe: because uh they had the uh they said we needed a new roof and they don't do roofs.
+Amber Fu: Mhm.
+Marc Jaffe: So, I found a vendor who could replace my roof and put a solar system in under one
+ 
+ 
+00:13:39
+ 
+Amber Fu: Okay.
+Marc Jaffe: contract, which is what I wanted to do. Why? I'll tell you.
+Amber Fu: Mhm.
+Marc Jaffe: I'd be happy to tell you. Because at the time, you got a federal credit for putting in solar,
+Amber Fu: Oh.
+Marc Jaffe: 26% of the cost of the project.
+Amber Fu: Oh,
+Marc Jaffe: And so, I rolled in the cost of the solar with my replacement of the roof,
+Amber Fu: okay.
+Marc Jaffe: because the replacement of the roof was double the price of putting in solar.
+Amber Fu: Uh-huh.
+Marc Jaffe: rolled in together into one one project and I I got to write off 26% of the entire project, not just solar.
+Amber Fu: Um,
+Marc Jaffe: It was worked out pretty well.
+Amber Fu: okay.
+Marc Jaffe: And then I have financed just the solar portion of that for uh 10 years
+Amber Fu: Mhm.
+Marc Jaffe: uh financed on on a very very low interest
+Amber Fu: Okay. Okay. Got it.
+Marc Jaffe: rate.
+Amber Fu: Got it. And but for the like the with the two EV like how do you usually decide like which car charge first
+ 
+ 
+00:14:34
+ 
+Marc Jaffe: Well, so, uh,
+Amber Fu: or
+Marc Jaffe: the bottom line is, uh, we don't need to charge every night. So, we only, you know, I charge maybe twice a week,
+Amber Fu: Okay.
+Marc Jaffe: maybe. Uh, the other car we charge once or twice a week, maybe.
+Amber Fu: Okay.
+Marc Jaffe: So, it we just, uh, we didn't have to get two chargers. We just, we just, uh, stagger the charging. And even then, that charger probably doesn't even go off three days a week at all. three or four days a week. The charger doesn't have to be used at all because we're getting enough range with the vehicles uh that it it's just it's not an
+Amber Fu: Mhm.
+Marc Jaffe: issue
+Amber Fu: And uh do you got this uh the like normal meter or smart meter?
+Marc Jaffe: on our house.
+Amber Fu: Do you have a smart Uh-huh.
+Marc Jaffe: It's a smart meter,
+Amber Fu: Oh,
+Marc Jaffe: so they're able to read it electronically.
+Amber Fu: okay. Mhm.
+Marc Jaffe: And it there's no question.
+ 
+ 
+00:15:20
+ 
+Amber Fu: and
+Marc Jaffe: And you need a smart meter to either do EV or solar because they need to
+Amber Fu: Mhm.
+Marc Jaffe: know if the power is going in and out. And they need to know all these the time of use mandates.
+Amber Fu: Mhm.
+Marc Jaffe: Uh a smart
+Amber Fu: Mhm. Got it.
+Marc Jaffe: meter.
+Amber Fu: Got it. And but um but how many app you you have it right now for energy, right?
+Marc Jaffe: How many what?
+Amber Fu: Uh how many app you're using like for the home energy?
+Marc Jaffe: How many amps?
+Amber Fu: Yeah, like Tesla and Solar
+Marc Jaffe: Okay. So, my my my charger is a 40 amp.
+Amber Fu: app.
+Marc Jaffe: Uh I'm using a 40 amp circuit to power my level two charger in the
+Amber Fu: Okay.
+Marc Jaffe: house. So, I'm pulling 40 amps. Well,
+Amber Fu: Okay.
+Marc Jaffe: I'm pulling like 35 about 35 to 38 amps when I'm charging my cars at night.
+Amber Fu: Mhm. Mhm.
+Marc Jaffe: What what my amperage pull is during the day normally for the whole household here, I don't know.
+ 
+ 
+00:16:17
+ 
+Marc Jaffe: I mean, I've I've initiated uh um you know,
+Amber Fu: Mhm.
+Marc Jaffe: a lot of power saving things in the house. All the appliances are power saving because I'm time of use. I you know, my dishwasher, I'll fill it and press on, but it it doesn't automatically turn on till after 9:00 p.m. because that's when I get a lower rate.
+Amber Fu: Mhm.
+Marc Jaffe: And then my car my EV chargers don't go on till midnight. And so I'm I'm I'm cognizant of that.
+Amber Fu: Mhm.
+Marc Jaffe: Of course, every, you know, light bulb in my house is is LED and I'm very cognizant about energy saving practices in the house.
+Amber Fu: Mhm.
+Marc Jaffe: And then when we bought the house, we put in all the all the um energy saving things like, you know, dual pane low windows and all the things.
+Amber Fu: Got it.
+Marc Jaffe: So, I'm very kind of tuned in. Oh,
+Amber Fu: Got it.
+Marc Jaffe: and we got a like a like a tankless water heater makes a huge difference.
+Amber Fu: Okay.
+ 
+ 
+00:17:10
+ 
+Amber Fu: Okay.
+Marc Jaffe: And we because I'm here in Southern California and I'm coastal, I don't we we um I have a compressor that someone gave me for home air conditioning and I I never installed it. I don't need it.
+Amber Fu: Okay.
+Marc Jaffe: I don't need it. So, I just have a furnace,
+Amber Fu: Okay.
+Marc Jaffe: but I don't have a uh I don't have AC.
+Amber Fu: Oh, okay. Okay.
+Marc Jaffe: I only use it a couple times a
+Amber Fu: Got it. Mhm.
+Marc Jaffe: year.
+Amber Fu: Got it. And well, uh, you do have a power wall, right?
+Marc Jaffe: Oh, what?
+Amber Fu: A power wall.
+Marc Jaffe: No, I looked into that. Getting a power wall.
+Amber Fu: Mhm.
+Marc Jaffe: It does not pay.
+Amber Fu: Mhm. Okay.
+Marc Jaffe: It wasn't even It wasn't even close.
+Amber Fu: Cuz
+Marc Jaffe: They're offering subsidies for a power wall.
+Amber Fu: Uh-huh.
+Marc Jaffe: And so I called them and I looked into what it would cost with the subsidy and it still didn't pay.
+ 
+ 
+00:17:57
+ 
+Marc Jaffe: So,
+Amber Fu: Oh.
+Marc Jaffe: what I realized is that a power wall would be cool if I want to like go
+Amber Fu: Mhm.
+Marc Jaffe: off-rid or, you know, manage my power that way,
+Amber Fu: Mhm.
+Marc Jaffe: but the cost of putting it in being that right now my you I mean,
+Amber Fu: Mhm.
+Marc Jaffe: you saw my latest bill. So, I really want to spend $10,000 to put in a power wall when my when my current electric bill is so
+Amber Fu: Mhm.
+Marc Jaffe: low. It just didn't make financial state sense.
+Amber Fu: Yeah. Yeah.
+Marc Jaffe: So, I skipped on that idea.
+Amber Fu: Exactly.
+Marc Jaffe: But I would have loved to do it, but it doesn't
+Amber Fu: Exactly. Yeah. Yeah. Yeah. Exactly. Exactly. Well,
+Marc Jaffe: pay.
+Amber Fu: uh so I well I I talked to a lot of my friend they uh but basically they are living in LA. So you know uh like uh LA we're using like the uh Addison or like the LA city some electricity company.
+ 
+ 
+00:18:45
+ 
+Marc Jaffe: It's Department of Water and Power. DWP.
+Amber Fu: Oh yeah yeah yes yeah.
+Marc Jaffe: That's the city of Los Angeles. The city has municipal power.
+Amber Fu: Oh yes yes something like that.
+Marc Jaffe: Tormund water and power. Yes. Huge agency in Los
+Amber Fu: Yeah yes yes. But we I I never see anyone have like a 12page bill.
+Marc Jaffe: Angeles.
+Amber Fu: So I just try to figure out like like uh like this is like what San Diego company doing.
+Marc Jaffe: Yeah. So, this is a really good point. So, Los Angeles has a municipal power provider.
+Amber Fu: Uh
+Marc Jaffe: I do not believe,
+Amber Fu: Mhm.
+Marc Jaffe: you know, they're regulated very differently than a commercial power provider.
+Amber Fu: Mhm.
+Marc Jaffe: So, San Diego Gas and Electra electric that is owned by a company called Serra
+Amber Fu: Mhm. Mhm.
+Marc Jaffe: Energy.
+Amber Fu: Mhm.
+Marc Jaffe: Serra Energy is a uh uh you know top 500 firm in the country. They're huge and they're regulated very differently as a private entity through
+ 
+ 
+00:19:39
+ 
+Amber Fu: Okay. Mhm.
+Marc Jaffe: the California Public Util Utilities Commission than a municipal utility does.
+Amber Fu: Mhm. Mhm.
+Marc Jaffe: There has been a movement here in San Diego to convert our utilities to
+Amber Fu: Mhm.
+Marc Jaffe: a municipal there's been an effort there's a ballot initiative I
+Amber Fu: Mhm.
+Marc Jaffe: think coming up I think there was one I think it may have failed to convert San Diego to a public owned municipal utility my take is that that would not be a good idea why because I don't think department of water
+Amber Fu: Mhm.
+Marc Jaffe: empower I'm going to give Give you a better example.
+Amber Fu: Okay.
+Marc Jaffe: I'm going to give you a better example.
+Amber Fu: Okay.
+Marc Jaffe: I own a second home. It's up in Eugene,
+Amber Fu: Uh-huh.
+Marc Jaffe: Oregon.
+Amber Fu: Uh-huh.
+Marc Jaffe: The utility up there is a municipal utility.
+Amber Fu: Okay.
+Marc Jaffe: They don't have any of the programs for solar,
+Amber Fu: Uh-huh.
+Marc Jaffe: uh, EV, any of those up in Oregon.
+Amber Fu: Mhm.
+Marc Jaffe: Now the rates are a lot lower, but they don't have all these programs to save money for people who have put investments in their
+ 
+ 
+00:20:48
+ 
+Amber Fu: Okay.
+Marc Jaffe: home,
+Amber Fu: Mhm.
+Marc Jaffe: to get an EV charger, to put solar on their home.
+Amber Fu: Mhm.
+Marc Jaffe: Um, but here in San Diego, all these options are available and I save a lot of money by using them.
+Amber Fu: Mhm.
+Marc Jaffe: Uh my concern is is that if if we're run by a municipal utility,
+Amber Fu: Mhm.
+Marc Jaffe: you'd have the situation of Department of Water and Power in Los Angeles or the uh what's it called?
+Amber Fu: Mhm.
+Marc Jaffe: The Eugene Water Board, Water and Energy Board, EWEB up in Oregon, Eugene, Oregon, where none of those programs are available.
+Amber Fu: Mhm.
+Marc Jaffe: So I think I am better off with a private utility provider versus a public one. But that doesn't go across the board,
+Amber Fu: Mhm.
+Marc Jaffe: but it certainly does for me where I've put a certain amount of investment to save.
+Amber Fu: Got it. Got it. But well, if you could like, you know, simplify your bill into like a one clean page,
+Marc Jaffe: Yeah,
+Amber Fu: what would you want to see first?
+ 
+ 
+00:21:50
+ 
+Marc Jaffe: I would like to, you know, I I'd like to know, you know, you know, if they have to have a separation of distribution and power use,
+Amber Fu: Mhm.
+Marc Jaffe: make it easy to read,
+Amber Fu: Mhm.
+Marc Jaffe: make my power use easy to read, and then do it as a big chart with my offset on solar so I like have a
+Amber Fu: Mhm.
+Marc Jaffe: really good idea what I'm using,
+Amber Fu: Mhm.
+Marc Jaffe: what I'm putting back into the system,
+Amber Fu: Mhm.
+Marc Jaffe: and more importantly, the one I can't figure out at all is how do my credits for putting power back into the
+Amber Fu: Mhm.
+Marc Jaffe: system? How does that work? How, you know, because I can't make heads or tails out of it, but I'd like to know
+Amber Fu: Got it. Got it.
+Marc Jaffe: that.
+Amber Fu: But do you ever uh try to predict your yearly uh true up or does it always feel like
+Marc Jaffe: That's a really good question.
+Amber Fu: surprise?
+Marc Jaffe: And the answer is I don't want to be this.
+ 
+ 
+00:22:43
+ 
+Marc Jaffe: I don't want a big surprise at the end of the year.
+Amber Fu: Okay.
+Marc Jaffe: So when they send me my bill um like like this next bill I have it here.
+Amber Fu: Mhm.
+Marc Jaffe: I think I owed like 30 bucks.
+Amber Fu: Okay. Okay.
+Marc Jaffe: So for power I didn't have to pay that 30 bucks but I did.
+Amber Fu: Mhm.
+Marc Jaffe: So just keep it.
+Amber Fu: Mhm.
+Marc Jaffe: So at the end of the year I'm I'm it's pretty much zero out. There's no surprise.
+Amber Fu: Mhm.
+Marc Jaffe: If they do tell me that, I get an email about
+Amber Fu: Okay. Okay. Got it.
+Marc Jaffe: it.
+Amber Fu: But do you trust like there a turn up like calculation or do you feel like something is off off
+Marc Jaffe: I don't know. It's a good question because like the first year I had solar,
+Amber Fu: sometime
+Marc Jaffe: the I got a check in the mail, right? I said, "Well, you created so many credits. Here's $250." I'm like,
+ 
+ 
+00:23:28
+ 
+Marc Jaffe: "Fantastic." And then I haven't seen a check like that since. So, what happened? So, I don't know. But, you know,
+Amber Fu: Okay.
+Marc Jaffe: it just I don't know about the consistency of how it might work. Again,
+Amber Fu: Okay.
+Marc Jaffe: I just a 12-page bill is outrageously ridiculous. It just needs to be simpler than that.
+Amber Fu: Yes.
+Marc Jaffe: You know, I'd also like to be able to log on and see my actual usage from the utility company.
+Amber Fu: Yeah.
+Marc Jaffe: I can see the actual power I'm generating for my roof.
+Amber Fu: Mhm.
+Marc Jaffe: You can do the same with my actually power usage. I can put the two charts together, for example, and watch it in real time as I'm using and generating.
+Amber Fu: Mhm.
+Marc Jaffe: That'd be kind of fun.
+Amber Fu: Yes. Yes. And like when your bill is like ve very low or negative, do you still want wondering like why end up at that number or you you don't want to
+Marc Jaffe: Well, okay.
+ 
+ 
+00:24:15
+ 
+Marc Jaffe: So,
+Amber Fu: know?
+Marc Jaffe: now it gets even more complicated, right? So, I showed you that bill. Well,
+Amber Fu: Uh
+Marc Jaffe: why was I at negative? Well, part of that was I got a credit that went across statewide to everybody uh that
+Amber Fu: yeah. Mhm.
+Marc Jaffe: was paid for by large companies that produce power or that are
+Amber Fu: Mhm.
+Marc Jaffe: large polluting companies like the oil refineries pay
+Amber Fu: Mhm.
+Marc Jaffe: for uh exchange credits um to the state of California and the state
+Amber Fu: Mhm.
+Marc Jaffe: of California takes those credits and gives them back to the consumers. So, there was some credit in there somewhere. you know how that happens,
+Amber Fu: Mhm.
+Marc Jaffe: where it happens, that's even more complicated. But it it makes my bill more complicated.
+Amber Fu: Yes.
+Marc Jaffe: You know, why did I get this credit? What's it for? I have no idea. All I know is it's there. I got 30 bucks credit this
+ 
+ 
+00:25:03
+ 
+Amber Fu: Yeah, exactly.
+Marc Jaffe: month.
+Amber Fu: Uh and well like when you like when you try to understand your credit like what's part feel like most broken?
+Marc Jaffe: It's just not, you know, I I can understand the credit, right? once a year or twice a year you're gonna get x amount of credit for this.
+Amber Fu: Uh-huh.
+Marc Jaffe: So that I get but how does it so that's okay I can understand I but I
+Amber Fu: Mhm. And
+Marc Jaffe: really want that delineated I think it comes delineated separate on the bill but you know that's that but
+Amber Fu: then
+Marc Jaffe: the bigger issue at hand is how does it relate to the cost that I'm paying to for energy transmission and the power I'm using and credits I'm generating not the credits but the the power I'm putting back into the
+Amber Fu: Mhm.
+Marc Jaffe: grid. Why can't they just make it really simple?
+Amber Fu: Yes. I know. Yeah. Yeah.
+Marc Jaffe: And then of course there's taxes and fees and all that.
+Amber Fu: That's true.
+ 
+ 
+00:25:57
+ 
+Marc Jaffe: That's complicated in and of itself,
+Amber Fu: Mhm.
+Marc Jaffe: but you know that that's separated out and you need to keep it, you know, keep it that way. Obviously,
+Amber Fu: Yeah. But do you ever like wish you had like, you know, like simple tracker?
+Marc Jaffe: I like to have a two-page bill.
+Amber Fu: Yeah.
+Marc Jaffe: I like to know,
+Amber Fu: that that like
+Marc Jaffe: is it advantageous for me to add more solar power to my house?
+Amber Fu: Uh-huh.
+Marc Jaffe: Could I add another panel? Can I,
+Amber Fu: Mhm.
+Marc Jaffe: you know, uh, would it make a huge difference?
+Amber Fu: Mhm.
+Marc Jaffe: You know, so things like that because right now it's just really difficult to um
+Amber Fu: Mhm. Yeah. Yeah.
+Marc Jaffe: tell.
+Amber Fu: But would it would it help if like the system told you like oh why credits change like policy update like rate change or seasonal
+Marc Jaffe: Well,
+Amber Fu: adjustment.
+Marc Jaffe: yeah. Well, we have all those things, right? So,
+ 
+ 
+00:26:44
+ 
+Amber Fu: Oh you have it.
+Marc Jaffe: there's seasonal adjustments and things like that. And I just need to it needs just to be really graphical and easy
+Amber Fu: Uhhuh. Mhm.
+Marc Jaffe: to read as complicated as it is,
+Amber Fu: Mhm.
+Marc Jaffe: you know,
+Amber Fu: Mhm.
+Marc Jaffe: but why can't it just be here's your, you know, uh, net unit metering for your solar, here's your plan, here's the cost of transmission, here's the cost of your power consumption,
+Amber Fu: Uh,
+Marc Jaffe: here's your gas costs, okay? Because that's all separate. And then and then and then taxes and fees. And here's your here here's your here's your here's your uh here's your bill. That would be really nice, but it's not the way it
+Amber Fu: Got it. Got it.
+Marc Jaffe: works.
+Amber Fu: And what do you like ever feel like annoying about like a turn uh true up even even when you build a low?
+Marc Jaffe: Uh I just have a feeling that the I look at the bill and it looks like the credits I'm getting are
+ 
+ 
+00:27:40
+ 
+Amber Fu: Mhm.
+Marc Jaffe: exceeding and that I should be getting money back and I haven't been the last couple years.
+Amber Fu: Mhm. Mhm.
+Marc Jaffe: So, what what happened there? Because again, the first year I got $250 and I think now they're saying that I have so little money
+Amber Fu: Mhm.
+Marc Jaffe: now. Although again,
+Amber Fu: Mhm.
+Marc Jaffe: I didn't get the second EV to the last couple months and but I haven't gotten cash back from them for two years. So, I just what's changed? I don't
+Amber Fu: Got it. Got it.
+Marc Jaffe: know.
+Amber Fu: And will um um have you ever feel like that number didn't match your expectation?
+Marc Jaffe: Yeah. Yeah. I looked at it and I'm like, "Wow, I thought you would owe me a thousand dollars." But, you know, I mean,
+Amber Fu: Okay.
+Marc Jaffe: I think what happened was is that my credit was worth a thousand dollars, but they don't pay you.
+Amber Fu: Mhm.
+Marc Jaffe: It's not a one by one.
+ 
+ 
+00:28:26
+ 
+Marc Jaffe: It's not a onetoone conversion,
+Amber Fu: Mhm.
+Marc Jaffe: right?
+Amber Fu: Mhm.
+Marc Jaffe: They're literally just pay paying you pennies on the dollar. So,
+Amber Fu: Mhm.
+Marc Jaffe: while I may have $1,000 in in what my rate would have been if I didn't have
+Amber Fu: Mhm.
+Marc Jaffe: solar that I saved,
+Amber Fu: Mhm.
+Marc Jaffe: I had this excess thousand dollar in actual what the rates would have been. That's not what they're going to send back to me.
+Amber Fu: Mhm.
+Marc Jaffe: They're going to send me pennies on the
+Amber Fu: Got it. Got it.
+Marc Jaffe: dollar.
+Amber Fu: And like when you say like negative bill, do you feel like confident? Is that correct?
+Marc Jaffe: Yeah. I don't I don't I don't really,
+Amber Fu: Or do you feel like something else?
+Marc Jaffe: you know, think you're making any type of errors. I mean, if I got a bill that said you owe $2,000,
+Amber Fu: Okay.
+Marc Jaffe: you know, okay, there's something wrong, right? So, I got my water bill.
+ 
+ 
+00:29:12
+ 
+Marc Jaffe: I got a $1,000 water bill. Something's wrong, right? And I called them and they're like, "Well, you probably have a leak." And sure enough,
+Amber Fu: Mhm.
+Marc Jaffe: I went in my backyard and I found a I found a leak in the irrigation system and they wouldn't reimburse me. But, you know what I mean?
+Amber Fu: Mhm.
+Marc Jaffe: So, I mean, I'm not I'm you know, they're reading these meters electronically. What would have been nice if there is an issue like when I had the water leak it would have
+Amber Fu: Mhm. Mhm.
+Marc Jaffe: been great if they notified me you know you're using more water than three 10 times more water than you normally
+Amber Fu: Mhm. Mhm.
+Marc Jaffe: use something's wrong but no I didn't find out till I got the bill and then because it was irrigation they wouldn't reimburse me I mean so the answer is no I do trust
+Amber Fu: Got it. Got it.
+Marc Jaffe: them but if there you know I' I'd hope they have certain
+Amber Fu: Mhm.
+ 
+ 
+00:29:59
+ 
+Marc Jaffe: safeguards my power usage is is triple what it should be.
+Amber Fu: Mhm.
+Marc Jaffe: That that will trigger like a
+Amber Fu: Mhm. Got it.
+Marc Jaffe: notice.
+Amber Fu: So you basically you just uh would you want to like explain nation like oh your bill is negative because uh x credit y solar explore or z
+Marc Jaffe: Yeah. I mean, it'd be great if they Yeah. Yeah.
+Amber Fu: adjustment.
+Marc Jaffe: delineated it because it's just it's just not they don't put it in clearly readable form. Again,
+Amber Fu: Got it.
+Marc Jaffe: there all the information is there if it's 12 pages, but it's just not parsed out to make it readable. I mean,
+Amber Fu: Yeah.
+Marc Jaffe: how many people you think would go page by page? Oh my god. You know,
+Amber Fu: Mhm.
+Marc Jaffe: it's impossible.
+Amber Fu: Mhm.
+Marc Jaffe: And now they just told me that they're not going to send me a paper bill anymore.
+Amber Fu: Got it.
+Marc Jaffe: Whatever.
+Amber Fu: Got it. Got it.
+ 
+ 
+00:30:51
+ 
+Amber Fu: Well, like since like like San Diego like like they have like the I think it's a SDG, right? And like Uhhuh.
+Marc Jaffe: STE San Diego gas and electric number one complaint here in San Diego is
+Amber Fu: and S. Uhhuh.
+Marc Jaffe: we have some of the highest rates in the
+Amber Fu: Mhm.
+Marc Jaffe: nation.
+Amber Fu: And SDCP, right? Uh like the state credit.
+Marc Jaffe: Well, okay. Well, so there's Sanuel Gas and Electric.
+Amber Fu: Uh-huh.
+Marc Jaffe: They're the provider. They're the utility.
+Amber Fu: Uh-huh.
+Marc Jaffe: There's San Diego Community Power,
+Amber Fu: Okay. Okay.
+Marc Jaffe: which is a which is a state board set up to kind of do
+Amber Fu: As
+Marc Jaffe: something.
+Amber Fu: Mhm.
+Marc Jaffe: Uh uh that that has an impact on the rates.
+Amber Fu: Mhm.
+Marc Jaffe: I think in the end it only saves us one or two percent. San Diego Community Power.
+Amber Fu: Mhm.
+Marc Jaffe: So you got to look at the utility which is San Diego Gas and Electric SDG& owned by Ser Energy.
+ 
+ 
+00:31:46
+ 
+Amber Fu: Mhm.
+Marc Jaffe: you have standing of community power which is a consortium created by the state that does something I have
+Amber Fu: Mhm. Mhm.
+Marc Jaffe: no idea what it actually does but their name is on my bill as well as
+Amber Fu: Mhm. Mhm.
+Marc Jaffe: DG&
+Amber Fu: Mhm.
+Marc Jaffe: and then of course you have um um our water is separate that is municipal so that's a whole separate water water and sewer and all that the wet utilities run separately by the mun by the municipality then of course it's all regulated by the California public utilities ities
+Amber Fu: Uh
+Marc Jaffe: commission right uh uh uh CPU right
+Amber Fu: Mhm.
+Marc Jaffe: so it's a lot of entity that's a lot of
+Amber Fu: Yes.
+Marc Jaffe: acronyms
+Amber Fu: But but would it help if like there have a one app unified all those stores and just simple said oh here's what actually affect you bill this month. Do you think that's
+Marc Jaffe: you know I think it would but it would be even more
+Amber Fu: helpful?
+Marc Jaffe: effective because once I look at my bill at the end of the month it's like, okay, that's what it is, right?
+ 
+ 
+00:32:47
+ 
+Amber Fu: Mhm.
+Marc Jaffe: Wouldn't it be better if I could look and do real time adjustments? So,
+Amber Fu: Mhm.
+Marc Jaffe: I'd love to have that capability. Like, if I'm going to get an app,
+Amber Fu: Mhm.
+Marc Jaffe: I don't need an app that tells me what my bill is and helps me read it a little easier. I mean,
+Amber Fu: Mhm.
+Marc Jaffe: it'd be nice, but what I'd really like is an app powerful enough that would give me uh like real time
+Amber Fu: Mhm.
+Marc Jaffe: usage, you know, like uh um um you know,
+Amber Fu: Mhm.
+Marc Jaffe: here's how you can save energy or here's what your current usage are is right now. you really need to be running the dishwasher.
+Amber Fu: Okay.
+Marc Jaffe: It's at at 8 PM. No, you don't. You know, something like that. Or just show or it's showing that I'm, you know, it's a nice sunny day and you're generating a lot of power, but right now you're currently using more than you're generating. You know,
+ 
+ 
+00:33:25
+ 
+Amber Fu: Mhm.
+Marc Jaffe: maybe maybe you should hold off on doing that last load of laundry uh u um or whatever. Or maybe it's telling me, hey, you're generating a lot of power because today was such a sunny day. Now would be a good time to do your laundry,
+Amber Fu: Mhm.
+Marc Jaffe: you know?
+Amber Fu: Mhm.
+Marc Jaffe: So something like that would be kind of cool.
+Amber Fu: Okay. Got it. Got it.
+Marc Jaffe: That's why today would have been a good laundry day. Why? Because then I'm using the power off the sun, you know, as opposed to just sending it back to the system because I believe and here's another thing the app can do. And I don't know how this works,
+Amber Fu: Mhm.
+Marc Jaffe: but maybe it is more advantageous for me to use power more power while I'm generating
+Amber Fu: Mhm.
+Marc Jaffe: power versus just putting power in the grid because my reimbursement for that is not that great.
+Amber Fu: Mhm. M.
+Marc Jaffe: So,
+Amber Fu: Mhm.
+ 
+ 
+00:34:07
+ 
+Marc Jaffe: these are the type of things I'd love to figure out or if it could be put into some type of app
+Amber Fu: Mhm.
+Marc Jaffe: that lets me regulate it on a daily daily basis in real time if I so choose, I think I can save even more money by by leveraging uh use of power when I'm producing the most.
+Amber Fu: Mhm.
+Marc Jaffe: as it just relying on on the power company to make a calculation how much I've sent them
+Amber Fu: Pardon?
+Marc Jaffe: and how much that's worth,
+Amber Fu: Mhm.
+Marc Jaffe: you know, in terms of
+Amber Fu: Got it. Got it.
+Marc Jaffe: credits.
+Amber Fu: And but would you like when you said like real time adjustment like what kind of decision do you wish the system would help you make in the moment
+Marc Jaffe: Yeah.
+Amber Fu: like
+Marc Jaffe: A comparison of how much I'm generating versus how much I'm using. I'd love to see that.
+Amber Fu: okay okay okay
+Marc Jaffe: You know, a real time chart. Here's what you're producing.
+Amber Fu: okay got
+ 
+ 
+00:34:58
+ 
+Marc Jaffe: Here's what you're using. right? Here's what you're using. Maybe you can use a little more right now because then later in the evening when the sun sets,
+Amber Fu: it
+Marc Jaffe: you're going down. Now, you're going to want to bring down your your usage as well.
+Amber Fu: got
+Marc Jaffe: That type of stuff I think would be, you know, it it's saving me money. And so,
+Amber Fu: Mhm.
+Marc Jaffe: there's probably plenty of days I don't care, but there'd be plenty of days where I'd like,
+Amber Fu: Mhm.
+Marc Jaffe: you know, maybe I can set some parameters, thresholds that it would notify me,
+Amber Fu: Mhm.
+Marc Jaffe: you know, hey, you want to save some money, try this. This this is,
+Amber Fu: Mhm.
+Marc Jaffe: you know, this will save you x amount of money. Now's a good time. you know, maybe I'd be really interested in kind of doing
+Amber Fu: Got it. Got it.
+Marc Jaffe: that.
+Amber Fu: And would you want the the app actually recommend actions like oh wait 30
+ 
+ 
+00:35:37
+ 
+Marc Jaffe: Yeah.
+Amber Fu: minutes.
+Marc Jaffe: Yeah. It's like here's your power usage, you know,
+Amber Fu: Okay.
+Marc Jaffe: generation in usage. Now would be a good time to use more.
+Amber Fu: But how often during the day would you want the this kind
+Marc Jaffe: Well, I would just I would like it I would like a threshold maybe,
+Amber Fu: of
+Marc Jaffe: you know, that that it would it would trigger because I don't want to be bugged all day long.
+Amber Fu: Okay. Okay.
+Marc Jaffe: So maybe a threshold that it would notify me or I would just be able to
+Amber Fu: Uhhuh.
+Marc Jaffe: log in whenever I chose to to see the data.
+Amber Fu: Okay.
+Marc Jaffe: And that way it's kind of a happy medium between,
+Amber Fu: Okay.
+Marc Jaffe: you know, when I choose to see it and maybe there's certain circumstances when I'll get notified
+Amber Fu: Okay.
+Marc Jaffe: because more and more, you know,
+Amber Fu: Okay.
+Marc Jaffe: my my houses are all notifying me about, you know, I got leak sensors everywhere and, you know,
+ 
+ 
+00:36:22
+ 
+Amber Fu: Mhm.
+Marc Jaffe: the air quality sensors and my my door lock sensors and I'm getting notices about my house all day
+Amber Fu: Mhm.
+Marc Jaffe: long. Both houses actually. It's kind of annoying.
+Amber Fu: Mhm. Mhm.
+Marc Jaffe: It's just kind of way it is nowadays.
+Amber Fu: Got it. But are there any applies you would never want the system to uh uh comment on comment on like
+Marc Jaffe: any what?
+Amber Fu: applies like a a refrigerator or own like
+Marc Jaffe: Well, the refrigerator is out of my control,
+Amber Fu: anything?
+Marc Jaffe: right?
+Amber Fu: Okay.
+Marc Jaffe: So, yeah,
+Amber Fu: Yeah.
+Marc Jaffe: I would like to opt out. I like to opt out certain appliances.
+Amber Fu: Mhm.
+Marc Jaffe: I like to have all my appliances, though dialed in so I know exactly the kind of power they're using, right? You know, but and then they be able to like ex pull one out. Like my refriger goes on and on when it goes on and off, right? Whenever it goes on and off.
+ 
+ 
+00:37:12
+ 
+Marc Jaffe: I I don't want to have to deal with that, right? It does its own thing. That's good with me, right?
+Amber Fu: Mhm.
+Marc Jaffe: But my washing machine, you know, the furnace, uh, you know, things like that, my dishwasher, that'd be kind of nice to know. And then maybe maybe it gives me an aggregate of the lighting in the house,
+Amber Fu: Mhm. Mhm.
+Marc Jaffe: you know,
+Amber Fu: Got it.
+Marc Jaffe: something like that since I have most of the lighting in my house is smart lighting anyway.
+Amber Fu: Got it.
+Marc Jaffe: So,
+Amber Fu: Mhm.
+Marc Jaffe: it figure that out pretty easily because uh most of my lighting,
+Amber Fu: Got it.
+Marc Jaffe: it knows when it's on and it knows when it's off because I have smart switches all over the
+Amber Fu: Mhm.
+Marc Jaffe: house.
+Amber Fu: Got it. Got it. Got it. Okay. And well,
+Marc Jaffe: Can I add something to it?
+Amber Fu: since in Yeah.
+Marc Jaffe: So,
+Amber Fu: Yeah.
+Marc Jaffe: I I use all my h most my I trying to solely over the years I've been creating a smart house.
+ 
+ 
+00:37:57
+ 
+Amber Fu: Uh-huh.
+Marc Jaffe: So for most of the things in my house, including the app appliances,
+Amber Fu: Mhm.
+Marc Jaffe: everything's Wi-Fi connected.
+Amber Fu: Mhm.
+Marc Jaffe: So I can turn almost all the lights on in my house with my voice.
+Amber Fu: Mhm.
+Marc Jaffe: Uh I have a lot of lights on schedule,
+Amber Fu: Mhm.
+Marc Jaffe: all these things. So it'd be kind of nice for uh the house to be a little more uh AI savvy.
+Amber Fu: Okay.
+Marc Jaffe: So, like I can walk in the house and maybe the house all of a sudden,
+Amber Fu: Okay.
+Marc Jaffe: you know, the app might say this,
+Amber Fu: Uh-huh.
+Marc Jaffe: but maybe they can integrate it with Alexa and the speaker system I have in the house that say,
+Amber Fu: Uh-huh.
+Marc Jaffe: "Hey,
+Amber Fu: Okay.
+Marc Jaffe: Mark, you just walked in and why don't we try this?" That'd be kind of even that'd be a step up,
+Amber Fu: Okay. Yes. Yes, definitely.
+Marc Jaffe: right?
+Amber Fu: But are you going to worry about Oh, probably I'm going to losing control or like privacy.
+ 
+ 
+00:38:47
+ 
+Marc Jaffe: Well, yeah. So, that's a huge issue, right? like like like I'm okay with it but like my sons when they come home from college they like unplug all the Alexa
+Amber Fu: Yes.
+Marc Jaffe: stuff in the house that's just not their thing right so I'm like whatever so yeah there is you know so
+Amber Fu: Okay.
+Marc Jaffe: there have to there would have to be a happy medium in the house uh that the family would have to agree upon for this but the bottom line is that uh you know there there's I'm sure a baseline that we can all get by
+Amber Fu: Yeah, because like you know like right now a lot of people they they well part of people they they love AI but most of people they are concerned certain stuff you
+Marc Jaffe: about this, right? About it snooping on them and and listening to everything they say. And that's that's a very legitimate concern.
+Amber Fu: Yeah.
+Marc Jaffe: Not so much for me. I'm just an old man.
+Amber Fu: Yeah.
+Marc Jaffe: I don't care anymore.
+ 
+ 
+00:39:35
+ 
+Marc Jaffe: But, you know, my kids do, for example,
+Amber Fu: Okay. But Okay. So, do you want this like there if they're have like the system do you want they they can only recommend action like oh you need to do this do that to can lower
+Marc Jaffe: Yes.
+Amber Fu: your electricity.
+Marc Jaffe: Or it would say it would say, you know, hey Mark, do you want to save some energy? I got a, you know, right now would be a good time for me to make a suggestion or, you know, something like that. Then I can just say yes or no,
+Amber Fu: Okay. Okay. Okay.
+Marc Jaffe: right?
+Amber Fu: Okay. Got it. And in like in what situation would you absolutely want the system to step in and automize?
+Marc Jaffe: like some certain certain threshold where I'm using a lot of energy and the system will
+Amber Fu: Okay.
+Marc Jaffe: intuitively know that I could save a lot of money by not doing something
+Amber Fu: Mhm.
+Marc Jaffe: right that but I want to exclude certain things like the oven right I'm gonna cook when I cook that's just the
+ 
+ 
+00:40:23
+ 
+Amber Fu: But Oh,
+Marc Jaffe: way life is right uh but so I'd like excludes that I exclude the oven which is a huge
+Amber Fu: yeah.
+Marc Jaffe: power user right it's a 220 circuit I'd exclude the the refrigerator and the freezer. Why? Because they just do their thing. I don't want to have to be concerned about it. But there's plenty of other stuff in the house that I may want to have dialed in.
+Amber Fu: Mhm.
+Marc Jaffe: And it would be great if um more and I'm on the Alexa Plus here and more and more I'm actually telling the system what to do verbally as opposed to programming it. And that's kind of fun.
+Amber Fu: Got it. Got it. And like uh but what part you like when should the system like never take action without the proof?
+Marc Jaffe: I don't I mean I don't know. I would just set up some parameters when if it's going to save me a dime, I don't really care. You know, tell me when the threshold is I'm going to save,
+ 
+ 
+00:41:17
+ 
+Amber Fu: Okay.
+Marc Jaffe: you know, a few dollars uh you know uh over the next few hours if I do this. That's something I'd be concerned with. But if it's like 10 cents, I don't I don't care.
+Amber Fu: Mhm.
+Marc Jaffe: There's got to be some threshold I can set uh monetarily or otherwise where I don't
+Amber Fu: Mhm.
+Marc Jaffe: want it to bug
+Amber Fu: Mhm. Mhm. Got it. Got it.
+Marc Jaffe: me,
+Amber Fu: And well for like the San Diego the San Diego is the STG like San Diego what's that company called again? I'm sorry.
+Marc Jaffe: single gas and electric and then sending a community
+Amber Fu: Okay. Gas and electric community power. Yes.
+Marc Jaffe: power
+Amber Fu: Do you ever feel that those company the rule change faster than the home home owner can keep up with?
+Marc Jaffe: their um their rates.
+Amber Fu: They're like the rules. Yes.
+Marc Jaffe: Well, no,
+Amber Fu: like
+Marc Jaffe: because it's a slow process because everything they do has to be approved by the California Public Utilities Commission.
+ 
+ 
+00:42:12
+ 
+Amber Fu: okayh
+Marc Jaffe: So, initiate a rate change, if a permanent rate change, I'm going to read about it in the newspapers because there' be a lot of people complaining. But if it's a seasonal thing,
+Amber Fu: okay got
+Marc Jaffe: I won't know. It'll be on the bill, you
+Amber Fu: it got it and well um so if you could choose between
+Marc Jaffe: know,
+Amber Fu: like a different mode like saving mode, solar max mode or comfort mode, like hands off mode. Which one fit you lifestyle the most?
+Marc Jaffe: I would like to be able to schedule it certain times a day, goes from eco mode, you know,
+Amber Fu: Okay.
+Marc Jaffe: like night mode, right? And like my firm, like my my heating system is all set up like that, right? Goes in different modes based on the certain times of the day. Also, it knows when I'm away from the house. So, when I'm away from the house,
+Amber Fu: Okay.
+Marc Jaffe: it does certain things, right? the world the the temperature goes down because it knows I'm away,
+ 
+ 
+00:43:08
+ 
+Amber Fu: Mhm.
+Marc Jaffe: right? My house up in uh Oregon, right? It knows no one's there right now and so it's lowered the thermostat to a certain predetermined
+Amber Fu: Got it.
+Marc Jaffe: level and it will stay that way until I change it or if someone walks in the house. So something a little more intuitive that could that would that would also change or I could program
+Amber Fu: Mhm.
+Marc Jaffe: during certain times of day to do certain things.
+Amber Fu: Mhm.
+Marc Jaffe: Certainly I don't want to bug me at night while I'm asleep, right? You know,
+Amber Fu: Yeah,
+Marc Jaffe: it's like do not disturb after 9 p.m.
+Amber Fu: definitely. Definitely that.
+Marc Jaffe: I don't care what's going on. You know, stuff like
+Amber Fu: Okay. Definitely.
+Marc Jaffe: that.
+Amber Fu: Definitely. And what do you enjoy managing energy by yourself or would you prefer
+Marc Jaffe: Yeah. See, I I like that stuff. That's why I say I'm a little more tuned in than I think a lot of people because I kind of like I'm kind of fascinated about
+ 
+ 
+00:43:50
+ 
+Amber Fu: this?
+Marc Jaffe: the automated house, the smart home, and you know, energy uses is is is tuned into that. Plus, as I mentioned,
+Amber Fu: Mhm.
+Marc Jaffe: I have a second home up in Oregon and I have to manage that house remotely,
+Amber Fu: Mhm.
+Marc Jaffe: right? In terms of its power usage because I'm not there.
+Amber Fu: Mhm. Mhm.
+Marc Jaffe: I'm a thousand miles away. So,
+Amber Fu: Mhm.
+Marc Jaffe: um uh um I do that, right? So, I have a schedule, but it knows I'm not there.
+Amber Fu: Yeah.
+Marc Jaffe: And so, that's really important to be able to manage that house because if I wasn't able to manage it, you know, remotely, what would I do? you know how, you know, have to send someone over there to turn the heat up and down and stuff like that. That's ridiculous. All the appliances in that house,
+Amber Fu: Mhm.
+Marc Jaffe: everything is all Wi-Fi, the doors and everything is all Wi-Fi enabled. So, I can control an entire household, uh, you know, through my phone.
+ 
+ 
+00:44:45
+ 
+Amber Fu: Mhm.
+Marc Jaffe: You know, that saves me a tremendous amount of money.
+Amber Fu: Got it. Got it. But well, if we could like remove just one like annoying you like stuff
+Marc Jaffe: Yeah,
+Amber Fu: from your entire
+Marc Jaffe: I want to be able to set a schedule that says do not disturb, you know,
+Amber Fu: Okay.
+Marc Jaffe: so a threshold and then a do not disturb or a schedule when I know it can be more active,
+Amber Fu: Okay.
+Marc Jaffe: you know, let me give you example like five to,
+Amber Fu: Okay.
+Marc Jaffe: you know, I would say like four to six, you know, that's usually when I'm preparing meals,
+Amber Fu: Mhm.
+Marc Jaffe: right?
+Amber Fu: Mhm.
+Marc Jaffe: I don't want to be bothered about energy use because, you know, the oven's the oven and if I'm cooking with the oven that day or not,
+Amber Fu: Okay.
+Marc Jaffe: that's just the way it is. I don't want to have this house screaming at me because they don't like the fact that I'm using the broiler, right?
+ 
+ 
+00:45:35
+ 
+Marc Jaffe: So,
+Amber Fu: Mhm.
+Marc Jaffe: I would want to carve that out. You know, between these times, don't bother me. I'm cooking. Okay.
+Amber Fu: Oh,
+Marc Jaffe: The the fire smoke detector that can bother me when I burn something,
+Amber Fu: okay.
+Marc Jaffe: but other than that, I don't want to be bothered.
+Amber Fu: Got it. Got it. And well like when you think about your daytoday like what part of like energy setup requires the most attention from
+Marc Jaffe: dayto-day. Well,
+Amber Fu: you.
+Marc Jaffe: you know, it would be, you know, the the the, you know, the biggest user of energy would be the furnace on a cold day.
+Amber Fu: Mhm.
+Marc Jaffe: We don't have too many. Okay. But in Oregon,
+Amber Fu: Okay.
+Marc Jaffe: I have a ton, right?
+Amber Fu: Okay.
+Marc Jaffe: And so that can really be a factor. Um,
+Amber Fu: Mhm.
+Marc Jaffe: so I'm gonna say and and then of course I'm coastal, but you know, you go a mile or so inland and now you're talking about houses really need some air conditioning and and
+ 
+ 
+00:46:24
+ 
+Amber Fu: Oh
+Marc Jaffe: so that now you're talking some big energy users.
+Amber Fu: yeah.
+Marc Jaffe: The furnace, climate control is the biggest, right? And so that would be really a big factor that I'd want to be built in because I think for
+Amber Fu: Mhm.
+Marc Jaffe: a lot of homes that's going to be their biggest energy draw,
+Amber Fu: Got it.
+Marc Jaffe: cooling and heating.
+Amber Fu: Got it. Got it. Got it. And well, for like a smart home idea, like if your home could adjust itself based on like sunlight, temperature, and your like what you're doing right now, what's the first thing you'd wanted to do?
+Marc Jaffe: Yeah. Repeat that one more time. I'm
+Amber Fu: Oh, so if your home could,
+Marc Jaffe: sorry.
+Amber Fu: you know, adjust itself based on like a sunlight temperature, something like that,
+Marc Jaffe: I'd like you to know when I'm home and when I'm not.
+Amber Fu: what the first thing you Uh-huh.
+Marc Jaffe: Right.
+Amber Fu: Okay.
+Marc Jaffe: and and and and adjust the climate control
+ 
+ 
+00:47:14
+ 
+Amber Fu: Mhm.
+Marc Jaffe: accordingly. Um so because I think that's going to be one of the biggest users, right? So you and I think a lot of you know you can certainly program your air conditioning when you want to use it, right? And set up a schedule.
+Amber Fu: Mhm.
+Marc Jaffe: You can control it via your app if you have a Wi-Fi system.
+Amber Fu: Mhm.
+Marc Jaffe: I like to even be more intelligent than that.
+Amber Fu: Mhm.
+Marc Jaffe: And I think Google offers a good part of that. when I'm when you're when I'm away from the home,
+Amber Fu: Mhm.
+Marc Jaffe: my system knows I'm away,
+Amber Fu: Mhm.
+Marc Jaffe: you know. So, it it it it adjusts the schedule that I've preset to deal with the fact whether I'm home or not. But,
+Amber Fu: Hello.
+Marc Jaffe: I'm going to say that to me is probably the biggest one because again, um um air conditioning, heating, those are that is probably the biggest usage of power um that that people have to deal with here.
+ 
+ 
+00:48:03
+ 
+Amber Fu: Got it. And well, since you got a solar, uh, do you want the house to respondse like a differently during the sunny day or cloudy days?
+Marc Jaffe: Yeah, that would be really good. Like have this certain threshold because it really makes a big difference a sunny or cloudy
+Amber Fu: Mhm.
+Marc Jaffe: day uh how much power I'm I'm I'm I'm creating and of course summer is be a lot better than winter for example. So that would be kind of nice. Again,
+Amber Fu: Mhm.
+Marc Jaffe: that's that real time thing I'd love to be able to look into or be able to notify me on on on a threshold because then I could kind of in real time start,
+Amber Fu: Mhm.
+Marc Jaffe: you know, saving money.
+Amber Fu: And like which applies consume the most energy that you wish you could track in the real
+Marc Jaffe: Well, again,
+Amber Fu: time?
+Marc Jaffe: if I had air conditioning, that would be it.
+Amber Fu: Okay. Okay.
+Marc Jaffe: But I never hooked it up for that very reason because that is the biggest energy draw,
+ 
+ 
+00:48:52
+ 
+Amber Fu: Okay.
+Marc Jaffe: right?
+Amber Fu: Uhhuh. And well, if the app show you like the top five most expensive applies each day,
+Marc Jaffe: Yeah.
+Amber Fu: do you think that help you save more?
+Marc Jaffe: Oh, yeah. Absolutely. Or or at least allow me to dictate which ones I want and which ones I don't.
+Amber Fu: Okay.
+Marc Jaffe: For example,
+Amber Fu: Okay.
+Marc Jaffe: I don't want the oven. That's a 220 circuit.
+Amber Fu: Uh-huh.
+Marc Jaffe: That's a huge energy draw. But I just don't want it part of the system because when I cook is when I cook,
+Amber Fu: Uh-huh.
+Marc Jaffe: right? I still want to be bothered about that.
+Amber Fu: Okay. And but but what kind of data do you feel comfortable the
+Marc Jaffe: Well, I want I want to look at energy usage,
+Amber Fu: system
+Marc Jaffe: how it relates to time of use, and then how it relates to my energy production. Right? So, those are the three factors I want integrated the most.
+ 
+ 
+00:49:43
+ 
+Amber Fu: but what data would cross the line?
+Marc Jaffe: I, you know, I don't know. I don't, you know, what would the threshold be?
+Amber Fu: Okay.
+Marc Jaffe: Uh, I don't know. I'd like to be able to set it, you know, like like uh you know,
+Amber Fu: Okay.
+Marc Jaffe: um maybe there's a usage threshold, kilowatts per hour that I would set, you know, uh I don't know what would be the best, you know,
+Amber Fu: Okay.
+Marc Jaffe: can I convert that to dollars and cents. Anything that's costing me over X dollars per hour, I want to get a notification about. And it wouldn't be dollars per hour. I mean, it's going to be pennies per hour, but you know, nonetheless, you know,
+Amber Fu: Got it. Got it. And would you want the app like you choose like between like privacy first or automation first mode or that doesn't
+Marc Jaffe: Okay. Right. So, again,
+Amber Fu: matter?
+Marc Jaffe: I I'm okay, excuse me. I'm okay in the privacy front.
+ 
+ 
+00:50:37
+ 
+Amber Fu: Mhm.
+Marc Jaffe: Um, that I'm willing to to lower my privacy expectations to get more automation. Again,
+Amber Fu: Mhm.
+Marc Jaffe: I have other family members who feel very differently about it.
+Amber Fu: Okay. Yeah. So I guess like different people they choose different mode.
+Marc Jaffe: Well, again, I'd be in charge of it all, but you know, there's probably I may have to get,
+Amber Fu: Okay.
+Marc Jaffe: you know, I may have to get some permissions on some things. You
+Amber Fu: Okay. Got it.
+Marc Jaffe: know,
+Amber Fu: Got it. Well well thank thank you. Thank you like you know sh sh sh sh sh sh sh sh sh sh sh sh sh sh sh sh sh sh sh sh sh sh sh sh sh sh sh sh sh sh sh sh sh sh sh sh sh sh sh sh sharing all the
+Marc Jaffe: it's a complicated topic,
+Amber Fu: stuff.
+Marc Jaffe: is it not? And so, I I really give you credit for trying to jump into this.
+Amber Fu: Yes.
+ 
+ 
+00:51:17
+ 
+Amber Fu: Yes.
+Marc Jaffe: It truly is
+Amber Fu: And yes, yes. I never I never thought because you're my first uh first guy to leave who who I
+Marc Jaffe: complicated.
+Amber Fu: interview live in San Diego. So I I used to live in San Diego but when I was in high school. So I ocean side ocean side.
+Marc Jaffe: Give me hi. All right. All right.
+Amber Fu: So uh I don't need to deal with the you know those thing. So I never I never know. And then u my college I I moved to LA. So I know uh the LA you know the energy stuff but San Diego I don't know like there are so many company and so many rules.
+Marc Jaffe: It's very complicated. And again,
+Amber Fu: Uh-huh.
+Marc Jaffe: the biggest issue is we have some of the highest utility rates in the country. People are very I know plenty of people pay $400 a month,
+Amber Fu: Yes.
+Marc Jaffe: $600 a month on their electricity bill,
+ 
+ 
+00:52:09
+ 
+Amber Fu: Oh,
+Marc Jaffe: right? Uh I that's nowhere near where I am,
+Amber Fu: wow.
+Marc Jaffe: right? But I know that there are plenty of people who do. And so it's I know it's a huge issue and that's why there's this movement here to try to uh to
+Amber Fu: Mhm.
+Marc Jaffe: convert the utilities to municipal thinking the rates will go down.
+Amber Fu: Mhm.
+Marc Jaffe: I don't think they will but uh so but it's it's it's it's political.
+Amber Fu: Mhm.
+Marc Jaffe: It's complicated and we do pay some of the highest rates here in uh uh the
+Amber Fu: Yes. Mhm.
+Marc Jaffe: country. And so my my Oregon place I can see right then and there. I mean, my average bill,
+Amber Fu: Mhm.
+Marc Jaffe: I mean, it's, you know, 34 degrees eating that house to, you know, like 54 or something like that because I don't want to eat colder than that. I'll do that for a whole month and and my bill is still kind of reasonable. So, again, it really
+ 
+ 
+00:52:54
+ 
+Amber Fu: Yeah. Mhm. But uh since like the the AM3 coming do you think uh a lot of
+Marc Jaffe: varies.
+Amber Fu: people when they have a solar a lot of people will get the power wall because uh some of my friend they got they have a solar and when the NEM3 call me and they think oh if I don't got the power wall or battery my my solar will be waste.
+Marc Jaffe: Well, I hear what they're saying.
+Amber Fu: Uhhuh.
+Marc Jaffe: The cost of one of those batteries and installation, I don't know if it will offset it. So my perception and again I looked into this pretty recently was that the people who are getting these power
+Amber Fu: Mhm.
+Marc Jaffe: walls are doing so because they want the capability to like go off the grid and be self-contained.
+Amber Fu: Yes. Yes.
+Marc Jaffe: And that's great.
+Amber Fu: Exactly.
+Marc Jaffe: You know what I mean? That's a great thing.
+Amber Fu: Mhm.
+Marc Jaffe: But as a pure economic uh instrument to save
+Amber Fu: Mhm.
+ 
+ 
+00:53:50
+ 
+Marc Jaffe: money,
+Amber Fu: Mhm.
+Marc Jaffe: I don't know if the numbers pan out. It didn't when I looked into it.
+Amber Fu: Got it.
+Marc Jaffe: Maybe for some people it does.
+Amber Fu: Got it. Got it. Got it. And our last question is like is up all San Diego like all people who live in San Diego they need to be facing those company right like everyone they don't
+Marc Jaffe: So,
+Amber Fu: have another choice.
+Marc Jaffe: I don't have a a choice. No, they the they they tried that back in the uh late
+Amber Fu: Okay.
+Marc Jaffe: 90s. there was some legislation and it and it just and it it was just a it was a boondoggle because the bottom line is SDG&
+Amber Fu: Okay.
+Marc Jaffe: they're the they're the supplier right because they're the ones who have the lines down the street it's their
+Amber Fu: Okay. Oh,
+Marc Jaffe: lines right so it makes it kind of difficult it's not like wireless providers where everyone
+Amber Fu: yeah.
+Marc Jaffe: can put up their own tower and then you can choose whatever it's not like that there's only one company that
+Amber Fu: Yeah. Exactly.
+Marc Jaffe: provides power and so that's what makes it very difficult
+Amber Fu: Yeah. That's That's not cool. Yeah. Well, thank thanks again. Well, the super helpful, you know, you gave us like exactly like kind of real world content like we need to help home
+Marc Jaffe: Yeah.
+Amber Fu: run cheaper and smarter and again like once we have a early version like the app
+Marc Jaffe: Yeah. Hey, call me.
+Amber Fu: ready.
+Marc Jaffe: I'd love to check it out.
+Amber Fu: Oh yeah, please. Your feedback will be really valuable.
+Marc Jaffe: Yeah, that'd be I'd love to check an app like that out.
+Amber Fu: Okay. Sure.
+ 
+ 
+Transcription ended after 00:55:52
+
+This editable transcript was computer generated and might contain errors. People can also change the text after it was created.

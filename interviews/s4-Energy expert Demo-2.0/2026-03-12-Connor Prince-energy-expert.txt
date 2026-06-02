@@ -1,0 +1,1538 @@
+Mar 11, 2026
+Casally Interviews(Utility Bill&Solar Credit Consulting) (Connor Prince) - Transcript
+00:00:00
+ 
+Amber Fu: Uh, Hello.
+Connor Prince: Hi, Amber. Sorry, one second. Let me just adjust my The volume's really low for some reason.
+Amber Fu: Sure.
+Connor Prince: There we go. I think I can hear you now.
+Amber Fu: Yes. Hi, Connor. How are you today?
+Connor Prince: Good. How about
+Amber Fu: Good. Good. Well,
+Connor Prince: you?
+Amber Fu: thanks again for, you know, taking the time to speak with us today.
+Connor Prince: Yeah,
+Amber Fu: Yeah.
+Connor Prince: of course.
+Amber Fu: And we truly appreciate your experience and the perspective. So, um, you know what? Let me uh uh briefly introduce who we are and why we want to have this
+Connor Prince: Yeah,
+Amber Fu: conversation.
+Connor Prince: that sounds good. Yeah, I'm curious to hear what about the project and and the
+Amber Fu: Perfect.
+Connor Prince: app.
+Amber Fu: Perfect. So uh so we're uh building a company called the castle u and our vision is to become like a financial layer for household energy. Well, because since like we found out like today most home owner with a solar or battery don't actually understand like how their bill is calculated and how like credit or apply or whether they are truly saving the money.
+ 
+ 
+00:01:44
+ 
+Amber Fu: So uh we believe there still have a gap between like what utility calculate what the installer promise or like what homeowner actually see. So we are basically just trying to close the gap and yeah and uh and al and also like uh we going to show you uh our uh current demo today so you you you have a contact for what we're building.
+Connor Prince: Okay, awesome. I appreciate
+Amber Fu: Yeah. And uh do you mind before we get start uh which state or utility are you most familiar
+Connor Prince: Uh, so I'm in California.
+Amber Fu: with?
+Connor Prince: Um, I'm most familiar with Pacific Gas and Electric. Um, I live in SoCal Edison territory and I've also lived in San Diego gas and
+Amber Fu: Mhm.
+Connor Prince: electric territory and worked with them in a a little bit more or less a thorough facet. So I'd say P Gen most thoroughly, but I do have knowledge on the
+Amber Fu: Okay, that's perfect.
+Connor Prince: others.
+Amber Fu: That's perfect because like our first uh market will be in the California.
+ 
+ 
+00:02:56
+ 
+Connor Prince: Okay,
+Amber Fu: Okay,
+Connor Prince: awesome.
+Amber Fu: cool. So oh and uh before we got I ask you I forgot to introduce my c-orker and also uh join us today is Ling and uh he is our technique lead and uh he responsibility for like architect behind our building logics and the data modeling. So uh we we can make sure we're building this crack from the both product and system standpoint. So uh today LinkedIn will share the screen for the uh demo.
+Connor Prince: Perfect. Nice to meet you both.
+Amber Fu: Okay. Uh give me a second. Okay. Perfect. Uh Connor, can you see uh the
+Connor Prince: Yeah. Yeah.
+Amber Fu: screen?
+Connor Prince: I'm looking at the the phone um mockup
+Amber Fu: Okay, perfect. So let me uh quickly go through the uh this app.
+Connor Prince: there.
+Amber Fu: So you can see uh this is our like uh really early stage app and uh the top section uh uh provide like environment and system contact like we display uh real time status for the household energy ecosystem like solar, EV, battery and uh great uh connection.
+ 
+ 
+00:04:21
+ 
+Amber Fu: So user can immediately understand like current uh uh status of the their energy system and also the weather include because like the energy usage and solar production is highly weather uh dependent. Um yes and for uh for this part uh we have a one question is like if we uh polling device status and interval data what fields do you consider must have for credibility.
+Connor Prince: Um so let me just see just looking at so this the app essentially tracks potentially the electric vehicle battery as well. Um,
+Amber Fu: Mhm.
+Connor Prince: would that be like run through like the the charger that's that's up the the wall through the
+Amber Fu: Yeah.
+Connor Prince: home? Um, I think for traditionally for most customers,
+Amber Fu: Mhm.
+Connor Prince: I feel like the biggest concern is just and one of the bigger messages in California has always been energy saving. So, I think from like a a general perspective, uh I think it's really helpful for customers to have visibility to how much usage they're using on a regular basis. And if if it's like this where it's up to the minute or like up to the hour kind of thing depending on how quickly or how often
+ 
+ 
+00:05:38
+ 
+Amber Fu: Mhm.
+Connor Prince: this refreshes, that would be a significant upgrade because I think most utilities right now they
+Amber Fu: Mhm.
+Connor Prince: track the interval data. It's available to an extent in your portal, but I I find the refresh rate and like the data accessibility is the biggest issue to where like when I look on my SoCal Edison app myself like it's I can't look at my interval usage until the month is build through. know it's there and they can they can send it to me after the fact after it's gone through cooling system but
+Amber Fu: Mhm.
+Connor Prince: they can't kind of give me that real time um meter uh read essentially um like I'm assuming maybe this potentially would or or have connection to if
+Amber Fu: Uh,
+Connor Prince: that
+Amber Fu: I'm sorry. Can you repeat one more time? I kind of uh lost.
+Connor Prince: No no no it's okay so so for this like I know this says So for power supply now it was that talking about a like somebody's current usage energy usage.
+ 
+ 
+00:06:52
+ 
+Amber Fu: Yes.
+Connor Prince: Yeah.
+Amber Fu: Yeah.
+Connor Prince: So if I think the the biggest uh upgrade to the current system now would be if you would be able to kind of tie in to the customer's specific meter and populate the real time usage data from the meter in
+Amber Fu: Mhm.
+Connor Prince: the app.
+Amber Fu: Mhm.
+Connor Prince: Um because right now it's all sort of it's displayed after the fact. So not until I I can't see how much energy I used on a specific day until they bill me for it and it's already kind of passed. If that makes
+Amber Fu: Yes.
+Connor Prince: sense.
+Amber Fu: Yes. Uh so well for this one we try to use there have some like third party uh the system
+Connor Prince: Mhm.
+Amber Fu: I think we can connect it connect it and uh have like I believe like 50 minute interval data.
+Connor Prince: Okay. Yeah, I think that's because that data is available.
+Amber Fu: Mhm.
+Connor Prince: I think it's more I just haven't ever seen it displayed in an app like this or like in a a customer's online portal login portal um where you can download it in like an Excel file or a CSV is all those
+ 
+ 
+00:08:10
+ 
+Amber Fu: Mhm.
+Connor Prince: 15 minute intervals you can access that um but I haven't seen it in the way you're describing it to where you'd be able to kind of plug that into the app and display in real time.
+Amber Fu: Got you. Uh but from your experience like how uh accessible uh is the day data today from the residential
+Connor Prince: Um,
+Amber Fu: customer.
+Connor Prince: I'd say it's it's accessible, but but I think it's a little bit harder to do the real time stuff that you're talking about because I guess for for some context, so like for for my organization, Pacific Gas and Electric, um,
+Amber Fu: Mhm.
+Connor Prince: they own all of the the physical metering in uh, infrastructure like the electric meters, the wires,
+Amber Fu: Mhm.
+Connor Prince: all of that stuff that collects all of the data. So,
+Amber Fu: Mhm.
+Connor Prince: in order for us to access any of that, we have to obviously contract with them to for and set up um APIs to have them through the data. Um and even then it there's a one to two day delay on that
+ 
+ 
+00:09:23
+ 
+Amber Fu: Yeah.
+Connor Prince: data. Um, so this would definitely be kind of like a a revolutionary thing able to kind of connect.
+Amber Fu: Mhm.
+Connor Prince: You'd have to reach out to the utility, I guess. Sorry, long answer, but you you should have you would have to reach out to the utility, Pen in this case,
+Amber Fu: Mhm.
+Connor Prince: and ask them for access to the meters. Um, which which could be possible. I think they do share um meter information with um certain third parties um for meters that are smart meters and are and can you know trans that data having to physically read it.
+Amber Fu: But Uh sorry uh um a question is like are are
+Connor Prince: Um,
+Amber Fu: most utility uh exposing that data through the green bottom or similarly pro
+Connor Prince: Yeah. No, that that's that's a good point.
+Amber Fu: program.
+Connor Prince: Yeah, green button data that that data is accessible through that. So, you could utilize that. I would just be um wary of the timing.
+Amber Fu: Mhm.
+ 
+ 
+00:10:38
+ 
+Connor Prince: I don't know if it's accessible like up maybe it depends. Are you guys looking to do this on like a up to the minute or up to the 15 minute basis or Okay.
+Amber Fu: We're trying.
+Connor Prince: Yeah.
+Amber Fu: We're
+Connor Prince: Right. Right. Um,
+Amber Fu: trying.
+Connor Prince: okay. Yeah, I think the green button data would be a little bit more delayed experience, but I think it's just more because it hasn't been done yet and not that it can't be done, if that makes sense. I'm not saying it's impossible. I think just nobody's done it yet. Um, and so maybe that's an avenue here for you all to do that with with this app,
+Amber Fu: Mhm.
+Connor Prince: obviously. So, it would it would take some some conversations with with PG& to kind of talk about their willingness to share that accessibility, but as far as like a maybe a a day or two delay, like you're saying, Green Button is definitely a good source for that for that data and is used for a lot of programs.
+ 
+ 
+00:11:42
+ 
+Amber Fu: Got you. Got you. So um another question is it is if we wanted to uh estimate the bill in real time like would interval usage data plus a tariff schedule be be enough?
+Connor Prince: Mhm. Uh yeah, I think so. I think you could probably come up with something that would estimate it, you know, based if you looked back at a whatever interval of time for a customer's usage or, you know, if you looked at their usage in the in that in the current month of the previous year. So, if you're, you know, looking to estimate for February and you average it based off of last February, I think that's enough of an estimate and and that's what we use a lot of the times for customers that directly ask us questions about um projections and kind of forecasting their usage. Um,
+Amber Fu: Uh-huh.
+Connor Prince: and a lot of the billing programs that actually like process the billing quality usage do kind of rely on um that kind of 12 month average billing for forecasting. So that would align with what's currently used.
+ 
+ 
+00:12:55
+ 
+Amber Fu: Got you. Got you. But uh are you familiar with the solar customer?
+Connor Prince: Yeah. Yeah.
+Amber Fu: Okay.
+Connor Prince: Very very much so.
+Amber Fu: Okay. Thank you. Perfect. So um for solar customer uh is the export energy typically like a visible through the same uh meter
+Connor Prince: Yeah, typically they they uh instead of like for a non-solar customer there's a single
+Amber Fu: data.
+Connor Prince: kilowatt hour amount quantity for for a solar customer they usually split that value into two separate channels.
+Amber Fu: Okay.
+Connor Prince: um one channel being the consumption and the second channel being
+Amber Fu: Mhm.
+Connor Prince: generation um from their solar array on their uh on their rooftop.
+Amber Fu: Mhm.
+Connor Prince: So it is split and then depending on if they're there's two for in California there's two different solar billing programs. Um the the long the the first one is called net energy metering uh or NEM for short. That one's been around for about 25 years. Um, and that essentially just takes the net value of that consumption channel and that generation channel nets them together including
+ 
+ 
+00:14:12
+ 
+Amber Fu: Mhm.
+Connor Prince: within the different time of use periods uh, peak on peak and off- peak. Um and what whatever the net value between those two channels is is what the customer is either build or credited for um when it comes to the kilowatt hours if that makes sense. Um and it and then as of 2023 uh the state came up with a new solar billing plan ironically called it's called the solar billing plan. Uh so I apologize. I don't want to I don't mean to confuse. Um but essentially the state wanted to change um the structure of how customers are credited because a lot of people in California were putting solar on their roof make money essentially to overproduce and make money and get a lot of
+Amber Fu: Mhm.
+Connor Prince: credits. Um, so anyway, not to to um to get on a tangent,
+Amber Fu: Mhm.
+Connor Prince: but under the solar billing plan, those two channels, consumption and generation are kept separate. They're not netted. So the customer is build uh for their consumption on the regular rates that that you referred to that you can see on utility websites on a per kilowatt hour basis.
+ 
+ 
+00:15:37
+ 
+Connor Prince: they get build at those rates for the any energy they've consumed. Um but for any energy that they've generated in the other channel um that essentially gets credited they've changed the credit structure from net surplus compensation which is a flat per kilowatt hour credit between two between two and 4 cents on average. It changes every month to a credit rate that changes every hour and varies from um you know 0 to up to $3.30 or so per kilowatt hour depending on the time of day,
+Amber Fu: Mhm. Mhm.
+Connor Prince: the day of the week and the day of the month. So it's a lot more confusing to track. Um,
+Amber Fu: Mhm.
+Connor Prince: but essentially customers are it's reducing the the amount of money customers are earning from excess generation. They're trying to encourage customers to use that energy at their home rather than exporting it back to the grid because the grid operator at certain times of the
+Amber Fu: Mhm.
+Connor Prince: the day there's too much excess solar production and they have to offload it to other states or other um other systems.
+ 
+ 
+00:16:56
+ 
+Connor Prince: Um, so I'm sorry. I know that was a lot. I don't know if I should probably run back over
+Amber Fu: It's okay.
+Connor Prince: anything.
+Amber Fu: It's really I really appreciate it's a lot of valuable information. So I just try to you know process in my brain.
+Connor Prince: Of
+Amber Fu: Okay.
+Connor Prince: course.
+Amber Fu: So uh uh let me let me see. Okay. So so the smart meter usually record like a two separate like a great consception consumption and solar generation,
+Connor Prince: Mhm.
+Amber Fu: right?
+Connor Prince: Yeah.
+Amber Fu: Gotcha.
+Connor Prince: So it splits it
+Amber Fu: Yeah.
+Connor Prince: too.
+Amber Fu: Okay. Gotcha. Gotcha. And well under like the old NAM program our cons consumption and generation netted with age like TU period from before like calculating the bill.
+Connor Prince: Yeah, that's correct. So like for if a customer consumes and generates in a in the on-
+Amber Fu: Okay.
+Connor Prince: peak period, it'll net that and then charge whatever the net is by the per kilowatt hour price for the on- peak period.
+ 
+ 
+00:18:01
+ 
+Connor Prince: And then the same thing for off- peak and any other time of any other TOU period um on that rate.
+Amber Fu: Gotcha. But under like under the solar uh solar billing uh plan is like export credit calculate like strict based on the award cost rate like for the specific hour.
+Connor Prince: uh yes for for consumption it's it's very similar to to the I don't want to confuse
+Amber Fu: Uhhuh.
+Connor Prince: but it's very similar to the NEM structure where it's like how if you used 50 kilowatt hours during on peak you get charged 50 kilowatt hours at the on- peak price so the consumption side is traditional where it's you know whatever
+Amber Fu: Mhm.
+Connor Prince: period you use the usage in you get charged that But it's it's the generation side that um like you're saying it gets the credit changes on an hourly basis and because of you know trying to display that many hours of credits and the different prices on a bill. They actually don't break that out into different light items. It's only displayed as a singular kilowatt hour value that totals the to the any generation during the TOU periods and then displays that as a total generation amount and then because there's so many different credit prices that that occur throughout the month,
+ 
+ 
+00:19:30
+ 
+Amber Fu: Come on.
+Connor Prince: they don't even they aren't able to display a a dollar amount price. They just it says prices vary. So like if a customer generated 500 kilowatt hours across however many tou periods for the month, it'll say 500 kilwatt hours of generation charged at prices vary and then it displays a total dollar credit amount whatever the their their credit is for that period. So it is very confusing from a customer perspective because unless they look at an Excel sheet that displays um the different prices are released like there's an
+Amber Fu: Mhm.
+Connor Prince: Excel reference form on P Gen's website that you anybody can access but as far as you know kind of storing that data and then trying to kind of plug it in it could just get a little bit um hairy in that sense or difficult display.
+Amber Fu: Yeah.
+Connor Prince: Yeah.
+Amber Fu: Um but like what what like where do utility publish the award cost rate like schedule for each hour which is where we can find
+Connor Prince: So that that would be on for P Genesis.
+ 
+ 
+00:20:43
+ 
+Connor Prince: I can send you a link.
+Amber Fu: out.
+Connor Prince: It's essentially on their their their main website if you were to Google PG Gen um solar billing plan credit prices. Um,
+Amber Fu: Okay.
+Connor Prince: they're called the energy export credits, which is it it's called EEC credits for short or um see if I can just pull it up real quick though to save time.
+Amber Fu: Okay.
+Connor Prince: I'll say
+Amber Fu: And and are they calculated by 15 minutes or like hourly?
+Connor Prince: uh 15 minute actually I believe. Let me double check.
+Amber Fu: Okay.
+Connor Prince: Or maybe it's hourly. Sorry, it's been a minute since I've looked at the actual prices.
+Amber Fu: No, it's okay.
+Connor Prince: Let me see. It's opening up. And I think the other kind of hiccup is that they do the prices do change depending on when you're enrolled solar billing plan.
+Amber Fu: Mhm.
+Connor Prince: Um, so it will differ for customers and but those prices are locked in for I want to say nine years. Um, okay, I'll I'll send the link here.
+ 
+ 
+00:21:56
+ 
+Connor Prince: It's it's on an hourly basis.
+Amber Fu: Oh, okay.
+Connor Prince: Let's see. All right.
+Amber Fu: Oh, perfect. I see
+Connor Prince: So that should be the link.
+Amber Fu: it.
+Connor Prince: Um, and it's I apologize. It's PDFs. It's not an Excel file. I could um, so it's it's not like immediately digestible, but essentially that gives like a breakout of or wait, let me see. Um, is that where it took you or is did you have that open? Yeah. I don't know why. Let me see. Let me send you a separate link. I sent you the link to the the attachment itself and it maybe it didn't come through the right way. So, try that one. And then if you scroll to the bottom of it, um there's a section called energy export credit values. And then at the bottom of that paragraph, uh there's a a small link that says download the export credit document.
+Amber Fu: Okay. I I I think this is a something I can download, right?
+ 
+ 
+00:23:29
+ 
+Connor Prince: Yeah.
+Amber Fu: Okay.
+Connor Prince: or sorry, not uh not that page you were on, but the second link that
+Amber Fu: Okay.
+Connor Prince: I
+Amber Fu: Let me see. Yeah, I see it. Okay,
+Connor Prince: Okay.
+Amber Fu: got you. And and well, so for those like export energy, uh is it typically like visible as a like separate channel in a utility in the row
+Connor Prince: Yes,
+Amber Fu: data?
+Connor Prince: it still comes through to like our billing our billing agent. They'll get a separate lead for the the generation channel. So, it's not it's not mixed or um included with consumption.
+Amber Fu: Uhhuh.
+Connor Prince: Oh, yeah.
+Amber Fu: Okay. So,
+Connor Prince: It does separately.
+Amber Fu: gotcha. So, under the solar building plan, the building engage trade import and export separately instead of netting them together.
+Connor Prince: Exactly. Yeah.
+Amber Fu: Okay. Gotcha. Gotcha.
+Connor Prince: And that's the main difference or
+Amber Fu: Do you Yeah.
+Connor Prince: sorry
+Amber Fu: Do you think the customer actually understand those different between like old name program and the new solar building building plan?
+ 
+ 
+00:24:52
+ 
+Connor Prince: uh to honestly no. Um but to to clarify,
+Amber Fu: Okay.
+Connor Prince: there are customers that are like engaged with solar and like actually paid attention to the installation, pays attention to their bill and obvious, you know, wants to know what they're going to get paid, those people are aware of the difference and now that about a year and a half, two years has passed,
+Amber Fu: Mhm.
+Connor Prince: um more and more people, it's become more commonplace. Um, but that's I think the regular customer realistically does not know the difference. Um, I think they probably notice that the credits are lower if they were on NEM previously. That's definitely always, you know, a talking point with customers. Um so it is difficult to convey and I think from it's getting better like I said but ultimately it I think it was just customers getting used to the idea or becoming somewhat okay with the fact that they were going to get less in credits because I think the big argument for them installing the solar in the first place and the solar installer selling it to them was that you know they'd be able to pay it off within a certain time frame based off NEM credits.
+ 
+ 
+00:26:10
+ 
+Connor Prince: But now they're getting if they've transitioned over to solar billing plan, they're now getting less. So, um, it's not, you know, impossible to convey, but it's it is a conver a more in-depth conversation than it was with them,
+Amber Fu: Got you.
+Connor Prince: for sure.
+Amber Fu: Gotcha. Gotcha. Okay. Thank you so much. That's a really valuable information.
+Connor Prince: Yeah.
+Amber Fu: This help us a lot. And oh and also uh for your experience like what the most re reliable data from like reconstructing like residential uh electricity bill well like the interval use stage data or like a building statement like which one you think is more uh like reliable?
+Connor Prince: Um, I guess depending on I guess it's all just based off of timeliness. I guess I would say for ultimate accuracy in your example, the billing statement would be make the most sense because that's what build that reflects the billing system like exactly
+Amber Fu: Oh, okay.
+Connor Prince: what was built. But not to say that green button data or like P Gen has a platform called share my
+ 
+ 
+00:27:16
+ 
+Amber Fu: Uh-huh.
+Connor Prince: data. Not to say that those are are incorrect or oftentimes it it should match exactly what's on the bill, but um just there are billing corrections and billing revisions that go out that don't
+Amber Fu: Mhm.
+Connor Prince: necessarily make it out to those data sets um as quickly.
+Amber Fu: Mhm.
+Connor Prince: Um but those are very like for a lot of our third parties that we work with do utilize that those platforms and have established APIs with those um those databases and that's what we base a lot of work off of. So it's it's definitely still I think for this purpose would be would make the most sense. Uh, I think it just is ultimately trying to speed up the re or the real time aspect of it or try to get as close to real time as you can is just the the
+Amber Fu: Mhm.
+Connor Prince: challenge with that.
+Amber Fu: Got you. Got you. And like how about the smart meter data?
+Connor Prince: So I guess the the only way I think the only way at least P Gen can bill on interval is if the customer has a smart meter.
+ 
+ 
+00:28:28
+ 
+Amber Fu: Mhm.
+Connor Prince: They've pretty much updated I I don't I don't know what a a good percentage would be just because I don't have just because I don't work for them but I think they've there I would say at least um 80 to 90% of the meters in Peny's territory are all smart meters now. So I don't know what other platforms as
+Amber Fu: Oh.
+Connor Prince: far as right now like they don't I don't think they give any direct accessibility to anyone um to the meters directly um at this point. Um but all of those meters are what are what are reporting the 15 interval 15 minute interval excuse me uh data to those to to green ultimately green button and the share my data platform.
+Amber Fu: Got you. But how but how different are like residential tariff uh structure across like a utility in California? Is that like a very different for from each utility or there have some base
+Connor Prince: No, that's a good point.
+Amber Fu: common?
+Connor Prince: I'd say they're they're all very similar. Uh ult uh ultimately they're very similar in structure.
+ 
+ 
+00:29:40
+ 
+Amber Fu: How about SJ?
+Connor Prince: SG is similar. I think the most confusing they have uh a set of toou rates and I feel like uh SDG& has also been supporting some older they call them grandfather rates longer than the other utilities. P Gen's retired.
+Amber Fu: Uhhuh.
+Connor Prince: Um I feel like most of their obsolete rates when it comes to um updated like time of use pricing, but they're they're all very similar where they have a structured time of use rates.
+Amber Fu: Uhhuh.
+Connor Prince: And I I don't think the rates really or the excuse me, the the the peak times really fluctuate. The peak time for each utility is between 3 and 900 p.m. U peak pricing when that gets charged.
+Amber Fu: Mhm.
+Connor Prince: Most commonly it's 4 to 9 and then there's another rate that's 3 to 8 pm 3 pm to 8 pm I should say.
+Amber Fu: Mhm.
+Connor Prince: Um, so they're they're they are similar. The prices differ obviously and some utilities or some of them have different taxes um fees assessed depending um wildfire risk is a very big issue for Pacific Gas and Electric P Gen. they have uh a lot of taxes factored in for that for those costs compared to not that Edison or um San Diego don't, but they're just kind of structured differently.
+ 
+ 
+00:31:06
+ 
+Connor Prince: So that's one kind of key difference our tax and fees outside of the tariffs. So I don't know how applicable that is here, but um all that to say the structures are very similar. They just may differ slightly in um the timing as far as the time day. just slightly though because California is pretty uniform when it comes to the can the shift of um like when peak usage time is. Um 4 to 900 p.m. is pretty rock solid for peak time across each of the three main utilities
+Amber Fu: Mhm.
+Connor Prince: here. Um so yeah, there there are some variations in that like I said, but it's it's pretty um pretty concrete across the board for the most part.
+Amber Fu: Got you. Got you. Got you. Thank you so much and this is really
+Connor Prince: Yeah, of course.
+Amber Fu: helpful.
+Connor Prince: Apologies for the slight rambling, but obviously it's
+Amber Fu: No, it's totally fine because this is what we really needed the information from you.
+Connor Prince: it's
+ 
+ 
+00:32:10
+ 
+Amber Fu: Thank you. Oh, and you know what? We can go to a next part. Um,
+Connor Prince: okay.
+Amber Fu: so the next part will be the uh monthly bill budget. So uh this is like you know uh this part is different from the most app uh well it's not like a optimization target we're not trying to push user bill as low as possible it's more like a tolerance boundary like the user
+Connor Prince: Mhm.
+Amber Fu: telling system oh if my bill end about this number I feel something went wrong I went to early warning
+Connor Prince: Yeah.
+Amber Fu: so yeah so and we we don't let the user tap any random number uh on purpose We just uh ground the goal in two things. One is a user base user last three month bill and another is a user current rate plan. So basically we just show a recommend uh range uh like a the boundary the user can choose from. Yes.
+Connor Prince: That's interesting.
+Amber Fu: And yeah and this is what turned the app from the dashboard into decision system.
+ 
+ 
+00:33:15
+ 
+Amber Fu: So uh basically we uh we we we will have some like you know the automate uh automation like event like you know the peak hour EV charging and ask ask like this event meaningful threaten the users go. So this is uh this yeah this part is uh very different from a most uh the dashboard energy
+Connor Prince: For sure. No. Yeah.
+Amber Fu: app.
+Connor Prince: I don't think I'm I was trying to as you were talking and I was looking at I was trying to think of something comparable. Um,
+Amber Fu: Uh-huh.
+Connor Prince: but I don't I don't think there's really anything that you know attempts to I guess help this in this way or this kind of like not aggreg I don't mean it like aggressively but like helps in you know this kind of effective way of like you know putting it obviously in the customer's face and and letting them know when they're approaching their target or if they're getting too close and and that sort of tracking. Um, so this is, yeah, this is really interesting and I think would would help because I feel like most of most customers ultimately just care about how much they're paying, which makes, you know, is understandable.
+ 
+ 
+00:34:30
+ 
+Connor Prince: Um, so I think I guess so does this connected um, so sorry I'm like thinking out loud here. What if if this is has if you set the range for the customer and they have their smart thermostat, their their EV charger plugged in and all of that. Um, does this also auto adjust any of that any of those appliances or just gives the customer notification?
+Amber Fu: Uh well at the early stage page we have just uh more like uh advice but in the second you know uh second phase we going to do uh automation part like we can uh do it on our app.
+Connor Prince: Okay, cool. Then that was just Sorry, that was just more for like my context and like understanding the um like exactly what it's doing.
+Amber Fu: Yeah.
+Connor Prince: Okay, nice. Yeah,
+Amber Fu: Yeah.
+Connor Prince: I mean even just the like notification and the tracking I feel like is a huge step up um from you know what customers currently have access to.
+Amber Fu: Yes, because like we're uh building is more like a we try to building more like a decision system like for example like uh if like a user may set a monthly and uh electricity budget like uh let's see like uh 150 and like our system uh um estimate the project uh bill for for for the current uh circle.
+ 
+ 
+00:36:04
+ 
+Amber Fu: So if we detected that project bill may uh uh succeeds the user budget, we will trigger the event. So for example, like the system detect the EV charging schedule during the pick hour, let's say like 4 to 9:00 p.m. And this may add like $18 to the month of bill. So the system then uh generate the re like recommend the action like oh delete EV charging to 10 10 pm something like that and estimate while saving like $12. So uh instead of just showing the data well the system trying to active like generate action that help the user stay with their bill budget.
+Connor Prince: Okay. Interesting. Yeah, that that makes sense.
+Amber Fu: Yes,
+Connor Prince: And I I feel like Yeah, that's just the biggest
+Amber Fu: we yeah we try to do like in the future we try to do like
+Connor Prince: thing.
+Amber Fu: auto pallet energy management like yeah we like it's
+Connor Prince: Sure. Yeah.
+Amber Fu: like we call like a goal driven energy system. So it's not just a monitoring
+ 
+ 
+00:37:11
+ 
+Connor Prince: Yeah. No, I like that. You're right. Kind of ultimately like you're saying first,
+Amber Fu: app.
+Connor Prince: you know, helping customers make the decisions and kind of helping them be aware of it and track it and then ultimately down the line um if they're meeting their goal,
+Amber Fu: Yes.
+Connor Prince: then making the changes necessary to meet the the estimator's goal.
+Amber Fu: Yes. Exactly.
+Connor Prince: I like it.
+Amber Fu: Exactly. Yeah. And um or for this part I a few question.
+Connor Prince: Yeah.
+Amber Fu: Uh yeah so from a tariff modeling perspective like how sensitive are residential bill to small behavior like small behavioral change like EV charging
+Connor Prince: Yeah,
+Amber Fu: type.
+Connor Prince: I feel like for EV EV charging for sure uh is a sensitive kind of action behavior. If they charge during on peak, it's significantly more expensive. So depending on how long that their charger's active, it would definitely in incur larger or a spike in the bill. Um I'm trying to think.
+Amber Fu: Mhm.
+ 
+ 
+00:38:16
+ 
+Connor Prince: I feel like the timing of this is interesting because in California also the utilities have just kind of enacted a a base services charge. And so essentially they're doing this to try to lower the price per kilowatt hour rates. But now it kind of changes the logic of asking customers to reduce usage, which would be the traditional way to save money on your bill,
+Amber Fu: Mhm.
+Connor Prince: right? Um, now most customers are charged a base services charge of about $24 a month.
+Amber Fu: Mhm.
+Connor Prince: No matter how much energy they use, like regardless if they barely use any, if they use a lot, they're getting a base charge of $24. Um, and then on top of that, they'll get charged the per kilowatt hour like rate for their actual usage. But but because they're now charging the $24 base um base rate
+Amber Fu: Mhm.
+Connor Prince: or base charge, um they're reducing the per kilowatt hour prices of the rates so that they're not, you know, significantly overcharging. But because they're reducing the price per kilowatt hour, it kind of changes the the performance of bill saving in a way that I apologize.
+ 
+ 
+00:39:44
+ 
+Connor Prince: We're still trying to kind of like understand how to essentially explain it.
+Amber Fu: Mhm.
+Connor Prince: But basically for customers who use low usage, who you know are very efficient,
+Amber Fu: Mhm.
+Connor Prince: don't use a lot of energy, this base services charge and the ch and the corresponding change in the rates is going to cause their bill to go up maybe like $5 or so.
+Amber Fu: Oh.
+Connor Prince: So it's kind of like reverse logic.
+Amber Fu: Oh.
+Connor Prince: reversing logic after you know people you know you tell you typically you tell people to save money and or save energy and you your bill will go down. Well, in the cases of customers that don't use a lot of energy now with this base services charge won't be the case necessarily.
+Amber Fu: Uh
+Connor Prince: But customers that have high energy usage, their bill will with this base services charge,
+Amber Fu: okay.
+Connor Prince: their bill will go down about $5 or or so. So, it's that's what's been at least most frustrating for me is obviously trying to communicate this to customers is for however many since the beginning of of time, I don't know, it's it's been use less energy, save money on your bill.
+ 
+ 
+00:40:57
+ 
+Connor Prince: And now that's not necessarily the case because of this restructure. And it literally just happened this month. So it is very uh fresh here. I think in San Diego it it happened or started in December and um Edison um January or February and then Pug Genie it began March
+Amber Fu: Uhhuh.
+Connor Prince: 1st.
+Amber Fu: for this year,
+Connor Prince: Yeah.
+Amber Fu: right?
+Connor Prince: Correct. Like current charges billing billing out now.
+Amber Fu: Oh, okay.
+Connor Prince: Um,
+Amber Fu: Mhm.
+Connor Prince: so the good news is I guess with that is that the base charge is flat.
+Amber Fu: Mhm.
+Connor Prince: It's not it's it's not something that fluctuates year to year,
+Amber Fu: Mhm.
+Connor Prince: but not not dayto day or monthtomonth. Um,
+Amber Fu: Mhm.
+Connor Prince: but it is something to definitely account for in this budget amount for sure. And as far as the tracking goes,
+Amber Fu: Mhm.
+Connor Prince: I imagine it's largely based off of usage projections.
+Amber Fu: Uh well that's really helpful information and I have a few question from that.
+ 
+ 
+00:42:00
+ 
+Connor Prince: Yeah,
+Amber Fu: Well that's totally new new info uh for for for me and
+Connor Prince: definitely.
+Amber Fu: well the first well like how sensitive are the bills to load shifting today.
+Connor Prince: Um, I would say they're still sensitive. I just think because it's just happening, I haven't been able to see like a multimonth kind of like example to see like month over month how customers bill shifted based off of their
+Amber Fu: Mhm. Mhm.
+Connor Prince: usage like traditionally with this charge. Um,
+Amber Fu: Mhm.
+Connor Prince: I'd say at the end of the day though, it's still effective for load shifting. There's still a lot of like programs that our programs team and um other utility teams are are trying to you know have customers participate in to shift load. Um I think it's ultimately the effectiveness is dependent on the
+Amber Fu: Mhm.
+Connor Prince: display of the effect of the customer's actions for like for this for your example here.
+Amber Fu: Mhm.
+Connor Prince: I feel like this is this it would have to be something like this where the customer can physically see like my bill is currently projected for this.
+ 
+ 
+00:43:17
+ 
+Connor Prince: If I start, you know, using a little bit less energy, it'll it'll keep either keep me on target or it'll make help it go down a little
+Amber Fu: Mhm.
+Connor Prince: bit. Not as much as it would have before the base services charge, but still a little bit.
+Amber Fu: Mhm.
+Connor Prince: I'm trying to kind of quantify that into into something, but it's just it's a little difficult just because we haven't seen multiple months build yet. It's only been um just one
+Amber Fu: But like with like a new base service chart like do you think the customer will still be
+Connor Prince: um
+Amber Fu: motivated to optimize uh their energy usage or will the price signal will become like a weaker
+Connor Prince: No, no. And maybe that's what I should have started with. No, I think the the the signal and and that action is still effective. I think like especially for EV charging,
+Amber Fu: No.
+Connor Prince: like a customer charging their car during peak hours versus the middle of the night when energy is cheaper, that'll still have a a a huge effect on the bill for sure.
+ 
+ 
+00:44:22
+ 
+Connor Prince: Um I guess I was more thinking for cases where customers are using appliances that don't
+Amber Fu: Um,
+Connor Prince: draw quite as much energy. But for at at least for the EV charger and maybe you know certain customers that typically use a lot of energy, those price signals would still be effective and still um be relevant. Certainly um I definitely wouldn't I wouldn't say that they're, you know, not uh not worth it at all anymore or like not wouldn't generate the effect you're looking for. Um,
+Amber Fu: Got
+Connor Prince: I think it's just just or just being aware of that kind of change to the
+Amber Fu: you.
+Connor Prince: that change to the rates because of the base services charge to where the the effect of that load shift may be slightly less than it would have been prior just based on the rates because at least in California electricity prices are are always a a sensitive topic because they have kept increasing.
+Amber Fu: No.
+Connor Prince: So from a customer perspective there's um with certain entities with P Gen specifically there's there's been a loss of trust and so customer communication is always we always try to be well thought out because of all changes and still have an effect like you're saying of of you know creating load shifting events with our programs or or kind of price signals that kind of thing.
+ 
+ 
+00:45:48
+ 
+Amber Fu: Gotcha. But like do you expect the base service charge to increase future in the next few years?
+Connor Prince: As of right now, they haven't communicated that. It's unfortunately it's all kind of based on those three utilities. Um, Edison, and San Diego. Um,
+Amber Fu: Uh
+Connor Prince: it it could increase slightly, but it's at least I think it would be a nominal increase of like 50 cents to a dollar. I don't think it would increase drastically. Unfortunately, the the cause for that charge is is wrapped up in a lot of wildfire lawsuits and and um issues that that are out of our control and
+Amber Fu: Mhm.
+Connor Prince: are more related to P Gen that they're kind of essentially putting the costs of those things on rate payers
+Amber Fu: And
+Connor Prince: and that's kind of what's creating the changes here. Um, I wouldn't be surprised if it went up,
+Amber Fu: here.
+Connor Prince: but I I think it should be at least steady for a year or two and then after that, depending on either other natural disasters that come up where P Gen has to pay to um bolster their their poles and wires and their transmission infrastructure.
+ 
+ 
+00:47:04
+ 
+Amber Fu: Mhm.
+Connor Prince: I I it should it should stay relatively steady um within a within a dollar
+Amber Fu: Uhhuh.
+Connor Prince: um past that I would be I would be surprised at this point. Um, but it is new and you know un P gen drastic changes in the past.
+Amber Fu: Uhhuh.
+Connor Prince: So, I it's not possible, but I think I don't think they're trying to kind of stir the pot, for lack of a a better word, with customers or more than they already have, disrupt um the trust more than they already
+Amber Fu: Gotcha. Gotcha.
+Connor Prince: have.
+Amber Fu: But this like you know like the base uh like this this change policy will start at this year right.
+Connor Prince: Yeah, it started last month.
+Amber Fu: Oh last month's oh okay
+Connor Prince: Yeah. So this so this is the they've been they had been talking about it for a year or two and
+Amber Fu: got
+Connor Prince: that um P Gen's effective date for this charge was March 1. So we're only 11 days out from it. So we don't also have a lot of data on customer bills to see that effect yet.
+ 
+ 
+00:48:05
+ 
+Connor Prince: But um but yeah, it's it's very fresh.
+Amber Fu: Do you think the the customer need this policy?
+Connor Prince: Uh I would say 70% of them did not just because of the way people pay attention to their bills. Uh I think for a lot of people it's just something they have to pay and they don't really look at it
+Amber Fu: just
+Connor Prince: unfortunately. I mean I understand it to an extent but also it's like I don't know you you at least want to look into it a little
+Amber Fu: but yeah but I have a question.
+Connor Prince: bit. Yeah.
+Amber Fu: So if they change it uh under those policy uh some user bill will be go up
+Connor Prince: Yeah,
+Amber Fu: right?
+Connor Prince: if they were to change the price then yeah,
+Amber Fu: Yes.
+Connor Prince: bills could go
+Amber Fu: And the user will be found out.
+Connor Prince: up.
+Amber Fu: But how they going to find out like how they can figure out like why their bills goes up? Well, are they going to show it on their bill or like tell them like how to calculate it or is there another way way like user can find out by theirel or like
+ 
+ 
+00:49:10
+ 
+Connor Prince: Yeah.
+Amber Fu: a call the customer service?
+Connor Prince: Yeah. So, so typically the flow for these inquiries kind of goes like this. Most customers won't even think about it until they get a large bill than that that's what they're used to seeing and they'll they'll call us or they'll call P Gen and they'll say,
+Amber Fu: Yes.
+Connor Prince: "Why is my bill higher?" And then a a a representative will go over the bill kind of line by line and the base services charge will be on there. It's visible to the customer.
+Amber Fu: All right.
+Connor Prince: It says base services charge and this x amount of money. Um, and they can go they can als the the rep can tell them about it, tell them the cause for it. The customer can also go on Pen's website. There's a there's a web page there that has resources for customers to read through,
+Amber Fu: Mhm.
+Connor Prince: but ultimately it's it's based off of the customers one um their their anger or their upset, you know, them being upset over it, understandably so to as far as to how much they're willing to listen or how much they're willing to read on their own or
+ 
+ 
+00:50:11
+ 
+Amber Fu: Yes.
+Connor Prince: research.
+Amber Fu: Yes.
+Connor Prince: Um the information is there on the website.
+Amber Fu: Exactly.
+Connor Prince: It just depends if the customer is willing to look up look at it look it up or call one of the contact centers to get information about it. But all that said on the bill I don't know if it really it doesn't describe what the charge is how it was calculated. It's just a flat build amount. And there may be in the swim lane or some other area of the the billing statement, there may may be a small blurb about, you know, this is the there's a new charge called the base services charge, but it doesn't go into detail for the customer.
+Amber Fu: Mhm.
+Connor Prince: Um, so leaving them to essentially reach out or um look it up on on the
+Amber Fu: Yeah.
+Connor Prince: website.
+Amber Fu: Exactly. Exactly. Got you. And um so like when util like when utility calculate the residential bill like what especially like under the new policy like what do you think in your experience like what are the most common mistake people people make when they're trying to model those tariff
+ 
+ 
+00:51:26
+ 
+Connor Prince: for from a customer perspective or from like the people that are setting the rates.
+Amber Fu: uh for the customer uh perspective
+Connor Prince: Um, I think for for for a non-solar customer, I feel like it's more just understanding the difference or how how their service is kind of structured. Like electric service in California, there's two different parts. There's the distribution uh transmission delivery, which is the physical transmission of the power across poles and wires to their
+Amber Fu: Mhm.
+Connor Prince: home. And then there's the generation portion which is what my organization is responsible for um in San Monteo County and that's essentially actually procuring the power from in our case um solar farms, wind farms, geothermal more renewable sources and buying that buying that power to put on the grid for on the customer's behalf. And so there's those two separate services.
+Amber Fu: Mhm.
+Connor Prince: And a lot of times customers think that maybe the generation portion is a duplicate charge or they're getting build for something they shouldn't be,
+Amber Fu: Mhm.
+Connor Prince: some extra program. And it's it's understandable because the there's a P Gen bill page for the transmission and
+ 
+ 
+00:52:43
+ 
+Amber Fu: Mhm.
+Connor Prince: delivery and that has the itemized per kilowatt hour per TOU period prices and kilowatt hour quantities. And then there's a second page for the generation portion of the bill and that also has itemized per kilowatt hour um prices for the different TOU periods. So, it's just more I think the once they understand that there's two parts to the service and they're not getting duplicate charges or they're not getting served something they shouldn't, then I think it's it's more digestible or the the pages themselves and the calculations themselves. So, that's for non-solar though. So for solar,
+Amber Fu: Mhm.
+Connor Prince: I feel like a lot of customers feel like if they have solar on their house, that means they don't need to buy energy from anybody.
+Amber Fu: Mhm.
+Connor Prince: And that's just them not paying attention to how much power their systems producing or just kind of having assumptions, stereotypes about solar where it should just be house. Um, and then I think but from a calculation perspective, I think NM is pretty straightforward. Um, because it's all netted out.
+ 
+ 
+00:54:00
+ 
+Connor Prince: So all the math makes on the bill.
+Amber Fu: Mhm.
+Connor Prince: You can you can do the calculations of a per kilowatt hour by X dollar amount adds
+Amber Fu: Mhm. Mhm.
+Connor Prince: up to this credit or this charge. That that's all more trackable. But for the solar billing plan, like I said, for the the energy export credits, since it's a separate channel, um, and there's so many different prices, the customer can't look at the bill page and then do that same math and get to that calculation because they can't see the prices for their um, their generation that they were credited at for their generation because they're per hour and it changes every hour. and you know, Pen wouldn't be able to display all that on the bill just from a character limit perspective. Um, so I'd say that's probably the biggest complication where the customer can't do the math themselves and make it make sense for themselves on the
+Amber Fu: Got you. Got you. Got you.
+Connor Prince: bill.
+Amber Fu: But are there any change category that should never be offset by solar credit?
+ 
+ 
+00:55:06
+ 
+Connor Prince: Usage wise, you mean like consumption that would never be offset? Um, no.
+Amber Fu: Yes.
+Connor Prince: It should always it there's no unless there's some storage. If a customer has storage and they use from the battery, that's all behind the meter.
+Amber Fu: Mhm.
+Connor Prince: So that that would just they wouldn't get charged for that because that was generated from their
+Amber Fu: Okay.
+Connor Prince: system stored in the solar battery and discharged at the site and that wouldn't
+Amber Fu: Mhm.
+Connor Prince: go past the meter or get accounted for. So in that's even though that's kind of also counts for generation they
+Amber Fu: Mhm.
+Connor Prince: generated and stored it but that if they consume from their battery that would not be accounted for but other than that all other consumption would still um be accounted for in uh comparing it to the generation from their system.
+Amber Fu: Gotcha. Gotcha. Okay. Thank you so much. And this is a lot of information is something new.
+Connor Prince: Of
+Amber Fu: We we we really need it.
+ 
+ 
+00:56:09
+ 
+Amber Fu: That's really valuable for for
+Connor Prince: course. I I appreciate your patience with my descriptions as well.
+Amber Fu: us.
+Connor Prince: I know it's complicated. I'm still, you know, find
+Amber Fu: Yes, it's pretty complicated.
+Connor Prince: myself.
+Amber Fu: Yeah, we still need some time to process the information, but still I'm really appreciate. Okay. So we can move to the next. So uh next we will I will be really quickly to go through.
+Connor Prince: Okay.
+Amber Fu: So uh next part will be a saving card. So the saving card is not just a reward is more like a reflect how the user reason behavior with select goal. So if like user goal is financial toler tolerance boundary the saving will show how much buffer the user uh current have.
+Connor Prince: Okay.
+Amber Fu: And yes and um for for but for this one like I my question is if we calculate saving based on avoiding uh marginal cost what baseline would be uh defensible.
+Connor Prince: So, is this savings basically the inverse of the like budget?
+ 
+ 
+00:57:17
+ 
+Connor Prince: Does that make sense?
+Amber Fu: Yes.
+Connor Prince: Right. Okay.
+Amber Fu: Yes.
+Connor Prince: Um, let's see. I'm trying to think from like a percentage perspective. So, this essentially is telling the customer that they are saving if their usage, you know, based off of their current usage or their current charges, they would save this much on the bill if they were build today. Um, I think for I guess from for California bills are not going down. So, I'm trying to think from a perspective of I think a customer typically could expect to save between five and 10% if they were to respond to and obviously that's a a generalization across customers because usage is individual to the customer and you know we obviously have to make some assumptions there because not all consumers are the same. Um, but 5 to 10% if they were to respond to, you know, price signals or by not charging their EV during peak pricing or using if they have a solar battery by using energy stored
+Amber Fu: Huh?
+Connor Prince: in the battery during the peak hours of of a day or every day, they'd be able to save.
+ 
+ 
+00:58:52
+ 
+Connor Prince: Um, and typically I'd see that's probably the most there there would certainly be customers that would save more for sure, but I'd say like a safe baseline would probably be 5 to 10% just based off of current
+Amber Fu: Oh.
+Connor Prince: um rate prices right now, which are are pretty
+Amber Fu: Okay.
+Connor Prince: high.
+Amber Fu: Um so actually uh so I I try to describe like more uh so when we we have this about like a define like a saving uh if our system recommend an action or for example
+Connor Prince: Mhm.
+Amber Fu: like a shifting EV charging from uh 6 p.m. to midnight and we want to show the user how much money they save. But the question is like what a baseline should we compare
+Connor Prince: Yeah,
+Amber Fu: against?
+Connor Prince: I
+Amber Fu: For example, like user pre behavior or like default pick
+Connor Prince: see.
+Amber Fu: hour or the utility average usage pattern like from your perspective like which baseline would the most defin uh
+Connor Prince: Yeah,
+Amber Fu: defensible.
+Connor Prince: I feel like using the use the user's previous usage is probably this the safest bet there for dis for for on an individual basis because I feel like that's
+ 
+ 
+01:00:11
+ 
+Amber Fu: Okay.
+Connor Prince: kind of the hardest thing to convey to customers sometimes is when we try to you know generalize it and ultimately the best way to provide the customer with their savings is by using their own previous usage.
+Amber Fu: Uh-huh.
+Connor Prince: we're not able to do that sometimes at scale with the number of customers we're communicating with on a certain thing.
+Amber Fu: Uh-huh.
+Connor Prince: Um but this obviously it'd be tied, you know, presumably you have all of that historical usage tied in.
+Amber Fu: God.
+Connor Prince: I'd say, you know, based off of um them charging their EV during peak hours last month or whatever comparison you make, you could compare that usage to then the usage that occurs with during that signal where they adjust their behavior and then that kind of like savings difference. Um I think would make the make make the most sense. And for an EV driver, you know, I feel like you could even I feel like the month before or even for some people, it's very cyclical. I feel like especially those who have a charger at their home, they usually plug it in if they're leaving the house, they plug it in at the same time every day.
+ 
+ 
+01:01:24
+ 
+Connor Prince: if they go into the office or obviously different if they work from home. But um I think that's a a safe kind of like baseline comparison would be like the month before's usage for that particular
+Amber Fu: Got you.
+Connor Prince: customer.
+Amber Fu: Got you. Got you. Thank you so much. And uh yes, this is really helpful.
+Connor Prince: Of course.
+Amber Fu: And yeah and uh we can move to the next is a uh so the below the saving section well this is what we call like the uh execution card well this is where the system move from the awareness to action. So basically the execution card is always trigger relative to the user select goal. So they they only answer one question like oh what action right now most meaningful reduce risk rel uh relative to the user goal. Uh if for in this example like uh we we have the EV charging during the price thing. So it could also be like you know battery charging the high price period or like a solar underperformance or like or a euro grid import.
+ 
+ 
+01:02:34
+ 
+Amber Fu: So the uh con content change but the structure stay con uh
+Connor Prince: Mhm.
+Amber Fu: constant. So and also uh when you click view view more and there will have uh like the more detail thing uh is uh it's like a full event detail page like where we explain like re reasoning behind the recommendation.
+Connor Prince: Very cool. I like it.
+Amber Fu: Yes.
+Connor Prince: That's cool that you outline the
+Amber Fu: Yes. Basically like we separate the execution from the explanation.
+Connor Prince: details.
+Amber Fu: The card is for like a quick decision making and the event detail page wi- which is like right now this page is more like uh
+Connor Prince: Yeah, that's nice.
+Amber Fu: transparency.
+Connor Prince: I like especially from you know a customer perspective having the quick view is is helpful. You know people who know what they're doing will go okay and they'll just look at people who don't they can click into this and actually outlined
+Amber Fu: Yes. Yes. Yes. And um for from your perspective,
+Connor Prince: issue
+ 
+ 
+01:03:39
+ 
+Amber Fu: does it does this make sense to trigger uh execution suggestion related to a financial boundary rather than you know pure optimization?
+Connor Prince: Yeah, I think for this example in particular, yeah, it would this certainly, you know, makes sense.
+Amber Fu: Mhm.
+Connor Prince: Like I think especially tying in the the solar production of their system and the power wall and um obviously the the rates and the rate prices being higher and the the EV being plugged in during those times is is the biggest thing um and the low hanging fruit,
+Amber Fu: Mhm.
+Connor Prince: but I think having that all insight for the customer that also their solar system played a part in that and in the lack of savings for that period. um I think is is pretty beneficial as well.
+Amber Fu: Got you. But when like surf facing and uh execution recommendation like this, should we always include uh estimate financial impact or would that risk or simplify the building structure?
+Connor Prince: Yeah, I think you'll it'll always be a risk to give the customer a dollar amount if um like a dollar amount savings or missed savings.
+ 
+ 
+01:04:59
+ 
+Connor Prince: Um, if it's not at least within $2 of what's act what actually occurs,
+Amber Fu: Mhm.
+Connor Prince: I think that's probably the a safe bandwidth. Um, but also at the same time,
+Amber Fu: I know.
+Connor Prince: people react more when they see the dollars as opposed to just, hey, you shouldn't have plugged your car in during the high prices. you you paid more money than you would have if they see 12, 20, $30, whatever it ends up being, however long it's plugged in. I do think that probably ultimately has a greater impact on customer action. So if if you're able to kind of find a fine line in the calculations of like the rates that were active at that time and the kilowatt hours that were utilized and just all of those like values that go into the calculation behind the scenes, as long as those are all um reliable and and and concrete, I think the dollar amount would probably have the biggest impact um even with the the
+Amber Fu: Got you.
+Connor Prince: risk
+Amber Fu: Got you. And under a typical like a residential tu tariff like which behavior usually create the largest uh cost exposure for from your experience.
+ 
+ 
+01:06:14
+ 
+Amber Fu: I know the EV charging probably the most, but like uh when we we we we talked to a lot of uh users in California and some of those saying that uh the AC and the laundry
+Connor Prince: Yeah, I'd say AC would be the the second biggest one, if not maybe the biggest one over EV charging, kind of like you said. um just just with the the different climates in in California and um just climate change and the way the summers are getting hotter and the the winters are getting hotter. I don't know where you guys are at, but it's felt like summer here. It's been like 85 degrees and it's March and that's not been typical. So, I feel like AC is definitely a huge thing.
+Amber Fu: God.
+Connor Prince: Um I think also water heaters. Um, a big pro,
+Amber Fu: Mhm.
+Connor Prince: one of our biggest programs is kind of providing incentives for customers to upgrade their heat pump water or sorry, their water heaters, gas, their gas water heater to a heat pump, water heater, um, which is just more efficient and essentially reduces their usage heavily.
+ 
+ 
+01:07:22
+ 
+Connor Prince: So, I'd say um heating and cooling for sure, like you had said, air conditioning uh and and water heating um are huge ones as well. And even though a lot of older water heaters or traditional water heaters use gas, that gas prices fluctuate more than electricity prices and can often spike without
+Amber Fu: Mhm.
+Connor Prince: warning. And that's that obviously adds up to their total bill as well.
+Amber Fu: Mhm.
+Connor Prince: Not that it'sable in this format, but um I think just you know pushing for electrification in those appliances as well just ultimately helps for tracking but also helps for behavioral shifts like you're saying. So um I'm trying to think offhand too. I haven't I I understand laundry for sure. I haven't heard it directly from customers uh at least as much as AC and um and water heaters. Um, I'm trying to think of maybe one other thing, but I think those are honestly the the three largest for
+Amber Fu: Got you.
+Connor Prince: sure
+Amber Fu: And are the are the holiday trade differently?
+Connor Prince: holidays.
+ 
+ 
+01:08:34
+ 
+Connor Prince: Uh, yes. Um,
+Amber Fu: Yes.
+Connor Prince: the tariffs have changed a little bit. Um, holidays are typically treated like weekends, weekend days.
+Amber Fu: Oh, okay.
+Connor Prince: Um, sorry, just pulling something up real quick to to double check. But yeah, typically a holiday is will be subject to weekend prices. So typically weekend days for um for some rates will be all off either part peak and off peak or uh shorter on peak hours.
+Amber Fu: And
+Connor Prince: Um but I think a lot of time of use rates here are actually shifted to where week days and weekends are treated the same. Um meaning that there's a peak part peak and off- peak. um every day no matter weekend or holiday.
+Amber Fu: got you.
+Connor Prince: Um but
+Amber Fu: Got you.
+Connor Prince: yeah.
+Amber Fu: Got you. Okay. Thank you so much. And uh we can do let's quickly move to next part. Well,
+Connor Prince: Yeah.
+Amber Fu: next part will be the the usage uh usage part and uh so for this part is more provides you know like a layer behind the goal and the execution financial exposure.
+ 
+ 
+01:09:53
+ 
+Connor Prince: Mhm.
+Amber Fu: Um and so and the question is like uh when like a mapping uh interval data to the TOU are there tier uh threshold or like seasonal baseline what we must apply before the calculating exposure?
+Connor Prince: like baseline usage for this particular
+Amber Fu: Yes.
+Connor Prince: graph.
+Amber Fu: Yes.
+Connor Prince: Um, yeah, I think this is this is kind of what I was referring to where I feel like there is no display of this on a on an interval basis currently with like current um customer portals. um the data is there,
+Amber Fu: Uhhuh.
+Connor Prince: it's just not shared fast enough. So that's where I'm I'm curious about how you might be able to make that work.
+Amber Fu: Okay.
+Connor Prince: Um like like I said, the data is available. It's just the timeliness.
+Amber Fu: Mhm.
+Connor Prince: Um but I think ultimately like I'm thinking of what I see on my Edison portal. It's it's essentially pretty similar. albeit it's it's not broken out by hour like this. So that alone would be whether it's you know the day of or a week later regardless like that would still be um be a nice upgrade but I don't think there's anything additional.
+ 
+ 
+01:11:35
+ 
+Connor Prince: Um I think this the baseline would essentially just be that usage that interval usage that you're getting or that you'd be utilizing to display here. Um, that's kind of what's traditionally been been tracked. And I don't there's not like there the only other charges or or fees associated with that are on the bills. None of those are like a um they're not really
+Amber Fu: Mhm.
+Connor Prince: backtrackable where the customer can't figure out how the calculation was done. It's just a charge on the bill. They're pretty minimal,
+Amber Fu: Mhm.
+Connor Prince: but um I don't think that would really be of use here in this dashboard or display. So, no,
+Amber Fu: Mhm.
+Connor Prince: I I think this is this is what I would expect to see honestly
+Amber Fu: Got you. Got you.
+Connor Prince: here.
+Amber Fu: Uh okay. Uh one more question for me is um let me let me see. I I I kind of like, you know, process the info,
+Connor Prince: Oh, of course.
+Amber Fu: right?
+ 
+ 
+01:12:47
+ 
+Connor Prince: Yeah. Know I've found myself doing the same even on this call.
+Amber Fu: Okay.
+Connor Prince: So, it's not a
+Amber Fu: Yes. Okay. So,
+Connor Prince: problem.
+Amber Fu: basically like uh uh the so like what's the inter interval data do utility typically provide is I think it's usually 50 minute data, right?
+Connor Prince: Correct. Yeah, it's it's only 15
+Amber Fu: Okay.
+Connor Prince: minute.
+Amber Fu: But how will be delayed in interval data typically available to third
+Connor Prince: Yeah,
+Amber Fu: party?
+Connor Prince: I think that's at least a couple days maybe two days.
+Amber Fu: couple
+Connor Prince: Um because I'm think because the way it works essentially is the data flows from the
+Amber Fu: days.
+Connor Prince: utility to us who are like the direct partner with them and then from us we will then flow that through different we have a data warehouse we upload it to our data warehouse and then we have APIs set up there to where we share that information with the third parties.
+Amber Fu: Mhm.
+Connor Prince: Um, so for the interval usage, it's to display in something like this.
+ 
+ 
+01:14:02
+ 
+Connor Prince: That's that's what my concern was was I'm just not sure on the timeliness they're able to provide it. It it it's it could be a day or two days when we get that kind of like final build amount. There are like different data sets that are estimated and but you know obviously that is
+Amber Fu: Mhm.
+Connor Prince: not the defining bill bill quality data. Um so sometimes there's delays with that but I would say it could be one to two days um just just depending on the data flows. I want to say there's a daily sync where we get that information and then uh once that gets uploaded depending on that usually takes us a day to upload to our system and update everything and then from there I think our our third parties can access it. Um, so ultimately it just depends how many how many hands it's changing over if that makes sense. Like how many how many entities the data is passing through before it gets to you. If you're getting it direct from the from the source then it's probably a day.
+ 
+ 
+01:15:06
+ 
+Connor Prince: But if you're not, then it could be two days if that makes sense. It just kind of depends. And I apologize.
+Amber Fu: Yes.
+Connor Prince: I know it's not the most clear answer,
+Amber Fu: Yes.
+Connor Prince: but there are there's just a lot of different it just depends on who's getting the data from who and and and when.
+Amber Fu: Yes.
+Connor Prince: Um.
+Amber Fu: Uh but like when like interval data is a delay by a let's say about like a day or two is that fairly constant across the
+Connor Prince: Mhm.
+Amber Fu: utility or does that is vary a lot?
+Connor Prince: I think P Gen is it's the delay is consistent. I think P Gen is a little bit faster. I think the I guess for context the issue is because these
+Amber Fu: Okay.
+Connor Prince: three utilities have not really had incentive to share this data right like technically my organization is a competitor even though we're working with them and we rely with rely on
+Amber Fu: Um
+Connor Prince: them to use poles and wires to get the energy to our customers.
+ 
+ 
+01:16:10
+ 
+Connor Prince: So it's there's an element of politics where they don't want to just give us everything we want or
+Amber Fu: All
+Connor Prince: share all this information. they have to, but they don't necessarily have to do it as quickly as we want it.
+Amber Fu: right.
+Connor Prince: So, there's that element at play as well. But, um, because we don't own the meters, we don't have a direct signal to the smart meters to have that read right away. We have to have P, in our case, P Gen read that meter, process that usage, and then send it to us. and it just depends on on that timeline as well.
+Amber Fu: Mhm.
+Connor Prince: Um,
+Amber Fu: Okay.
+Connor Prince: I'd say that that structure and like politic structure is consistent throughout the
+Amber Fu: Mhm.
+Connor Prince: state. I think it's getting better. It's it's definitely come a long way already. Um, but it's still not as efficient as as we'd like it to be. Um, mainly because we don't own the metering infrastructure. So, I don't know in other states wherever you might be working, if there's not that kind of layer, it may be a lot easier and a lot quicker um to get that access to that usage if you're working with the utility directly or whoever might have access to the
+ 
+ 
+01:17:24
+ 
+Amber Fu: Um so but like do device like EV charge char chargers or like solar uh in uh solar or like home battery uh typical provide realtime data through the API.
+Connor Prince: Yeah, that's that's that's correct.
+Amber Fu: Okay.
+Connor Prince: And I'm trying to think maybe for certain for certain customers or certain not certain customers, certain setups like a solar customer where their their usage is obviously um like a Tesla battery and a Tesla roof would come with a Tesla app and Obviously
+Amber Fu: Mhm.
+Connor Prince: that's producing numbers and performance numbers to the customer and they can read that through a separate app or a separate conduit but that that data does not
+Amber Fu: Mhm.
+Connor Prince: match what P Gen is necessarily billing exactly like there have been cases which I realize is counterintuitive but there have been instances where a customer has been watching their you know their their Tesla app looking at the performance of their system and they're, you know, convinced that the numbers it's reporting are not matching what Pines build or what Pines meters have read. And that's ended up being true.
+ 
+ 
+01:18:44
+ 
+Connor Prince: And ultimately, I I'm not sure as far as like the meter mechanics like how that would be potentially incorrect or why those wouldn't be reading the same. Um,
+Amber Fu: Mhm.
+Connor Prince: but there have been cases where essentially the c the the read or like the the data of record is always going to be what the utility reads on the meter, not what the customer sees on their monitoring app or on their solar app, which I realize is frustrating and and confusing and and still trying to kind of understand the gap there myself.
+Amber Fu: Got
+Connor Prince: Um but there is kind of a gray area there
+Amber Fu: you.
+Connor Prince: where there's potential for mismatch. And in that case,
+Amber Fu: Mhm.
+Connor Prince: if there were, then the customer could just reach out to customer contact center at P Gen or whatever the utility is,
+Amber Fu: Yeah.
+Connor Prince: whoever the utility is, and kind of confirm that, provide their numbers and compare. So there's kind of a there's a remedy for it. It's not just like a wall.
+ 
+ 
+01:19:46
+ 
+Amber Fu: Are
+Connor Prince: Um but there are discrepancies there in the reporting for for solar customers for
+Amber Fu: you
+Connor Prince: instance. Um EV charging should be the same because that charger runs through the meter of the house. So that should all be running through the same thing. So that should all match up with what a customer sees from their their charging app. Um, but solar is uh there's some some gray area there and and some weird kind of data gaps there as far as what the system is the system monitoring app is reporting versus P gen what P gen bills for. Um, and I'm sorry I know that was a little bit all over the place.
+Amber Fu: Yes, it's okay. Well, we we I yes, this is really uh valuable information. So, uh if we but since like if we only receive interval data with like one day delay or two day delay, do you think it would still be reliable enough to the customer end of the monthly bill?
+Connor Prince: Honestly, yes. Because the refresh rate on all the utility apps and everything,
+ 
+ 
+01:20:53
+ 
+Amber Fu: Okay.
+Connor Prince: I know it it would in that scenario that wouldn't be your goal. That wouldn't be your ideal performance. And I'm not saying that's still not possible, but even if that were the case, it would be a leg up from what the utility provides because the data accessibility is they're just they don't put any money into the platforms. They don't put any money into the software that they use for those.
+Amber Fu: Mhm.
+Connor Prince: It's the same stuff they've been running for 20 years. Um, and honestly it's personal experience it's frustrating because I can't even after I have to wait a whole month after my usage is build to then see a breakdown of what I used on peak in the app like what I used on peak off peak like each
+Amber Fu: Mhm.
+Connor Prince: day like itemized out. I can't even see it within like a week. So like even if you were able to get it within like a couple days that would still be a massive improvement than what is displayed um at least with with Edison in my experience and and P gen too.
+ 
+ 
+01:21:57
+ 
+Connor Prince: I think just having more consistency and reliability would alleviate a lot of frustration
+Amber Fu: Mhm.
+Connor Prince: from customer perspective and monitoring their usage and
+Amber Fu: Mhm.
+Connor Prince: bills.
+Amber Fu: Yes. Yes. Exactly. Okay. Got you. Got you. Thank you so much. This is uh again valuable information.
+Connor Prince: Yeah, of
+Amber Fu: Okay. And uh we uh let's quick move on the saving page.
+Connor Prince: course.
+Amber Fu: The saving p uh saving tab will be the most important uh important uh yeah part to the this app.
+Connor Prince: Yeah.
+Amber Fu: So uh basically uh the saving we separate to the saving and the bail. You can see the top there have a separate page and the savings is more like a the user
+Connor Prince: One.
+Amber Fu: behavioral impact and the bill is more like official utility accounting. Yes. And uh so when you see like the the monthly saving is this is like a
+Connor Prince: Yeah.
+Amber Fu: accumulate a vault cost based on the event level adjustment.
+ 
+ 
+01:23:02
+ 
+Connor Prince: Okay. Yeah. So based off of whatever adjustments they made or the system made during the events that were called each
+Amber Fu: Yes. So uh the question is if we calculate saving based on the counterfactual modeling
+Connor Prince: month.
+Amber Fu: what the baseline would you consider defensible like a same month last year or rather normalized or tariff uh simulation
+Connor Prince: Yeah, I think I think same month last year because of seasonal changes. Um, obviously summer usage going back to the AC here in California, a lot of people use a lot more AC in July through September than they do the rest of the year.
+Amber Fu: Uh-huh.
+Connor Prince: So, I think it would be best to keep it to the same month of the year.
+Amber Fu: Uh-huh.
+Connor Prince: Um but then also kind of accounting for I don't know about maybe in the calculation but the the shift in rate prices too. Typically at the the last couple years there's been a rate price update once a year
+Amber Fu: Uh Mhm.
+Connor Prince: uh at least in California or for P Genely takes effect January
+ 
+ 
+01:24:09
+ 
+Amber Fu: Mhm.
+Connor Prince: 1. Um, so I think you know if if anything if a customer say their their um their savings report here said on in August of last like if last month was August they saved $55 um and then they look back at the previous August and it says they saved um I don't know a couple dollars less or they saved a couple dollars more last August than they did this August. Maybe a disclaimer if you're able to monitor that there was a price update where the t the price per kilowatt hour was higher this year this time this year than it was this time last year.
+Amber Fu: Mhm.
+Connor Prince: So you not that the customer maybe they don't ask but they're you know maybe they look and they say why did I only save 55 this month but last August I saved $60 or $65. Um, and make pointing to that change in rate price could potentially like alleviate that or or make make that make sense. Um as
+Amber Fu: Got you. Got you. Okay. Thank you.
+ 
+ 
+01:25:20
+ 
+Amber Fu: And uh and and under that we'll have like the event this month. So basically we are here we try to like attribute saving by system category. So this is like a prevent a black box like clam and keep the saving explanable and so you can see like they have a like EV charging solar power and
+Connor Prince: Mhm.
+Amber Fu: polar charging. Uh when you click on those one of those there have a detail and when you click the detail is more like show we how we calculate the bottom sheet.
+Connor Prince: Yeah,
+Amber Fu: Uh
+Connor Prince: that's Oh, and even more so when you click into it again.
+Amber Fu: yeah.
+Connor Prince: Huh. That's pretty cool.
+Amber Fu: So uh this is where we uh the the calculation logic is yeah you can see like there have like what happening like what's matter how the calculate and what what we suggest to the customer do the
+Connor Prince: Yeah, that's that's really nice.
+Amber Fu: next
+Connor Prince: Honestly, I I don't I think having the calculation there and all the pieces for the customer to replicate is huge and um actually really helpful and just helping it keep everything concise and understandable for the customer to kind of figure out on your own, which is I think what's what's your main goal obviously with this.
+ 
+ 
+01:26:48
+ 
+Connor Prince: Um and I I think that transparency would would go a long way as
+Amber Fu: Yes.
+Connor Prince: well.
+Amber Fu: And uh for here my question is sorry my question is does this calculation layer match how the utility apply to U rate difference or like are we missing like step like their threshold or minimum bill enforcement.
+Connor Prince: No, this is correct. I was trying to think of of how to explain from a per kilowatt hour like charge basis.
+Amber Fu: Mhm.
+Connor Prince: For all intents and purposes, I think this is this is definitely correct. And this is how like it would be displayed. The only thing it doesn't account for is just taxes and fees on the bill. And like we talked about,
+Amber Fu: Mhm.
+Connor Prince: it doesn't account for the baseline services charge. Not that that should be considered here, but I don't think that I don't think that matters because I think ultimately what this is displaying is the
+Amber Fu: Mhm.
+Connor Prince: customer's like raw savings based off of not charging during
+ 
+ 
+01:27:57
+ 
+Amber Fu: Mhm.
+Connor Prince: that period. And so like the taxes and fees don't necessarily apply to this. All those taxes and fees are based off of their total charge amount. So in that way it kind of it matters.
+Amber Fu: Mhm.
+Connor Prince: But as far as tracking purposes and um you know reporting raw savings, I think this is I don't think there's anything missing from from this piece.
+Amber Fu: Okay. Got you. Got you. Thank you. And uh we can go back to the bill part. So the bill part uh give me a second. Okay. So the bill part uh the most confusion part for us is the true up Yes.
+Connor Prince: the true up.
+Amber Fu: So we try to you know uh mirror the official bill structure
+Connor Prince: Yeah.
+Amber Fu: like uh so the base service chart deliver adjustment uh specific fund and also um and also for the true up because I I don't have a solar so I never receive the true bill and the only thing that I knew the true up because I speak to a a few like a solar owner and But they kind of confused too.
+ 
+ 
+01:29:23
+ 
+Amber Fu: So my question is like during the annual true up process what exactly happened to to how I mean how they calculate or credit balance stuff like
+Connor Prince: Yeah. Um,
+Amber Fu: that?
+Connor Prince: so going back to like the structure and there being two parts to electric service in California. One is the transmission delivery, the other is the generation. a a solar customer will be tred up for both pieces of both of those two services but separately. So in the traditional sense,
+Amber Fu: Uh-huh.
+Connor Prince: they get a true up for the the transmission delivery side and there's essentially a a tracker table on the customer's bill that each month tracks how much energy they used or produced during each time of use period for each month. And I believe it just displays the net for each time of use period. So if they consumed more, it's a positive number. And if they generated more, it's a negative number like outright. It doesn't it doesn't keep consumption or generation separate. It just nets the two out and then uh tracks it on a a true-up table um for each month.
+ 
+ 
+01:30:44
+ 
+Connor Prince: And it also tracks the charges owed associated with those charges, but it doesn't assess those charges during that month. So that it'll it'll essentially escrow that charge or credit until their trueup month,
+Amber Fu: Mhm.
+Connor Prince: which is after it it the actual month varies for customers, but it's after 12 months essentially, right? So,
+Amber Fu: Mhm.
+Connor Prince: it'll escrow those charges and credits month over month, keeping track in a a table on the bill that displays the customer's usage values and the charges associated with them or credits associated with them depending on which they they earned. And then when it gets to the 12th month, the customer's bill will be chewed up in the sense that all of those charges and credits from each month are then netted either added up, subtracted, you know, if it's credit or charges. They're all netted together and result in one either one large charge
+Amber Fu: Mhm.
+Connor Prince: that the customer now owes for a year's worth of service all at once or they earned a if they overgenerated and that net number of all 12 months is uh negative then they'll get a credit for whatever that amount is
+ 
+ 
+01:31:55
+ 
+Amber Fu: Perfect.
+Connor Prince: um at the end of the 12 months. uh for P Gen at least they also have a minimum service delivery charge which they charge it's about $10 to12 each month so that that's about $120 that also that becomes due at the end of the 12 months and so that will get if they if they earned a credit from their regular usage from that table that was tracking it their usage month
+Amber Fu: Um,
+Connor Prince: over month it'll get subtracted from that credit um and then they'll be owed whatever via check or bill credit, they'll get that money. But if it's a charge, it'll just get added to a charge and it essentially is a year's worth of charges owed at at one time. Um, I think I think the idea of it originally was for that like escrowing of charges and credits was to allow the customer time to generate so that they could offset any charges um that they would potentially earn over the course of the year. and make that math make more sense. But ultimately, it kind of just ends up confusing customers because they don't pay a bill, a monthly bill for 12 months.
+ 
+ 
+01:33:16
+ 
+Connor Prince: Like get a bill,
+Amber Fu: Mhm.
+Connor Prince: but no charges are due or owed monthly until that 12th month comes and all of that netting happens with with the charges in the table from the past 12 months. And in a lot of cases, a customer will get a, you know, multi,000 bill if they ended up being a net consumer or a couple hundred dollar bill depending on the scale of their usage. But it just if customers don't know how to track that table or aren't paying attention,
+Amber Fu: Mhm.
+Connor Prince: suddenly they'll get a huge bill potentially. Um, and it's obviously confusing and and frustrating. Um and and not to
+Amber Fu: I'm confusing too.
+Connor Prince: not to confuse you further, but going back to the generation side, what my organization bills for,
+Amber Fu: Mhm.
+Connor Prince: we don't follow that traditional annual true-up structure where the charges are escrowed month over month. We essentially reconcile a customer's charges and credits every month. And if they owe a charge,
+Amber Fu: Mhm.
+Connor Prince: then they're they they uh they owe that charge that month like a regular non-solar customer would, and they have to pay that bill right away.
+ 
+ 
+01:34:32
+ 
+Connor Prince: Or if they earn a credit, that credit gets put into an escrow credit balance. So then we're only escrowing and holding on to the credits to where those credits can be used the following month to offset any charges. Um, but the bottom line is the their charges and credits are reconciled every month. So there's not kind of like waiting 12 months for either this big bomb of a charge um that customers would obviously be upset about. Um, and they're not they're essentially not waiting for their charges to be owed or credits to be um handed out. And then at at the end of the 12 months, in our case, we have a an annual cash out, which we if the customer has any funds left in that escrow credit balance, we pay them out for that amount to kind of reset like an annual true-up does, but it's it's really just for their credits as opposed to charges and credits. Um and then ah I should have finished this finished the transmission delivery part with this part but for the annual trip portion where they do potentially owe a huge charge on the transmission delivery side or get a huge credit at the end of the year.
+ 
+ 
+01:35:49
+ 
+Connor Prince: They're not paying monthly. It's all escroed. P Gen pays out at the net surplus compensation rate which is significantly less than the retail rates of the regular TOU prices that you see on a tariff or a price sheet. So if a customer was a net consumer, they overall consumed 2,000 kilowatt hours over the course of the 12 months, which counts their generation. It's all netted. they'll be um charged and or credited at that rate of two to four cents. So, it essentially pays the customer out for less um money. And I should probably stop there before I lose you any further because I it's too
+Amber Fu: Yes. Yes. And oh but I uh and one more question is like
+Connor Prince: confusing. Yeah.
+Amber Fu: for when there exists export at the end of year is this like a typical paid out at the wholesale rate.
+Connor Prince: So the the payout at the end of the year on the transmission transmission delivery side is paid out as a at a wholesale rate which is that net net surplus compensation rate.
+ 
+ 
+01:37:00
+ 
+Connor Prince: That's the wholesale rate of 2 to 4 cents per kilowatt hour on average. Um there the that price changes every month, but it's a flat rate. it just is only good on a per month basis depending on when the customer trs up. Um and opposite like for my organization on the generation side,
+Amber Fu: Oh,
+Connor Prince: we pay out at the retail rate as opposed to the wholesale price um to essentially give customers the benefit of more credits or um more payback for for their solar production. And that that kind of stems from us being a notfor-profit, whereas P Gen is an investor-owned utility and they're forprofit essentially. So when they're forprofit, they're going to there's there's more of a um an emphasis on the bottom line where they don't want to pay customers out at retail because then they'd be paying customers a lot more. Um and that their their budgeting is is different in that way. Um, but to answer your question, yes, it's a wholesale rate traditionally in a trueup situation.
+Amber Fu: Got you.
+ 
+ 
+01:38:10
+ 
+Amber Fu: But for your experience like what part of chew up process confuse the customer customer the most.
+Connor Prince: I think the annual structure like you're you're familiar with where all those charges are tracked in a table and there's no charges for a months for 12 months and then on the 12th month they're suddenly owing a big a bunch of money or they're getting credited. Um, I think just tracking that table um is difficult because there's no itemized um like line item transactions that display the kilowatt hours by the price like like there is for a non-solar
+Amber Fu: Mhm.
+Connor Prince: customer.
+Amber Fu: Gotcha.
+Connor Prince: Um they they just get the totals in the table and it tells them how much they would have been charged or credited. So I think it's lack of display of the charges for
+Amber Fu: Got you.
+Connor Prince: customers.
+Amber Fu: And also uh do most solar customer actually track their true up balance throughout the year.
+Connor Prince: To be frank, the smart ones do, but I would say it's probably 60 40 and saying 60% of customers track it.
+ 
+ 
+01:39:26
+ 
+Connor Prince: 40% don't.
+Amber Fu: Okay. Okay. Um the the most like mainly question for us is if we had monthly interval data, do you think it would be possible to forecast of customer end of year fairly to you know to help them to detect it like and help help them to to know like what like What's happening and uh if the end of year how much will
+Connor Prince: Yeah. Yeah. I I think it's it's definitely possible and reliable. I think for us when we try to do that,
+Amber Fu: be
+Connor Prince: it's it's similar where we're just essentially looking at the month previous Um, and then with the caveat of I just that you know weather is obviously different and if there happens to be a summer where there's some cooler months or there's more cloud cover their solar production is going to be lower. Um, obviously that we can't predict that or it's a lot it's hard to model that. So I don't think you have to include that in the model but just kind of include that caveat of expectation with the customer.
+ 
+ 
+01:40:43
+ 
+Connor Prince: Um, I feel like most pe people would be reasonable to that.
+Amber Fu: And so and but if customer can see that currently use it will lead to a large bill. Do you think they will change the behavior? I I I think so. But do you in your experience do you
+Connor Prince: Yeah. Yeah. I I think so. If if they're paying attention to the table,
+Amber Fu: think
+Connor Prince: they can see, you know, that their charges or their usage is either going up, meaning their charges are going up, and they they can try to cut costs.
+Amber Fu: Mhm.
+Connor Prince: Um, like I was saying earlier, it's a little bit it might be a little bit harder to do that with the base services charge now, but um,
+Amber Fu: Mhm.
+Connor Prince: it's definitely still still possible and it's it's the one thing that customers can control ultimately is, you know, how much energy they use. So, I think it's always uh an option. I think I I mean like our my organization is very focused on reducing carbon emissions with the energy we pro procure and um only contracting with renewable energy producers and that's kind of like one of our main what we what we advertise as one of our main um you know benefits compared to P Gen along with lower rates.
+ 
+ 
+01:41:59
+ 
+Connor Prince: But ultimately at the end of the day,
+Amber Fu: Mhm.
+Connor Prince: customers just care about how much their bill is, which is fair and understandable. Um, that's probably the biggest concern that we we get.
+Amber Fu: Mhm.
+Connor Prince: So, I think people are still very much dollar motivated. If if they can see it and they can see that they're trending in one direction or another that and they see the dollar amount, then I think that would still affect behavior for sure.
+Amber Fu: Got you. And like if we want to you know build a true up forecast for the solar customer like what should we careful about the uh maybe the technique plane or like uh uh building logics stuff like and from a modeling perspective like what are the most important inputs or uh attribution like do you do you think we should
+Connor Prince: I think it's it's simple in the sense where,
+Amber Fu: Three.
+Connor Prince: you know, we can only forecast so much based off of customers previous usage. And I think that's the that's honestly the safest bet of giving customers an idea.
+ 
+ 
+01:43:15
+ 
+Connor Prince: Then when customers hear it's their own usage and it's their previous usage, that kind of quells the argument of like how do I know this is accurate? They know it's a forecast. They know it's an estimation. They understand we can't read the predict the future, but being a communicating that it's their usage um previously and is representative of their previous behaviors. Um, that's I think ultimately maybe it's not the most accurate forecast ultimately, but I think it's it it ends up being the most trusted in my experience. Uh, and I think the only thing I would be wary of is is just generalizing estimates just because customer usage is is so varied from person to person and and there's not really a a sound way to use we to use like an average usage
+Amber Fu: Mhm.
+Connor Prince: amount. I don't know in my experience when I've tried generally kind of you know taking a for example a group of 10 customers and taking their average usage for a month and and trying to essentially project that for them.
+ 
+ 
+01:44:27
+ 
+Amber Fu: Mhm.
+Connor Prince: There's always at least two to three where they're they're you know saying this isn't my usage I don't use that much like that's that average is like a high month for me. So it's it's then having to convey kind of the you know the argument and and the understanding that it's it is a forecast and it is ultimately based on the their behaviors but and that's why I think ultimately it's always more defensible to fall back on the customer's previous usage and utilizing that. Um but as far as like the calculation goes, I don't know if there's anything um other than the base services charge now that really to be aware of or kind of like considerate of because I at least for me I feel like customers have always been pretty understanding that it's a
+Amber Fu: Mhm.
+Connor Prince: forecast. Um, and I I feel like ultimately, like I said before, as long as it's in like 5 to 10% of their previous usage periods, um, then I I I think it's usually pretty digestible for them and and understandable and knowing that there is that variance, um, when it comes to projecting these things that obviously haven't happened yet.
+ 
+ 
+01:45:45
+ 
+Amber Fu: Got you. Um but when like a like a forecasting true how far ahead do utility or analysis like yearly project like is it monthly seasonal or like a 12 months
+Connor Prince: Yeah. Um, I'll be honest. I don't I don't know how much projecting we actually do for trueups. I feel like projections like that would potentially come at the solar installer level. So for the the solar company that's assessing the customer's usage and kind of
+Amber Fu: Mhm.
+Connor Prince: sizing the system for them in that case they would attempt to make
+Amber Fu: Mhm.
+Connor Prince: projections. But at least from from our perspective, all we really track is um the NE or the the escrow credit balances and how much money we'll be paying out. I know this doesn't really apply to to your purpose here,
+Amber Fu: Thank
+Connor Prince: but um I think in thinking about doing what you're saying,
+Amber Fu: you.
+Connor Prince: I'd say I wouldn't go past a year um just because of the weather variability and how that and also even just if a customer has a tree over their house and there's pine needles falling on their roof and they never, you know, the first year it's clean or the first year the pine tree is smaller so it doesn't the needles don't fall over the system.
+ 
+ 
+01:47:12
+ 
+Connor Prince: So, they generate a lot. The next year, I I don't I I don't know, something changes or there's a lot more pine needles falling on the panels and affecting the production and they don't clean it and they don't pay attention to it, then that would obviously reduce their production quite a bit. So, I I feel like I I definitely I think a year is reasonable, all that to say, but I definitely wouldn't go past that.
+Amber Fu: Gotcha. Gotcha. But like how much day how much like historical data do you think is enough for reliable forecast? Is it three months enough?
+Connor Prince: I think so for I think at the bare minimum three months is enough
+Amber Fu: Okay. All
+Connor Prince: um for some different budgeting programs um that
+Amber Fu: right.
+Connor Prince: essentially it's a it's a customer billing option where if they want to reduce their you know bill spikes that happen in the summer or in the winter from um from like different electricity usage from different appliances. It's something called budget billing where essentially we take their last 12 months of usage and average it out to a per month cost.
+ 
+ 
+01:48:20
+ 
+Connor Prince: And then the first month that they're on budget billing will bill them for that average amount.
+Amber Fu: Mhm.
+Connor Prince: And then we're also tracking their actual charges which would the charge they would have been build that month off of budget billing and account for the variance between those two value uh build amounts. and then factor that into the next month's average bill. But our all that to say,
+Amber Fu: No.
+Connor Prince: our minimum uh historical usage for that program is three months. So a customer has to have at least three months of usage to be for us to be able to create an average um build amount that they're actually build for. So yeah, I think I think three months is is uh is okay if if that's the minimum.
+Amber Fu: Got you. But but should we try like forecast solar gener generation as well or just using uh the
+Connor Prince: Oh, I see. I see.
+Amber Fu: historical
+Connor Prince: I guess I was kind of thinking I that's I think that's where I was going with the the difficulty of projecting the the solar generation.
+ 
+ 
+01:49:24
+ 
+Connor Prince: That's that's where I think it is a little bit more difficult. I think it's it's definitely possible, but because of the variances of like I said, whether if there's if their panels get dirty and they don't clean them or they don't pay any attention to them and they just they don't maintain them, then that could potentially um create a situation where there's a bigger gap between your projection of their production and then their actual production. Um, so I guess maybe that the generation side would maybe be a case to use a
+Amber Fu: Mhm.
+Connor Prince: three-month projection instead of a year-long like you would maybe for consumption. Um, if that makes sense or if you'd consider that just to account for that kind of
+Amber Fu: Yes. Yes. Yes. That's totally makes sense.
+Connor Prince: stuff.
+Amber Fu: And like in your experience like what level mistake would customer to tolerate in the true up
+Connor Prince: Um,
+Amber Fu: forecast?
+Connor Prince: I think generally up to 15%, but I'd say like I've been saying 5 to 10% is kind of the the the bandwidth of higher or lower generally um that I think customers will will accept without further question.
+ 
+ 
+01:50:39
+ 
+Amber Fu: Um,
+Connor Prince: Some some will obviously care about every every penny or every kilowatt hour, but generally speaking, I think five to 10% and at most percent variance um
+Amber Fu: um,
+Connor Prince: I think is is okay to to at least explain to a customer given all the the other the external factors.
+Amber Fu: Gotcha. Gotcha. Okay. Thank you so much. And and uh one more question about the building part. So um so you know like right now we only have a app but the in the very early stage but the second step we're going to we try have we won't have a hardwell hardware drive so because you know utility API sometime have a delay and we're thinking about like adding hardware device in a like a later stage and well in your opinion like what kind of
+Connor Prince: Mhm.
+Amber Fu: hardwell would make the most sense. For example, like maybe second smart meter device or something else in the home because
+Connor Prince: Yeah, that's interesting.
+Amber Fu: uh let me in like briefly uh have a quick introduce.
+ 
+ 
+01:51:54
+ 
+Connor Prince: Um,
+Amber Fu: So in our second phase we're thinking about you know uh you know adding hardware device to get more realtime data and you know and also not only control the EV charging or solar or home battery we try to you know contact uh
+Connor Prince: right.
+Amber Fu: uh control most of like you know the laundry or like the AC or you know Anything that's like heater or uh pool like bombs or
+Connor Prince: Yeah, that makes sense.
+Amber Fu: Yeah.
+Connor Prince: All all different kind appliances are are kind of installing some smart hardware to be able to control those as well.
+Amber Fu: Yes. But we have um not really clear like what kind of device uh is the best for the home energy system. We we are thinking about like I I know like this but this maybe the smart meter or is the the best way but the thing is uh usually the customer they can't do it by theirel right they need to yeah so that's that's really bothers us so there anything
+Connor Prince: Yeah.
+Amber Fu: that customer can do it by theirel but also they can you know just detected the home load and control things.
+ 
+ 
+01:53:32
+ 
+Connor Prince: Yeah,
+Amber Fu: I
+Connor Prince: without kind of having to be directly tied into the meter or that. Um, yeah, I think I guess firstly I I think it I don't know if you'd be able to tie anything to
+Amber Fu: exactly
+Connor Prince: the meter or kind of that or like an add-on kind of thing. That would be um that would be a big discussion with in our case the the utility but P Gen in our case. Um and I don't know kind of going back to that political context. I don't know how much control they're willing to kind of relinquish there because they do own all that equipment and it is all proprietary in some aspects.
+Amber Fu: Uh-huh.
+Connor Prince: But I think I feel like there are there's there's got to be some kind of way to track um the usage of the different appliances and and kind of tie them all together because there are, you know, there are plugs that track the usage of whatever appliance or um cord is plugged into it. I just don't know if I've not that I it it could definitely be out there, but something that essentially either is made up of different like nodes and like report,
+ 
+ 
+01:54:41
+ 
+Amber Fu: Yes.
+Connor Prince: you know, like is track and tracks all that usage and then outputs it to another either an
+Amber Fu: Yes.
+Connor Prince: app or a program or another like main um plug-in
+Amber Fu: Uh,
+Connor Prince: node.
+Amber Fu: we're thinking like really lightweight energy hub, like really lightweight, something like data bridge or like a device control stuff, you know, like just maybe like a small box with
+Connor Prince: Yeah,
+Amber Fu: Wi-Fi.
+Connor Prince: I think that would probably be the easiest approach. Something like um because then it then like like you are saying like it's
+Amber Fu: Um.
+Connor Prince: something the customer can install or set up and makes it more trackable.
+Amber Fu: Mhm.
+Connor Prince: I think that would probably be I wouldn't say the I don't want to say the only way but I feel like any adding any official kind of external metering or additional metering to the existing meter would be um would be pretty difficult and involve um probably some some extended talks with the utility depending and I get I got I'm only speaking for California obviously I don't know part of the country
+ 
+ 
+01:55:55
+ 
+Amber Fu: Yeah. Yeah,
+Connor Prince: But there's a little bit more red tape there to to cut through and um try
+Amber Fu: sure.
+Connor Prince: to essentially get P Gen or Edison or SDG to give you access to that connection point. Um because it's something we've been trying to do as well just from an access point and and I think it's even still it's it's been difficult. Um but I think from a customer perspective that um that kind of you know lightweight energy tracker you're describing would be I think the most userfriendly and and most effective ultimately of you know getting the customer to actually plug it in and and and utilize it.
+Amber Fu: Gotcha. Gotcha. And if we want more real-time data than the utility API provide like where would the best place to capture that data in the home like matter or like panel or
+Connor Prince: Yeah, probably. Well, I feel like the the panel will I don't know if that would necessarily give you the the broken out kilowatt hour totals. I just don't know.
+ 
+ 
+01:57:12
+ 
+Connor Prince: I don't know for sure if it just lists the total kilowatt hours or if it gives a breakout. Um, but honestly for like the as close to billing level data, I like the the utility API and green button are are probably the best
+Amber Fu: Mhm.
+Connor Prince: bet um based off of how often it's,
+Amber Fu: Mhm.
+Connor Prince: you know, refreshed and and cleaned and and updated. Um, and I think for us that's ultimately all we really use as well. I don't think there's any other like access point kind of like you're saying um where you'd be able to pull that level of detail without like doing like a a oneoff request to the utility or or something like that which obviously is isn't going to help with the constant monitoring.
+Amber Fu: Gotcha. Gotcha. Got you. Thank you so much. And that this is really really really valuable for to for
+Connor Prince: You're welcome.
+Amber Fu: us. Yes.
+Connor Prince: Yeah.
+Amber Fu: Yeah. And you know uh there still have a last part just really quick like
+ 
+ 
+01:58:24
+ 
+Connor Prince: Yeah.
+Amber Fu: one page.
+Connor Prince: No
+Amber Fu: Yeah. So the last part will be the bill proof and the bill proof uh let me
+Connor Prince: problem.
+Amber Fu: uh let's uh give me a second. Okay. So the bill proof is another things that we are it's kind of the new stuff. Uh this is like a feature compare like uh expertive ex uh export credit versus bill export credit. So if there have the mismatch where surface so you can see like on the left side is what we detected and the right side will be the where the the bill
+Connor Prince: Mhm. Okay. So,
+Amber Fu: shows.
+Connor Prince: the right side is what the values that'll be scraped off the the bill um PDFs essentially.
+Amber Fu: Yes.
+Connor Prince: Okay.
+Amber Fu: Um yeah. Well uh so for this part uh why we have this idea because uh you know sometime we talked to the uh solar user uh we found out like uh some of user they they said oh I have a vacation this month uh last month but I still received the bill is really high.
+ 
+ 
+01:59:49
+ 
+Connor Prince: Mhm.
+Amber Fu: They just want to know like where's the mismatch or where's the mistake.
+Connor Prince: Yeah.
+Amber Fu: So they try to call the a solar installer or call the utility but each party they're say oh we're our like uh uh the data is is correct and nothing wrong here. So which you know left the user confused like they don't know what they can do. So this is the bill proof like we try the you know basically the way to show the customer like a clear evidence of how the system help reduce their bill or like you know compare the the real bill and to find out the mis mistake.
+Connor Prince: Okay, that makes sense. Yeah.
+Amber Fu: Yes.
+Connor Prince: Um, I was just thinking I think the I have had a couple customers with in that scenario where they say like I wasn't even home um or you know I um I was gone during the week for each week and I was only home on the weekends and didn't use anything but I was still at my normal bill
+ 
+ 
+02:01:00
+ 
+Amber Fu: Exactly.
+Connor Prince: basically.
+Amber Fu: Yeah.
+Connor Prince: Um I think the the difficult part I like the comparison the difficult part is just
+Amber Fu: Mhm.
+Connor Prince: with the built whatever they were build is the essentially like that's the the amount that it's is what's con considered official from the utility perspective. So it's it's kind of not and I'm not not to say that the expected is like incorrect or anything. I'm just thinking from like a case where if you were where the customer was to go to the utility and say, you know, and you know, show what you've kind of displayed here and say like, hey, like my bill I didn't I didn't do these things this month. I wasn't home. Like my usage was still high. It should have gone down. Um, and then they kind of point to different values from uh from from this app in in an instance. ultimately the utility is not going to I guess um come off of the the values they build. It may like trigger like a it may be enough to trigger like a a customer's meter check or something like that.
+ 
+ 
+02:02:15
+ 
+Connor Prince: Uh, so I think it is it is good to show the customer and give them kind of send off a red flag in their head of like this this was not the expected bill based off of the calculations and the estimates and and the events that were called and all that. Um, and I think in that aspect that's that's good to to have them communicate it then to the utility and have them either perform a meter check or or do some kind of a check. Um, I would just be hesitant or wary of setting customer expectation to have this
+Amber Fu: Mhm.
+Connor Prince: be like resolved. Like I don't think there's ever going to be a case where the utility like essentially matches the numbers of the expected left side, you know, if that makes sense. And that's I'm not necessarily saying that's what you're expecting, but um I think that just in in the past that what I've
+Amber Fu: Yeah.
+Connor Prince: seen even if there is like a correction or something like that, it may not be exactly what's on that left side of the expected which like it's a forecast like a prediction.
+ 
+ 
+02:03:16
+ 
+Amber Fu: What?
+Connor Prince: So maybe that's kind of um a mute point by me. Um, but that's kind of what I've seen is usually the utilities stick to their guns essentially, stick to the build amounts. And if there is a an issue or some kind of um a check done, it's it's good because a comparison like this calls that out or just calls the it to the customer's attention, but they may not, you know,
+Amber Fu: Mhm.
+Connor Prince: they may not get a a credit of after the correction. They may not get a credit like what's listed on on the left side here. It may be more than 56.82, but it may only be like $60 or $7. So, I guess it's just maybe what I'm getting at is just mitigating um or
+Amber Fu: Mhm.
+Connor Prince: I guess mitigating customer expectation for you know, if if you were to put a a you should have gotten $184 credit in this case, but you only got 56. And it's good in the sense that it makes the customer go check with the utility and then if there is an issue, great.
+ 
+ 
+02:04:25
+ 
+Connor Prince: If there's not, then they'll be kind of confused potentially. Um,
+Amber Fu: Mhm.
+Connor Prince: and if there is, great, it gets fixed. But if that credit doesn't end up being 184 like was listed, that may just be a a question point where they they contact um the support side or something like that. Um, so that was sorry, that was a roundabout way of of saying I think this is good. just to identify potential issues for customers. Um but just to be wary of customer exp
+Amber Fu: Yes, that's that's totally makes sense.
+Connor Prince: generated.
+Amber Fu: Yes, I I I totally agreed. But from your perspective like how should we communicate a bill forecast so the customer can understand it's only uh estimate
+Connor Prince: I think just with a disclaimer similar to kind of what you have as the audit scope down.
+Amber Fu: Mhm.
+Connor Prince: Um just you know reiterating that the expected calculations are a forecast based off of customers previous usage.
+Amber Fu: Mhm.
+Connor Prince: Um, and if if in this case if it's a solar customer, you know, solar production does vary based off of weather factors.
+ 
+ 
+02:05:34
+ 
+Connor Prince: And um, I think just having those disclaimers there at the bottom, I think would ultimately be sufficient and and like I said, it's if a customer knows about their system, they knows how they know how it works, I don't think that issue I outlined would be an issue. um it's for the customers that are kind of halfinvested or they bought the system but they don't
+Amber Fu: Mhm.
+Connor Prince: necessarily track it. They just kind of expect it to save them money and when it doesn't they want to know why. Um, so I think just outlining some disclaimers similar to the audit scope section. Um, just to out outline the potential for variances. Um, so that maybe then the customer checks those variance first. variances first and says, "Hey, actually, yeah, well, there was a bunch of I I checked my solar panels and, you know, they were very dirty or there was debris on them from a storm or wind or or there was a storm and that's why while I was gone, I didn't know it was raining for 4 days and there was no hardly any sun kind of thing." Um,
+ 
+ 
+02:06:39
+ 
+Connor Prince: if that makes sense just from a perspective.
+Amber Fu: Yes. Yes, definitely. Definitely. That's totally makes sense. So, uh I think the maybe the goal is not like um match the utility bill. Exactly. But to help the customer to understand like when something look and euro or different from their normal usage,
+Connor Prince: Yeah,
+Amber Fu: right?
+Connor Prince: exactly. Yeah,
+Amber Fu: Got
+Connor Prince: I think that would be really beneficial in just kind of giving the customer of a a relative expectation of what was expected based off their behaviors and then giving them kind of a signal that maybe something um be wrong with either their meter or their solar panels or something.
+Amber Fu: Gotcha. Gotcha. Okay. You know what color? Thank you so much today. And uh this is about our app like you know you you see it everything.
+Connor Prince: What?
+Amber Fu: So end of it like I I have one more question about the market like have you seen any app in the market that does something similar to this kind of like you know the energy goal driven system or like a bill forecasting
+ 
+ 
+02:07:51
+ 
+Connor Prince: No. Uh I haven't I have a I have an electric car.
+Amber Fu: tool.
+Connor Prince: Um I rent so I don't have you know I don't have many smart um
+Amber Fu: Mhm.
+Connor Prince: appliances or anything like that or like a net nest thermostat but I don't I haven't seen any anybody present this um like level of you know real time tracking um or even you know within a couple days of tracking. So, I think I really like kind of the the direction you you guys are taking with this and kind of trying to put more information in front of the customer and give them more accessibility to it because I feel like that is a big issue from the utility perspective is they don't put as much money and don't do as well in displaying
+Amber Fu: Uh-huh.
+Connor Prince: the data for customers, make it hard to access. And I feel like this would kind of, you know, bring this information into the the current uh century, current decade. Um, which would be really helpful. And I think helping customers save in this way and display the savings um I think would help generate more action compared to to things that I've seen otherwise.
+ 
+ 
+02:08:57
+ 
+Connor Prince: But but no, I I haven't seen anything like this. So, I'm I'm encouraged to see that there are people out there working on it like like you all. Um, it's it's
+Amber Fu: Thank you.
+Connor Prince: exciting.
+Amber Fu: And I know like in the market we we we you know did some like a market research before and uh we saw a lot of uh like the app or or like uh you know like or like a solar or the home battery they are doing more focus on the energy usage stuff like or dash dashboard um I didn't see any like app they are more focused on the you know the financial layer on the energy you know the home energy residential part so I I just don't know
+Connor Prince: I don't know if it's from the fact that at least in California that rates are just
+Amber Fu: why
+Connor Prince: expensive. or if the the technology companies aren't interested in the tariffs and that side of it, it can be very nuanced and and maybe it's because it kind of starts to go over into the realm of customer service.
+ 
+ 
+02:10:15
+ 
+Connor Prince: Um just kind of thinking off the cuff, but you're right. Ultimately, I feel like when I see tracking apps,
+Amber Fu: Mhm.
+Connor Prince: it's related to solar. Um it's rel related to production and just um consumption like you're saying, but there's there's very rarely any kind of work dedicated to the monetary side and the savings and trying to put numbers to all the kilowatt hours essentially um that that customers see and track. Um so the only thing I can really think of offhand is is just the fact that the tariffs can be a lot to track. So you would have to update, you know, pricing um at least once a year. That doesn't sound bad, but in the past there were three or four rate changes a year. So that that could change as well. It just kind of depends on the energy market. But I think maybe it's just because of lack of interest from those other companies wanting to track that information and um you know reliably post the the rate prices for
+ 
+ 
+02:11:12
+ 
+Amber Fu: Mhm.
+Connor Prince: the different rates because they are you know a multitude of of different
+Amber Fu: Mhm.
+Connor Prince: rates. So it just depends. But I I think maybe that's kind of what's stopped them in the past is it's obviously a lot of work for that side of it.
+Amber Fu: Mhm.
+Connor Prince: Um,
+Amber Fu: Yes. Yeah. Yeah.
+Connor Prince: yeah.
+Amber Fu: Because like you know one thing we've been thinking about is like you know uh well cuz I used to live in the Pasadena in LA and my Yes.
+Connor Prince: Okay.
+Amber Fu: and um uh including me or my friend um our like electricity bill is crazy crazy high.
+Connor Prince: Yeah.
+Amber Fu: So the one thing we've been thinking about is that like you know uh electricity costs for many household in the US world I mean or in the California are becoming like more expensive and uh for some family it's
+Connor Prince: Right.
+Amber Fu: a one large monthly expenses like the cost right so so one way been thinking about it's like a product is a little bit like you
+ 
+ 
+02:12:20
+ 
+Connor Prince: Definitely.
+Amber Fu: know like a turbo tax but for electricity bill.
+Connor Prince: Interesting.
+Amber Fu: Yes.
+Connor Prince: That was
+Amber Fu: So you know instead helping people optimize their tax once a year the system also can help them to optimize their electric city usage and reduce their
+Connor Prince: That's interesting.
+Amber Fu: bill over time.
+Connor Prince: I I like the accessibility aspect of it. Um, and I don't think there, like you're saying, I don't think there's any anybody that's made an attempt at something similar uh up to this point.
+Amber Fu: Um and I I really love to hear your perspective like does
+Connor Prince: Uh,
+Amber Fu: that this way of thinking about is a make sense to you?
+Connor Prince: it does because except like approachability is a is a huge issue for utility bills. I know San Diego Gas and Electric's utility bills are even more
+Amber Fu: Uhhuh.
+Connor Prince: confusing,
+Amber Fu: Yes. And the people don't have a choice.
+Connor Prince: right? Yeah. So, it's it's, you know, a lot of times people just kind of throw their hands up.
+ 
+ 
+02:13:29
+ 
+Connor Prince: So there's or you know they'll contact the contact center and and we'll try to walk them through it, but we don't have any kind of like software like you're describing where there's kind of a step-by-step breakdown that describes all of these things. Um so yeah, I think that the only obstacle would just be customer interest obviously like with any product. Um I think it would be great.
+Amber Fu: Mhm.
+Connor Prince: I think it's just more building the awareness of it. And I guess the one thing that that would benefit or that benefits it is obviously electricity rates in California are always a topic and are always top of mind because of what you said how they're always increasing. Um, so yeah,
+Amber Fu: Yes.
+Connor Prince: honestly I think that would be really helpful and would honestly take take a lot of volume out of uh our call centers and and doing the step by step over the phone walking through the bill. Um, which isn't always as effective.
+Amber Fu: Got you. Got you. You know this conversation has been really helpful for us.
+ 
+ 
+02:14:33
+ 
+Amber Fu: We're still shaping the product and your experience is extremely valuable for us. So uh I mean if you're open to it, we'd love to invite you to be advisor or you know as we continue developing this
+Connor Prince: Yeah,
+Amber Fu: product
+Connor Prince: I I'm definitely interested. Um, what was your what was your guys' organization again? Amber Cassley.
+Amber Fu: uh the castle.
+Connor Prince: Okay, I saw it there.
+Amber Fu: Yes.
+Connor Prince: 100% sure.
+Amber Fu: And yeah and I think your expert like would really help us shape the product in the right direction and we really needed someone like you really professional and then knowing like exactly in the California what's happening the policy and you know the tariff stuff like
+Connor Prince: I appreciate it, Amber. No,
+Amber Fu: That
+Connor Prince: this has honestly been been really interesting and and intriguing to see what you guys are building and working on. And it's, like I said, it's uh it's refreshing to see kind of a more modern approach to, you know, breaking down utility bills or just understanding electricity um that a lot of people don't have visibility to or or just don't there's not there aren't the resources.
+ 
+ 
+02:15:34
+ 
+Amber Fu: Mhm.
+Connor Prince: So, um the feeling is mutual. I I' I'd be happy to uh I
+Amber Fu: That's perfect. And do you have my email?
+Connor Prince: don't think so. I've just been messaging Jessica on Upwork.
+Amber Fu: Okay. Uh do you mind you can uh leave your email to me?
+Connor Prince: Yeah.
+Amber Fu: Yes.
+Connor Prince: Yeah.
+Amber Fu: And I I can talk you through the email. That'll be perfect.
+Connor Prince: Okay, perfect. Uh let me see
+Amber Fu: Do you mind I ask how much your bill right now every month?
+Connor Prince: um for like contract services.
+Amber Fu: Yes. Like how much you pay your home bill every
+Connor Prince: Oh, go. Sorry. Um,
+Amber Fu: month?
+Connor Prince: right now on average it's between $120 and $140. Um,
+Amber Fu: Oh, okay.
+Connor Prince: I'm in I'm in Santa Monica.
+Amber Fu: That's not bad.
+Connor Prince: Um, so in Edison uh territory. Not too bad, but um it's still more than I feel like it was it would have been a year
+Amber Fu: That's not
+Connor Prince: ago.
+Amber Fu: okay. How much you think is fairly enough
+Connor Prince: I feel like a hundred.
+Amber Fu: to
+Connor Prince: It's not a huge difference. I feel like it's $20 more than than I like it should be um for for me specifically,
+Amber Fu: guide you?
+Connor Prince: but because I I just live in a household of two in an apartment, so it's we have appliances, but nothing like crazy. Um so I think realistically it's about $20 more than than I foresee paying.
+Amber Fu: Yeah. Okay, I receive it. Got you. Okay, cool. Thank you so much.
+ 
+ 
+Transcription ended after 02:17:45
+
+This editable transcript was computer generated and might contain errors. People can also change the text after it was created.

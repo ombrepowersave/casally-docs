@@ -1,0 +1,626 @@
+00:00:00
+ 
+Mikhail Stal: Hello.
+Amber Fu: Uh, hello.
+Mikhail Stal: Yes. Hi.
+Amber Fu: Hi. Hi. How are you?
+Mikhail Stal: Good. How are you?
+Amber Fu: Good. Good. How how how's your day going so far?
+Mikhail Stal: Uh, not too bad. I'm glad we could find a time because we rescheduled a couple times.
+Amber Fu: Okay. Okay. Good. Good. Well, well, thanks for again for taking, you know, the time for this. So, I know everyone's busy right now. So, well, no pressure at all.
+Mikhail Stal: No worries. Yeah.
+Amber Fu: Like, this is this is a super casual. Yeah. Um, and uh, let me introduce myself a little bit. Um, I'm Amber, one of the founder and, uh, I started this because, you know, I couldn't figure out like why my own electricity bill were so crazy and I realized a lot of, uh, my friends and household are dealing with a same problem with me. So uh basically we're a small team based in LA and just a bunch of tech folks who also got hit with a crazy electricity bill and we are trying to building an app that's help people you know save money on their daily energy use but without changing their lifestyles.
+ 
+ 
+00:01:34
+ 
+Amber Fu: So I love to understand how your home use electricity dayto day so we can figure out like what would actually help.
+Mikhail Stal: Yeah. Okay.
+Amber Fu: Okay cool. So, uh, before we get start, would you okay if I record this call?
+Mikhail Stal: Yeah, of course.
+Amber Fu: Okay. Okay. Yeah. Thanks. And by the way, I think our technical lead will be here soon. Yes, our technical lead uh, Yung Lee is here too. Well, he's a brain behind all the energy intelligent under the hood. So if there anything technical that bugs you in your home setup, he exactly the guy who love to hear it.
+Mikhail Stal: Okay.
+Amber Fu: Okay, cool.
+Mikhail Stal: Okay.
+Yongli Chen: There we go.
+Amber Fu: Yeah. Uh perfect. So let's let's begin. Okay. So um so before we jump to the energy stuff, I love to get a quick sense of your household or just understand your set a bit better. Uh nothing personal, just whatever you're comfortable sharing with.
+ 
+ 
+00:02:46
+ 
+Mikhail Stal: Yeah, it's um me and my wife. Um and then um we try to be energy conscious but we have um we have solar panels, we have a Tesla power wall.
+Amber Fu: Mhm. Uhhuh.
+Mikhail Stal: Um and then we have an electric car.
+Amber Fu: Okay, got it. How many EV card you you guys had?
+Mikhail Stal: Um just one EV car. Um it's like a small SUV. The battery is like 77 kilwatt hours. And then we have a second car. It's gas, but we don't we don't drive it that much.
+Amber Fu: Okay, got it. And uh like how big your house is? It's just roughly just no exact number.
+Mikhail Stal: Um, it's about 1,200 square f feet.
+Amber Fu: Okay, got it. Got it. And well, uh, do you guys mostly work from home or is everyone fly in and out?
+Mikhail Stal: Um, I work from home and then my wife will drive the car um three days a week to the office.
+Amber Fu: Okay, got it.
+ 
+ 
+00:03:42
+ 
+Amber Fu: And and uh like what kind of schedule do you normally have? Is that pretty constant or all over the place week?
+Mikhail Stal: Um, you know, it's it's pretty constant. Like, so I'm at home, you know, 8 to 4, 9 to5, it doesn't matter. Um, my wife's schedule, sometimes she'll leave at 8 and come home at 4. Um, sometimes she'll come home at noon.
+Amber Fu: Mhm.
+Mikhail Stal: Um, but usually it's a full day at the office for her.
+Amber Fu: Got it. So would you say your home is always busy or more quiet most of the time?
+Mikhail Stal: Uh, it's usually pretty quiet, I think.
+Amber Fu: Okay. Okay. And does like electricity use change a lot on the weekend?
+Mikhail Stal: Um, before we had the solar and the battery, uh, we would try to do like I I'd set the dishwasher with a delay so that it would run after midnight. Um, just because that's when the electricity is the cheapest.
+Amber Fu: Uh-huh.
+Mikhail Stal: That's when we would always charge our car is overnight from from midnight to 6:00 a.m. on the weekdays and then on the weekends it's from um midnight to midnight to 2:00 p.m.
+ 
+ 
+00:04:47
+ 
+Mikhail Stal: on those on Saturday and Sunday.
+Amber Fu: Mhm.
+Mikhail Stal: So if we're charging her car, we would we would always try to do it then. Um, now you know the regulations and I don't know how familiar you are with the solar plans and the electricity rates in California, but um, now they they charge you more even if you charge overnight.
+Amber Fu: Mhm.
+Mikhail Stal: So, it's better for you to charge off your off um extra solar power that you're not using. Um, so whenever the car is home, uh, we try to charge it if we're not using other things.
+Amber Fu: Got it. Got it. And you know, by the way, I I noticed that you got the full setup, right? Solar, home battery, and EV.
+Mikhail Stal: Solar home battery EV. Yeah. Yeah.
+Amber Fu: Okay. is all uh all one brand or is it?
+Mikhail Stal: Uh so the uh battery is Tesla.
+Amber Fu: Mhm.
+Mikhail Stal: Um the solar connects to the Tesla battery cuz it has an inverter.
+Amber Fu: Uh okay.
+ 
+ 
+00:05:47
+ 
+Mikhail Stal: Um so that that's in one app. And then the EV is not a Tesla. Um, it's a Hyundai. Um, and and then my I have a the car charger is a totally different brand.
+Amber Fu: Mhm.
+Mikhail Stal: And so my car charger doesn't talk to my doesn't talk to my solar. So I need like an extra accessory, which I actually don't have right now.
+Amber Fu: Okay, got it. And uh cuz like you know you're like you see a top few percent of home we talk to cuz like some people they only got a solar or EV or some people only have EV. So the full set is is rare. So well so I is excited to hear like how your system be behave in your real life.
+Mikhail Stal: Yeah.
+Amber Fu: Uh so what originally got you into the solar
+Mikhail Stal: Um I I mean I think the cost savings, you know, if I'm planning to live in a place for five to six to seven years, then it'll it's going to pay for itself.
+ 
+ 
+00:06:45
+ 
+Mikhail Stal: Um, I think the convenience of an EV is also nice. Um, you know, you don't have to go to the gas station every week or two weeks. Um, and I think if you have an EV with solar panels, um, it just makes the payback for the solar panels a lot faster. Um, we also had solar panels at the previous place where we lived. Um, so yeah, I think I think yes, it's nice for the environment. Like that's certainly a positive, but I think the financial consideration is honestly like the big thing.
+Amber Fu: Got it. Got it. And uh so how how long you got the solar? Are you got the solar first or the EV uh EV charging first?
+Mikhail Stal: Um, at the previous home, we had uh we didn't have a battery there, but in 2019 is when I originally got solar there.
+Amber Fu: Mhm.
+Mikhail Stal: Um, and then we had solar first and then a couple years later we got the EV.
+Amber Fu: Mhm.
+Mikhail Stal: Um, and then when we moved, we uh got solar and then the battery.
+ 
+ 
+00:07:45
+ 
+Mikhail Stal: Um, because now in California, you have to have the battery basically or else it doesn't the payback is not very good.
+Amber Fu: Yeah. Yeah. So the the EM3, right?
+Mikhail Stal: Yeah. Yeah.
+Amber Fu: Okay. Okay. And um well now you you live with those system for a while. Are they going what you expect or can you think anything you're not super happy with?
+Mikhail Stal: Yeah. So, I've I've played around with it a little bit. So, the the Tesla app is very limited in the control that you can have with it. Um I don't know if have you heard of an app called Net Zero and maybe it's one of your competitors maybe.
+Amber Fu: Oh yeah, I I I know something.
+Mikhail Stal: Um but uh so in that app you can set automations. Um, so like one automation that I would like and but you you have to pay for that app, right? They charge you $7 a month.
+Amber Fu: Oh yeah.
+Mikhail Stal: So I I did the trial but I didn't subscribe just because I'm not sure if I'm going to save more than $7 on it.
+ 
+ 
+00:08:48
+ 
+Mikhail Stal: But basically basically one thing that I want from the Tesla is to be able to automate how much um reserve it has.
+Amber Fu: Okay. Mhm.
+Mikhail Stal: So the the specific situation that I was like trying to trying to automate is basically if I charge my car overnight, it's going to drain my Tesla power wall completely, right?
+Amber Fu: Okay.
+Mikhail Stal: So then after 6 a.m. the electricity is expensive, but my my power wall is empty because I drained my Tesla, right? My my battery. So in net zero, you can set an automation that changes your um your backup capacity to like let's say 40% at midnight, right?
+Amber Fu: Mhm.
+Mikhail Stal: And then at 6:00 a.m. when the electric after 6 a.m. when the electricity is expensive again, it changes it back to 10%. Right?
+Amber Fu: Mhm.
+Mikhail Stal: So it's basically letting me uh set an automation at midnight and an automation at 6:00 a.m. saying, "Okay, set reserve capacity to 50%." it'll charge my car. Then after 6 a.m. when the electricity is expensive again, it'll just set it back to 10% and I can use that remaining uh power.
+ 
+ 
+00:10:00
+ 
+Mikhail Stal: So I can't do that normally with the Tesla Power Wall.
+Amber Fu: Mhm. Got it. Got it. And um so you said like overnight charging during the power wall. Uh so how often that the car draws the whole power wall overnight situation happen for you?
+Mikhail Stal: Um, all it's always if I if I have the um if I have the backup reserve set to 10%. So, it it uses 90% of the Power Wall's capacity, it my power wall is just tied into my uh panel. So, anytime I'm charging overnight, it'll unless I manually adjust it, it'll just draw the whole thing.
+Amber Fu: Mhm.
+Mikhail Stal: Yeah, because the power wall is only 10 or 11 kilowatts and my car is 77. So, um I've just been letting it run because it's too much work.
+Amber Fu: Got it. Okay. Okay. And when that happen, do you usually manually bump this reserve back up in the morning or just let it run? Okay.
+Mikhail Stal: Um so, like I I think this app they have the Tesla API and I think it goes through the cloud.
+ 
+ 
+00:11:04
+ 
+Amber Fu: Mhm.
+Mikhail Stal: So, and you can do a bunch of different automations, but really I just did like one automation, you know? So, like I feel like I would be willing to pay for it, but maybe not $7 a month with it.
+Amber Fu: Yeah. Okay. Got it. And well, if the system could look ahead and say, "Oh, hey, tomorrow morning uh radar expensive, battery low, don't let EV drone too far." Would would you feel that's useful?
+Mikhail Stal: Yeah. Of Yeah, of course. because then it say I know it's saving me money because when the electricity is expensive it saves my battery power.
+Amber Fu: Mhm.
+Mikhail Stal: Um and I I think that Tesla Power Wall has it has two modes. One is time based controls, right? And they're doing some calculation behind the scenes like based on your usage to predict when you're going to need more power. So I think something like that already exists there.
+Amber Fu: Okay. Got it. Got it. Well, um, so you said that you uh EV charge is a different brand, right?
+ 
+ 
+00:12:07
+ 
+Amber Fu: It's not Tesla.
+Mikhail Stal: Yes.
+Amber Fu: Okay. So, because I heard some people said it will bother them because it's a it's a different brand. So, how much does it bother you that the EVA charge uh doesn't talk to your solar or power wall?
+Mikhail Stal: Um it it used to um so the problem now is um the charger is is from a brand called Emporia.
+Amber Fu: Uh oh, okay.
+Mikhail Stal: It's like a US brand.
+Amber Fu: Oh, I know that. Yes, I know.
+Mikhail Stal: Um so they're not on there's like this protocol.
+Amber Fu: I know.
+Mikhail Stal: I think it's called O CC something like that. And the Tesla charger has that protocol.
+Amber Fu: Um.
+Mikhail Stal: So it can charge off the solar excess solar that you have. But the Emporia doesn't have that.
+Amber Fu: Uh-huh.
+Mikhail Stal: It's not part of that protocol network.
+Amber Fu: Uh-huh.
+Mikhail Stal: So they sell you an accessory which goes into your electric panel. Um and then that lets you like control your charger.
+ 
+ 
+00:13:02
+ 
+Amber Fu: Okay.
+Mikhail Stal: Um it lets you charge off the excess solar. So you you have to set that in a different app uh the chargers app.
+Amber Fu: No.
+Mikhail Stal: But the problem I have now is my electric panel, the um there are these like clamps that go on the the electric panel, they're too big. They don't fit in the box. Um so I can't uh I can't do it unless I get like another accessory. They have like flexible clamps that are made of rubber and they're smaller and but that's like $100.
+Amber Fu: Mhm.
+Mikhail Stal: So I don't I just haven't really haven't bought it yet.
+Amber Fu: Okay, got it. And well, uh, so when you try to charge on solar, uh, what what do you think is the hardest part or it's okay for you?
+Mikhail Stal: Um, well, I have it's it's okay. I just have to remember to plug in the car in the morning.
+Amber Fu: Mhm.
+Mikhail Stal: Um, so but my charger is not programmed to automatically start um when I have excess solar because I don't have that extra accessory like I mentioned.
+ 
+ 
+00:14:13
+ 
+Amber Fu: Uhhuh.
+Mikhail Stal: Um, I can I can change it manually, but it I wish Yeah, if it was automatic that would be much better.
+Amber Fu: Okay. Got it. Got it. Well, if you don't mind me asking like how does you feel when you wake up and see the power totally drawn?
+Mikhail Stal: Um, I know that it's not being as efficient as uh as it as it could be potentially.
+Amber Fu: Uh, okay.
+Mikhail Stal: So, I'm like, well, I should I wish I could automate it. Yeah, I mean, it it's definitely like a a pain point. I would say that when it's totally drawn. There's there's a question in the chat from Young Lee. Um, uh, why do I think it can't save me $7? Yeah, from the the developer for NetZero is pretty active on Reddit. Um I don't know if you're ever looking at actually I think that's how I found the study.
+Amber Fu: Uh-huh.
+Mikhail Stal: Um but I think from his posts he seems like it's worth the $7.
+ 
+ 
+00:15:08
+ 
+Amber Fu: Uh-huh.
+Mikhail Stal: I just haven't seen any metrics or graphs that saying, "Hey, if you use the automation the way that you're using, you're saving $9 or $10, right?" Like I need some evidence before I blindly commit. Like I I probably could calculate it manually. Honestly, it probably wouldn't be that hard. I just have to take the difference between the rates and then multiply how much I'm using. Um I just haven't I just haven't really done that.
+Amber Fu: Got it. Got it. And well, would you want this like system to make that decision for you every night so you never have to think about it?
+Mikhail Stal: Uh yeah. Well, I think um I think there's no question that that type of um like automation will save some money because I'm not using expensive electricity when I need, right?
+Amber Fu: Okay.
+Mikhail Stal: I'm using cheaper electricity overnight.
+Amber Fu: Mhm.
+Mikhail Stal: Um but yeah, if the system could automatically calculate it, um where it's like, okay, we know you use 3 kilowatts in the morning to heat your house.
+ 
+ 
+00:16:13
+ 
+Mikhail Stal: Um, so we're going to let the battery discharge 80% tonight or it's summer, so you don't turn your air conditioning on in the morning. We're going to let the battery discharge all the way, right? For example.
+Amber Fu: Yeah.
+Mikhail Stal: Um, so just if it can Yeah, if it can learn and and know that, I think that that's that would be helpful.
+Amber Fu: Okay. Got it. And well, so consider right now uh uh do you think the you have like the issue with like money loss or the menu work or like you know convenience uh things problem? Do you have Okay.
+Mikhail Stal: Yeah, it's it's it's some manual work. Um I mean it's it's not terrible, right? It's like not a it's not a reason that I wouldn't get the solar or the battery. I I think it's it's inconvenient and it seems like it could be more efficient.
+Amber Fu: Mhm. Mhm.
+Mikhail Stal: Um, and these systems are very very smart, you know. So, it's just like why why doesn't it allow for that?
+ 
+ 
+00:17:11
+ 
+Mikhail Stal: Why doesn't it do it?
+Amber Fu: Okay. So, but when you think about like your daytoday like what part of your energy setup require the most attention from you
+Mikhail Stal: The most attention? Um, yeah, I would say it's with with any M3. It's knowing, okay, I need to charge my car during the day.
+Amber Fu: Okay.
+Mikhail Stal: Um whereas before when I had when I was on NM2 at my old house, I could just always plug it in at night and not not worry about it, you know.
+Amber Fu: Okay. Mhm. Okay. Got it.
+Mikhail Stal: Yeah.
+Amber Fu: Got it. Well, yeah. Thanks. Thanks for sharing that. And well, um it's really help us to understand, you know, uh like where you're coming from. So um and another question is like when you uh when you feel your electricity use the highest during the day what what what time period?
+Mikhail Stal: the highest um including the electric car or no?
+Amber Fu: Uh oh yes of course.
+ 
+ 
+00:18:13
+ 
+Mikhail Stal: Yeah. Um well, whenever the car is charging that's that's always going to be the highest.
+Amber Fu: Okay. Okay.
+Mikhail Stal: Um the other time it could be high like we have an electric dryer.
+Amber Fu: Uh-huh.
+Mikhail Stal: So, electric dryer or we have a heat pump.
+Amber Fu: Uhhuh.
+Mikhail Stal: Um, so if you're running like the heat or the air conditioning, um, I think those are really like the biggest appliances that use the most electricity.
+Amber Fu: Uhhuh.
+Mikhail Stal: Like the light bulbs and stuff I'm not really that concerned about.
+Amber Fu: Okay. And uh like which do you think is the biggest like money eater? Like first is a EV charging and second is a dryer.
+Mikhail Stal: Yeah, I would say one is EV charging. Um the heater or the air conditioning, the heat pump is probably number two.
+Amber Fu: Mhm.
+Mikhail Stal: Um then the probably the electric dryer three. Um the dishwasher is probably after that.
+Amber Fu: Okay. Um, but do you ever try to shift things at another time or is too hard?
+ 
+ 
+00:19:18
+ 
+Amber Fu: Cuz you know like in LA they have like a tou rate.
+Mikhail Stal: Yeah. Yeah. Uh we're on we're on a TOU rate. Um before the battery uh we would shift it to dry during off peak or super off peak hours.
+Amber Fu: Um, okay.
+Mikhail Stal: So like I would start I would program the dishwasher to start after midnight. Um but now with the battery I don't really think about it because we have enough unless we're charging the car overnight.
+Amber Fu: Mhm.
+Mikhail Stal: We have enough capacity to run the dryer during on peak hours and still have battery capacity left or run the dryer and the dishwasher and still have battery capacity left.
+Amber Fu: Okay. But well if the uh if here if some like if here have a like a app that uh automatic you didn't have to think about it and they just uh help you run for you like in a cheaper a cheaper hour and they said oh you need to do the laundry or dishwash right now and uh expensive hour they will advise you like oh uh uh don't don't do the EV charging right So you you don't have to think about it.
+ 
+ 
+00:20:30
+ 
+Amber Fu: Do you feel that's useful?
+Mikhail Stal: I think if I didn't have the battery or maybe if I was if I was If I didn't have the battery, then yes, I think it would be useful because without the battery, you have to think about when
+Amber Fu: Mhm. Okay.
+Mikhail Stal: are you using the least amount of electricity.
+Amber Fu: Mhm.
+Mikhail Stal: Um, but if you have the battery with NEM3 or if you're on NEM2, then uh I don't know that it's that it also depends if your solar overproduces or underproduces, right?
+Amber Fu: Mhm. Mhm.
+Mikhail Stal: So, if you produce more solar than you use at your house, then it's not really that much of an issue. Like, my old house overproduced constantly. Like, we would get a rebate back.
+Amber Fu: Mhm.
+Mikhail Stal: So, we didn't have any electric bill really. Um, but if you're an underproducer, then there's still some incentive to shift your use later. Um, and I think that that's that use case specifically is probably more useful to somebody who underproduces.
+Amber Fu: Okay.
+ 
+ 
+00:21:39
+ 
+Amber Fu: Got it. Got it. Well, um, so like you said like the you use uh imperial right now, but uh the the the clamp doesn't fit. So you basically can use a solar follow the uh charging at all. Right.
+Mikhail Stal: Um correct. I cannot do excess solar charging.
+Amber Fu: Okay.
+Mikhail Stal: Yeah. Yeah.
+Amber Fu: But if like a app could give you solar based like charging without act extra hardware, how big of deal would that be?
+Mikhail Stal: Yeah. That would be hu that would be huge. If I didn't need extra hardware, then I wouldn't need to buy a $100 item, right? I mean, I guess it depends. Does the app have a monthly subscription fee? Like, how many months until I pay back that $100, right?
+Amber Fu: Mhm.
+Mikhail Stal: Because I the accessory costs that much. Um, I mean, I think I would that's something that I would definitely consider.
+Amber Fu: Mhm.
+Mikhail Stal: Um, but if if if you can show that, hey, if I pay for this app, it's consistently going to save me more than the cost of it monthly, then I think that that that's that's uh very important.
+ 
+ 
+00:22:34
+ 
+Amber Fu: Mhm. Okay. And and what's more annoying about the imperous situation except that
+Mikhail Stal: Uh, honestly, I think the Emporia charger is is great. It just doesn't communicate to the other stuff. um which I didn't really I' I've had the charger for three years. Um so I didn't have a Tesla system at the time that I got it. So I think I just didn't really think about it at the time.
+Amber Fu: Okay. So, but if like right now like you have a magic and make your charger can talk to your power wall and solar. So, what the first behave you'd want to do?
+Mikhail Stal: Yes. Um, yeah, I'd want it to I could plug the car in anytime. It would it would prioritize number one, prioritize charging on excess solar because that's the best thing for any M3 is use your excess solar.
+Amber Fu: Uh-huh.
+Mikhail Stal: Um, number two, prioritize charging at night. Um, and number three, kind of the B the battery load shifting that I that I mentioned.
+ 
+ 
+00:24:00
+ 
+Amber Fu: Mhm. Okay. Got it. And like when you try to uh charge using extra solar during the day, uh how do you currently know like the weather there there's enough.
+Mikhail Stal: Um, if you have the accessory or if you have the Tesla charger, the charger automatically knows if you have excess or not because it knows it knows how much solar you're generating.
+Amber Fu: Oh, okay. Okay.
+Mikhail Stal: It knows uh how much your house is using, how much is going to the battery, and then how much is ext how much is extra um that can go to your car.
+Amber Fu: Mhm.
+Mikhail Stal: So I think if your battery is empty, it will probably prioritize the battery first before it goes to your car.
+Amber Fu: Mhm.
+Mikhail Stal: But once your battery is full or if it can if it can project that your battery is going to be full by the time um peak rates come, then it should send the excess to the car.
+Amber Fu: Uh uh.
+Mikhail Stal: So, I think if you have the Tesla charger, um, it's the protocol is called OCP.
+ 
+ 
+00:24:58
+ 
+Amber Fu: Mhm.
+Mikhail Stal: I don't know if you've heard of that before. Um, I I just looked it up.
+Amber Fu: I will look up. Yeah.
+Mikhail Stal: Yeah, it's called Open Charge Point Protocol. Um, so I think the the Tesla charger and other chargers.
+Amber Fu: Oh, okay. I'm charge. But that's Oh. Oh, yeah. Yeah. Okay. I know. I know. Like OCP.
+Mikhail Stal: Yeah. So the Emporia is not compatible with that which I I didn't know before.
+Amber Fu: Yeah. Okay. Okay. And well like do you ever start like charging and suddenly like a clouds coming or it's right uh it's rain during the time.
+Mikhail Stal: Uh where I live the weather's pretty good usually. Um but it it does happen.
+Amber Fu: Okay.
+Mikhail Stal: Yeah. Sometimes it gets cloudy and then you you lose it. So if the Yeah. Again, if the charger knew or it could adjust automatically more or less, then that would be great.
+ 
+ 
+00:25:54
+ 
+Mikhail Stal: You know, I wouldn't have to think about it.
+Amber Fu: Okay. But uh since like you don't have a Tesla EV, right? So uh would you want to like charging power to automatic ramp up down based on the realtime solar like from 6KW to 2KW?
+Mikhail Stal: Yes. Yes. I think that's what I would that's what I would expected to do. Yeah.
+Amber Fu: Okay. Okay. And like right now, do you feel like you are babysitting the eBay charging or you think it's okay?
+Mikhail Stal: Um, a little bit of babysitting. Yeah. Um, but I just have it I have it charged at 24 amps.
+Amber Fu: Um.
+Mikhail Stal: Um, so it's kind of like in the middle.
+Amber Fu: Mhm.
+Mikhail Stal: It's like not too much and not too little.
+Amber Fu: Got it. But like for like automations, do you prefer like the system that just does it for you or tell you the plan and let you approve?
+Mikhail Stal: Um, I think yes, if the system can make recommendations and let me approve it, I think that that's great.
+ 
+ 
+00:27:04
+ 
+Mikhail Stal: Um there are times where the system or the you know the AI isn't perfect always but if it's easy to make manual adjustments I think that that's also very it's like an important feature to have.
+Amber Fu: Okay, got it. But like see like if you could like only automate one thing today, what will be like reserve shifting, EV charging or solar follow like which one move the like the most needed?
+Mikhail Stal: Um yeah. Um one if today it would be the reserve shifting probably. Um, but if I was able to charge on excess solar, it would probably be the excess solar. Yeah.
+Amber Fu: Okay. Okay. But um do do you ever worry like automation may make wrong choice or wrong decision.
+Mikhail Stal: In in theory, it's possible, but if um again, if you're able to have uh metrics and show the user, hey, you know, this is what we did this month or this is what we did this week.
+Amber Fu: Mhm. Mhm.
+Mikhail Stal: We saved you $10, $20, whatever, you know. Um it I think that gives that would give me or the end user confidence that hey, I trust this.
+ 
+ 
+00:28:22
+ 
+Amber Fu: Mhm.
+Mikhail Stal: It's it's looking out for me. it's trying to save me money, right? Um, so I think I think as long as there's like a it you're able to audit it or just understand and look deeper to see what it's doing, I think that is important for building trust and and trusting the automation.
+Amber Fu: Got it. Like so like right now what's the moment like when you feel oh this is should be that hard? Why isn't auto automatic like Okay.
+Mikhail Stal: Yeah, I think the reserve shifting it that should be very easy for Tesla to set up on their app, but they just don't have it.
+Amber Fu: Okay. Got it. Got it. Well, um uh like our technical lead, Yung Lee, uh I just uh do you have any uh question for for it right now?
+Yongli Chen: uh not from my side. Yeah, this is very insightful.
+Amber Fu: Okay. Okay. Cool.
+Yongli Chen: Thank you.
+Mikhail Stal: Okay.
+Amber Fu: Okay. Okay.
+ 
+ 
+00:29:30
+ 
+Amber Fu: Sure. Sure. Thanks. And um well, let's see like like in your daytoday like when does this whole thing uh like for uh like daytoday when does the whole thing actually interrupt you? For example, it's a night before bed in the morning or whatever you plug into the car like you always need to like mint load to think, oh, uh, right now I need to charge my car and like, oh, right now I need to do the dishwash or something like that.
+Mikhail Stal: Yeah, I think um at at night is a big one. And um so at night I need to be like, okay, how much charge does my car have? What am I doing tomorrow?
+Amber Fu: Mhm.
+Mikhail Stal: is like is the car going to be at home or is it going to be like somewhere else? Like my wife takes it to work. So, uh if I can't if it's going to be somewhere else, then I have to plug in overnight because I need I need battery to do things during the day or if I'm going somewhere on the weekend.
+ 
+ 
+00:30:21
+ 
+Amber Fu: Mhm. Mhm.
+Mikhail Stal: I think at night is a is a big one because I have to know what the current state of the car is, but then I also have to like project into the future, right?
+Amber Fu: Mhm.
+Mikhail Stal: Um, and then uh in during the day I have to be like, "Okay, I need to remember to plug the car in um in in the afternoon when the sun is out."
+Amber Fu: Mhm. Got it.
+Mikhail Stal: Yes.
+Amber Fu: Got it. But um so what would be a like deal breaker mistake for automation system? Like what's the one thing absolutely cannot mess up?
+Mikhail Stal: um if it's using uh on peak energy which is the most expensive right I I think there's never I don't see a reason for it to use on peak energy so that would make me raise some questions
+Amber Fu: Mhm. Mhm.
+Mikhail Stal: um but I think again as long as it's transparent and you can understand what the automation is doing, then I think that would make me trust it more.
+ 
+ 
+00:31:33
+ 
+Amber Fu: Okay. But but if the app shows like weekly like here exactly how we save you money like report uh what kind of detail would make you feel like confident or things doing right thing.
+Mikhail Stal: Yeah. So, the um like the Emporia app, for example, it'll give me a it'll give me like a notification once a month and it'll be like uh like you save $23 by charging during super off- peak times, right?
+Amber Fu: Mhm.
+Mikhail Stal: Um, so think things like that like you know you saved x amount shifting your dishwasher to midnight or basically just like metrics that are tied to my usage either around I'm using less energy or I'm shifting less I'm
+Amber Fu: No. Mhm.
+Mikhail Stal: shifting the load to cheaper electricity times. Um, but I think really the reason people are doing this or like going through these mental exercises is because they're trying to save money on their electric bills, right? Um, and like especially in California, it can be hundreds of dollars.
+Amber Fu: Yes. Yes. Um I don't think California right now have a demand charge, right?
+ 
+ 
+00:32:41
+ 
+Mikhail Stal: The what charge
+Amber Fu: Uh it's called a demand charge. Uh it's like you know like like like let's say like a 4 4 p.m. if you using two too much like uh applies and they have like the penalty for that.
+Mikhail Stal: Yeah, they have that I think mostly in the summer when a lot of people are using their air conditioning.
+Amber Fu: Oh really? I I thought only Arizona have it. I I know Arizona they have like uh for single house I mean for people they they have a demand charge everyone but I don't I don't think in California they have do they have it?
+Mikhail Stal: Um, yeah, it's called something else. Let me let me see if I can find it. Um, let me see.
+Amber Fu: Oh okay.
+Mikhail Stal: I know I know what you're talking about because, um, it makes the rate very Yeah.
+Amber Fu: Yeah. Yeah.
+Mikhail Stal: Okay. So, in California, it's called a reduce your use day. Um, I think it's for everyone.
+Amber Fu: Okay.
+ 
+ 
+00:33:36
+ 
+Amber Fu: Is it for of everyone or is just okay?
+Mikhail Stal: Yeah. And so if they have a reduce your use warning, um, like between 2 and 6 p.m.
+Amber Fu: Uh-huh.
+Mikhail Stal: when everybody's using their air conditioning in the summer, the price per kilowatt is like $1 a kilowatt.
+Amber Fu: Mhm.
+Mikhail Stal: Um, which is which is like double some of the other rates.
+Amber Fu: Okay.
+Mikhail Stal: Um, but it it's it doesn't happen very often.
+Amber Fu: Okay.
+Mikhail Stal: I think it's only when there's like a risk of a blackout, which which happens sometimes.
+Amber Fu: Mhm.
+Mikhail Stal: Maybe in other areas it happens more. Um, but yeah, we we do have it. It's just it's pretty rare, I would say.
+Amber Fu: Okay. Uh well, but you know like those reduce your use days or summer peak hour. Do you actually change how you use electricity or it's too hard to think about it in real real time?
+Mikhail Stal: Uh, no. No. I mean, I would I would change I would change it.
+ 
+ 
+00:34:37
+ 
+Mikhail Stal: Yeah. Like if it's 4 to 9, four to nine is the typical um on peak rates like every every day.
+Amber Fu: Um, okay.
+Mikhail Stal: So yeah, if I didn't have the battery, then I I shifted my usage to later.
+Amber Fu: But how do you know like you hating those expensive windows?
+Mikhail Stal: Oh. Um, uh, based on the rate plan that you're on, it's always it's always the same.
+Amber Fu: How? How? Okay.
+Mikhail Stal: It only changes, um, it's the same between Well, every plan is slightly different, but I'm on TOU5. I I'm on San Diego gas electric.
+Amber Fu: Um.
+Mikhail Stal: Um, every everyone is slightly different, but between um in the summer between 4 PM and 900 p.m.
+Amber Fu: Uhhuh. Mhm.
+Mikhail Stal: it's like 70 cents a kilowatt. Um, so everyone knows that you should avoid those times.
+Amber Fu: Okay.
+Mikhail Stal: Um, and then in the winter between like November, I think it's between like November and March, um, it's it's a lot lower.
+Amber Fu: Mhm.
+Mikhail Stal: So people, but people generally know 4 to 9:00 p.m.
+ 
+ 
+00:35:41
+ 
+Amber Fu: Mhm.
+Mikhail Stal: is like the worst time.
+Amber Fu: Okay. Good. Well, you said you live in uh San Diego right now because Well, by the way, I I went San Diego for high school ocean side.
+Mikhail Stal: Oh, nice. Okay. Yeah. Yeah.
+Amber Fu: Yeah. So, yeah. But um so, have you ever like open your bill or app and thought like it's too high or just shocked or everything under the control?
+Mikhail Stal: Um, yeah. I haven't been like it it hasn't been like unexpected, you know? I'm like, "Okay, this seems I mean it's definitely expensive, especially if you don't have solar." Um, so but I' I've seen people on Reddit posts like, "My electric bill is $600. Like, why?" You know? So, I think there are people out there that just like the bills aren't very easy to read because there's so many lines like you're using electricity at this time or this time and there's transmission charge and use charge
+Amber Fu: Oh yeah.
+ 
+ 
+00:36:35
+ 
+Amber Fu: Yeah, exactly. Mhm.
+Mikhail Stal: and you know it's just not very easy to understand.
+Amber Fu: Yeah, definitely. But let's see like if right now like the system could automatic protect protect you on those like expensive day like EV uh when you have a EVA charging and just uh like just tell you like or or shift battery usage something like that uh do you think it's useful or like which one matter most of most to you?
+Mikhail Stal: Yeah, I think it's definitely useful if the system I mean I think part of the problem is a lot of these appliances like my dishwasher it's not plugged into a smart switch, right?
+Amber Fu: Mhm.
+Mikhail Stal: So, how does it know to start late?
+Amber Fu: Oh yeah. Yeah.
+Mikhail Stal: It it it really doesn't, right? So, I think part of the problem for some appliances is you just can't you have to do it manually, right?
+Amber Fu: Mhm.
+Mikhail Stal: So, there's some you have to think about it a little bit. Um, but if you can overcome that problem, then yeah, they would be great.
+ 
+ 
+00:37:45
+ 
+Mikhail Stal: Everything would be automated.
+Amber Fu: Yeah, totally. Totally. That's that's makes a lot of sense. Yeah. But so for thing that aren't smart today like your dishwasher or dryer or do you have a like a pool?
+Mikhail Stal: Uh no pool.
+Amber Fu: Oh, okay. But like AC, do you you you guys have AC or Okay.
+Mikhail Stal: Yeah. Yeah, we have AC.
+Amber Fu: Okay. But which one do you wish could be automate the most?
+Mikhail Stal: Um the AC is so we have an EcoB thermostat.
+Amber Fu: Like you know Mhm.
+Mikhail Stal: So there there are settings on the EcoB where it knows, okay, it's approaching a expensive electricity period. I'm going to start cooling your house early so that by the time it reaches 4 p.m. it's already at the temperature you want at 4 p.m. Um, I think there are features like that that already exist. Um, and and in theory they save money. We we used to do that at our old house.
+ 
+ 
+00:38:42
+ 
+Mikhail Stal: We would we would cool it between 1 and four because it was cheaper than cooling it between four and and nine.
+Amber Fu: Mhm. Okay. But well uh even like if applies itself is isn't smart would you still uh help if the app just notified you like hey you're entered a super expense expensive window something like something like that.
+Mikhail Stal: Yeah, it it would help. Um, but I think I would learn after some time like, okay, dishwasher after 9:00 p.m.
+Amber Fu: Um,
+Mikhail Stal: or after midnight, right? Um, but if if it's somebody who like if I'm trying to understand why it's high, I think that would help for sure. Yeah. But I'm like I'm pretty familiar with all of it. So for me, maybe less, but for somebody who doesn't really know as much, I think yeah, it would definitely help.
+Amber Fu: okay. But uh would you ever consider adding like a small smart plug or or like a breaker monitor so the app could say what certain applies are are running or do you prefer like solution that require like uh net zero or something like that?
+ 
+ 
+00:39:53
+ 
+Mikhail Stal: Um, yeah, I would have no, well, I would have no problem doing a breaker monitor. That's actually what the car charger has that I mentioned doesn't fit in the in the box.
+Amber Fu: And yeah,
+Mikhail Stal: Now, um, I mean, one negative is like you might need an electrician to come install it for you, right? Um, so that that's like the only really negative thing where net zero I don't need an electrician to come to my house really. Um, so yeah, I think I'm not against it. Honestly, if I could just buy the breaker monitor and there's like a onetime fee, I would probably prefer that more than sub subscription for however many years.
+Amber Fu: Got it. But like uh but if like right now like automation did step in one of P day and what kind uh explanation would make you feel clam or confident and make make the right call.
+Mikhail Stal: like what kind of explanation that the tool gives that it's like what it's doing or what do you mean?
+Amber Fu: uh like you know uh they they just tell you like um uh like what's going on like let's say like if you got the solar and they can tell you earlier like uh tomorrow the weather is like a really sunny day and you can use your solar to charge you uh your EV during the like let's say like 11 to two and after that maybe uh they have like a peak hour in blah blah blah Uh
+ 
+ 
+00:41:25
+ 
+Amber Fu: and like uh you can before the takeover you can precooling your house or preheating your house uh something like that.
+Mikhail Stal: Um, honestly, if the automation could do some of those things for me, I think that would be great because then I wouldn't need to think about it as much. Um, but I think the example you gave of if it's like, hey, tomorrow it's going to be cloudy, so you won't be able to charge your car on the excess solar.
+Amber Fu: Uh-huh. Mhm.
+Mikhail Stal: Um, you should charge overnight so that you have enough miles to get to work or something like that.
+Amber Fu: Mhm.
+Mikhail Stal: Something like that would be useful, too. Yeah.
+Amber Fu: Okay. But for those automation um for you the main value is a saving money or saving time or saving mental energy.
+Mikhail Stal: Um, yeah, that's a good question. Um, I think it takes mental energy to save the money.
+Amber Fu: Mhm.
+Mikhail Stal: So, by solving one problem, you kind of solve both problems.
+Amber Fu: Mhm.
+Mikhail Stal: The automation is basically taking the mental workload away from you.
+ 
+ 
+00:42:35
+ 
+Amber Fu: Got it. Got it. Got it. Got it. Okay. Cool. Thank Thanks. Thanks for sharing that. And well uh how many app you use right now? Like you manage every everything like how many uh
+Mikhail Stal: Yeah. So, the Charger Emporia has an app. The Tesla has an app. Um, my car had an app. The Hyundai had an app, but I I didn't renew the subscription. Um, I think just those I mean like my dishwasher has an app. I can start the dishwasher manually.
+Amber Fu: ready Mhm.
+Mikhail Stal: So, like a lot of the appliances are my fridge has an app. Like a lot of the appliances are connected. Um, before I had I had Nphase instead of Tesla. So, like Nphase had its own app, you know. Um, so yeah, basically like every system has I think for me right now it's probably like three three apps mostly.
+Amber Fu: Mhm. Okay.
+ 
+ 
+00:43:36
+ 
+Amber Fu: That is that bother you or you think it's it's fine?
+Mikhail Stal: I mean it's definitely a little bit annoying, you know, um, but just kind of learn and deal with it.
+Amber Fu: Okay. Okay. Got it. Well, um so let's see. Uh and I try to think more question right now because uh oh oh and for the power wall and because I I I don't have a power wall and uh none of my friend have it. So uh for right now um since like you using like uh for time do you think they have a any problem or you think some part they can do better or smarter.
+Mikhail Stal: Um, yeah, I think their app, so if you look at what Ned Zero did with their app, I think there's no reason Tesla couldn't do the same thing with their Tesla Power Wall app.
+Amber Fu: Mhm.
+Mikhail Stal: Um, maybe they just want to keep it really simple for the for the person.
+Amber Fu: Mhm.
+Mikhail Stal: I don't know.
+Amber Fu: Mhm.
+Mikhail Stal: Um, but if I could set automations like I mentioned in in the beginning with the discharge level, I think that would be that would be a huge win.
+ 
+ 
+00:45:01
+ 
+Amber Fu: Got it. And well like like right now if like you you have you got three app but if right now the system could remove one thing from your brain one thing you never want to think about it again what would
+Mikhail Stal: Yeah.
+Amber Fu: be a background reserve.
+Mikhail Stal: Um the backup reserve settings. Yeah. Yeah. Yeah.
+Amber Fu: Okay. Okay. That's a Yeah. Okay. Got it. And um and and also I last question is uh if there was a system that handle all the timing like EV charging a saber cooling and tell uh tell you like when will be charged solar and the weather and using more solar when it's available uh so that you don't have to think about it. Uh do you think that's a useful and what's your like uh consider like what's your worry Mhm.
+Mikhail Stal: Yeah, I think it would be useful. Um, I don't I don't know that anything like that really exists or at least I haven't seen it.
+ 
+ 
+00:46:03
+ 
+Mikhail Stal: I think a lot of people have trouble because the thermostat is one brand. The charger, maybe if you have a Tesla charger and Tesla solar, it's a little better, but I think yeah, it's they are very separate systems.
+Amber Fu: Yeah.
+Mikhail Stal: Um, so as long as the integrations worked and you know, you could log in and link your credentials, it's pretty easy. Something like that would be would be pretty useful.
+Amber Fu: Mhm.
+Mikhail Stal: Yeah.
+Amber Fu: Okay. Okay. Got it. Got it. And well, if like apps, they can also do the automatic stuff and also can help you saving the money. Would you like to pay it or you think uh you don't need it something?
+Mikhail Stal: It's always it's always tough like I try to avoid subscriptions if I can. Um and I think that's where uh I would want the app like I would want a trial maybe 30 days, right? Where And I need the app to show me, hey, you saved $10 using the app, right?
+ 
+ 
+00:47:00
+ 
+Amber Fu: Yeah, definitely.
+Mikhail Stal: It costs $5 to every month to subscribe for it, like that would make me much more likely, right?
+Amber Fu: Ah.
+Mikhail Stal: Um, but it has to be a consistent.
+Amber Fu: Ah.
+Mikhail Stal: It has to give me more value than the app costs, right? If the app costs $5 and I'm saving $5, like, yeah, I guess it's still good because maybe I have less mental workload, but I think I need a little bit more uh help there, you know?
+Amber Fu: Mhm. Time.
+Mikhail Stal: Yeah.
+Amber Fu: Yeah. Okay. Got it. Got it. And um Yeah. So thanks for sharing and one more one more question I want to know. Uh so if you imagine like a perfect day with the system from morning to night like what would be actually be doing for you?
+Mikhail Stal: Um, it would know that uh 6:00 a.m. or whatever, 6:30, 7:00 I wake up, I want my house warm.
+Amber Fu: Uhhuh.
+Mikhail Stal: It it would warm it to a certain temperature using the battery backup because I don't have sun at that point yet.
+ 
+ 
+00:48:08
+ 
+Amber Fu: Uhhuh. Uhhuh.
+Mikhail Stal: Um if my car is plugged in, it would automatically start charging it whenever it's whenever it's time. Um it would, you know, adjust the charging rate accordingly. Um if it knows that the afternoon is going to be hot, like it can start cooling when it needs to in the summer. Um so just yeah, I think just taking away some of that mental workload.
+Amber Fu: Uhhuh.
+Mikhail Stal: Um, and like giving you warning like, "Oh, it's going to rain the rest of this week, so you know, charge your car overnight."
+Amber Fu: Mhm.
+Mikhail Stal: Something like that. Just any way to like help me plan a little bit better, I guess.
+Amber Fu: Okay. Okay. Well, thanks again. Well, that was a super helpful and you know, you give us like exactly the kind of like reward content we need to help home run cheaper and smarter. And do you have any question for us?
+Mikhail Stal: Uh, no, no questions. I mean, yeah, feel free to email me.
+ 
+ 
+00:49:13
+ 
+Mikhail Stal: Like, I'm I can try the app or beta test it if you want. Um, but okay.
+Amber Fu: Well, that'd be great. So, because you I we we have uh once we have a early version of the app ready, I I I want to invite you as a beta tester.
+Mikhail Stal: Yeah.
+Amber Fu: Okay. Yeah, your feedback is really really important. And just remind you like um our first version definitely not perfect.
+Mikhail Stal: Yeah. I I understand. Yeah. Yeah.
+Amber Fu: Yeah, a lot of problem we need to fix but I still like woulding to uh invite you as a beta tester.
+Mikhail Stal: Okay, sounds good. Yeah, I do um user experience as my job, so I'm like pretty familiar with like that app development.
+Amber Fu: Uh oh really?
+Mikhail Stal: Yeah.
+Amber Fu: Okay.
+Mikhail Stal: Yeah.
+Amber Fu: Okay. Oh, if um can you give me one app you are thinking wow this is good I cannot leave uh leave without it only one anything is be okay any or or just say like for home energy or for
+ 
+ 
+00:50:09
+ 
+Mikhail Stal: Uh, that's tough. Let me let me look. Um, yeah.
+Amber Fu: home smart device something from like a home area which app you think wow Uhhuh.
+Mikhail Stal: Um, I think the like the Emporia app is pretty good. Um, and my thermostat is EcoB. It's it's pretty good.
+Amber Fu: Okay.
+Mikhail Stal: Some of the more advanced features are like a little bit hard to understand with the EcoB. Um, but it does the basics very well.
+Amber Fu: Mhm.
+Mikhail Stal: You know, it just has a slider up up or down for the temperature. Um, the Emporia app, it used to be a little bit easier, but it's not like I wish I could just uh hit a big button, charge car, but I have to go through multiple menus now.
+Amber Fu: Okay.
+Mikhail Stal: So, it's not as good as it used to be.
+Amber Fu: Okay.
+Mikhail Stal: But, okay.
+Amber Fu: Okay. Got it. Well, thanks. Thanks for sharing. This is really really helpful. Really helpful. Appreciate. Appreciate. Appreciate your time. Yeah. Keep in touch. Keep in touch. Definitely. Okay. Thanks.
+ 
+ 
+Transcription ended after 00:51:28
+
+This editable transcript was computer generated and might contain errors. People can also change the text after it was created.

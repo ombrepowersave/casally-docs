@@ -1,0 +1,698 @@
+00:00:00
+ 
+Amber Fu: Hello.
+Tony Reece: Hello.
+Amber Fu: Hi. Hi.
+Tony Reece: Hi.
+Amber Fu: How's your day going so far?
+Tony Reece: Busy, but pretty
+Amber Fu: That's good. That's good. Well, thanks again, you know, for making time for this.
+Tony Reece: good.
+Amber Fu: I I know everyone's busy especially before the Christmas so uh no pressure at all. This is this is like super casual. Yeah.
+Tony Reece: Sure.
+Amber Fu: Think thing think and let me introduce myself a little bit. My name is Amber and I'm the one of the founder. Well, I started this because you know I couldn't figure out why my own electricity bill was so crazy and I realized a lot of my friend are dealing with the same thing. So basically we're just a small team based in LA just you know a bunch of tech folks who also get
+Tony Reece: Sure.
+Amber Fu: hit with a crazy electric electricity bill. So we're trying to building an app that help people save money on their daily energy use yet but without changing their lifestyle.
+ 
+ 
+00:01:07
+ 
+Amber Fu: So you know I love to understand how your home use electricity dayto day so we can figure
+Tony Reece: Okay.
+Amber Fu: out what would actually help.
+Tony Reece: Sure.
+Amber Fu: Thanks. Well, uh, well, before we got start, do you mind I record this call? I just don't want to miss anything you said,
+Tony Reece: No,
+Amber Fu: but it Okay.
+Tony Reece: you can absolutely
+Amber Fu: Okay. Sure. Thanks.
+Tony Reece: fine.
+Amber Fu: Give me a second. Okay, perfect. Let's start.
+Tony Reece: All
+Amber Fu: And well, before we jump into the energy stuff,
+Tony Reece: right.
+Amber Fu: I love to get quick sense of your household. Well, just understand you said a bit better. So nothing personal just whatever you are comfortable sharing with.
+Tony Reece: Sure.
+Amber Fu: Thanks. And um so how many people live in your home right now?
+Tony Reece: Uh there are three of us in the home. Single family home. Um Oh,
+Amber Fu: And continue.
+Tony Reece: say again.
+ 
+ 
+00:02:02
+ 
+Amber Fu: Oh yeah. And like how big is it like the
+Tony Reece: Oh,
+Amber Fu: roughly?
+Tony Reece: so uh single family home, 2500 square feet plus uh
+Amber Fu: Got it.
+Tony Reece: garage, multi-car garage. Um so it's a kind of spread
+Amber Fu: Got it. Got it.
+Tony Reece: out
+Amber Fu: And do you guys mostly work from home or is everyone flying and out all day?
+Tony Reece: half and half.
+Amber Fu: Okay.
+Tony Reece: Yeah.
+Amber Fu: And uh so like what kind of schedule normally have? Is it pretty like constant or all over the place week to week?
+Tony Reece: it it's uh two days a week
+Amber Fu: Mhm.
+Tony Reece: out at the office,
+Amber Fu: Mhm.
+Tony Reece: three days home.
+Amber Fu: Okay. Got it. Got it.
+Tony Reece: Yeah.
+Amber Fu: And um would you say your home is like always busy or is more quiet most time?
+Tony Reece: You know, for the most part it's mostly quiet.
+Amber Fu: Okay.
+Tony Reece: Yeah.
+Amber Fu: Okay. And what does electricity use change a lot on
+ 
+ 
+00:03:02
+ 
+Tony Reece: Yeah.
+Amber Fu: weekend?
+Tony Reece: Um, you know, I don't think our electricity changes significantly on the weekend. Uh, our routine is uh I'm trying to I'm thinking through what we do
+Amber Fu: Okay.
+Tony Reece: differently on the weekend that we do, you know, uh maybe we might watch a little bit more television on the weekend.
+Amber Fu: Okay.
+Tony Reece: It might be on just a little bit longer. Uh but not significantly.
+Amber Fu: Mhm.
+Tony Reece: Um we uh other than you know using uh no we use appliances about the same during the week. We um you know, for instance,
+Amber Fu: Mhm.
+Tony Reece: we we do our wash when we need to do our wash, but to get around electricity costs, we don't do it at peak hours. So, we set the machine to turn on early in the morning and then throw it in the dryer, you know, at 7:30 kind of thing and it's done by 8:30.
+Amber Fu: Mhm.
+Tony Reece: So, it's all those kind of things.
+Amber Fu: Got it. Got it.
+Tony Reece: Yeah.
+ 
+ 
+00:04:15
+ 
+Amber Fu: And by the way, Okay. Got it. And by the way, I noticed that you got a solar and the EV, right? Okay.
+Tony Reece: Yes.
+Amber Fu: And you don't have any like home battery.
+Tony Reece: No, we don't have a
+Amber Fu: Okay.
+Tony Reece: battery.
+Amber Fu: Uh I think you uh you are living in California.
+Tony Reece: Yes.
+Amber Fu: Okay.
+Tony Reece: San
+Amber Fu: I I I believe like the uh they have like NEM2
+Tony Reece: Diego.
+Amber Fu: AM3 the policy. Uh so which one you're under the
+Tony Reece: Uh,
+Amber Fu: policy?
+Tony Reece: you know what? I can I think it's two. I can look at it really quick if you want.
+Amber Fu: Okay. Okay.
+Tony Reece: Uh, give me a second. I'll can pull that up.
+Amber Fu: How long you have in solar by the way?
+Tony Reece: Uh,
+Amber Fu: Okay,
+Tony Reece: three years we bought the house with the solar already attached to
+Amber Fu: got it.
+Tony Reece: it.
+Amber Fu: Okay.
+ 
+ 
+00:05:12
+ 
+Tony Reece: Uh so we've taken over the solar uh um
+Amber Fu: Mhm.
+Tony Reece: lease lease to buy option that they
+Amber Fu: Okay.
+Tony Reece: have.
+Amber Fu: So, is it still leasing or is buy out? Pay out.
+Tony Reece: It's it's uh it's still leasing uh until it's it's a le it's one of
+Amber Fu: Okay.
+Tony Reece: the it was set up as a lease to buy.
+Amber Fu: Mhm.
+Tony Reece: So, uh, it they it it's very it's one it's not straightforward, and I don't think any of them are ever straightforward. It's they make it seem like you are uh like you are leasing it, but in reality, you're actually buying it. So,
+Amber Fu: Mhm.
+Tony Reece: yeah. All right.
+Amber Fu: Got it.
+Tony Reece: So, I'm looking at my electrical bill. I'm just pulling that up right now. Uh, where is the print out? Did not make that part easy either. Where is the bill?
+Amber Fu: And and uh by the way I do mind ask like uh after you have a solar how much you pay per every month your electricity
+ 
+ 
+00:06:34
+ 
+Tony Reece: Yeah.
+Amber Fu: bill.
+Tony Reece: So, we are averaging about $110 a month paying to San Diego Gas and Electric for electricity. And then our lease is about $40 a month.
+Amber Fu: Okay,
+Tony Reece: So,
+Amber Fu: got it.
+Tony Reece: our total costs for the two are about $160 a month.
+Amber Fu: Got it. And uh the solar is now from Tesla, right?
+Tony Reece: No, no,
+Amber Fu: Oh.
+Tony Reece: it was from Sunun is the
+Amber Fu: Okay, got it.
+Tony Reece: company.
+Amber Fu: And I noticed that you have the UV as a one or
+Tony Reece: Uh, uh,
+Amber Fu: two.
+Tony Reece: one hybrid EV and one um, uh, all electric
+Amber Fu: Okay.
+Tony Reece: EV.
+Amber Fu: And uh you you have a two like EV charger or just one?
+Tony Reece: Uh we have two.
+Amber Fu: Okay. Got it. Got it.
+Tony Reece: Yeah,
+Amber Fu: And when do you usually charge? Like at night or daytime with the
+Tony Reece: we uh because all of them are kind of
+Amber Fu: solar
+ 
+ 
+00:07:45
+ 
+Tony Reece: uh based on usage, we we have it set to sort of turn off. We just leave it plugged in, but it it's an automatic system. So, uh, the EV charges, uh, normally during the day, but we'll also charge it if at night sometimes if we have you,
+Amber Fu: Mhm.
+Tony Reece: you know, it's low, we're going somewhere the next day, like it just charge.
+Amber Fu: Got it.
+Tony Reece: Uh but it uh my wife mostly drives that and it
+Amber Fu: Mhm.
+Tony Reece: gets the least amount of actual physical driving.
+Amber Fu: Mhm. Got it. And like like when you think about like your home energy setup like what's part do you
+Tony Reece: Yeah.
+Amber Fu: spend the most time on? You think uh like you know
+Tony Reece: What do you mean exactly?
+Amber Fu: like since like you like like to the day daytoday like energy use like uh uh what part take you more
+Tony Reece: Mhm.
+Amber Fu: attention like you know for example like think about it always need to remember like when is the pig hour out pick hour like always need to remember like when need to be charged charge but avo peer something like
+ 
+ 
+00:09:06
+ 
+Tony Reece: Right. Yeah.
+Amber Fu: that.
+Tony Reece: Well, we've been really good about knowing that our peak hours are from 4 to 9.
+Amber Fu: Mhm.
+Tony Reece: So,
+Amber Fu: Mhm.
+Tony Reece: uh we've we haven't skimped on using, but we don't do any extras. Um uh or like things that would like we don't do laundry
+Amber Fu: Mhm.
+Tony Reece: unless it's an emergency.
+Amber Fu: Mhm.
+Tony Reece: Um we uh we use gas for most of our cooking so we don't have to worry about that. the refrigerators are always on.
+Amber Fu: Mhm.
+Tony Reece: You know, do about that. So, we don't worry about those. But I think the only the biggest thing which is an energy drain is the washer and
+Amber Fu: Mhm.
+Tony Reece: dryer.
+Amber Fu: Got
+Tony Reece: And so,
+Amber Fu: it.
+Tony Reece: both of those we we stay away from use uh in the afternoon evening unless we absolutely have to.
+Amber Fu: Got it. Got it.
+Tony Reece: Yeah.
+Amber Fu: And well, like since now you leave the this system for a while, are they doing good or can you think anything you're not super happy
+ 
+ 
+00:10:13
+ 
+Tony Reece: Well,
+Amber Fu: with?
+Tony Reece: I think uh one of the things that I always wanted to know is basically what what's drawing power when we don't need it,
+Amber Fu: Oh.
+Tony Reece: you know, like uh little things like the uh um is the t is the TV drawing power? Is the um you know, we're not watching it that often, but is it sucking up a little power just because it's plugged in? Um is any of the uh appliances we have using
+Amber Fu: And
+Tony Reece: power that we aren't using? Um when we're not using um just kind of where these the
+Amber Fu: then
+Tony Reece: draw is constantly happening, we can never tell. We just know electricity is being used.
+Amber Fu: move it.
+Tony Reece: We don't we don't really know where and how much is actually being used at each point. That's that's the part. So, it's hard to make really informed decisions other than things like washer and
+Amber Fu: Mhm.
+Tony Reece: dryer. Uh you know, uh charging the car um and then you know just knowing well turn don't turn on and leave lights on in places where you're not.
+ 
+ 
+00:11:26
+ 
+Amber Fu: Mhm. Mhm.
+Tony Reece: There's not other than that there's not much we can tell because we don't know what's what else is using
+Amber Fu: Mhm. Got it. Well,
+Tony Reece: power.
+Amber Fu: um have you ever been surprised by your usage on a day when you thought you were being like really
+Tony Reece: Yes,
+Amber Fu: careful?
+Tony Reece: I've seen a few times where uh um especially during the summer when we're using air conditioning and we're very careful with I Right.
+Amber Fu: Mhm.
+Tony Reece: That's one we're careful with. you know, it's where we live,
+Amber Fu: Mhm.
+Tony Reece: it's stays relatively cool in the morning. Uh, and then during the summer months, it'll, you know,
+Amber Fu: Mhm.
+Tony Reece: it heats up in the afternoon. So,
+Amber Fu: Mhm.
+Tony Reece: we it'll turn on air conditioning until like oneish and then,
+Amber Fu: Mhm.
+Tony Reece: you know, it'll lowers the temperature and then it shuts off. Um,
+Amber Fu: Mhm.
+Tony Reece: but everything else, you know, we're still trying to figure that out.
+ 
+ 
+00:12:25
+ 
+Amber Fu: Got it. But how do you personally know that the change you're making are actually working or do you see like a proof or
+Tony Reece: Uh I I I noticed our bill each month when they and then how
+Amber Fu: like
+Tony Reece: much where it where it is.
+Amber Fu: okay?
+Tony Reece: So knowing that it's you know we're on the trueup plan so we pay once a year but you can see how much it it's added each month. So we can kind of go oh I see we're using more now.
+Amber Fu: And
+Tony Reece: Um also they use they I can see daily usage through our solar uh thing because it it tells how it also shows how much
+Amber Fu: Mhm.
+Tony Reece: electricity is flowing through the system. It although it it's adding it also keeps tabs a little bit so you can kind of get a a
+Amber Fu: Mhm.
+Tony Reece: dayto-day record of how much you've generated and how much you've used.
+Amber Fu: Mhm.
+Tony Reece: So, I'll see warmer months how much more we're using, much less in the cooler months.
+ 
+ 
+00:13:24
+ 
+Tony Reece: Um, I can see where just where the overall usage is.
+Amber Fu: Got it. And well,
+Tony Reece: Yeah.
+Amber Fu: do you ever feel like confident today, but like I'm sure that tomorrow will be more expensive.
+Tony Reece: Uh, I I am not confident. I'm confident in us being able to figure things out. I'm not confident in uh it working out in our favor. Um I've seen the rates go up.
+Amber Fu: Mhm.
+Tony Reece: Um so, you know, we're debating now, do we add more uh add more solar,
+Amber Fu: Mhm.
+Tony Reece: but can we justify the cost of adding more solar and adding a battery?
+Amber Fu: Mhm.
+Tony Reece: Um because the rebates are gone and all of these other things. So how do we justify the cost of adding at this
+Amber Fu: Got it. And would it help if you knew like in the morning that day is like a low solar
+Tony Reece: point?
+Amber Fu: day so you could be like, you know, extra careful without like uh always checking
+Tony Reece: I think it would be nice to know what it's going to be like and how that impacts us.
+ 
+ 
+00:14:37
+ 
+Amber Fu: Okay.
+Tony Reece: Um, this is a just as kind of a average, but you know, like you it could say partly cloudy today, which means it's probably going to be less solar, but where we live it might be sunny and just down the street it
+Amber Fu: Amen.
+Tony Reece: might be cloudy. So, it's kind of like, okay. Um, what would be helpful is definitely knowing kind of what's drawing and being able to lower their the use of those
+Amber Fu: Got it. Got it.
+Tony Reece: things.
+Amber Fu: And uh would it be more like helpful helpful for you like if the app can said oh yes what you're doing is a still good choice today rather than telling you to change something.
+Tony Reece: Yes. Yes,
+Amber Fu: Okay.
+Tony Reece: that would be much more helpful.
+Amber Fu: Okay.
+Tony Reece: Lots of actionable stuff that you actually that actually fits to your situation.
+Amber Fu: But like if if uh nothing is wrong, could you prefer the app to stay quiet or still show you quick like oh good check
+Tony Reece: No,
+ 
+ 
+00:15:49
+ 
+Amber Fu: in,
+Tony Reece: I prefer it to check in because I'm not I'm not assuming that the app will always be
+Amber Fu: right?
+Tony Reece: uh will always be perfectly right,
+Amber Fu: Uh-huh.
+Tony Reece: but It's if it puts it on if it lets me know to check something, then I can figure out the difference, you know. So, let's say it says,
+Amber Fu: Mhm.
+Tony Reece: you know, uh, you know, today's a good day to keep your thermostat at 73. Um, because it's, you know, because it's going to be super hot and there's going to be a big draw. It would be nice to know that and think those terms um up front and if
+Amber Fu: Mhm.
+Tony Reece: it's hotter or cooler I can adjust accordingly. But knowing yeah I don't think it has to be right. It just has to kind of point me in the right direction.
+Amber Fu: Mhm.
+Tony Reece: doesn't have to always be perfectly
+Amber Fu: Got it. Got it. Got it. And well,
+Tony Reece: right
+Amber Fu: like if their app can save you like very little money but save you from thinking about like rate and timing every day, would that still be worth to pay it for?
+ 
+ 
+00:16:57
+ 
+Amber Fu: or you just think you need
+Tony Reece: depending on the cost.
+Amber Fu: to.
+Tony Reece: It it would be it doing the calculations for me
+Amber Fu: Okay.
+Tony Reece: is is is way better. Um because you know if I'm doing myself I've got to figure what's the rate from this
+Amber Fu: Okay.
+Tony Reece: time to this time then the rate from this time to this time then it drops down to this
+Amber Fu: Mhm.
+Tony Reece: time have I hit my tier or not all you know
+Amber Fu: Mhm.
+Tony Reece: because different rates go up when you use too much electricity um all those things if something else was doing the calculations for me then then it's very useful
+Amber Fu: Got it. Got it. And um so like what what level of saving would make you think, oh this app is actually worth it?
+Tony Reece: If it could save me between 20 to $30 a month,
+Amber Fu: Mhm.
+Tony Reece: then it's worth it.
+Amber Fu: Okay. Got
+Tony Reece: because you know you over the year you're talking 240
+ 
+ 
+00:17:58
+ 
+Amber Fu: it.
+Tony Reece: to $360 or more dollars and if the app you know let's say the app is subscription and it's $25 a year you're like yeah you more than worth it because you save me much much more than I'm you know 10 times you save me 10 times what it costs to have the
+Amber Fu: Got it. Got it. And like would the real time like snapshot showing like what's using power right now make you feel more in control or would you rather check it check it?
+Tony Reece: I would I would rather it show real time uh what's happening.
+Amber Fu: Okay.
+Tony Reece: That that would be really useful.
+Amber Fu: Okay.
+Tony Reece: That would be really useful. Um because because everything changes minute to minute. Um,
+Amber Fu: God.
+Tony Reece: you know, and if it also had the it if it also had tips on how like it coalated all of that data about, hey, you can raise your fridge temperature to 34 degree 36 degrees as opposed to
+Amber Fu: Mhm.
+Tony Reece: 34 and that'll save you an additional $30 to $40 a year, $50, whatever.
+ 
+ 
+00:19:17
+ 
+Tony Reece: Um, or just the little tips like,
+Amber Fu: Mhm.
+Tony Reece: you know, the coldest part of the fridge is the back. So if you want need something to stay, make sure it's there. But everything in the door will go up and down in temperature. So just put the stuff that doesn't really matter if it gets a little warming, a little cold,
+Amber Fu: Mhm.
+Tony Reece: you know, like your juice or whatever. Just little things like that to to to help you kind of use it.
+Amber Fu: Mhm.
+Tony Reece: And then if I were to say um uh your peak hours are from 4 to like remember peak hours for using electricity are between 4 p.m. and 900 p.m. Your rate goes up and not just say that's peak hours but like say your rate goes up by you know one and a half times from here to here.
+Amber Fu: Mhm.
+Tony Reece: So, you know that it's like, "Oh, really? It costs me almost twice as much at this time of the day, so let me just turn off all the things that I don't need." Um,
+ 
+ 
+00:20:18
+ 
+Amber Fu: Got it.
+Tony Reece: that that kind of and but and especially if it reminds you not not just like every day,
+Amber Fu: Got
+Tony Reece: not like not every once a month, but just alerts, regular alerts, regular alerts, regular alerts,
+Amber Fu: it.
+Tony Reece: that kind of stuff.
+Amber Fu: Got it. Got it. And and for like a usage page, like if you could only see one thing on that page, what would you want to to be? Like for example like a solar with a grow or total load or like biggest current draw like something you really want to be
+Tony Reece: You know, yeah.
+Amber Fu: attention.
+Tony Reece: I the the I think the one problem with the the one thing is that there's there's too many one things.
+Amber Fu: Okay.
+Tony Reece: uh you know so if I knew that that there's just too many parts to other parts that are also important but if if we're talking a couple of things that two
+Amber Fu: Mhm.
+Tony Reece: or three things that you your daily reminder would be um uh your your peak costs at what time of the
+ 
+ 
+00:21:28
+ 
+Amber Fu: Mhm.
+Tony Reece: day um and your um or leave
+Amber Fu: Mhm.
+Tony Reece: uh actually even better your cost structure like hey remember today from from midnight to to 8
+Amber Fu: Mhm.
+Tony Reece: a.m. it costs this from 8 a.m. before it costs this. From 4 to midnight it costs this. Just like just just reminding you, you know, you're going to pay, you know,
+Amber Fu: Got it. Got it.
+Tony Reece: that that's probably the biggest the biggest one because everyone then makes sure that they know, okay, just turn something off. Don't don't use this if I don't need it. Um those kind of things.
+Amber Fu: Got it. And like when you think about like I know power usage like what worry you more like the cost or the like like the visibility like some or something else?
+Tony Reece: the cost.
+Amber Fu: Okay.
+Tony Reece: It's it's it still comes down to the cost for for
+Amber Fu: Mhm. Got it. Got
+Tony Reece: annual and then and especially if you see that it has
+ 
+ 
+00:22:31
+ 
+Amber Fu: it.
+Tony Reece: actual effects where you you know you look at and you go wow my bill uh last month was this and this month it's under the same conditions. It's dropped down to this.
+Amber Fu: Okay.
+Tony Reece: Um and and when you see that and also you know what your lifestyle was like you know like you know this the drop didn't mean anything. I didn't feel like it was a sacrifice especially but knowing that just simple things
+Amber Fu: Mhm.
+Tony Reece: like you know changing your fridge or temperature or not doing your laundry at these times
+Amber Fu: Mhm.
+Tony Reece: or things saved you $20 $25. like, "Okay, this makes
+Amber Fu: Got it. Got it. And well and if there the app can just show you like in real time uh
+Tony Reece: sense."
+Amber Fu: for example like oh most of your current usage is coming for from something would that change what you do?
+Tony Reece: Right. Yes.
+Amber Fu: Okay.
+Tony Reece: Yes.
+Amber Fu: Okay. Got
+Tony Reece: Because then you know what you're dealing with.
+ 
+ 
+00:23:39
+ 
+Amber Fu: it.
+Tony Reece: you know, know what to fix as opposed to you just kind of guessing and hoping it works and then waiting till a certain point to see. Um, you want to take all the guesswork out of it as much as possible. You want to be able to to understand where you're being
+Amber Fu: Mhm. Mhm. Got it.
+Tony Reece: drawn.
+Amber Fu: And well, if like the app can check on once a day and said, "Oh, today looks normal." Would that reduce how much you think about the energy?
+Tony Reece: Yes. Yeah. As long as it's giving some kind of reminder,
+Amber Fu: Uhhuh.
+Tony Reece: it would it it would think about it. You know, like we all do we all do stuff on our like our calendar um to
+Amber Fu: Mhm.
+Tony Reece: remind us of things. Even sometimes, you know,
+Amber Fu: Mhm.
+Tony Reece: even the thing you do every single day, sometimes you may put on a calendar to make you to remind you. Um all of those things when it pops up and gives you the information,
+ 
+ 
+00:24:32
+ 
+Amber Fu: Mhm.
+Tony Reece: you're like, "Okay, I remember. I remember. I remember.
+Amber Fu: Got it. Got it. And what and do you like worry more about today cost or about like cost
+Tony Reece: Yeah.
+Amber Fu: creeping up over the time without your not
+Tony Reece: Uh I'm I'm more concerned about the creep
+Amber Fu: noticing
+Tony Reece: of the costs. it. I've gotten sort of used to like I'm paying this, but I'm more concerned about as the costs start to go up.
+Amber Fu: Got it. Got it.
+Tony Reece: Yeah.
+Amber Fu: And and would you help to know like you know compared to for example compared to last summer you're doing better or doing worse something like that? Do you do you like that kind of
+Tony Reece: Uh, you know,
+Amber Fu: not?
+Tony Reece: I kind of I it would be it's it's okay to know that,
+Amber Fu: Uh
+Tony Reece: but um it's hard to compare because you kind of forget what you were actually doing last summer and why.
+Amber Fu: and then
+ 
+ 
+00:25:42
+ 
+Tony Reece: So, you know, you know, was that the, you know,
+Amber Fu: and
+Tony Reece: that that one month where you did, you know, you went on vacation. So the price dropped or was that the the month where you know you
+Amber Fu: uh
+Tony Reece: had lots of people over at the house so you had a couple parties or whatever it's hard to remember
+Amber Fu: Mhm.
+Tony Reece: exactly why price at one year is
+Amber Fu: Mhm.
+Tony Reece: different.
+Amber Fu: Mhm.
+Tony Reece: Um, but knowing energy usage difference, like I used more because I know the price last year's price is different than this year's price for energy.
+Amber Fu: Mhm.
+Tony Reece: Knowing how much cash is not as important as how much I actually used
+Amber Fu: Mhm. Got it.
+Tony Reece: it.
+Amber Fu: And and like if the app can did all like a monitor for you like how often would you want to activity check it? Check it like daily or weekly or only when it's alarm you.
+Tony Reece: I would want it to give me almost daily reminders.
+ 
+ 
+00:26:49
+ 
+Amber Fu: Okay.
+Tony Reece: Um because there are certain times that you know even if it's just to say you're doing okay,
+Amber Fu: Mhm.
+Tony Reece: things are the same.
+Amber Fu: Mhm.
+Tony Reece: There's always a you like like uh you're in Los Angeles. Remember a couple weeks ago it just suddenly got hot. Um and it was like it was cool. It was cool.
+Amber Fu: Mhm.
+Tony Reece: Then all a sudden it got it, you know, temperature went up. It was like in the 80s for a few days. You know, people had to turn on air conditionings in some sometimes. But knowing that,
+Amber Fu: Yeah.
+Tony Reece: oh look, today is supposed to be a hot day.
+Amber Fu: Mhm.
+Tony Reece: look out for this, this, this, and this.
+Amber Fu: Mhm.
+Tony Reece: That that's because I think it just changes every day. So, always having some little alert is always
+Amber Fu: Got it. Got it.
+Tony Reece: good.
+Amber Fu: And and if like uh I was thinking if like the app can give you like a confident that nothing is like quietly wasting the energy in your home, would that alone make it worse worse to using it?
+ 
+ 
+00:27:58
+ 
+Tony Reece: Yeah, I think so. Yeah, I think so. I think it's still uh there's always room for improvement because you never
+Amber Fu: Mhm.
+Tony Reece: know for sure what's going on. It's I mean,
+Amber Fu: Mhm.
+Tony Reece: most people don't even understand electricity enough to, you know, they know don't touch the socket, don't touch a live wire. That's all they know about it.
+Amber Fu: Mhm.
+Tony Reece: And it runs everything in my house. Um,
+Amber Fu: Mhm.
+Tony Reece: so most people don't understand what uh, you know, kilowatt hour kilowatt means or what kilowatt hours mean or any of those
+Amber Fu: Yeah.
+Tony Reece: things. They they it's all just kind of like whatever. I pay a fee every month and I get electricity and if I turn off this light,
+Amber Fu: Mhm. Yeah.
+Tony Reece: I will save some money.
+Amber Fu: Yeah. Exactly.
+Tony Reece: That's that's about as far as they go.
+Amber Fu: Yeah. Exactly. So, well, and if you could only see like a three things on like a real time page, which which one would you pick?
+ 
+ 
+00:28:55
+ 
+Amber Fu: Like for example like a uh total home load or like a biggest current
+Tony Reece: Mhm.
+Amber Fu: draw or like battery level or or or oh you don't have battery but like a current uh current like uh the growth like price or like something like a solar uh solar or gold something like that like which three thing you want to see it in real time.
+Tony Reece: I would want I would want to see daily overall usage.
+Amber Fu: Uh-huh.
+Tony Reece: I'd want to see uh data uh real time price cost.
+Amber Fu: Uh-huh.
+Tony Reece: Um uh and I would want to see uh uh as
+Amber Fu: Okay.
+Tony Reece: much um uh specific load as possible. Then if you have a battery, I would add that in there like just where the battery is. But um as specific load draws as possible
+Amber Fu: Mhm. Got it.
+Tony Reece: would
+Amber Fu: And I was thinking like, have you ever think get the battery
+Tony Reece: planning on it uh and uh it
+Amber Fu: or
+Tony Reece: was we just ran into the whole um you know the the ending of all the subsidies for it and it just became too expensive.
+ 
+ 
+00:30:19
+ 
+Tony Reece: at that point. So it's like okay we yeah we would like to but uh now without with the subsidies gone and the tax credits gone it's just too expensive because the difference in what we would use it you know it's tens
+Amber Fu: Mhm.
+Tony Reece: of 20 plus years before it becomes
+Amber Fu: Yeah.
+Tony Reece: uh useful you know or so it's like okay you know paying something off over 20 Yes, I know the prices are going to go up and I'm glad I already have solar, but it just made it
+Amber Fu: Yeah. Yeah,
+Tony Reece: unaffordable.
+Amber Fu: that's true. And well, because like I think I think you may be under the AM2 policy
+Tony Reece: I am. Oh,
+Amber Fu: if Yeah.
+Tony Reece: sorry. I forgot to tell you.
+Amber Fu: Well, if that the situation,
+Tony Reece: Yes.
+Amber Fu: I think you're you're way better than the AM3, you know.
+Tony Reece: Right.
+Amber Fu: Yeah, because if they don't get the battery, it will be waste solar. So, yeah,
+Tony Reece: Right.
+ 
+ 
+00:31:23
+ 
+Amber Fu: but and but like for you know some some sunny day, do you still feel like some solar get waste?
+Tony Reece: I don't think so. Um because uh on a really sunny day we we
+Amber Fu: Okay.
+Tony Reece: use it we'll you know we use it up what we use and then every extra then goes back as a credit and I could I see those credits.
+Amber Fu: Mhm.
+Tony Reece: So, we had, you know, those long summer days where it's I especially saw it this summer a couple of times where it was
+Amber Fu: Mhm.
+Tony Reece: cool and we didn't use the the air conditioning and uh checking my Sunun app, I was like, "Wow,
+Amber Fu: Mhm.
+Tony Reece: it's just generating tons of electricity. We're only use, you know, it's showed the gra the bar graph and it's generating here,
+Amber Fu: What?
+Tony Reece: but we're only using here." And it was like,
+Amber Fu: Mhm.
+Tony Reece: "Okay, so that's going back as a credit. I'll take it." Good.
+Amber Fu: Got it. Got it. Got it.
+Tony Reece: Yeah.
+ 
+ 
+00:32:21
+ 
+Amber Fu: And um so u the last question is like uh so how do you normally run your AC?
+Tony Reece: We normally run it uh um at kind of like the we don't usually don't start in the morning unless it's crazy hot. Um, so, uh, normally it's when the temperature in the air hits about 80ish degrees during the day. Um, uh, and if that's going to be for an extended period of time, like last week when we had the the or two weeks ago when we had that those couple hot 80°ree days, we didn't turn on the air condition because it didn't last very long.
+Amber Fu: Yeah.
+Tony Reece: last two or three hours and then it's gone. But during the summer when we have those long ones, we usually turn it,
+Amber Fu: Mhm.
+Tony Reece: it usually turns on about 11 12ish uh in, you know, about 12:00 in the afternoon and then it'll run up until about 8:39 at night. Uh as soon as it cooled off night, we usually open up the windows at that point.
+Amber Fu: Good.
+ 
+ 
+00:33:38
+ 
+Amber Fu: And have you ever tried like precooling or preheating your home to
+Tony Reece: Yes, we're really well insulated.
+Amber Fu: say
+Tony Reece: So, we that that's part of the reason why we don't even bother turning it on till later because it's usually
+Amber Fu: okayh
+Tony Reece: very uh very comfortable and then we close everything up. Um, and it doesn't run a lot to get down to the temperature.
+Amber Fu: Yeah.
+Tony Reece: So, once you know it gets down to like 73 74 degrees, it's it's fine and it just shuts off.
+Amber Fu: Mhm.
+Tony Reece: and it just pops back on when the temperature in the house rises up above. So it it it's on and off on and off till about from about noon till about
+Amber Fu: Mhm.
+Tony Reece: 9ish at night.
+Amber Fu: Mhm. Got it. Got it. And well like since like you have the solar and the EV and you know like the
+Tony Reece: Yeah.
+Amber Fu: AC and some like smart device do you think you still can lower your bill like if you change some behave?
+ 
+ 
+00:34:35
+ 
+Tony Reece: Yes. Yes. Yeah. I think we could I think we have a lot of uh phantom draws of power that we just don't
+Amber Fu: Okay.
+Tony Reece: realize are um just little I think there's a lot of little things that are we just don't even think about that we don't realize are on and using electricity
+Amber Fu: Mhm. Mhm.
+Tony Reece: um constantly.
+Amber Fu: Mhm.
+Tony Reece: Yeah. Like how much is the uh the toaster oven drawing?
+Amber Fu: Yeah.
+Tony Reece: How much is the oven drawing? We're not using them that often. How much is the microwave? Use the microwave once, twice a day, three times a day and then it's done. Um refrigerator we don't think about as much because yeah, we it's got to run constantly. But uh you know just all of these little things that are how much
+Amber Fu: Yeah.
+Tony Reece: is the computer my iMac that I'm talking to you on? So yeah,
+Amber Fu: Yeah.
+Tony Reece: turn it off when you're not using it.
+ 
+ 
+00:35:31
+ 
+Amber Fu: Yeah. Yeah. Exactly. And uh and uh do you receive like a true app bill every year?
+Tony Reece: Yes.
+Amber Fu: Okay. How much?
+Tony Reece: Yes.
+Amber Fu: How much roughly?
+Tony Reece: It's It's 1,800 a year. I just got I just got the latest one.
+Amber Fu: Oh.
+Tony Reece: It was 1,854 for the
+Amber Fu: Oh, wow.
+Tony Reece: year.
+Amber Fu: And do you know like where that come from? And have you ever like talked to the customer service and to know like what the money about like break break down something like that?
+Tony Reece: Uh, I haven't talked to customer service, but they do a good job of showing ev every every line. So, here's how much electricity you used. Here's how much you generated and sold back to at the s such a rate.
+Amber Fu: Mhm.
+Tony Reece: So,
+Amber Fu: Mhm.
+Tony Reece: I I can I see the breakdown.
+Amber Fu: Okay.
+Tony Reece: Um,
+Amber Fu: Okay. And you think that that amount is a reasonable or you think uh
+ 
+ 
+00:36:29
+ 
+Tony Reece: yeah,
+Amber Fu: pretty maybe like hello?
+Tony Reece: it's it was a little more than last year.
+Amber Fu: Okay.
+Tony Reece: Um, last year it was about 15 something,500. So,
+Amber Fu: Uh
+Tony Reece: I think part of that is the I don't think we used much more.
+Amber Fu: Mhm.
+Tony Reece: Maybe a little bit more, but I think it was the raising of the prices is why it went
+Amber Fu: Mhm.
+Tony Reece: up almost
+Amber Fu: Okay.
+Tony Reece: $300.
+Amber Fu: Okay. Got it. Got it.
+Tony Reece: Yeah, because I'm figuring what if uh at at $100 a month it's 1,200. So it's 18 is 150 or we were at about 120 to 125. So definitely definitely more
+Amber Fu: Mhm.
+Tony Reece: usage or or more cost for for it cuz
+Amber Fu: Got it.
+Tony Reece: our usage didn't change significantly.
+Amber Fu: Got it. Got it. Well,
+Tony Reece: Yeah.
+Amber Fu: well, thank thanks so much. you know this this is conversation was super helpful you know you gave gave me like exactly the kind
+Tony Reece: Oh,
+Amber Fu: of real world content we we need to help home to run cheaper and smarter and I'm
+Tony Reece: right.
+Amber Fu: really appreciate by the way one last thing is that once we have like early version app
+Tony Reece: No problem.
+Amber Fu: uh would you be open to try it out as a beta tester yeah you because your
+Tony Reece: Yeah, absolutely.
+Amber Fu: feedback's really really important to
+Tony Reece: Yeah. Yeah, I would. Yeah, you you have my contact if uh when it comes out and if you guys want real world testing, we're happy to.
+ 

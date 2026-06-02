@@ -1,0 +1,1023 @@
+Mar 4, 2026
+Casally Interviews(Utility Bill&Solar Credit Consulting) (Tim Woodruff) -  Transcript
+00:00:00
+ 
+Amber Fu: So our uh vision is become like a financial layer for household energy. So you know today like most homeowner with a solar or battery uh don't actually understand
+Tim Woodruff: Mhm.
+Amber Fu: how their bill is calculated. So like how credit are apply or whether like they're truly saving the money. So I uh we believe like there uh there's a gap between like the what utility calculate and what installer promise and what homeowner actually see and we're you know basically just trying to close a gap. Yeah. So and what we really like to validate with you today is whether our interation of the uh tariff uh structure and the building logic is you know structurally correct.
+Tim Woodruff: Okay.
+Amber Fu: Yeah.
+Tim Woodruff: Yeah,
+Amber Fu: Cool.
+Tim Woodruff: that's great.
+Amber Fu: And uh also like joining me today is a Ling our techn so he's rep uh represented for the architecture behind our building logics and the data modeling. Yeah.
+Tim Woodruff: Okay.
+Amber Fu: So uh uh Ling may ask a few deeper technical question around like a calculation logics.
+ 
+ 
+00:01:39
+ 
+Amber Fu: Okay cool.
+Tim Woodruff: Okay.
+Amber Fu: So we can you know make sure we're building the correct thing. And uh before we go deeper uh so we love to uh briefly show you our current demo so you have like a contact for what we're building
+Tim Woodruff: Okay.
+Amber Fu: for. Sure.
+Tim Woodruff: Okay.
+Amber Fu: Uh let ling will share the screen. Uh, give me a second. Okay. Can you see the app? Okay, cool. So uh the here is our uh demo is still in the very
+Tim Woodruff: Yep.
+Amber Fu: early stage but uh you can see like uh the the so I will quick like uh go over it. Uh so at the top section we provide the environment and system contact. Uh so we display like a realtime status for the household energy uh ecosystem the solar EV and battery and uh grid connection so user can immediately understand like the current state of their energy system. So uh from a building reconstruction standpoint like we want to know like which data source are absolutely uh s uh like uh theoretical
+ 
+ 
+00:03:13
+ 
+Tim Woodruff: Um, so are you are you meaning like what is the um between like what the you know like the the car says it's pulling from the grid versus what the battery says versus the meter.
+Amber Fu: Yes, the yeah I just try to know like which data source are like uh like important like because like there will have like utility interval uh interval data or like a solar monitor or like a
+Tim Woodruff: Mhm.
+Amber Fu: battery like for the building like uh you know like
+Tim Woodruff: God. Okay.
+Amber Fu: when they show the building reconstruction standpoint
+Tim Woodruff: Okay. Um let's see. So the utility from their end their meter is like a continuous reading but when they are computing a bill um or or like valuing the solar export or something they look at
+Amber Fu: Mhm.
+Tim Woodruff: it in 15minute intervals. So it's like the total of all of them.
+Amber Fu: Uhhuh.
+Tim Woodruff: So, I guess how does that does the timing affect like what you're trying to do
+Amber Fu: Yeah, because like uh you can see like the top like uh there have a uh we we try to
+ 
+ 
+00:04:40
+ 
+Tim Woodruff: here
+Amber Fu: connect cuz like the f first stage will be we only have a app. So we only can connect with certain uh uh like the EV charging or like anything with API. Uh so uh so we uh on the top we uh
+Tim Woodruff: Mhm.
+Amber Fu: we connect basically like we think will be the largest uh like using the electricity uh things. So like a EV and so and something important in uh in the home. So, like a solar or like uh the battery or if the homeowner had it or like the solar.
+Tim Woodruff: Yeah. So I think if you have the live API feeds of
+Amber Fu: Yes.
+Tim Woodruff: solar battery uh EV if they have them that would be the most important um to try and work against whatever the meter is showing in real time. I know that there are like smart stoves and cooktops and that kind of
+Amber Fu: Mhm.
+Tim Woodruff: stuff. Um, but their total use is so small that I don't think those are worth it.
+ 
+ 
+00:06:07
+ 
+Tim Woodruff: I I do think the three biggest ones are going to be batteries, cars, and solar.
+Amber Fu: Okay. Okay. Got you. And uh so for for example if like a solar data and utility m data don't perfectly match which one should we trust more? It it it will have that situation
+Tim Woodruff: So,
+Amber Fu: happen.
+Tim Woodruff: let's see. I think it depends on how big the difference is.
+Amber Fu: Mhm.
+Tim Woodruff: So, if they're a few percent off, the utility is just going to win. um they kind of choose or or they have like legal authority to to
+Amber Fu: Mhm.
+Tim Woodruff: say, you know, how much your house pulled from the grid or how much it put back in. If there is a significant difference,
+Amber Fu: Okay.
+Tim Woodruff: there's an opportunity to either ask for a new meter or to, you know, reach out to the solar installer and and start hunting down what the differences are coming from. It could be a faulty meter. It could be, you know, something that that wasn't flagged.
+ 
+ 
+00:07:28
+ 
+Tim Woodruff: Um, I guess like a hot tub or a pool is definitely like a big energy user.
+Amber Fu: Mhm.
+Tim Woodruff: Um, but if if your total production minus your big consumers is pretty close, then the utility meter is just considered correct.
+Amber Fu: Got you. Got you. Oh, by the way, I Which uh state of utility are you most familiar
+Tim Woodruff: So,
+Amber Fu: with?
+Tim Woodruff: I have worked with Utah, Colorado, New York, a lot of them. Um, I've been doing a lot of reading about California,
+Amber Fu: Mhm.
+Tim Woodruff: but I would say to the extent that it is every single utility has such unique cases that um like PG I'm sure you know PG&C uh they're all just they have completely
+Amber Fu: Yeah. Mhm.
+Tim Woodruff: different rules. Um, so I don't know if that's something that you've thought about with this implementation where the the
+Amber Fu: Mhm.
+Tim Woodruff: cost calculations are abs. They're just so completely different in every
+Amber Fu: Mhm. Got you.
+Tim Woodruff: territory.
+Amber Fu: Got you.
+ 
+ 
+00:08:38
+ 
+Amber Fu: And like you cuz we talk uh talk uh to speak with a lot of uh uh like solar user and like sometime the solar monitoring system show that the house generate like a a lot of solar energy but when the user look at the utility bill the saving don't seem like too match. Uh for your experience like what are the most common reason for this?
+Tim Woodruff: So, uh, let's see. Um basically phantom load is a big one where um I think a lot of times you know like you've identified especially if you have an electrified household like your heat pump your car an electric water heater those are the big users. Um but something like an old fridge or you know faulty wiring can can absolutely chew through electricity. um rather quickly. The the other thing is that some older systems um they're not they're estimating electricity output in a sense, you know, like systems from like 2016, not as accurately as what the utility meters are, you know, measuring in high frequency back and forth.
+ 
+ 
+00:10:05
+ 
+Tim Woodruff: Um and that was due to like data limitations.
+Amber Fu: Yeah.
+Tim Woodruff: So, it can be truly a lot of different things. Um, especially commercial versus
+Amber Fu: Mhm.
+Tim Woodruff: residential.
+Amber Fu: Got you. But uh so in your opinion like what kind of insight or like analysis would actually help like a home owner understand like why their solar is not saving as much as expected?
+Tim Woodruff: So, I do think if they have this access to their live energy production and they can see, you know, on on any given day what they're producing and they look at their utility bill, I think especially with um net metering 3.0, net billing tariff, the differences are very much in the export rates. And so I think what a lot of people aren't realizing is that they're because solar export is unbundled now from all of these other costs.
+Amber Fu: Mhm.
+Tim Woodruff: You might you might actually be exporting like four, five, 600 kilowatt hours a month and not really getting any value for it because
+Amber Fu: Mhm.
+Tim Woodruff: use isn't matching up.
+ 
+ 
+00:11:21
+ 
+Tim Woodruff: Um, and that that's, you know,
+Amber Fu: Um
+Tim Woodruff: definitely something where you export all of it and then it's valued at 8 cents a kilowatt hour, but you're pulling at 40 and still paying delivery charges and everything else. And it's like a big part of it is just the mismatch in timing that is making the solar system seem so worthless, even if on a on an energy basis it is producing what they thought it would.
+Amber Fu: Okay. Gotcha. Gotcha. So like when we try uh reconstruct the household energy flow in the app, we may have millable data source like you know utility interval data, solar inter uh inverter data or battery data and the EV charging data. So from a system design perspective like which data source are the most uh important for reconstruction.
+Tim Woodruff: Um, so are you trying to do whole home modeling of like e even unmonitored,
+Amber Fu: Uh
+Tim Woodruff: you know, like uh lighting and computers and everything else.
+Amber Fu: uh not right now but only like something like you know like a solar battery
+ 
+ 
+00:12:38
+ 
+Tim Woodruff: Okay.
+Amber Fu: EV or something can connect with API.
+Tim Woodruff: Uh-huh.
+Amber Fu: Yeah.
+Tim Woodruff: Okay. So I think conceptually if from from a top level if the app took total solar and
+Amber Fu: Mhm.
+Tim Woodruff: total draw from the grid and you were to then subtract whatever was exported from to the
+Amber Fu: Mhm.
+Tim Woodruff: grid subtract EV um subtract you know
+Amber Fu: Uh-huh.
+Tim Woodruff: battery losses are not insignificant. Um, and if you know that a house is electric and or natural gas, and if it is electric, whether it's resistive or heat pump, I think you can start to narrow in at on at least like some assumptions and figure out um whether you know like of of the total amount of generation whether 20% is kind of like unaccounted for. And you can safely assume that's lighting, computers, fans, whatever. Um, but I think if you account for these huge users and you come out with like 60% is still missing, um, that's a that's a bigger
+Amber Fu: Okay. Got you.
+Tim Woodruff: mystery.
+ 
+ 
+00:14:08
+ 
+Amber Fu: Got you. Okay. Thank you. That's really helpful. And uh Okay. And we can go uh next part. So next part is like the is called the monthly view budget. So this is a really big difference from the most app is so so it's not like um optimization target. We are not trying to you know push the user bill as low as possible and it well think this like a tolerance tolerance boundary like uh so
+Tim Woodruff: Uh-huh.
+Amber Fu: so the here is like a set amount of bill limit. It's kind of like a user goal. So we don't let the user tap any random number on purpose. So we ground the go into two things. So basically in the user that's three months bill and user currently read plan. So we show a recommended range uh to the user. So uh you know this is kind of turn the app from the dashboard into
+Tim Woodruff: Mhm.
+Amber Fu: a decision system. So we look the same event like you know uh let's say like a peak hour EV charging
+ 
+ 
+00:15:19
+ 
+Tim Woodruff: Mhm.
+Amber Fu: and ask like oh does this event meaningfully threaten your goal. So uh for example like uh uh let's see if this user uh the average rate will be something like 200 to 200 or 210 like average and sometime you know like the season is a different sometime the the winter or summer will be a little bit higher. So we have those uh monthly bill limit to you know kind of uh try to help the user don't have any like really high
+Tim Woodruff: Mhm.
+Amber Fu: bill or surprise bill. Yeah.
+Tim Woodruff: Mhm.
+Amber Fu: So and all the app is do the you know th those like event thing or like help them to automatic automation to uh save the uh utility money is all around uh is all by those goal.
+Tim Woodruff: Okay. So like so is the goal to I guess eventually like incorporate demand response and demand management and like battery discharge
+Amber Fu: Uh yes. So we we have a uh we I we can show you a next.
+Tim Woodruff: timing.
+ 
+ 
+00:16:41
+ 
+Amber Fu: So uh the next will be the saving card. So the saving card is uh not like a reward. It is more like you know if the the goal like the monthly bill budget is a financial tolerance boundary. The saving will show how much buffer you currently have. Yeah.
+Tim Woodruff: Mhm.
+Amber Fu: And uh and I I I will have a question. So from the tariff modeling perspective like how sensitive our residential bill to small behavioral change like EV charging type.
+Tim Woodruff: Um, it depends on the season. Um,
+Amber Fu: Uhhuh.
+Tim Woodruff: so like from 7 to 900 p.m. they can be really sensitive. Um,
+Amber Fu: Mhm.
+Tim Woodruff: kilowatt hour rates can go up to like a dollar. So if you're charging an EV uh you know during
+Amber Fu: Mhm.
+Tim Woodruff: that um that while the sun is like going down and and the entire grid is losing solar um and is switching over to natural gas plants electricity rates are very high and so that is reflected and and if you can just I guess that's what I was saying
+ 
+ 
+00:17:51
+ 
+Amber Fu: Mhm.
+Tim Woodruff: earlier with um you might export a lot of solar power during midday but it's essentially worthless because everyone is exporting ing it then. So, if you can actually use during super off peak, midday, overnight, and and avoid those shoulders,
+Amber Fu: Mhm.
+Tim Woodruff: especially in summer, um that that can have a really big impact on a bill.
+Amber Fu: Mhm.
+Tim Woodruff: Like I guess it depends on what how much volume you're using, but like moving 100 kilowatt hours off of that can, you know, add up to 30 50 plus dollars pretty quickly.
+Amber Fu: Okay. Gotcha. Gotcha. So I think I may not have like explained the goal part very clearly. So So the like the month of bill budget the key idea is there uh the that entire app is like a goal driven. So basically the user set the monthly uh bill goal but it's not just a random
+Tim Woodruff: Uh-huh.
+Amber Fu: number we ground the uh grounded using the two referency like their uh the history bill and their currently tariff plan.
+ 
+ 
+00:19:04
+ 
+Amber Fu: So the goal become like a financial uh tolerance boundary. So not like a optimization target and every event in the
+Tim Woodruff: Uhhuh.
+Amber Fu: system like EV charging, battery discharge or like applies usage is irrelevant against the goal. So instead of uh just showing the data the app app will asking like does this action meaningful threaten the user bill goal. So if the answer is yes, the system suggests a different timing or like automation. Yes.
+Tim Woodruff: Uh-huh.
+Amber Fu: Uh that will be what the monthly bill budget is.
+Tim Woodruff: Okay. There is a um and I'm I'm totally blanking on the
+Amber Fu: Yeah.
+Tim Woodruff: name. So, so it's not meant to be like a distributed resource aggregator. Um, and it's not meant to like you're not trying to make a user charge at a certain time in general. It's that if they want to meet a certain bill target, you might suggest through the app high um value ways to like meet their goal.
+Amber Fu: Uh yes. Yes. And uh so so uh we are not trying to control the device or automize the grade like a uh DR.
+ 
+ 
+00:20:37
+ 
+Amber Fu: The idea is more like a decision support system for the homeowner.
+Tim Woodruff: Mhm.
+Amber Fu: So if the user set a bill goal and the systems uh simply help them to
+Tim Woodruff: Mhm.
+Amber Fu: understand oh which action may push them over the boundary and suggest. So the the goal is not like a force behavior but it is to help the user stay with their financial confirm
+Tim Woodruff: Gotcha. Mhm.
+Amber Fu: zone.
+Tim Woodruff: Mhm.
+Amber Fu: Yeah.
+Tim Woodruff: Okay. Is there Oh,
+Amber Fu: And please go ahead.
+Tim Woodruff: go ahead.
+Amber Fu: Sorry.
+Tim Woodruff: Do you have or like is is there an on-ramp period where maybe for like a month or two someone just goes and lives the way that they do and you kind of collect that behavioral data of like when their energy spikes are or when their energy use is and how that contributes to their bill to then make the suggestions or are they like more based in okay we know you have you know a Model as if you wanted to meet this goal, a couple high uh leverage options are to, you know, not charge at peak time.
+ 
+ 
+00:21:48
+ 
+Tim Woodruff: So, are they personalized or um I don't does my question make
+Amber Fu: Yes, I think that's a great question.
+Tim Woodruff: sense?
+Amber Fu: So, uh well in the early stage is mostly like a modal base. So,
+Tim Woodruff: Okay.
+Amber Fu: we look at the thing like the user tariff plan and their pass like the history bill and what device they have like EV solar or battery. So based on that we can already generate some reasonable suggestion but over time we collect behavioral pattern like when their usage
+Tim Woodruff: Okay.
+Amber Fu: spike or like when their typical charge their EV and that help us refine the suggestion.
+Tim Woodruff: Okay.
+Amber Fu: Yeah. So yeah that's what what we're going to do and okay. So we can go back to the home and and I can Yeah. And I have a a more question on the uh the monthly bill budget. So I I I try to understand like under the TU uh structure uh is the mar uh marginal cost difference usually large enough for behavioral shift to
+ 
+ 
+00:23:09
+ 
+Tim Woodruff: Yes.
+Amber Fu: matter.
+Tim Woodruff: Um, see if I can pull up really quickly a uh, so second here. I'm just looking at the the specifics. So, Okay. So, um an overnight or like super off-
+Amber Fu: Mhm.
+Tim Woodruff: peak charge is about 5 to seven cents per kilowatt hour.
+Amber Fu: Mhm.
+Tim Woodruff: Um and and that's just incredibly different from peak rates of like 35 cents. So it can be you know four to 10 times as much to charge or use a lot of electricity during these these high peak times and then with those higher charges some of the like benefits charges um and taxes can be calculated on that higher rate. Now there are there are some unavoidable costs no matter when you do consume energy which would be the delivery charges. Those are not time of use suggested but
+Amber Fu: Yeah.
+Tim Woodruff: um you know like SDG& has on peak summer of 80 cents a kilowatt hour and super off peak of 12. So it it can make a really big difference um avoiding those hours.
+ 
+ 
+00:25:21
+ 
+Tim Woodruff: And I think,
+Amber Fu: Uhhuh.
+Tim Woodruff: you know, like for your app, if if you could see if someone had a time of use rate and you could see some of their past bills,
+Amber Fu: Yeah.
+Tim Woodruff: they they are broken out by the time of use um period. And so you could see like historically how much use was during these peak periods. And that right there would be an easy way to tell if behaviorally shifting that individual might like kind of what the cap on that is. You know, if they have $60 of on peak pricing, um that's you can only save them $60 by changing their time of use. But if they have like 200, you have a lot more headroom to to shift behavior if they wanted
+Amber Fu: Okay, gotcha.
+Tim Woodruff: to.
+Amber Fu: And uh so if we look the user pass bill and to see how much electricity they're used during the pickover versus of pickover, is it reasonable to estimate the potential saving if some of that usage were shifted?
+Tim Woodruff: I think there so there is going to be like I think if you make a reasonable assumption that some of it is unavoidable whether it's the dishwasher lights whatever but if if it's a if it's a large volume because these aren't very long periods during the day it's usually between 5 and 9:00 am 7 and 10 p.m.
+ 
+ 
+00:27:05
+ 
+Tim Woodruff: So if there's like multiple hundreds of kilowatt hours during that time,
+Amber Fu: Mhm.
+Tim Woodruff: um you I think you can safely assume you can save a lot of energy there or money. The one caveat is that if you saw it during summer months but not winter, that would tell you it's probably a lot of air conditioning.
+Amber Fu: Um,
+Tim Woodruff: And you know that is one thing I forgot to mention that is a much different bigger behavioral change to try and modify that one. But if you see the higher peak use all year that tells you it's it's you know maybe their car charging or uh something that isn't like you know like their HVAC system which they're probably not going to want to turn off their their AC at six o'clock.
+Amber Fu: Mhm. Okay. But like like in your experience like what percent or what percentage of a residential bill is actually behave behavioral s sensitive like meaning like how much of the bill can u really be influenced just by shifting the usage type timing.
+Tim Woodruff: So in in an aggressive utility area with very
+ 
+ 
+00:28:22
+ 
+Amber Fu: Okay.
+Tim Woodruff: high peak pricing, it could be you could you could reasonably go from like a $300 bill to like 180. So, it's not 50% but it's significant.
+Amber Fu: Mhm.
+Tim Woodruff: Um,
+Amber Fu: Mhm.
+Tim Woodruff: if there's not really aggressive time of use pricing, um, and there's not, you know, really like off- peak periods, you might go from like 250 to 180, so more of like a 25% decrease. Um, but I think it is it's very individual driven. Some people just luckily out of habit really don't don't have a lot
+Amber Fu: Mhm.
+Tim Woodruff: of behavioral modifications and some have a
+Amber Fu: Mhm. Mhm. Gotcha.
+Tim Woodruff: lot.
+Amber Fu: And uh because like everything we're building depends on like uh on the data. So we're look at uh at many available APIs but most of them only per Y uh has recolor data. So sometime hourly or 50 million interval data. So what we're really hoping for is a live or near realtime
+Tim Woodruff: Mhm.
+Amber Fu: mter readings. So in your experience is that even possible for third party app to assess to get that number or or
+ 
+ 
+00:29:57
+ 
+Tim Woodruff: They're okay.
+Amber Fu: is is in the industry generally limit to interval data from utility.
+Tim Woodruff: The so the one thing you can't unfortunately do is access the meter data which would be the easiest way. Um if someone has a smart panel like a span um you can connect with that.
+Amber Fu: Okay.
+Tim Woodruff: Um there are I'm forgetting what it's called. Um I think it's like a TPLink product um that works with it. And then there is Sense which I haven't worked with. Um but they they have sensors that you can put on the um the
+Amber Fu: What?
+Tim Woodruff: mains and it does have an API. It works through cellular or home Wi-Fi.
+Amber Fu: Yeah.
+Tim Woodruff: So there are options out there but they do in they require like installation of either a smart panel which is like $3 to $8,000 or um there there
+Amber Fu: Mhm.
+Tim Woodruff: are again I'm not Sense was really big for a while there but I'm not sure if they're still around and that's more like a $250 product that can tell you I think it takes it took about 60 days but what it can tell you is
+ 
+ 
+00:31:15
+ 
+Amber Fu: Mhm.
+Tim Woodruff: every time anything turns on or off in a home and it will learn the electronic signature of it. And so it will then tell you the downstairs fridge turned on or off and it it learns over time. Um but I'm not sure if they're still in business. So in terms of like the most robust APIs, it would be smart panel manufacturers though.
+Amber Fu: Gotcha. Gotcha. But but if like real time meter data is not available like what data source do most energy app rely on for the real time
+Tim Woodruff: Um,
+Amber Fu: insight.
+Tim Woodruff: so I mean Tesla does theirs internally with if you connect through them and that all the energy flows through their panel um or not panel but battery and it's doing all the delivery. They internally can tell in real time all of the inflows, all of the outflows, and all the grid interchange. Um, but they don't they don't open that up.
+Amber Fu: Mhm.
+Tim Woodruff: So, it's right now it's very much um not open to third party providers most of the time.
+ 
+ 
+00:32:39
+ 
+Tim Woodruff: Um,
+Amber Fu: Mhm.
+Tim Woodruff: at least not from a residential side.
+Amber Fu: Okay. Gotcha. But do do most like real time insight come from the device APIs like a solar uh uh battery or EV charging rather than the utility meter itself.
+Tim Woodruff: Yes. So there's it's it's very rare to get any
+Amber Fu: Okay.
+Tim Woodruff: kind of if the utility has their own app or system um which is more common in Europe they will let you see what their API feed is
+Amber Fu: Mhm.
+Tim Woodruff: but they will not provide um most of the
+Amber Fu: Uh-huh. Okay. Gotcha. Gotcha. Okay. Thank you.
+Tim Woodruff: I'm
+Amber Fu: That that would be like really helpful. And uh we can go to uh next part will be the our uh event like those uh uh so below the saving card section. This uh is what we call is uh execution card. So this is where the system move from awareness to action. So uh the execution card is always like a trigger relative to your to the user's let go.
+ 
+ 
+00:33:57
+ 
+Amber Fu: So is answer only one question is like what action right now would mostly meaningful reduce risk related to your uh to the user's goal. So this is example for execution car show the power outage warning. So,
+Tim Woodruff: Uh-huh.
+Amber Fu: but it's also could be like oh if you're charging during the PE or battery charging at a high price period or like or some some euro grid import so the content change but the uh structure stay the constant. Yeah.
+Tim Woodruff: Mhm.
+Amber Fu: And uh so and when we click view uh more detail uh will lead to the event page. Uh, give me a second. Uh, okay. And, uh, we can click any any of those things. Um so we we like X excreution card will
+Tim Woodruff: Mr.
+Amber Fu: have those uh like show the uh customer like what happened like why it's matter how impact so is is like full even detail page where explain like reasoning behind the recommendation.
+Tim Woodruff: Mhm.
+Amber Fu: Yeah. And we can go go back and uh so under the TU tariff like which residential behavior typically create the largest cost exposure you think in your experience.
+ 
+ 
+00:35:39
+ 
+Tim Woodruff: definitely EV charging. Um,
+Amber Fu: Okay.
+Tim Woodruff: I think something like less than 10% of people do time of use charging. And especially if you're on like a uh a solar connected house, you are automatically put on a very aggressive time of use tariff
+Amber Fu: Uh
+Tim Woodruff: where in the middle of the day using electricity is basically free.
+Amber Fu: uh.
+Tim Woodruff: Um, but right when people are getting home and turning on their AC and plugging in their car,
+Amber Fu: Mhm.
+Tim Woodruff: if you if you're charging, you know, let's say you drove 60 miles round trip to work. Um,
+Amber Fu: No.
+Tim Woodruff: that means you've got to charge 15 to 20 kilowatt hours at 80. That's suddenly seven to eight bucks uh plus all the associated charges um just for the energy. And you know, you do that five times a week, it adds up. And if if that is just that one thing is moved overnight, um it's suddenly a dollar or two to charge your car. Um at least in winter, not in summer.
+ 
+ 
+00:36:52
+ 
+Tim Woodruff: But uh it's it's it's a very important one. I think um if someone has a battery that's definitely the second where it can it can pull up or it can charge up during the day and then
+Amber Fu: Yeah.
+Tim Woodruff: when someone is getting home at 5 6 7 8 during high time of use pricing and it can be the primary source of energy for the household. It can also save you know a few dollars per day which certainly adds up over the month. So,
+Amber Fu: Go.
+Tim Woodruff: it's really about being as self-sufficient or avoiding those high charge uh times as
+Amber Fu: Gotcha.
+Tim Woodruff: possible.
+Amber Fu: But like but when utility applied like to you read is the mapping typical done direct directly on interval data or after uh arguations.
+Tim Woodruff: Um they so what the meter it's doing two things. It is well it is collecting a
+Amber Fu: Mhm.
+Tim Woodruff: real live stream of data and sending it to the utility. And then what the utility is doing is for every hour of the year they have a different computed
+ 
+ 
+00:38:11
+ 
+Amber Fu: Um,
+Tim Woodruff: cost um that they've forecasted out based on all the energy they've procured.
+Amber Fu: no.
+Tim Woodruff: So every single hour of the year is priced differently for them and they know your energy use for that hour and that is where the energy export credits or the EEC's are coming from which is how the solar is valued. Um and then they are aggregating that
+Amber Fu: No.
+Tim Woodruff: at the end of the month into these buckets or the time of use rates. So it might be tier 1, tier 2, tier three. Um but they they have that insight of the hourly interval data and they are matching it against their avoided costs.
+Amber Fu: Okay. Gotcha. Gotcha. And by the way, I I have a uh I coming up some question like so if we decide to go the hardware route to get real time energy data and
+Tim Woodruff: You can see
+Amber Fu: bypass utility data l what would the typically
+Tim Woodruff: there.
+Amber Fu: installation look like in California home? I don't know if you really familiar with the California like uh situation like for example like would they involve uh installing the CT clam inside the uh the panel uh to measure the
+ 
+ 
+00:39:41
+ 
+Tim Woodruff: Those
+Amber Fu: main service line and in the term of the device itself what is a typical from the factor for those kind of home energy gateway Okay.
+Tim Woodruff: are a little bit outside what I work on. Um I'm like I'm generally familiar but in terms
+Amber Fu: Okay. Got
+Tim Woodruff: of like their cost or their use cases um not with their like actual data gateways.
+Amber Fu: you. Got you. It's okay. I just uh uh I just coming up my mind but yeah it's fine thank you and um so okay so we can go to a next part the I think uh those uh next part is like the event so uh quick uh quick introduce so the event basically just you know showing the uh the the the the user the detail and to see like why we're doing those stuff. And uh so events are uh triggered when the system detective like you know like if you're charging during the peak hour or solar device offline or like a schedule out outage uh or like a server weather things like that.
+ 
+ 
+00:41:07
+ 
+Tim Woodruff: Mhm.
+Amber Fu: Yeah. And uh so from a regulatory of a or like a tariff perspective like which type of event would actually justify customer alert like P pick P charging or expose the solar or like a solar under production.
+Tim Woodruff: I think so. California is unique in not doing aggregated demand response. um unlike in Texas where you have like virtual power plants and and
+Amber Fu: Mhm.
+Tim Woodruff: it's much more you can actually get a check from your utility. The California utilities will offset the generation costs
+Amber Fu: All right.
+Tim Woodruff: but um I think it's very much time of use.
+Amber Fu: Um,
+Tim Woodruff: There's not.
+Amber Fu: um,
+Tim Woodruff: So if if you if someone as a homeowner has a battery at their house and you know there's a shortage pricing, they're not getting any of the real wholesale power value of that. Even if they even if they only use their battery power and they don't charge their car at the at the end of the year at TrueUP, you know, their their credits will be valued and netted against their generation.
+ 
+ 
+00:42:33
+ 
+Tim Woodruff: but they will not receive the, you know, so like for example in in California wholesale prices can go from $20 a megawatt hour to to 2,000 during a really bad storm. The homeowner is not going to get that 1,000x increase on what they export. Um, so I think time of use is definitely the biggest lever. Um,
+Amber Fu: Mhm.
+Tim Woodruff: I think with severe weather the caveat is that if they have a battery and they can because they might not be producing solar and they can use their battery during the higher time price periods. Um, they can also save more money.
+Amber Fu: Gotcha. Gotcha. Thank you. Thank you for that. That's really uh help us to understand. And uh so I'm okay we can go uh next part the saving the saving tab this this part is like super super important to
+Tim Woodruff: Okay.
+Amber Fu: us. So uh I will uh like uh introduce those uh so we separate the saving from the uh from the bill. You can see that there at the top there have a two type.
+ 
+ 
+00:43:53
+ 
+Amber Fu: So the saving is more like a behavioral impact.
+Tim Woodruff: Mhm.
+Amber Fu: the bill is official utility account accounting. So we don't want to use her to confuse the two. So in uh in your view is it important to clearly separate the behavioral saving from from building a componia like a minimum charge.
+Tim Woodruff: I think so until So, is is the goal to show um so they've got their bill budget like $170. Is the goal to show all the things that they have done over the month to like stay within
+Amber Fu: Uhhuh.
+Tim Woodruff: that and whether or not it
+Amber Fu: Uh okay.
+Tim Woodruff: worked.
+Amber Fu: So uh so you you can see like those those uh the the top there have like 50 55 dollar amount. So this is kind of the accumulate a vault cost based on the event level adjustment. So if we calculate uh calculate saving based on the uh counterfactual
+Tim Woodruff: Mhm.
+Amber Fu: modeling uh what baseline uh what baseline would you consider defensible?
+Tim Woodruff: That's a good question.
+ 
+ 
+00:45:18
+ 
+Tim Woodruff: Um, first it's just in my mind. I would I would keep in mind that the the energy portion of a utility bill, especially for residential, is like 25 to 30% of the total bill. And someone might look at that and and think $170 is for energy
+Amber Fu: Mhm.
+Tim Woodruff: use when energy use is fairly small.
+Amber Fu: Mhm.
+Tim Woodruff: So kind of decoupling that um from like the base charges, pardon me, um and the delivery charges that aren't affected by behavior would be important. And then in terms of the counterfactual, I think if I don't know how much you can or would want to get like older bills. So if someone has lived somewhere for a while,
+Amber Fu: H.
+Tim Woodruff: using the same month from the previous year is usually an okay way to do that. Um there's
+Amber Fu: Mhm.
+Tim Woodruff: I think if you were to if if they committed to an action though and they they you
+Amber Fu: Mhm.
+Tim Woodruff: know said I will charge my car overnight to avoid the high time of use.
+ 
+ 
+00:46:44
+ 
+Tim Woodruff: You would then take the data feed from the car and how many kilowatt hours were used and the counterfactual would then be that they had charged it during that higher time period or the higher price time
+Amber Fu: Mhm.
+Tim Woodruff: period.
+Amber Fu: Okay. And so well that doesn't make sense but if so if we use the same months from the uh from the privilege years as a baseline how should we count for difference like weather or change in household behavior.
+Tim Woodruff: Yeah, I think on weather I don't I don't know how how deep into the data science you want to get, but you could pull uh heating and cooling degree days for the city or the state. Um I'm not sure if California tracks them on a city level basis, but that would help you normalize yeartoear um the seasonal adjustment to it.
+Amber Fu: Mhm.
+Tim Woodruff: you know, if one if one summer is,
+Amber Fu: Mhm.
+Tim Woodruff: you know, 30% more heat or cooling degree days, you could then inflate the previous year's usage by 30% of whatever the HVAC portion is.
+ 
+ 
+00:48:10
+ 
+Tim Woodruff: So, there are there are ways to get around that. Um,
+Amber Fu: Mhm.
+Tim Woodruff: and then you would basically to say, you know, one year ago where you weren't doing any behavioral modifications, um, at today's prices, here's what that would cost you. But now that you've done these behavioral modifications, here's what you saved.
+Amber Fu: Okay. And so when estimating saving from the behav behavior change like shifting EV charging to of pig like how do those estimate actually need to be homeowner to trust them.
+Tim Woodruff: Um,
+Amber Fu: I I just try to ask like a saving credibility
+Tim Woodruff: um, I I
+Amber Fu: like
+Tim Woodruff: think I think presenting it initially. So,
+Amber Fu: Mhm.
+Tim Woodruff: they're probably not an energy optimizer when they start using the app. So if if you present it as here's how much this
+Amber Fu: Okay.
+Tim Woodruff: behavioral change might save you and then if they can
+Amber Fu: Mhm.
+Tim Woodruff: actually see that on the next bill um where you could
+Amber Fu: Mhm.
+Tim Woodruff: track you know oh your your super peak uh kilowatt hours went down by I don't know x amount and we projected based on your behavioral modifications that they would go down this much and you kind of show them how much of the savings they realize.
+ 
+ 
+00:50:05
+ 
+Tim Woodruff: whether it's less or more doesn't necessarily matter, but it makes them kind of see in real time, oh, what I did and what I committed to like did have an impact on my bill cuz that's what so like in and I I've mostly worked with commercial clients,
+Amber Fu: God.
+Tim Woodruff: but when we give them the intervention and we base it on a three-year average of their behavior, so that we can say, "Look,
+Amber Fu: Mhm.
+Tim Woodruff: you actually did save X amount because of our intervention." And that helps them feel more comfortable about the savings and and believing that they're real.
+Amber Fu: Got you. And so do home owner care more about estimate saving upfront or about proving the saving afterward.
+Tim Woodruff: Uh,
+Amber Fu: What would you care experience like? What do you
+Tim Woodruff: I think conservatively estimating
+Amber Fu: think?
+Tim Woodruff: savings upfront and then overachieving later always goes over better. then a really optimistic uh estimate and then maybe they come in
+Amber Fu: Mhm.
+Tim Woodruff: under and then they get really disappointed that you know that it didn't work.
+ 
+ 
+00:51:32
+ 
+Amber Fu: Um
+Tim Woodruff: though I think there's I think in the savings assumptions you have to make conservative assumptions that again like it helps to have live access to their their energy use and it would be great to know what every single appliance is using because then you can actually get a sense of what each
+Amber Fu: Mhm.
+Tim Woodruff: individual change actually does. Um,
+Amber Fu: Mhm.
+Tim Woodruff: I don't know. Does that
+Amber Fu: Yes. I think I think it is really help.
+Tim Woodruff: help?
+Amber Fu: We we we going to uh Yes. cuz we we kind of like you know before we we we uh uh build those saving uh things like we we kind of like confuse like because I know I know like each uh utility company are the different uh account the bill. So yes this is really really helpful. Thank you. And uh we can uh okay so we can go next to the uh I I
+Tim Woodruff: Okay.
+Amber Fu: think the last part is the event for this month.
+ 
+ 
+00:52:48
+ 
+Amber Fu: So the event level saving attribution is like we we show we we are like attribute the saving by system category.
+Tim Woodruff: Good.
+Amber Fu: So uh uh we separate like a genereration like side saving and you can say like we break down the EV charging, solar power uh solar power and power charging and uh and like from an analysis standpoint like is this reasonable for attribute a low cost specifically behavior event or would you recommend attributing saving at the level. Is that
+Tim Woodruff: I think it's more defensible to actually do individual system components than system level because you probably actually have a much better sense of their EV
+Amber Fu: Mhm.
+Tim Woodruff: use. Um, I don't know if you have like an onboarding to the app,
+Amber Fu: Mhm.
+Tim Woodruff: but if you ask them behavioral questions like, "Do you usually charge your EV right when you get home from work?" And when you get home from work, when is that usually you you can get a really quick sense of it and then you actually know that's a high value
+ 
+ 
+00:54:01
+ 
+Amber Fu: Mhm.
+Tim Woodruff: intervention and how much the actual value of that is because then you
+Amber Fu: Mhm.
+Tim Woodruff: can feed through the utility rates and provide that counterfactual um versus if you give a general estimate of the system level, it might look overly
+Amber Fu: Gotcha.
+Tim Woodruff: ambitious.
+Amber Fu: Gotcha. And um also we uh when we click on the EV charging I uh can click on the Yes. And uh we will lead to the the bottom sheet. So uh so those are the the the like the detail like how we calculate. Uh yeah. So this is where we the calculation logics and and it just show like how we calculate those stuff like and there have like some detail like what happened west
+Tim Woodruff: Mhm.
+Amber Fu: matter how we calculate what to do next. Uh what what do you think about this part?
+Tim Woodruff: I like it. Um the well I have I have two thoughts. Um, if you have access to the charging data,
+Amber Fu: Mhm.
+Tim Woodruff: would you also have interest in providing?
+ 
+ 
+00:55:38
+ 
+Tim Woodruff: So like if they do charge during high cost times, would you then also present them with, oh look, you charged your car at this time when it could have been cheaper to do it later to kind of show not to like punish them, but in terms of like your bill could have been this much lower if you hadn't done that. I don't I like obviously you don't want to like put up a bunch of big red numbers,
+Amber Fu: Okay.
+Tim Woodruff: but it's like kind of showing them here's what you did that actually cost you and you didn't know
+Amber Fu: Um, got you. Got you.
+Tim Woodruff: it
+Amber Fu: I think that's a brilliant idea. Yes. But uh like for this part like uh what do you think we may need to I don't know like upgrade or is there any part we should be watch out like
+Tim Woodruff: Um, I think on the calculations the the utilities have not just the kilowatt hour charge, they have the um delivery
+Amber Fu: Mhm.
+Tim Woodruff: charge and then they have system benefit charges um that may be based on that volume.
+ 
+ 
+00:57:09
+ 
+Tim Woodruff: And I'm not I'm not positive right now on whether California charges sales tax on residential energy. I know most states don't, but I think there are just like a lot of little ancillary line items to double check. Um, and because it it changes on weekends versus weekdays, um, holidays, uh, all the seasons. So, it just has to be very like dynamic um, to deal with especially like holidays. Um, I don't and of course every utility handles that differently. So like PG&E might have a a weekend rate on a holiday butce might
+Amber Fu: Got you. Got you.
+Tim Woodruff: not.
+Amber Fu: And so well that's that's really helpful. But so when we modeling saving, do you think we should only force on the uh portion of the bill that are actually behavioral sensitive
+Tim Woodruff: Yeah. Um, so are you t I guess I'm
+Amber Fu: or Yeah, please go ahead. Sorry.
+Tim Woodruff: trying are you hoping to kind of like assess what what percent of the bill is actually modifiable through behavior?
+ 
+ 
+00:58:40
+ 
+Amber Fu: Uh
+Tim Woodruff: Is that okay?
+Amber Fu: yes.
+Tim Woodruff: Um, I think to do that, which I think makes sense, you would need a general sense like an inventory of their appliances and like some behavioral questions that would then I think you can make general
+Amber Fu: Where?
+Tim Woodruff: assumptions about like a household of how much is HVAC and these other things that are like nonreducible and of what's
+Amber Fu: Mhm.
+Tim Woodruff: left you can figure out how much can be changed by you know a power wall charging or discharging um or providing for the house or time of use charging um or if they do have a smart thermostat and HVAC system and they want to deal with that they can um but coming up with some assumptions of what the non-reducible portion of a bill is is going to help give you the the amount the percent that actually can be reduced for them. And then they can like chip away at that through behavioral
+Amber Fu: Mhm.
+Tim Woodruff: commitments.
+Amber Fu: Okay. And uh so let me see.
+ 
+ 
+01:00:11
+ 
+Amber Fu: I I think I have one more question for this. I I need to think about it. Uh so okay so if we if we don't have a full how do how I can describe this okay so we don't have if we don't have a full inventory of the user applies how do system usually estimate those as pusion like cuz I cuz I we if we don't have applied
+Tim Woodruff: Mhm.
+Amber Fu: inventory
+Tim Woodruff: So there's general like so the federal government will have general estimates and some of them are regionalized. I could I could do a little digging on this for you if that's helpful,
+Amber Fu: Mhm.
+Tim Woodruff: but there is I would I would bet that um California has estimates of household level, appliance level, energy consumption, probably north versus south.
+Amber Fu: Mhm.
+Tim Woodruff: I'm not sure about that because they would they will be different, but um that's a good place to start. And usually it's broken out between an electrified household and a non-electrified household. And so that would help you subtract what probably is not going to change.
+ 
+ 
+01:01:45
+ 
+Tim Woodruff: And then the the high value interventions
+Amber Fu: Okay. But uh but for like a product perspective like do you think it's better to estimate the reducible portion first and then calculate the potential saving with that range.
+Tim Woodruff: probably. So that would that does like require having some level of historical data to give you the context of their volume of use.
+Amber Fu: Mhm.
+Tim Woodruff: But then having some assumption of what amount of that they actually have control
+Amber Fu: Okay.
+Tim Woodruff: over might give a a realistic
+Amber Fu: Mhm.
+Tim Woodruff: level of what they can intervene on and how much it it's really worth it to them.
+Amber Fu: Uh but for but for like residential utility uh like let's say like a PGE are electricity price fix it based on like
+Tim Woodruff: Mhm.
+Amber Fu: a per defined till you schedule or do they change
+Tim Woodruff: Mhm.
+Amber Fu: uh throughout the day for for example if we have hourly usage data, but we would we like typical calculate the cost using the tariff schedule for for for that user plan.
+ 
+ 
+01:03:29
+ 
+Tim Woodruff: um you would still even if you have hourly data that would just feed into either the weekday or
+Amber Fu: Uh
+Tim Woodruff: weekend time of use pricing. So it it wouldn't um it's not like a live market like Texas. Um those are fixed time use prices with the caveat that they do go up reliably every year.
+Amber Fu: Mhm. Mhm.
+Tim Woodruff: Um I don't know if that answers your
+Amber Fu: Mhm.
+Tim Woodruff: question.
+Amber Fu: Okay. But but if if if is there like a reliable source where the third party app can assess the tariff schedule for different utility
+Tim Woodruff: Um,
+Amber Fu: plan.
+Tim Woodruff: most of the tariffs are buried in old PDFs on very old websites.
+Amber Fu: Okay.
+Tim Woodruff: They are they're truly not meant to be accessible. I don't know if I have one on hand that I can that I can screen share to show you what they look like because um so
+Amber Fu: What?
+Tim Woodruff: likece I think has 30 or 40 different rate schedules. And so they will have like the square footage of a house and whether they have a
+ 
+ 
+01:05:01
+ 
+Amber Fu: Mhm.
+Tim Woodruff: battery, but how many kilowatt hours is the battery puts you on a different tariff than a different house? And do you have an EV? Because that's also a different plan. And you have solar, but is it between five and 10 or 10 plus kilowatts?
+Amber Fu: Mhm.
+Tim Woodruff: So it's and and it it requires going through like each different
+Amber Fu: Mhm. Gotcha.
+Tim Woodruff: rate.
+Amber Fu: Gotcha. And and also like for like the TU residential plan, is it safe to trade pricing as a a predefined schedule by such like by season plus week, day, weekend, holiday plus time window rather than like truly demand uh uh hourly hourly price.
+Tim Woodruff: Yeah. So they I don't know the exact timing, but they publish their electricity rates for the year um
+Amber Fu: Uh-huh.
+Tim Woodruff: usually around I want to say October because what they have to do is get them approved by the public utilities commission in time for them to be
+Amber Fu: Mhm.
+Tim Woodruff: effective. you know, I don't know the exact month that they become effective for each utility, but um they're they're constantly getting rate approvals every year for their updated tariff schedules and it will and in a very unfortunately they won't just give you a table that says you know this rate during these times.
+ 
+ 
+01:06:46
+ 
+Tim Woodruff: It's all in paragraph
+Amber Fu: Mhm.
+Tim Woodruff: form.
+Amber Fu: Gotcha. But but what the minimum tariff model that is still defensible and match utility bill close enough.
+Tim Woodruff: Um, I think if a user could put in Maybe like their Sorry, one sec. Thought I was gonna see. Um, if they could put in their maybe like their off peak cost and you know
+Amber Fu: Mhm.
+Tim Woodruff: what utility they're in and what the ratio is of peak to off peak charging and you knew the hours, that would be a way to do it because usually it is some ratio of like four or 5x between the two.
+Amber Fu: Got you. Got you. Okay. Thank you. I really appreciate. And um Okay. So, and we can move to the bill bill part. So the pill part is uh the one the most uh confus is a true up um I don't know like in the corado the they do they have a trap
+Tim Woodruff: No. Um, it so Utah does and I've done a lot of reading about
+ 
+ 
+01:08:27
+ 
+Amber Fu: um
+Tim Woodruff: California's trueup and it is a nightmare.
+Amber Fu: yes so I was wondering is it only in California they have a trop or another state they they also had it but we just don't know.
+Tim Woodruff: California has by far the most complicated true up. Um usually what happens
+Amber Fu: Okay.
+Tim Woodruff: is uh usually what you export is like 75% of the value of you know whatever the kilowatt hour you use is. So it's like not that different. And then at the end of the year they just the credits expire or you have to pay the difference if you underpaid. It's it's that simple.
+Amber Fu: Yeah. Yeah. What? But but do you think like a rolling monthly projection of the true up is uh structurally sound
+Tim Woodruff: I would say yes for
+Amber Fu: or wait for utility settlement cuz I because be honest I don't have a solar so I never I I don't know like the about like true up. Uh I only ask like the some friend they have they got s solar and they uh they will receive the truck but uh and also like in California they they changed the policy you know uh they have like a N two or N three and I believe there have
+ 
+ 
+01:10:14
+ 
+Tim Woodruff: Yep.
+Amber Fu: some different calculation. I'm not really sure, but I think
+Tim Woodruff: Yeah.
+Amber Fu: so.
+Tim Woodruff: So there's NEM one is just a kilowatt hour is a kilowatt hour.
+Amber Fu: Uh-huh.
+Tim Woodruff: Two has kind of what I just mentioned which is um if you export to the grid it's less valuable but it's not completely worthless. NBT, which is the new ones, it's 2023, is that for each of the kilowatt hours that you export, they actually go look at an hourly um avoided cost over the whole year to tell you what the value of it is. And you get your energy export credits, which those do expire at the end of the year.
+Amber Fu: Mhm.
+Tim Woodruff: and they separate generation from delivery credits and a whole bunch of other things. So I think a rowing 12 months is good because well I think because there is the expiration for a lot of them it might be better to do just a solid calendar so that someone knows like what value they may lose at the end of the year.
+ 
+ 
+01:11:41
+ 
+Amber Fu: Uh
+Tim Woodruff: from the expiration. That's It's a good
+Amber Fu: Okay.
+Tim Woodruff: question.
+Amber Fu: And um so like like since like N policy are quite different uh like you know the one two and now the MBT like what would be the best way for third party like us to model the true up calculation correctly?
+Tim Woodruff: That one is tough. I think one and two is is fine.
+Amber Fu: Okay.
+Tim Woodruff: Um, for for the avoided cost, what you need is there's there's a calculation model that the California government says that the utilities are allowed to use. Um, but it's at it's also on a locationational basis. So, it's not the same everywhere.
+Amber Fu: Uh-huh.
+Tim Woodruff: It's not even the same within a utility cuz there's zones
+Amber Fu: Uhhuh.
+Tim Woodruff: and then you would need the data for all 8760 hours per year um for production and import to try and do the true up and then you would need to know how every single line item is calculated per utility. So it is a monster like it definitely can be
+ 
+ 
+01:13:25
+ 
+Amber Fu: Mhm.
+Tim Woodruff: done but it you would need a locationational uh and and you would need to pull this model from California and then run it on your own.
+Amber Fu: Mhm. Gotcha. But but um do do most like do most like solar app actually try to replicate the full show up calculation or do they usually just estimate the trend and direction instead?
+Tim Woodruff: Um definitely trend direction and they will do like kilowatt hours.
+Amber Fu: Yeah.
+Tim Woodruff: Um, and I know like Tesla, Power Walls, and Solar Edge will do like your your they'll like estimate based on what they know where you are about the value of your exports, but they won't try to do like the actual accounting per
+Amber Fu: Mhm.
+Tim Woodruff: hour. um it's more of like a generalized they'll use like the time of use pricing so they know
+Amber Fu: Mhm.
+Tim Woodruff: what that value is but they don't try to calculate the hourly
+Amber Fu: Got you.
+Tim Woodruff: value
+Amber Fu: But but if we want to build like a reliable chore projection, what what le level of accuracy do home owner actually expected like for your experience?
+ 
+ 
+01:15:18
+ 
+Tim Woodruff: So, if if you were looking at $1,000 a year, give or take, for or like $2,000 a year for total, I think you would have to be plus or minus like 50 bucks at the end of the year. So,
+Amber Fu: Stop.
+Tim Woodruff: which I could be doable. I think it just it's very different between the utilities and then between the zones. Um because if one zone is very solar saturated,
+Amber Fu: Mhm.
+Tim Woodruff: it will have completely different valuations than a neighboring zone in the same utility. So, that would take some more leg work. I'm not saying it's it's not worth doing. I'm just saying if you were within $50, people are like, "Okay, that's a good enough measure." But if their total bill is, you know, 2,200 and you show them 2,000 or 24,400, it's like a little too far
+Amber Fu: Yes,
+Tim Woodruff: off.
+Amber Fu: I got it. But that's makes sense. Okay. Got you. And um and also uh and and for next we can go the next part like the last part is like uh the bill proof part and uh so this is our last part the build proof part.
+ 
+ 
+01:16:46
+ 
+Amber Fu: So this feature compare uh expected export
+Tim Woodruff: Uhhuh.
+Amber Fu: credit ver versus bill export credit. So if there like a mismatch we surface it.
+Tim Woodruff: Okay, that's great.
+Amber Fu: Yes. And in your experience, if expanded uh export credit and the bill credit uh differ, what is usually the cost?
+Tim Woodruff: I mean, I haven't I haven't seen it very much. It usually is a faulty piece of equipment. Um, usually the inverter if it's like
+Amber Fu: Uhhuh.
+Tim Woodruff: um sometimes utility meters, but I would I would actually say more often it's going to be like the the utilities accounting and billing system. Um,
+Amber Fu: Mhm.
+Tim Woodruff: I found a lot of errors that way and then, you know, they'll look into it and they'll say, "Oh, we've been chronically, you know, over or undercharging you." And it's it's it's actually their billing system. It has nothing to do with like the actual equipment. So, I would say that's far more common,
+Amber Fu: Mhm.
+Tim Woodruff: but if if they're actually is a mismatch, it is equipment, but that's not very common.
+ 
+ 
+01:18:16
+ 
+Amber Fu: Okay. Got you. Um so what well um so cuz cuz we we you know we heard from another uh guys that said that utility billing system almost never make mistake. Is that true?
+Tim Woodruff: I've I've seen a lot of mistakes in my time.
+Amber Fu: Oh,
+Tim Woodruff: I I haven't worked with California utilities.
+Amber Fu: really?
+Tim Woodruff: I'm just saying I've seen and when I say mistake,
+Amber Fu: Okay.
+Tim Woodruff: it can be that they have someone on the wrong tariff or rate schedule. Um, sometimes there's just it's usually very obvious where like they've
+Amber Fu: Okay.
+Tim Woodruff: 2xed something or they've accidentally like added someone else's account to them. Like they're usually very noticeable. It's not like a five or 15% error. it's like double. Um, but I have definitely seen a lot of utility errors in my time. By no means are they not making
+Amber Fu: Okay.
+Tim Woodruff: mistakes.
+Amber Fu: But but do utility usually provide the process for customer to disput or uh audit their solar credit if something look wrong.
+ 
+ 
+01:19:47
+ 
+Tim Woodruff: Um, there's not a formal process and mostly I've worked
+Amber Fu: Mhm.
+Tim Woodruff: with I've seen this a lot on commercial accounts and what you end up having to do is collect all of your bills and collect your third party data
+Amber Fu: Mhm.
+Tim Woodruff: and you know what you think happened. And especially it helps if you've seen usage go like if it has just gapped up at some point and there's no explanation for it. Um, and you provide all of that to the utility and you know, if nothing else, they might send someone out to check it out or they might do like an inspection. I But it's not like a formal process. There's not usually like a billing dispute process. It's very involved with like customer service and a lot of leg
+Amber Fu: Mhm.
+Tim Woodruff: work.
+Amber Fu: But but okay, but if we detect like something went wrong, what level of difference would actually be meaningful?
+Tim Woodruff: Um, it would have to be pretty big. I mean, if it's like $200,
+Amber Fu: Uh-huh.
+ 
+ 
+01:21:17
+ 
+Tim Woodruff: like they're not gonna it, one, it has to be pretty big, and two, it has to be consistent. Um, and usually they will then tell you to get your equipment inspected.
+Amber Fu: got you. But because like we uh we we talk uh we speak with a lot of user and uh I was wondering like if we detected something wrong. Do you think those number the customer can show
+Tim Woodruff: Uhhuh.
+Amber Fu: the utility company said hey this you know this app said you know something was wrong because you know a lot of user they you know they they they find out like the the bill charge is not right because they like maybe uh like I I remember I talked to one user uh he's like basically on the vacation the whole month is without home, but their bill is still really high. And try to call,
+Tim Woodruff: Uh-huh.
+Amber Fu: you know, the solar installer, a utility, and the the the Tesla. Every company said, "Oh, we're number is nothing wrong." And he got really really confused.
+ 
+ 
+01:22:47
+ 
+Amber Fu: So, this is why we, you know, we try to do those bill proof stuff. But I just don't know our number. do you think can really help them to show this companies that hey you you charge wrong or today.
+Tim Woodruff: So I think to get to that level you do need to have so like you've got the base services charge Um, I think a lot of it is maybe educational in nature that the actual energy use is a small portion of the bill. Um,
+Amber Fu: Uh
+Tim Woodruff: I'm I'm sure as you guys know, paying California bills, a lot of it is transmission,
+Amber Fu: um
+Tim Woodruff: distribution, delivery, and benefits charges. It's so like they could be gone for a month truly and still have a $140 bill.
+Amber Fu: Mhm.
+Tim Woodruff: And that doesn't mean that it's necessarily
+Amber Fu: Yeah.
+Tim Woodruff: wrong.
+Amber Fu: Okay. But what what will be happen like like uh Because like the the the customer will like really confused that oh I I I even at home I'm not using any electricity why they still like have a high bill in in your experience what what do you think the reason could be?
+ 
+ 
+01:24:24
+ 
+Tim Woodruff: I I it truly takes um so like here if you look at the actual dates of the bill. Um, and if you have the daily solar,
+Amber Fu: Mhm.
+Tim Woodruff: for example, um,
+Amber Fu: Mhm.
+Tim Woodruff: you can kind of back into some of these numbers. And I'm I'm trying to think of how this gets productized to an app, but I don't
+Amber Fu: Mhm.
+Tim Woodruff: think because you don't have daily usage data from the meter and it makes a lot of sense now why you're you're trying to get like an API of the actual home's energy
+Amber Fu: Mhm.
+Tim Woodruff: use. That would be the best way to back into it because otherwise you're trying to estimate what the base load of the house is plus the solar production and trying to see does that really make sense with what was on the
+Amber Fu: Got you.
+Tim Woodruff: Oh,
+Amber Fu: Got you. And And do you expect like residential tariffs to become more dematic uh over the time?
+Tim Woodruff: um, I guess. What do you mean?
+ 
+ 
+01:25:53
+ 
+Amber Fu: Um cuz like in the future do you think the tariff will be like I don't know like a ch changing like a lot or like like I I know like a utility company the policy is different but do you think they will always change how they calculate the
+Tim Woodruff: Yeah. Oh, yeah.
+Amber Fu: Great.
+Tim Woodruff: One, utilities love complex formulas because it makes it really easy to charge more money. Um but yes,
+Amber Fu: Okay.
+Tim Woodruff: I think net billing tariff is they've set the prices out for 9 years um for the time of use rates and
+Amber Fu: Mhm.
+Tim Woodruff: they can like increase with fuel costs but I think once that expires which I guess will be in like 2032 California will probably be moving to a
+Amber Fu: Mhm.
+Tim Woodruff: more realtime market similar to like Texas where I I think
+Amber Fu: Oh.
+Tim Woodruff: that's kind of where they're headed because or some version of it where there's an option to like actually interact with these live energy markets because the whole reason it's become this complicated is that right now energy is actually generally free most of the time
+ 
+ 
+01:27:20
+ 
+Amber Fu: Mhm.
+Tim Woodruff: in California. It's it's the reliability of it that everyone is paying for. So this is in the future.
+Amber Fu: Okay.
+Tim Woodruff: Yes.
+Amber Fu: But
+Tim Woodruff: Probably not
+Amber Fu: okay.
+Tim Woodruff: near-term.
+Amber Fu: But if utility eventually move to uh toward more real-time pricing model like how do you think that will be change the way homeowners with their energy
+Tim Woodruff: Um,
+Amber Fu: usage?
+Tim Woodruff: I would say in the UK they have real-time energy pricing with um, Octopus Energy.
+Amber Fu: Oh yeah. Yeah. I I knew that
+Tim Woodruff: Yeah. And I mean,
+Amber Fu: company.
+Tim Woodruff: people genuinely do change their behaviors when, you know, they like check their phone and they say, "Is this really a good time to dry clothes?" So it definitely
+Amber Fu: Uhhuh.
+Tim Woodruff: can like drive those behavioral changes. It does require like kind of what you're working on that rich data feed real time response and then people actually need to understand like how their behavior interacts with a really complex market.
+ 
+ 
+01:28:41
+ 
+Amber Fu: Got you. But but if if like really like a p pricing will become more dematic in in the future like do you think like our app the the the goal based system where the user set a real target and the system managing energy decision would make sense.
+Tim Woodruff: Yeah.
+Amber Fu: this.
+Tim Woodruff: I if you could um and I I don't know like what kind of real time data you are or not tracking but if you I guess so like if
+Amber Fu: Mhm.
+Tim Woodruff: you could aggregate an anonymize data about like how many commits you had for you know x number of actions and you could say what the you know, megawatt or megawatt hour equivalent of that is and track that over time. And if you could actually see against user reported bills whether their peak
+Amber Fu: Mhm.
+Tim Woodruff: usage has gone down over time, you would know that you actually have a pipeline that can make people behave differently. And then if at any point California had a dur market,
+Amber Fu: Mhm.
+Tim Woodruff: you could you would have a case to like bid into it.
+ 
+ 
+01:30:02
+ 
+Tim Woodruff: you would know your user base. I don't know if that was at all where you're going with that,
+Amber Fu: Okay.
+Tim Woodruff: but
+Amber Fu: I we so because like right now we uh we're still in the like really early stage and we we still try to figure out like the calculation stuff. But yes, but in the future we really want wanted like you know we can help the user to tracking and calculate and management their their home load and make sure they don't have a a surprise bill.
+Tim Woodruff: Mhm.
+Amber Fu: Yes,
+Tim Woodruff: Mhm.
+Amber Fu: that that's the goal because we we you know be honestly we we speak like almost like a hundred of the user in the California uh cuz I because we uh because we live in California and I live in Pasadena so I know like a lot of my friend they have like huge bill amount and they always can receive the surprise bill and basically uh they don't have anything. They they have nothing to do. They only can, you know, just pay it.
+ 
+ 
+01:31:19
+ 
+Amber Fu: They can't they can't just argue because like the utility company always say we're right. Right. So I think in the uh in California the market I think
+Tim Woodruff: Mhm.
+Amber Fu: they need those kind of like third party app kind of like energy home energy CFO layer to help them to you know to explain or calculate so oh why you received the bill amount like this how you can avoid stuff like this.
+Tim Woodruff: Mhm. No, that makes a lot of sense.
+Amber Fu: Yeah. Mhm. Yeah. So because Yeah. That's why we are build those app uh in first place. Yeah. And you know we since like right uh we share quite a bit about like our product today and we really love to hear your honest feedback. What do you
+Tim Woodruff: I love it.
+Amber Fu: think?
+Tim Woodruff: I'm to like obviously spend all day with energy, but for most people it is like they look at their utility bill and it is complex and it's boring and it's a bunch of words they don't
+ 
+ 
+01:32:29
+ 
+Amber Fu: Uhhuh.
+Tim Woodruff: understand. And I think this not quite like gifying,
+Amber Fu: Uhhuh.
+Tim Woodruff: but it just it's it's like a pleasant way to interact with it that isn't it doesn't require you necessarily to have like a Tesla and to like to buy into an entire ecosystem. So, it's very just it it seems like accessible and like empowering. So, I like it.
+Amber Fu: And for from your experience like have you see any uh uh consumer app that try to do something similar.
+Tim Woodruff: I would say the closest would be octopus.
+Amber Fu: Okay.
+Tim Woodruff: Um where it's it's
+Amber Fu: But I think it that that's company from the UK,
+Tim Woodruff: Yeah.
+Amber Fu: right?
+Tim Woodruff: And it's it's different um because they are like a utility,
+Amber Fu: Okay.
+Tim Woodruff: but it has that same feel where it's like here's
+Amber Fu: Mhm.
+Tim Woodruff: how you could save money. We're about to have a high cost event. Um you know, here here's what you specifically in your home can do. Not just like save energy.
+ 
+ 
+01:33:45
+ 
+Tim Woodruff: Um but no I I think this is like unique.
+Amber Fu: Okay, thank you so much. But uh because I just try to know like cuz uh like in the US
+Tim Woodruff: Yeah.
+Amber Fu: I saw a lot of uh energy app but I I
+Tim Woodruff: Uhhuh.
+Amber Fu: didn't really see something like our app like similar. I just try to figure out the reason why is
+Tim Woodruff: I think most apps are for especially in
+Amber Fu: that.
+Tim Woodruff: energy are just for like energy nerds um that want to like you know have like a passive house or a net zero house and they they want to ultra optimize their solar panels and they watch it all day and see what it's producing.
+Amber Fu: Mhm.
+Tim Woodruff: and and they want to think about utility rates. I think you're doing the good job,
+Amber Fu: Mhm.
+Tim Woodruff: like what you said, of giving that middle layer of teaching someone about their bill, but not making them think about it all day, which I think is what most energy apps currently do,
+ 
+ 
+01:35:01
+ 
+Amber Fu: Mhm.
+Tim Woodruff: where it's it's like a it's just a heavy data viz layer.
+Amber Fu: Yes. Yes. Exactly. And like and are there any like major risk or like a blind spot that you think we should watch out for?
+Tim Woodruff: Um I mean probably just related to like data retention and if you do ever have like the functionality of someone like taking a picture of their bill and then you're processing it to like upload the information in to make it easier so they don't have to type it or something. um you know like that's names,
+Amber Fu: Uh,
+Tim Woodruff: addresses, stuff but it's mostly data retention that I would think of not I think
+Amber Fu: and
+Tim Woodruff: it maybe just and this is why I said underpromise overd deliver like you don't want to promise users that they'll
+Amber Fu: what
+Tim Woodruff: save a certain amount or like it needs to be clear that it's not a promise. It's like here's the maximum impact of your action so that they're not then yelling at you and their
+ 
+ 
+01:36:22
+ 
+Amber Fu: Got you. Got you.
+Tim Woodruff: utility.
+Amber Fu: Thank you so much. And that's really help tips. And oh and the last question is like since you mainly work with a small commercial customers like I'm so cur like do you think the system like this could also be useful for the small business
+Tim Woodruff: Yeah. small I will say business um
+Amber Fu: like a small commercial thing or like small store or
+Tim Woodruff: yeah where I I'm thinking like if you if you get too big usually they have energy managers and facility managers so a step below that where like family-owned
+Amber Fu: Oh yes.
+Tim Woodruff: businesses that definitely um
+Amber Fu: Yeah, exactly. Yeah.
+Tim Woodruff: and actually surprisingly utility rates for businesses are less complex than for residential. So, um, but I I think yeah,
+Amber Fu: Okay.
+Tim Woodruff: a lot of people would they don't want to hire a CFO and they don't want to hire an auditor for their energy bills. So, this is like a good first step into like understanding what they're paying for.
+ 
+ 
+01:37:36
+ 
+Amber Fu: Got you. Got you. And so by the way, you you're I you live in Colorado, right? So is a uh how how how because I never talked to a
+Tim Woodruff: Mhm.
+Amber Fu: Colorado users, but I just try to know like uh there is a high utility bill or is it just average in the United States?
+Tim Woodruff: Colorado is actually on the cheaper side. Um,
+Amber Fu: Okay.
+Tim Woodruff: the northeast states are very much on the high side, which is where I work now,
+Amber Fu: Mhm.
+Tim Woodruff: but solar is not as common. Um, or like it certainly is not as common as in
+Amber Fu: Mhm.
+Tim Woodruff: California.
+Amber Fu: Got you. Got you. and and because like right right now our plan is do the you know uh the first market will be definitely in the California and then second
+Tim Woodruff: Uh-huh.
+Amber Fu: probably in Texas I don't know yet but we
+Tim Woodruff: Uh-huh.
+Amber Fu: think maybe in the Texas and then maybe like a New York or something just state by state do you think this is the right way to
+ 
+ 
+01:38:55
+ 
+Tim Woodruff: I think. Yeah, because yeah,
+Amber Fu: Oh.
+Tim Woodruff: everything is so statebased and utility based that like a roll out into Texas would is probably easier in some ways because they have such a liberal energy market. Um,
+Amber Fu: Mhm.
+Tim Woodruff: but you know, a state like New York, our utilities are governed even very different differently than Texas or California. And so there's just a very high learning curve and barrier to entry to each different market. Um,
+Amber Fu: Mhm.
+Tim Woodruff: so I think that's probably going to be your best bet.
+Amber Fu: Got you. Got you. You know, thanks Tim. This Thanks really. I'm really appreciate this being like incredible helpful for us.
+Tim Woodruff: I'm
+Amber Fu: I really appreciate that you're taking the time work through all those detail with us like because you know your
+Tim Woodruff: glad
+Amber Fu: inside of tariffs and how utility actually work has been really valuable and you know because we are still in the early stage of building those products. So the conversation like this like really help us avoid a lot of mistake. Yeah. And you know we are also starting to think about like bring on a few advisors with a
+Tim Woodruff: Uh-huh.
+Amber Fu: deep experience in the energy space. So if you ever ever be open we love to explore whether you may be interesting advising us.
+Tim Woodruff: Yeah, absolutely. This is
+Amber Fu: Sure. Sure. Thank you so much.
+Tim Woodruff: cool.
+Amber Fu: And it it wouldn't be a big time you know uh more like uh you know uh part of like you know give us uh uh some advising.
+Tim Woodruff: Uhhuh.
+Amber Fu: Yeah. And just help us to you know build this app can really surely help the you know the the
+Tim Woodruff: Oh, yeah.
+Amber Fu: customer.
+Tim Woodruff: I think that'd be cool.
+Amber Fu: Okay. Thank you. Thank you Tim. Thank you so much.
+ 
+ 
+Transcription ended after 01:41:28
+
+This editable transcript was computer generated and might contain errors. People can also change the text after it was created.

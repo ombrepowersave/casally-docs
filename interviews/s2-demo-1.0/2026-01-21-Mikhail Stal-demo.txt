@@ -1,0 +1,868 @@
+8. Mikhail Stal
+00:00:00
+ 
+Amber Fu: again.  Amber Fu：又来了。
+Mikhail Stal: Yes, nice to see you again.
+米哈伊尔·斯塔尔：是的，很高兴再次见到你。
+Amber Fu: Okay, perfect. And uh give me a second. So, okay.
+Amber Fu：好的，完美。呃，给我点时间。好吧。
+Mikhail Stal: Okay.  米哈伊尔·斯塔尔：好的。
+Amber Fu: So um thanks um again for making time today and uh before we look at anything. Well, I I just want to, you know, to ground us a bit like because from what you share before, I think you already put in a lot of info like managing EV charging and I think watching like power wall reserve and thinking about the TOU, right? Yeah. And I think I think it's do trying to make sure you are not buying expensive power by accident. So uh so today uh it's really about like whether the app can take some
+Amber Fu：那么，嗯，再次感谢你今天抽时间，呃，在我们看任何东西之前。嗯，我只是想让我们有点冷静点，因为从你之前分享的内容来看，我觉得你已经加入了很多信息，比如管理电动汽车充电，还有关注电源墙储备和思考 TOU，对吧？是的。我觉得关键是确保你不会意外买到昂贵的电。所以，呃，今天，呃，主要看的是这个应用能否承受一些
+Mikhail Stal: Where?  米哈伊尔·斯塔尔：在哪里？
+Amber Fu: uh of the thinking of your play not about like whether you're doing things right or wrong
+Amber Fu：呃，是关于你剧作的思考，而不是你做得对还是错
+Mikhail Stal: Okay.  米哈伊尔·斯塔尔：好的。
+Amber Fu: and um so what I'm like to do today is a little bit different uh instead of uh me to explain the app I want to see how you naturally explore it.
+Amber Fu：嗯，今天我做的事情有点不同，呃，不是让我来解释这个应用，我想看看你是如何自然地探索它的。
+ 
+ 
+00:01:09
+ 
+Amber Fu: So there's no right or wrong here. Anything confusing is actually very helpful for us. So right now I will send you a a link uh it's about app uh just wait uh okay you see it is okay uh before get
+Amber Fu：所以这里没有对错之分。任何让人困惑的事对我们来说其实都很有帮助。所以现在我会给你发个链接，呃，是关于应用的，呃，等一下，呃，你看，没问题，呃，在拿之前
+Mikhail Stal: Yeah.  米哈伊尔·斯塔尔：是的。
+Amber Fu: start uh do you mind I record this call
+Amber Fu：开始吧，呃，你介意我录下这个电话吗
+Mikhail Stal: Yeah, that's fine.
+米哈伊尔·斯塔尔：是的，没问题。
+Amber Fu: Okay, thank you. And let me know uh when you open the link
+Amber Fu：好的，谢谢你。打开链接时告诉我一声
+Mikhail Stal: Um, yeah, I open it.
+米哈伊尔·斯塔尔：嗯，是的，我会打开它。
+Amber Fu: and yes,  Amber Fu：是的，
+Mikhail Stal: Do you want me to share my screen?
+米哈伊尔·斯塔尔：你想让我分享我的屏幕吗？
+Amber Fu: that would be perfect. Thank you. Appreciate
+Amber Fu：那太完美了。谢谢。感谢
+Mikhail Stal: Yeah.  米哈伊尔·斯塔尔：是的。
+Amber Fu: it.  Amber Fu：就是它。
+Mikhail Stal: Okay. Okay. Can you see that?
+米哈伊尔·斯塔尔：好的。好的。你看到了吗？
+Amber Fu: Uh yeah. Yeah, I can see it.
+Amber Fu：呃，是的。是的，我能理解。
+Mikhail Stal: Okay.  米哈伊尔·斯塔尔：好的。
+Amber Fu: Okay. So, uh so before start uh one quick heads up, this is still like our first really early stage version. So, you may only see one version of the screen at a time. Well, in like the real product, the home screen can look different depending on what happening.
+Amber Fu：好的。所以，呃，在开始之前先提醒一下，这仍然是我们第一个非常早期的版本。所以，你可能一次只能看到一个版本的屏幕。其实，在真实产品里，主屏幕会根据情况不同而变化。
+ 
+ 
+00:02:38
+ 
+Amber Fu: For example, like EV charging, power outage, uh or just normal day. So if you don't see like specific case right now that's totally fine. We can jump to it together later and you know go ahead and take a few minute and to tap around like you know home event saving profile anything you want. I won't explain yet just tell me what catch your attention first and what you feel confusing. Uh let me know when you're ready and then we will start from the home together.
+Amber Fu：比如说，比如电动车充电、停电，或者普通的一天。所以如果你现在没看到具体案例，完全没问题。我们可以稍后一起跳到这里，你知道的，花几分钟时间，随意点击，比如你知道的家庭活动保存档案，随你喜欢。我暂时不会解释，先告诉我哪些是你最先注意到的，哪些让你感到困惑。呃，准备好了告诉我，然后我们一起从家里开始。
+Mikhail Stal: Um, yeah, I'm ready. Should I just go through and tell you what I'm
+米哈伊尔·斯塔尔：嗯，是的，我准备好了。我是不是应该直接告诉你我是什么
+Amber Fu: Yeah, you can just I give you like a five minute you you can just Yeah.
+Amber Fu：可以，我给你五分钟，你可以，可以。
+Mikhail Stal: Yeah.  米哈伊尔·斯塔尔：是的。
+Amber Fu: tap around to see
+Amber Fu：点开看看
+Mikhail Stal: Yeah. So, at the top it's it's pretty clear. It says something requires my attention.
+米哈伊尔·斯塔尔：是的。所以，在最上面，这很明显。它说有什么事情需要我关注。
+Amber Fu: it.  Amber Fu：就是它。
+Mikhail Stal: Um, I can't tell exactly what it is from the top, but then if I look further down, it says power power outage warning. Um,
+米哈伊尔·斯塔尔：嗯，我从上面看不太清楚具体是什么，但如果往下看，会显示停电警告。嗯，
+Amber Fu: Mhm.  Amber Fu：嗯。
+ 
+ 
+00:03:36
+ 
+Mikhail Stal: probably best if it's together, so then I don't have to like look further down the page. Um, but yeah, I think that's pretty clear otherwise. Um, charger,
+米哈伊尔·斯塔尔：最好是把它放在一起，这样我就不用往后看了。嗯，但我想这已经很明显了。嗯，充电器，
+Amber Fu: Okay.  Amber Fu：好的。
+Mikhail Stal: power wall, and EV. So, it's okay. Okay. So, it's asking me to take an action to make sure that um I have battery when during the power the power outage. Okay. Looks like it's charging. Both the EV and power wall are charging. I assume I assume that's off solar, but it's not 100% clear, but I think yeah, it has to be off solar. Um and looks like I can stop it. Power outage warning can more info.
+米哈伊尔·斯塔尔：Power Wall 和 EV。所以，没关系。好的。所以，它让我采取措施，确保在停电期间我有电池。好的。看起来正在充电。电动车和电源墙都在充电。我猜我猜那是太阳能外，但不是百分百确定，不过我觉得是的，肯定是太阳能外。嗯，看起来我能阻止它。停电警告可以了解更多信息。
+Amber Fu: Okay.  Amber Fu：好的。
+Mikhail Stal: Looks like event history. Uh power grid will be offline. So yeah, that that's nice. It tells me when um it says what happened, but I I'm assuming this is in the future, right? Because it hasn't happened yet because the the battery is telling me to charge ahead of time.
+米哈伊尔·斯塔尔：看起来是事件历史。呃，电网将会停运。所以，是的，这很好。它会告诉我，嗯，它会显示发生了什么，但我猜这是未来的事，对吧？因为电池提示我提前充电，所以还没发生。
+ 
+ 
+00:04:43
+ 
+Mikhail Stal: Um, so maybe just, you know, just the just the wording or the language. Um, probably just needs to be updated. Um, looks like there's also savings, which I can get into here. Here's how much I saved. It gives me some Oh, so this looks like I charged my EV when it was expensive, and it tells me for the future.
+米哈伊尔·斯塔尔：嗯，也许只是，你知道的，措辞或者语言。嗯，可能只是需要更新一下。嗯，看起来还有折扣，我可以在这里说。这是我存了多少钱。它给我提示了一些“哦，原来是我在充电很贵的时候给电动车充电了”，它告诉我未来情况。
+Amber Fu: Yeah, you can type uh you can type
+Amber Fu：是的，你可以打字，呃，你可以打字
+Mikhail Stal: Yep. Um, yeah,
+米哈伊尔·斯塔尔：是的。嗯，是的，
+Amber Fu: those  琥珀·傅：那些
+Mikhail Stal: that looks okay. At the time of the event, EV charging was active during a high price period. Um, yeah, it would be it would be cool if it said like you charged for.7 cents a kilowatt and then gave me a suggestion like if you charge overnight, it's only 6 cents a kilowatt. So then like you can see right away what the difference is. But I'm assuming assuming if I'm using this app, I may already know that.
+米哈伊尔·斯塔尔：看起来还不错。活动发生时，电动车充电正处于高价格期。嗯，是的，如果它显示你收费0.7美分一千瓦，然后给我建议如果隔夜充电，每千瓦只需6美分，那就太酷了。这样你就能立刻看到区别。不过我猜如果我用这个应用，可能已经知道了。
+Amber Fu: Mhm.  Amber Fu：嗯。
+Mikhail Stal: Um, okay. And it gives me the data source. Uh this is I this is just I know it's a prototype, but this is nice like I can see exactly where the data is coming from.
+米哈伊尔·斯塔尔：嗯，好的。它给了我数据来源。呃，这是我，我知道这是个原型，但这很好，我能准确看到数据的来源。
+ 
+ 
+00:05:47
+ 
+Mikhail Stal: Um so yeah, I think that's all. Okay. And then there's profile. Electricity price plan looks like. Yeah, I can set I can set my um electricity plan. That's good. Um this looks like a pretty standard profile. Looks like I can share with somebody. That's that's pretty nice. Also, um, looks like there's different thresholds I can set, different notifications. Um, yeah, that's good. Um, home address, connected devices. Yes, I can see like my car and everything. Yeah, profile. Profile looks really good. I don't really I mean, I think it has everything I would expect. Um, even even like sharing is a nice feature. I know not all of them have that sharing capability. Savings. Yeah, I think savings is nice. I like the graph and stuff and how much, you know, projected how much you could save. Um, yeah, I mean, looks looks good overall.
+米哈伊尔·斯塔尔：嗯，是的，我想就这些了。好的。还有档案。电价计划看起来像这样。是的，我可以设置我的电费套餐。很好。嗯，这看起来是个相当标准的配置文件。看起来我可以和别人分享。那真不错。还有，嗯，看起来我可以设置不同的阈值，不同的通知。嗯，是的，那很好。嗯，家庭地址，连接设备。是的，我能看到我的车什么的。是的，画像。侧面看起来真的很好。其实我不太清楚，我觉得它包含了我预期的一切。嗯，甚至喜欢分享也是个不错的功能。我知道并非所有公司都有这种共享能力。储蓄。是的，我觉得省钱挺好的。我喜欢图表之类的东西，以及你能预测能节省多少钱的过程。嗯，是的，我是说，整体看起来不错。
+Amber Fu: Okay. And you can uh there have a uh on the left side there have a flows.
+Amber Fu：好的。你可以在左侧有个，呃，有流。
+ 
+ 
+00:06:56
+ 
+Mikhail Stal: Yeah. On the left.
+米哈伊尔·斯塔尔：是的。左边。
+Amber Fu: Do you see it?
+Amber Fu：你看到了吗？
+Mikhail Stal: Yep.  米哈伊尔·斯塔尔：是的。
+Amber Fu: Okay. You can there have a different uh a different situation like you can
+Amber Fu：好的。你可以有不同的情况，比如你能
+Mikhail Stal: Okay. Um, so I clicked attention EV charging.
+米哈伊尔·斯塔尔：好的。嗯，我点了注意力电动车充电。
+Amber Fu: click  琥珀·傅：咔哒
+Mikhail Stal: Um, so it says your electric vehicle is charging during a high price period. Um, okay. It gives me a suggestion. Charge EV during super off peak hours. Yeah, that's good. Um, so, uh, I think it's not, well, when I read this, I'm assuming that I'm charging right now. Um, and it's telling me if I hit I would assume that if I hit apply,
+米哈伊尔·斯塔尔：嗯，说明说明你的电动汽车在高价格期间正在充电。嗯，好吧。它给了我一个建议。在超级非高峰时段给电动车充电。是的，那很好。嗯，所以，呃，我觉得不是，嗯，当我读到这段时，我假设我现在正在充电。嗯，它告诉我如果我点了，我会假设如果我点了应用，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Mikhail Stal: it would stop the charging and change my settings. Um or or maybe it's telling me that hey I my
+Mikhail Stal：它会停止充电并更改我的设置。嗯，或者说它在告诉我，嘿，我
+Amber Fu: Mhm.  Amber Fu：嗯。
+Mikhail Stal: settings allow my EV to charge during that time but I'm not charging right now. So if I did apply now it would change my settings. So I'm not totally clear which of the two it is.
+Mikhail Stal：设置允许我的电动车在这段时间充电，但我现在没有充电。所以如果我现在申请，设置就会改变。所以我不太清楚到底是哪一个。
+ 
+ 
+00:08:03
+ 
+Mikhail Stal: Um but if I clicked okay so it looks like I am charging now.
+米哈伊尔·斯塔尔：嗯，但如果我点击了“好”，看起来我现在正在充电。
+Amber Fu: Yeah.  Amber Fu：是的。
+Mikhail Stal: So it paused my charging. Um,
+米哈伊尔·斯塔尔：所以它暂停了我的充电。嗯，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Mikhail Stal: yeah. I personally I have my charger configured to always charge between midnight and 6 a.m. So if I am the only if I'm charging during a high price period, it's because I'm getting solar power that I can't store. So I would I would know that I started the charging um or unless I like somehow started
+米哈伊尔·斯塔尔：是的。我个人把充电器配置成午夜到早上6点之间充电。所以如果只有我在高价期充电，那是因为我用的是无法储存的太阳能。所以我会知道我开始充电，嗯，除非我自己怎么启动了
+Amber Fu: Mhm.  Amber Fu：嗯。
+Mikhail Stal: charging on accident,
+米哈伊尔·斯塔尔：意外冲锋，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Mikhail Stal: but that doesn't really happen. So, um, yeah, I'm just trying to think about how I like how I would use this notification. Um, yeah, I think that if I think this like this is good for somebody who may be less familiar with the pricing periods, right? Like if if I'm charging during a high price period, I'm probably doing it for a reason. Um, but if I'm doing it on accident, then this is a this is a good warning to have regardless of that.
+米哈伊尔·斯塔尔：但实际上并没有发生这种情况。所以，嗯，是的，我只是想想我喜欢怎么用这个通知。嗯，是的，我觉得如果我这样想，对那些不太熟悉定价期的人来说是好事，对吧？比如如果我在高价期收费，那我大概是有原因的。嗯，但如果是我无意中做的，那这个警告无论如何都值得提醒。
+ 
+ 
+00:09:11
+ 
+Mikhail Stal: Um, but I don't again I don't know how often I charge on accident during a high price period. Um, and then I can check all the other all the everything else looks pretty much the same.
+米哈伊尔·斯塔尔：嗯，但我也不确定在高价期我多久会不小心扣费。嗯，然后我可以检查其他所有东西，其他东西看起来基本都一样。
+Amber Fu: Yeah.  Amber Fu：是的。
+Mikhail Stal: Um, yeah. Should I go to the next one or any questions on this?
+米哈伊尔·斯塔尔：嗯，是的。我应该去下一个，或者有相关问题吗？
+Amber Fu: Uh no you can go that one like there have a yeah it's just
+Amber Fu：呃，不，你可以去那个，就像有个好像，只是
+Mikhail Stal: Okay. suggestion. Um,
+米哈伊尔·斯塔尔：好的。建议。嗯，
+Amber Fu: different.  安柏·傅：不同。
+Mikhail Stal: so it's yellow and you usually yellow means uh like red is a warning, right? Like these are red and then yellow is like more caution,
+米哈伊尔·斯塔尔：所以是黄色的，你通常说黄色意味着红色是警告，对吧？比如这些是红色，黄色则是更谨慎，
+Amber Fu: Um,  Amber Fu：嗯，
+Mikhail Stal: but it's telling me that everything is good. So I probably wouldn't do yellow there. Uh maybe,
+米哈伊尔·斯塔尔：但它告诉我一切都很好。所以我可能不会在那里做黄色。呃，也许吧，
+Amber Fu: yes.  Amber Fu：是的。
+Mikhail Stal: you know, blue or green or a different color or something. Oh, it's giving me a suggest. Oh, I see. Okay, so it's giving me a suggestion. And it's time to charge my power wall. Um, but it's telling me everything is good.
+米哈伊尔·斯塔尔：你知道的，蓝色、绿色或者其他颜色什么的。哦，它给了我一个建议。哦，我明白。好吧，它给了我一个建议。是时候给我的电墙充电了。嗯，但它告诉我一切都好。
+ 
+ 
+00:10:10
+ 
+Mikhail Stal: So, I think if everything is good, then yeah, I probably wouldn't want it to be yellow up here. So, it's telling me it's time to charge my power wall.
+米哈伊尔·斯塔尔：所以，如果一切都好，那我大概不希望这里是黄色的。所以，它告诉我该给我的电源墙充电了。
+Amber Fu: Okay.  Amber Fu：好的。
+Mikhail Stal: Um, yeah, this is interesting. I think that this doesn't apply to me because my power wall charges automatically. Like I don't have to I don't have to I don't have to choose to charge my power wall.
+米哈伊尔·斯塔尔：嗯，是的，这很有趣。我觉得这不适用于我，因为我的电源墙会自动充电。我不必选择给我的电源墙充电。
+Amber Fu: Okay.  Amber Fu：好的。
+Mikhail Stal: Um because it always charges with any extra um solar power that I have um and if the power wall is full, it it sends it to the house automatically.
+Mikhail Stal：嗯，因为它总是用我多余的太阳能充电，如果电源墙满了，它会自动把电送到房子里。
+Amber Fu: Okay.  Amber Fu：好的。
+Mikhail Stal: So,  米哈伊尔·斯塔尔：所以，
+Amber Fu: Um I think you're using the Tessa the your solar brand is from Tessa,
+Amber Fu：嗯，我觉得你用的是 Tessa，你的太阳能品牌是 Tessa 的，
+Mikhail Stal: no,  米哈伊尔·斯塔尔：没有，
+Amber Fu: right?  Amber Fu：对吧？
+Mikhail Stal: my panels are Hyundai,
+米哈伊尔·斯塔尔：我的面板是现代的，
+Amber Fu: Oh, okay.  Amber Fu：哦，好的。
+Mikhail Stal: but my power wall my power wall basically manages the panels. Yeah. So,
+Mikhail Stal：但我的电源墙基本上是管理太阳能板的。是的。所以，
+Amber Fu: Okay.  Amber Fu：好的。
+Mikhail Stal: it it if my power wall is empty and I have solar, it will send whatever it needs to the house and then anything extra goes to the power wall.
+米哈伊尔·斯塔尔：如果我的电墙是空的，我有太阳能，它会把需要的东西送到房子里，然后多余的电线会送到电墙。
+ 
+ 
+00:11:23
+ 
+Mikhail Stal: If the house is using too much,
+米哈伊尔·斯塔尔：如果家里用电太多，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Mikhail Stal: then it'll draw from the grid if there's no battery. But if it's using less than is from solar, then the remainder goes to the battery. So, all of that is all of that is automatic. Um, and in my situation, I'm not allowed to charge well, I can't grid charge my battery. Some some people can in other states, but in California, if you have solar, you can't you're not allowed to grid charge your battery. So, um,
+米哈伊尔·斯塔尔：如果没有电池，它就会从电网取电。但如果用电量少于太阳能，剩余的电量就用给电池。所以，所有这些都是自动发生的。嗯，我的情况是，我不能好好充电，不能给电池充电。有些人在其他州可以，但在加州，如果你有太阳能，就不能给电池充电。所以，嗯，
+Amber Fu: Okay.  Amber Fu：好的。
+Mikhail Stal: if you don't have solar and you only have a battery, then you can grid charge. So, in that case, you can charge your battery when it's cheap. But this doesn't make sense either because it's telling me there's a lot of solar, so I should charge my battery. So, I would ne I would never I would never do that. it if it said like um if it said uh you there's
+米哈伊尔·斯塔尔：如果你没有太阳能，只有电池，那么你可以用电网充电。所以，在这种情况下，你可以在便宜的时候给电池充电。但这也说不通，因为它告诉我太阳能量很大，所以我应该给电池充电。所以，我绝不会那样做。如果它说，嗯，如果说，呃，你，那就有
+Amber Fu: Yeah.  Amber Fu：是的。
+Mikhail Stal: high solar and your battery is projected to be full by 4 p.m.
+米哈伊尔·斯塔尔：太阳能量很高，你的电池预计下午4点会满。
+ 
+ 
+00:12:19
+ 
+Mikhail Stal: you should you should charge your car off solar because then then I can use that energy that
+米哈伊尔·斯塔尔：你应该用太阳能给你的车充电，因为那样我就能利用那种能源
+Amber Fu: Okay. Okay.  Amber Fu：好的。好的。
+Mikhail Stal: isn't going to be stored to the car, right? But in this situation, it doesn't this doesn't wouldn't really make sense for me.
+米哈伊尔·斯塔尔：不会被存储在车上，对吧？但在这种情况下，这对我来说并不合理。
+Amber Fu: Okay,  Amber Fu：好的，
+Mikhail Stal: Um okay,  米哈伊尔·斯塔尔：嗯，好的，
+Amber Fu: got you.  Amber Fu：明白了。
+Mikhail Stal: I'll go to the next one. So yeah, this is blue like this or blue purplish.
+米哈伊尔·斯塔尔：我会去看下一个。所以，是的，这是像这样蓝色或者蓝色紫色。
+Amber Fu: Yeah.  Amber Fu：是的。
+Mikhail Stal: Yeah, this is kind of like what I expected that everything is fine. Um I think the only difference between this one and the last one is the previous one had a suggestion for me. Um but I don't even know that I would consider a suggestion to be like yellow, you know. Um but yeah, this this is fine. Seems like this is like the standard state that there's nothing going on or nothing happening.
+米哈伊尔·斯塔尔：是的，这有点像我预期的，一切都很顺利。嗯，我觉得这本和上一个唯一的区别是上一个给我提过建议。嗯，但我甚至不确定我会不会把建议当成黄色，你懂的。嗯，不过是的，这很好。看起来这就是标准状态，什么都没发生，也没什么事发生。
+Amber Fu: Okay. So uh uh we can do you mind uh help me click on the attention red EV charging this page? Okay.
+Amber Fu：好的。所以，呃，我们可以帮我点一下“注意红色电动车充电”页面吗？好的。
+ 
+ 
+00:13:18
+ 
+Mikhail Stal: Yes.  米哈伊尔·斯塔尔：是的。
+Amber Fu: Okay. So uh let's focus on the home for a moment like one thing that may not uh be app uh not be clear like home isn't just one fixed screen. it like it's over time it can like surface different kind of situation depending on what's happening for example like home home screen may suggest things like oh EV charging during the off peak hours or like you know uh adjusting the power will reserve tonight or like uh has a uh about like a possible outage nearby.
+Amber Fu：好的。那么，呃，我们先把注意力放在家里，比如有件事可能不够清楚，比如，比如，应用，呃，不清楚，比如家里不仅仅是一个固定的屏幕。时间久了，可能会根据情况出现不同情况，比如主屏幕可能会提示电动车在非高峰时段充电，或者调节电力今晚会保留，或者附近可能停电的情况。
+Mikhail Stal: Right.  米哈伊尔·斯塔尔：没错。
+Amber Fu: So the idea is not like a over value but it's a to surface one or two uh relevant actions when they actually
+Amber Fu：所以这个想法并不是高估，而是要在实际作时，把一两个相关的动作呈现出来
+Mikhail Stal: Yeah, that makes sense.
+米哈伊尔·斯塔尔：是的，这很有道理。
+Amber Fu: matters.  安柏·傅：很重要。
+Mikhail Stal: I think that that that that would be good to have. Yeah.
+米哈伊尔·斯塔尔：我觉得那会是件好事。是的。
+Amber Fu: Okay. But out of this or like what which kind of suggestion would be most valuable to
+Amber Fu：好的。但从中，哪种建议最有价值
+Mikhail Stal: Um,  米哈伊尔·斯塔尔：嗯，
+Amber Fu: you?  安柏·傅：你？
+Mikhail Stal: I think uh I think the warning like you have here, like warning you're charging during an expensive time is is fine to have just to make sure that the person actually knows that they're having it.
+米哈伊尔·斯塔尔：我觉得，呃，我觉得你这里提到的警告，比如在高昂时间段发电是可以的，只是为了确保对方知道自己在用。
+ 
+ 
+00:14:34
+ 
+Mikhail Stal: Um I think uh I
+米哈伊尔·斯塔尔：嗯，我想，呃，我
+Amber Fu: Hello.  Amber Fu：你好。
+Mikhail Stal: think uh the one that I mentioned where you're projected to have a full battery um even if you and you're and you have a lot of excess solar like you should charge your car you should
+米哈伊尔·斯塔尔：比如我刚才提到的那个，预计你会有满电电池，嗯，即使你有很多多余的太阳能，比如你应该给车充电，你应该给车充电
+Amber Fu: Mhm.  Amber Fu：嗯。
+Mikhail Stal: charge your car now or during the day um because it's a sunny day and there's going to be a lot of extra solar power that you're not going to be able to capture with your battery. I think that that's that's a good one to have because and for that one I would even take like a push notification because if you can know the weather,
+米哈伊尔·斯塔尔：现在或白天给车充电，因为今天阳光明媚，会有很多额外的太阳能，电池无法捕捉。我觉得那是个不错的选择，因为对于那个，我甚至会用推送通知，因为如果你能知道天气，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Mikhail Stal: you know, it's going to be sunny. Um you can hopefully project how much solar I'm going to generate based on my system
+米哈伊尔·斯塔尔：你知道，今天会是晴朗的。嗯，你希望能根据我的系统预测我将发电多少太阳能
+Amber Fu: Yeah.  Amber Fu：是的。
+Mikhail Stal: size. Um that would tell me that I should go charge my car.
+米哈伊尔·斯塔尔：规模。嗯，这说明我应该去给车充电。
+Amber Fu: Mhm.  Amber Fu：嗯。
+Mikhail Stal: Um because right now I have to think about like,
+米哈伊尔·斯塔尔：嗯，因为现在我得考虑，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Mikhail Stal: okay, is it sunny outside? Um, I need to make sure my battery is full by the time peak peak hours start, which is 4 p.m., right?
+米哈伊尔·斯塔尔：好，外面晴吗？嗯，我得确保电池在高峰时段开始时满电，也就是下午4点，对吧？
+ 
+ 
+00:15:31
+ 
+Mikhail Stal: Um, so if you could just tell me, hey, you're you're going to be okay. You should charge your car. Um, I think that that would be helpful. Um, if uh what else would be helpful? Um, if it knew that there was a like a if it was going to rain, for example. Um, let's say it knew it was going to rain in the next couple of days or for three days in a row and I wouldn't have any solar power. Um, then uh a suggestion to set my backup reserve to 100%.
+米哈伊尔·斯塔尔：嗯，如果你能告诉我，嘿，你会没事的。你应该给你的车充电。嗯，我觉得那会有帮助。嗯，如果，呃，还有什么有用的？嗯，如果它知道会下雨，比如说。嗯，假设它知道接下来几天或连续三天会下雨，我就没有太阳能了。嗯，然后有人建议把备用储备设为100%。
+Amber Fu: Mhm.  Amber Fu：嗯。
+Mikhail Stal: Would be good because then then I don't have to use my battery during the cheap
+米哈伊尔·斯塔尔：那就好了，因为这样我就不用在便宜的时候用电池了
+Amber Fu: Okay.  Amber Fu：好的。
+Mikhail Stal: or the middle hours. I can save it for the peak hours. Um, and the uh the system could automatically um so it could set my backup reserve to 100 and then between 4 and 9 p.m. when my electricity is the most expensive then I can it can switch the setting lower the backup reserve so that I can use that energy then um does that make does that make sense?
+米哈伊尔·斯塔尔：或者说中午时分。我可以留着高峰时段用。嗯，系统可以自动把备用备用储备设为100，然后在下午4点到9点之间，当电费最贵时，它可以切换设置，降低备用，这样我就能用上这些能源，嗯，这样说得通吗？
+ 
+ 
+00:16:40
+ 
+Amber Fu: Yeah. Yeah.  Amber Fu：是的。是的。
+Mikhail Stal: Yeah.  米哈伊尔·斯塔尔：是的。
+Amber Fu: And I think uh like right now when you charge your EV at night, you also have uh I I think you mentioned last time you have to think about like power reserve,
+Amber Fu：我觉得现在，比如你晚上给电动车充电时，你还得考虑动力储备，
+Mikhail Stal: Yeah. So,  米哈伊尔·斯塔尔：是的。所以，
+Amber Fu: right?  Amber Fu：对吧？
+Mikhail Stal: I'm using an automation now to set it. Yeah.
+米哈伊尔·斯塔尔：我现在正在使用自动化来设置。是的。
+Amber Fu: Oh, okay.  Amber Fu：哦，好的。
+Mikhail Stal: Somebody somebody made one that was um I mentioned there was one called Net Zero which was
+米哈伊尔·斯塔尔：有人做过一个，嗯，我提到过一个叫 Net Zero 的
+Amber Fu: Mhm. Oh, yeah. Yeah,
+Amber Fu：嗯，哦，是的。是的
+Mikhail Stal: like $8 a month,
+米哈伊尔·斯塔尔：大概每月8美元，
+Amber Fu: I Yeah.  Amber Fu：我是的。
+Mikhail Stal: but somebody made one that was $2 a month. Um so I'm I just have a trial of it right now. Um,
+米哈伊尔·斯塔尔：但有人做了一个月2美元的。嗯，我现在正在试用它。嗯，
+Amber Fu: Oh.  Amber Fu：哦。
+Mikhail Stal: but yeah, it's basically overnight I'm setting my uh at midnight I set my backup reserve to 50%. And then at 6 a.m. I set it back to 10%.
+米哈伊尔·斯塔尔：不过是的，基本上是一夜之间，我把我的“呃”设在午夜，我把备用储备设为50%。然后在早上6点，我把它调回10%。
+Amber Fu: Mhm.  Amber Fu：嗯。
+Mikhail Stal: Um, and then in the morning it's when I'm using my heat pump to make the house warmer,
+米哈伊尔·斯塔尔：嗯，然后早上我用热泵让房子更暖和，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Mikhail Stal: it's automatically using that saved battery reserve that I saved for.
+Mikhail Stal：它会自动使用我为之存的那个储备电池。
+ 
+ 
+00:17:29
+ 
+Amber Fu: Mhm.  Amber Fu：嗯。
+Mikhail Stal: So yeah, if if it can do that automatically, yeah, that that would be great.
+米哈伊尔·斯塔尔：所以如果它能自动做到这一点，那当然很好。
+Amber Fu: Okay. Gotcha. And what else you you I mean what else we are still missing like you want to you want to like maybe more info like you you can't find it anywhere or uh more function.
+Amber Fu：好的。明白了。还有你，你，我是说我们还缺少什么，比如你想，你想，或者想要更多信息，比如你找不到，或者更多功能。
+Mikhail Stal: I like the the comparison usage. Um um my old solar app had something like this.
+米哈伊尔·斯塔尔：我喜欢这种比较的用法。嗯，我以前的太阳能应用有类似的功能。
+Amber Fu: Okay.  Amber Fu：好的。
+Mikhail Stal: I had Nphase before. um it had something like this, but the way it it it gave me the options of um today and one year ago today just because the um I it gave me today, yesterday and one year ago um so that I could see like the historical performance of my solar power system.
+米哈伊尔·斯塔尔：我之前有过 Nphase。嗯，它有类似这样的功能，但它给了我今天和一年前的今天的选项，因为今天、昨天和一年前，嗯，我能看到太阳能系统的历史表现。
+Amber Fu: Uh,  安柏·傅：呃，
+Mikhail Stal: So um if you're if you can add one year ago then somebody can track that, you know, they can compare how they were doing a year ago and if their solar is working, how their energy usage is going. So, that would be good.
+米哈伊尔·斯塔尔：所以，嗯，如果你能加上一年前的数据，那么有人可以追踪，比如他们可以比较一年前的表现，以及太阳能是否正常工作，能源使用情况如何。所以，那会很好。
+ 
+ 
+00:18:44
+ 
+Mikhail Stal: Um Tesla does not have something like that right now. So, that I think that would be like a nice feature to have cuz I've definitely looked at it before to see if my panels were degrading or, you know, dirty or something. Um, just kind of check on that. Um, and then the savings is nice. I don't so Tesla app doesn't have this either but my car charger app which is Emporia um they have like a savings feature and they'll say like okay you charged for $6 today and you know you save 200 this month so ve very very similar um I don't think it lets me see a graph like this but it just tells me like how much I saved today versus in the whole month so yeah I think that that's good
+米哈伊尔·斯塔尔：嗯，特斯拉目前没有这样的设备。所以我觉得这个功能挺不错的，因为我之前确实检查过，看看我的面板有没有退化或者脏了什么的。嗯，只是确认一下。嗯，而且省下的钱也不错。我没有，特斯拉应用也没有这个功能，但我的汽车充电器应用 Emporia 有个优惠功能，会显示你今天充了 6 美元，这个月省了 200 美元，非常非常相似。嗯，我觉得它不让我看到这样的图表，但它只是告诉我今天省了多少钱和整个月的区别所以，是的，我觉得这很好
+Amber Fu: Mhm.  Amber Fu：嗯。
+Mikhail Stal: Um yeah. What what are the
+米哈伊尔·斯塔尔：嗯，是的。什么什么
+Amber Fu: Um, I have a question. So,
+Amber Fu：嗯，我有个问题。所以，
+Mikhail Stal: Yeah.  米哈伊尔·斯塔尔：是的。
+Amber Fu: if like a home screen like could only show one card for you, what would you want to be?
+Amber Fu：如果主屏幕只能显示一张卡牌，你想成为什么？
+Mikhail Stal: One  米哈伊尔·斯塔尔：一
+ 
+ 
+00:19:42
+ 
+Amber Fu: Yeah. For example,
+Amber Fu：是的。例如，
+Mikhail Stal: card  米哈伊尔·斯塔尔：卡牌
+Amber Fu: I I just come uh comes up my mind like maybe like something like saving summary or like tonight battery with a eBay plan or like a charging state or like warning like or what or something else like if only can show you one card for you
+Amber Fu：我，我只是突然想到，比如像是保存摘要，或者今晚电池和 eBay 套餐，或者充电状态，或者警告，或者什么的，或者其他什么，比如“如果只给你显示一张卡”
+Mikhail Stal: Yeah,  米哈伊尔·斯塔尔：是的，
+Amber Fu: like what would you
+Amber Fu：你会怎么做
+Mikhail Stal: I would want to see I would want to see the status of my solar in
+米哈伊尔·斯塔尔：我想看看我的太阳能的状态
+Amber Fu: want?  Amber Fu：想要？
+Mikhail Stal: battery. So, am I getting energy?
+米哈伊尔·斯塔尔：电池。那么，我有没有获得能量？
+Amber Fu: Oh,  安柏·傅：哦，
+Mikhail Stal: Am I saving energy? Am I using energy?
+米哈伊尔·斯塔尔：我是在节省能源吗？我是在消耗能量吗？
+Amber Fu: okay.  Amber Fu：好的。
+Mikhail Stal: Um, that's that I think that's the most important thing to see.
+米哈伊尔·斯塔尔：嗯，我认为这是最重要的事情。
+Amber Fu: Okay. And would you prefer like home to show everything is handled tonight like no no one pick or instead of individual event and warning?
+Amber Fu：好的。你更喜欢今晚一切都在家里处理好，比如没有人选，还是而不是单独事件和警告？
+Mikhail Stal: Say that  米哈伊尔·斯塔尔：说出来吧
+Amber Fu: Uh so would you prefer like a home to show like either either shows?
+Amber Fu：呃，那你更喜欢有个家可以展出，就像其中任何一方那样？
+Mikhail Stal: again.  米哈伊尔·斯塔尔：又一次。
+Amber Fu: Oh okay. So everything is handling tonight like no uh no one pick or like instead like of like in individual event and warning.
+Amber Fu：哦，明白了。所以今晚一切都在处理，比如没有，呃，没有人选，而不是单人赛事和警告。
+ 
+ 
+00:20:57
+ 
+Mikhail Stal: I see. Um yeah.
+米哈伊尔·斯塔尔：我明白了。嗯，是的。
+Amber Fu: Well, yeah, just one result or like
+Amber Fu：嗯，是的，只有一个结果或者类似的
+Mikhail Stal: Um no,  米哈伊尔·斯塔尔：嗯，没有，
+Amber Fu: uh  安柏·傅：呃
+Mikhail Stal: I think I would want to see everything. Um if there's if there's suggestions that I need to be aware of or that are
+米哈伊尔·斯塔尔：我想我会想看所有东西。嗯，如果有没有什么建议是我需要注意的，或者是
+Amber Fu: Okay.  Amber Fu：好的。
+Mikhail Stal: going to affect me in the next 24 to 72 hours, um then I think I would want to see them on the home screen. I I don't know. I mean, maybe it's possible there's like 10 suggestions.
+米哈伊尔·斯塔尔：在接下来的24到72小时内会影响我，嗯，那我想我会想在主屏幕上看到他们。我，我不知道。我的意思是，也许有十个建议。
+Amber Fu: Mhm.  Amber Fu：嗯。
+Mikhail Stal: I don't I don't know if it'll get that big, so you might have to scroll down, but um I basically I don't want to be looking for how can
+米哈伊尔·斯塔尔：我不知道它会不会变得那么大，所以你可能需要往下翻，但嗯，我基本上不想去找怎么做
+Amber Fu: Mhm.  Amber Fu：嗯。
+Mikhail Stal: I change my usage. I want it up front and then I can decide if I want to apply the setting or or not apply the
+米哈伊尔·斯塔尔：我会改变用法。我想要一开始就说清楚，然后再决定是否应用这个设置
+Amber Fu: Mhm.  Amber Fu：嗯。
+Mikhail Stal: setting.  米哈伊尔·斯塔尔：背景设定。
+Amber Fu: Got you. And uh would it make sense if home stay very quiet most of time and only became visible when something need
+安柏·傅：明白了。呃，如果家里大部分时间都很安静，只有在需要时才显现，这样合理吗
+ 
+ 
+00:21:56
+ 
+Mikhail Stal: Yeah, I think that's totally fine. Um,
+米哈伊尔·斯塔尔：是的，我觉得完全没问题。嗯，
+Amber Fu: action?  Amber Fu：行动？
+Mikhail Stal: I I would most most likely I would have my own settings set up with my own automations. So, the only time I would want to break that habit or break whatever is happening normally is if there's some kind of um event like there's rain and I'm not going to be able to get solar to charge my battery, right? Like something that's something that's different or out out of the ordinary. Um and I think like this other screen like you had where everything looks normal.
+Mikhail Stal：我很可能会自己设置，并设置自己的自动化。所以，我唯一想打破这个习惯或打破正常状态的情况，是遇到什么事件，比如下雨，我无法给电池充电，对吧？比如一些不同寻常的东西。嗯，我觉得就像你之前那个画面，一切看起来都很正常。
+Amber Fu: Mhm.  Amber Fu：嗯。
+Mikhail Stal: Um like this is what I would expect to see, you know, 90% of the time. Um,
+米哈伊尔·斯塔尔：嗯，我预计90%的时间会看到这样的情况。嗯，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Mikhail Stal: and then if something is happening like there's a power outage or or something like that, then then yeah, then I would want to know um something's going
+米哈伊尔·斯塔尔：如果发生了什么，比如停电之类的，那我会想知道，嗯，有什么事情发生了
+Amber Fu: Got you. And well,
+安柏·傅：明白了。嗯，
+Mikhail Stal: on.  米哈伊尔·斯塔尔：开。
+Amber Fu: uh, so okay, either like saying things on home in real time or getting weekly report that prove how much you save.
+Amber Fu：呃，好吧，比如在家里实时说话，或者每周收到报告来证明你省了多少钱。
+ 
+ 
+00:22:57
+ 
+Amber Fu: Which one you think is more
+Amber Fu：你觉得哪一个更强
+Mikhail Stal: Um I think I think the real time is for home home I think real time but
+米哈伊尔·斯塔尔：嗯，我觉得现实时间是指家里，我觉得是实时的，但
+Amber Fu: important? Mhm.
+Amber Fu：重要吗？嗯。
+Mikhail Stal: if I get a notification that like a monthly report is available or even if it's like here in this savings card like view your report I think I think that's fine. the the reports are nice to see,
+Mikhail Stal：如果我收到通知说有月度报告可用，或者像这张储蓄卡里有查看报告，我觉得没问题。报告令人欣慰，
+Amber Fu: Ahead.  Amber Fu：领先。
+Mikhail Stal: but um I need to manage my day-to-day uh electricity usage more. That's more
+米哈伊尔·斯塔尔：但是，嗯，我需要更多地管理日常用电。这更多
+Amber Fu: Mhm.  Amber Fu：嗯。
+Mikhail Stal: important.  米哈伊尔·斯塔尔：很重要。
+Amber Fu: Gotcha. And uh but what will make you trust trust like automation enough to stop thinking about it?
+Amber Fu：明白了。呃，但是什么会让你信任像自动化这样的信任，从而停止去想它呢？
+Mikhail Stal: um if I see that the suggestions have like my best interest in mind or that they're actually making changes to save money. Um so like the example here is a good one,
+米哈伊尔·斯塔尔：嗯，如果我看到这些建议是为我着想，或者他们真的在做改动来省钱。嗯，就像这里的例子挺好的，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Mikhail Stal: right? Like hey, you should charge during off peak hours. Um because it's going to if you know my electric plan,
+米哈伊尔·斯塔尔：对吧？比如说，你应该在非高峰时段充电。嗯，因为如果你知道我的电力计划，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Mikhail Stal: you can even tell me how much I'm going to save potentially, right?
+米哈伊尔·斯塔尔：你甚至可以告诉我我可能会存多少钱，对吧？
+ 
+ 
+00:23:58
+ 
+Mikhail Stal: Um,  米哈伊尔·斯塔尔：嗯，
+Amber Fu: Uh-huh.  安柏·傅：嗯哼。
+Mikhail Stal: so I think I think this is a good example that would make sense to have.
+米哈伊尔·斯塔尔：我觉得这是一个很好的例子，很有意义。
+Amber Fu: And  Amber Fu：还有
+Mikhail Stal: Um, and then at the top here you have the um estimated savings.
+米哈伊尔·斯塔尔：嗯，然后在顶部你可以看到，嗯，嗯，节省了。
+Amber Fu: then  安柏·傅：然后
+Mikhail Stal: I think that that's that's good because it's kind of like in real time I can see how much the app has helped me manage my electricity.
+米哈伊尔·斯塔尔：我觉得这很好，因为我可以实时看到这个应用对我管理电力有多大帮助。
+Amber Fu: Mhm. Got you. Got you. And well um so we we have another uh function not put on the home right now is some user ask for a sure to look ahead not detail plan just sense of whether the next day or so look risky or safe. For example, something like, oh, tomorrow look safe. No, no on peak usage or tomorrow look risky. You may want to adjust reserve tonight. Uh would something like that be helpful for you? You know, something like you know uh what's called a schedule like how do you
+安柏·傅：嗯，明白了。明白了。嗯，我们还有一个现在没放在房子上的功能，是一些用户要求提前了解情况，而不是详细计划，只是想了解第二天看起来是危险还是安全的。比如，比如，哦，明天看起来安全。不，不能在高峰使用时或明天看起来有风险。你今晚可能想调整储备。呃，这样的东西对你有帮助吗？你知道的，比如你知道，呃，叫做时间表，比如你怎么做
+Mikhail Stal: like a forecasting or prediction.
+米哈伊尔·斯塔尔：就像预测或预测。
+Amber Fu: Yeah.  Amber Fu：是的。
+ 
+ 
+00:25:00
+ 
+Amber Fu: Yeah. Yeah. Maybe like the system system can give you like maybe next 24 to 48 schedule uh things like what time like maybe uh 2 to 4 p.m. you can uh use a solar or something something like
+Amber Fu：是的。是的。比如系统系统能给你接下来 24 到 48 点的排班，比如时间，比如下午 2 点到 4 点，你可以用太阳能之类的，类似的
+Mikhail Stal: Um,  米哈伊尔·斯塔尔：嗯，
+Amber Fu: that.  Amber Fu：就是那个。
+Mikhail Stal: my electricity plan is pretty much the same on the weekdays and then it's a little
+米哈伊尔·斯塔尔：我的电费在工作日基本一样，但工作日有点
+Amber Fu: Uhhuh. Mhm.  Amber Fu：嗯哼。嗯。
+Mikhail Stal: a little different on Saturday and Sunday. Um, but the on peak doesn't really change that much.
+米哈伊尔·斯塔尔：周六和周日有点不同。嗯，但峰值其实变化不大。
+Amber Fu: Uh-huh. Okay.  安柏·傅：嗯哼。好的。
+Mikhail Stal: um unless there's like a blackout for example um or the they're telling us to save electricity in the summer.
+米哈伊尔·斯塔尔：嗯，除非发生停电，比如说夏天要节约用电。
+Amber Fu: Uh-huh.  安柏·傅：嗯哼。
+Mikhail Stal: It happens sometimes. So, from a forecasting perspective, I think the most useful would be um the weather, like, hey, it's going to rain. You can't charge your battery. Um, you know, you should you should uh set your backup reserve higher.
+米哈伊尔·斯塔尔：有时候会发生。所以，从预报的角度来看，我觉得最有用的是天气，比如，嘿，要下雨了。你不能给电池充电。嗯，你知道，你应该把备用储备设得更高一些。
+Amber Fu: Okay.  Amber Fu：好的。
+Mikhail Stal: Um, or hey, tomorrow's going to be really sunny.
+米哈伊尔·斯塔尔：嗯，或者说，明天会非常晴朗。
+Amber Fu: Uhhuh.  Amber Fu：嗯哼。
+Mikhail Stal: Do you want to automatically start charging your car um when there's extra solar power?
+米哈伊尔·斯塔尔：当有额外的太阳能时，你想自动开始给车充电吗？
+ 
+ 
+00:26:12
+ 
+Mikhail Stal: uh things like that I think would um that I think that's the kind of forecasting that that I would want.
+米哈伊尔·斯塔尔：呃，类似的事情，我觉得，嗯，我认为这正是我想要的预测方式。
+Amber Fu: Okay. Okay. Cool. So, um so we can jump to the next page, the event.
+Amber Fu：好的。好的。酷。那么，嗯，我们可以跳到下一页，事件。
+Mikhail Stal: Mhm.  米哈伊尔·斯塔尔：嗯。
+Amber Fu: Okay. So, um yeah. Uh no actually the uh the event like the you you can just uh type to the power outage the one.
+Amber Fu：好的。所以，嗯，是的。呃，不，实际上，呃，那个事件，比如你，你可以，呃，输入停电的那个。
+Mikhail Stal: Okay.  米哈伊尔·斯塔尔：好的。
+Amber Fu: Yeah. And there have a event on the bottom.
+Amber Fu：是的。底部有个事件。
+Mikhail Stal: Okay.  米哈伊尔·斯塔尔：好的。
+Amber Fu: Ah yeah.  Amber Fu：啊，是的。
+Mikhail Stal: Yeah.  米哈伊尔·斯塔尔：是的。
+Amber Fu: So when you see the list like this like which one matters most to you?
+Amber Fu：那么当你看到这样的名单时，哪一个对你来说最重要？
+Mikhail Stal: Like which of the which of the items matters the most?
+米哈伊尔·斯塔尔：比如说，哪一项最重要？
+Amber Fu: Yeah.  Amber Fu：是的。
+Mikhail Stal: Um, well, I think power outage is probably the most important because if there's a power outage and I have no battery power,
+米哈伊尔·斯塔尔：嗯，我觉得停电可能是最重要的，因为如果停电了，我没有电池电，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Mikhail Stal: then I have no electricity. Um, severe weather, yeah,
+米哈伊尔·斯塔尔：那我就没电了。嗯，恶劣天气，是的，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Mikhail Stal: if there's a risk of um, the weather making a blackout, then yeah, I think that's important.
+米哈伊尔·斯塔尔：如果天气有导致停电的风险，那是的，我认为这很重要。
+ 
+ 
+00:27:30
+ 
+Mikhail Stal: Also, um, solar device breakdown I think is also important, but this looks like my solar broke somehow. Um, so yeah, that would be good to know. I' I've never seen something like this personally, but if if you're able to detect that or like if you're able to detect like your solar system appears to be offline, um, I think that would not too. Yeah. Um, so I think those three are are the most important. And then, yeah, power wall charging during high time and EV charging. Yeah, those are um those are nice to know, but I wouldn't say they're they're critical.
+米哈伊尔·斯塔尔：还有，嗯，太阳能设备故障我觉得也很重要，但看起来我的太阳能设备坏了。嗯，是的，知道这些会很有帮助。我个人没见过这种情况，但如果你能检测到，或者能检测到你的太阳系似乎离线，嗯，我觉得那也不会。是的。嗯，我觉得这三个是最重要的。然后，是的，高强度时用电源墙充电和电动车充电。是的，这些，嗯，知道了挺好的，但我不会说它们是关键的。
+Amber Fu: Mhm.  Amber Fu：嗯。
+Mikhail Stal: And I see you have some labels like critical, critical, unusual, solar device breakdown. I would put this as critical. It says unusual right now. Um because if my solar panels don't work, then I need to know how to I need to know what's going on. Um but yeah,
+米哈伊尔·斯塔尔：我看到你有一些标签，比如“危急”、“危急”、“异常”、“太阳能设备故障”。我认为这是关键。现在显示异常。嗯，因为如果我的太阳能板坏了，那我就得知道怎么做，我得知道发生了什么。嗯，但确实如此，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Mikhail Stal: I think I think this makes sense as like a you know, it's like a history of all the events or what's going on.
+米哈伊尔·斯塔尔：我觉得这很有道理，就像是一本关于所有事件或正在发生事情的历史。
+ 
+ 
+00:28:39
+ 
+Amber Fu: Okay. And uh you can type in any of those event and uh like when you read like what happened why matter how impact does this explain why the system did what it
+Amber Fu：好的。你可以输入任何这些事件，然后当你阅读“发生了什么，为什么重要，影响如何”这能解释系统为何那样做吗“时
+Mikhail Stal: Um,  米哈伊尔·斯塔尔：嗯，
+Amber Fu: did?  Amber Fu：真的吗？
+Mikhail Stal: so it says no solar energy was generated. System malfunction. Please check and please check solar panels and equipment. Um, yeah, I think this makes sense. I would don't know if I would be able to fix it myself. you know, I probably have to call somebody to do this, but yeah, this makes sense as far as letting me know what's happening and and why it may be happening.
+米哈伊尔·斯塔尔：所以说没有产生太阳能。系统故障。请务必检查太阳能电池板和设备。嗯，是的，我觉得这说得通。我不知道自己能不能修好。你知道，我可能得叫人来做这件事，但这确实很合理，能让我知道发生了什么，以及为什么会这样。
+Amber Fu: And if this page also like told you something like oh your battery reserve was
+Amber Fu：如果这页也告诉你，比如你的电池储备是
+Mikhail Stal: Um,  米哈伊尔·斯塔尔：嗯，
+Amber Fu: like uh at like 10% so eBay charging or drawing it would that make easier to trust an automated fix.
+Amber Fu：比如说，呃，大约 10%的费用，所以 eBay 收费或提取会更容易信任自动修复。
+Mikhail Stal: this this page right here
+米哈伊尔·斯塔尔：这里是这个页面
+Amber Fu: Yeah. If like uh we can add in something like
+Amber Fu：是的。如果我们能加点类似的东西
+Mikhail Stal: Um, if you know how to fix it,
+米哈伊尔·斯塔尔：嗯，如果你知道怎么解决的话，
+Amber Fu: that.  Amber Fu：就是那个。
+ 
+ 
+00:29:48
+ 
+Mikhail Stal: then sure. Um, but I think this is probably enough information for me.
+米哈伊尔·斯塔尔：那当然可以。嗯，不过我觉得这些信息对我来说已经足够了。
+Amber Fu: Okay.  Amber Fu：好的。
+Mikhail Stal: Um, because I assume I may have to call the person that installed it to come and fix
+米哈伊尔·斯塔尔：嗯，因为我猜我可能得叫安装它的人来修理
+Amber Fu: Uh  安柏·傅：呃
+Mikhail Stal: it. Um, if there's a different situation like this one, um, like your EV is charging uh, when prices were higher than normal. If this one it had a button that said, you know, change schedule or adjust schedule, like it gave me a call to action to to change it. I think on on this one, it would be okay. Um, but on the solar one, I'm not sure how how you would know how to fix it.
+米哈伊尔·斯塔尔：就是它。嗯，如果有类似情况，比如你的电动车充电，呃，当时价格比平时高。如果是这个，它有个按钮，比如说，更改日程或调整日程，就像给了我一个行动号召去更改它。我觉得这次应该没问题。嗯，但关于太阳能的，我不太确定怎么知道怎么修理。
+Amber Fu: Mhm.  Amber Fu：嗯。
+Mikhail Stal: Um, this one too, the power wall charging during high time. I think this one can have an action that says, you know, stop charging or only charge during um cheap
+米哈伊尔·斯塔尔：嗯，这个也是，高时段充电的电源墙。我觉得这个可以有个动作，比如说，停止充电或者只在“嗯，便宜”时充电
+Amber Fu: Mhm.  Amber Fu：嗯。
+Mikhail Stal: time.  米哈伊尔·斯塔尔：时间。
+Amber Fu: Mhm.  Amber Fu：嗯。
+Mikhail Stal: Like the weather one, I wouldn't expect any kind of fix. And the power outage one, if it tells me to set my battery reserve higher, I think that would be good, too.
+米哈伊尔·斯塔尔：就像天气那边一样，我不会指望有任何修正。停电时的那个，如果它让我把电池储备设置得更高，我觉得那也挺好的。
+ 
+ 
+00:30:55
+ 
+Amber Fu: Got you. And um so for those events page for this screen like uh what's what do you think like what do you
+安柏·傅：明白了。嗯，关于这个屏幕的事件页面，呃，你怎么看，你怎么看
+Mikhail Stal: Um,  米哈伊尔·斯塔尔：嗯，
+Amber Fu: feel?  Amber Fu：感觉？
+Mikhail Stal: I think it's I think it's fine. It's it's a good history of everything that happened. Um, and I can tap into each one and get more info and then yeah,
+米哈伊尔·斯塔尔：我觉得没问题。它是一本关于所有发生过事情的良好历史。嗯，我可以逐一访问，获取更多信息，然后是的，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Mikhail Stal: I can I can close it and stuff. So, I think yeah, I think this this page uh looks good.
+米哈伊尔·斯塔尔：我可以，我可以关门什么的。所以，我觉得是的，我觉得这页，呃，看起来不错。
+Amber Fu: Okay. Okay. And what what's still missing you think like anything you want to know or anything you want want to have but we
+Amber Fu：好的。好的。还有什么是还缺失的，你想着，任何你想知道或想要拥有的东西，但我们
+Mikhail Stal: Um  米哈伊尔·斯塔尔：嗯
+Amber Fu: don't  Amber Fu：别这样
+Mikhail Stal: the it this doesn't really apply to me just because I don't have um a super long commute to work. But if uh like if I had a long commute to work, like let's say I had to go 100 miles or even if I'm maybe taking a road trip, right, and I had to go 100 miles. Um if it can tell me like, hey, your car won't reach your desired range, right?
+米哈伊尔·斯塔尔：这其实不太适用于我，因为我上班通勤时间不算特别长。但如果，比如说我通勤很长，比如说我必须走100英里，或者我可能要去公路旅行，我必须走100英里。嗯，如果它能告诉我，嘿，你的车达不到你想要的续航里程，对吧？
+ 
+ 
+00:32:15
+ 
+Mikhail Stal: like if your car won't reach the desired state of charge uh
+米哈伊尔·斯塔尔：比如你的车电量达不到预期状态
+Amber Fu: Mhm.  Amber Fu：嗯。
+Mikhail Stal: overnight on off peak, we recommend you start charging earlier or something like that. Um, do you want to do that? So, that's really the only other thing I can think of. I think everything else looks okay.
+Mikhail Stal：非高峰时段的夜间，我们建议你提前充电之类的。嗯，你想这么做吗？所以，这真的是我能想到的唯一其他原因。我觉得其他方面都还不错。
+Amber Fu: Okay. Okay. Cool. So, uh let's go to the savings.
+Amber Fu：好的。好的。酷。那么，呃，我们去省钱吧。
+Mikhail Stal: Okay.  米哈伊尔·斯塔尔：好的。
+Amber Fu: And when you see a number like you know the top uh what do you think this uh represent?
+Amber Fu：当你看到一个数字，比如你知道最上面的时候，你觉得这个代表什么？
+Mikhail Stal: Um, this is the projected amount of money it thinks I've saved um over the past month by following its actions or
+米哈伊尔·斯塔尔：嗯，这是它认为我在过去一个月里通过跟踪它的行动节省了多少的预计金额，或者
+Amber Fu: Okay.  Amber Fu：好的。
+Mikhail Stal: recommendations.
+米哈伊尔·斯塔尔：推荐。
+Amber Fu: And if this page showed a weekly breakdown, like you know, uh your um pig charging for a time this week, like save like $20, would that be the kind of proof you need to paying for the
+Amber Fu：如果这个页面显示每周的详细分析，比如你知道的，呃，你的猪在这周某个时间段收费，比如省了大约 20 美元，这会是你需要的证据来支付
+Mikhail Stal: Yeah,  米哈伊尔·斯塔尔：是的，
+Amber Fu: app?  Amber Fu：应用？
+Mikhail Stal: that's that's the kind of thing that I would expect to see. Um, my charging app has that now.
+米哈伊尔·斯塔尔：这正是我预期会看到的那种情况。嗯，我的充电应用现在有这个功能。
+ 
+ 
+00:33:23
+ 
+Mikhail Stal: It says like how much I've saved. Um, so I don't know if you can do even like daily or weekly or monthly view or or yearly.
+米哈伊尔·斯塔尔：上面写着我存了多少钱。嗯，我不知道你是否能实现每日、每周、每月或每年的观看。
+Amber Fu: Mhm.  Amber Fu：嗯。
+Mikhail Stal: So just like different time frames. Um, so it's not only monthly like here.
+米哈伊尔·斯塔尔：所以就是不同的时间框架。嗯，所以不像这里那样只是每月一次。
+Amber Fu: Mhm.  Amber Fu：嗯。
+Mikhail Stal: But yeah, this is this is kind of what I would expect to see.
+米哈伊尔·斯塔尔：但没错，这正是我预期看到的。
+Amber Fu: Got you. And uh if you you do if you don't mind, you can click on the EV charging. Yeah. And for the bottom sheet and like when you you can click on the data and source confident.
+安柏·傅：明白了。如果你不介意，可以点击电动车充电。是的。对于底部的表格，你可以点击数据和来源，有信心。
+Mikhail Stal: Mhm.  米哈伊尔·斯塔尔：嗯。
+Amber Fu: Yeah. If that's something you actually care about or it just nice to have
+Amber Fu：是的。如果你真的在乎，或者只是觉得有点好
+Mikhail Stal: Um, I don't think that I would look at it a lot, but it's nice to have because I makes me trust the app more because if I can click it,
+米哈伊尔·斯塔尔：嗯，我觉得我不会经常看它，但有它挺好的，因为我更信任这个应用，如果我能点击它，
+Amber Fu: um Okay.  Amber Fu：嗯，好的。
+Mikhail Stal: if it has the source, like if it knew it was pulling,
+米哈伊尔·斯塔尔：如果它有源头，比如它知道自己在拉动，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Mikhail Stal: if it had a link to my electric company even, um, then I, you know,
+米哈伊尔·斯塔尔：如果它和我的电力公司有联系，嗯，那我，你知道，
+ 
+ 
+00:34:22
+ 
+Amber Fu: Yeah.  Amber Fu：是的。
+Mikhail Stal: I would, I would trust it.
+米哈伊尔·斯塔尔：我会相信。
+Amber Fu: Okay. And would matter to you if the app show exactly the when is charge reserve level and why like a simple
+Amber Fu：好的。而且应用是否准确显示了充电储备水平和原因，比如简单的
+Mikhail Stal: a log.  米哈伊尔·斯塔尔：一根木头。
+Amber Fu: log.  Amber Fu：日志。
+Mikhail Stal: Um, if there was a log, it would be helpful. I would say that's a nice to have. Yeah, but it I wouldn't say it's like critical,
+米哈伊尔·斯塔尔：嗯，如果有日志会很有帮助。我觉得这倒是个不错的选择。是的，但我不会说它非常关键，
+Amber Fu: Okay.  Amber Fu：好的。
+Mikhail Stal: but it's nice to have because then I can see what changes the battery or you know what's happening just to make sure everything is working correctly. Um, so yeah, having a log would be would be something nice,
+Mikhail Stal：但有它挺好的，因为我能看到电池的变化，或者知道发生了什么，确保一切正常。嗯，所以，是的，有个日志会是件不错的事，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Mikhail Stal: but I don't know if you need to have it like in the first version
+米哈伊尔·斯塔尔：但我不知道是否需要像第一版那样的设定
+Amber Fu: Mhm. Got you.  安柏·傅：嗯，明白了。
+Mikhail Stal: necessarily.
+米哈伊尔·斯塔尔：必须如此。
+Amber Fu: Got you. And uh and we can go next part with uh profile. Yeah. Uh we can click on the data and connection. So those are some info we need from you just you know uh connect with your account like which one you're you're you will be worried about.
+安柏·傅：明白了。呃，我们可以继续说，呃，画像。是的。呃，我们可以点击数据和连接。这些是我们需要你提供的信息，嗯，联系你的账号，比如你会担心哪个账号。
+ 
+ 
+00:35:37
+ 
+Mikhail Stal: Um, you know, I wouldn't really be worried about any of them as long as it's secure. Um, I think these are all of the ones that I would expect. My car, my my solar, my Tesla Power Wall.
+米哈伊尔·斯塔尔：嗯，你知道，只要安全，我其实不会太担心他们。嗯，我想这些都是我预期的。我的车，我的太阳能，我的特斯拉 Power Wall。
+Amber Fu: Uhhuh.  Amber Fu：嗯哼。
+Mikhail Stal: Um, my utility company. I haven't I haven't seen that from other apps, but if you're using that data to project my savings better,
+米哈伊尔·斯塔尔：嗯，我的公用事业公司。我没见过其他应用有这个功能，但如果你用这些数据来更好地预测我的节省，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Mikhail Stal: then um then that makes sense. So, you know, maybe it's good to have like uh why why we need this information, like a little a little piece of text just describing why. Um, but I think yeah, I think it's I think it's okay.
+米哈伊尔·斯塔尔：那么，嗯，那就说得通了。所以，也许最好有个小文字说明为什么我们需要这些信息，比如简单描述原因。嗯，但我觉得是的，我觉得没问题。
+Amber Fu: Okay. And uh we can go back.
+Amber Fu：好的。呃，我们可以回去。
+Mikhail Stal: Yep.  米哈伊尔·斯塔尔：是的。
+Amber Fu: Uh you can see like there have add family members.
+Amber Fu：呃，你可以看到他们有家人。
+Mikhail Stal: Mhm.  米哈伊尔·斯塔尔：嗯。
+Amber Fu: Uh do you think there will be this will be
+Amber Fu：呃，你觉得会有这个吗？
+Mikhail Stal: Um, yes,  米哈伊尔·斯塔尔：嗯，是的，
+Amber Fu: helpful?  Amber Fu：有用吗？
+Mikhail Stal: especially if uh I could start charging the car from this app or I can make manual adjustments or like look at status.
+Mikhail Stal：尤其是如果我能用这个应用开始给车充电，或者手动调整，或者查看状态。
+ 
+ 
+00:36:58
+ 
+Mikhail Stal: I think yeah, sharing it with with family members would be be good because I I share with
+米哈伊尔·斯塔尔：我觉得是的，和家人分享会很好，因为我会分享
+Amber Fu: Okay.  Amber Fu：好的。
+Mikhail Stal: I share with my wife now. So um yeah, I'm I'm already using the sharing feature in in the existing
+米哈伊尔·斯塔尔：我现在和妻子分享。所以，嗯，是的，我已经在现有的里面使用了分享功能
+Amber Fu: Uh,  安柏·傅：呃，
+Mikhail Stal: apps.  米哈伊尔·斯塔尔：应用程序。
+Amber Fu: got you. Okay. So, uh, well, we can go back to the home screen. So for right now and um you can give me like what you think
+Amber Fu：明白了。好的。那么，呃，我们可以回到主屏幕了。所以现在，嗯，你可以告诉我你的想法
+Mikhail Stal: Okay.  米哈伊尔·斯塔尔：好的。
+Amber Fu: about the whole app like what is good part and what's your think just okay or not
+Amber Fu：关于整个应用，比如哪些部分是好的，你觉得哪里只是一般或不好
+Mikhail Stal: Yeah, I think the best the best thing is the predictive
+米哈伊尔·斯塔尔：是的，我认为最好的办法是预测
+Amber Fu: clear.  安柏·傅：清除。
+Mikhail Stal: notifications. Um, like I mentioned, if it can predict the weather, tell me to set my backup reserve higher. Um, if it can predict that there's a lot of solar, tell me I should charge my car. So, if you're able to do that and you know whether you use AI to do that, um, I think that that that's something that is uh,
+米哈伊尔·斯塔尔：通知。嗯，就像我说的，如果它能预测天气，告诉我把备用储备调高一点。嗯，如果它能预测太阳能量很大，告诉我应该给车充电。所以，如果你能做到这一点，并且你知道是否使用人工智能来实现这一点，嗯，我认为这是一件，呃，
+Amber Fu: Hello.  Amber Fu：你好。
+ 
+ 
+00:38:09
+ 
+Mikhail Stal: very good and I have not seen that from another application before. So,
+米哈伊尔·斯塔尔：非常好，我之前从未在其他应用中见过类似情况。所以，
+Amber Fu: Yeah.  Amber Fu：是的。
+Mikhail Stal: I feel like there's definitely opportunity there to do it. Um, uh, the only that other app I mentioned that I was trying, I think they they do have some AI automations.
+米哈伊尔·斯塔尔：我觉得这里绝对有机会。嗯，呃，我提到的唯一另一个应用，我试过，我觉得他们确实有一些 AI 自动化。
+Amber Fu: Go  安柏·傅：走
+Mikhail Stal: Um, and I think that their AI automations,
+米哈伊尔·斯塔尔：嗯，我认为他们的人工智能自动化，
+Amber Fu: ahead.  安柏·傅：前方。
+Mikhail Stal: they I think right now they only work that if you're allowed to charge your battery off the grid. So, I I can't do that, so it doesn't apply to me. But, um, it tells you like, hey, you're it's going to be rain. It it pulls the weather. it knows, hey, it's going to be cloudy or rainy. You should charge your battery off the grid now because you won't be able to charge off solar. So, um, again, if you have things like that, I think that that's going to be very, uh, a very powerful feature. Um,
+米哈伊尔·斯塔尔：我觉得现在只有在允许你离网充电的情况下才会生效。所以，我做不到，所以这不适用于我。但是，嗯，它会告诉你，嘿，你会下雨。如果它会拉动天气。它知道，嘿，会多云或下雨。你现在应该把电池从离网充电，因为你无法从太阳能中充电。所以，嗯，如果你有这样的功能，我认为这将是一个非常强大的功能。嗯，
+Amber Fu: Got you.  安柏·傅：明白了。
+Mikhail Stal: that's probably the best thing.
+米哈伊尔·斯塔尔：这大概是最好的解释。
+Amber Fu: Got you.  安柏·傅：明白了。
+ 
+ 
+00:38:59
+ 
+Mikhail Stal: Um, but other than I don't I'd say I don't really dislike anything.
+米哈伊尔·斯塔尔：嗯，除了我不喜欢之外，我觉得我其实没什么讨厌的。
+Amber Fu: Got you.  安柏·傅：明白了。
+Mikhail Stal: It has all the like the basic um, functions and features that I would kind of expect. I think um you know if I'm able to see the status of my solar, see the status of my power wall capacity, um if I'm able to start and stop EV charging directly from this app,
+Mikhail Stal：它具备我预期的基本功能和功能。我想，嗯，你知道我能不能直接从这个应用看到我的太阳能状态，看到电源墙容量的状态，嗯，我能不能直接从这个应用开始和停止电动汽车充电，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Mikhail Stal: um then I think that that that would be
+米哈伊尔·斯塔尔：嗯，那我想那应该是
+Amber Fu: Mhm. Gotcha.  Amber Fu：嗯，明白了。
+Mikhail Stal: great.  米哈伊尔·斯塔尔：太好了。
+Amber Fu: Got you. And well if like reserve shifting just work uh automatically and you never have to think about it again would that alone be worth to
+安柏·傅：明白了。如果像预备换挡那样自动生效，你再也不用去想它，那光是这个功能就值得吗？
+Mikhail Stal: Yeah,  米哈伊尔·斯塔尔：是的，
+Amber Fu: paying for?  Amber Fu：付费？
+Mikhail Stal: that would be worth it, I think.
+米哈伊尔·斯塔尔：我觉得那是值得的。
+Amber Fu: Okay. Okay.  Amber Fu：好的。好的。
+Mikhail Stal: Yeah.  米哈伊尔·斯塔尔：是的。
+Amber Fu: And also like what level of saving proof would make this feel worth to paying for like weekly dollar amount monthly or just avoiding unpick entirely?
+Amber Fu：还有，存钱的程度上，什么样的储蓄才值得你愿意每月支付一笔钱，或者干脆完全不去 Unpick？
+Mikhail Stal: Um I think that if you can prove that the savings you're going to generate generate from the app is higher than whatever you're charging um then that
+米哈伊尔·斯塔尔：嗯，我认为如果你能证明应用带来的节省高于你收取的费用，那么
+ 
+ 
+00:40:10
+ 
+Amber Fu: Oh.  Amber Fu：哦。
+Mikhail Stal: is that is the level of proof that I need right so if you if if you can predict or project that and I I haven't seen this from any other application um that zero doesn't do this, you know,
+米哈伊尔·斯塔尔：这就是我需要的证明水平，所以如果你能预测或推测到这一点，我从其他应用中没见过，嗯，零不会这样做，你知道，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Mikhail Stal: it may be too difficult. I don't I don't I don't really believe it. Maybe they just haven't invested it into it, you know. So, NetZero charges $8 a month,
+米哈伊尔·斯塔尔：这可能太难了。我不，我不，我真的不相信。也许他们只是没投入到这个项目里，你懂的。所以，NetZero 每月收费 8 美元，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Mikhail Stal: but they have no proof that I'm actually going to save that money, right? And so, why should I pay them almost $100 a year for something that I don't know? So, if you're able to show me that, hey, you're you saved $10 on electricity, you know, the app The app costs $5 a month. Um, so you're you're saving $5 every month.
+米哈伊尔·斯塔尔：但他们没有证据证明我真的会省那笔钱，对吧？那么，我为什么要为我不了解的事情支付他们将近100美元？所以，如果你能给我看，嘿，你省了10美元的电费，你知道的，这个应用每月收费5美元。嗯，所以你每个月能省5美元。
+Amber Fu: Mhm.  Amber Fu：嗯。
+Mikhail Stal: It's it's small, but honestly, if I don't have to do anything, then it's it's still worth it,
+米哈伊尔·斯塔尔：虽然规模不大，但说实话，如果我什么都不用做，那它依然值得，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Mikhail Stal: you know?  米哈伊尔·斯塔尔：你知道吗？
+Amber Fu: Got you. Got you. And um well be honestly like if you already have an ad zero uh what would this app need to do for you switch is something like you said for kind of those
+安柏·傅：明白了。明白了。嗯，说实话，如果你已经有 ad zero，这个应用需要为你做什么，切换时应该做些什么，就像你说的那样
+ 
+ 
+00:41:28
+ 
+Mikhail Stal: Well,  米哈伊尔·斯塔尔：嗯，
+Amber Fu: thing like oh not you okay
+Amber Fu：类似“哦，你没事吧”的感觉
+Mikhail Stal: I'm not using I'm not using net zero because it's too I'm using the other
+米哈伊尔·斯塔尔：我没有使用净零，因为我用的是另一个
+Amber Fu: yeah  Amber Fu：是的
+Mikhail Stal: the other one, but that one is really ba that one's like really really basic.
+米哈伊尔·斯塔尔：另一个，但那个真的很基础。
+Amber Fu: um  琥珀·傅作为
+Mikhail Stal: It's just um it it's not as it does it's not even a mobile app. It's just a website. Um yeah, so it it works.
+米哈伊尔·斯塔尔：只是，嗯，它不像现在那样，甚至都不是移动应用。这只是个网站。嗯，是的，所以它能用。
+Amber Fu: Okay.  Amber Fu：好的。
+Mikhail Stal: It's super basic. it's $2 a month. Um, so for that price,
+米哈伊尔·斯塔尔：非常基础。每月2美元。嗯，所以以这个价格，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Mikhail Stal: I know that I'm going to save that much because, you know, even if I shift my reserve a couple hours every day for a month,
+米哈伊尔·斯塔尔：我知道我会存这么多钱，因为即使我每天调整储备几个小时，持续一个月，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Mikhail Stal: I think it'll cover it pretty easily. So,
+米哈伊尔·斯塔尔：我觉得这本书能很好地涵盖。所以，
+Amber Fu: Mhm.  Amber Fu：嗯。
+Mikhail Stal: um, but but that app is pretty basic, right? So if you have more features, you can have the logs, you can have the savings, you can have the sharing, um you can have like the weather predictions and the notifications and things like that then and everything is connected, right?
+米哈伊尔·斯塔尔：嗯，但那个应用其实挺基础的，对吧？所以如果你有更多功能，比如日志、节省、共享，嗯，你可以有天气预报、通知之类的东西，那么一切都是连接的，对吧？
+ 
+ 
+00:42:25
+ 
+Mikhail Stal: Like my Tesla, my charger, my solar and so on. I think like that that makes it a a better reason to switch to something like this.
+米哈伊尔·斯塔尔：比如我的特斯拉、充电器、太阳能等等。我觉得这样反而更适合转用这种方式。
+Amber Fu: Got you. And uh like we I I I was wondering like which would make you trust a saving number more cuz like I uh like maybe like a weekly break breakdown with a specific action or like a simple monthly total compared to like no automation
+安柏·傅：明白了。呃，我也在想，哪种方式会让你更信任储蓄数字，因为我会喜欢每周细分，具体作，或者简单的月度总额，而不是没有自动化
+Mikhail Stal: Um,  米哈伊尔·斯塔尔：嗯，
+Amber Fu: baseline.  Amber Fu：基础。
+Mikhail Stal: yeah, I think compared to a no automation baseline, um, whe whether that's weekly,
+米哈伊尔·斯塔尔：是的，我认为与无自动化基线相比，嗯，不管是不是每周一次，
+Amber Fu: Okay.  Amber Fu：好的。
+Mikhail Stal: I mean, I imagine the way that this is going to work is there's going to be a 30-day free trial, right? So during during the trial, I'm going to want to see, hey, how much did I save this week, right? And so if you're able to show me, hey, you saved, you know, $10 due to the automations this week, um, and you do that weekly in the beginning,
+米哈伊尔·斯塔尔：我的意思是，我想这会是有30天免费试用，对吧？所以在试用期间，我会想看看，嘿，这周我存了多少钱，对吧？所以如果你能向我展示，嘿，你这周因为自动化省了10美元，嗯，而且你一开始每周都这样做，
+Amber Fu: Hello.  Amber Fu：你好。
+Mikhail Stal: then that is a good message because it makes me want to renew the subscription for the next month or the next year, right?
+米哈伊尔·斯塔尔：那这是个好信息，因为它让我想续订下个月或明年的订阅，对吧？
+ 
+ 
+00:43:31
+ 
+Mikhail Stal: Um, in in the future, maybe I want to see monthly savings. Um, but kind of in the beginning, I think when you're trying to get the user like hooked on it or actually believing, then I think that kind of information is really
+米哈伊尔·斯塔尔：嗯，未来我可能希望看到每月的节省。嗯，但一开始，我觉得当你试图让用户上瘾或者真正相信它时，我觉得这类信息真的是
+Amber Fu: Got you.  安柏·傅：明白了。
+Mikhail Stal: valuable.  米哈伊尔·斯塔尔：有价值。
+Amber Fu: And uh so um but for like the saving part I was thinking like uh which which will feel more motivated to you like uh maybe either uh something like oh you saved let's say $20 this week or you vote buying a $20 of expensive um pig power like which which one you think is more motivating to you.
+Amber Fu：嗯，关于节省这部分，我在想，呃，哪一个会让你更有动力，比如说，呃，你这周省了 20 美元，或者你投票买一个昂贵的 20 美元，嗯，猪力，你觉得哪个更有动力。
+Mikhail Stal: Um I think just the savings would be fine.
+米哈伊尔·斯塔尔：嗯，我觉得只节省一下就够了。
+Amber Fu: Okay.  Amber Fu：好的。
+Mikhail Stal: Um yeah, just I think for me just the savings probably some apps will also have like you save
+Mikhail Stal：嗯，是的，我觉得对我来说，可能有些应用也会有这样的节省功能
+Amber Fu: Mhm.  Amber Fu：嗯。
+Mikhail Stal: this many trees by using solar power or like you offset this much carbon. Um I think you know that's kind of like a feel-good nice to have if you if
+米哈伊尔·斯塔尔：用太阳能或者你用的那样的方式，能抵消这么多的碳排放。嗯，我想你知道，那有点像让人感觉良好的东西，如果你......
+Amber Fu: Mhm.  Amber Fu：嗯。
+Mikhail Stal: you some people care about that a lot more.
+米哈伊尔·斯塔尔：有些人更在意这个。
+ 
+ 
+00:44:43
+ 
+Mikhail Stal: Yeah. Um so I think just the number would be okay for me.
+米哈伊尔·斯塔尔：是的。嗯，我觉得只要这个数字对我来说就够了。
+Amber Fu: Got you. Got you. And like would you rather see see me only after the act actually happened or are you okay with forward looking uh uh
+安柏·傅：明白了。明白了。比如说，你更愿意看到我只在行为发生后才见到我，还是你愿意接受前瞻性的，呃
+Mikhail Stal: Um, no.  米哈伊尔·斯塔尔：嗯，没有。
+Amber Fu: as  安柏·傅：作为
+Mikhail Stal: If it's real time, if it's real time and I know that a certain action is projected to save me a certain amount, I think that that would be fine to know. Then I know what I'm doing actually has impact.
+米哈伊尔·斯塔尔：如果是实时的，如果是实时的，而且我知道某个行动预计能帮我节省一定金额，我觉得知道这些是可以接受的。那我就知道我所做的事情真的有影响力。
+Amber Fu: Okay, got you. Well, um appreciate Thank you. Thank you today to take uh take the time for this and I think this is really helpful and well let me check if I'm summaring this correctly. Uh so if this app can uh automatically handle the reserve shifting so you never think about it. And then uh and the second is like avo mistake and the last one is a show clearly verified saving that exists uh exceed the sub uh subscription.
+Amber Fu：好的，明白了。嗯，谢谢你。感谢你今天抽出时间写这些，我觉得这真的很有帮助，让我确认一下我总结得是否正确。呃，如果这个应用能自动处理备用换挡，你就不用担心了。然后，呃，第二个是像 Avo 错误，最后一个是明显验证过的存档，存在，呃，超出订阅。
+Mikhail Stal: Yeah,  米哈伊尔·斯塔尔：是的，
+Amber Fu: So then this becomes something you actually use and pay for not just another dashboard,
+Amber Fu：那么这就会变成你真正使用并付费购买的东西，而不仅仅是另一个仪表盘，
+Mikhail Stal: correct.  米哈伊尔·斯塔尔：好的。
+Amber Fu: right?  Amber Fu：对吧？
+Mikhail Stal: Yeah.  米哈伊尔·斯塔尔：是的。
+Amber Fu: Okay. Gotcha. Gotcha. Well, you know, we this is just our like first uh first uh version of the demo.
+Amber Fu：好的。明白了。明白了。嗯，你知道，这只是我们第一次，呃，第一次，呃，这个版本的演示。
+Mikhail Stal: Um, yep, that's totally fine. Yeah, just send me an email whenever you're ready. Yep, no problem.
+米哈伊尔·斯塔尔：嗯，是的，完全没问题。是的，准备好了随时给我发邮件。没问题。

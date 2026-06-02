@@ -1,0 +1,596 @@
+Casally User Interviews (Kael  Williams ) - Transcript
+00:00:00
+ 
+Amber Fu: Uh hello. Hi. How are you?
+Kael Williams: I'm fine. How are you?
+Amber Fu: Good. Good. Uh yeah.
+Kael Williams: Glad you're here.
+Amber Fu: Okay. Well, thanks again for making time for this. Uh I know busy.
+Kael Williams: Thank you.
+Amber Fu: So, um no pressure at all.
+Kael Williams: Yeah.
+Amber Fu: This is super casual. Uh let me introduce myself a little bit.
+Kael Williams: Okay.
+Amber Fu: Uh I'm I'm Amber and uh one of a founder and I started this because you know I couldn't figure out why my own electricity bill were so crazy and I realized a lot of my friend are dealing with the same thing. So uh you know we are just small team based in LA and just you know a bunch of tech folks al also get hit with a crazy electricity bill.
+Kael Williams: Mhm.
+Amber Fu: So we are try to building an app that help people save money on their daily uh daily energy use without changing their lifestyle.
+Kael Williams: Okay.
+ 
+ 
+00:01:03
+ 
+Amber Fu: Yeah. So you know I I love to understand how your home use electricity daytoday so we can figure out what would actually help.
+Kael Williams: Okay. My name is Kyle Williams. I'm loc located located in Justine, California.
+Amber Fu: Uh-huh. Mhm.
+Kael Williams: Um, I live in a single family home. My my home is I bought my home in 2015 and I've been living there since.
+Amber Fu: Mhm.
+Kael Williams: Um I normally use I I know I it's energy and I normally use two sets. I usually use solar and I usually still use the the electricity bill from the power lines.
+Amber Fu: Mhm. Mhm.
+Kael Williams: Um, my utility provider is Southern California Edison and I currently use a time of use prime um, rate plan for my payments
+Amber Fu: So, well, um, thank thanks for sharing that. And, uh, I just, uh, I want to know like how how many people live in your, uh, home right now?
+Kael Williams: right now. It's just five. um myself, my wife and three kids.
+ 
+ 
+00:02:14
+ 
+Amber Fu: Okay, got it. And uh do you do you guys mostly work from home or is everyone fly in and out all day?
+Kael Williams: Um we normally work from home. Uh my kids are young, so I I have a I have a 16year-old and a 5-year-old, but the the oldest is is right now outside.
+Amber Fu: Okay. Mhm.
+Kael Williams: He normally just comes in once in a while. That's why I've put in as five.
+Amber Fu: Okay, got it. And uh what kind of schedule do you normally have? Is a pretty constant or all all over the place week to week.
+Kael Williams: Um, it's not usually all over the place. It's a bit settled because I work online as well. So, my my schedules would find me most of the time in the house.
+Amber Fu: Okay. Got it. Okay. And Okay. And before we get the start, would you be okay if I uh record this call? It's just help me to make sure I don't miss anything uh you said.
+ 
+ 
+00:03:15
+ 
+Amber Fu: Well, totally option is Yeah, totally option.
+Kael Williams: Well, it's okay. Um, I might have had my own reservations, but it's well
+Amber Fu: Okay. Okay. Okay. Got it. Okay. Sure. Give me a second. Okay, perfect. So, uh um like well would you uh when you think your home is always busy like during the what time period and when you think it's a quiet?
+Kael Williams: Um, my home is most quiet from 400 p.m. to 9:00 p.m. Um, this is because I avoid I avoid expensing electricity around that time.
+Amber Fu: Okay. Mhm.
+Kael Williams: But I know it's active from around 8 to 3:30. So that now the 330 allows me to transition into into my saving time.
+Amber Fu: Mhm. Got it. Got it. And uh does like your electricity use change a lot on the weekend or it's a like same as a weekday?
+Kael Williams: Um, no. It usually it doesn't change much over the weekend unless I have maybe specific or special functions like um Thanksgiving or Halloween or something of the sort.
+ 
+ 
+00:04:38
+ 
+Kael Williams: I don't really have a a change.
+Amber Fu: U of Okay, got it.
+Kael Williams: Yeah.
+Amber Fu: Got it. And well, by the way, I noticed that you you have a solar, right? And uh EV charging and you don't have a power wall.
+Kael Williams: Yes. Yes. Um, no, not really.
+Amber Fu: Okay. Uh so since you know you live in LA and you know uh the California they have like the I don't know if you heard the AEM3 the policy.
+Kael Williams: Um, no, no, I've not heard of it. Unless maybe you educate me on the same
+Amber Fu: Okay. Uh so the only NEM3 policy it which means like you know you you have a solar right and if you are not like they they will have a extra extra stuff extra solar like the power and the backup to the gold and the NEM3 basically means that you when you back up the will be really really really cheap like let's say like right now it's like uh maybe like a point uh point uh 0.3 something you
+ 
+ 
+00:05:36
+ 
+Kael Williams: Mhm. Mhm. Mhm.
+Amber Fu: buy from grow and if you uh get back the power will be like 0.1 or maybe cheaper than that. So that's why after this policy a lot of people uh consider to got the power wall of the extra battery cuz they don't want to wasting their solar
+Kael Williams: Okay. Mhm. Of course. I think I think that's something new that that actually catches me by surprise because I don't find myself in such a system. I think what I can do after this call maybe you can give me some guidance on how to actually move into the NEM3 so that it becomes cheaper for me and fair for all of us as well.
+Amber Fu: Okay, got it. And uh so uh when you when you first install the solar, what did you make made you you know decide like oh I need to call the solar?
+Kael Williams: Mhm. Um I I noticed the electricity bills are way too high and my initial thought of putting in solar was that it would significantly reduce my charges since you see it's it's natural.
+ 
+ 
+00:07:04
+ 
+Kael Williams: I that's I installed it in my naive te um as soon as I got into the house.
+Amber Fu: Mhm.
+Kael Williams: I think one year on in 2016, that's when I actually thought of putting in solar cuz I I studied the trends and they were too high to actually install the the the electricity was was significantly high. And um I thought I thought it would be something that would actually drop my charges, but it's it's here. It's neither here nor there. Yeah.
+Amber Fu: Um, so and uh how and how many EV do you have right now?
+Kael Williams: I only have one EV.
+Amber Fu: Okay. Is a is a Tesla or it's a different brand?
+Kael Williams: Yeah. Tesla. Tesla Model 3. Yeah.
+Amber Fu: Okay. Okay. And the the solar is a Tesla too or it's a different brand.
+Kael Williams: No, it's it's a slightly different brand. Um not necessarily a tester. I I forget that. That name is not at the top of my head.
+ 
+ 
+00:08:04
+ 
+Kael Williams: Yeah.
+Amber Fu: Okay. And you got the solar first.
+Kael Williams: I normally just use Yes.
+Amber Fu: Okay. And you got the solar first and then the EV, right?
+Kael Williams: Yes. Yes. Yes.
+Amber Fu: Okay. Got it. Got it. And um do you mind I ask like before you got the solar how much you pay your electricity bill per month and after how much you pay 3,000
+Kael Williams: Um, I used to pay like 3,000 for electricity back then, but then Yeah.
+Amber Fu: uh $3,000 per month.
+Kael Williams: Uh, not around there. I don't know. It was It was significantly high.
+Amber Fu: Uh so is this 3,000?
+Kael Williams: Well, okay. You'd allow me to check my Okay, you you allow me to check my records. Yeah, cuz I do have some receipts.
+Amber Fu: Okay. Yes. Yes.
+Kael Williams: Yeah.
+Amber Fu: Okay.
+Kael Williams: You know, I might be just saying it as the year goes on. Yeah.
+Amber Fu: Okay.
+ 
+ 
+00:08:58
+ 
+Amber Fu: Because free is a it's a is a year, right?
+Kael Williams: Yeah. You It's significant. Yeah. Yeah. It's I think it should be a year cuz you know, I usually tabulate my finances per year, not necessarily per month.
+Amber Fu: Okay. Okay. Okay.
+Kael Williams: Yeah. Okay. Give me a second. I check my my um my accounting.
+Amber Fu: Okay. Sure. Sure.
+Kael Williams: Yeah.
+Amber Fu: Sure. Sure. Take your time. Yes. I want I want to know too.
+Kael Williams: Well, it's not 3,000.
+Amber Fu: Okay.
+Kael Williams: I said a figure at the top of my head. It's normally around $149 per month.
+Amber Fu: Okay. Okay. Got it.
+Kael Williams: Yeah. So, if you extrapolate that, it would be a bit higher.
+Amber Fu: Okay.
+Kael Williams: It would be less, of course.
+Amber Fu: And how much right now?
+Kael Williams: Uh, right now it's it's less cuz I usually save around 1,500 per per year.
+ 
+ 
+00:10:25
+ 
+Amber Fu: Uhhuh. Um okay okay okay that's makes sense. Yeah. And um so and for the for the EV charging like do you usually like when do you usually charge like at night or daytime with the solar?
+Kael Williams: Yeah. I I charge daytime with the solar.
+Amber Fu: Okay. Okay.
+Kael Williams: Mhm.
+Amber Fu: And um does the the does the timing ever feel annoying or like a mental load or you think it's easy just you know daytime with the solar the solar first.
+Kael Williams: No, of course. Uh, it's it's usually it's usually a bit strainous because I'd want maybe to do something between 10:00 a.m. and 2:00 p.m. And I find that is when I'm charging my car cuz I usually use my car much as I much as I stay in the house quite a bit.
+Amber Fu: Mhm.
+Kael Williams: Especially that time between 4:00 and 9, I usually run my errands and I find that I consume quite a chunk of power from the car.
+Amber Fu: Mhm. Mhm.
+Kael Williams: By the time I'm getting home, it's it's thinking about charging the the the the vehicle again and and that usually is a challenge.
+ 
+ 
+00:11:29
+ 
+Amber Fu: Mhm. Mhm.
+Kael Williams: I thought of selling my solar to the grid during the day and then buying it at night, but um it it seems to be a bit too expensive as well.
+Amber Fu: Mhm.
+Kael Williams: Maybe you can guide me on the same as well.
+Amber Fu: Okay. Okay. Yeah. Yeah. I will. I will. Uh and and so when you think about your home energy setup, like what's part you spend the most time on or like what's part need to make you more attention dayto day like you know when you think about
+Kael Williams: in terms of Mhm.
+Amber Fu: like your home uh home energy setup uh uh I'm sorry Uh uh yes.
+Kael Williams: the the places I use the power the most. Is it the places that I use the power the most?
+Amber Fu: Yes. Or like uh let me see uh let me think like okay so when you think about your daytoday and uh what part of your uh your energy setup require the most attention from you like oh I need to do those things like day to day every day.
+ 
+ 
+00:12:45
+ 
+Amber Fu: Like uh for example like uh I always need to be attention of my solar and then when the sunny day I need to uh I I I can't forgot charge charge my EV car something like that.
+Kael Williams: Um it usually is a balance between the two. might not say that it's neither here nor there because I find sometimes um there are days I'll be focusing on the the solar inverters connectivity from the Wi-Fi and you know once it disconnects I usually have to go
+Amber Fu: Mhm.
+Kael Williams: to that side and actually start working things out from there scanning codes and doing all that and sometimes it's usually a bit strainous on that side but then when it comes to the car sometimes I don't know how much um the whether my solar is producing excess electricity or excess energy So I have to actually check the solar app quite a number of times.
+Amber Fu: Got it. Got it. And well um since like now that you you know you live with those system for a while the solar and the EVA charging are they doing what do you expect like are they doing okay or do you think anything you're not super happy with.
+ 
+ 
+00:13:56
+ 
+Kael Williams: I'm not entirely happy. I I though I'm not entirely um distraught by the fact that this is actually a good system that I put up. The only thing is that I usually have challenges with the software side of things.
+Amber Fu: Mhm.
+Kael Williams: I I normally wish that we'd have an app that covers my entire home in terms of energy compared to having the app for the Tesla and having the app for the the home. Um because I usually use Solar Edge as my app for monitoring the solar.
+Amber Fu: Are you okay?
+Kael Williams: So it's it's it's a challenge that we can I think developers can actually work out so that we have a one dashboard for the entire home that covers also my car and maybe can be connected in that way. Yeah.
+Amber Fu: Okay. And uh how many do you mind I ask like how how many app you are using right now?
+Kael Williams: Well, I'm only using two. I'm using the Tesla app for the car and Solar Edge just as I've said for the panels.
+ 
+ 
+00:14:53
+ 
+Amber Fu: And we're happy with those two app.
+Kael Williams: Yeah, they're fairly working well. Only now that uh just as I've mentioned the if they were able to consolidate these two apps, I get an app maybe that powers my home entirely, my home and my car, I think it would be proper because now I'll be able to monitor everything a bit easier. And you see um for an app like Solar Edge, sometimes it becomes a bit technical for me to actually work around. So if we get a user experience or a UI that that is able to give me a bit better well it would be a proper solution for me.
+Amber Fu: Okay. Got it. Got it. And well, as you mentioned, like sometime you want to, you know, do things between like uh 10:00 a.m. to 2:00 p.m. But uh that exactly when your car need to be charged. What does that ever make you feel like the oh the solar schedule is controlling your day instead of the another way around
+Kael Williams: Yeah.
+ 
+ 
+00:15:52
+ 
+Kael Williams: Um, yes. It normally controls it. It normally controls my time, but not so much because sometimes I'd find myself going out with my cousin cuz my cousin usually goes around that time from 10:00 to 2:00 p.m. Um, but still it inconveniences me in terms of maybe I'd want to run my own specific errand without involving my cousin or my cousin is a bit busy. You see that means something for me. It it means that I either have to schedule myself between the 429 because at that time um I'm killing two birds with one stone. I not using much energy in my home and at the same time I'm actually running those errands. So it's it's a balance. Sometimes it's it's inconveniences. Sometimes it's good it's bearable.
+Amber Fu: Okay. And got it.
+Kael Williams: That is yes it would because now you see that allows me to schedule cuz the first thing I do in the morning I usually wake up at around 5:30.
+Amber Fu: And like if the system could tell you the best time to charge based on your plan, would that remove a lot of stress?
+ 
+ 
+00:16:55
+ 
+Kael Williams: So the first thing in the morning I usually just plan my day um based on the timings that I'm supposed to observe.
+Amber Fu: Mhm. Mhm.
+Kael Williams: Maybe I'm supposed to take my kid to school at 8. I go on to take my kid to school at 8. Then I come back at 10 maybe and and have the car charge and you know do do all these things cuz I have specific routines especially in church as well. Um it it would be proper if the the app is able to actually advise me on when best to to actually charge up when when best to actually consume so that I'm able to have um I'm able to
+Amber Fu: Mhm. Mhm. Mhm.
+Kael Williams: have some better structure in in my life. Yeah.
+Amber Fu: Got it. And uh how often do you check the solar app?
+Kael Williams: um like twice a day cuz you see now once I once I chat the solar app it's able to I usually check in on whether everything is okay and especially now the only challenge would maybe be um one
+ 
+ 
+00:17:46
+ 
+Amber Fu: Mhm. Okay. Mhm.
+Kael Williams: that one time in the month where it disconnects. So I have to actually go there work it out and troubleshoot it the number of times I need to troubleshoot it. So I might find myself spending almost an hour or two on the solar app. But when when it's normal, when everything is okay, I normally find myself checking it once or twice a day, just observing the times that I have set as my schedule there.
+Amber Fu: Got it. And so what does it feel like you know when you are not sure if the solar is uh enough for charging?
+Kael Williams: Pardon?
+Amber Fu: Uh so what does it feel like? What does it feel like like when you're like you know not sure if the solar is enough for charging? Well, is that always happened or it's just some type?
+Kael Williams: Um it it normally happens sometime. It's it's kind of frustrating because you see um something like my car I need to charge and I don't know at that point whether the solar is producing excess energy.
+ 
+ 
+00:18:43
+ 
+Amber Fu: Mhm.
+Kael Williams: So I have to open up the app and check and I'm like oh yeah I'm generating 5 kW right now. So I have to open up the Tesla. so that the Tesla app so that I actually bump up my my charging limit. Sometimes it's annoying, but it's something I've I've I've adjusted myself as part of the solar routine.
+Amber Fu: Mhm. Okay. So, you basically you just need to figure out by yourself.
+Kael Williams: Yes, absolutely.
+Amber Fu: Got it. And do you wish the system could just tell you like, "Oh, yes, now is a good time to charge or oh, not enough solar right now. really.
+Kael Williams: I I wish it would be the same. You know, you know how you used to play Candy Crush on your kids and I still do play Candy Crush. It's my guilty pleasure. Yeah. Um you know, you know how it would it would tell you after the lives are done and you have to actually now start recharging, you can chuck the app and and do your own things and then once he comes back, there's a notification that that tells you that you're ready to play, you know.
+ 
+ 
+00:19:52
+ 
+Kael Williams: So, I wish it would be like that for me in the solar so that I it just gives me a notification and tells me you're good to go.
+Amber Fu: Yeah.
+Kael Williams: You can charge up your stuff and now I have everyone charge up. And of course, now you see once I get a trend because I'd get a particular trend, I'd also be able to adjust it without the much need for the notification. The notification only comes to confirm that I am doing it.
+Amber Fu: Okay.
+Kael Williams: I don't know whether you're getting up.
+Amber Fu: Got it.
+Kael Williams: Okay.
+Amber Fu: Got it. That's good example.
+Kael Williams: Oh, yeah. Thank you.
+Amber Fu: Yeah. Well, and uh for the you you said like you have a two app, right? Like the the the the solar app and the e EV charging app and uh so uh what's the most frustrating part about like having one app for solar and another for EV?
+Kael Williams: Yeah. Yeah.
+Amber Fu: You think it's totally fine for you and you you just wish oh the just one dashboard is okay for me.
+ 
+ 
+00:20:50
+ 
+Kael Williams: I I wish one dashboard is okay for me. I mean, I've been able to adapt to the two app system, but sometimes it's very frustrating because um at times I'm not in the house, so that means I have to actually have my wife troubleshoot some of these
+Amber Fu: Hello.
+Kael Williams: things. And you know, it would be better if it's one dashboard and it's easier for for anyone and everyone who's in the home as long as they have the login to actually check in on the stuff that's there.
+Amber Fu: Mhm. Mhm. Okay. But if there have a one dashboard could show everything like a solar, EV usage, CV, uh what would you want to see first?
+Kael Williams: Mhm. Yeah. Um, of course on the dashboard I'd want to see the consumption the no the production and consumption because you see now the things are the I I'd want to monitor as well when I'm low on energy so that
+Amber Fu: Mhm. Okay.
+Kael Williams: I prepare myself to charge up and whether it would be charging up manually because you see sometimes the weather changes and we might we might not be in a place to actually use solar to its very best.
+ 
+ 
+00:21:45
+ 
+Amber Fu: Mhm.
+Kael Williams: So we have to actually limit it a bit more. um that's production and consumption as well as now times to recharge and and stuff like that. I mean the technical stuff can be hidden behind the dashboard but those three items are the the ones that I find really crucial and maybe um tips on how to um better my experience or tips on how to better my energy saving as well as as stuff of the works you know it's solar edge.
+Amber Fu: Okay, sure. And u and uh I forgot like the solar brand is it when you uh Oh, Solar Edge. Oh, okay. Okay.
+Kael Williams: Yeah.
+Amber Fu: So, when you solar edge uh goes offline, how how often does that happen?
+Kael Williams: Uh, it's not so much. It usually happens once a month, but like in last in the month of November, it it happened I think twice, but it's it's normally stable cuz it would be once once once.
+Amber Fu: Mhm. Okay.
+Kael Williams: Yeah.
+Amber Fu: And what do you usually have to do to fix it when goes uh goes offline?
+ 
+ 
+00:22:56
+ 
+Kael Williams: Um that means I have to go to the side of the house where where the solar panels around where the solar panels are installed.
+Amber Fu: Okay.
+Kael Williams: I have to now start scanning QR codes and checking whether the system is back up online or not. H it's it's a gamble. It's usually is a gamble sometimes when they've given you the prescribed steps like that's what you're prescribed to do but you don't know whether that that would happen. And so I have to also be on on the on the customer's line on the customer care line so that they can guide me a bit better. But that customer care is usually very rare cuz the I normally know that once it disconnects it's only now that I need to go back to the QR.
+Amber Fu: Okay. And how long need to you how long you need to take for fix that?
+Kael Williams: um usually would take 30 minutes, but sometimes it spans up to 2 hours. Like in November when I had the the most recent one, it it was around 45 minutes.
+ 
+ 
+00:23:52
+ 
+Kael Williams: And just scanning the codes and checking whether everything is okay, scanning them again. And you know, I'm a bit of a perfectionist myself. So sometimes I'd want to take the extra step and actually check in and see whether everything is okay from maybe different points in the house.
+Amber Fu: Got it. Got it. But like if there like app could allow you uh automatically when the solar disconnect, would that help a lot?
+Kael Williams: Yeah, it would it would quite a bit because um it would in the current situation I'm using I I have to do it manually but you know once you give me a solution that is automatic it would be
+Amber Fu: Mhm.
+Kael Williams: proper for me because I'm able to you know I'm able to actually troubleshoot without that much thought because it it's it's it's going to detect whether it's this it's connected to the inverters or what or what or whichever
+Amber Fu: Mhm.
+Kael Williams: challenges that I might be facing based on of course the challenges that we normally experience on a dayto-day.
+Amber Fu: Got it.
+ 
+ 
+00:24:55
+ 
+Amber Fu: Got it. And so like when you uh open your electricity bill like uh what part confuse you the most?
+Kael Williams: Mhm. Um the the part that confuses me quite a bit is the what we call the true up bill. Um cuz I normally get a minimal bill every month with thece.
+Amber Fu: Mhm.
+Kael Williams: Um it's usually around $20 for the connection fees. But then I get hit up with the true bid through a bill and then I'm like wo because I mean cuz the first year I had the EV my true up was around 1,200. I underestimated how much power the car used back then. So, it felt really frustrating because I asked myself, why am I going green if my bill is still the same?
+Amber Fu: Mhm.
+Kael Williams: But now with the the apps and all that, I've been able to actually regularize um what I'm using.
+Amber Fu: Mhm.
+Kael Williams: So, it it it went down quite a bit as well.
+Amber Fu: Got it. And and um but how much how much is that like
+ 
+ 
+00:25:58
+ 
+Kael Williams: um around I don't know it's usually it usually fluctuates because much as I'm using the EV I still have other things in the house that I need to use. So it's usually around 800 900 uh the time of use here I am using toou
+Amber Fu: Okay. Got it. Got it. And um so you you using the the toou plan like you know the or the flag. Okay. What what do you think about it? But here you play.
+Kael Williams: well the toou is you know I don't know I don't know it's it's it's a it's a best of both worlds I mean it's good but sometimes it's usually difficult to use because you see um electricity is most expensive between 4 and 9. That's what I was talking about when I was talking about um between 4 and 9 I don't have that much use based on my observation. I I used to find that the tou um between 4 and 9 is usually a bit higher. So I I normally go dark.
+ 
+ 
+00:26:57
+ 
+Kael Williams: It's sometimes inconveniencing because maybe I might want to to do one or two three things with electricity around that time, but I have to go dark. And dark wouldn't necessarily mean entirely dark. It would maybe mean um most of the activities that I had going on. I have to scale them down. If it's showers, people take showers maybe before 3:00 p.m. or after 9:00 p.m. cuz I know I do love my bath. So I would find myself in the bath around 11:00 p.m. of which sometimes it's it's inconveniencing because I have to think about you know getting there in early so that I don't consume much as well.
+Amber Fu: Got it. Got it. Got it. And well, thanks for sharing that. And well, um, have you ever thought about getting a home battery?
+Kael Williams: Um, yes, I have. Though I've not I've not I've not actually settled on what I would want. Maybe you can advise me from this conversation on on what I can look towards.
+ 
+ 
+00:27:57
+ 
+Amber Fu: Okay. Uh well um I don't know like I I don't I don't have a home battery and and a solar I only got a EV charging you know.
+Kael Williams: Mhm. Mhm.
+Amber Fu: Um I I don't I try to solar because my house uh the per months I pay like usually it's like $300 per month I think is that's pretty much high.
+Kael Williams: Mhm. Mhm.
+Amber Fu: I try to got the solar but I live in uh Pasadena and you know I I try to got the solar then I need to apply in the city right and I don't know for some reason I can't
+Kael Williams: Yeah. Mhm. Mhm. Yeah.
+Amber Fu: got a permission because the house or some neighbor I don't know because my neighbor they don't have a solar either uh that's that's bugs me but uh one of my friend they live in the uh the uh testing
+Kael Williams: Okay.
+Amber Fu: the another city and they they have a solar and they think it's uh working really well and they try to got a power war lately and I ask him why and they say because the EM3 policy like they
+ 
+ 
+00:28:50
+ 
+Kael Williams: Mhm. Mhm.
+Amber Fu: usually when they the the powers sell back sell back selling back to the gold they can get like a 100 bucks or something but right now nothing you know it's because they change the policy so it's really really cheap And if they don't have a battery means they they they will be lost the power.
+Kael Williams: Mhm.
+Amber Fu: Yeah. So that's why they they're thinking like you know try to call the power wall or another home battery. Uh yeah and when I you know like I do this interview before and I saw your in information like oh you're living in California and you have a solar why why you don't have a home battery so that's
+Kael Williams: Okay.
+Amber Fu: why I try to you know understand like because usually yeah I don't like have you ever uh ever notice that you know when your power uh backup up to the girl will be like really cheap or nothing.
+Kael Williams: to engage me on that. Yeah. Well, it's it's a new it's a new idea that I've been actually having so that I'm able to, you know, I I'm I'm actually in a place where I might want of course to actually reduce my expense especially on energy.
+ 
+ 
+00:30:23
+ 
+Kael Williams: So, um I've considered all options and the battery thing came up recently. So, with a conversation I had with my friend. So, I was like, why not?
+Amber Fu: Mhm.
+Kael Williams: Let's let's go for it. But I've not had a specific or or technical advice on the same. And I know I've been busy quite some some some of this time, so I might not be able to call in and check in on what I would want to use. So, I've I've kind of pushed it up uh on the side now, but I think it's something I'll actually take up actively.
+Amber Fu: Got it. Got it. And have you ever uh do some re research on the home battery before?
+Kael Williams: Uh, no, not really. Not really.
+Amber Fu: Okay. Okay. Got it.
+Kael Williams: Yeah.
+Amber Fu: Got it. And well um and well another question is uh if like uh you know sometime some people they really want to know oh uh if the system there like if the solar they're doing the right thing or not like or when I I should be charged my car something like that.
+ 
+ 
+00:31:28
+ 
+Amber Fu: Well, if there have a system like can help you, you know, doing those things, would would it help if the system could tell you, oh, everything look normal today or something seem off with your solar or battery or when you should charge your car or something like that? Do you think would be help?
+Kael Williams: Yeah, it's it would be really good. Yeah, sorry. It would be really helpful cuz you know I I I best work with with the trouble, you know, if I if I'm able to actually see the challenges that I'm going through or the the problems that I may
+Amber Fu: Okay.
+Kael Williams: need to troubleshoot or like I'm able to see the problem. I'm be able to see also a solution. So I'll be able to adjust myself based on of course info that comes from these apps. But sometimes you find the and I normally hope as well that um if you're if you're looking to design something that has uh that is going to give us a solution as well. It would be something maybe that that works on the most accurate data we can get because sometimes the data may be inconsistent, maybe the weather is inconsistent and you know we have to work with accurate readings and all
+ 
+ 
+00:32:26
+ 
+Amber Fu: Mhm.
+Kael Williams: that so that I'm able to maximize quite a bit maybe with a bit of error maximize my my time and my energy efficiency as well.
+Amber Fu: Got it. Got it. And uh so you mentioned that your home is mostly quiet from 4 to 900 p.m.
+Kael Williams: Yes.
+Amber Fu: because like you're avoid using expensive electricity. Like do you ever feel like the electricity schedule uh control your family lifestyle like cooking, using applies or going out?
+Kael Williams: Um sometimes it does control that because you see um I have to save I have to save up at that time.
+Amber Fu: Mhm.
+Kael Williams: Well, I I'm not so strict on the 4 to9 thing because I usually just tell my kids and my wife to actually just reduce their consumption. If it's lights, um they're lighting up things in the house, they ought to actually reduce that. Maybe movie times able to schedule them past 9:00 p.m. cuz we we get that time to actually bond and have physical interactions and the kids get to play and all that.
+ 
+ 
+00:33:40
+ 
+Kael Williams: Um we don't have my kid on the phone. And I do have a teen in the house. So, you know, teens can be very sneaky sometimes. So, they actually go on their phones, they're charging, they're using them up, and it's okay. I mean, but it really doesn't affect how I I interact with my family, how I live with it, cuz we've been able to adapt ourselves to it. So, even if we get a different solution, we'd still have the same kind of routines.
+Amber Fu: Mhm. Got it. Got it. Well, and you like before you said like I need to check the solar app. don't know like if have enough solar and how does it affect you day uh when you have to keep checking the uh whether solar is not enough or something like that or there's bothers you
+Kael Williams: It's a it's a it's an it's a minor inconvenience. It's not something I call too big cuz well we we have solar the energy is just a chunk of what we live.
+ 
+ 
+00:34:38
+ 
+Kael Williams: It's it's not necessarily a great chunk of what we live cuz there are so many other things that would happen. So, it's usually a minor inconvenience cuz I have to keep checking.
+Amber Fu: Mhm.
+Kael Williams: I have to, you know, I have to keep checking into the app cuz you see it's it doesn't give me maybe notifications on in or as many notifications as I would expect on on my status in the solar. But if it does give me such and maybe my wife and myself and my older kid are able to actually check in on those those notifications and they maybe they're synchronized so that they come in at the same time on the three phones or on the devices that we normally use. Um it would be it would be effective because if I am the one who's around I'd be able to sort it out. If maybe I'm not home my wife can sort it out. she'd call or she'd do something and based based on what of course she's been prompted by the notifications.
+Amber Fu: Mhm.
+ 
+ 
+00:35:32
+ 
+Amber Fu: Got it. Got it. And uh do you ever de delay something important just because you're waiting for solar to be strong enough to charge the car?
+Kael Williams: Um, yes. Yes. I I once had a very important meeting with an investor that I was working with and uh I got a bit late cuz around it was around 3:00 p.m.
+Amber Fu: Uh-huh.
+Kael Williams: and it hadn't fully my my my car hadn't fully charged. So I actually had to wait cuz I'm I'm this kind of person who now you see I I went in for a meeting at 3 p.m.
+Amber Fu: Mhm.
+Kael Williams: and I had to run some other errands at 4 p.m.
+Amber Fu: Mhm.
+Kael Williams: So I had to have charged the vehicle 100%. So that I save up on the time that I spend on the road as well.
+Amber Fu: Oh.
+Kael Williams: So it it really did a number on me there. But I I was able to talk to the investor. Of course, now that's a side story cuz I was able to talk to them and they understood my situation cuz I had a number of errands that I was running.
+ 
+ 
+00:36:28
+ 
+Kael Williams: That time my wife had traveled.
+Amber Fu: Mhm.
+Kael Williams: So it's only my kids were in the house and myself. So I had to, you know, create a balance and he was okay with it. So I just went and had the meeting with him though it was an inconvenience.
+Amber Fu: Got it. Got it. Well, h have there been like a day where you need like need the car urgent but it wasn't charged enough. Is that happen a lot or never happened?
+Kael Williams: No, it's just it's actually just that one scenario. I don't I can't pinpoint any other times I've I've I've had such significant inconveniences. Yeah.
+Amber Fu: Got it. And and um so with a simple like if their app like a simple remind you like oh hey plug in right now or like well solar is strong will be that help you is will that be useful
+Kael Williams: Yeah, it would be very useful cuz you see um if it's able to to tell me to charge up and I'm myself I'm not in the house.
+ 
+ 
+00:37:32
+ 
+Kael Williams: It's it's synchronized in a way that the people who are in the house can actually go on to charge up the things that are there.
+Amber Fu: and And
+Kael Williams: Cuz my kid has a driving license. Um, everyone everyone safe for the 5-year-old is is able to drive, is able to actually work around the car. You know, the kid would only be be there to scribble on it and it's usually a fun little thing we go around. But yeah, like if if they're synchronized and all the users who are logged into all the users of the app or logged in through my my account are able to actually receive these notifications becomes easier because there's not
+Amber Fu: then Okay.
+Kael Williams: a time where I don't have at least one person in the house.
+Amber Fu: Okay. Got it. Got it.
+Kael Williams: Yeah.
+Amber Fu: And and and then for the like a solar uh do every wondering how much your solar is being used and the lost and you know export.
+Kael Williams: Um yeah. Yeah. Actually, that's that's one of the things I would I would actually have wanted for my ideal app for the for the for the solar for the solar checking cuz I would want to have an app that shows me my consumption, exact consumption of solar power versus the exact production of solar power.
+ 
+ 
+00:38:44
+ 
+Amber Fu: Mhm.
+Kael Williams: It's, you know, cuz so that I'm able to actually work based on the production, not based on my need.
+Amber Fu: Mhm.
+Kael Williams: Because if I do work based on my need, I might find myself working higher and that might need me to actually start budgeting for more um solar capacity.
+Amber Fu: Okay.
+Kael Williams: But if I have my production right and my consumption right, I'm able to analyze trends as well.
+Amber Fu: Yeah, got it. And well, like since you fix uh the routines like school drop day uh like earned, would you want the system to learn your weekly uh pattern and adjust charging automatic?
+Kael Williams: Of course. Of course. You see um the the solar apps should be able to to run from the very instant I download and actually set it up. part of the setup should be my routine so that it's able to understand what I go with and then uh of course now it's accountability on my end to actually login details concerning what I'm doing with my solar maybe I'm charging my car I have to actually put that in so that it learns my trend then from there it becomes like an algorithm that I create so that at at the end of it all now it's
+ 
+ 
+00:39:54
+ 
+Amber Fu: Mhm.
+Kael Williams: able to automate this notifications way easily and way on point so that it it reduces the the interruptions that I may have.
+Amber Fu: Got it. But if the system may like made a charging plan for you like you want to prove it first or just let it run automatically.
+Kael Williams: Pardon?
+Amber Fu: Um so like there the system can made a charging plan for you. Would you want like to prove it first or just let this run by themselves?
+Kael Williams: Um, of course I'd want to actually check on it because you see if we I've I've been I've well unfortunately um someone who watches such shows like A Thousand Ways to Die and it's it's usually funny how well it's usually concerning how um such automation sometimes may cause a lot of distraction.
+Amber Fu: Mhm. Mhm.
+Kael Williams: So I usually want to be able to actually check before anything happens so that I I know that I'm the one who did this.
+Amber Fu: Mhm.
+Kael Williams: It it also brings in the sense of accountability because you know I might leave the house and then the system is automated and then I'm like oh by the way did I charge my and have to fret and ask anyone who's in the house.
+ 
+ 
+00:41:19
+ 
+Kael Williams: So I'd rather actually p
+Amber Fu: Mhm. Got it. Got it. And um so like um I try to you know I try to remember you said like you if like a notification come out like the you know three phones you you said your wife or kids could help manage like when you're not home. So uh who who in your home usually ends up handling the uh the energy decision or just you or does everyone help out?
+Kael Williams: Yes. Well, it's it's me mainly. The main the main um person who handles a decision is me.
+Amber Fu: Okay.
+Kael Williams: But of course, now you it's it's like delegation. I' I'd advise my wife to actually assist me in one if she's in the house and I'm not.
+Amber Fu: Okay. Got it. And would it make life easier if the app assigns small taste automatically like, oh, uh, your dad is isn't home. Please plug in the car. Is that well help helpful?
+Kael Williams: Uh yeah, absolutely.
+ 
+ 
+00:42:24
+ 
+Kael Williams: That would be very good. It's a very good idea actually.
+Amber Fu: Okay. Okay. Got it. Got it. Sure. And um so and you said like uh you're because of charging and uh you were late for the the meeting stuff like that. Uh did that experience make you feel like you couldn't rely on the system?
+Kael Williams: Mhm. Um bit no not really because you see the thing is um these these things happen. Systems aren't 100% effective though we try to make them 100% effective. So I I just saw it as a slip up. Um something that that we could adjust ourselves to better, a reality that we would adjust ourselves to um faster so that we're able to actually adapt ourselves.
+Amber Fu: Mhm.
+Kael Williams: So it's it's not something that I saw was caused me to think of unreliability.
+Amber Fu: Got it. And uh would it would it help if the app can warn you hour earlier?
+Kael Williams: Yes. Yes. Yes.
+ 
+ 
+00:43:30
+ 
+Kael Williams: It would pardon.
+Amber Fu: Okay. And do you ever like plan your whole day around like whether the car has enough charge? Like do you ever plan your whole day uh uh around uh whether the car has enough charge?
+Kael Williams: Oh, no. My day isn't actually dictated by that. It it normally would be based on what I have to do the in the day.
+Amber Fu: Okay.
+Kael Williams: So whether I whether the car is fully charged or not does not affect what I'm supposed to do in the day.
+Amber Fu: Okay. Got it. Got it. Got it. Got it. And um so well well if like like imagine it like if you got a some magic stuff and you want to make your solar or your EV charging smarter. What what what would you make first? Like Mhm.
+Kael Williams: Um well the the automation of notifications that's why I'm talking about the trends that's I'm I'm talking about this app this ideal app actually studying my trends and the trends in my family so that it's able to offer
+ 
+ 
+00:44:43
+ 
+Amber Fu: Mhm.
+Kael Williams: very personalized um very personalized updates as well.
+Amber Fu: Mhm. Mhm. Amen.
+Kael Williams: Um troubleshooting. If it's able to do the troubleshooting um maybe like two or three times before I it actually sends me a notification, it would also be best because you see it it reduces the time that that cause that the disruption time or the downtime for for my energy uh energy consumption. I'm my energy um grid.
+Amber Fu: Got it. Got it. Got it. And well uh if the app can learn you weekly habit like how much control would you want?
+Kael Williams: Um, wait. Control in terms of me or control in terms of the app relating to my um my weekly habits.
+Amber Fu: Oh the app. laugh.
+Kael Williams: Oh, okay. Um, as much control as it should have based on energy. Of course, it it wouldn't go and control like my kids study life, but it can control um the the lighting because I have lights on at this time and this time at this time and possibly cuz I don't usually use uh I don't have a smart home pass, I can actually look towards integrating my grid with my smart home so that it automates that as as as often as it can.
+ 
+ 
+00:46:06
+ 
+Kael Williams: Yeah.
+Amber Fu: Mhm. Mhm. got it and well like um if like could uh the app could design the perfectly like a solar dashboard and like the EV charging thing and uh do you want to something simple like you know uh something simple like oh solar used today and with waste or you want to something detail graphic.
+Kael Williams: on the on the dashboard. I'd want something simple.
+Amber Fu: Mhm.
+Kael Williams: Of course, now beyond the dashboard, we have we have maybe other tabs or maybe other places where I can actually get detailed information.
+Amber Fu: Mhm. Mhm.
+Kael Williams: But at the front end, it would be best to have something simple. production consumption and tips based on live data that is actually currently going on.
+Amber Fu: Mhm. Got it. Got it. and and for the uh notification. Um so what's what do you think the most helpful not notification you can imagine?
+Kael Williams: Mhm. Um I I know I know Apple introduced cuz I've not been on Apple in a while.
+ 
+ 
+00:47:16
+ 
+Kael Williams: Apple introduced um a notification.
+Amber Fu: Mhm.
+Kael Williams: It's it's it's like a super notification where you get all the it's I think it's usually a review, daily review or something. I forget what it was called cuz I was back on the iPhone 6. And that is actually something we can look towards like a super notification that is able to tell me everything that I need to know that has taken place and that currently is taking place and what recommendations can be can be made towards making me efficient.
+Amber Fu: Mhm. Mhm. Got it. And And what what's the notification like you never want to see?
+Kael Williams: What's the notification I never want to see?
+Amber Fu: Yeah.
+Kael Williams: Um, well, I I've not had a notification I've not wanted to see.
+Amber Fu: What kind of okay but what but if there the app could couldn't notify you before something become a problem like
+Kael Williams: I've wanted to see all of them so that I panic and and and troubleshoot. Yeah.
+Amber Fu: what type of thing would you want to early warning for?
+ 
+ 
+00:48:22
+ 
+Kael Williams: Mhm.
+Amber Fu: Uh for example like oh EV forgot to plug or like a pick coming or like power or like tomorrow is a cloudy uh charge earlier or something like that.
+Kael Williams: Yeah, it's it's basically actually what you're mentioning cuz you see these are the minor challenges that I'll face and they might need significant adjustments because you see if uh it's a cloudy day and I need to charge my
+Amber Fu: Mhm.
+Kael Williams: car early that would mean I don't charge is from now 10 to 2. I charge it earlier maybe from 8 to around 11 or 12 so that I much as I don't get 100% I'm able to get maybe
+Amber Fu: Mhm.
+Kael Williams: 75%.
+Amber Fu: Got it. Got it. And well, how early is early enough to notification you? Like 10 minute, hour or the day before?
+Kael Williams: Um it it can go up to the day before, but if if push comes to shove and it is something that has been noted very urgently, well, an hour would still be enough.
+Amber Fu: Uhhuh. Mhm.
+ 
+ 
+00:49:29
+ 
+Amber Fu: Got it. Got it. And uh and uh one last part is like um what uh would you share notification help your house household stay conditioned?
+Kael Williams: pardon, please. Please. I I didn't get that.
+Amber Fu: Uh so would you uh would would you like share the notification help you household to stay like they know what they're doing or they know what's happening right now.
+Kael Williams: Yeah. Of course. Yeah, that would also be very helpful because I'll be able to monitor even if I'm not at home though. Um I think now for my case, I would also want to have um a status, you know, you know the way my email would have a status update for I'm home or I'm available or I'm away or I'm
+Amber Fu: Oh yeah.
+Kael Williams: on holiday so that when I'm home, it doesn't actually disturb me with notifications of what other people are doing in the house because I'm able to check physically.
+Amber Fu: Mhm. Got it. Got it. And what can you like um let's say like warm me through like the last time your energy system really stress you out like you can remember it like was the last time Mhm.
+ 
+ 
+00:50:42
+ 
+Kael Williams: Well, it's the the November thingy that happened. Um, the the inverters were were offline and you know, I I was working. It was around actually Thanksgiving and I actually had to go out and and troubleshoot actually check in on the QR codes and then go to various parts of the house to see whether it's working or it's not working
+Amber Fu: Um. Mhm.
+Kael Williams: and sometimes it would bring a positive thing a positive result in some of the rooms but not entirely because you see now I I want to be conveniently placed at any given point in time to check on these inverters. So I went back, scanned the QR code, you know, went around the house. So it it took me like 45 50 minutes that I'm able to to actually say that I troubleshoot everything.
+Amber Fu: Mhm.
+Kael Williams: And well, that that was the most severe instance I've had. It's not been in such a in such a form before. I I I also hope that I don't get worse than that.
+ 
+ 
+00:51:42
+ 
+Kael Williams: Yeah.
+Amber Fu: Got it. Got it. And one last question. If if you could make one energy taste disappear forever, what would be?
+Kael Williams: If I would make one energy.
+Amber Fu: Yeah. One one energy taste disappear forever. What would be like for example like you know uh like remember like plug in when will be plugged in or know like when the peak over or off peak over like if the one energy takes disappear forever like you never need to remember it the system will help you do automatically.
+Kael Williams: Hi, I Okay, sorry I I didn't hear you for a minute, but I think I got the question.
+Amber Fu: Okay.
+Kael Williams: Two things. One, I would want to definitely move away from uh from manually troubleshooting stuff.
+Amber Fu: Mhm.
+Kael Williams: You can imagine the time lost with my family because I have to run around the house, you know, checking whether things are okay or not.
+Amber Fu: Okay. Yeah.
+Kael Williams: And maybe that's the time um things are going really well with the kids, maybe the kids first steps and stuff.
+ 
+ 
+00:52:53
+ 
+Kael Williams: So, I miss out on that because I'm trying to troubleshoot the energy grid and save save my family the trouble of actually losing being on downtime with energy. So, that's one.
+Amber Fu: Mhm.
+Kael Williams: And then two, um forecasts. If forecasts are done in such a way that I don't have to worry about the best time to charge it, it just tells me when and I'm able to schedule that into my day.
+Amber Fu: Okay. Mhm.
+Kael Williams: It's something that would be really good because you see now when I wake up at 5:30, I have to schedule also based on the weather because I'll I'll know what to dress up in. I'll know what to, you know, what to carry in my package. I know what I need to carry in my backpack. So it would be best if still I can get on information on the weather so that I'm able to put in times for charging stuff.
+Amber Fu: Okay, got it. Got it. Well, well, um, thanks, thanks so much for, you know, sharing all of that today.
+ 
+ 
+00:53:50
+ 
+Amber Fu: Well, this was incredibly helpful and I really appreciate that.
+Kael Williams: Okay, thank you.
+Amber Fu: Yeah. How you about your routines and the challenging you deal with daytoday. So, because your sign give us a much clearer picture of what would actually make a different for a family like yours.
+Kael Williams: Mhm. Yeah.
+Amber Fu: So, um do you have any question for me?
+Kael Williams: Um, no, not really. Mine is actually to say thanks cuz you've also been very instrumental in in such learning like the NEM and and and the battery thing.
+Amber Fu: Sure, sure, sure.
+Kael Williams: I I'd want to learn more about that and I hope this is a journey we can walk and actually go on to do some more research on on all these things. So yeah, I'm really grateful as well. Thank you.
+Amber Fu: And you know once we have early version ready, I love to invite you to try it.
+Kael Williams: Of course.
+Amber Fu: Your feedback will be extremely valuable for us. Yeah. And uh please keep in touch and once we have early version I uh I will I will invite you but totally option.
+Kael Williams: That's okay. That's okay. I I definitely want to be on it so that I can give you more feedback based on what I interact with.
+Amber Fu: Okay. Perfect. And just remind you that my uh our first uh version definitely not perfect but probably have a lot of problem. So please like me. Yeah. Yeah.
+ 
+ 
+Transcription ended after 00:55:43

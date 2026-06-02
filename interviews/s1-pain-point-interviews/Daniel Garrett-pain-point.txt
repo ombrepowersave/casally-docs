@@ -1,0 +1,312 @@
+Casally User Interviews (Daniel Garrett) - Transcript
+00:00:00
+ 
+Amber Fu: Okay, chill out. Huh? Huh?
+Yongli Chen: You hardly go in here.
+Amber Fu: Mhm.
+Daniel Garrett: Hi, how are you?
+Yongli Chen: Amber, I think you unmuted.
+Amber Fu: Oh, hi. Hi, Daniel.
+Daniel Garrett: Hi. How are you?
+Amber Fu: Uh, can I hear?
+Daniel Garrett: Yes, I can hear you loud and clear.
+Amber Fu: Okay. Thank you. Thank you. Uh, well, uh, thanks for taking time today and, um, no pressure at all. This is like super casual. Uh, let me introduce myself a little bit. Uh, I'm I'm Amber and uh, one of the founder. So I uh started this because I couldn't figure out like why my own uh electricity bill were so crazy. So I realized a lot of like my friend are dealing with the same things. So we are um a small team based in LA. So it's a just a bunch of tech folks who also get hit with a crazy electricity bill. So we are trying to build an app that's help people save money on their daily energy use without changing their lifestyles.
+ 
+ 
+00:05:14
+ 
+Amber Fu: So I love understand how you home use electricity daytoday so we can figure out what would actually help. And also our uh tech technical lead is here too. Uh he's he's a brain behind all the energy intelligent under the hood. Yeah. So uh uh if okay can we like can we start right now and it would be okay if you uh we record this call it just make sure we don't miss anything you said totally option okay sure thanks
+Daniel Garrett: Yeah, that's that's fine with me.
+Amber Fu: okay so um before jump into the energy stuff. I I'd love to get like quick things of your household. Just understand your setup a bit better. So, nothing personal, just whatever you're comfortable sharing with. So, um uh how many people live in your home right now?
+Daniel Garrett: It's just me and my girlfriend.
+Amber Fu: Okay, got it. And um do you mostly work from home or is everyone fly in and out all day?
+Daniel Garrett: Well, I I sometimes work from home and uh sometimes go to the office.
+ 
+ 
+00:06:39
+ 
+Daniel Garrett: It's a balance between the two, I'll say.
+Amber Fu: Okay, got it.
+Daniel Garrett: Yeah.
+Amber Fu: Is it is it kind of like schedule do you uh normally have or is pretty constant or or all over the place week to week?
+Daniel Garrett: Uh it depends on the workload. Sometimes uh uh we do virtual meeting, sometimes we do uh physical meeting, but I I get to go to the office about three or four times a week.
+Amber Fu: Okay, got it. Got it.
+Daniel Garrett: Yeah.
+Amber Fu: Okay, perfect. Thanks. And uh so by the way, I noticed that you got the full setup, the solar uh the power wall and the EV, right?
+Daniel Garrett: Yes.
+Amber Fu: Okay. because you know that puts like a few percent like a top of few% of home we talk to. So I'm really excited to hear like how your system behave in real life. Um just want to know like uh why you got the solar at the first place like what reason Okay.
+Daniel Garrett: uh well uh I would say actually uh I think uh the major reason was because of the cost uh my bill is to shoot up yeah my bid is to shoot up to hundred of dollars and uh I
+ 
+ 
+00:07:57
+ 
+Amber Fu: Mhm.
+Daniel Garrett: was really like looking for a solution whereby I could be able to salvage that and be able to like save on cost and also use more green energy more of clean energy and more uh cost effective uh method to access power. So that's why I thought of uh the solar panels and uh we had this discussion with a friend and later I shared that idea with my girlfriend and we agreed on uh installing solar panels and uh and having
+Amber Fu: Mhm.
+Daniel Garrett: a a power ball as well and uh I also got uh a promotion at work and I uh I got uh to be given a a work uh car which came in uh in the form of a Tesla
+Amber Fu: Mhm.
+Daniel Garrett: cyber truck. And uh all this now came in handy for me in terms of being able to turn around uh my energy consumption and uh also the type of energy that I use here at home.
+Amber Fu: Okay. Uh, do you want to ask like how how big your house is just roughly because I just try to imagine like what your daily electricity would look like.
+ 
+ 
+00:09:14
+ 
+Amber Fu: So, h how big the house it is right now?
+Daniel Garrett: Uh we have uh three bedroomedroom and uh yeah so it's basically uh we have a living area we uh a uh we have a area dining area uh kitchen uh as I said three rooms uh
+Amber Fu: Uh-huh.
+Daniel Garrett: it's it's not that big of a house and uh hotels. Yeah. In a garage. So, it's just uh I would say a common uh house per say.
+Amber Fu: Okay, got it. Um, so so the you got the solar first or the or the EV charging first?
+Daniel Garrett: We got the solar uh the solar came in first.
+Amber Fu: Okay. And uh how long we use the solar?
+Daniel Garrett: Uh this is the second year now.
+Amber Fu: Okay. Do you happy with it?
+Daniel Garrett: Yeah. Yeah. Yeah. Yeah. Actually, I think it's the best thing that has happened to us as a couple and uh even uh in terms of our financial lives, it really changed a lot because uh we are able to to quite save a
+ 
+ 
+00:10:22
+ 
+Amber Fu: Mhm.
+Daniel Garrett: lot in terms of uh the it's a money we would use on uh paying for electricity bills and all that.
+Amber Fu: Okay. Uh, how how much you pay for per month right now?
+Daniel Garrett: Well, I think it doesn't. Uh, if I I'll give it an average of at at the highest $100 there.
+Amber Fu: Mhm. Around around like a $100.
+Daniel Garrett: Yeah.
+Amber Fu: Okay. And uh so h how how many EV you have right now?
+Daniel Garrett: Uh, we have uh we have three.
+Amber Fu: Oh, the the three EV cars, right?
+Daniel Garrett: Oh, uh, you're talking about the cars. Sorry.
+Amber Fu: Yeah.
+Daniel Garrett: No, we we we we have to uh the cyber truck and uh uh my spouse uh or my girlfriend has the latest model, the the Y model. Yeah.
+Amber Fu: Okay. Got it. Got it. So, um since like you leave with those system for a while, are are they doing what you expected expected or do you think anything you're not really happy with?
+ 
+ 
+00:11:52
+ 
+Daniel Garrett: uh so far I I I wouldn't say I've seen something that I dislike about it because uh I when it comes to charging I almost I would I almost like exclusively charge uh my Tesla at home.
+Amber Fu: Mhm.
+Daniel Garrett: So like uh we have them scheduled to start charging after probably 9:00 p.m.
+Amber Fu: Mhm.
+Daniel Garrett: when the when utility is like super off peak you see when the super off peak race begin.
+Amber Fu: Mhm.
+Daniel Garrett: So that's is when uh we we kind of schedule them to charge. Uh I would say like sometimes sorry I have a bit of a call sometimes uh let's say if the power uh the power wall is full from maybe a sunny day and uh the sun is still out I can like plug it in earlier to be able to use that excess solar directly. So I also save on the uh the direct uh current cost or maybe say uh the appliances uh can I go on?
+Amber Fu: Okay. Yeah. Yeah. Sure. Sure.
+Daniel Garrett: Okay.
+ 
+ 
+00:13:12
+ 
+Daniel Garrett: Okay. on the on the side of the appliances. Uh we also try to be a bit uh strategic like also we learn uh we we we run the dishwasher overnight on a delay timer also in terms of uh say laundry uh usually done on weekends during the
+Amber Fu: Mhm.
+Daniel Garrett: day to use the solar power. So we are definitely I would say we are definitely more aware now because uh the Tesla app and also the Tesla energy app kind of gives us that clear realtime data of how our energy usage is and we
+Amber Fu: Mhm. Mhm.
+Daniel Garrett: are able to know the peak hours the peak uh hours where the rates are higher and also the off peak hours. That's why most of the the workload we do it at night because we want to save also on power.
+Amber Fu: Okay. Okay. Got it. Got it. And um so you so you know your uh like you know if electricity is a cheaper at a certain time of the day uh where you live, right?
+ 
+ 
+00:14:20
+ 
+Daniel Garrett: Yes, like uh yeah, like for us we I would say we are we are much more proactive in the sense that uh uh right now the B doesn't like surprise us the monthly B does not doesn't come as
+Amber Fu: Okay.
+Daniel Garrett: a surprise because like I would say we are like actively managing the home energy system. We kind of check the apps daily and almost it's like a like a score card for us to see how much solar we produced and how much gr we used.
+Amber Fu: Okay. And um do you do you ever try to use cheap cheap hour doing all the stuff like uh so do you ever try to use like you know the cheap hour to doing like you know EV charging or
+Daniel Garrett: Yeah. Now come again.
+Amber Fu: like dishwasher dryer and like AC running the AC like uh Mhm.
+Daniel Garrett: Yeah. Yeah. Yeah. Yeah. Sure. that that is what we capitalize on because uh mostly uh as I said earlier uh during the night uh like from 1000 p.m.
+ 
+ 
+00:15:32
+ 
+Daniel Garrett: there about that's that's when uh the the there is that off peak uh rate of uh the charging of the charges in terms of the energy consumption. So that is the time uh we take advantage of doing the the the much of the workload that we have maybe dishwashing laundry uh charging the eways and all that
+Amber Fu: Okay, got it. And um but what part managing your home energy system take you lot of time? What what part do you think like when you managing your home energy system what take you a lot of time or bother you?
+Daniel Garrett: Uh I wouldn't say there's a maybe uh in terms of uh getting to I think at first at first we used to struggle with uh doing dishwashing and also laundrying uh But once we figure
+Amber Fu: Mhm.
+Daniel Garrett: out we did figure out uh how our consumption is and uh also the off peak hours we are able to like schedule it on weekends and also mostly on nights because uh we we get we got to know that those are the the hours or the times that uh you can get to use the uh power at a very low cost.
+ 
+ 
+00:17:03
+ 
+Daniel Garrett: But initially we had a problem with that because we would find ourselves almost uh spending the same amount of uh energy bills that we did spend uh before installing the solar panels and having the power the power wall. But once we figured that out, we are able now to sit at a place whereby we actually know the times and also the uh the days that we actually do this and that.
+Amber Fu: Got it. Got it.
+Yongli Chen: Uh actually I have a question.
+Amber Fu: So
+Yongli Chen: Sorry Amber. Yeah Daniel. So basically you are saying uh you just figure figured out a schedule by yourself and you execute on those schedules. Is that right?
+Daniel Garrett: uh not necessarily uh with the with the with the help of the of the Tesla app and uh we are able to we are able to like now gauge our our usage of the power. Now that that is what now those uh like metrics is what guided us into knowing how much power used at a certain particular time.
+Yongli Chen: Thank you.
+ 
+ 
+00:18:11
+ 
+Daniel Garrett: And that's now guided our our decision in uh in knowing that we can be able to do laundry on the weekends and mostly on nights at the night. Yeah.
+Yongli Chen: Oh, okay. Yeah. So, basically the the Tesla app help you to figure out you should do the laundry and dishwashing during the weekend and nice, right? That's what you say.
+Daniel Garrett: Exactly.
+Yongli Chen: Okay. Okay.
+Daniel Garrett: Yeah.
+Yongli Chen: Got it. Thank
+Amber Fu: Okay. And um Yeah. And for you like with the solar, the battery and the EV, you know, all the mix right now, do you feel like they are working together as a team or you think sometime they're fighting over the same energy?
+Daniel Garrett: uh I think uh I would say uh they it it's I think their coordination is uh quite seamless because like for example uh when there's an outage uh the switch to battery power is instant like we had noticed uh and also like the integration between now the solar the power wall and the car in one app is also a huge plus for us like now seeing that energy flow is uh in real time is quite fantastic for us maybe uh one of the frustrations I would say is uh like now the initial permission to operate uh the initial uh permission to operate process with the utility after isolation was slow and frustrating at first like
+ 
+ 
+00:19:49
+ 
+Amber Fu: Oh. Mhm.
+Daniel Garrett: it it did to take us weeks uh where we could use the system before we could use the system fully and uh occasionally we had uh occasionally after maybe uh a firmware update the app now reporting uh reporting gets it maybe get got a little glitchy for a day that is uh that was during the initial time but uh I I think uh I maybe that is why I would wish maybe for uh clearer uh maybe beauty in a way to see the financial impact more dynamically like today you saved uh x amount of money compared to not having a solar battery but I think with time we are able we were able to figure out that and uh we are also using the app I think right now we sit at a at a point whereby we can also like even advise uh people who want to get into using uh solar panels and power balls and also EVs in powering their homes. uh we are able to give them uh the bits and bounds and also the pros and cons of all these and how to navigate through that.
+ 
+ 
+00:21:07
+ 
+Amber Fu: Okay, got it. And um so for the solar, do you ever feel like your solar is so wasting sometime or you never feel that way?
+Daniel Garrett: Come again.
+Amber Fu: Uh so the solar uh like it's a sunny day but nothing really using it. Have you ever uh made that situation or no? Cuz sometime but sometimes some people think uh they are not home during the you know the uh morning or something. So uh they think the solar is wasting the energy.
+Daniel Garrett: Uh not really.
+Amber Fu: Have you ever
+Daniel Garrett: Uh at first yes and uh I think uh I think uh what is imperative to note is uh how you can be able to harvest that power even in uh in days that when it is not sunny. So probably uh you get more sunny days you able to store that power and uh use it in even times when there is not so much uh sun that can be able now to produce the energy. I think uh having that balance is what is wanted and uh I think for us we we did seek advice from uh the installation guys and uh we are able to get that guidance on how to maximize on that like uh in the mornings we can be able to we can able to uh we we can bake because there's overnight uh supply of bath that we didn't maybe use uh maybe the night before We can able
+ 
+ 
+00:22:45
+ 
+Daniel Garrett: to bake, we can able to use the coffee maker, we can able to do all these things because we have actually we have enough power to do that and we are not worried about uh if we going to get it's going to get depleted. I think now getting that balance between uh knowing how much power you use and uh knowing how much power also is is left for you and how you can be able to harvest it uh and use it is I think is what is more important here because you're able now to navigate through that knowing that I can be able to use uh this much power at a certain uh time and I can be able to save
+Amber Fu: Mhm. Mhm.
+Daniel Garrett: uh this amount of such uh power at a particular time And going now forward you're able to like understand that you used x amount of power you saved x amount of money and you're able now to know these are the my peak hours these are my off peak hours.
+Amber Fu: Got it. Got it.
+ 
+ 
+00:23:43
+ 
+Amber Fu: Thank you. Thank you for sharing. And um have you ever have the problem with you know the PSPS the the public safety power shut off? Have you ever had that situation before?
+Daniel Garrett: Uh I think our situation during like the last PS uh PSPS event uh we were we were without the grip for about 18 hours.
+Amber Fu: Uh-huh. Yeah.
+Daniel Garrett: Uh so the power essentially powered our essentials like the fridge, the lights, internet uh and during this entire time uh we even charge our phones and laptops from it. They give us that huge peace of mind like we did. However, like avoid using the oven or charging the car to conserve. But the basic uh I would say the basic uh like uh the basic uh like uh home appliances while while powered on using the power wall because like now when you have your fridge on with your lights on, your internet on you're able to go on with life normally. you're not like stressed uh about uh maybe your food going bad or maybe not completing some projects at work or for work because you already have the internet, you have the lights, you have the fridge on.
+ 
+ 
+00:25:05
+ 
+Daniel Garrett: But uh now for for us to be able to save power, we need like charge our EVs or maybe use like the oven because that would consume much power.
+Amber Fu: Okay, got it. Uh for this part, uh Lee, do you have any question for this the PS?
+Yongli Chen: Uh, no. I'm good.
+Amber Fu: Okay. Okay. Sure. And yeah, and uh thank you Daniel for sharing it. And um and another question is, have you ever made like a demand charge thing?
+Daniel Garrett: Have I ever met RPG?
+Amber Fu: Uh demand charge like in California? Oh, by the way, what uh which company you're using? Is a PGE or the SE? Okay. Uh does PGE have a demand charge?
+Daniel Garrett: Yeah. Uh, not really. Yeah.
+Amber Fu: Okay. Okay. Got it. Got it. And uh so do uh you your home have a AC, right?
+Daniel Garrett: Yeah. But I I we do we run it on an basis.
+ 
+ 
+00:26:20
+ 
+Daniel Garrett: Yeah.
+Amber Fu: Oh, okay. Okay. Got it. And uh because you said you have like two two EV car, right? or three three EV car.
+Daniel Garrett: We have two. Yeah.
+Amber Fu: Okay. Do do you have uh let's see if when the when both EV get home around like same time uh how do you decide like which one plug in first?
+Daniel Garrett: uh we we decide that on the the power consumption that each and every car has had during the day like and also also depends on if I if maybe I'm working from home which I do most of the
+Amber Fu: Oh.
+Daniel Garrett: time I my EV is most of the time is charged So I'll I I'll probably charge now my girlfriend's EV first and also like now check uh to what percentage is my EV that now is the determinant for
+Amber Fu: Uh-huh. Mhm.
+Daniel Garrett: that because we we operate with uh which needs power more than the other. So that uh because uh uh if maybe probably we have a power outage uh we can charge one car and uh use it maybe to get to work or maybe even run errands.
+ 
+ 
+00:27:21
+ 
+Amber Fu: Okay. Okay. But uh for but for those kind of uh stuff do you think would take you too much time to decide you know who charge first who charge second and always watch it like who uh which car is down and I need to charge second car. Do you think that's annoying you take a lot of time or you you think it's fine?
+Daniel Garrett: relatively I think is fine. uh would say it's because it's subjective to the need basis and uh there are times even uh there are times we we actually charge the the car simultaneously and there as I said earlier there are times we just
+Amber Fu: Mhm. Mhm.
+Daniel Garrett: charge one car and uh and be okay with it uh because for us it's it's more of uh need basis and also more of uh energy uh conservation and also saving on
+Amber Fu: Okay. Okay. Got it. And well um if you know if if if you you have like magic like you want to your home maybe more like your home energy more smarter or more optimized like what you going to fix the first first thing Mhm.
+ 
+ 
+00:28:57
+ 
+Daniel Garrett: uh I think uh As I mentioned earlier, I think uh it's knowing what to use at what particular time. Uh because uh as I said the the energy consumption metrics uh in the app give you that guidance on what on knowing that I probably use more power uh during maybe the day. you can be able to know uh do I really need to use like if you want to bake during the day and the oven is using much power you can be able maybe to say I'll bake uh during the night when the power consumption uh rate the maybe the power rates are a bit uh off the peak and I can be able now to say uh if I maybe baked a cake uh during the night I
+Amber Fu: Mhm.
+Daniel Garrett: can be able maybe to warm it up with the oven or with the microwave sorry uh during the morning. So getting that balance uh using this matrix is what now determines on how you are going to navigate through the whole uh process.
+Amber Fu: Mhm. Okay. Okay.
+ 
+ 
+00:30:00
+ 
+Amber Fu: Got it. And uh Yi, do you have any uh question or secure for Daniel?
+Yongli Chen: Uh uh yeah. So could you uh just roughly uh categorize how many uh different kind of task do you have to do for uh energy management or energy in general and how much time do you spend on each task? Thanks.
+Daniel Garrett: Uh would you expand on that? Uh yeah, kindly expand on that.
+Yongli Chen: Yeah. Uh you want to hear the question again? Yeah.
+Daniel Garrett: I did get the last part. Yeah.
+Yongli Chen: Yeah. Yeah. Yeah. So so so basically like the the first question is um can you categorize how many different kind of uh energy related task uh do you uh like protest uh on a day-to-day basis or week to week uh basis. And the second one is like how much time do you spend on each one?
+Daniel Garrett: uh I would say uh one is how much uh power consumption is EV taking and how much is our appliance is taking and uh about the time uh it's it's basically uh I I wouldn't quantify it minutes or hours but it takes a short time Because uh we have these apps installed uh in our phones and we can actually check it from wherever we are.
+ 
+ 
+00:31:35
+ 
+Daniel Garrett: Uh and also in the in the at our home we have uh through the our home office we can also be able to check that uh uh from the backbook and uh it's pretty easier from wherever we are to be able to know how our consumption is. So we are able to like schedule our usage according to the the you according to our power consumption and we can be able to uh say let's uh let's do maybe laundry during the night like I said earlier or during the weekends when the when the rates are off a peak. So in terms of time it's relatively low because we don't like you don't like choose maybe a a specific day to maybe spend time or check in. You just have to get that real team data uh from wherever you are uh by logging in the app using maybe your phone, your tablet uh or maybe your home uh PC.
+Amber Fu: All
+Yongli Chen: Oh okay. Yeah. So another question is so for the uh appliances do you get the power data?
+ 
+ 
+00:32:39
+ 
+Daniel Garrett: Youngly, I hope I answered you. I hope I answered the questions according to your uh to your session.
+Yongli Chen: Oh yes yes thank you Daniel. Uh and another question is like for the power data from the appliances do you get them directly through the their app or what kind of integration you have or you you installed some smart meter how it works.
+Amber Fu: right.
+Daniel Garrett: Yeah. Yeah. Yeah. Sorry, I forgot to mention that. Uh we do have smart meters uh which uh now uh which in turn now gives us also like uh the power consumption u uh of how much we've used uh maybe particularly let's say charging our cars or particularly in in baking when using the oven. So this meter will also maybe now connected to the to the data that now will uh receive uh from the app be able to know that how much we've like saved uh on maybe uh on energy consumption or even on in the energy cost. Yeah. So they came they come in handy without maybe the smart meters it will be now difficult for us to be able to like really know how much we are saving.
+ 
+ 
+00:33:58
+ 
+Yongli Chen: Uh okay. Thank you.
+Amber Fu: Okay. Um, yeah, sure. So thank you Daniel. Uh thank you today for this super helpful conversation. So you give us like the you know kind of reward contact we need so to help uh to help our home cheaper and smarter. So do you have any question for us?
+Daniel Garrett: Uh I I think uh maybe uh I think uh I would say uh maybe my thoughts is that the technology itself is uh quite incredible and uh but I think uh the industry around it like uh uh the utilities regulation the interconnect process uh it's uh like it's catching up and uh I would say uh I would say my observation is like when we have these outages I like what is uh for me stand out is the peace of mind being that so priceless though because uh for me it has been a very like positive investment overall. So I think uh my question would be uh how can we create awareness uh for people to be able to like uh switch to more uh to less energy consuming uh options like now solar panels and uh powers and also EVs whereby people can be able to like uh save on uh their energy cost and also to get to live a life that is not that stressful.
+ 
+ 
+00:35:58
+ 
+Amber Fu: Uh for this question uh Yi can you give me some hit because Yi is our uh you know the technical leader. So,
+Yongli Chen: Yeah, sorry. Go to repeat uh repeat the question again.
+Daniel Garrett: Uh I think uh what I'm asking in a nutshell is uh how can we be a how can we create awareness for people to be able to be able to like uh use these options uh and also know their the advantages that they they bring uh to to their homes. And also in terms of uh in terms of their lives in general is
+Yongli Chen: Um uh sorry. So so so the question is like around like how how do you promote the awareness of this uh options? Uh, is that what you're saying or Oh, okay.
+Daniel Garrett: that yeah that is what I'm asking
+Yongli Chen: Yeah. So, uh I like this more like a marketing problem I guess. So, uh yeah, I'm not expert on this, but uh uh yeah, in general there there there will be like marketing channels, right?
+ 
+ 
+00:37:22
+ 
+Yongli Chen: So, for example, through the PDN channels, whatever, that's usually like how it's done.
+Daniel Garrett: All right. Uh I think my final question now would be uh uh maybe this is uh maybe kind of directed to Amber. Uh are you looking to speak to more people? Uh I feel uh if there is need to be I would recommend maybe some of my friends who are also using uh uh solar energy.
+Amber Fu: Oh, really?
+Daniel Garrett: If you are taking new onboards for the yeah I can recommend some of my friends uh to do the interview and maybe share their opinion and insights if that is okay with you
+Amber Fu: Um That would be that would be perfect. That would be great. I would so appreciate because I try to you know I try to talk my friend and try to you know find some people like they also you know they have a solar power wall or like EV charging and what's their problem. So I try to talk more people. So if you can help that' be great.
+ 
+ 
+00:38:26
+ 
+Daniel Garrett: uh I think I'll email you about that and you'll share maybe the details that they need to submit to you and how they can get in touch with you.
+Amber Fu: Sure.
+Daniel Garrett: I think that will be helpful on both sides.
+Amber Fu: Sure. Uh I will I I I got your email so I can email you.
+Daniel Garrett: All right.
+Amber Fu: Okay. That'll be that will be super helpful. Thank you so much.
+Daniel Garrett: Thank you so much for having me and this is what was really insightful and uh thank you for providing this platform for uh users to be able to share their experiences uh their opinions and insights. I think this goes a long way in implementing uh uh renewable energy and uh affordable renewable energy in that aspect.
+Amber Fu: Yes. Yes. So, um, so once we have like a early version like a, uh, app ready, do you like to open to try it as a beta tester?
+Daniel Garrett: Yeah, most definitely. Yes.
+Amber Fu: Okay. Okay. Thank you so much.
+ 
+ 
+00:39:30
+ 
+Amber Fu: So we we will get in touch definitely and I I will give you some our like info more detail and if you have any like friend interesting and I can do the interview like I mean not the interview
+Daniel Garrett: Actually uh let me there's a friend of mine who let me just type his email in here so that you can be able to uh
+Amber Fu: I just conversation will be
+Daniel Garrett: talk with him and uh give him the details. Yeah.
+Amber Fu: Oh, okay. Sure. Thank you. Okay. Okay. Thank you so much.
+Daniel Garrett: And uh for the PayPal email uh let me type it in the chat. Yeah. So the second email let me let me just highlight it so that doesn't become confusing.
+Amber Fu: Uh, by the way, cuz I kind of secure uh Daniel, like I think you're really professional on those, you know, energy stuff.
+Daniel Garrett: Okay.
+Amber Fu: Uh, so what's what's your job? Cuz you're like work like in the energy industry or just different part.
+Daniel Garrett: uh it's it's different. Uh I'm in IT I do uh I do IT support and also uh I'm also I'm also a data analyst in that aspect.
+Amber Fu: Okay.
+Daniel Garrett: So yeah, when it comes I'm so intrigued uh when it comes to interpreting data into real time uh information and uh also with that background of it be able to integrate the uh both of them and also use
+Amber Fu: Mhm.
+Daniel Garrett: them in in my daily living uh means a lot for me.
+Amber Fu: Okay. Got it.
+Daniel Garrett: So yeah.
+Amber Fu: Okay. Yes.
+Daniel Garrett: So uh okay. All right then. Bye-bye. How about you guys? Okay. Bye. I will. Bye.
+ 
+ 
+Transcription ended after 00:41:59
