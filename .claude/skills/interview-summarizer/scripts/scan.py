@@ -32,3 +32,21 @@ def find_unprocessed(path):
         if not txt.with_suffix(".md").exists():
             result.append(txt)
     return result
+
+
+import argparse
+import json
+import sys
+
+
+def main(argv=None):
+    parser = argparse.ArgumentParser(description="列出待处理访谈 .txt 及解析出的日期")
+    parser.add_argument("path", help="单个 .txt 文件、某个目录，或 interviews 根目录")
+    args = parser.parse_args(argv)
+    for txt in find_unprocessed(args.path):
+        row = {"path": str(txt), "date": parse_date_from_filename(txt.name)}
+        sys.stdout.write(json.dumps(row, ensure_ascii=False) + "\n")
+
+
+if __name__ == "__main__":
+    main()

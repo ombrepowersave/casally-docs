@@ -45,3 +45,20 @@ def test_find_unprocessed_accepts_single_file(tmp_path):
     (tmp_path / "a.md").write_text("done")
     result = scan.find_unprocessed(f)
     assert [p.name for p in result] == ["a.txt"]
+
+
+import json
+import subprocess
+import sys
+from pathlib import Path
+
+
+def test_cli_outputs_json_lines(tmp_path):
+    (tmp_path / "Foo 20260203.txt").write_text("x")
+    (tmp_path / "Bar.txt").write_text("x")
+    script = Path(__file__).parent / "scan.py"
+    out = subprocess.check_output([sys.executable, str(script), str(tmp_path)], text=True)
+    rows = [json.loads(line) for line in out.splitlines() if line.strip()]
+    by_name = {Path(r["path"]).name: r["date"] for r in rows}
+    assert by_name["Foo 20260203.txt"] == "2026-02-03"
+    assert by_name["Bar.txt"] is None
