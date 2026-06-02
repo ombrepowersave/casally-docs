@@ -1,0 +1,82 @@
+---
+name: interview-summarizer
+description: 把本项目 interviews/ 目录下的访谈逐字稿(.txt)按主题提炼成结构化中文摘要(.md)，并规整文件命名。当用户要"总结/提炼访谈""处理 interviews 目录""把逐字稿整理进知识库/gbrain"，或指定某个访谈文件要总结时，使用本技能。涉及 Casally 用户访谈、痛点访谈、demo 反馈、能源专家咨询、硬件访谈的整理归档都适用。
+---
+
+# Interview Summarizer
+
+把 `interviews/` 下的访谈逐字稿 `.txt` 按主题提炼成结构化中文 `.md` 摘要，并把文件名规整为 `YYYY-MM-DD-访谈人-主题`。下游知识库 gbrain 只读 `.md`、忽略 `.txt`，所以摘要必须是 `.md`，原稿保持 `.txt`。
+
+## 处理范围（三选一）
+- **单文件**：用户指定某个 `.txt` → 只处理它，且**强制重做**（即使已有同名 `.md` 也覆盖）。
+- **单目录**：某个 `sX-xxx/` → 处理其中所有**未处理**的 `.txt`。
+- **全部**：整个 `interviews/` → 处理所有目录里**未处理**的 `.txt`。
+
+"未处理"= 该 `.txt` 没有同名 `.md` 兄弟文件。
+
+## 步骤
+
+### 1. 列出待处理文件
+运行扫描脚本（输出每行一个 JSON：`{"path","date"}`，date 解析自文件名，解析不到为 null）：
+```bash
+python3 .claude/skills/interview-summarizer/scripts/scan.py "<文件或目录路径>"
+```
+单目录/全部：脚本已自动跳过有同名 `.md` 的。单文件：直接处理该文件。
+
+### 2. 逐份处理
+对每个待处理 `.txt`：
+
+**a) 识别主题**——先按所在目录前缀查映射表，再读正文确认/校正；都不匹配用 `generic`。
+
+| 目录前缀 | 主题 | reference | slug |
+|---|---|---|---|
+| `s1-pain-point-interviews` | 用户痛点 | references/pain-point.md | `pain-point` |
+| `s2-demo-1.0` / `s3-demo-2.0` | Demo 反馈 | references/demo-feedback.md | `demo` |
+| `s4-Energy expert...` | 专业咨询 | references/energy-expert.md | `energy-expert` |
+| `s5-Hardware1.0` | 硬件 | references/hardware.md | `hardware` |
+| （无法判定） | 未知 | references/generic.md | `generic` |
+
+> 目录是初判，正文为准：若内容明显不符目录主题，以内容为准并相应改 slug。
+
+**b) 读对应 reference**，按其维度提炼。reference 是骨架不是死模板——顺着受访者重点强调处往细拆，宁细勿漏。
+
+**c) 写摘要**，中文为主，英文金句保留原句，用下面模板：
+
+```markdown
+# [访谈人] · [主题] · [日期或"日期未知"]
+
+## 受访者画像
+背景、住房/家庭/地区；如有：太阳能/EV/电池/温控/Span 面板等设备情况。
+
+## 主题判定
+判定为 X 主题，依据：……
+
+## 核心提炼
+（按该主题 reference 的维度展开，受访者重点处往细拆）
+
+## 关键金句
+- "original English quote" —— [说话人]
+
+## 行动项 / 机会点
+- ……
+```
+
+**d) 确定规整文件名**：`YYYY-MM-DD-访谈人-slug`
+- 日期取脚本解析结果；为 null 则省略日期段，变 `访谈人-slug`。
+- 访谈人取受访者本名（多为英文，如 `Amos Elberg`）；去掉原名里的序号前缀("1-")和括号备注("（Span员工）")，这类身份信息写进摘要正文。
+- slug 用上表的英文 slug。
+- 例：`Harry Jackson（Span员工20260524）.txt` → 基名 `2026-05-24-Harry Jackson-hardware`。
+
+**e) 写文件并改名**（`.txt` 与 `.md` 共用同一基名，保留在原目录）：
+```bash
+# 用 git mv 重命名原 txt，再写同名 md（示意）
+git mv "<原 txt 路径>" "<同目录>/<基名>.txt"
+# 然后把摘要写入 "<同目录>/<基名>.md"
+```
+单文件重做时若已存在 `.md`，直接覆盖写。
+
+### 3. 报告
+处理完后简述：共处理几份、跳过几份、各自规整成什么名、主题分布。
+
+## 扩展（新增主题）
+出现新访谈系列时：在 `references/` 加一个 `<新主题>.md`（照现有格式写维度），并在上面映射表加一行。主流程无需改动。无法归类的仍走 `generic`。
