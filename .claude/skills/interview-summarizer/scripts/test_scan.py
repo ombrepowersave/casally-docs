@@ -19,3 +19,29 @@ def test_ignores_recording_timestamp_like_numbers():
 
 def test_rejects_invalid_month_or_day():
     assert scan.parse_date_from_filename("foo 20261345.txt") is None
+
+
+def test_find_unprocessed_lists_txt_without_md_sibling(tmp_path):
+    (tmp_path / "a.txt").write_text("x")
+    (tmp_path / "b.txt").write_text("x")
+    (tmp_path / "b.md").write_text("done")  # b 已处理
+    result = scan.find_unprocessed(tmp_path)
+    names = sorted(p.name for p in result)
+    assert names == ["a.txt"]
+
+
+def test_find_unprocessed_recurses_subdirs(tmp_path):
+    sub = tmp_path / "s1-pain-point-interviews"
+    sub.mkdir()
+    (sub / "c.txt").write_text("x")
+    result = scan.find_unprocessed(tmp_path)
+    assert [p.name for p in result] == ["c.txt"]
+
+
+def test_find_unprocessed_accepts_single_file(tmp_path):
+    f = tmp_path / "a.txt"
+    f.write_text("x")
+    # 单文件：无论是否已有 .md，都返回它自身（单文件强制重做）
+    (tmp_path / "a.md").write_text("done")
+    result = scan.find_unprocessed(f)
+    assert [p.name for p in result] == ["a.txt"]

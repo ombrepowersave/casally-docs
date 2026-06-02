@@ -16,3 +16,19 @@ def parse_date_from_filename(name):
         if 1 <= month <= 12 and 1 <= day <= 31:
             return f"{y}-{m}-{d}"
     return None
+
+
+def find_unprocessed(path):
+    """返回待处理 .txt 列表（Path）。
+
+    - path 为单个 .txt：返回 [path]（单文件强制重做，忽略是否已有 .md）。
+    - path 为目录：递归找出所有没有同名 .md 兄弟的 .txt。
+    """
+    path = Path(path)
+    if path.is_file():
+        return [path]
+    result = []
+    for txt in sorted(path.rglob("*.txt")):
+        if not txt.with_suffix(".md").exists():
+            result.append(txt)
+    return result
