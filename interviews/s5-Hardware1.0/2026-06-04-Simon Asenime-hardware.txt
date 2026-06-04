@@ -1,0 +1,598 @@
+Jun 3, 2026
+Casally Interviews (Simon Asenime) - Transcript
+00:00:00
+ 
+Amber Fu: Uh hello.
+Simon Asenime: Hello,
+Amber Fu: Yes.
+Simon Asenime: Amber.
+Amber Fu: Hi S. I'm really sorry for the late.
+Simon Asenime: Uh, it's it's okay. It's
+Amber Fu: Yeah. My apolog Yeah. Sorry.
+Simon Asenime: okay.
+Amber Fu: Sorry about it. Yeah. And you know, thanks so much for making the time.
+Simon Asenime: Yeah, I'm uh I'm ready to jump in and just start whenever you
+Amber Fu: Okay.
+Simon Asenime: are.
+Amber Fu: Sure. Thank you. Uh before we start uh do you mind I record this call? I just just so I can listen instead to taking the
+Simon Asenime: Yeah.
+Amber Fu: note.
+Simon Asenime: Yeah, that that's okay. I usually record calls anyway myself as
+Amber Fu: Okay, sure. Thank you. Uh give me a second. Okay.
+Simon Asenime: well.
+Amber Fu: Okay, cool. So, uh hi, my name is Amber. Uh just, you know, give you a quick version of who we are. Uh so uh right now we are building the app called uh Cesley and help us uh homeowner especially in California with the solar batteries and EVs understand and cut their electricity bill and eventually act on it uh automatically.
+ 
+ 
+00:01:11
+ 
+Simon Asenime: Mhm.
+Amber Fu: So today we're uh an app that you know connect to your solar battery cars and util utility through the third party APIs. So basically we explain the bill and catch the event like charging Jun the pig and even audit the utility billing for the mistake and right now we're moving uh toward hardware uh but you know uh we want to a light lighter lighter one so after you know uh talking to uh different people and you know manufacturer the direct direction is more like a small gateway with a safety clamp and the panel for the whole home uh you know sensing and plus a control uh path for the big load like the EV charger. So, uh we're not like building a heavy like a smart panel and um here is a like a real driver like our user have uh like set up like a Tesla sunron in phase and a a wallbox
+Simon Asenime: Mhm.
+Amber Fu: charger um and also like a imperial miners and uh they they just hate jungling like five apps. So being like u the brand is core to who we are.
+ 
+ 
+00:02:42
+ 
+Amber Fu: So the open question are exactly I think you is your uh the wheelhouse like how all the piece uh talk to each other and what we build versus like and uh whether something like a matter uh change the game like you build a solar system end to end that's exactly the brain I want to learn
+Simon Asenime: Okay. Yeah.
+Amber Fu: wrong.
+Simon Asenime: So, in my experience working on these things, at the very least, I I will say matter is not very popular right now. Uh, unfortunately, matter is not very popular.
+Amber Fu: Okay.
+Simon Asenime: Thread is relatively popular. Thread and ziggp are popular. I don't believe Tesla has integration with them.
+Amber Fu: Mhm.
+Simon Asenime: I think Nphase you might have better luck there. Though when I was working with Nphase, I was working with it on the utility scale and they're they only support cellular. So I know for the home integration stuff, I actually have a smart home myself. Most of the time I don't use Matter for stuff. I've actually tried on several occasions.
+ 
+ 
+00:03:39
+ 
+Amber Fu: Mhm.
+Simon Asenime: Usually you'll run into issues with connectivity. the devices kind of almost seem to not want to support it in a sense.
+Amber Fu: Mhm.
+Simon Asenime: You don't get access to the full API services. Even if you do get it working, you don't get access to full controls. Maybe you just sometimes you just get read only like data. You just you just get data. You don't get to control anything. Um I know that is the case for most of the Google products.
+Amber Fu: Mhm.
+Simon Asenime: I haven't had a lot of experience with Apple though. I imagine it is vaguely similar. I know Amazon is about the same as Google.
+Amber Fu: Mhm.
+Simon Asenime: I know Samsung is about the same as well. Um, so for the most part, matter is just not where a lot of these companies are looking to build. So it's actually kind of funny. They they put matter together as a sort of way of unifying the whole ecosystem. Oh, everybody jump on this, everybody use this.
+ 
+ 
+00:04:34
+ 
+Simon Asenime: But in reality, a lot of that is kind of just for show because a lot of the money makers for these for these companies is the data that they're able to collect.
+Amber Fu: Okay.
+Simon Asenime: And matter just as a virtue of being an interoperable protocol means they cannot collect data about their users at the same level. Like if you use Google Home or you use Apple HomeKit,
+Amber Fu: Oh.
+Simon Asenime: you're going to get access to a like or sorry, Apple and Google are getting access to a lot more information about your home. If you have a smart vacuum, if you have a thermostat, if you have anything like that, they're able to get insights directly into how temperatures are changing in your home. Sometimes they might get access to floor plans via those vacuums. like they're getting access to a lot more information that matter just wouldn't give them access to because matter is kind of more of like a step back admin look over all the devices maybe get some information maybe make some decisions they what they really want is they want cloud integration so I know for specifically for Tesla and Nphase right those companies provide currently cloud
+ 
+ 
+00:05:32
+ 
+Amber Fu: Okay.
+Simon Asenime: APIs so for Nphase I know I think they call it uh Nphase Envoy local that's the that's the home
+Amber Fu: Mhm.
+Simon Asenime: automation specific speifically that's the home automation API. A lot of people right now in the hobbyist community will use that for their um with Home Assistant. Uh for Tesla, I'm not super familiar with what they have right now. I know they have an API available for homeowners and I know that is Wi-Fi integrated because I believe
+Amber Fu: Mhm.
+Simon Asenime: the Power Wall requires Wi-Fi. So that is generally I believe the most the route most homeowners go through. Tesla in particular I know is not very open with their products.
+Amber Fu: Mhm.
+Simon Asenime: So a lot of uh a lot of people have to go through other means like I know there's a lot of there's a lot of projects on GitHub even for interfacing with Tesla power walls. I remember I was working on one deployment back when I was working in solar for a customer that had a Tesla power wall.
+ 
+ 
+00:06:30
+ 
+Simon Asenime: It was it's just it's just really not it's not an easy ecosystem to work with. But that was that was me coming from the solar side, not necessarily from the the home automation side. But I know even from the home automation side,
+Amber Fu: Uh
+Simon Asenime: you're really not going to get more than Wi-Fi. And for some of the other um I guess you would say electrical components like power
+Amber Fu: Oh.
+Simon Asenime: meters, like the smart panels that you were talking about that have like that's going to have full control over the house and whatnot. A lot of those ones also will kind of just support Wi-Fi or they'll support Bluetooth.
+Amber Fu: Mhm.
+Simon Asenime: So in the in the So I do have some limited experience with working with the smart panels. So, back when we were working in solar and we had to do uh homeowner installs and whatnot, people would have smart panel either they would have a full-on smart panel or they would have the clamps for monitoring the voltage and current. And those ones I I saw predominantly were just Wi-Fi.
+ 
+ 
+00:07:25
+ 
+Simon Asenime: That was the that was the predominant thing. Wi-Fi or specifically Ethernet because usually the panel will be close to the internet ports in the person's home. So,
+Amber Fu: H
+Simon Asenime: they will plug in over Ethernet. In fact, I would probably recommend for you guys' use case, I would recommend a Wi-Fi or Ethernet gateway, or you could or at least it should support Wi-Fi or Ethernet just because you're going to have to talk to cloud APIs no matter
+Amber Fu: Uh
+Simon Asenime: what. I it's just it's just un it's just
+Amber Fu: okay. Okay. And uh so if we build our own gateway,
+Simon Asenime: unavoidable.
+Amber Fu: should it support Wi-Fi only or should we design with like a zigb and maybe like Bluetooth from the day one?
+Simon Asenime: So, there's a couple options that you have there. I would say Wi-Fi is definitely Wi-Fi is a need. That is that is a must.
+Amber Fu: Mhm.
+Simon Asenime: Specific other other add-ons that you could do. You could offer a local gateway to your customers over Wi-Fi, so they don't even need to touch the cloud.
+ 
+ 
+00:08:23
+ 
+Simon Asenime: I don't I'm not quite sure what you guys want to do for your business case. It makes sense for some people, doesn't make sense for other people. Um, Bluetooth is a nice to have. However, it is not as secure. So, I'm not sure I would recommend that for like a for like a hub for controlling an entire house. You wouldn't want to say let hackers get in and oh,
+Amber Fu: Mhm.
+Simon Asenime: now they now suddenly they can just shut off all the electronic locks in the house or they could just shut off the power, shut off the lights, boom, they're in the house. They can take whatever they want. I know that that has happened to some people. That is one of the risks of smart homes is the security aspect there. So, I wouldn't recommend Bluetooth for that reason. Bluetooth can be secure but it is definitely more it is extra work on your side from a business perspective.
+Amber Fu: Mhm.
+Simon Asenime: Um ZigGB and Thread I would say just have integrations like have that capability.
+ 
+ 
+00:09:15
+ 
+Simon Asenime: Don't necessarily offer that to the user. I would say for you, for your purposes, only offer Wi-Fi to the user and then keep Bluetooth,
+Amber Fu: Mhm.
+Simon Asenime: Thread, Ziggb, offer those as like a way to interface with other components in the in the home because there's a good chance that one of the components, maybe a thermostat or something, will interface with Ziggb or or Thread, but generally uh a lot of those I think like heavier components like a power wall or a battery
+Amber Fu: H.
+Simon Asenime: system or solar, those are going to be over Wi-Fi generally and and probably having to go through some company API.
+Amber Fu: Gotcha.
+Simon Asenime: The other smaller components that are a little bit less um what's the word? I guess less less expensive, less heavy hitters in the home. Those are the devices you're going to see that are going to use more like Sigb Thread,
+Amber Fu: Got you. Got you. And um and also like for uh version one like would you recommend that we
+Simon Asenime: Bluetooth.
+ 
+ 
+00:10:10
+ 
+Amber Fu: only um monitor like or and recommend action or should we actual control load like EV charging from the beginning?
+Simon Asenime: So, it's a little bit hard to say without knowing a little bit more, I guess, on on what you're trying to actually Could you could you just tell me a little bit more, I guess, on what your like vision, I guess, is for the for the product you're trying to offer to your to your
+Amber Fu: Uh yeah yeah yeah.
+Simon Asenime: customers.
+Amber Fu: Uh so the uh so the the the hardware right now um so what what we are trying to build is like a like a home uh um like the home management product for the home owner like people who have a solar battery uh EVs or like a high electricity bill. So the first version is not like a heavy smart panel. We're thinking about like a lighter system like a app plus like a small gateway possibly with a city clam and the electro panel for whole home sensing. So the app would connect to the solar battery,
+ 
+ 
+00:11:20
+ 
+Simon Asenime: Mhm.
+Amber Fu: EV charger, utility and maybe smart home device through the APIs where available and the goal is to help user to you know like understand their electricity bill uh detect expensive behavior like charging during the pickover or audit possible building mistake and eventually like recommend or automate actions to reduce the cost. So our big question is like uh we want to understand whether we should stay API first and build a local gateway from day one and use like
+Simon Asenime: Mhm.
+Amber Fu: maybe city claim data as a feedback when like API are limit and whether like a matter like a zigb or Wi-Fi should play any roles. So we're not trying to you know build everything ourself immediately but we're trying to just figure out the smartest the first version like what we should in uh uh what we should do and what we should you know um sense locally and what we should control directly.
+Simon Asenime: Okay. Okay.
+Amber Fu: I don't know if you've
+Simon Asenime: I I I I get I get it a little bit more now.
+ 
+ 
+00:12:36
+ 
+Simon Asenime: Okay. So, from that context, you should definitely launch with automations 100%. You should launch with the ability to control the home because uh I'll say this right now,
+Amber Fu: Okay.
+Simon Asenime: there are probably a million and one products you could buy that are going to tell you what's happening in your home. Maybe not to that degree of granularity where you're able to say,
+Amber Fu: Mhm.
+Simon Asenime: "Look at your power wall. look at your Nphase system and then look at other aspects of your home. But there are a lot of products right now that are just for monitoring to let people like have insight into what's going on. But what's going to make you a differentiator in the market is being able to automate that because right now that's that I would say is more of a gap.
+Amber Fu: Okay.
+Simon Asenime: It's not that it's impossible. There are people who do it with Home Assistant and some of the other services as well.
+Amber Fu: Mhm.
+Simon Asenime: if you're just like all in on one ecosystem, which most people are not, um, you could probably get it done with Google.
+ 
+ 
+00:13:26
+ 
+Simon Asenime: I don't think they have all of the necessary components for it. Same thing with Apple. I don't think Amazon has it either. I think the closest is Samsung right now in terms of being able to fully automate everything, but they don't have solar or battery and whatnot.
+Amber Fu: Okay.
+Simon Asenime: But what's what's going to really set you apart in the market definitely is having automations. That is that is huge because a lot of people are going to say, "Oh,
+Amber Fu: Okay.
+Simon Asenime: I want to monitor my energy usage." But the only people who are going to get something out of that, who are going to feel that they're getting value are going to be people who are who are power users, who are like, "Okay, I I I shut off my I shut off my electronics after 12. I I don't use electricity during peak hours." Like those are people who are actually like actively thinking and monitoring their bill and trying to like basically kind of game the system. Those are people who are getting value out of that product.
+ 
+ 
+00:14:14
+ 
+Amber Fu: Mhm.
+Simon Asenime: But if you want to reach a broader audience, there are people who are like, I want to lower my electricity bill, but I don't want to work for it.
+Amber Fu: Mhm.
+Simon Asenime: That's who you need to reach.
+Amber Fu: Okay.
+Simon Asenime: That's who you need to reach. And so you you should probably launch with automations day one,
+Amber Fu: Got you.
+Simon Asenime: 100%.
+Amber Fu: Got you. And uh and also I want to know at what point does like cloud API control become uh like not enough like for example it's like uh like a uh I don't know if you're familiar with the toou like
+Simon Asenime: T O
+Amber Fu: you know the ah the t in California uh there have sometime they have
+Simon Asenime: U.
+Amber Fu: a high like high peak the price and they have
+Simon Asenime: Mhm.
+Amber Fu: a low pig. So we just want to know like in what situation through like
+Simon Asenime: Ah, time of the
+Amber Fu: through the cloud API like um okay
+Simon Asenime: smoke.
+Amber Fu: so for what situation uh if like okay so I uh let me think like if Tesla or in phase APIs are limits how much can we infer from the city climate data alone?
+ 
+ 
+00:15:31
+ 
+Simon Asenime: Okay, that's a that's a good question. So there there are a couple there are a couple pieces to that. There are a couple pieces to that. So from just the clamps, you can infer quite a bit because home usage between users does not vary very much.
+Amber Fu: Mhm.
+Simon Asenime: Say within say a zip code or even say within a county, it doesn't vary very much for their power usage.
+Amber Fu: Mhm.
+Simon Asenime: So, it may not necessarily be a feature you can launch with day one, but if you're making sure that you're collecting data from your users after you're already in their home,
+Amber Fu: Mhm.
+Simon Asenime: you can basically kind of start to build out a profile of their expected energy usage. And you don't necessarily need full access to the um what is it to the APIs from NPhase and Tesla. In fact, I would recommend that you're not necessarily dependent on them for all of your automations just because they may revoke them at any time. They may say that you're using it too much.
+ 
+ 
+00:16:31
+ 
+Simon Asenime: You may you may you may encumber your users to an extent for them to have to go and get an API
+Amber Fu: Come
+Simon Asenime: key or to go and set up I don't know like a Google Cloud project or have to set up some kind of some
+Amber Fu: on.
+Simon Asenime: kind of system on their own and then bring that into your system which is that's that's friction right there. And so I I would say there are there are some services, especially when you're talking about time of use when it comes to electricity. It's it's been a while. I've been out of solar for for like a minute now. But I remember there was a service we were trying to use that would give you that would give you grid access. You you would have to pay for the API, but it was relatively cheap. And I think there's other services like it, but it would give you access to to grid information immediately. And you could you could do it specifically based on a location or you could just you could just round up a bunch of zip codes and just batch it and get it cheaper that way.
+ 
+ 
+00:17:24
+ 
+Simon Asenime: And so you would get that you would get that information and then you could start to make inferences about oh maybe I should reduce the
+Amber Fu: Mhm.
+Simon Asenime: electricity usage at this time or I should switch something off.
+Amber Fu: Mhm.
+Simon Asenime: And with your with your Cclamps you don't get like a ton of information. And and to be honest, it is honestly more useful for certain for electricians because they know a little bit more about what each thing is going to. But if the homeowner knows and they've been told by say the electricity the not the electricity the solar installer and the battery provider, which I don't know if Tesla and Nphase do this for their customers, but they might tell them exactly what leg their solar is on or what leg their battery is on or where it's where it's specifically related to in the panel. And if they have access to that information and you can get that information from the user, you can now figure out exactly what the battery and solar systems are doing at any given time,
+ 
+ 
+00:18:20
+ 
+Amber Fu: Mhm.
+Simon Asenime: which can allow you to drive automations better. But for the most part,
+Amber Fu: Got you.
+Simon Asenime: you're probably going to get that from API for the most
+Amber Fu: Gotcha.
+Simon Asenime: part.
+Amber Fu: And um also like for the Tesla power world uh what you consider the biggest um integration risk it is this like APA change or like a late control permissions or like a like legal risk from relying on uh an official
+Simon Asenime: Uh, I wouldn't say that there's much legal risk. I I mean, personally, I've not been involved with it.
+Amber Fu: Uhhuh.
+Simon Asenime: I do I do kind of follow the court cases in industry a little bit. I don't think I've seen Tesla sue anybody over that specifically. I mean,
+Amber Fu: Okay.
+Simon Asenime: I I know even that their their home division is not necessarily their like prime money maker and so they don't care about it as much.
+Amber Fu: Mhm.
+Simon Asenime: They're they're really focused on humanoid robots right now. And so, at least I don't I don't think there's much of a legal risk.
+ 
+ 
+00:19:23
+ 
+Simon Asenime: I would say there is definitely an existential risk technologically because they may close
+Amber Fu: Mhm.
+Simon Asenime: the API at any time saying, "Oh, we're we're seeing abuse or we don't want to we don't want to open this up anymore." Like stuff like that. I I could see that potentially being an option.
+Amber Fu: Mhm.
+Simon Asenime: I could also see that the other risk to your business and this is something that I think is more important to protect against
+Amber Fu: Mhm.
+Simon Asenime: is copycat behavior from larger companies is if your product is not necessarily
+Amber Fu: Mhm.
+Simon Asenime: I guess differentiated enough or if you reveal too much of how it works
+Amber Fu: Mhm.
+Simon Asenime: there is a risk if somebody in that company somewhere somehow sees oh we can
+Amber Fu: Mhm.
+Simon Asenime: just make that or we could provide this type of automation oh we already have all these customers let's just sell our little gateway product to them that's copying exactly what you're doing and whatnot. And so I would I would be mindful of that. That is that is something that hap that can happen a lot in industry.
+ 
+ 
+00:20:18
+ 
+Simon Asenime: Amazon is a big perpetrator of that kind of that kind of product.
+Amber Fu: Okay.
+Simon Asenime: Um Google not so much. Apple also not so much. Apple doesn't really like to copycat. Google is okay with it, but they don't do it that often. Amazon is probably the most to be weary of, especially Tesla as well because they're they're looking for anything right now ahead of um what is it?
+Amber Fu: Mhm.
+Simon Asenime: I know Musk is looking for anything right now ahead of the SpaceX IPO. So,
+Amber Fu: Mhm.
+Simon Asenime: it's just something to be mindful of,
+Amber Fu: Mhm. Got
+Simon Asenime: but I I would say it's it's not going to be a huge risk in the early days.
+Amber Fu: you.
+Simon Asenime: It's only more of a risk once you're a little bit bigger. That's the thing.
+Amber Fu: Got
+Simon Asenime: So, yeah, I I would worry a little bit more about technological risk to your business.
+Amber Fu: you.
+Simon Asenime: um because unofficial API support I believe does not exist for Tesla and
+ 
+ 
+00:21:03
+ 
+Amber Fu: Mhm.
+Simon Asenime: Nphase. So I you you'd have to go through the official APIs
+Amber Fu: Got you. Got you. So,
+Simon Asenime: anyway.
+Amber Fu: and if we could only support like let's say uh at the beginning if we only can support let's say like five ecosystem in the first release. Uh which five would you recommend?
+Simon Asenime: We're talking specifically, I guess, about energy automation in this case.
+Amber Fu: Yeah.
+Simon Asenime: What's your what's what's your first entry market? What what part of the like where where are you looking to enter?
+Amber Fu: California.
+Simon Asenime: California. California. Okay.
+Amber Fu: Yeah.
+Simon Asenime: have to do a little bit of research I guess on what the primary thing is there. I believe the Google Nest thermostat is the biggest one there for just for thermostats. As far as other energy is concerned, definitely it's going to be the Tesla Power Wall.
+Amber Fu: Orange.
+Simon Asenime: If you're targeting people with solar um and also for people with EVs, Tesla is pretty big over there.
+ 
+ 
+00:22:12
+ 
+Simon Asenime: I know other ones have started to catch on like say Rivian um Rivian I forget the other company was Pstar I believe and there's a couple there's a couple of other ones I know some of the
+Amber Fu: Mhm.
+Simon Asenime: luxury uh the luxury electric cars as well are also very popular over there I don't know the specifics on the EV charging systems but I would say that
+Amber Fu: Mhm.
+Simon Asenime: Tesla is definitely going to be your biggest one to target initi actually because everybody's on the Tesla power charging standard. The Power Wall is definitely probably the most popular of the options right now,
+Amber Fu: Mhm.
+Simon Asenime: especially I would say in some a place more like California where Silicon Valley is.
+Amber Fu: Mhm.
+Simon Asenime: After that, I would say definitely think about Google Home probably.
+Amber Fu: Mhm.
+Simon Asenime: I'm not sure how big Nphase is in the US. I have worked with them, but really only more in like a utility kind of a utility kind of
+Amber Fu: Good.
+Simon Asenime: perspective. After that, I'd have to say just just kind of go down the boxes and tick the tick the rest.
+ 
+ 
+00:23:20
+ 
+Simon Asenime: I would say Apple. Apple definitely is probably the next one you want to target. HomeKit. Um, after that,
+Amber Fu: Okay.
+Simon Asenime: it's definitely you'll have to do market research. you you have to identify who's the biggest in whatever specific county you want to enter, who you're specifically targeting.
+Amber Fu: Mhm.
+Simon Asenime: Just try to figure out who in California is using what tools. Uh I know a lot of the the AI searches are pretty helpful for this. I don't find necessarily that deep research in say Google or claude is particularly useful for say technical information or other types of searches but specifically for market research I have found it to be
+Amber Fu: Mhm.
+Simon Asenime: very useful when you don't know what you're looking for initially after you get some of those initial results for what you want to sort of calibrate your parameters say okay we want to know how many Californians are using this how big is the market share in California for this some of the more publicly traded companies might publish some that information for you which is really helpful.
+ 
+ 
+00:24:18
+ 
+Simon Asenime: Um, I would say that's definitely some of the keywords.
+Amber Fu: Mhm.
+Simon Asenime: Actually, I can I can put some in chat that might help you here. Like say um what is it called?
+Amber Fu: Sure.
+Simon Asenime: Like publicly traded company disclosures? Disclosures on market size by state or at least by country are very helpful. Those are some searches that might help you with that.
+Amber Fu: Okay,
+Simon Asenime: Um,
+Amber Fu: thank
+Simon Asenime: as well as product line sizes,
+Amber Fu: you.
+Simon Asenime: there's also some estimations you can do at least with the far as once you pull up the size of a specific product line, you can then start to estimate what percentage of say in the US, what percentage of people on the on that coast are using this product and then that can that can give you an idea. Uh I know also another good trick is to uh bisect the
+Amber Fu: Mhm.
+Simon Asenime: data by uh by wealth because the types of people that you're targeting specifically people with power walls and whatnot they have disposable income.
+ 
+ 
+00:25:26
+ 
+Simon Asenime: Somebody who's living paycheck to paycheck in California say like a software developer is making what 120k a year that person lives in an apartment. They don't own a home. They don't have any use for something like that. their apartment owner is the one managing that. Uh I don't know if you guys plan to enter the commercial industry at all with with regards to that. It is a little bit different. Uh but yeah, looking for wealthy
+Amber Fu: Oh,
+Simon Asenime: homeowners.
+Amber Fu: got you. At first, uh, probably only the residential.
+Simon Asenime: Okay. Okay. Yeah.
+Amber Fu: Yeah.
+Simon Asenime: Then definitely definitely you're going to want to buy by wealth. Pay pay attention,
+Amber Fu: Got you.
+Simon Asenime: I guess, to to like zip codes where there are homes,
+Amber Fu: Mhm.
+Simon Asenime: not where it's mostly apartments. Figure out what people have there.
+Amber Fu: Mhm.
+Simon Asenime: Uh, Google Maps can help you as well to figure out whether or not certain people have solar and then you can try to figure
+ 
+ 
+00:26:12
+ 
+Amber Fu: Mhm.
+Simon Asenime: out what systems that they're using. But I I know Tesla is definitely the biggest one.
+Amber Fu: Uhhuh.
+Simon Asenime: So, definitely focus your efforts there. Um,
+Amber Fu: Yeah.
+Simon Asenime: I think Fonius is another one as well. I believe they're in the home sector. Uh, worked with a couple of other companies, but they were a little bit more local to where I'm at. Yeah, I guess it would just be Fonius and Nphase after that point. I don't know if SMA is in the home market. I think they're just in utility scale. Um, let me just quickly check that. Oh yeah, I guess they are in the home skill. Yeah, SMA is another one. Uh, I'll just write those down here. Tesla.
+Amber Fu: Mhm.
+Simon Asenime: Yeah, those are those are the companies that I know of right now. I know there are some other ones as well. Uh you might also want to look at some of the up andcoming say like uh companies that are offering battery uh battery utility combos as a service.
+ 
+ 
+00:27:24
+ 
+Amber Fu: Mhm.
+Simon Asenime: I'm not sure that they're too big right now, so it might not be worth your time. But if you see any that are really growing in size in California, I'd say I'd say give it a look. It might be worth your might be worth your interest. You might be able to secure say a partnership with them and then you can just you can get your products into more homes that way.
+Amber Fu: Got you. Got you.
+Simon Asenime: So
+Amber Fu: Thank you. And um and you mentioned the you know the the the you know the the big company things. So if like a large company were trying to you know uh like the copy a product quickly uh what's uh what would you recommend to stay ahead like a maybe they can do faster or like a unique or like for your
+Simon Asenime: So there's there's two there's there's two options that you have there.
+Amber Fu: outh
+Simon Asenime: Uh one of the options which I I don't know what your exit strategy is for this business.
+ 
+ 
+00:28:21
+ 
+Simon Asenime: I don't know if this is your baby, you want to keep it keep it going for a long time. You can just exit.
+Amber Fu: Mhm. Mhm.
+Simon Asenime: Generally bigger companies will probably approach you to buy you before they try to build.
+Amber Fu: Mhm.
+Simon Asenime: It just depends on what they think is cheaper and what's going to take less time.
+Amber Fu: Mhm.
+Simon Asenime: But I I think in your case,
+Amber Fu: Mhm.
+Simon Asenime: they might just want to buy because it would take less time. Um,
+Amber Fu: Mhm.
+Simon Asenime: and so there's that option.
+Amber Fu: Mhm.
+Simon Asenime: If you don't want to get sold or nobody's offering and maybe you actually think that they're trying to build, then the way to stay ahead is features and reducing friction.
+Amber Fu: Mhm.
+Simon Asenime: The amount of you you basically you want I think for specifically for your product class, you want the you want the kind of invisible product. You want the product that people just set and it just works always and has a and has a
+ 
+ 
+00:29:11
+ 
+Amber Fu: Yes. Exactly. Yeah.
+Simon Asenime: very measurable impact on their bills.
+Amber Fu: Uh-huh.
+Simon Asenime: It has a measurable impact on the way that their home operates. Having something that that just works that's frictionless even even the way the
+Amber Fu: Uh-huh.
+Simon Asenime: to down to where your user interface is. I assume you're going to be providing say an app to talk to the to the gateway.
+Amber Fu: Mhm.
+Simon Asenime: You want that to have as little friction as possible. The more somebody has to I guess jump through hoops to make your product work,
+Amber Fu: Mhm.
+Simon Asenime: the more likely they are to say stay with the bigger company because that's because you're always going to have to you're always going to
+Amber Fu: Mhm.
+Simon Asenime: have to jump through more hurdles to keep your customer than a bigger company is because they already have ecosystem. They have that benefit.
+Amber Fu: Mhm.
+Simon Asenime: So the most important thing is making sure that your customers love you. That is extremely important. Maintain goodwill,
+ 
+ 
+00:29:58
+ 
+Amber Fu: Mhm.
+Simon Asenime: maintain um maintain I guess just like customer loyalty. That's that's the most important thing. If people love you, they'll go out to bat for you online when other people are asking,
+Amber Fu: Mhm.
+Simon Asenime: "What should I buy?" That's the most that's one of the most important things.
+Amber Fu: Mhm.
+Simon Asenime: Organic
+Amber Fu: Got you. Got you. Exactly.
+Simon Asenime: marketing
+Amber Fu: Well, because um we used to talk the uh electrician and uh so like which part of installation must must be done by uh the certified electrician like and which one the user can install like really safely and they can just do it by theirel for your opinion.
+Simon Asenime: Okay. So, so a good a good way to gauge that and and this is this is something I learned from one of my electrician buddies. A good way to gauge that is that can the customer do it without moving electricity
+Amber Fu: Uh-huh.
+Simon Asenime: around? If at any point like electricity has to be touched by the customer like it starts to interfere
+ 
+ 
+00:30:59
+ 
+Amber Fu: Mhm.
+Simon Asenime: with any of the electronics in their home or it starts to say basically if it presents a safety risk. If it's just say you're just putting clamps on breakers that anybody can do that that's not a
+Amber Fu: Mhm.
+Simon Asenime: that's not a huge issue. If you now have to say change out their panel and you have to actually make new electrical connections or you have
+Amber Fu: Mhm.
+Simon Asenime: to you have to change out wires and stuff like that, then call an electrician. If it's if it's if it's non-destructive,
+Amber Fu: Mhm.
+Simon Asenime: let me put it that way. If it's non-destructive, if you don't have to make any type of physical alterations, it's just something that you're you're tacking on because the customer can do it.
+Amber Fu: Gotcha. Gotcha. And and also like which automation function should we run locally on the gateway like for instance uh response response and which can rely on the cloud APIs.
+Simon Asenime: So as far as automations are concerned,
+Amber Fu: Mhm.
+Simon Asenime: I believe there's three different types that you're going to want to target.
+ 
+ 
+00:32:07
+ 
+Simon Asenime: So the first type is local, no API,
+Amber Fu: Mhm.
+Simon Asenime: nothing automations. Those are ones that are are based on basic rules like it's past 5:00 PM. Most people are off work. Now is the time is probably going to be peak usage. It's the morning time. Everybody's left. Their homes are off.
+Amber Fu: Mhm.
+Simon Asenime: It's not going to be peak usage. You can use whatever electricity you want, so to speak. If you're caring about, which is time of use, um, and stuff like that, you can kind of you can preload those types of things. They don't require Wi-Fi for you to figure out. There are a couple of other things you can you can kind of learn your customer habits and store those locally. So like, oh well,
+Amber Fu: Mhm.
+Simon Asenime: they like it to be this temperature at this time. Let's kick the thermostat on. Or maybe,
+Amber Fu: Mhm.
+Simon Asenime: oh, they're not home right now. We can shave here.
+ 
+ 
+00:32:54
+ 
+Simon Asenime: Stuff like that. There's those are kinds of things you can do locally. The the type of second tier, I guess,
+Amber Fu: Mhm.
+Simon Asenime: of stuff that you're going to want to do. Those are the things that require the cloud which is oh I need to know exactly what electricity prices are right now to reduce the cost for my customer. I need to know I need to know exactly what usage is like right now. I need to know what the temperature outside the home is like. Like what what is it what does it feel like for the people inside? Like is it too hot? Is it too cold? Um and then there's kind of like a there's kind of like a third tier of automations on top of those which is from the customer themselves.
+Amber Fu: Mhm. Mhm.
+Simon Asenime: So basically you let them if you want to you would let them control or set their own kind of automations and those don't require cloud or API or anything because it's coming straight from the customer.
+ 
+ 
+00:33:44
+ 
+Simon Asenime: I'm saying they're saying I want this at this time to do this
+Amber Fu: Gotcha.
+Simon Asenime: thing.
+Amber Fu: Okay. and and for and also um I want to know like uh what security measure should we incorporate in the gateway and device interface to you know uh uh like the Wi-Fi or Bluetooth and ZB connection for the
+Simon Asenime: Okay. So, I'm not super familiar with the way security works for ZigGB and say like Thread. Uh I believe it is normal encrypted communication.
+Amber Fu: Mhm.
+Simon Asenime: I'd have to check that though.
+Amber Fu: Mhm.
+Simon Asenime: Um, as far as Wi-Fi is concerned,
+Amber Fu: Mhm.
+Simon Asenime: the most important thing there is to just make sure that your if your customers say have a key that they need to access it or say they make an account with you and whatnot and you give them say a key
+Amber Fu: Uhhuh.
+Simon Asenime: for local access again depends completely on what you want to do.
+Amber Fu: Mhm.
+Simon Asenime: Not every manufacturer does this. Um, it might just be a thing where they can only control it through your cloud APIs and you don't touch any of the local stuff.
+ 
+ 
+00:34:58
+ 
+Simon Asenime: You don't expose anything to anybody. is purely cloud. So the only risk then on your side is the back end. If the customer's account gets hacked,
+Amber Fu: I love it.
+Simon Asenime: then their home gets hacked.
+Amber Fu: Tell
+Simon Asenime: That's that's the kind of attack surface that you're looking at there. Um, if you decide to offer say a local interface to the customer,
+Amber Fu: me.
+Simon Asenime: the cleanest way to do that is to just follow industry standard authentication procedures and just make sure that they have to receive a key from you or say a key is stored in their account that they can then access, get from their account and then put that in.
+Amber Fu: Um
+Simon Asenime: It is inconvenient, but generally most customers are okay with it because it provides security to their home.
+Amber Fu: Amen.
+Simon Asenime: Because if you're saying if you just let if you just let anybody access anything locally like, "Oh, oh, that's on the same w they're on the same Wi-Fi network." Uh, well, yeah, sure.
+ 
+ 
+00:35:51
+ 
+Simon Asenime: We'll let them we'll let them have control,
+Amber Fu: Amen.
+Simon Asenime: then it becomes a problem because then an attacker could say spoof their Wi-Fi credentials, get on the network, pretend to be one of the devices, and boom, they have access to everything. So you you wouldn't want to you wouldn't want to give necessarily that. I would I would say definitely though in case Wi-Fi access is just not available and stuff like that having a local
+Amber Fu: Mhm.
+Simon Asenime: interface gives you more goodwill. That is one of the things. But if you don't want to spend the time or the money on it,
+Amber Fu: Mhm.
+Simon Asenime: you don't have to include it. You can just do cloud. Yeah. So those those are those are kind of your options. You can also do a full local only approach where you just say
+Amber Fu: Mhm. Mhm.
+Simon Asenime: communicate over Wi-Fi or Bluetooth and then the customer sets up the device. They receive a key when they first get the device and that's what they use to talk to the device.
+ 
+ 
+00:36:37
+ 
+Amber Fu: Mhm.
+Simon Asenime: And then if they want to reset it, they have to do it physically with say a button or something like that. That way an attacker cannot remotely reset the device and gain access through default credentials or something like
+Amber Fu: Gotcha.
+Simon Asenime: that. It has to it has to be a physical reset.
+Amber Fu: And and also like for the first uh version like what hardware from the factor would you recommend for small gateway and city clan? Like should it be like a a standalone box or anything else? I will try to think about it.
+Simon Asenime: I think generally most people will offer say just like a little box.
+Amber Fu: Mhm.
+Simon Asenime: Um I I'd have to check exactly what the ports are for Cclamps. I don't think they're anything too crazy.
+Amber Fu: Mhm.
+Simon Asenime: It's just a little you probably you'd probably want to offer say a box with that has ports for the clamps to read them in. Um I'm not sure exactly what protocols that they're using because I just I just haven't worked with them on that like technical level.
+ 
+ 
+00:37:42
+ 
+Simon Asenime: I'm more of like a Ethernet mode bus kind of guy.
+Amber Fu: One.
+Simon Asenime: That's definitely what I've worked with more often. Um I feel like they're RJ12s. I might be wrong. They might just be normal wire connectors for the Cclamps. But generally speaking, it's it's nothing it's nothing too crazy. It's nothing too crazy.
+Amber Fu: Got you.
+Simon Asenime: I would recommend just just get a box like what everybody else does cuz every every customer expects a box.
+Amber Fu: Mhm.
+Simon Asenime: If you do something that's not a box, they're going to feel a little weird about it.
+Amber Fu: Mhm.
+Simon Asenime: You can do other shapes that might make them feel happy or some kind of circular or spherical type of object. They're a little bit harder to get manufactured, but they do stand out a little bit more.
+Amber Fu: Mhm.
+Simon Asenime: And you can just you can you can provide that. And then that's that's where you go from there.
+Amber Fu: Got you. Got you. Oh, and the last question is if our gateway is a connect uh with Wi-Fi, um where you think a typical home should we place it into like a reliable reach all the device like solar, EV charger, battery, smart panel and another like smart home device.
+ 
+ 
+00:38:49
+ 
+Amber Fu: Are there common uh I mean that zone or like a best place we should be aware of?
+Simon Asenime: So generally I I think the problem the real issue is that everybody's setup is a little bit different and it depends on how the home was built. I think generally the electrical paneling and whatnot is close to where the garage well not the garage is close to where the router is just because the way that they have to run
+Amber Fu: Mhm.
+Simon Asenime: the wires if it's a coax cable or if it's fiber they have to run the wires close to where they run the electrical wires that connect to the grid just just because it I mean it's just it's less uh it's less trenching it's less digging that they have to do when they're building the house.
+Amber Fu: Mhm.
+Simon Asenime: So, I believe that they will always be placed relatively close to each other unless the homeowner moves the wires around or tries to extend it. So, say the router is now upstairs instead of being downstairs or it's just it's not as close to say like a garage where the panel might exist or it's not close to say the panel if the panel's outside the home as
+ 
+ 
+00:39:51
+ 
+Amber Fu: Mhm.
+Simon Asenime: well, things might not be so close. But generally speaking, I would say a good rule of thumb is next to the router. Ideally,
+Amber Fu: Mhm.
+Simon Asenime: if you can't do next to the router, then do next to the panel.
+Amber Fu: Gotcha.
+Simon Asenime: I I would I would actually say if you're going to have the Cclamps be a thing,
+Amber Fu: Mhm.
+Simon Asenime: you should prioritize being next to the panel and just get a beef your Wi-Fi card that can go for longer
+Amber Fu: Mhm.
+Simon Asenime: distances. That's the that's probably the best way to go.
+Amber Fu: Okay.
+Simon Asenime: Or get stronger antennas. You may not need to beef your Wi-Fi
+Amber Fu: Gotcha.
+Simon Asenime: card.
+Amber Fu: Gotcha. You know what? Thank you so much. This is conversation like incredible helpful. Really appreciate your time and you know I and the detail you shared. So cuz like I honestly I feel like your experience is very uh rel relative to what we are trying to build especially you know around you know the the home uh energy and you know uh and the real world to we we we try to connect uh all the device in the in the homeowner space.
+ 
+ 
+00:40:56
+ 
+Amber Fu: So uh right now we're still early so I don't want to make this too heavy right now but I love to keep learning from you as uh you know as our hardware will become more clearly. So if you open maybe we can you know like you can help us like ad advise us or you know either ways and we definitely keep in
+Simon Asenime: Yeah,
+Amber Fu: touch.
+Simon Asenime: I I I don't mind I don't mind continuing the engagement. I I really do like to do these types of conversations with people just because it I mean it's fun for
+Amber Fu: Uhhuh.
+Simon Asenime: me, but also I love to share my experience with with others who are just trying to like break in and do stuff. So, uh yeah, I wouldn't I wouldn't mind continuing the engagement. I'm still young myself, so I may not always be available.
+Amber Fu: Okay,
+Simon Asenime: I'm still trying to make money and do all this kind of stuff, but yeah.
+Amber Fu: perfect. Perfect. Thank you so much. And uh so once we have a uh like a clearly like idea for the hardware uh we definitely will uh uh contact uh yeah contact you again and just you can help us to uh see like if this is work out.
+Simon Asenime: Yeah, sure. Uh, I don't I don't mind.
+Amber Fu: Okay. Thank you so much,
+Simon Asenime: Definitely.
+Amber Fu: Semit. And um uh definitely keep in touch.
+Simon Asenime: All right. Yeah, sounds good to me. It's fun talking to you.
+Amber Fu: Okay. Thank you. Bye.
+Simon Asenime: Bye.
+ 
+ 
+Transcription ended after 00:45:30
+
+This editable transcript was computer generated and might contain errors. People can also change the text after it was created.
